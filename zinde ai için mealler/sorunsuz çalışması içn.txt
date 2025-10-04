@@ -1,0 +1,315 @@
+vet—bunlar Flutter’da doğrudan çalışır. JSON veri formatı platformdan bağımsız; aşağıdaki model + parser + repository + Provider + örnek widget ile tak diye entegre edersin. (Tamamı Türkçe, null-safety ve performans için compute/isolate kullanıyorum.)
+
+1) pubspec.yaml (asset’leri ekle)
+flutter:
+  assets:
+    - assets/db/kahvalti_batch_01.json
+    - assets/db/kahvalti_batch_02.json
+    - assets/db/ara_ogun_1_batch_01.json
+    - assets/db/ara_ogun_1_batch_02.json
+    - assets/db/ogle_yemegi_batch_01.json
+    - assets/db/ogle_yemegi_batch_02.json
+    - assets/db/ara_ogun_2_batch_01.json
+    - assets/db/ara_ogun_2_batch_02.json
+    - assets/db/aksam_yemegi_batch_01.json
+    - assets/db/aksam_yemegi_batch_02.json
+    - assets/db/gece_atistirmasi.json
+    - assets/db/cheat_meal.json
+
+
+Not: İndirdiğin dosyaları assets/db/ klasörüne koy.
+
+2) Model (meal.dart)
+import 'dart:convert';
+
+enum MealCategory {
+  kahvalti, araOgun1, ogleYemegi, araOgun2, aksamYemegi, geceAtistirmasi, cheatMeal
+}
+enum GoalTag { yagKaybi, kasGelisimi, bakim }
+enum Difficulty { Kolay, Orta, Zor }
+
+MealCategory _catFrom(String s) {
+  switch (s) {
+    case 'Kahvaltı': return MealCategory.kahvalti;
+    case 'Ara Öğün 1': return MealCategory.araOgun1;
+    case 'Öğle Yemeği': return MealCategory.ogleYemegi;
+    case 'Ara Öğün 2': return MealCategory.araOgun2;
+    case 'Akşam Yemeği': return MealCategory.aksamYemegi;
+    case 'Gece Atıştırması': return MealCategory.geceAtistirmasi;
+    case 'Cheat Meal': return MealCategory.cheatMeal;
+    default: throw FormatException('Bilinmeyen kategori: $s');
+  }
+}
+GoalTag _goalFrom(String s) {
+  switch (s) {
+    case 'Yağ Kaybı': return GoalTag.yagKaybi;
+    case 'Kas Gelişimi': return GoalTag.kasGelisimi;
+    case 'Bakım': return GoalTag.bakim;
+    default: throw FormatException('Bilinmeyen goal_tag: $s');
+  }
+}
+Difficulty _diffFrom(String s) {
+  switch (s) {
+    case 'Kolay': return Difficulty.Kolay;
+    case 'Orta': return Difficulty.Orta;
+    case 'Zor': return Difficulty.Zor;
+    default: throw FormatException('Bilinmeyen difficulty: $s');
+  }
+}
+
+class Meal {
+  final String mealId;
+  final MealCategory category;
+  final String mealName;
+  final int calorie;
+  final int proteinG;
+  final int carbG;
+  final int fatG;
+  final int fiberG;
+  final GoalTag goalTag;
+  final Difficulty difficulty;
+  final int prepTimeMin;
+  final List<String> ingredients;
+  final List<String> allergens;
+  final List<String> dietTags;
+  final List<String> mealTiming;
+  final String season;
+
+  // Opsiyoneller
+  final String? glycemicIndex;        // düşük/orta/yüksek
+  final String? mealType;             // tek tabak/çok bileşenli
+  final String? cuisineStyle;         // geleneksel/modern/fusion
+  final String? costLevel;            // ekonomik/orta/pahalı
+  final String? proteinSource;        // hayvansal/bitkisel/karma
+  final String? spiceLevel;           // hafif/orta/acı
+  final int? storageDays;
+  final bool? mealPrepFriendly;
+  final bool? restaurantAvailable;
+  final double? popularityScore;
+
+  Meal({
+    required this.mealId,
+    required this.category,
+    required this.mealName,
+    required this.calorie,
+    required this.proteinG,
+    required this.carbG,
+    required this.fatG,
+    required this.fiberG,
+    required this.goalTag,
+    required this.difficulty,
+    required this.prepTimeMin,
+    required this.ingredients,
+    required this.allergens,
+    required this.dietTags,
+    required this.mealTiming,
+    required this.season,
+    this.glycemicIndex,
+    this.mealType,
+    this.cuisineStyle,
+    this.costLevel,
+    this.proteinSource,
+    this.spiceLevel,
+    this.storageDays,
+    this.mealPrepFriendly,
+    this.restaurantAvailable,
+    this.popularityScore,
+  });
+
+  factory Meal.fromJson(Map<String, dynamic> j) {
+    return Meal(
+      mealId: j['meal_id'] as String,
+      category: _catFrom(j['category'] as String),
+      mealName: j['meal_name'] as String,
+      calorie: (j['calorie'] as num).toInt(),
+      proteinG: (j['protein_g'] as num).toInt(),
+      carbG: (j['carb_g'] as num).toInt(),
+      fatG: (j['fat_g'] as num).toInt(),
+      fiberG: (j['fiber_g'] as num).toInt(),
+      goalTag: _goalFrom(j['goal_tag'] as String),
+      difficulty: _diffFrom(j['difficulty'] as String),
+      prepTimeMin: (j['prep_time_min'] as num).toInt(),
+      ingredients: (j['ingredients'] as List).map((e) => e.toString()).toList(),
+      allergens: (j['allergens'] as List).map((e) => e.toString()).toList(),
+      dietTags: (j['diet_tags'] as List).map((e) => e.toString()).toList(),
+      mealTiming: (j['meal_timing'] as List).map((e) => e.toString()).toList(),
+      season: j['season'] as String,
+      glycemicIndex: j['glycemic_index'] as String?,
+      mealType: j['meal_type'] as String?,
+      cuisineStyle: j['cuisine_style'] as String?,
+      costLevel: j['cost_level'] as String?,
+      proteinSource: j['protein_source'] as String?,
+      spiceLevel: j['spice_level'] as String?,
+      storageDays: (j['storage_days'] as num?)?.toInt(),
+      mealPrepFriendly: j['meal_prep_friendly'] as bool?,
+      restaurantAvailable: j['restaurant_available'] as bool?,
+      popularityScore: (j['popularity_score'] is int)
+          ? (j['popularity_score'] as int).toDouble()
+          : (j['popularity_score'] as num?)?.toDouble(),
+    );
+  }
+
+  static List<Meal> listFromJsonString(String source) {
+    final raw = json.decode(source);
+    if (raw is! List) {
+      throw const FormatException('Kök JSON bir dizi (array) olmalı.');
+    }
+    return raw.map<Meal>((e) => Meal.fromJson(e as Map<String, dynamic>)).toList();
+  }
+}
+
+3) Repository (meal_repository.dart) — compute ile hızlı parse
+import 'dart:async';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart'; // compute
+import 'meal.dart';
+
+Future<List<Meal>> _parseOnIsolate(String jsonStr) async {
+  return Meal.listFromJsonString(jsonStr);
+}
+
+class MealRepository {
+  // Buraya assets yollarını koy (pubspec ile aynı)
+  static const _assetFiles = <String>[
+    'assets/db/kahvalti_batch_01.json',
+    'assets/db/kahvalti_batch_02.json',
+    'assets/db/ara_ogun_1_batch_01.json',
+    'assets/db/ara_ogun_1_batch_02.json',
+    'assets/db/ogle_yemegi_batch_01.json',
+    'assets/db/ogle_yemegi_batch_02.json',
+    'assets/db/ara_ogun_2_batch_01.json',
+    'assets/db/ara_ogun_2_batch_02.json',
+    'assets/db/aksam_yemegi_batch_01.json',
+    'assets/db/aksam_yemegi_batch_02.json',
+    'assets/db/gece_atistirmasi.json',
+    'assets/db/cheat_meal.json',
+  ];
+
+  Future<List<Meal>> loadAll() async {
+    final futures = _assetFiles.map((p) async {
+      final s = await rootBundle.loadString(p, cache: true);
+      return compute(_parseOnIsolate, s);
+    }).toList();
+
+    final chunks = await Future.wait(futures); // paralel yükleme
+    final all = <Meal>[];
+    final ids = <String>{};
+
+    for (final list in chunks) {
+      for (final m in list) {
+        if (ids.add(m.mealId)) {
+          all.add(m);
+        } else {
+          // meal_id çakışırsa (beklenmez) atla
+        }
+      }
+    }
+    return all;
+  }
+
+  Future<List<Meal>> byCategory(MealCategory cat) async {
+    final all = await loadAll();
+    return all.where((m) => m.category == cat).toList();
+  }
+}
+
+4) Provider (meal_provider.dart)
+import 'package:flutter/foundation.dart';
+import 'meal.dart';
+import 'meal_repository.dart';
+
+class MealProvider with ChangeNotifier {
+  final MealRepository _repo;
+  MealProvider(this._repo);
+
+  bool _loading = false;
+  bool get loading => _loading;
+
+  List<Meal> _items = [];
+  List<Meal> get items => _items;
+
+  Future<void> init() async {
+    _loading = true; notifyListeners();
+    try {
+      _items = await _repo.loadAll();
+    } finally {
+      _loading = false; notifyListeners();
+    }
+  }
+
+  // Basit filtre örneği
+  List<Meal> filter({
+    MealCategory? category,
+    GoalTag? goal,
+    int? kcalMin,
+    int? kcalMax,
+    int? proteinMin,
+    int? proteinMax,
+  }) {
+    Iterable<Meal> q = _items;
+    if (category != null) q = q.where((e) => e.category == category);
+    if (goal != null) q = q.where((e) => e.goalTag == goal);
+    if (kcalMin != null) q = q.where((e) => e.calorie >= kcalMin);
+    if (kcalMax != null) q = q.where((e) => e.calorie <= kcalMax);
+    if (proteinMin != null) q = q.where((e) => e.proteinG >= proteinMin);
+    if (proteinMax != null) q = q.where((e) => e.proteinG <= proteinMax);
+    return q.toList(growable: false);
+  }
+}
+
+5) Kullanım (Widget)
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'meal_repository.dart';
+import 'meal_provider.dart';
+import 'meal.dart';
+
+class MealApp extends StatelessWidget {
+  const MealApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => MealProvider(MealRepository())..init()),
+      ],
+      child: MaterialApp(
+        home: Scaffold(
+          appBar: AppBar(title: const Text('TR Besin Veritabanı')),
+          body: const MealHome(),
+        ),
+      ),
+    );
+  }
+}
+
+class MealHome extends StatelessWidget {
+  const MealHome({super.key});
+  @override
+  Widget build(BuildContext context) {
+    final prov = context.watch<MealProvider>();
+    if (prov.loading) return const Center(child: CircularProgressIndicator());
+
+    final kahvaltilar = prov.filter(category: MealCategory.kahvalti);
+    return ListView.builder(
+      itemCount: kahvaltilar.length,
+      itemBuilder: (_, i) {
+        final m = kahvaltilar[i];
+        return ListTile(
+          title: Text(m.mealName),
+          subtitle: Text('${m.calorie} kcal • ${m.proteinG}P/${m.carbG}C/${m.fatG}F'),
+          trailing: Text(m.goalTag.name.toUpperCase()),
+        );
+      },
+    );
+  }
+}
+
+Neden “çalışır”?
+
+JSON alan adları birebir modelle eşleşiyor, Türkçe karakter desteği var (UTF-8).
+
+Büyük veri (20K) için dosya başına 2K ve compute ile UI takılmaz.
+
+Kategori/goal/difficulty enum’ları tip güvenliği sağlar.
+
+İstersen aynı modeli Isar/Hive’a migre etmek çok kolay (aynı alanlarla schema). Dilersen bunun için de temiz bir Isar importer yazabilirim.
