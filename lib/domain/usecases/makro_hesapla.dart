@@ -13,22 +13,23 @@ class MakroHesapla {
     required Cinsiyet cinsiyet,
   }) {
     AppLogger.debug('BMR hesaplanıyor: kilo=$kilo, boy=$boy, yas=$yas');
-    
+
     double bmr;
     if (cinsiyet == Cinsiyet.erkek) {
       bmr = (10 * kilo) + (6.25 * boy) - (5 * yas) + 5;
     } else {
       bmr = (10 * kilo) + (6.25 * boy) - (5 * yas) - 161;
     }
-    
+
     AppLogger.info('BMR hesaplandı: ${bmr.toStringAsFixed(0)} kcal');
     return bmr;
   }
 
   /// TDEE hesaplama
   double tdeeHesapla(double bmr, AktiviteSeviyesi aktivite) {
-    AppLogger.debug('TDEE hesaplanıyor: bmr=$bmr, aktivite=${aktivite.aciklama}');
-    
+    AppLogger.debug(
+        'TDEE hesaplanıyor: bmr=$bmr, aktivite=${aktivite.aciklama}');
+
     final carpanlar = {
       AktiviteSeviyesi.hareketsiz: 1.2,
       AktiviteSeviyesi.hafifAktif: 1.375,
@@ -36,7 +37,7 @@ class MakroHesapla {
       AktiviteSeviyesi.cokAktif: 1.725,
       AktiviteSeviyesi.ekstraAktif: 1.9,
     };
-    
+
     final tdee = bmr * (carpanlar[aktivite] ?? 1.2);
     AppLogger.info('TDEE hesaplandı: ${tdee.toStringAsFixed(0)} kcal');
     return tdee;
@@ -44,8 +45,9 @@ class MakroHesapla {
 
   /// Hedefe göre kalori ayarla
   double hedefKaloriHesapla(double tdee, Hedef hedef) {
-    AppLogger.debug('Hedef kalori hesaplanıyor: tdee=$tdee, hedef=${hedef.aciklama}');
-    
+    AppLogger.debug(
+        'Hedef kalori hesaplanıyor: tdee=$tdee, hedef=${hedef.aciklama}');
+
     double hedefKalori;
     switch (hedef) {
       case Hedef.kiloVer:
@@ -61,11 +63,13 @@ class MakroHesapla {
         hedefKalori = tdee * AppConstants.kiloAlFazlalik; // %10 fazlalık
         break;
       case Hedef.kasKazanKiloAl:
-        hedefKalori = tdee * AppConstants.kasKazanKiloAlFazlalik; // %15 fazlalık
+        hedefKalori =
+            tdee * AppConstants.kasKazanKiloAlFazlalik; // %15 fazlalık
         break;
     }
-    
-    AppLogger.info('Hedef kalori hesaplandı: ${hedefKalori.toStringAsFixed(0)} kcal');
+
+    AppLogger.info(
+        'Hedef kalori hesaplandı: ${hedefKalori.toStringAsFixed(0)} kcal');
     return hedefKalori;
   }
 
@@ -76,7 +80,7 @@ class MakroHesapla {
     required Hedef hedef,
   }) {
     AppLogger.debug('Makro dağılımı hesaplanıyor...');
-    
+
     double protein, yag, karbonhidrat;
 
     // ⭐ DÜZELTİLMİŞ MAKRO DEĞERLERİ (Protein ve Yağ arttırıldı)
@@ -85,22 +89,22 @@ class MakroHesapla {
         protein = mevcutKilo * 2.2; // Yüksek protein (kas koruma)
         yag = mevcutKilo * 0.8; // Orta yağ
         break;
-      
+
       case Hedef.kasKazanKiloVer:
         protein = mevcutKilo * 2.5; // Çok yüksek protein
         yag = mevcutKilo * 0.7; // Düşük yağ
         break;
-      
+
       case Hedef.formdaKal:
         protein = mevcutKilo * 2.0; // ⬆️ ARTIRILDI (1.8 → 2.0)
         yag = mevcutKilo * 1.0; // ⬆️ ARTIRILDI (0.9 → 1.0)
         break;
-      
+
       case Hedef.kiloAl:
         protein = mevcutKilo * 2.0; // ⬆️ ARTIRILDI (1.6 → 2.0)
         yag = mevcutKilo * 1.1; // ⬆️ ARTIRILDI (1.0 → 1.1)
         break;
-      
+
       case Hedef.kasKazanKiloAl:
         protein = mevcutKilo * 2.2; // ⬆️ ARTIRILDI (2.0 → 2.2)
         yag = mevcutKilo * 1.2; // ⬆️ ARTIRILDI (1.0 → 1.2)
@@ -115,23 +119,29 @@ class MakroHesapla {
 
     // Negatif değerleri ve çok düşük karbonhidratı düzelt
     if (karbonhidrat < 50) {
-      AppLogger.warning('Karbonhidrat çok düşük! Makrolar yeniden ayarlanıyor...');
+      AppLogger.warning(
+          'Karbonhidrat çok düşük! Makrolar yeniden ayarlanıyor...');
       karbonhidrat = 100; // Minimum karb 100g
-      yag = (hedefKalori - (protein * AppConstants.proteinKaloriPerGram) - (karbonhidrat * AppConstants.karbonhidratKaloriPerGram)) / AppConstants.yagKaloriPerGram;
+      yag = (hedefKalori -
+              (protein * AppConstants.proteinKaloriPerGram) -
+              (karbonhidrat * AppConstants.karbonhidratKaloriPerGram)) /
+          AppConstants.yagKaloriPerGram;
     }
 
     final makrolar = MakroHedefleri(
       gunlukKalori: hedefKalori,
       gunlukProtein: protein.clamp(0, AppConstants.maxMakroGram),
-      gunlukKarbonhidrat: karbonhidrat.clamp(50, AppConstants.maxMakroGram), // Min 50g karb
+      gunlukKarbonhidrat:
+          karbonhidrat.clamp(50, AppConstants.maxMakroGram), // Min 50g karb
       gunlukYag: yag.clamp(0, AppConstants.maxMakroGram),
-      olusturmaTarihi: DateTime.now(),
     );
 
     AppLogger.info('Makrolar hesaplandı:');
-    AppLogger.info('  Kalori: ${makrolar.gunlukKalori.toStringAsFixed(0)} kcal');
+    AppLogger.info(
+        '  Kalori: ${makrolar.gunlukKalori.toStringAsFixed(0)} kcal');
     AppLogger.info('  Protein: ${makrolar.gunlukProtein.toStringAsFixed(0)} g');
-    AppLogger.info('  Karb: ${makrolar.gunlukKarbonhidrat.toStringAsFixed(0)} g');
+    AppLogger.info(
+        '  Karb: ${makrolar.gunlukKarbonhidrat.toStringAsFixed(0)} g');
     AppLogger.info('  Yağ: ${makrolar.gunlukYag.toStringAsFixed(0)} g');
 
     return makrolar;

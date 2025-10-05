@@ -1,21 +1,24 @@
+// ============================================================================
+// lib/domain/entities/kullanici_profili.dart
+// Kullanıcı Profili Entity
+// ============================================================================
+
 import 'package:equatable/equatable.dart';
-import 'hedef.dart';
+import 'hedef.dart'; // Enum'ları buradan import et
 
 class KullaniciProfili extends Equatable {
   final String id;
   final String ad;
   final String soyad;
   final int yas;
-  final Cinsiyet cinsiyet;
   final double boy; // cm
   final double mevcutKilo; // kg
   final double? hedefKilo; // kg
-  final Hedef hedef;
+  final Cinsiyet cinsiyet;
   final AktiviteSeviyesi aktiviteSeviyesi;
+  final Hedef hedef;
   final DiyetTipi diyetTipi;
-  
-  // ⭐ YENİ: Alerji/Kısıtlama Sistemi
-  final List<String> manuelAlerjiler; // Kullanıcının manuel eklediği
+  final List<String> manuelAlerjiler;
   final DateTime kayitTarihi;
 
   const KullaniciProfili({
@@ -23,22 +26,39 @@ class KullaniciProfili extends Equatable {
     required this.ad,
     required this.soyad,
     required this.yas,
-    required this.cinsiyet,
     required this.boy,
     required this.mevcutKilo,
     this.hedefKilo,
-    required this.hedef,
+    required this.cinsiyet,
     required this.aktiviteSeviyesi,
-    this.diyetTipi = DiyetTipi.normal,
+    required this.hedef,
+    required this.diyetTipi,
     this.manuelAlerjiler = const [],
     required this.kayitTarihi,
   });
 
-  // ⭐ TÜM KISITLAMALARI BİRLEŞTİR (Diyet + Manuel)
+  @override
+  List<Object?> get props => [
+        id,
+        ad,
+        soyad,
+        yas,
+        boy,
+        mevcutKilo,
+        hedefKilo,
+        cinsiyet,
+        aktiviteSeviyesi,
+        hedef,
+        diyetTipi,
+        manuelAlerjiler,
+        kayitTarihi,
+      ];
+
+  // Tüm kısıtlamaları birleştir (Diyet tipi + Manuel alerjiler)
   List<String> get tumKisitlamalar {
     final Set<String> kisitlamalar = {};
     
-    // Diyet tipinden gelen kısıtlamalar
+    // Diyet tipinden gelen varsayılan kısıtlamalar
     kisitlamalar.addAll(diyetTipi.varsayilanKisitlamalar);
     
     // Manuel eklenen alerjiler
@@ -47,7 +67,7 @@ class KullaniciProfili extends Equatable {
     return kisitlamalar.toList();
   }
 
-  // ⭐ BİR YEMEĞİN YENEBİLİR OLUP OLMADIĞINI KONTROL ET
+  // Bir yemeğin yenebilir olup olmadığını kontrol et
   bool yemekYenebilirMi(List<String> yemekIcerikleri) {
     final kisitlamalarKucuk = tumKisitlamalar.map((k) => k.toLowerCase()).toSet();
     
@@ -59,34 +79,17 @@ class KullaniciProfili extends Equatable {
     return true; // Hiçbir kısıtlama yok
   }
 
-  @override
-  List<Object?> get props => [
-        id,
-        ad,
-        soyad,
-        yas,
-        cinsiyet,
-        boy,
-        mevcutKilo,
-        hedefKilo,
-        hedef,
-        aktiviteSeviyesi,
-        diyetTipi,
-        manuelAlerjiler,
-        kayitTarihi,
-      ];
-
   KullaniciProfili copyWith({
     String? id,
     String? ad,
     String? soyad,
     int? yas,
-    Cinsiyet? cinsiyet,
     double? boy,
     double? mevcutKilo,
     double? hedefKilo,
-    Hedef? hedef,
+    Cinsiyet? cinsiyet,
     AktiviteSeviyesi? aktiviteSeviyesi,
+    Hedef? hedef,
     DiyetTipi? diyetTipi,
     List<String>? manuelAlerjiler,
     DateTime? kayitTarihi,
@@ -96,12 +99,12 @@ class KullaniciProfili extends Equatable {
       ad: ad ?? this.ad,
       soyad: soyad ?? this.soyad,
       yas: yas ?? this.yas,
-      cinsiyet: cinsiyet ?? this.cinsiyet,
       boy: boy ?? this.boy,
       mevcutKilo: mevcutKilo ?? this.mevcutKilo,
       hedefKilo: hedefKilo ?? this.hedefKilo,
-      hedef: hedef ?? this.hedef,
+      cinsiyet: cinsiyet ?? this.cinsiyet,
       aktiviteSeviyesi: aktiviteSeviyesi ?? this.aktiviteSeviyesi,
+      hedef: hedef ?? this.hedef,
       diyetTipi: diyetTipi ?? this.diyetTipi,
       manuelAlerjiler: manuelAlerjiler ?? this.manuelAlerjiler,
       kayitTarihi: kayitTarihi ?? this.kayitTarihi,

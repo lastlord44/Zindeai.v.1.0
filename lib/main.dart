@@ -1,73 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'data/models/meal.dart';
 import 'data/repositories/meal_repository.dart';
 import 'presentation/providers/meal_provider.dart';
 import 'presentation/pages/meal_list_page.dart';
-
-// ============================================================================
-// ENUMS
-// ============================================================================
-
-enum Hedef {
-  kiloVer('Kilo Ver'),
-  kiloAl('Kilo Al'),
-  formdaKal('Formda Kal'),
-  kasKazanKiloAl('Kas Kazan + Kilo Al'),
-  kasKazanKiloVer('Kas Kazan + Kilo Ver');
-
-  final String aciklama;
-  const Hedef(this.aciklama);
-}
-
-enum AktiviteSeviyesi {
-  hareketsiz('Hareketsiz (Ofis işi)'),
-  hafifAktif('Hafif Aktif (Haftada 1-3 gün)'),
-  ortaAktif('Orta Aktif (Haftada 3-5 gün)'),
-  cokAktif('Çok Aktif (Haftada 6-7 gün)'),
-  ekstraAktif('Ekstra Aktif (Günde 2 antrenman)');
-
-  final String aciklama;
-  const AktiviteSeviyesi(this.aciklama);
-}
-
-enum Cinsiyet {
-  erkek('Erkek'),
-  kadin('Kadın');
-
-  final String aciklama;
-  const Cinsiyet(this.aciklama);
-}
-
-enum DiyetTipi {
-  normal('Normal'),
-  vejetaryen('Vejetaryen'),
-  vegan('Vegan');
-
-  final String aciklama;
-  const DiyetTipi(this.aciklama);
-
-  List<String> get varsayilanKisitlamalar {
-    switch (this) {
-      case DiyetTipi.vejetaryen:
-        return ['Et', 'Tavuk', 'Balık', 'Deniz Ürünleri'];
-      case DiyetTipi.vegan:
-        return [
-          'Et',
-          'Tavuk',
-          'Balık',
-          'Deniz Ürünleri',
-          'Süt',
-          'Peynir',
-          'Yoğurt',
-          'Yumurta',
-          'Bal'
-        ];
-      case DiyetTipi.normal:
-        return [];
-    }
-  }
-}
+import 'presentation/pages/alternatif_besin_demo_page.dart';
+import 'domain/entities/hedef.dart'; // Enum'ları buradan import et
 
 // ============================================================================
 // MAKRO HEDEFLERİ
@@ -820,6 +757,22 @@ class HomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const MealListPage(),
+                  ),
+                );
+              },
+            ),
+            const SizedBox(height: 16),
+            _buildFeatureCard(
+              context,
+              title: '🧪 Alternatif Besin Test',
+              description: 'Alternatif besin sistemini test edin',
+              icon: Icons.science,
+              color: Colors.blue,
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AlternatifBesinDemoPage(),
                   ),
                 );
               },
