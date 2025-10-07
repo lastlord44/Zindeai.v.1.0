@@ -17,37 +17,43 @@ class GunlukPlanHiveModelAdapter extends TypeAdapter<GunlukPlanHiveModel> {
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return GunlukPlanHiveModel(
-      id: fields[0] as String?,
-      tarih: fields[1] as DateTime?,
-      kahvalti: (fields[2] as Map?)?.cast<String, dynamic>(),
-      ogleYemegi: (fields[3] as Map?)?.cast<String, dynamic>(),
-      aksamYemegi: (fields[4] as Map?)?.cast<String, dynamic>(),
-      araOgun: (fields[5] as Map?)?.cast<String, dynamic>(),
-      fitnessSkoru: fields[6] as double?,
-      makroHedefleri: (fields[7] as Map?)?.cast<String, dynamic>(),
+      id: fields[0] as String,
+      tarih: fields[1] as DateTime,
+      kahvaltiJson: fields[2] as String?,
+      araOgun1Json: fields[3] as String?,
+      ogleYemegiJson: fields[4] as String?,
+      araOgun2Json: fields[5] as String?,
+      aksamYemegiJson: fields[6] as String?,
+      geceAtistirmaJson: fields[7] as String?,
+      makroHedefleriJson: fields[8] as String,
+      fitnessSkoru: fields[9] as double,
     );
   }
 
   @override
   void write(BinaryWriter writer, GunlukPlanHiveModel obj) {
     writer
-      ..writeByte(8)
+      ..writeByte(10)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
       ..write(obj.tarih)
       ..writeByte(2)
-      ..write(obj.kahvalti)
+      ..write(obj.kahvaltiJson)
       ..writeByte(3)
-      ..write(obj.ogleYemegi)
+      ..write(obj.araOgun1Json)
       ..writeByte(4)
-      ..write(obj.aksamYemegi)
+      ..write(obj.ogleYemegiJson)
       ..writeByte(5)
-      ..write(obj.araOgun)
+      ..write(obj.araOgun2Json)
       ..writeByte(6)
-      ..write(obj.fitnessSkoru)
+      ..write(obj.aksamYemegiJson)
       ..writeByte(7)
-      ..write(obj.makroHedefleri);
+      ..write(obj.geceAtistirmaJson)
+      ..writeByte(8)
+      ..write(obj.makroHedefleriJson)
+      ..writeByte(9)
+      ..write(obj.fitnessSkoru);
   }
 
   @override

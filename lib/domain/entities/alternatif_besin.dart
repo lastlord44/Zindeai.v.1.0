@@ -17,13 +17,24 @@ class BesinAlternatifi extends Equatable {
   @override
   List<Object?> get props => [besin, miktar, benzerlikSkoru];
 
-  /// JSON'dan oluştur
+  /// JSON'dan oluştur (null-safe)
   factory BesinAlternatifi.fromJson(Map<String, dynamic> json) {
     return BesinAlternatifi(
-      besin: json['besin'] as String,
-      miktar: (json['miktar'] as num).toDouble(),
-      benzerlikSkoru: (json['benzerlikSkoru'] as num).toDouble(),
+      besin: json['besin']?.toString() ?? 'Bilinmeyen Besin',
+      miktar: _parseDouble(json['miktar']) ?? 0.0,
+      benzerlikSkoru: _parseDouble(json['benzerlikSkoru']) ?? 0.0,
     );
+  }
+
+  /// Double değer parse helper metodu
+  static double? _parseDouble(dynamic value) {
+    if (value == null) return null;
+    if (value is double) return value;
+    if (value is int) return value.toDouble();
+    if (value is String) {
+      return double.tryParse(value);
+    }
+    return null;
   }
 
   /// JSON'a çevir
@@ -69,16 +80,39 @@ class AlternatifBesin extends Equatable {
   List<Object?> get props =>
       [orijinalBesin, orijinalMiktar, birim, alternatifler];
 
-  /// JSON'dan oluştur
+  /// JSON'dan oluştur (null-safe)
   factory AlternatifBesin.fromJson(Map<String, dynamic> json) {
     return AlternatifBesin(
-      orijinalBesin: json['orijinalBesin'] as String,
-      orijinalMiktar: (json['orijinalMiktar'] as num).toDouble(),
-      birim: json['birim'] as String,
-      alternatifler: (json['alternatifler'] as List<dynamic>)
-          .map((e) => BesinAlternatifi.fromJson(e as Map<String, dynamic>))
-          .toList(),
+      orijinalBesin: json['orijinalBesin']?.toString() ?? 'Bilinmeyen Besin',
+      orijinalMiktar: _parseDouble(json['orijinalMiktar']) ?? 0.0,
+      birim: json['birim']?.toString() ?? 'adet',
+      alternatifler: _parseAlternatifler(json['alternatifler']) ?? [],
     );
+  }
+
+  /// Double değer parse helper metodu
+  static double? _parseDouble(dynamic value) {
+    if (value == null) return null;
+    if (value is double) return value;
+    if (value is int) return value.toDouble();
+    if (value is String) {
+      return double.tryParse(value);
+    }
+    return null;
+  }
+
+  /// Alternatifler listesi parse helper metodu
+  static List<BesinAlternatifi>? _parseAlternatifler(dynamic value) {
+    if (value == null) return null;
+    if (value is! List) return null;
+    try {
+      return value
+          .where((e) => e != null && e is Map<String, dynamic>)
+          .map((e) => BesinAlternatifi.fromJson(e))
+          .toList();
+    } catch (e) {
+      return null;
+    }
   }
 
   /// JSON'a çevir

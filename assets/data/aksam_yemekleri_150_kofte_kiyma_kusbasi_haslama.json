@@ -1,0 +1,6046 @@
+[
+  {
+    "meal_id": "MEAL-24001",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Bulgur Pilavı (160g) + Kabak (150g) + Karnabahar (150g) + Yoğurt (150g) + Süzme Yoğurt (100g)",
+    "calorie": 613,
+    "protein_g": 79,
+    "carb_g": 52,
+    "fat_g": 12,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Bulgur Pilavı (160g)",
+      "Kabak (150g)",
+      "Karnabahar (150g)",
+      "Yoğurt (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24002",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Patates (150g) + Taze Fasulye (150g) + Ispanak (150g)",
+    "calorie": 580,
+    "protein_g": 59,
+    "carb_g": 47,
+    "fat_g": 19,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Patates (150g)",
+      "Taze Fasulye (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24003",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Tatlı Patates (130g) + Karnabahar (150g) + Patlıcan (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 694,
+    "protein_g": 73,
+    "carb_g": 52,
+    "fat_g": 22,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Tatlı Patates (130g)",
+      "Karnabahar (150g)",
+      "Patlıcan (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24004",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Fırın Tatlı Patates (120g) + Patlıcan (150g) + Ispanak (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 544,
+    "protein_g": 70,
+    "carb_g": 42,
+    "fat_g": 13,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Patlıcan (150g)",
+      "Ispanak (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24005",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Fırın Patates (120g) + Karnabahar (150g) + Brokoli (150g) + Cacık (150g) + Süzme Yoğurt (100g)",
+    "calorie": 609,
+    "protein_g": 76,
+    "carb_g": 53,
+    "fat_g": 13,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Fırın Patates (120g)",
+      "Karnabahar (150g)",
+      "Brokoli (150g)",
+      "Cacık (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.8
+  },
+  {
+    "meal_id": "MEAL-24006",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Esmer Pirinç (90g) + Biber (150g) + Kabak (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 623,
+    "protein_g": 62,
+    "carb_g": 42,
+    "fat_g": 23,
+    "fiber_g": 6,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Esmer Pirinç (90g)",
+      "Biber (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24007",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kinoa (120g) + Bamya (150g) + Brokoli (150g)",
+    "calorie": 514,
+    "protein_g": 65,
+    "carb_g": 47,
+    "fat_g": 10,
+    "fiber_g": 12,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kinoa (120g)",
+      "Bamya (150g)",
+      "Brokoli (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24008",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Fırın Tatlı Patates (160g) + Kabak (150g) + Patlıcan (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 599,
+    "protein_g": 66,
+    "carb_g": 51,
+    "fat_g": 16,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Fırın Tatlı Patates (160g)",
+      "Kabak (150g)",
+      "Patlıcan (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24009",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Karnabahar (150g) + Patlıcan (150g) + Cacık (150g) + Zeytinyağı (5ml)",
+    "calorie": 465,
+    "protein_g": 61,
+    "carb_g": 22,
+    "fat_g": 16,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Karnabahar (150g)",
+      "Patlıcan (150g)",
+      "Cacık (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24010",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kinoa (150g) + Karnabahar (150g) + Ispanak (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 669,
+    "protein_g": 84,
+    "carb_g": 54,
+    "fat_g": 14,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kinoa (150g)",
+      "Karnabahar (150g)",
+      "Ispanak (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24011",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Esmer Pirinç (120g) + Ispanak (150g) + Taze Fasulye (150g) + Yoğurt (150g)",
+    "calorie": 587,
+    "protein_g": 70,
+    "carb_g": 52,
+    "fat_g": 12,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Esmer Pirinç (120g)",
+      "Ispanak (150g)",
+      "Taze Fasulye (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.4
+  },
+  {
+    "meal_id": "MEAL-24012",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Esmer Pirinç (150g) + Biber (150g) + Ispanak (150g)",
+    "calorie": 528,
+    "protein_g": 62,
+    "carb_g": 53,
+    "fat_g": 10,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Esmer Pirinç (150g)",
+      "Biber (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24013",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kinoa (100g) + Karnabahar (150g) + Taze Fasulye (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 621,
+    "protein_g": 80,
+    "carb_g": 48,
+    "fat_g": 13,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kinoa (100g)",
+      "Karnabahar (150g)",
+      "Taze Fasulye (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24014",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Tatlı Patates (120g) + Ispanak (150g) + Kabak (150g) + Zeytinyağı (5ml)",
+    "calorie": 563,
+    "protein_g": 57,
+    "carb_g": 34,
+    "fat_g": 24,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Ispanak (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24015",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Fırın Patates (120g) + Karnabahar (150g) + Ispanak (150g) + Yoğurt (150g)",
+    "calorie": 542,
+    "protein_g": 70,
+    "carb_g": 44,
+    "fat_g": 11,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Fırın Patates (120g)",
+      "Karnabahar (150g)",
+      "Ispanak (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24016",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Kinoa (90g) + Taze Fasulye (150g) + Bamya (150g) + Süzme Yoğurt (100g) + Zeytinyağı (5ml)",
+    "calorie": 663,
+    "protein_g": 68,
+    "carb_g": 44,
+    "fat_g": 25,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Kinoa (90g)",
+      "Taze Fasulye (150g)",
+      "Bamya (150g)",
+      "Süzme Yoğurt (100g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24017",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Fırın Patates (120g) + Biber (150g) + Kabak (150g) + Süzme Yoğurt (100g) + Zeytinyağı (5ml)",
+    "calorie": 545,
+    "protein_g": 68,
+    "carb_g": 42,
+    "fat_g": 13,
+    "fiber_g": 7,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Fırın Patates (120g)",
+      "Biber (150g)",
+      "Kabak (150g)",
+      "Süzme Yoğurt (100g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24018",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Bulgur Pilavı (160g) + Karnabahar (150g) + Ispanak (150g)",
+    "calorie": 475,
+    "protein_g": 64,
+    "carb_g": 43,
+    "fat_g": 9,
+    "fiber_g": 10,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Bulgur Pilavı (160g)",
+      "Karnabahar (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24019",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Esmer Pirinç (130g) + Bamya (150g) + Biber (150g) + Yoğurt (150g) + Zeytinyağı (5ml)",
+    "calorie": 646,
+    "protein_g": 68,
+    "carb_g": 58,
+    "fat_g": 17,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Esmer Pirinç (130g)",
+      "Bamya (150g)",
+      "Biber (150g)",
+      "Yoğurt (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24020",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Bulgur Pilavı (100g) + Brokoli (150g) + Ispanak (150g)",
+    "calorie": 438,
+    "protein_g": 64,
+    "carb_g": 35,
+    "fat_g": 9,
+    "fiber_g": 9,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Bulgur Pilavı (100g)",
+      "Brokoli (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24021",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Patlıcan (150g) + Karnabahar (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 492,
+    "protein_g": 74,
+    "carb_g": 26,
+    "fat_g": 11,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Patlıcan (150g)",
+      "Karnabahar (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.8
+  },
+  {
+    "meal_id": "MEAL-24022",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Kinoa (100g) + Kabak (150g) + Karnabahar (150g)",
+    "calorie": 543,
+    "protein_g": 58,
+    "carb_g": 33,
+    "fat_g": 21,
+    "fiber_g": 7,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Kinoa (100g)",
+      "Kabak (150g)",
+      "Karnabahar (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24023",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kinoa (120g) + Karnabahar (150g) + Kabak (150g) + Yoğurt (150g)",
+    "calorie": 565,
+    "protein_g": 70,
+    "carb_g": 43,
+    "fat_g": 13,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kinoa (120g)",
+      "Karnabahar (150g)",
+      "Kabak (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.4
+  },
+  {
+    "meal_id": "MEAL-24024",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Ispanak (150g) + Bamya (150g)",
+    "calorie": 444,
+    "protein_g": 56,
+    "carb_g": 16,
+    "fat_g": 19,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Ispanak (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24025",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Esmer Pirinç (150g) + Taze Fasulye (150g) + Karnabahar (150g)",
+    "calorie": 628,
+    "protein_g": 58,
+    "carb_g": 56,
+    "fat_g": 20,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Esmer Pirinç (150g)",
+      "Taze Fasulye (150g)",
+      "Karnabahar (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24026",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kinoa (120g) + Karnabahar (150g) + Bamya (150g)",
+    "calorie": 501,
+    "protein_g": 63,
+    "carb_g": 44,
+    "fat_g": 10,
+    "fiber_g": 11,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kinoa (120g)",
+      "Karnabahar (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24027",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kabak (150g) + Karnabahar (150g) + Cacık (150g) + Zeytinyağı (5ml)",
+    "calorie": 453,
+    "protein_g": 61,
+    "carb_g": 18,
+    "fat_g": 17,
+    "fiber_g": 5,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kabak (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24028",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Tatlı Patates (100g) + Ispanak (150g) + Kabak (150g)",
+    "calorie": 506,
+    "protein_g": 56,
+    "carb_g": 30,
+    "fat_g": 19,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Ispanak (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24029",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Tatlı Patates (100g) + Bamya (150g) + Brokoli (150g) + Yoğurt (150g) + Cacık (150g)",
+    "calorie": 714,
+    "protein_g": 69,
+    "carb_g": 52,
+    "fat_g": 26,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Bamya (150g)",
+      "Brokoli (150g)",
+      "Yoğurt (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24030",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Esmer Pirinç (150g) + Bamya (150g) + Ispanak (150g)",
+    "calorie": 628,
+    "protein_g": 60,
+    "carb_g": 54,
+    "fat_g": 20,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Esmer Pirinç (150g)",
+      "Bamya (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24031",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Kinoa (100g) + Brokoli (150g) + Bamya (150g) + Süzme Yoğurt (100g) + Cacık (150g)",
+    "calorie": 720,
+    "protein_g": 74,
+    "carb_g": 52,
+    "fat_g": 25,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Kinoa (100g)",
+      "Brokoli (150g)",
+      "Bamya (150g)",
+      "Süzme Yoğurt (100g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.8
+  },
+  {
+    "meal_id": "MEAL-24032",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Fırın Tatlı Patates (120g) + Patlıcan (150g) + Bamya (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 559,
+    "protein_g": 69,
+    "carb_g": 47,
+    "fat_g": 13,
+    "fiber_g": 13,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Patlıcan (150g)",
+      "Bamya (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.4
+  },
+  {
+    "meal_id": "MEAL-24033",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Esmer Pirinç (160g) + Taze Fasulye (150g) + Patlıcan (150g)",
+    "calorie": 641,
+    "protein_g": 57,
+    "carb_g": 60,
+    "fat_g": 20,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Esmer Pirinç (160g)",
+      "Taze Fasulye (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.4
+  },
+  {
+    "meal_id": "MEAL-24034",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Patates (90g) + Patlıcan (150g) + Brokoli (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 679,
+    "protein_g": 74,
+    "carb_g": 47,
+    "fat_g": 22,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Patates (90g)",
+      "Patlıcan (150g)",
+      "Brokoli (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24035",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Esmer Pirinç (90g) + Kabak (150g) + Biber (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 663,
+    "protein_g": 62,
+    "carb_g": 42,
+    "fat_g": 27,
+    "fiber_g": 6,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Esmer Pirinç (90g)",
+      "Kabak (150g)",
+      "Biber (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24036",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Bulgur Pilavı (150g) + Biber (150g) + Brokoli (150g)",
+    "calorie": 484,
+    "protein_g": 62,
+    "carb_g": 48,
+    "fat_g": 9,
+    "fiber_g": 10,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Bulgur Pilavı (150g)",
+      "Biber (150g)",
+      "Brokoli (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24037",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Fırın Tatlı Patates (90g) + Patlıcan (150g) + Bamya (150g) + Cacık (150g) + Zeytinyağı (5ml)",
+    "calorie": 644,
+    "protein_g": 59,
+    "carb_g": 44,
+    "fat_g": 27,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Fırın Tatlı Patates (90g)",
+      "Patlıcan (150g)",
+      "Bamya (150g)",
+      "Cacık (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.6
+  },
+  {
+    "meal_id": "MEAL-24038",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Esmer Pirinç (160g) + Bamya (150g) + Patlıcan (150g)",
+    "calorie": 554,
+    "protein_g": 61,
+    "carb_g": 60,
+    "fat_g": 9,
+    "fiber_g": 12,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Esmer Pirinç (160g)",
+      "Bamya (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24039",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Hindi Kıyma (180g) + Kinoa (150g) + Taze Fasulye (150g) + Brokoli (150g)",
+    "calorie": 548,
+    "protein_g": 66,
+    "carb_g": 53,
+    "fat_g": 11,
+    "fiber_g": 13,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Hindi Kıyma (180g)",
+      "Kinoa (150g)",
+      "Taze Fasulye (150g)",
+      "Brokoli (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.8
+  },
+  {
+    "meal_id": "MEAL-24040",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kıyma (Yağsız) (180g) + Bulgur Pilavı (150g) + Biber (150g) + Kabak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 608,
+    "protein_g": 66,
+    "carb_g": 46,
+    "fat_g": 20,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kıyma (Yağsız) (180g)",
+      "Bulgur Pilavı (150g)",
+      "Biber (150g)",
+      "Kabak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24041",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Kinoa (100g) + Taze Fasulye (150g) + Bamya (150g)",
+    "calorie": 636,
+    "protein_g": 54,
+    "carb_g": 52,
+    "fat_g": 26,
+    "fiber_g": 13,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Kinoa (100g)",
+      "Taze Fasulye (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.3
+  },
+  {
+    "meal_id": "MEAL-24042",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Tatlı Patates (100g) + Brokoli (150g) + Karnabahar (150g) + Cacık (150g) + Süzme Yoğurt (100g)",
+    "calorie": 692,
+    "protein_g": 62,
+    "carb_g": 57,
+    "fat_g": 27,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Brokoli (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24043",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Esmer Pirinç (100g) + Patlıcan (150g) + Biber (150g) + Yoğurt (150g) + Cacık (150g)",
+    "calorie": 746,
+    "protein_g": 57,
+    "carb_g": 64,
+    "fat_g": 30,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Esmer Pirinç (100g)",
+      "Patlıcan (150g)",
+      "Biber (150g)",
+      "Yoğurt (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24044",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Kinoa (90g) + Bamya (150g) + Karnabahar (150g) + Yoğurt (150g) + Süzme Yoğurt (100g)",
+    "calorie": 720,
+    "protein_g": 67,
+    "carb_g": 55,
+    "fat_g": 27,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Kinoa (90g)",
+      "Bamya (150g)",
+      "Karnabahar (150g)",
+      "Yoğurt (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24045",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Kinoa (90g) + Ispanak (150g) + Bamya (150g) + Zeytinyağı (5ml) + Cacık (150g)",
+    "calorie": 690,
+    "protein_g": 55,
+    "carb_g": 50,
+    "fat_g": 33,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Kinoa (90g)",
+      "Ispanak (150g)",
+      "Bamya (150g)",
+      "Zeytinyağı (5ml)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24046",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (220g) + Brokoli (150g) + Biber (150g) + Zeytinyağı (5ml)",
+    "calorie": 592,
+    "protein_g": 54,
+    "carb_g": 30,
+    "fat_g": 32,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (220g)",
+      "Brokoli (150g)",
+      "Biber (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24047",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Patates (120g) + Biber (150g) + Karnabahar (150g) + Cacık (150g)",
+    "calorie": 646,
+    "protein_g": 51,
+    "carb_g": 57,
+    "fat_g": 27,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Patates (120g)",
+      "Biber (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24048",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Patates (100g) + Ispanak (150g) + Biber (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 692,
+    "protein_g": 65,
+    "carb_g": 53,
+    "fat_g": 26,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Patates (100g)",
+      "Ispanak (150g)",
+      "Biber (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24049",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Bulgur Pilavı (150g) + Taze Fasulye (150g) + Brokoli (150g)",
+    "calorie": 600,
+    "protein_g": 51,
+    "carb_g": 58,
+    "fat_g": 23,
+    "fiber_g": 13,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Bulgur Pilavı (150g)",
+      "Taze Fasulye (150g)",
+      "Brokoli (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24050",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Patates (130g) + Ispanak (150g) + Biber (150g) + Süzme Yoğurt (100g)",
+    "calorie": 631,
+    "protein_g": 59,
+    "carb_g": 54,
+    "fat_g": 23,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Patates (130g)",
+      "Ispanak (150g)",
+      "Biber (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24051",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Bulgur Pilavı (100g) + Taze Fasulye (150g) + Kabak (150g)",
+    "calorie": 575,
+    "protein_g": 52,
+    "carb_g": 44,
+    "fat_g": 25,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Bulgur Pilavı (100g)",
+      "Taze Fasulye (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24052",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Kinoa (150g) + Bamya (150g) + Ispanak (150g) + Zeytinyağı (5ml)",
+    "calorie": 682,
+    "protein_g": 54,
+    "carb_g": 57,
+    "fat_g": 30,
+    "fiber_g": 13,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Kinoa (150g)",
+      "Bamya (150g)",
+      "Ispanak (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24053",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Brokoli (150g) + Patlıcan (150g) + Süzme Yoğurt (100g)",
+    "calorie": 526,
+    "protein_g": 55,
+    "carb_g": 32,
+    "fat_g": 23,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Brokoli (150g)",
+      "Patlıcan (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24054",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Kinoa (120g) + Kabak (150g) + Patlıcan (150g) + Süzme Yoğurt (100g) + Zeytinyağı (5ml)",
+    "calorie": 684,
+    "protein_g": 58,
+    "carb_g": 52,
+    "fat_g": 30,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Kinoa (120g)",
+      "Kabak (150g)",
+      "Patlıcan (150g)",
+      "Süzme Yoğurt (100g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24055",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Biber (150g) + Brokoli (150g) + Zeytinyağı (5ml) + Cacık (150g)",
+    "calorie": 630,
+    "protein_g": 54,
+    "carb_g": 36,
+    "fat_g": 34,
+    "fiber_g": 8,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Biber (150g)",
+      "Brokoli (150g)",
+      "Zeytinyağı (5ml)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24056",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Kinoa (100g) + Taze Fasulye (150g) + Biber (150g) + Cacık (150g) + Yoğurt (150g)",
+    "calorie": 752,
+    "protein_g": 60,
+    "carb_g": 61,
+    "fat_g": 31,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Kinoa (100g)",
+      "Taze Fasulye (150g)",
+      "Biber (150g)",
+      "Cacık (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24057",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Esmer Pirinç (100g) + Taze Fasulye (150g) + Bamya (150g) + Yoğurt (150g)",
+    "calorie": 685,
+    "protein_g": 55,
+    "carb_g": 61,
+    "fat_g": 26,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Esmer Pirinç (100g)",
+      "Taze Fasulye (150g)",
+      "Bamya (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24058",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (220g) + Bulgur Pilavı (100g) + Biber (150g) + Patlıcan (150g)",
+    "calorie": 622,
+    "protein_g": 54,
+    "carb_g": 48,
+    "fat_g": 27,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (220g)",
+      "Bulgur Pilavı (100g)",
+      "Biber (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24060",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Esmer Pirinç (120g) + Bamya (150g) + Kabak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 660,
+    "protein_g": 58,
+    "carb_g": 58,
+    "fat_g": 24,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Esmer Pirinç (120g)",
+      "Bamya (150g)",
+      "Kabak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.6
+  },
+  {
+    "meal_id": "MEAL-24061",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Fırın Tatlı Patates (120g) + Brokoli (150g) + Patlıcan (150g)",
+    "calorie": 612,
+    "protein_g": 52,
+    "carb_g": 54,
+    "fat_g": 25,
+    "fiber_g": 13,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Fırın Tatlı Patates (120g)",
+      "Brokoli (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24062",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Tatlı Patates (120g) + Kabak (150g) + Patlıcan (150g) + Yoğurt (150g) + Süzme Yoğurt (100g)",
+    "calorie": 691,
+    "protein_g": 62,
+    "carb_g": 56,
+    "fat_g": 26,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Kabak (150g)",
+      "Patlıcan (150g)",
+      "Yoğurt (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24063",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Patlıcan (150g) + Karnabahar (150g)",
+    "calorie": 495,
+    "protein_g": 48,
+    "carb_g": 26,
+    "fat_g": 25,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Patlıcan (150g)",
+      "Karnabahar (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.3
+  },
+  {
+    "meal_id": "MEAL-24064",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Tatlı Patates (100g) + Karnabahar (150g) + Taze Fasulye (150g) + Zeytinyağı (5ml) + Cacık (150g)",
+    "calorie": 668,
+    "protein_g": 51,
+    "carb_g": 53,
+    "fat_g": 31,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Karnabahar (150g)",
+      "Taze Fasulye (150g)",
+      "Zeytinyağı (5ml)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24065",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Patlıcan (150g) + Karnabahar (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 581,
+    "protein_g": 52,
+    "carb_g": 31,
+    "fat_g": 30,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Patlıcan (150g)",
+      "Karnabahar (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24066",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Ispanak (150g) + Bamya (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 561,
+    "protein_g": 57,
+    "carb_g": 28,
+    "fat_g": 27,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Ispanak (150g)",
+      "Bamya (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24067",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Kinoa (150g) + Ispanak (150g) + Patlıcan (150g) + Süzme Yoğurt (100g)",
+    "calorie": 689,
+    "protein_g": 62,
+    "carb_g": 59,
+    "fat_g": 26,
+    "fiber_g": 13,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Kinoa (150g)",
+      "Ispanak (150g)",
+      "Patlıcan (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24068",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Bulgur Pilavı (100g) + Bamya (150g) + Brokoli (150g) + Yoğurt (150g) + Zeytinyağı (5ml)",
+    "calorie": 690,
+    "protein_g": 57,
+    "carb_g": 54,
+    "fat_g": 30,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Bulgur Pilavı (100g)",
+      "Bamya (150g)",
+      "Brokoli (150g)",
+      "Yoğurt (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.6
+  },
+  {
+    "meal_id": "MEAL-24069",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Esmer Pirinç (100g) + Taze Fasulye (150g) + Patlıcan (150g) + Süzme Yoğurt (100g)",
+    "calorie": 644,
+    "protein_g": 56,
+    "carb_g": 58,
+    "fat_g": 24,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Esmer Pirinç (100g)",
+      "Taze Fasulye (150g)",
+      "Patlıcan (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.8
+  },
+  {
+    "meal_id": "MEAL-24070",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Bulgur Pilavı (150g) + Kabak (150g) + Biber (150g) + Cacık (150g)",
+    "calorie": 647,
+    "protein_g": 51,
+    "carb_g": 57,
+    "fat_g": 27,
+    "fiber_g": 9,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Bulgur Pilavı (150g)",
+      "Kabak (150g)",
+      "Biber (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24071",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Patates (100g) + Bamya (150g) + Brokoli (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 670,
+    "protein_g": 59,
+    "carb_g": 55,
+    "fat_g": 28,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Patates (100g)",
+      "Bamya (150g)",
+      "Brokoli (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24072",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Kinoa (120g) + Kabak (150g) + Patlıcan (150g)",
+    "calorie": 627,
+    "protein_g": 53,
+    "carb_g": 49,
+    "fat_g": 27,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Kinoa (120g)",
+      "Kabak (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24073",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Fırın Patates (120g) + Brokoli (150g) + Biber (150g)",
+    "calorie": 622,
+    "protein_g": 53,
+    "carb_g": 55,
+    "fat_g": 25,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Fırın Patates (120g)",
+      "Brokoli (150g)",
+      "Biber (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24074",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Fırın Tatlı Patates (130g) + Brokoli (150g) + Bamya (150g)",
+    "calorie": 632,
+    "protein_g": 53,
+    "carb_g": 57,
+    "fat_g": 25,
+    "fiber_g": 14,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Fırın Tatlı Patates (130g)",
+      "Brokoli (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24075",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Patates (160g) + Biber (150g) + Kabak (150g) + Cacık (150g)",
+    "calorie": 671,
+    "protein_g": 51,
+    "carb_g": 62,
+    "fat_g": 27,
+    "fiber_g": 9,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Patates (160g)",
+      "Biber (150g)",
+      "Kabak (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24076",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Tatlı Patates (150g) + Ispanak (150g) + Karnabahar (150g) + Cacık (150g)",
+    "calorie": 659,
+    "protein_g": 53,
+    "carb_g": 58,
+    "fat_g": 27,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Tatlı Patates (150g)",
+      "Ispanak (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24077",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Esmer Pirinç (100g) + Bamya (150g) + Kabak (150g)",
+    "calorie": 618,
+    "protein_g": 51,
+    "carb_g": 51,
+    "fat_g": 26,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Esmer Pirinç (100g)",
+      "Bamya (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.9
+  },
+  {
+    "meal_id": "MEAL-24078",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Fırın Patates (130g) + Kabak (150g) + Biber (150g) + Cacık (150g)",
+    "calorie": 643,
+    "protein_g": 50,
+    "carb_g": 56,
+    "fat_g": 27,
+    "fiber_g": 9,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Fırın Patates (130g)",
+      "Kabak (150g)",
+      "Biber (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24079",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Esmer Pirinç (120g) + Taze Fasulye (150g) + Bamya (150g)",
+    "calorie": 664,
+    "protein_g": 53,
+    "carb_g": 62,
+    "fat_g": 26,
+    "fiber_g": 13,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Esmer Pirinç (120g)",
+      "Taze Fasulye (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24080",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (180g) + Bulgur Pilavı (100g) + Karnabahar (150g) + Brokoli (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 638,
+    "protein_g": 57,
+    "carb_g": 51,
+    "fat_g": 26,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (180g)",
+      "Bulgur Pilavı (100g)",
+      "Karnabahar (150g)",
+      "Brokoli (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24081",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Fırın Köfte (Fit) (200g) + Patlıcan (150g) + Brokoli (150g) + Cacık (150g)",
+    "calorie": 588,
+    "protein_g": 54,
+    "carb_g": 36,
+    "fat_g": 29,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Fırın Köfte (Fit) (200g)",
+      "Patlıcan (150g)",
+      "Brokoli (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.6
+  },
+  {
+    "meal_id": "MEAL-24082",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (120g) + Bamya (150g) + Brokoli (150g) + Zeytinyağı (5ml)",
+    "calorie": 554,
+    "protein_g": 65,
+    "carb_g": 47,
+    "fat_g": 15,
+    "fiber_g": 12,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (120g)",
+      "Bamya (150g)",
+      "Brokoli (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24083",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (120g) + Taze Fasulye (150g) + Bamya (150g)",
+    "calorie": 510,
+    "protein_g": 63,
+    "carb_g": 47,
+    "fat_g": 10,
+    "fiber_g": 13,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (120g)",
+      "Taze Fasulye (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24084",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Kinoa (120g) + Taze Fasulye (150g) + Patlıcan (150g)",
+    "calorie": 588,
+    "protein_g": 58,
+    "carb_g": 45,
+    "fat_g": 21,
+    "fiber_g": 13,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Kinoa (120g)",
+      "Taze Fasulye (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24085",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Bulgur Pilavı (120g) + Biber (150g) + Ispanak (150g)",
+    "calorie": 443,
+    "protein_g": 62,
+    "carb_g": 37,
+    "fat_g": 8,
+    "fiber_g": 9,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Bulgur Pilavı (120g)",
+      "Biber (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24086",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Esmer Pirinç (160g) + Biber (150g) + Kabak (150g)",
+    "calorie": 621,
+    "protein_g": 56,
+    "carb_g": 55,
+    "fat_g": 20,
+    "fiber_g": 8,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Esmer Pirinç (160g)",
+      "Biber (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24087",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Patates (160g) + Biber (150g) + Bamya (150g) + Zeytinyağı (5ml)",
+    "calorie": 547,
+    "protein_g": 61,
+    "carb_g": 53,
+    "fat_g": 13,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Patates (160g)",
+      "Biber (150g)",
+      "Bamya (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24088",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Patates (150g) + Taze Fasulye (150g) + Ispanak (150g)",
+    "calorie": 490,
+    "protein_g": 63,
+    "carb_g": 47,
+    "fat_g": 8,
+    "fiber_g": 11,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Patates (150g)",
+      "Taze Fasulye (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24089",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Tatlı Patates (150g) + Taze Fasulye (150g) + Bamya (150g) + Cacık (150g)",
+    "calorie": 575,
+    "protein_g": 64,
+    "carb_g": 57,
+    "fat_g": 12,
+    "fiber_g": 14,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Tatlı Patates (150g)",
+      "Taze Fasulye (150g)",
+      "Bamya (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24090",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (120g) + Bamya (150g) + Karnabahar (150g)",
+    "calorie": 501,
+    "protein_g": 63,
+    "carb_g": 44,
+    "fat_g": 10,
+    "fiber_g": 11,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (120g)",
+      "Bamya (150g)",
+      "Karnabahar (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24091",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Patates (160g) + Taze Fasulye (150g) + Karnabahar (150g) + Cacık (150g) + Zeytinyağı (5ml)",
+    "calorie": 623,
+    "protein_g": 66,
+    "carb_g": 58,
+    "fat_g": 17,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Patates (160g)",
+      "Taze Fasulye (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24092",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (130g) + Brokoli (150g) + Bamya (150g) + Süzme Yoğurt (100g) + Zeytinyağı (5ml)",
+    "calorie": 626,
+    "protein_g": 75,
+    "carb_g": 52,
+    "fat_g": 15,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (130g)",
+      "Brokoli (150g)",
+      "Bamya (150g)",
+      "Süzme Yoğurt (100g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24093",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Esmer Pirinç (150g) + Bamya (150g) + Kabak (150g)",
+    "calorie": 530,
+    "protein_g": 61,
+    "carb_g": 54,
+    "fat_g": 9,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Esmer Pirinç (150g)",
+      "Bamya (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24094",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Bulgur Pilavı (150g) + Patlıcan (150g) + Kabak (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 556,
+    "protein_g": 70,
+    "carb_g": 46,
+    "fat_g": 13,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Bulgur Pilavı (150g)",
+      "Patlıcan (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24095",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (150g) + Patlıcan (150g) + Kabak (150g) + Cacık (150g)",
+    "calorie": 593,
+    "protein_g": 66,
+    "carb_g": 52,
+    "fat_g": 15,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (150g)",
+      "Patlıcan (150g)",
+      "Kabak (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24096",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Tatlı Patates (120g) + Brokoli (150g) + Karnabahar (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 561,
+    "protein_g": 71,
+    "carb_g": 46,
+    "fat_g": 13,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Brokoli (150g)",
+      "Karnabahar (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24097",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Esmer Pirinç (100g) + Karnabahar (150g) + Bamya (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 627,
+    "protein_g": 78,
+    "carb_g": 53,
+    "fat_g": 12,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Esmer Pirinç (100g)",
+      "Karnabahar (150g)",
+      "Bamya (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24098",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (120g) + Taze Fasulye (150g) + Patlıcan (150g)",
+    "calorie": 498,
+    "protein_g": 62,
+    "carb_g": 45,
+    "fat_g": 10,
+    "fiber_g": 13,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (120g)",
+      "Taze Fasulye (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.9
+  },
+  {
+    "meal_id": "MEAL-24099",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Patlıcan (150g) + Karnabahar (150g)",
+    "calorie": 435,
+    "protein_g": 53,
+    "carb_g": 16,
+    "fat_g": 19,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Patlıcan (150g)",
+      "Karnabahar (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24100",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (160g) + Bamya (150g) + Karnabahar (150g) + Süzme Yoğurt (100g) + Cacık (150g)",
+    "calorie": 688,
+    "protein_g": 79,
+    "carb_g": 62,
+    "fat_g": 15,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (160g)",
+      "Bamya (150g)",
+      "Karnabahar (150g)",
+      "Süzme Yoğurt (100g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24101",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Tatlı Patates (150g) + Karnabahar (150g) + Biber (150g) + Yoğurt (150g) + Cacık (150g)",
+    "calorie": 644,
+    "protein_g": 71,
+    "carb_g": 58,
+    "fat_g": 15,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Tatlı Patates (150g)",
+      "Karnabahar (150g)",
+      "Biber (150g)",
+      "Yoğurt (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24102",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Bulgur Pilavı (120g) + Kabak (150g) + Ispanak (150g) + Cacık (150g)",
+    "calorie": 600,
+    "protein_g": 62,
+    "carb_g": 39,
+    "fat_g": 23,
+    "fiber_g": 7,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak (150g)",
+      "Ispanak (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24103",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Bulgur Pilavı (120g) + Bamya (150g) + Biber (150g) + Süzme Yoğurt (100g) + Cacık (150g)",
+    "calorie": 597,
+    "protein_g": 74,
+    "carb_g": 52,
+    "fat_g": 13,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Bulgur Pilavı (120g)",
+      "Bamya (150g)",
+      "Biber (150g)",
+      "Süzme Yoğurt (100g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24104",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Biber (150g) + Ispanak (150g) + Süzme Yoğurt (100g) + Zeytinyağı (5ml)",
+    "calorie": 442,
+    "protein_g": 68,
+    "carb_g": 18,
+    "fat_g": 13,
+    "fiber_g": 6,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Biber (150g)",
+      "Ispanak (150g)",
+      "Süzme Yoğurt (100g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24105",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Patates (100g) + Bamya (150g) + Taze Fasulye (150g)",
+    "calorie": 459,
+    "protein_g": 60,
+    "carb_g": 42,
+    "fat_g": 8,
+    "fiber_g": 12,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Patates (100g)",
+      "Bamya (150g)",
+      "Taze Fasulye (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24106",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Tatlı Patates (100g) + Kabak (150g) + Patlıcan (150g)",
+    "calorie": 419,
+    "protein_g": 57,
+    "carb_g": 34,
+    "fat_g": 8,
+    "fiber_g": 9,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Kabak (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24107",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Bulgur Pilavı (150g) + Biber (150g) + Brokoli (150g) + Süzme Yoğurt (100g) + Cacık (150g)",
+    "calorie": 624,
+    "protein_g": 76,
+    "carb_g": 58,
+    "fat_g": 13,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Bulgur Pilavı (150g)",
+      "Biber (150g)",
+      "Brokoli (150g)",
+      "Süzme Yoğurt (100g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24108",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Esmer Pirinç (160g) + Brokoli (150g) + Ispanak (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 651,
+    "protein_g": 75,
+    "carb_g": 60,
+    "fat_g": 15,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Esmer Pirinç (160g)",
+      "Brokoli (150g)",
+      "Ispanak (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24109",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Fırın Patates (100g) + Taze Fasulye (150g) + Brokoli (150g)",
+    "calorie": 550,
+    "protein_g": 58,
+    "carb_g": 42,
+    "fat_g": 19,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Fırın Patates (100g)",
+      "Taze Fasulye (150g)",
+      "Brokoli (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.9
+  },
+  {
+    "meal_id": "MEAL-24110",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (120g) + Brokoli (150g) + Karnabahar (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 650,
+    "protein_g": 82,
+    "carb_g": 53,
+    "fat_g": 14,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (120g)",
+      "Brokoli (150g)",
+      "Karnabahar (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24111",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Ispanak (150g) + Brokoli (150g) + Cacık (150g)",
+    "calorie": 436,
+    "protein_g": 65,
+    "carb_g": 22,
+    "fat_g": 12,
+    "fiber_g": 7,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Ispanak (150g)",
+      "Brokoli (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24112",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Bulgur Pilavı (100g) + Karnabahar (150g) + Taze Fasulye (150g)",
+    "calorie": 527,
+    "protein_g": 57,
+    "carb_g": 37,
+    "fat_g": 19,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Bulgur Pilavı (100g)",
+      "Karnabahar (150g)",
+      "Taze Fasulye (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24113",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Karnabahar (150g) + Ispanak (150g) + Zeytinyağı (5ml)",
+    "calorie": 472,
+    "protein_g": 56,
+    "carb_g": 13,
+    "fat_g": 24,
+    "fiber_g": 6,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Karnabahar (150g)",
+      "Ispanak (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24114",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Esmer Pirinç (160g) + Ispanak (150g) + Kabak (150g) + Zeytinyağı (5ml)",
+    "calorie": 657,
+    "protein_g": 59,
+    "carb_g": 51,
+    "fat_g": 25,
+    "fiber_g": 8,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Esmer Pirinç (160g)",
+      "Ispanak (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.8
+  },
+  {
+    "meal_id": "MEAL-24115",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Fırın Patates (100g) + Patlıcan (150g) + Brokoli (150g) + Zeytinyağı (5ml) + Cacık (150g)",
+    "calorie": 572,
+    "protein_g": 64,
+    "carb_g": 46,
+    "fat_g": 17,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Fırın Patates (100g)",
+      "Patlıcan (150g)",
+      "Brokoli (150g)",
+      "Zeytinyağı (5ml)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24116",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Esmer Pirinç (120g) + Karnabahar (150g) + Ispanak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 639,
+    "protein_g": 69,
+    "carb_g": 47,
+    "fat_g": 21,
+    "fiber_g": 8,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Esmer Pirinç (120g)",
+      "Karnabahar (150g)",
+      "Ispanak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24117",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Patlıcan (150g) + Bamya (150g) + Cacık (150g)",
+    "calorie": 527,
+    "protein_g": 57,
+    "carb_g": 26,
+    "fat_g": 23,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Patlıcan (150g)",
+      "Bamya (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24118",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Fırın Tatlı Patates (100g) + Patlıcan (150g) + Karnabahar (150g) + Zeytinyağı (5ml)",
+    "calorie": 561,
+    "protein_g": 55,
+    "carb_g": 36,
+    "fat_g": 23,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Patlıcan (150g)",
+      "Karnabahar (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24119",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Brokoli (150g) + Karnabahar (150g) + Yoğurt (150g)",
+    "calorie": 446,
+    "protein_g": 67,
+    "carb_g": 23,
+    "fat_g": 11,
+    "fiber_g": 7,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Brokoli (150g)",
+      "Karnabahar (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.1
+  },
+  {
+    "meal_id": "MEAL-24120",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Hindi (180g) + Kinoa (100g) + Patlıcan (150g) + Biber (150g) + Yoğurt (150g) + Cacık (150g)",
+    "calorie": 634,
+    "protein_g": 71,
+    "carb_g": 51,
+    "fat_g": 17,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Hindi (180g)",
+      "Kinoa (100g)",
+      "Patlıcan (150g)",
+      "Biber (150g)",
+      "Yoğurt (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24121",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Kuşbaşı Dana (180g) + Kinoa (90g) + Kabak (150g) + Ispanak (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 675,
+    "protein_g": 76,
+    "carb_g": 38,
+    "fat_g": 24,
+    "fiber_g": 7,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Kuşbaşı Dana (180g)",
+      "Kinoa (90g)",
+      "Kabak (150g)",
+      "Ispanak (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24122",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Fırın Tatlı Patates (120g) + Karnabahar (150g) + Patlıcan (150g) + Cacık (150g) + Yoğurt (150g)",
+    "calorie": 688,
+    "protein_g": 68,
+    "carb_g": 52,
+    "fat_g": 22,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Karnabahar (150g)",
+      "Patlıcan (150g)",
+      "Cacık (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24123",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Taze Fasulye (150g) + Biber (150g) + Süzme Yoğurt (100g) + Yoğurt (150g)",
+    "calorie": 574,
+    "protein_g": 72,
+    "carb_g": 28,
+    "fat_g": 19,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Taze Fasulye (150g)",
+      "Biber (150g)",
+      "Süzme Yoğurt (100g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24124",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Kinoa (120g) + Patlıcan (150g) + Brokoli (150g) + Cacık (150g)",
+    "calorie": 654,
+    "protein_g": 65,
+    "carb_g": 51,
+    "fat_g": 22,
+    "fiber_g": 12,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Kinoa (120g)",
+      "Patlıcan (150g)",
+      "Brokoli (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.4
+  },
+  {
+    "meal_id": "MEAL-24125",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Fırın Patates (100g) + Brokoli (150g) + Biber (150g)",
+    "calorie": 525,
+    "protein_g": 59,
+    "carb_g": 40,
+    "fat_g": 16,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Fırın Patates (100g)",
+      "Brokoli (150g)",
+      "Biber (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.6
+  },
+  {
+    "meal_id": "MEAL-24126",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Bulgur Pilavı (120g) + Patlıcan (150g) + Kabak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 492,
+    "protein_g": 74,
+    "carb_g": 40,
+    "fat_g": 5,
+    "fiber_g": 9,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan (150g)",
+      "Kabak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24127",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Kinoa (150g) + Patlıcan (150g) + Bamya (150g) + Süzme Yoğurt (100g)",
+    "calorie": 596,
+    "protein_g": 79,
+    "carb_g": 55,
+    "fat_g": 7,
+    "fiber_g": 14,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Kinoa (150g)",
+      "Patlıcan (150g)",
+      "Bamya (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24128",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Bulgur Pilavı (150g) + Patlıcan (150g) + Kabak (150g)",
+    "calorie": 530,
+    "protein_g": 58,
+    "carb_g": 42,
+    "fat_g": 15,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Bulgur Pilavı (150g)",
+      "Patlıcan (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24129",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Fırın Patates (120g) + Karnabahar (150g) + Brokoli (150g) + Yoğurt (150g) + Süzme Yoğurt (100g)",
+    "calorie": 689,
+    "protein_g": 78,
+    "carb_g": 52,
+    "fat_g": 19,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Fırın Patates (120g)",
+      "Karnabahar (150g)",
+      "Brokoli (150g)",
+      "Yoğurt (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24130",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Bulgur Pilavı (160g) + Biber (150g) + Patlıcan (150g) + Zeytinyağı (5ml) + Süzme Yoğurt (100g)",
+    "calorie": 578,
+    "protein_g": 75,
+    "carb_g": 52,
+    "fat_g": 10,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Bulgur Pilavı (160g)",
+      "Biber (150g)",
+      "Patlıcan (150g)",
+      "Zeytinyağı (5ml)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "gluten",
+      "süt"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24131",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Kinoa (150g) + Karnabahar (150g) + Kabak (150g) + Zeytinyağı (5ml)",
+    "calorie": 553,
+    "protein_g": 69,
+    "carb_g": 44,
+    "fat_g": 12,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Kinoa (150g)",
+      "Karnabahar (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24132",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Kinoa (100g) + Karnabahar (150g) + Taze Fasulye (150g) + Zeytinyağı (5ml) + Cacık (150g)",
+    "calorie": 666,
+    "protein_g": 64,
+    "carb_g": 45,
+    "fat_g": 26,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Kinoa (100g)",
+      "Karnabahar (150g)",
+      "Taze Fasulye (150g)",
+      "Zeytinyağı (5ml)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.6
+  },
+  {
+    "meal_id": "MEAL-24133",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Karnabahar (150g) + Bamya (150g)",
+    "calorie": 429,
+    "protein_g": 56,
+    "carb_g": 18,
+    "fat_g": 15,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Karnabahar (150g)",
+      "Bamya (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.7
+  },
+  {
+    "meal_id": "MEAL-24134",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Fırın Tatlı Patates (160g) + Biber (150g) + Ispanak (150g)",
+    "calorie": 481,
+    "protein_g": 66,
+    "carb_g": 46,
+    "fat_g": 5,
+    "fiber_g": 11,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Fırın Tatlı Patates (160g)",
+      "Biber (150g)",
+      "Ispanak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24135",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Esmer Pirinç (100g) + Patlıcan (150g) + Ispanak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 524,
+    "protein_g": 76,
+    "carb_g": 44,
+    "fat_g": 6,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Esmer Pirinç (100g)",
+      "Patlıcan (150g)",
+      "Ispanak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24136",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Taze Fasulye (150g) + Kabak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 473,
+    "protein_g": 65,
+    "carb_g": 19,
+    "fat_g": 16,
+    "fiber_g": 6,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Taze Fasulye (150g)",
+      "Kabak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24137",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Fırın Patates (150g) + Patlıcan (150g) + Ispanak (150g) + Süzme Yoğurt (100g)",
+    "calorie": 540,
+    "protein_g": 77,
+    "carb_g": 50,
+    "fat_g": 5,
+    "fiber_g": 11,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Fırın Patates (150g)",
+      "Patlıcan (150g)",
+      "Ispanak (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24138",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Fırın Patates (160g) + Bamya (150g) + Kabak (150g)",
+    "calorie": 566,
+    "protein_g": 59,
+    "carb_g": 49,
+    "fat_g": 15,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Fırın Patates (160g)",
+      "Bamya (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "yüksek",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.9
+  },
+  {
+    "meal_id": "MEAL-24139",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Kinoa (100g) + Bamya (150g) + Karnabahar (150g) + Cacık (150g) + Yoğurt (150g)",
+    "calorie": 717,
+    "protein_g": 72,
+    "carb_g": 51,
+    "fat_g": 24,
+    "fiber_g": 11,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Kinoa (100g)",
+      "Bamya (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.5
+  },
+  {
+    "meal_id": "MEAL-24140",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Fırın Tatlı Patates (120g) + Ispanak (150g) + Taze Fasulye (150g) + Zeytinyağı (5ml)",
+    "calorie": 566,
+    "protein_g": 59,
+    "carb_g": 40,
+    "fat_g": 20,
+    "fiber_g": 12,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Fırın Tatlı Patates (120g)",
+      "Ispanak (150g)",
+      "Taze Fasulye (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24141",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Fırın Tatlı Patates (100g) + Ispanak (150g) + Karnabahar (150g) + Süzme Yoğurt (100g)",
+    "calorie": 487,
+    "protein_g": 77,
+    "carb_g": 36,
+    "fat_g": 5,
+    "fiber_g": 9,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Ispanak (150g)",
+      "Karnabahar (150g)",
+      "Süzme Yoğurt (100g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.2
+  },
+  {
+    "meal_id": "MEAL-24142",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Kinoa (120g) + Taze Fasulye (150g) + Kabak (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 686,
+    "protein_g": 68,
+    "carb_g": 46,
+    "fat_g": 25,
+    "fiber_g": 10,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Kinoa (120g)",
+      "Taze Fasulye (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.1
+  },
+  {
+    "meal_id": "MEAL-24143",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Bulgur Pilavı (160g) + Kabak (150g) + Biber (150g)",
+    "calorie": 539,
+    "protein_g": 58,
+    "carb_g": 44,
+    "fat_g": 16,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Bulgur Pilavı (160g)",
+      "Kabak (150g)",
+      "Biber (150g)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.6
+  },
+  {
+    "meal_id": "MEAL-24144",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Esmer Pirinç (160g) + Taze Fasulye (150g) + Kabak (150g)",
+    "calorie": 611,
+    "protein_g": 59,
+    "carb_g": 56,
+    "fat_g": 17,
+    "fiber_g": 9,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 35,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Esmer Pirinç (160g)",
+      "Taze Fasulye (150g)",
+      "Kabak (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.7
+  },
+  {
+    "meal_id": "MEAL-24145",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Kinoa (160g) + Taze Fasulye (150g) + Patlıcan (150g)",
+    "calorie": 546,
+    "protein_g": 69,
+    "carb_g": 54,
+    "fat_g": 7,
+    "fiber_g": 14,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Kinoa (160g)",
+      "Taze Fasulye (150g)",
+      "Patlıcan (150g)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.2
+  },
+  {
+    "meal_id": "MEAL-24146",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Bulgur Pilavı (160g) + Ispanak (150g) + Brokoli (150g) + Zeytinyağı (5ml)",
+    "calorie": 528,
+    "protein_g": 71,
+    "carb_g": 46,
+    "fat_g": 10,
+    "fiber_g": 10,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Bulgur Pilavı (160g)",
+      "Ispanak (150g)",
+      "Brokoli (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "gluten"
+    ],
+    "diet_tags": [
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 9.0
+  },
+  {
+    "meal_id": "MEAL-24147",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Fırın Tatlı Patates (100g) + Ispanak (150g) + Kabak (150g) + Zeytinyağı (5ml) + Yoğurt (150g)",
+    "calorie": 544,
+    "protein_g": 73,
+    "carb_g": 35,
+    "fat_g": 12,
+    "fiber_g": 8,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Fırın Tatlı Patates (100g)",
+      "Ispanak (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)",
+      "Yoğurt (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.0
+  },
+  {
+    "meal_id": "MEAL-24148",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Ispanak (150g) + Karnabahar (150g) + Cacık (150g) + Zeytinyağı (5ml)",
+    "calorie": 534,
+    "protein_g": 62,
+    "carb_g": 19,
+    "fat_g": 24,
+    "fiber_g": 6,
+    "goal_tag": "Bakım",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Ispanak (150g)",
+      "Karnabahar (150g)",
+      "Cacık (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.8
+  },
+  {
+    "meal_id": "MEAL-24149",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Kinoa (120g) + Ispanak (150g) + Kabak (150g) + Zeytinyağı (5ml)",
+    "calorie": 514,
+    "protein_g": 69,
+    "carb_g": 36,
+    "fat_g": 11,
+    "fiber_g": 8,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Kinoa (120g)",
+      "Ispanak (150g)",
+      "Kabak (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.9
+  },
+  {
+    "meal_id": "MEAL-24150",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Tavuk (180g) + Bamya (150g) + Kabak (150g) + Cacık (150g)",
+    "calorie": 425,
+    "protein_g": 66,
+    "carb_g": 21,
+    "fat_g": 8,
+    "fiber_g": 6,
+    "goal_tag": "Yağ Kaybı",
+    "difficulty": "Orta",
+    "prep_time_min": 25,
+    "ingredients": [
+      "Haşlama Tavuk (180g)",
+      "Bamya (150g)",
+      "Kabak (150g)",
+      "Cacık (150g)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "düşük",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "ekonomik",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 8.3
+  },
+  {
+    "meal_id": "MEAL-24151",
+    "category": "Akşam Yemeği",
+    "meal_name": "Akşam: Haşlama Dana (180g) + Kinoa (120g) + Ispanak (150g) + Kabak (150g) + Yoğurt (150g) + Zeytinyağı (5ml)",
+    "calorie": 674,
+    "protein_g": 69,
+    "carb_g": 41,
+    "fat_g": 25,
+    "fiber_g": 8,
+    "goal_tag": "Kas Gelişimi",
+    "difficulty": "Orta",
+    "prep_time_min": 30,
+    "ingredients": [
+      "Haşlama Dana (180g)",
+      "Kinoa (120g)",
+      "Ispanak (150g)",
+      "Kabak (150g)",
+      "Yoğurt (150g)",
+      "Zeytinyağı (5ml)"
+    ],
+    "allergens": [
+      "süt"
+    ],
+    "diet_tags": [
+      "glütensiz",
+      "yüksek protein"
+    ],
+    "meal_timing": [
+      "akşam"
+    ],
+    "season": "tüm mevsim",
+    "glycemic_index": "orta",
+    "meal_type": "çok bileşenli",
+    "cuisine_style": "geleneksel",
+    "cost_level": "orta",
+    "protein_source": "hayvansal",
+    "spice_level": "hafif",
+    "storage_days": 2,
+    "meal_prep_friendly": true,
+    "restaurant_available": true,
+    "popularity_score": 7.9
+  }
+]

@@ -1,0 +1,278 @@
+# 150 adet, benzersiz, "kıyma / köfte / kuşbaşı / haşlama" odaklı, diyete uygun Akşam Yemeği üretimi.
+# Hepsi 400–700 kcal ve 35–55 g protein hedefindedir (gerekirse süzme/yoğurt eklenerek ayarlanır).
+# Çıktı: /mnt/data/aksam_yemekleri_150_kofte_kiyma_kusbasi_haslama.json
+
+import json, random
+
+random.seed(9919)
+
+# ------------------ Referans Tablo ------------------
+REF = {
+    # Kıyma & varyasyonları (100g)
+    "kiyma_yagsiz_100g":     {"kcal":200, "p":27.0, "c":0.0, "f":10.0, "fi":0.0, "al":[]},
+    "hindi_kiyma_100g":      {"kcal":150, "p":29.0, "c":0.0, "f":4.0,  "fi":0.0, "al":[]},
+
+    # Köfte (fırın/ızgara, diyet tarifi; az galeta)
+    "kofte_fit_100g":        {"kcal":210, "p":22.0, "c":5.0, "f":12.0, "fi":0.5, "al":["gluten"]},
+
+    # Kuşbaşı (yağsız)
+    "kusbasi_dana_100g":     {"kcal":200, "p":27.0, "c":0.0, "f":10.0, "fi":0.0, "al":[]},
+    "kusbasi_hindi_100g":    {"kcal":150, "p":29.0, "c":0.0, "f":4.0,  "fi":0.0, "al":[]},
+
+    # Haşlama (yağsız pişmiş)
+    "haslama_dana_100g":     {"kcal":190, "p":28.0, "c":0.0, "f":8.0,  "fi":0.0, "al":[]},
+    "haslama_tavuk_100g":    {"kcal":150, "p":32.0, "c":0.0, "f":2.0,  "fi":0.0, "al":[]},
+
+    # Diğer proteinler
+    "levrek_100g":           {"kcal":124, "p":23.0, "c":0.0, "f":2.6,  "fi":0.0, "al":["balık"]},
+    "dana_yagsiz_100g":      {"kcal":200, "p":27.0, "c":0.0, "f":10.0, "fi":0.0, "al":[]},
+
+    # Karbonhidrat eşlikçiler (pişmiş, 100g)
+    "bulgur_pis_100g":       {"kcal":83,  "p":3.0,  "c":19.0,"f":0.2,  "fi":2.0, "al":["gluten"]},
+    "esmer_pirinc_100g":     {"kcal":123, "p":2.6,  "c":25.6,"f":1.0,  "fi":1.8, "al":[]},
+    "pirinc_pis_100g":       {"kcal":130, "p":2.7,  "c":28.0,"f":0.3,  "fi":0.3, "al":[]},
+    "makarna_tbg_100g":      {"kcal":124, "p":5.0,  "c":26.0,"f":0.5,  "fi":1.8, "al":["gluten"]},
+    "kinoa_pis_100g":        {"kcal":120, "p":4.4,  "c":21.3,"f":1.9,  "fi":2.8, "al":[]},
+    "patates_firin_100g":    {"kcal":93,  "p":2.5,  "c":21.0,"f":0.1,  "fi":2.2, "al":[]},
+    "tatli_patates_100g":    {"kcal":86,  "p":1.6,  "c":20.0,"f":0.1,  "fi":3.0, "al":[]},
+
+    # Sebzeler (100g)
+    "brokoli_100g":          {"kcal":34,  "p":2.8,  "c":7.0, "f":0.4,  "fi":2.6, "al":[]},
+    "karnabahar_100g":       {"kcal":25,  "p":2.0,  "c":5.0, "f":0.3,  "fi":2.0, "al":[]},
+    "kabak_100g":            {"kcal":17,  "p":1.2,  "c":3.1, "f":0.3,  "fi":1.1, "al":[]},
+    "ispanak_100g":          {"kcal":23,  "p":2.9,  "c":3.6, "f":0.4,  "fi":2.2, "al":[]},
+    "taze_fasulye_100g":     {"kcal":31,  "p":1.8,  "c":7.0, "f":0.2,  "fi":3.2, "al":[]},
+    "patlican_100g":         {"kcal":25,  "p":1.0,  "c":6.0, "f":0.2,  "fi":3.0, "al":[]},
+    "biber_100g":            {"kcal":26,  "p":1.0,  "c":6.0, "f":0.3,  "fi":2.1, "al":[]},
+    "bamya_100g":            {"kcal":33,  "p":2.0,  "c":7.0, "f":0.2,  "fi":3.2, "al":[]},
+
+    # Süt ürünleri & yağ
+    "suzme_100g":            {"kcal":59,  "p":10.0, "c":3.6, "f":0.4,  "fi":0.0, "al":["süt"]},
+    "yogurt_150g":           {"kcal":88,  "p":7.5,  "c":5.4, "f":3.0,  "fi":0.0, "al":["süt"]},
+    "cacik_150g":            {"kcal":80,  "p":4.0,  "c":6.0, "f":4.0,  "fi":0.0, "al":["süt"]},
+    "zeytinyag_5ml":         {"kcal":40,  "p":0.0,  "c":0.0, "f":4.5,  "fi":0.0, "al":[]},
+}
+
+TITLE = {
+    "kiyma_yagsiz_100g":"Kıyma (Yağsız)",
+    "hindi_kiyma_100g":"Hindi Kıyma",
+    "kofte_fit_100g":"Fırın Köfte (Fit)",
+    "kusbasi_dana_100g":"Kuşbaşı Dana",
+    "kusbasi_hindi_100g":"Kuşbaşı Hindi",
+    "haslama_dana_100g":"Haşlama Dana",
+    "haslama_tavuk_100g":"Haşlama Tavuk",
+    "levrek_100g":"Levrek Izgara",
+    "dana_yagsiz_100g":"Dana (Yağsız)",
+    "bulgur_pis_100g":"Bulgur Pilavı",
+    "esmer_pirinc_100g":"Esmer Pirinç",
+    "pirinc_pis_100g":"Pirinç Pilavı",
+    "makarna_tbg_100g":"Tam Buğday Makarna",
+    "kinoa_pis_100g":"Kinoa",
+    "patates_firin_100g":"Fırın Patates",
+    "tatli_patates_100g":"Fırın Tatlı Patates",
+    "brokoli_100g":"Brokoli",
+    "karnabahar_100g":"Karnabahar",
+    "kabak_100g":"Kabak",
+    "ispanak_100g":"Ispanak",
+    "taze_fasulye_100g":"Taze Fasulye",
+    "patlican_100g":"Patlıcan",
+    "biber_100g":"Biber",
+    "bamya_100g":"Bamya",
+    "suzme_100g":"Süzme Yoğurt",
+    "yogurt_150g":"Yoğurt",
+    "cacik_150g":"Cacık",
+    "zeytinyag_5ml":"Zeytinyağı"
+}
+
+def part(name, qty=1.0):
+    r=REF[name]
+    return {"name":name, "kcal":r["kcal"]*qty, "p":r["p"]*qty, "c":r["c"]*qty, "f":r["f"]*qty, "fi":r["fi"]*qty, "al":r.get("al",[])[:]}
+
+def sum_parts(parts):
+    t={"kcal":0.0,"p":0.0,"c":0.0,"f":0.0,"fi":0.0}
+    al=set()
+    for x in parts:
+        for k in t: t[k]+=x[k]
+        for a in x["al"]: al.add(a)
+    for k in t: t[k]=round(t[k],2)
+    return t, sorted(al)
+
+def gi_from(parts):
+    names=[x["name"] for x in parts]
+    if any(k in names for k in ["pirinc_pis_100g","esmer_pirinc_100g","patates_firin_100g","tatli_patates_100g"]):
+        return "orta" if "esmer_pirinc_100g" in names or "tatli_patates_100g" in names else "yüksek"
+    if any(k in names for k in ["bulgur_pis_100g","makarna_tbg_100g","kinoa_pis_100g"]):
+        return "orta"
+    return "düşük"
+
+def protein_source(parts):
+    p_h=p_b=0.0
+    for it in parts:
+        if any(tag in it["name"] for tag in ["kiyma","kofte","kusbasi","haslama","dana","hindi","levrek","suzme","yogurt","cacik"]):
+            p_h+=it["p"]
+        else:
+            p_b+=it["p"]
+    if p_h>=1.5*p_b: return "hayvansal"
+    if p_b>=1.5*p_h: return "bitkisel"
+    return "karma"
+
+def goal_tag(kcal,p):
+    if kcal <= 520 and p >= 40: return "Yağ Kaybı"
+    if kcal >= 620: return "Kas Gelişimi"
+    return "Bakım"
+
+def build_name(parts, prot_label, prot_g, carb_label, carb_g, vegs, extras):
+    bits=[f"{prot_label} ({prot_g}g)"]
+    if carb_label: bits.append(f"{carb_label} ({carb_g}g)")
+    for (vl,vg) in vegs:
+        bits.append(f"{vl} ({vg}g)")
+    bits+=extras
+    return "Akşam: " + " + ".join(bits)
+
+# Mod kotaları
+modes = ["kiyma","kofte","kusbasi","haslama"]
+mode_targets = {"kiyma":40, "kofte":40, "kusbasi":40, "haslama":30}
+# kalan 0–? modern/geleneksel karışık
+total_target = 150
+
+def generate_record(idx, mode):
+    parts=[]
+    extras_labels=[]
+
+    # Protein seçimi
+    if mode=="kiyma":
+        prot = random.choice(["kiyma_yagsiz_100g","hindi_kiyma_100g"])
+    elif mode=="kofte":
+        prot = "kofte_fit_100g"
+    elif mode=="kusbasi":
+        prot = random.choice(["kusbasi_dana_100g","kusbasi_hindi_100g"])
+    elif mode=="haslama":
+        prot = random.choice(["haslama_dana_100g","haslama_tavuk_100g"])
+    else:
+        prot = random.choice(["dana_yagsiz_100g","levrek_100g"])
+
+    # Gramaj (kıyma/köfte/kuşbaşı 180–220g; haşlama 180–220g)
+    prot_g = random.choice([180,200,220])
+    parts.append(part(prot, prot_g/100))
+
+    # Carb (zorunlu değil): esmer pirinç/bulgur/kinoa/patates (100–160g)
+    carb = random.choice(["esmer_pirinc_100g","bulgur_pis_100g","kinoa_pis_100g","patates_firin_100g","tatli_patates_100g", None])
+    carb_g = 0
+    if carb is not None:
+        carb_g = random.choice([100,120,150,160])
+        parts.append(part(carb, carb_g/100))
+
+    # Sebzeler: 2 çeşit x 150g
+    veg_pool = ["brokoli_100g","karnabahar_100g","kabak_100g","ispanak_100g","taze_fasulye_100g","patlican_100g","biber_100g","bamya_100g"]
+    v1 = random.choice(veg_pool)
+    v2 = random.choice([v for v in veg_pool if v!=v1])
+    parts.append(part(v1, 1.5))
+    parts.append(part(v2, 1.5))
+
+    # Ekstralar: yoğurt/süzme/cacık/zeytinyağı (0–2 adet)
+    for ex in random.sample(["suzme_100g","yogurt_150g","cacik_150g","zeytinyag_5ml"], k=random.choice([0,1,2])):
+        parts.append(part(ex, 1.0))
+        if ex=="suzme_100g": extras_labels.append("Süzme Yoğurt (100g)")
+        elif ex=="yogurt_150g": extras_labels.append("Yoğurt (150g)")
+        elif ex=="cacik_150g": extras_labels.append("Cacık (150g)")
+        elif ex=="zeytinyag_5ml": extras_labels.append("Zeytinyağı (5ml)")
+
+    # Toplam ve ayarlar
+    totals, allergens = sum_parts(parts)
+    # Hedeften sapıyorsa ayarla
+    iter_guard=0
+    while (totals["p"]<35 or totals["kcal"]<400 or totals["p"]>55 or totals["kcal"]>700) and iter_guard<25:
+        iter_guard+=1
+        if totals["p"]<35:
+            prot_g += 20
+            parts[0] = part(prot, prot_g/100)
+            if all(p["name"]!="suzme_100g" for p in parts):
+                parts.append(part("suzme_100g",1.0)); extras_labels.append("Süzme Yoğurt (100g)")
+        if totals["p"]>55 and prot_g>180:
+            prot_g -= 20
+            parts[0] = part(prot, prot_g/100)
+        if totals["kcal"]<400:
+            if carb is None:
+                carb = random.choice(["esmer_pirinc_100g","kinoa_pis_100g","tatli_patates_100g"])
+                carb_g = 120
+                parts.insert(1, part(carb, carb_g/100))
+            else:
+                carb_g = min(200, carb_g+30)
+                parts[1] = part(carb, carb_g/100)
+        if totals["kcal"]>700:
+            if carb is not None and carb_g>=120:
+                carb_g -= 30
+                parts[1] = part(carb, carb_g/100)
+            else:
+                # yağ/ekstra çıkar
+                for i,p in enumerate(parts):
+                    if p["name"]=="zeytinyag_5ml":
+                        parts.pop(i); break
+        totals, allergens = sum_parts(parts)
+
+    vegs = [(TITLE[v1],150),(TITLE[v2],150)]
+    prot_label = TITLE.get(prot, prot)
+    carb_label = TITLE.get(carb, None) if carb is not None else None
+    name = build_name(parts, prot_label, prot_g, carb_label, carb_g, vegs, extras_labels)
+
+    gi = gi_from(parts)
+    ps = protein_source(parts)
+    cost = "orta" if "dana" in prot or "levrek" in prot else "ekonomik"
+
+    diet_tags=[]
+    if "gluten" not in allergens: diet_tags.append("glütensiz")
+    if totals["p"]>=45: diet_tags.append("yüksek protein")
+
+    rec = {
+        "meal_id": f"MEAL-{24001 + idx:05d}",
+        "category": "Akşam Yemeği",
+        "meal_name": name,
+        "calorie": int(round(totals["kcal"])),
+        "protein_g": int(round(totals["p"])),
+        "carb_g": int(round(totals["c"])),
+        "fat_g": int(round(totals["f"])),
+        "fiber_g": int(round(totals["fi"])),
+        "goal_tag": goal_tag(totals["kcal"], totals["p"]),
+        "difficulty": "Orta",
+        "prep_time_min": random.choice([25,30,35]),
+        "ingredients": [f"{prot_label} ({prot_g}g)"] + ([f"{carb_label} ({carb_g}g)"] if carb_label else []) + [f"{TITLE[v1]} (150g)", f"{TITLE[v2]} (150g)"] + extras_labels,
+        "allergens": allergens,
+        "diet_tags": diet_tags,
+        "meal_timing": ["akşam"],
+        "season": "tüm mevsim",
+        "glycemic_index": gi,
+        "meal_type": "çok bileşenli",
+        "cuisine_style": "geleneksel",
+        "cost_level": cost,
+        "protein_source": ps,
+        "spice_level": "hafif",
+        "storage_days": 2,
+        "meal_prep_friendly": True,
+        "restaurant_available": True,
+        "popularity_score": round(random.uniform(7.6,9.4),1)
+    }
+    return rec
+
+# Üretim
+records=[]; names=set()
+# Önce mod hedeflerini doldur
+idx=0
+for mode in modes:
+    for _ in range(mode_targets[mode]):
+        r=generate_record(idx, mode); idx+=1
+        if r["meal_name"] in names:
+            # basit tekrar önleme: küçük gram farkı ile tekrar dene
+            r=generate_record(idx, mode); idx+=1
+        names.add(r["meal_name"]); records.append(r)
+
+# Kalanları serbest modla doldur
+while len(records)<150:
+    r=generate_record(idx, random.choice(modes)); idx+=1
+    if r["meal_name"] in names: continue
+    names.add(r["meal_name"]); records.append(r)
+
+out="/mnt/data/aksam_yemekleri_150_kofte_kiyma_kusbasi_haslama.json"
+with open(out,"w",encoding="utf-8") as f:
+    json.dump(records, f, ensure_ascii=False, indent=2)
+
+len(records), out

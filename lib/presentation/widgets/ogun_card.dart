@@ -39,7 +39,7 @@ class OgunCard extends StatelessWidget {
                     width: 48,
                     height: 48,
                     decoration: BoxDecoration(
-                      color: _getOgunColor(yemek.ogun).withOpacity(0.1),
+                      color: _getOgunColor(yemek.ogun).withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Center(

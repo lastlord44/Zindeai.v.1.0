@@ -1,144 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'data/repositories/meal_repository.dart';
-import 'presentation/providers/meal_provider.dart';
-import 'presentation/pages/meal_list_page.dart';
-import 'presentation/pages/alternatif_besin_demo_page.dart';
-import 'domain/entities/hedef.dart'; // Enum'ları buradan import et
-
-// ============================================================================
-// MAKRO HEDEFLERİ
-// ============================================================================
-
-class MakroHedefleri {
-  final double gunlukKalori;
-  final double gunlukProtein;
-  final double gunlukKarbonhidrat;
-  final double gunlukYag;
-
-  const MakroHedefleri({
-    required this.gunlukKalori,
-    required this.gunlukProtein,
-    required this.gunlukKarbonhidrat,
-    required this.gunlukYag,
-  });
-}
-
-// ============================================================================
-// MAKRO HESAPLAMA SERVİSİ
-// ============================================================================
-
-class MakroHesapla {
-  double bmrHesapla({
-    required double kilo,
-    required double boy,
-    required int yas,
-    required Cinsiyet cinsiyet,
-  }) {
-    if (cinsiyet == Cinsiyet.erkek) {
-      return (10 * kilo) + (6.25 * boy) - (5 * yas) + 5;
-    } else {
-      return (10 * kilo) + (6.25 * boy) - (5 * yas) - 161;
-    }
-  }
-
-  double tdeeHesapla(double bmr, AktiviteSeviyesi aktivite) {
-    final carpanlar = {
-      AktiviteSeviyesi.hareketsiz: 1.2,
-      AktiviteSeviyesi.hafifAktif: 1.375,
-      AktiviteSeviyesi.ortaAktif: 1.55,
-      AktiviteSeviyesi.cokAktif: 1.725,
-      AktiviteSeviyesi.ekstraAktif: 1.9,
-    };
-    return bmr * (carpanlar[aktivite] ?? 1.2);
-  }
-
-  double hedefKaloriHesapla(double tdee, Hedef hedef) {
-    switch (hedef) {
-      case Hedef.kiloVer:
-        return tdee * 0.80;
-      case Hedef.kasKazanKiloVer:
-        return tdee * 0.85;
-      case Hedef.formdaKal:
-        return tdee;
-      case Hedef.kiloAl:
-        return tdee * 1.10;
-      case Hedef.kasKazanKiloAl:
-        return tdee * 1.15;
-    }
-  }
-
-  MakroHedefleri makroDagilimHesapla({
-    required double hedefKalori,
-    required double mevcutKilo,
-    required Hedef hedef,
-  }) {
-    double protein, yag, karbonhidrat;
-
-    switch (hedef) {
-      case Hedef.kiloVer:
-        protein = mevcutKilo * 2.2;
-        yag = mevcutKilo * 0.8;
-        break;
-      case Hedef.kasKazanKiloVer:
-        protein = mevcutKilo * 2.5;
-        yag = mevcutKilo * 0.7;
-        break;
-      case Hedef.formdaKal:
-        protein = mevcutKilo * 2.0;
-        yag = mevcutKilo * 1.0;
-        break;
-      case Hedef.kiloAl:
-        protein = mevcutKilo * 2.0;
-        yag = mevcutKilo * 1.1;
-        break;
-      case Hedef.kasKazanKiloAl:
-        protein = mevcutKilo * 2.2;
-        yag = mevcutKilo * 1.2;
-        break;
-    }
-
-    final proteinKalori = protein * 4;
-    final yagKalori = yag * 9;
-    final kalanKalori = hedefKalori - proteinKalori - yagKalori;
-    karbonhidrat = kalanKalori / 4;
-
-    if (karbonhidrat < 50) {
-      karbonhidrat = 100;
-      yag = (hedefKalori - (protein * 4) - (karbonhidrat * 4)) / 9;
-    }
-
-    return MakroHedefleri(
-      gunlukKalori: hedefKalori,
-      gunlukProtein: protein.clamp(0, 999),
-      gunlukKarbonhidrat: karbonhidrat.clamp(50, 999),
-      gunlukYag: yag.clamp(0, 999),
-    );
-  }
-
-  MakroHedefleri tamHesaplama({
-    required double kilo,
-    required double boy,
-    required int yas,
-    required Cinsiyet cinsiyet,
-    required AktiviteSeviyesi aktivite,
-    required Hedef hedef,
-  }) {
-    final bmr = bmrHesapla(
-      kilo: kilo,
-      boy: boy,
-      yas: yas,
-      cinsiyet: cinsiyet,
-    );
-    final tdee = tdeeHesapla(bmr, aktivite);
-    final hedefKalori = hedefKaloriHesapla(tdee, hedef);
-    return makroDagilimHesapla(
-      hedefKalori: hedefKalori,
-      mevcutKilo: kilo,
-      hedef: hedef,
-    );
-  }
-}
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'data/local/hive_service.dart';
+import 'data/datasources/yemek_hive_data_source.dart';
+import 'domain/usecases/ogun_planlayici.dart';
+import 'domain/usecases/makro_hesapla.dart';
+import 'domain/entities/makro_hedefleri.dart';
+import 'presentation/bloc/home/home_bloc.dart';
+import 'presentation/bloc/home/home_event.dart';
+import 'presentation/bloc/home/home_state.dart';
+import 'presentation/widgets/makro_progress_card.dart';
+import 'presentation/widgets/ogun_card.dart';
+import 'presentation/pages/home_page_yeni.dart';
+import 'domain/entities/hedef.dart';
+import 'domain/entities/kullanici_profili.dart';
+import 'core/utils/app_logger.dart';
 
 // ============================================================================
 // MAKRO HESAPLAMA EKRANI - DİNAMİK GÜNCELLEME + ALERJİ SİSTEMİ
@@ -171,7 +46,7 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
   void initState() {
     super.initState();
     _hesapla(); // ⭐ İlk yüklemede hesapla
-    
+
     // ⭐ DİNAMİK GÜNCELLEME: Her değişiklikte yeniden hesapla
     _yasController.addListener(_hesapla);
     _boyController.addListener(_hesapla);
@@ -195,19 +70,29 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
     final kilo = double.tryParse(_kiloController.text) ?? 73;
 
     if (yas > 0 && boy > 0 && kilo > 0) {
+      // Geçici profil oluştur (hesaplama için)
+      final tempProfil = KullaniciProfili(
+        id: 'temp',
+        ad: 'Temp',
+        soyad: 'User',
+        yas: yas,
+        cinsiyet: _cinsiyet,
+        boy: boy,
+        mevcutKilo: kilo,
+        hedef: _hedef,
+        aktiviteSeviyesi: _aktivite,
+        diyetTipi: _diyetTipi,
+        manuelAlerjiler: _manuelAlerjiler,
+        kayitTarihi: DateTime.now(),
+      );
+
       setState(() {
-        _sonuc = _hesaplama.tamHesaplama(
-          kilo: kilo,
-          boy: boy,
-          yas: yas,
-          cinsiyet: _cinsiyet,
-          aktivite: _aktivite,
-          hedef: _hedef,
-        );
+        _sonuc = _hesaplama.tamHesaplama(tempProfil);
       });
 
       // Debug log
-      print('🔄 Yeniden hesaplandı: ${_sonuc?.gunlukKalori.toStringAsFixed(0)} kcal');
+      print(
+          '🔄 Yeniden hesaplandı: ${_sonuc?.gunlukKalori.toStringAsFixed(0)} kcal');
     }
   }
 
@@ -336,7 +221,7 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
                     setState(() => _diyetTipi = val!);
                   },
                 ),
-                
+
                 const SizedBox(height: 16),
 
                 // Otomatik kısıtlamalar
@@ -436,7 +321,8 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.info_outline, color: Colors.amber.shade700),
+                            Icon(Icons.info_outline,
+                                color: Colors.amber.shade700),
                             const SizedBox(width: 8),
                             Text(
                               'Toplam ${_tumKisitlamalar.length} Kısıtlama',
@@ -475,7 +361,7 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.green.withOpacity(0.3),
+                      color: Colors.green.withValues(alpha: 0.3),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -542,7 +428,7 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 10,
             offset: const Offset(0, 5),
           ),
@@ -598,7 +484,7 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
     required void Function(T?) onChanged,
   }) {
     return DropdownButtonFormField<T>(
-      value: value,
+      initialValue: value,
       decoration: InputDecoration(
         labelText: label,
         border: OutlineInputBorder(
@@ -627,9 +513,9 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: color.withOpacity(0.3)),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -656,20 +542,21 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
 }
 
 // ============================================================================
-// MAIN
+// MAIN - HIVE + BLOC ENTEGRASYONLYu
 // ============================================================================
 
-void main() {
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(
-          create: (_) => MealProvider(MealRepository())..init(),
-        ),
-      ],
-      child: const MyApp(),
-    ),
-  );
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Hive'ı başlat
+  try {
+    await HiveService.init();
+    AppLogger.info('✅ Hive başarıyla başlatıldı');
+  } catch (e) {
+    AppLogger.error('❌ Hive başlatma hatası: $e');
+  }
+
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -684,13 +571,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const YeniHomePage(),
     );
   }
 }
 
 // ============================================================================
-// HOME PAGE - NAVIGATION
+// HOME PAGE - GÜNLÜK PLAN EKRANI (BLOC ENTEGRASYONLU)
 // ============================================================================
 
 class HomePage extends StatelessWidget {
@@ -698,185 +585,350 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.purple.shade50,
-      appBar: AppBar(
-        title: const Text('ZindeAI - Ana Sayfa'),
-        backgroundColor: Colors.purple.shade200,
-        elevation: 0,
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            const SizedBox(height: 20),
-            const Text(
-              'Hoş Geldiniz! 👋',
-              style: TextStyle(
-                fontSize: 32,
-                fontWeight: FontWeight.bold,
-                color: Colors.purple,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 12),
-            const Text(
-              'Fitness ve beslenme hedeflerinize ulaşmak için ZindeAI ile başlayın',
-              style: TextStyle(
-                fontSize: 16,
-                color: Colors.grey,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 40),
-            _buildFeatureCard(
-              context,
-              title: '📊 Makro Hesaplama',
-              description: 'Kişisel makro besin değerlerinizi hesaplayın',
-              icon: Icons.calculate,
-              color: Colors.green,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const MacroCalculatorPage(),
-                  ),
-                );
-              },
-            ),
-            const SizedBox(height: 16),
-            _buildFeatureCard(
-              context,
-              title: '🍽️ Öğün Veritabanı',
-              description: 'Binlerce öğün tarifi ve besin bilgisi',
-              icon: Icons.restaurant_menu,
-              color: Colors.orange,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const MealListPage(),
-                  ),
-                );
-              },
-            ),
-            const SizedBox(height: 16),
-            _buildFeatureCard(
-              context,
-              title: '🧪 Alternatif Besin Test',
-              description: 'Alternatif besin sistemini test edin',
-              icon: Icons.science,
-              color: Colors.blue,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const AlternatifBesinDemoPage(),
-                  ),
-                );
-              },
-            ),
-            const Spacer(),
-            Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.05),
-                    blurRadius: 10,
-                    offset: const Offset(0, 5),
-                  ),
-                ],
-              ),
-              child: Column(
-                children: [
-                  Icon(Icons.info_outline, color: Colors.purple.shade400),
-                  const SizedBox(height: 8),
-                  const Text(
-                    'ZindeAI ile sağlıklı yaşam yolculuğunuza başlayın',
-                    style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.grey,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 20),
-          ],
+    return BlocProvider(
+      create: (context) => HomeBloc(
+        planlayici: OgunPlanlayici(
+          dataSource: YemekHiveDataSource(),
         ),
-      ),
+        makroHesaplama: MakroHesapla(),
+      )..add(LoadHomePage()),
+      child: const HomePageView(),
     );
   }
+}
 
-  Widget _buildFeatureCard(
-    BuildContext context, {
-    required String title,
-    required String description,
-    required IconData icon,
-    required Color color,
-    required VoidCallback onTap,
-  }) {
-    return Card(
-      elevation: 2,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
+class HomePageView extends StatelessWidget {
+  const HomePageView({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey.shade50,
+      appBar: AppBar(
+        title: const Text('ZindeAI - Günlük Plan'),
+        backgroundColor: Colors.purple,
+        foregroundColor: Colors.white,
+        elevation: 0,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.person),
+            tooltip: 'Profil & Makro Hesaplama',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const MacroCalculatorPage(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(16),
-        child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: color.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Icon(
-                  icon,
-                  size: 32,
-                  color: color,
-                ),
+      body: BlocBuilder<HomeBloc, HomeState>(
+        builder: (context, state) {
+          if (state is HomeLoading) {
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const CircularProgressIndicator(),
+                  const SizedBox(height: 16),
+                  Text(
+                    state.message ?? 'Yükleniyor...',
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.grey.shade600,
+                    ),
+                  ),
+                ],
               ),
-              const SizedBox(width: 16),
-              Expanded(
+            );
+          }
+
+          if (state is HomeError) {
+            return Center(
+              child: Padding(
+                padding: const EdgeInsets.all(24),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Icon(Icons.error_outline,
+                        size: 64, color: Colors.red.shade300),
+                    const SizedBox(height: 16),
                     Text(
-                      title,
+                      state.message,
+                      textAlign: TextAlign.center,
                       style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      description,
-                      style: TextStyle(
-                        fontSize: 14,
-                        color: Colors.grey.shade600,
+                    const SizedBox(height: 24),
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        // Demo kullanıcı oluştur
+                        _createDemoUser(context);
+                      },
+                      icon: const Icon(Icons.person_add),
+                      label: const Text('Demo Kullanıcı Oluştur'),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 24,
+                          vertical: 12,
+                        ),
                       ),
                     ),
                   ],
                 ),
               ),
-              Icon(
-                Icons.arrow_forward_ios,
-                color: Colors.grey.shade400,
-                size: 20,
+            );
+          }
+
+          if (state is HomeLoaded) {
+            return RefreshIndicator(
+              onRefresh: () async {
+                context.read<HomeBloc>().add(RefreshDailyPlan());
+              },
+              child: ListView(
+                padding: const EdgeInsets.all(16),
+                children: [
+                  // Kullanıcı bilgisi
+                  Container(
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          Colors.purple.shade400,
+                          Colors.purple.shade600
+                        ],
+                      ),
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 30,
+                          backgroundColor: Colors.white,
+                          child: Text(
+                            state.kullanici.ad[0].toUpperCase(),
+                            style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.purple.shade600,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 16),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Merhaba ${state.kullanici.ad}!',
+                                style: const TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              Text(
+                                'Hedef: ${state.kullanici.hedef.aciklama}',
+                                style: const TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.white70,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.2),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Column(
+                            children: [
+                              const Text(
+                                'Fitness',
+                                style: TextStyle(
+                                  fontSize: 10,
+                                  color: Colors.white70,
+                                ),
+                              ),
+                              Text(
+                                state.plan.fitnessSkoru.toStringAsFixed(0),
+                                style: const TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  const SizedBox(height: 24),
+
+                  // Makro progress kartları
+                  Text(
+                    'Günlük Makrolar',
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                  ),
+                  const SizedBox(height: 12),
+
+                  MakroProgressCard(
+                    baslik: 'Kalori',
+                    mevcut: state.plan.toplamKalori,
+                    hedef: state.hedefler.gunlukKalori,
+                    renk: Colors.orange,
+                    emoji: '🔥',
+                  ),
+                  MakroProgressCard(
+                    baslik: 'Protein',
+                    mevcut: state.plan.toplamProtein,
+                    hedef: state.hedefler.gunlukProtein,
+                    renk: Colors.red,
+                    emoji: '💪',
+                  ),
+                  MakroProgressCard(
+                    baslik: 'Karbonhidrat',
+                    mevcut: state.plan.toplamKarbonhidrat,
+                    hedef: state.hedefler.gunlukKarbonhidrat,
+                    renk: Colors.amber,
+                    emoji: '🍚',
+                  ),
+                  MakroProgressCard(
+                    baslik: 'Yağ',
+                    mevcut: state.plan.toplamYag,
+                    hedef: state.hedefler.gunlukYag,
+                    renk: Colors.green,
+                    emoji: '🥑',
+                  ),
+
+                  const SizedBox(height: 24),
+
+                  // Öğünler
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Bugünün Öğünleri',
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                              fontWeight: FontWeight.bold,
+                            ),
+                      ),
+                      Row(
+                        children: [
+                          TextButton.icon(
+                            onPressed: () {
+                              context
+                                  .read<HomeBloc>()
+                                  .add(RefreshDailyPlan(forceRegenerate: true));
+                            },
+                            icon: const Icon(Icons.refresh),
+                            label: const Text('Yenile'),
+                          ),
+                          const SizedBox(width: 8),
+                          ElevatedButton.icon(
+                            onPressed: () {
+                              // Haftalık plan oluştur
+                              showDialog(
+                                context: context,
+                                builder: (dialogContext) => AlertDialog(
+                                  title: const Text('Haftalik Plan Olustur'),
+                                  content: const Text(
+                                    '7 gunluk haftalik plan olusturulsun mu? Bu islem birkac dakika surebilir.',
+                                  ),
+                                  actions: [
+                                    TextButton(
+                                      onPressed: () =>
+                                          Navigator.pop(dialogContext),
+                                      child: const Text('İptal'),
+                                    ),
+                                    ElevatedButton(
+                                      onPressed: () {
+                                        Navigator.pop(dialogContext);
+                                        context.read<HomeBloc>().add(
+                                              GenerateWeeklyPlan(
+                                                  forceRegenerate: true),
+                                            );
+                                      },
+                                      style: ElevatedButton.styleFrom(
+                                        backgroundColor: Colors.green,
+                                        foregroundColor: Colors.white,
+                                      ),
+                                      child: const Text('Oluştur'),
+                                    ),
+                                  ],
+                                ),
+                              );
+                            },
+                            icon: const Icon(Icons.calendar_month),
+                            label: const Text('7 Günlük Plan'),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                              foregroundColor: Colors.white,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 12),
+
+                  ...state.plan.ogunler.map((yemek) {
+                    return OgunCard(
+                      yemek: yemek,
+                      onTap: () {
+                        context
+                            .read<HomeBloc>()
+                            .add(ToggleMealCompletion(yemek.id));
+                      },
+                    );
+                  }),
+
+                  const SizedBox(height: 80),
+                ],
               ),
-            ],
-          ),
-        ),
+            );
+          }
+
+          return const SizedBox.shrink();
+        },
       ),
     );
+  }
+
+  Future<void> _createDemoUser(BuildContext context) async {
+    // Demo kullanıcı oluştur
+    final demoUser = KullaniciProfili(
+      id: 'demo_user',
+      ad: 'Ahmet',
+      soyad: 'Yılmaz',
+      yas: 25,
+      cinsiyet: Cinsiyet.erkek,
+      boy: 180,
+      mevcutKilo: 75,
+      hedefKilo: 80,
+      hedef: Hedef.kasKazanKiloAl,
+      aktiviteSeviyesi: AktiviteSeviyesi.ortaAktif,
+      diyetTipi: DiyetTipi.normal,
+      manuelAlerjiler: [],
+      kayitTarihi: DateTime.now(),
+    );
+
+    await HiveService.kullaniciKaydet(demoUser);
+
+    if (context.mounted) {
+      context.read<HomeBloc>().add(LoadHomePage());
+    }
   }
 }

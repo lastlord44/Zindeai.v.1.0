@@ -57,20 +57,21 @@ class KullaniciProfili extends Equatable {
   // Tüm kısıtlamaları birleştir (Diyet tipi + Manuel alerjiler)
   List<String> get tumKisitlamalar {
     final Set<String> kisitlamalar = {};
-    
+
     // Diyet tipinden gelen varsayılan kısıtlamalar
     kisitlamalar.addAll(diyetTipi.varsayilanKisitlamalar);
-    
+
     // Manuel eklenen alerjiler
     kisitlamalar.addAll(manuelAlerjiler);
-    
+
     return kisitlamalar.toList();
   }
 
   // Bir yemeğin yenebilir olup olmadığını kontrol et
   bool yemekYenebilirMi(List<String> yemekIcerikleri) {
-    final kisitlamalarKucuk = tumKisitlamalar.map((k) => k.toLowerCase()).toSet();
-    
+    final kisitlamalarKucuk =
+        tumKisitlamalar.map((k) => k.toLowerCase()).toSet();
+
     for (final icerik in yemekIcerikleri) {
       if (kisitlamalarKucuk.contains(icerik.toLowerCase())) {
         return false; // Kısıtlama var, yenebilir değil

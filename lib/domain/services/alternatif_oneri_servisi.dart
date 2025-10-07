@@ -93,6 +93,22 @@ class BesinVeritabani {
       'karb100g': 42.1,
       'yag100g': 30.7,
     },
+    'pirinç_patlağı': {
+      'porsiyonGram': 10.0,
+      'standartAdetSayisi': 10,
+      'kalori100g': 402,
+      'protein100g': 8.2,
+      'karb100g': 83.6,
+      'yag100g': 3.1,
+    },
+    'karabuğday_patlağı': {
+      'porsiyonGram': 10.0,
+      'standartAdetSayisi': 10,
+      'kalori100g': 392,
+      'protein100g': 11.7,
+      'karb100g': 78.4,
+      'yag100g': 2.8,
+    },
 
     // ========================================================================
     // 2. TAZE MEYVELER (9 çeşit)
@@ -596,6 +612,12 @@ class BesinVeritabani {
       'chia_tohumu',
     ],
 
+    // Ara Öğün - Patlaklar (Düşük Kalorili Atıştırmalık)
+    'ara_ogun_patlak': [
+      'pirinç_patlağı',
+      'karabuğday_patlağı',
+    ],
+
     // Ara Öğün - Taze Meyveler (Düşük Kalorili)
     'ara_ogun_meyve_dusuk_kalori': [
       'elma',
@@ -825,22 +847,24 @@ class AlternatifOneriServisi {
     // ⭐ ADIM 4: Porsiyon sayısını gerçek miktara dönüştür (birim türüne göre)
     final porsiyonGram = alternatifData['porsiyonGram']!;
     final standartAdetSayisi = alternatifData['standartAdetSayisi'];
-    
+
     double gosterilecekMiktar;
     double gercekPorsiyonSayisi; // Gerçekte kullanılacak porsiyon
-    
+
     if (alternatifBirim == 'adet' && standartAdetSayisi != null) {
       // ⭐ KURUYEMIŞLER ve MEYVELER: Önce porsiyon yuvarla, sonra adete çevir, TAM SAYIYA YUVARLA
       // 0.817 porsiyon → 0.75 porsiyon → 0.75 × 10 = 7.5 → 8 adet (tam sayı!)
       final yuvarlanmisPorsiyon = _akillicaYuvarla(alternatifPorsiyonSayisi);
       final hesaplananAdet = yuvarlanmisPorsiyon * standartAdetSayisi;
-      gosterilecekMiktar = hesaplananAdet.round().toDouble(); // TAM SAYIYA YUVARLA!
+      gosterilecekMiktar =
+          hesaplananAdet.round().toDouble(); // TAM SAYIYA YUVARLA!
       gercekPorsiyonSayisi = gosterilecekMiktar / standartAdetSayisi;
     } else if (alternatifBirim == 'gram' || alternatifBirim == 'ml') {
       // ⭐ SÜT ve PROTEİN: Önce gram hesapla, SONRA yuvarla
       // 0.837 porsiyon × 170g = 142.3g → 140g (10'un katları)
       final hesaplananGram = alternatifPorsiyonSayisi * porsiyonGram;
-      gosterilecekMiktar = (hesaplananGram / 10).round() * 10.0; // 10'un katlarına yuvarla
+      gosterilecekMiktar =
+          (hesaplananGram / 10).round() * 10.0; // 10'un katlarına yuvarla
       if (gosterilecekMiktar < 10) gosterilecekMiktar = 10.0; // Minimum 10g
       gercekPorsiyonSayisi = gosterilecekMiktar / porsiyonGram;
     } else {
@@ -868,7 +892,9 @@ class AlternatifOneriServisi {
     }
 
     // ⭐ ADIM 7.5: Kuruyemişler için adet kontrolü (maksimum 25 adet)
-    if (kategori.contains('kuruyemis') && alternatifBirim == 'adet' && gosterilecekMiktar > 25) {
+    if (kategori.contains('kuruyemis') &&
+        alternatifBirim == 'adet' &&
+        gosterilecekMiktar > 25) {
       print(
           '  ⚠️ ${_besinGuzelIsim(alternatifBesin)}: Çok fazla adet (${gosterilecekMiktar.toStringAsFixed(0)} adet)');
       return null; // 25 adetten fazlaysa gösterme
@@ -911,7 +937,7 @@ class AlternatifOneriServisi {
     if (_birimAdetMi(birim)) {
       // ⭐ DİYETİSYEN STANDARDI: Adet bazlı hesaplama
       final standartAdetSayisi = besinData['standartAdetSayisi'];
-      
+
       if (standartAdetSayisi != null) {
         // Kuruyemişler için: 13 adet fındık = (13/21) * 28g = 17.3g
         toplamGram = (miktar / standartAdetSayisi) * porsiyonGram;
@@ -979,7 +1005,7 @@ class AlternatifOneriServisi {
   static String _besinNormalize(String besinAdi) {
     // 1. Küçük harfe çevir ve boşlukları _ yap
     String normalized = besinAdi.toLowerCase().trim().replaceAll(' ', '_');
-    
+
     // 2. ASCII → Türkçe besin adı çevirisi (Dictionary-based, sadece bilinen besinler)
     final Map<String, String> asciiToTurkish = {
       // Kuruyemişler
@@ -991,20 +1017,27 @@ class AlternatifOneriServisi {
       'aycekirdegi': 'ayçekirdeği',
       'keten_tohümu': 'keten_tohumu',
       'chia_tohümu': 'chia_tohumu',
-      
+
+      // Patlaklar
+      'pirinc_patlagi': 'pirinç_patlağı',
+      'pirınc_patlağı': 'pirinç_patlağı',
+      'pirinç_patlagi': 'pirinç_patlağı',
+      'karabugday_patlagi': 'karabuğday_patlağı',
+      'karabuğday_patlagi': 'karabuğday_patlağı',
+
       // Meyveler
       'cilek': 'çilek',
       'uzum': 'üzüm',
       'greyfürt': 'greyfurt',
       'kivi': 'kivi',
       'mandalına': 'mandalina',
-      
+
       // Kuru Meyveler
       'hürma': 'hurma',
       'kuru_incir': 'kuru_incir',
       'kuru_kayisi': 'kuru_kayısı',
       'kuru_uzum': 'kuru_üzüm',
-      
+
       // Süt Ürünleri
       'yogurt': 'yoğurt',
       'yögürt': 'yoğurt',
@@ -1019,7 +1052,7 @@ class AlternatifOneriServisi {
       'ispanak': 'ıspanak',
       'çeviz': 'ceviz',
       'müz': 'muz',
-      
+
       // Protein
       'tavuk_gogsu': 'tavuk_göğsü',
       'tavuk_gögsu': 'tavuk_göğsü',
@@ -1030,18 +1063,18 @@ class AlternatifOneriServisi {
       'ton_baligi': 'ton_balığı',
       'cipura': 'çipura',
       'çipüra': 'çipura',
-      
+
       // Baklagiller
       'kirmizi_mercimek': 'kırmızı_mercimek',
       'yesil_mercimek': 'yeşil_mercimek',
       'barbünya': 'barbunya',
       'kuru_fasülye': 'kuru_fasulye',
-      
+
       // Yumurta
       'yümurta': 'yumurta',
       'yumurta_aki': 'yumurta_akı',
       'yumurta_sarisi': 'yumurta_sarısı',
-      
+
       // Tahıllar
       'bulgur': 'bulgur',
       'bulgür': 'bulgur',
@@ -1049,21 +1082,21 @@ class AlternatifOneriServisi {
       'pirınc': 'pirinç',
       'esmer_pirinc': 'esmer_pirinç',
       'kınoa': 'kinoa',
-      
+
       // Ekmek
       'tam_bugday_ekmegi': 'tam_buğday_ekmeği',
       'cavdar_ekmegi': 'çavdar_ekmeği',
-      
+
       // Sebzeler
       'tatli_patates': 'tatlı_patates',
       'havuc': 'havuç',
     };
-    
+
     // 3. Eğer mapping'de varsa, Türkçe versiyonu kullan
     if (asciiToTurkish.containsKey(normalized)) {
       normalized = asciiToTurkish[normalized]!;
     }
-    
+
     return normalized;
   }
 

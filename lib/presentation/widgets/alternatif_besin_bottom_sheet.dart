@@ -110,6 +110,13 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
                         ],
                       ),
                     ),
+                    // Geri/Kapat butonu
+                    IconButton(
+                      onPressed: () => Navigator.pop(context),
+                      icon: const Icon(Icons.close),
+                      tooltip: 'Kapat',
+                      color: Colors.grey.shade600,
+                    ),
                   ],
                 ),
                 const SizedBox(height: 16),
@@ -186,7 +193,7 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
         border: Border.all(color: Colors.green.shade200, width: 2),
         boxShadow: [
           BoxShadow(
-            color: Colors.green.withOpacity(0.1),
+            color: Colors.green.withValues(alpha: 0.1),
             blurRadius: 8,
             offset: const Offset(0, 2),
           ),
@@ -311,7 +318,7 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(8),
       ),
       child: Row(

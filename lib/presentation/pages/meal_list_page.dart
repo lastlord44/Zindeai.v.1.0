@@ -147,7 +147,7 @@ class _MealListPageState extends State<MealListPage> {
                   children: [
                     Expanded(
                       child: DropdownButtonFormField<MealCategory?>(
-                        value: _selectedCategory,
+                        initialValue: _selectedCategory,
                         decoration: InputDecoration(
                           labelText: 'Kategori',
                           border: OutlineInputBorder(
@@ -176,7 +176,7 @@ class _MealListPageState extends State<MealListPage> {
                     const SizedBox(width: 12),
                     Expanded(
                       child: DropdownButtonFormField<GoalTag?>(
-                        value: _selectedGoal,
+                        initialValue: _selectedGoal,
                         decoration: InputDecoration(
                           labelText: 'Hedef',
                           border: OutlineInputBorder(
@@ -398,9 +398,9 @@ class _MealListPageState extends State<MealListPage> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: color.withOpacity(0.3)),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -627,9 +627,9 @@ class _MealListPageState extends State<MealListPage> {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: color.withOpacity(0.3)),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
       ),
       child: Column(
         children: [

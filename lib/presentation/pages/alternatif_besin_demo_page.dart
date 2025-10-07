@@ -180,7 +180,7 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.05),
+                    color: Colors.black.withValues(alpha: 0.05),
                     blurRadius: 10,
                     offset: const Offset(0, 5),
                   ),
@@ -231,7 +231,7 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
                       Expanded(
                         flex: 2,
                         child: DropdownButtonFormField<String>(
-                          value: _secilenBirim,
+                          initialValue: _secilenBirim,
                           decoration: InputDecoration(
                             labelText: 'Birim',
                             border: OutlineInputBorder(
@@ -303,7 +303,7 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.05),
+                    color: Colors.black.withValues(alpha: 0.05),
                     blurRadius: 10,
                     offset: const Offset(0, 5),
                   ),
@@ -349,7 +349,7 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.05),
+                      color: Colors.black.withValues(alpha: 0.05),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -391,7 +391,7 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.green.withOpacity(0.3),
+                      color: Colors.green.withValues(alpha: 0.3),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -513,7 +513,7 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(6),
       ),
       child: Text(

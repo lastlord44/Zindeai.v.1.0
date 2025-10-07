@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "indirilen dosyalar/**"
+    - "zinde ai için mealler/**"
+    - "**/*.g.dart"
+    - "build/**"
+    - ".dart_tool/**"
+
+linter:
+  rules:
+    # Deprecated API kullanımını uyar
+    deprecated_member_use: warning
+    # Unused imports
+    unused_import: warning
+    # Unused variables
+    unused_local_variable: warning
+    # Unused elements
+    unused_element: warning
+
+
+

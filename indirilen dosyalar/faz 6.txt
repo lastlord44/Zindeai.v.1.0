@@ -1,0 +1,1126 @@
+🚀 ZindeAI - FAZ 6-10 Tam Implementasyon
+Size Flutter projeniz için FAZ 6-10'un eksiksiz kodlarını hazırlıyorum. Her fazı detaylı şekilde, dosya yapısıyla birlikte veriyorum.
+
+📁 PROJE YAPISINA EKLENECEK DOSYALAR
+lib/
+├── data/
+│   ├── models/
+│   │   ├── kullanici_hive_model.dart
+│   │   ├── kullanici_hive_model.g.dart (build_runner üretecek)
+│   │   ├── gunluk_plan_hive_model.dart
+│   │   └── gunluk_plan_hive_model.g.dart
+│   └── local/
+│       └── hive_service.dart
+├── presentation/
+│   ├── bloc/
+│   │   ├── home/
+│   │   │   ├── home_bloc.dart
+│   │   │   ├── home_event.dart
+│   │   │   └── home_state.dart
+│   │   └── analytics/
+│   │       ├── analytics_bloc.dart
+│   │       ├── analytics_event.dart
+│   │       └── analytics_state.dart
+│   ├── pages/
+│   │   ├── home_page.dart
+│   │   ├── analytics_page.dart
+│   │   └── workout_page.dart
+│   └── widgets/
+│       ├── makro_progress_card.dart
+│       ├── ogun_card.dart
+│       └── makro_chart.dart
+└── domain/
+    └── entities/
+        ├── antrenman.dart
+        └── workout_program.dart
+
+FAZ 6: LOCAL STORAGE (HIVE)
+1️⃣ pubspec.yaml Güncellemesi
+yamldependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Charts
+  fl_chart: ^0.65.0
+  
+  # Utils
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+  # Hive Code Generation
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+2️⃣ kullanici_hive_model.dart
+dart// lib/data/models/kullanici_hive_model.dart
+
+import 'package:hive/hive.dart';
+import '../../domain/entities/kullanici_profili.dart';
+
+part 'kullanici_hive_model.g.dart';
+
+@HiveType(typeId: 0)
+class KullaniciHiveModel extends HiveObject {
+  @HiveField(0)
+  final String id;
+
+  @HiveField(1)
+  final String ad;
+
+  @HiveField(2)
+  final String soyad;
+
+  @HiveField(3)
+  final int yas;
+
+  @HiveField(4)
+  final double boy;
+
+  @HiveField(5)
+  final double mevcutKilo;
+
+  @HiveField(6)
+  final double? hedefKilo;
+
+  @HiveField(7)
+  final String hedef;
+
+  @HiveField(8)
+  final String cinsiyet;
+
+  @HiveField(9)
+  final String aktiviteSeviyesi;
+
+  @HiveField(10)
+  final String diyetTipi;
+
+  @HiveField(11)
+  final List<String> manuelAlerjiler;
+
+  @HiveField(12)
+  final DateTime kayitTarihi;
+
+  @HiveField(13)
+  final double? gunlukKaloriHedefi;
+
+  @HiveField(14)
+  final double? gunlukProteinHedefi;
+
+  KullaniciHiveModel({
+    required this.id,
+    required this.ad,
+    required this.soyad,
+    required this.yas,
+    required this.boy,
+    required this.mevcutKilo,
+    this.hedefKilo,
+    required this.hedef,
+    required this.cinsiyet,
+    required this.aktiviteSeviyesi,
+    required this.diyetTipi,
+    required this.manuelAlerjiler,
+    required this.kayitTarihi,
+    this.gunlukKaloriHedefi,
+    this.gunlukProteinHedefi,
+  });
+
+  // Domain entity'ye dönüştürme
+  KullaniciProfili toDomain() {
+    return KullaniciProfili(
+      id: id,
+      ad: ad,
+      soyad: soyad,
+      yas: yas,
+      cinsiyet: Cinsiyet.values.firstWhere(
+        (e) => e.name == cinsiyet,
+        orElse: () => Cinsiyet.erkek,
+      ),
+      boy: boy,
+      mevcutKilo: mevcutKilo,
+      hedefKilo: hedefKilo,
+      hedef: Hedef.values.firstWhere(
+        (e) => e.name == hedef,
+        orElse: () => Hedef.kiloKoruma,
+      ),
+      aktiviteSeviyesi: AktiviteSeviyesi.values.firstWhere(
+        (e) => e.name == aktiviteSeviyesi,
+        orElse: () => AktiviteSeviyesi.orta,
+      ),
+      diyetTipi: DiyetTipi.values.firstWhere(
+        (e) => e.name == diyetTipi,
+        orElse: () => DiyetTipi.normal,
+      ),
+      manuelAlerjiler: manuelAlerjiler,
+      kayitTarihi: kayitTarihi,
+    );
+  }
+
+  // Domain entity'den oluşturma
+  factory KullaniciHiveModel.fromDomain(KullaniciProfili profil) {
+    return KullaniciHiveModel(
+      id: profil.id,
+      ad: profil.ad,
+      soyad: profil.soyad,
+      yas: profil.yas,
+      boy: profil.boy,
+      mevcutKilo: profil.mevcutKilo,
+      hedefKilo: profil.hedefKilo,
+      hedef: profil.hedef.name,
+      cinsiyet: profil.cinsiyet.name,
+      aktiviteSeviyesi: profil.aktiviteSeviyesi.name,
+      diyetTipi: profil.diyetTipi.name,
+      manuelAlerjiler: profil.manuelAlerjiler,
+      kayitTarihi: profil.kayitTarihi,
+    );
+  }
+}
+3️⃣ gunluk_plan_hive_model.dart
+dart// lib/data/models/gunluk_plan_hive_model.dart
+
+import 'package:hive/hive.dart';
+import '../../domain/entities/gunluk_plan.dart';
+import '../../domain/entities/yemek.dart';
+
+part 'gunluk_plan_hive_model.g.dart';
+
+@HiveType(typeId: 1)
+class GunlukPlanHiveModel extends HiveObject {
+  @HiveField(0)
+  final String tarih; // ISO8601 string
+
+  @HiveField(1)
+  final List<YemekHiveModel> kahvalti;
+
+  @HiveField(2)
+  final List<YemekHiveModel> ogleYemegi;
+
+  @HiveField(3)
+  final List<YemekHiveModel> aksam Yemegi;
+
+  @HiveField(4)
+  final List<YemekHiveModel> aperatifler;
+
+  @HiveField(5)
+  final double toplamKalori;
+
+  @HiveField(6)
+  final double toplamProtein;
+
+  @HiveField(7)
+  final double toplamKarbonhidrat;
+
+  @HiveField(8)
+  final double toplamYag;
+
+  GunlukPlanHiveModel({
+    required this.tarih,
+    required this.kahvalti,
+    required this.ogleYemegi,
+    required this.aksamYemegi,
+    required this.aperatifler,
+    required this.toplamKalori,
+    required this.toplamProtein,
+    required this.toplamKarbonhidrat,
+    required this.toplamYag,
+  });
+
+  GunlukPlan toDomain() {
+    return GunlukPlan(
+      tarih: DateTime.parse(tarih),
+      kahvalti: kahvalti.map((y) => y.toDomain()).toList(),
+      ogleYemegi: ogleYemegi.map((y) => y.toDomain()).toList(),
+      aksamYemegi: aksamYemegi.map((y) => y.toDomain()).toList(),
+      aperatifler: aperatifler.map((y) => y.toDomain()).toList(),
+    );
+  }
+
+  factory GunlukPlanHiveModel.fromDomain(GunlukPlan plan) {
+    return GunlukPlanHiveModel(
+      tarih: plan.tarih.toIso8601String(),
+      kahvalti: plan.kahvalti.map((y) => YemekHiveModel.fromDomain(y)).toList(),
+      ogleYemegi: plan.ogleYemegi.map((y) => YemekHiveModel.fromDomain(y)).toList(),
+      aksamYemegi: plan.aksamYemegi.map((y) => YemekHiveModel.fromDomain(y)).toList(),
+      aperatifler: plan.aperatifler.map((y) => YemekHiveModel.fromDomain(y)).toList(),
+      toplamKalori: plan.toplamKalori,
+      toplamProtein: plan.toplamProtein,
+      toplamKarbonhidrat: plan.toplamKarbonhidrat,
+      toplamYag: plan.toplamYag,
+    );
+  }
+}
+
+@HiveType(typeId: 2)
+class YemekHiveModel {
+  @HiveField(0)
+  final String id;
+
+  @HiveField(1)
+  final String ad;
+
+  @HiveField(2)
+  final String ogun; // enum string
+
+  @HiveField(3)
+  final double kalori;
+
+  @HiveField(4)
+  final double protein;
+
+  @HiveField(5)
+  final double karbonhidrat;
+
+  @HiveField(6)
+  final double yag;
+
+  @HiveField(7)
+  final List<String> malzemeler;
+
+  YemekHiveModel({
+    required this.id,
+    required this.ad,
+    required this.ogun,
+    required this.kalori,
+    required this.protein,
+    required this.karbonhidrat,
+    required this.yag,
+    required this.malzemeler,
+  });
+
+  Yemek toDomain() {
+    return Yemek(
+      id: id,
+      ad: ad,
+      ogun: OgunTipi.values.firstWhere(
+        (e) => e.name == ogun,
+        orElse: () => OgunTipi.kahvalti,
+      ),
+      kalori: kalori,
+      protein: protein,
+      karbonhidrat: karbonhidrat,
+      yag: yag,
+      malzemeler: malzemeler,
+    );
+  }
+
+  factory YemekHiveModel.fromDomain(Yemek yemek) {
+    return YemekHiveModel(
+      id: yemek.id,
+      ad: yemek.ad,
+      ogun: yemek.ogun.name,
+      kalori: yemek.kalori,
+      protein: yemek.protein,
+      karbonhidrat: yemek.karbonhidrat,
+      yag: yemek.yag,
+      malzemeler: yemek.malzemeler,
+    );
+  }
+}
+4️⃣ hive_service.dart
+dart// lib/data/local/hive_service.dart
+
+import 'package:hive_flutter/hive_flutter.dart';
+import '../models/kullanici_hive_model.dart';
+import '../models/gunluk_plan_hive_model.dart';
+import '../../domain/entities/kullanici_profili.dart';
+import '../../domain/entities/gunluk_plan.dart';
+
+class HiveService {
+  static const String _kullaniciBox = 'kullanici_box';
+  static const String _planlarBox = 'planlar_box';
+  static const String _antrenmanBox = 'antrenman_box';
+
+  /// Hive'ı başlat
+  static Future<void> init() async {
+    await Hive.initFlutter();
+
+    // Adapter'ları kaydet
+    Hive.registerAdapter(KullaniciHiveModelAdapter());
+    Hive.registerAdapter(GunlukPlanHiveModelAdapter());
+    Hive.registerAdapter(YemekHiveModelAdapter());
+
+    // Box'ları aç
+    await Hive.openBox<KullaniciHiveModel>(_kullaniciBox);
+    await Hive.openBox<GunlukPlanHiveModel>(_planlarBox);
+    await Hive.openBox(_antrenmanBox);
+
+    print('✅ Hive başlatıldı');
+  }
+
+  // ==================== KULLANICI İŞLEMLERİ ====================
+
+  /// Kullanıcı kaydet
+  static Future<void> kullaniciKaydet(KullaniciProfili profil) async {
+    try {
+      final box = Hive.box<KullaniciHiveModel>(_kullaniciBox);
+      final model = KullaniciHiveModel.fromDomain(profil);
+      await box.put('aktif_kullanici', model);
+      print('✅ Kullanıcı kaydedildi: ${profil.ad} ${profil.soyad}');
+    } catch (e) {
+      print('❌ Kullanıcı kaydetme hatası: $e');
+      rethrow;
+    }
+  }
+
+  /// Kullanıcı getir
+  static KullaniciProfili? kullaniciGetir() {
+    try {
+      final box = Hive.box<KullaniciHiveModel>(_kullaniciBox);
+      final model = box.get('aktif_kullanici');
+      return model?.toDomain();
+    } catch (e) {
+      print('❌ Kullanıcı getirme hatası: $e');
+      return null;
+    }
+  }
+
+  /// Kullanıcı var mı?
+  static bool kullaniciVarMi() {
+    final box = Hive.box<KullaniciHiveModel>(_kullaniciBox);
+    return box.containsKey('aktif_kullanici');
+  }
+
+  // ==================== PLAN İŞLEMLERİ ====================
+
+  /// Plan kaydet
+  static Future<void> planKaydet(GunlukPlan plan) async {
+    try {
+      final box = Hive.box<GunlukPlanHiveModel>(_planlarBox);
+      final model = GunlukPlanHiveModel.fromDomain(plan);
+      final key = _tarihAnahtariOlustur(plan.tarih);
+      await box.put(key, model);
+      print('✅ Plan kaydedildi: ${plan.tarih}');
+    } catch (e) {
+      print('❌ Plan kaydetme hatası: $e');
+      rethrow;
+    }
+  }
+
+  /// Plan getir (tarihe göre)
+  static GunlukPlan? planGetir(DateTime tarih) {
+    try {
+      final box = Hive.box<GunlukPlanHiveModel>(_planlarBox);
+      final key = _tarihAnahtariOlustur(tarih);
+      final model = box.get(key);
+      return model?.toDomain();
+    } catch (e) {
+      print('❌ Plan getirme hatası: $e');
+      return null;
+    }
+  }
+
+  /// Bugünün planı var mı?
+  static bool bugunPlanVarMi() {
+    final bugun = DateTime.now();
+    return planGetir(bugun) != null;
+  }
+
+  /// Son N günün planlarını getir
+  static List<GunlukPlan> sonPlanlariGetir({int gun = 30}) {
+    try {
+      final box = Hive.box<GunlukPlanHiveModel>(_planlarBox);
+      final simdi = DateTime.now();
+      final baslangic = simdi.subtract(Duration(days: gun));
+
+      final planlar = <GunlukPlan>[];
+
+      for (var model in box.values) {
+        final tarih = DateTime.parse(model.tarih);
+        if (tarih.isAfter(baslangic) && tarih.isBefore(simdi.add(Duration(days: 1)))) {
+          planlar.add(model.toDomain());
+        }
+      }
+
+      // Tarihe göre sırala
+      planlar.sort((a, b) => a.tarih.compareTo(b.tarih));
+
+      return planlar;
+    } catch (e) {
+      print('❌ Geçmiş planlar getirme hatası: $e');
+      return [];
+    }
+  }
+
+  /// Belirli tarih aralığındaki planları getir
+  static List<GunlukPlan> tarihAraligiPlanlariGetir(
+    DateTime baslangic,
+    DateTime bitis,
+  ) {
+    try {
+      final box = Hive.box<GunlukPlanHiveModel>(_planlarBox);
+      final planlar = <GunlukPlan>[];
+
+      for (var model in box.values) {
+        final tarih = DateTime.parse(model.tarih);
+        if ((tarih.isAfter(baslangic) || tarih.isAtSameMomentAs(baslangic)) &&
+            (tarih.isBefore(bitis) || tarih.isAtSameMomentAs(bitis))) {
+          planlar.add(model.toDomain());
+        }
+      }
+
+      planlar.sort((a, b) => a.tarih.compareTo(b.tarih));
+      return planlar;
+    } catch (e) {
+      print('❌ Tarih aralığı planları getirme hatası: $e');
+      return [];
+    }
+  }
+
+  // ==================== İSTATİSTİK İŞLEMLERİ ====================
+
+  /// Ortalama günlük kalori
+  static double ortalamaGunlukKalori({int gun = 7}) {
+    final planlar = sonPlanlariGetir(gun: gun);
+    if (planlar.isEmpty) return 0;
+
+    final toplam = planlar.fold<double>(
+      0,
+      (sum, plan) => sum + plan.toplamKalori,
+    );
+
+    return toplam / planlar.length;
+  }
+
+  /// Ortalama günlük protein
+  static double ortalamaGunlukProtein({int gun = 7}) {
+    final planlar = sonPlanlariGetir(gun: gun);
+    if (planlar.isEmpty) return 0;
+
+    final toplam = planlar.fold<double>(
+      0,
+      (sum, plan) => sum + plan.toplamProtein,
+    );
+
+    return toplam / planlar.length;
+  }
+
+  // ==================== TEMİZLİK İŞLEMLERİ ====================
+
+  /// Tüm kullanıcı verilerini sil
+  static Future<void> kullaniciSil() async {
+    try {
+      final box = Hive.box<KullaniciHiveModel>(_kullaniciBox);
+      await box.clear();
+      print('🗑️ Kullanıcı verileri silindi');
+    } catch (e) {
+      print('❌ Kullanıcı silme hatası: $e');
+    }
+  }
+
+  /// Tüm planları sil
+  static Future<void> planlariSil() async {
+    try {
+      final box = Hive.box<GunlukPlanHiveModel>(_planlarBox);
+      await box.clear();
+      print('🗑️ Plan verileri silindi');
+    } catch (e) {
+      print('❌ Plan silme hatası: $e');
+    }
+  }
+
+  /// Tüm verileri sil
+  static Future<void> tumVerileriSil() async {
+    await kullaniciSil();
+    await planlariSil();
+    print('🗑️ Tüm veriler silindi');
+  }
+
+  /// Eski planları temizle (30 günden eski)
+  static Future<void> eskiPlanlariTemizle() async {
+    try {
+      final box = Hive.box<GunlukPlanHiveModel>(_planlarBox);
+      final simdi = DateTime.now();
+      final esikTarih = simdi.subtract(Duration(days: 30));
+
+      final silinecekAnahtarlar = <String>[];
+
+      for (var entry in box.toMap().entries) {
+        final model = entry.value;
+        final tarih = DateTime.parse(model.tarih);
+
+        if (tarih.isBefore(esikTarih)) {
+          silinecekAnahtarlar.add(entry.key);
+        }
+      }
+
+      for (var key in silinecekAnahtarlar) {
+        await box.delete(key);
+      }
+
+      print('🧹 ${silinecekAnahtarlar.length} eski plan temizlendi');
+    } catch (e) {
+      print('❌ Eski plan temizleme hatası: $e');
+    }
+  }
+
+  // ==================== YARDIMCI METODLAR ====================
+
+  /// Tarih için benzersiz anahtar oluştur (YYYY-MM-DD)
+  static String _tarihAnahtariOlustur(DateTime tarih) {
+    return '${tarih.year}-${tarih.month.toString().padLeft(2, '0')}-${tarih.day.toString().padLeft(2, '0')}';
+  }
+
+  /// Debug bilgisi
+  static void debugBilgisi() {
+    print('\n📊 === HIVE DEBUG BİLGİSİ ===');
+    print('Kullanıcı var mı: ${kullaniciVarMi()}');
+    print('Bugün plan var mı: ${bugunPlanVarMi()}');
+    print('Toplam plan sayısı: ${Hive.box<GunlukPlanHiveModel>(_planlarBox).length}');
+    print('Ortalama kalori (7 gün): ${ortalamaGunlukKalori().toStringAsFixed(0)}');
+    print('Ortalama protein (7 gün): ${ortalamaGunlukProtein().toStringAsFixed(0)}');
+    print('=========================\n');
+  }
+}
+5️⃣ Build Runner Komutu
+Terminal'de şu komutu çalıştırın:
+bashflutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+
+FAZ 7: UI COMPONENTS
+1️⃣ makro_progress_card.dart
+dart// lib/presentation/widgets/makro_progress_card.dart
+
+import 'package:flutter/material.dart';
+
+class MakroProgressCard extends StatelessWidget {
+  final String baslik;
+  final double mevcut;
+  final double hedef;
+  final Color renk;
+  final String emoji;
+  final bool animasyonlu;
+
+  const MakroProgressCard({
+    Key? key,
+    required this.baslik,
+    required this.mevcut,
+    required this.hedef,
+    required this.renk,
+    required this.emoji,
+    this.animasyonlu = true,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final yuzde = hedef > 0 ? (mevcut / hedef * 100).clamp(0, 100) : 0.0;
+    final kalanMiktar = (hedef - mevcut).clamp(0, double.infinity);
+    final astiMi = mevcut > hedef;
+
+    return Container(
+      margin: const EdgeInsets.only(bottom: 16),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+            color: renk.withOpacity(0.15),
+            blurRadius: 15,
+            offset: const Offset(0, 5),
+          ),
+        ],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: Container(
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Colors.white,
+                renk.withOpacity(0.05),
+              ],
+            ),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Başlık Row
+              Row(
+                children: [
+                  Container(
+                    width: 48,
+                    height: 48,
+                    decoration: BoxDecoration(
+                      color: renk.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Center(
+                      child: Text(
+                        emoji,
+                        style: const TextStyle(fontSize: 24),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          baslik,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.grey.shade800,
+                          ),
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          '${mevcut.toStringAsFixed(0)} / ${hedef.toStringAsFixed(0)}g',
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.grey.shade600,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  // Yüzde Badge
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 6,
+                    ),
+                    decoration: BoxDecoration(
+                      color: astiMi ? Colors.red.shade50 : renk.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Text(
+                      '${yuzde.toStringAsFixed(0)}%',
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                        color: astiMi ? Colors.red : renk,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+
+              const SizedBox(height: 16),
+
+              // Progress Bar
+              Stack(
+                children: [
+                  // Arka plan
+                  Container(
+                    height: 12,
+                    decoration: BoxDecoration(
+                      color: renk.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                  ),
+                  // Dolgu
+                  animasyonlu
+                      ? TweenAnimationBuilder<double>(
+                          duration: const Duration(milliseconds: 800),
+                          curve: Curves.easeOutCubic,
+                          tween: Tween(begin: 0, end: yuzde / 100),
+                          builder: (context, value, child) {
+                            return FractionallySizedBox(
+                              widthFactor: value,
+                              child: Container(
+                                height: 12,
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    colors: astiMi
+                                        ? [Colors.red, Colors.red.shade300]
+                                        : [renk, renk.withOpacity(0.7)],
+                                  ),
+                                  borderRadius: BorderRadius.circular(6),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: renk.withOpacity(0.3),
+                                      blurRadius: 8,
+                                      offset: const Offset(0, 2),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            );
+                          },
+                        )
+                      : FractionallySizedBox(
+                          widthFactor: yuzde / 100,
+                          child: Container(
+                            height: 12,
+                            decoration: BoxDecoration(
+                              color: renk,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
+                        ),
+                ],
+              ),
+
+              const SizedBox(height: 12),
+
+              // Alt bilgi
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  if (!astiMi && kalanMiktar > 0)
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.trending_up,
+                          size: 16,
+                          color: Colors.grey.shade600,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          'Kalan: ${kalanMiktar.toStringAsFixed(0)}g',
+                          style: TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.grey.shade600,
+                          ),
+                        ),
+                      ],
+                    )
+                  else if (astiMi)
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.warning_amber_rounded,
+                          size: 16,
+                          color: Colors.red,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          'Hedef aşıldı!',
+                          style: TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.red,
+                          ),
+                        ),
+                      ],
+                    )
+                  else
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.check_circle,
+                          size: 16,
+                          color: Colors.green,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          'Hedef tamamlandı!',
+                          style: TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.green,
+                          ),
+                        ),
+                      ],
+                    ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+2️⃣ ogun_card.dart
+dart// lib/presentation/widgets/ogun_card.dart
+
+import 'package:flutter/material.dart';
+import '../../domain/entities/yemek.dart';
+
+class OgunCard extends StatelessWidget {
+  final Yemek yemek;
+  final VoidCallback? onTap;
+  final VoidCallback? onLongPress;
+  final bool secili;
+  final bool gosterDetay;
+
+  const OgunCard({
+    Key? key,
+    required this.yemek,
+    this.onTap,
+    this.onLongPress,
+    this.secili = false,
+    this.gosterDetay = true,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: secili ? Colors.deepPurple : Colors.grey.shade200,
+          width: secili ? 2 : 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: secili 
+                ? Colors.deepPurple.withOpacity(0.2)
+                : Colors.black.withOpacity(0.05),
+            blurRadius: secili ? 12 : 8,
+            offset: Offset(0, secili ? 4 : 2),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: onTap,
+          onLongPress: onLongPress,
+          borderRadius: BorderRadius.circular(16),
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    // Öğün emoji
+                    Container(
+                      width: 56,
+                      height: 56,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            _getOgunRengi().withOpacity(0.2),
+                            _getOgunRengi().withOpacity(0.1),
+                          ],
+                        ),
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      child: Center(
+                        child: Text(
+                          _getOgunEmoji(),
+                          style: const TextStyle(fontSize: 28),
+                        ),
+                      ),
+                    ),
+
+                    const SizedBox(width: 16),
+
+                    // Yemek bilgisi
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            yemek.ad,
+                            style: const TextStyle(
+                              fontSize: 17,
+                              fontWeight: FontWeight.w600,
+                              letterSpacing: -0.3,
+                            ),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          const SizedBox(height: 6),
+                          Text(
+                            _getOgunAdi(),
+                            style: TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.w500,
+                              color: _getOgunRengi(),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+
+                    // Seçim ikonu
+                    if (secili)
+                      Container(
+                        width: 32,
+                        height: 32,
+                        decoration: BoxDecoration(
+                          color: Colors.deepPurple,
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: const Icon(
+                          Icons.check,
+                          color: Colors.white,
+                          size: 20,
+                        ),
+                      ),
+                  ],
+                ),
+
+                if (gosterDetay) ...[
+                  const SizedBox(height: 16),
+                  
+                  // Makro bilgileri
+                  Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade50,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        _buildMakroItem(
+                          '🔥',
+                          yemek.kalori.toStringAsFixed(0),
+                          'kcal',
+                          Colors.orange,
+                        ),
+                        _buildDivider(),
+                        _buildMakroItem(
+                          '💪',
+                          yemek.protein.toStringAsFixed(0),
+                          'g',
+                          Colors.red,
+                        ),
+                        _buildDivider(),
+                        _buildMakroItem(
+                          '🍚',
+                          yemek.karbonhidrat.toStringAsFixed(0),
+                          'g',
+                          Colors.amber,
+                        ),
+                        _buildDivider(),
+                        _buildMakroItem(
+                          '🥑',
+                          yemek.yag.toStringAsFixed(0),
+                          'g',
+                          Colors.green,
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  // Malzemeler
+                  if (yemek.malzemeler.isNotEmpty) ...[
+                    const SizedBox(height: 12),
+                    Wrap(
+                      spacing: 6,
+                      runSpacing: 6,
+                      children: yemek.malzemeler.take(3).map((malzeme) {
+                        return Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 5,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Colors.grey.shade100,
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(color: Colors.grey.shade300),
+                          ),
+                          child: Text(
+                            malzeme,
+                            style: TextStyle(
+                              fontSize: 11,
+                              fontWeight: FontWeight.w500,
+                              color: Colors.grey.shade700,
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ],
+                ],
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildMakroItem(String emoji, String deger, String birim, Color renk) {
+    return Column(
+      children: [
+        Text(emoji, style: const TextStyle(fontSize: 18)),
+        const SizedBox(height: 4),
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.baseline,
+          textBaseline: TextBaseline.alphabetic,
+          children: [
+            Text(
+              deger,
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: renk,
+              ),
+            ),
+            Text(
+              birim,
+              style: TextStyle(
+                fontSize: 11,
+                fontWeight: FontWeight.w600,
+                color: Colors.grey.shade600,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
+  Widget _buildDivider() {
+    return Container(
+      width: 1,
+      height: 40,
+      color: Colors.grey.shade300,
+    );
+  }
+
+  String _getOgunAdi() {
+    switch (yemek.ogun) {
+      case OgunTipi.kahvalti:
+        return 'Kahvaltı';
+      case OgunTipi.ogleYemegi:
+        return 'Öğle Yemeği';
+      case OgunTipi.aksamYemegi:
+        return 'Akşam Yemeği';
+      case OgunTipi.aperatif:
+        return 'Aperatif';
+    }
+  }
+
+  String _getOgunEmoji() {
+    switch (yemek.ogun) {
+      case OgunTipi.kahvalti:
+        return '🌅';
+      case OgunTipi.ogleYemegi:
+        return '☀️';
+      case OgunTipi.aksamYemegi:
+        return '🌙';
+      case OgunTipi.aperatif:
+        return '🍎';
+    }
+  }
+
+  Color _getOgunRengi() {
+    switch (yemek.ogun) {
+      case OgunTipi.kahvalti:
+        return Colors.orange;
+      case OgunTipi.ogleYemegi:
+        return Colors.blue;
+      case OgunTipi.aksamYemegi:
+        return Colors.indigo;
+      case OgunTipi.aperatif:
+        return Colors.green;
+    }
+  }
+}

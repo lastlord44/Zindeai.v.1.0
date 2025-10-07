@@ -35,7 +35,7 @@ class MakroProgressCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: renk.withOpacity(0.1),
+            color: renk.withValues(alpha: 0.1),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -78,7 +78,7 @@ class MakroProgressCard extends StatelessWidget {
             child: LinearProgressIndicator(
               value: yuzde / 100,
               minHeight: 10,
-              backgroundColor: renk.withOpacity(0.1),
+              backgroundColor: renk.withValues(alpha: 0.1),
               valueColor: AlwaysStoppedAnimation(renk),
             ),
           ),

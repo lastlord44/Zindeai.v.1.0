@@ -66,34 +66,71 @@ class Yemek extends Equatable {
     this.gorselUrl,
   });
 
-  /// JSON'dan oluştur
+  /// JSON'dan oluştur (null-safe)
   factory Yemek.fromJson(Map<String, dynamic> json) {
     return Yemek(
-      id: json['id'] as String,
-      ad: json['ad'] as String,
-      ogun: ogunTipiFromString(json['ogun'] as String),
-      kalori: (json['kalori'] as num).toDouble(),
-      protein: (json['protein'] as num).toDouble(),
-      karbonhidrat: (json['karbonhidrat'] as num).toDouble(),
-      yag: (json['yag'] as num).toDouble(),
-      malzemeler: (json['malzemeler'] as List<dynamic>)
-          .map((e) => e as String)
-          .toList(),
-      alternatifler: json['alternatifler'] != null
-          ? (json['alternatifler'] as List<dynamic>)
-              .map((e) => AlternatifBesin.fromJson(e as Map<String, dynamic>))
-              .toList()
-          : [],
-      hazirlamaSuresi: json['hazirlamaSuresi'] as int,
-      zorluk: zorlukFromString(json['zorluk'] as String),
-      etiketler: json['etiketler'] != null
-          ? (json['etiketler'] as List<dynamic>)
-              .map((e) => e as String)
-              .toList()
-          : [],
-      tarif: json['tarif'] as String?,
-      gorselUrl: json['gorselUrl'] as String?,
+      id: json['id']?.toString() ?? '',
+      ad: json['ad']?.toString() ?? 'İsimsiz Yemek',
+      ogun: ogunTipiFromString(json['ogun']?.toString() ?? 'kahvalti'),
+      kalori: _parseDouble(json['kalori']) ?? 0.0,
+      protein: _parseDouble(json['protein']) ?? 0.0,
+      karbonhidrat: _parseDouble(json['karbonhidrat']) ?? 0.0,
+      yag: _parseDouble(json['yag']) ?? 0.0,
+      malzemeler: _parseStringList(json['malzemeler']) ?? [],
+      alternatifler: _parseAlternatifler(json['alternatifler']) ?? [],
+      hazirlamaSuresi: _parseInt(json['hazirlamaSuresi']) ?? 0,
+      zorluk: zorlukFromString(json['zorluk']?.toString() ?? 'kolay'),
+      etiketler: _parseStringList(json['etiketler']) ?? [],
+      tarif: json['tarif']?.toString(),
+      gorselUrl: json['gorselUrl']?.toString(),
     );
+  }
+
+  /// Double değer parse helper metodu
+  static double? _parseDouble(dynamic value) {
+    if (value == null) return null;
+    if (value is double) return value;
+    if (value is int) return value.toDouble();
+    if (value is String) {
+      return double.tryParse(value);
+    }
+    return null;
+  }
+
+  /// Int değer parse helper metodu
+  static int? _parseInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is double) return value.toInt();
+    if (value is String) {
+      return int.tryParse(value);
+    }
+    return null;
+  }
+
+  /// String listesi parse helper metodu
+  static List<String>? _parseStringList(dynamic value) {
+    if (value == null) return null;
+    if (value is! List) return null;
+    try {
+      return value.where((e) => e != null).map((e) => e.toString()).toList();
+    } catch (e) {
+      return null;
+    }
+  }
+
+  /// Alternatif besinler parse helper metodu
+  static List<AlternatifBesin>? _parseAlternatifler(dynamic value) {
+    if (value == null) return null;
+    if (value is! List) return null;
+    try {
+      return value
+          .where((e) => e != null && e is Map<String, dynamic>)
+          .map((e) => AlternatifBesin.fromJson(e))
+          .toList();
+    } catch (e) {
+      return null;
+    }
   }
 
   /// JSON'a çevir
@@ -120,22 +157,32 @@ class Yemek extends Equatable {
   static OgunTipi ogunTipiFromString(String ogun) {
     switch (ogun.toLowerCase()) {
       case 'kahvalti':
+      case 'kahvaltı':
         return OgunTipi.kahvalti;
       case 'araogun1':
       case 'ara_ogun_1':
+      case 'ara öğün 1':
         return OgunTipi.araOgun1;
       case 'ogle':
+      case 'öğle':
+      case 'öğle yemeği':  // ✅ FIX: Hive'daki tam kategori adı
         return OgunTipi.ogle;
       case 'araogun2':
       case 'ara_ogun_2':
+      case 'ara öğün 2':
         return OgunTipi.araOgun2;
       case 'aksam':
+      case 'akşam':
+      case 'akşam yemeği':  // ✅ FIX: Hive'daki tam kategori adı
         return OgunTipi.aksam;
       case 'geceatistirma':
       case 'gece_atistirma':
+      case 'gece atıştırma':
+      case 'gece atıştırması':  // ✅ FIX: Hive'daki tam kategori adı
         return OgunTipi.geceAtistirma;
       case 'cheatmeal':
       case 'cheat_meal':
+      case 'cheat meal':
         return OgunTipi.cheatMeal;
       default:
         throw Exception('Bilinmeyen öğün tipi: $ogun');

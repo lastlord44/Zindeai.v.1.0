@@ -1,0 +1,139 @@
+// lib/presentation/bloc/home/home_event.dart
+
+import 'package:equatable/equatable.dart';
+import '../../../domain/entities/yemek.dart';
+
+abstract class HomeEvent extends Equatable {
+  const HomeEvent();
+
+  @override
+  List<Object?> get props => [];
+}
+
+/// Ana sayfayı yükle
+class LoadHomePage extends HomeEvent {
+  final DateTime? targetDate;
+
+  const LoadHomePage({this.targetDate});
+
+  @override
+  List<Object?> get props => [targetDate];
+}
+
+/// Günlük planı yenile
+class RefreshDailyPlan extends HomeEvent {
+  final bool forceRegenerate;
+
+  const RefreshDailyPlan({this.forceRegenerate = false});
+
+  @override
+  List<Object?> get props => [forceRegenerate];
+}
+
+/// Öğün tamamlandı olarak işaretle
+class ToggleMealCompletion extends HomeEvent {
+  final String yemekId;
+
+  const ToggleMealCompletion(this.yemekId);
+
+  @override
+  List<Object?> get props => [yemekId];
+}
+
+/// Öğünü değiştir
+class ReplaceMeal extends HomeEvent {
+  final String eskiYemekId;
+  final OgunTipi ogun;
+
+  const ReplaceMeal({
+    required this.eskiYemekId,
+    required this.ogun,
+  });
+
+  @override
+  List<Object?> get props => [eskiYemekId, ogun];
+}
+
+/// Tarihe göre plan yükle
+class LoadPlanByDate extends HomeEvent {
+  final DateTime date;
+
+  const LoadPlanByDate(this.date);
+
+  @override
+  List<Object?> get props => [date];
+}
+
+/// Haftalık plan oluştur (7 günlük)
+class GenerateWeeklyPlan extends HomeEvent {
+  final DateTime? startDate;
+  final bool forceRegenerate;
+
+  const GenerateWeeklyPlan({
+    this.startDate,
+    this.forceRegenerate = false,
+  });
+
+  @override
+  List<Object?> get props => [startDate, forceRegenerate];
+}
+
+/// Alternatif yemekler oluştur
+class GenerateAlternativeMeals extends HomeEvent {
+  final Yemek mevcutYemek;
+  final int sayi; // Kaç alternatif isteniyor
+
+  const GenerateAlternativeMeals({
+    required this.mevcutYemek,
+    this.sayi = 3,
+  });
+
+  @override
+  List<Object?> get props => [mevcutYemek, sayi];
+}
+
+/// Yemeği belirli bir yemekle değiştir
+class ReplaceMealWith extends HomeEvent {
+  final Yemek eskiYemek;
+  final Yemek yeniYemek;
+
+  const ReplaceMealWith({
+    required this.eskiYemek,
+    required this.yeniYemek,
+  });
+
+  @override
+  List<Object?> get props => [eskiYemek, yeniYemek];
+}
+
+/// Malzeme için alternatif besinler oluştur
+class GenerateIngredientAlternatives extends HomeEvent {
+  final Yemek yemek;
+  final String malzemeMetni; // Örn: "10 adet badem"
+  final int malzemeIndex; // Yemekteki malzemelerin hangi index'i
+
+  const GenerateIngredientAlternatives({
+    required this.yemek,
+    required this.malzemeMetni,
+    required this.malzemeIndex,
+  });
+
+  @override
+  List<Object?> get props => [yemek, malzemeMetni, malzemeIndex];
+}
+
+/// Malzemeyi alternatifiyle değiştir
+class ReplaceIngredientWith extends HomeEvent {
+  final Yemek yemek;
+  final int malzemeIndex;
+  final String yeniMalzemeMetni; // Örn: "13 adet fındık"
+
+  const ReplaceIngredientWith({
+    required this.yemek,
+    required this.malzemeIndex,
+    required this.yeniMalzemeMetni,
+  });
+
+  @override
+  List<Object?> get props => [yemek, malzemeIndex, yeniMalzemeMetni];
+}

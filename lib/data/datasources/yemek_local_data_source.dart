@@ -8,28 +8,16 @@ import '../models/yemek_model.dart';
 
 /// Local JSON dosyalarından yemek verisi çeken data source
 class YemekLocalDataSource {
-  /// Belirli bir öğün tipine ait yemekleri yükle
+  /// Belirli bir öğün tipine ait yemekleri yükle (tüm batch dosyalarından)
   Future<List<Yemek>> yemekleriYukle(OgunTipi ogun) async {
     try {
-      final dosyaAdi = _ogunTipiDosyaAdi(ogun);
-      AppLogger.debug('Yükleniyor: assets/data/$dosyaAdi');
+      AppLogger.info('${ogun.ad} için yemekler yükleniyor...');
 
-      // JSON dosyasını oku
-      final jsonString = await rootBundle.loadString('assets/data/$dosyaAdi');
+      // Tüm batch dosyalarını yükle
+      final tumYemekler = await _tumBatchleriYukle(ogun);
 
-      // Parse et
-      final List<dynamic> jsonList = json.decode(jsonString);
-
-      // Model'lere çevir
-      final models = jsonList
-          .map((json) => YemekModel.fromJson(json as Map<String, dynamic>))
-          .toList();
-
-      // Entity'lere dönüştür
-      final entities = models.map((model) => model.toEntity()).toList();
-
-      AppLogger.info('${ogun.ad} için ${entities.length} yemek yüklendi');
-      return entities;
+      AppLogger.info('${ogun.ad} için ${tumYemekler.length} yemek yüklendi');
+      return tumYemekler;
     } catch (e, stackTrace) {
       AppLogger.error(
         'Yemek yükleme hatası: ${ogun.ad}',
@@ -137,23 +125,48 @@ class YemekLocalDataSource {
     return null;
   }
 
-  /// Öğün tipi için dosya adı belirle
-  String _ogunTipiDosyaAdi(OgunTipi ogun) {
+  /// Öğün tipi için tüm dosyaları yükle (batch_01 ve batch_02)
+  Future<List<Yemek>> _tumBatchleriYukle(OgunTipi ogun) async {
+    final tumYemekler = <Yemek>[];
+    final dosyaAdlari = _ogunTipiBatchDosyalari(ogun);
+
+    for (final dosyaAdi in dosyaAdlari) {
+      try {
+        AppLogger.debug('Yükleniyor: assets/data/$dosyaAdi');
+        final jsonString = await rootBundle.loadString('assets/data/$dosyaAdi');
+        final List<dynamic> jsonList = json.decode(jsonString);
+        final models = jsonList
+            .map((json) => YemekModel.fromJson(json as Map<String, dynamic>))
+            .toList();
+        final entities = models.map((model) => model.toEntity()).toList();
+        tumYemekler.addAll(entities);
+        AppLogger.debug('  → ${entities.length} yemek eklendi');
+      } catch (e) {
+        AppLogger.warning('  → $dosyaAdi yüklenemedi, atlanıyor: $e');
+        // Hata durumunda devam et, diğer batch'leri yükle
+      }
+    }
+
+    return tumYemekler;
+  }
+
+  /// Öğün tipi için batch dosya adlarını döndür
+  List<String> _ogunTipiBatchDosyalari(OgunTipi ogun) {
     switch (ogun) {
       case OgunTipi.kahvalti:
-        return 'kahvalti.json';
+        return ['kahvalti_batch_01.json', 'kahvalti_batch_02.json'];
       case OgunTipi.araOgun1:
-        return 'ara_ogun_1.json';
+        return ['ara_ogun_1_batch_01.json', 'ara_ogun_1_batch_02.json'];
       case OgunTipi.ogle:
-        return 'ogle.json';
+        return ['ogle_yemegi_batch_01.json', 'ogle_yemegi_batch_02.json'];
       case OgunTipi.araOgun2:
-        return 'ara_ogun_2.json';
+        return ['ara_ogun_2_batch_01.json', 'ara_ogun_2_batch_02.json'];
       case OgunTipi.aksam:
-        return 'aksam.json';
+        return ['aksam_yemegi_batch_01.json', 'aksam_yemegi_batch_02.json'];
       case OgunTipi.geceAtistirma:
-        return 'gece_atistirma.json';
+        return ['gece_atistirmasi.json'];
       case OgunTipi.cheatMeal:
-        return 'cheat_meal.json';
+        return ['cheat_meal.json'];
     }
   }
 }
