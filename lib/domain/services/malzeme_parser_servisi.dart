@@ -33,6 +33,32 @@ class MalzemeParserServisi {
     if (temizMetin.isEmpty) return null;
 
     // ========================================================================
+    // PATTERN 0: Besin Adı + Parantez içi Gram (YENİ! - En yaygın format)
+    // Örn: "ızgara hindi göğsü (209 g)", "kinoa (80 g)", "lor peyniri (120 g)"
+    // ========================================================================
+    final pattern0 = RegExp(
+      r'^(.+?)\s*\((\d+(?:[.,]\d+)?)\s*(g|gr|gram|ml)\)$',
+      caseSensitive: false,
+    );
+
+    final match0 = pattern0.firstMatch(temizMetin);
+    if (match0 != null) {
+      final besinAdi = match0.group(1)!.trim();
+      final miktarStr = match0.group(2)!.replaceAll(',', '.');
+      final miktar = double.tryParse(miktarStr);
+      final birim = match0.group(3)!.toLowerCase();
+
+      if (miktar != null) {
+        return ParsedMalzeme(
+          miktar: miktar,
+          birim: _normalizeBirim(birim),
+          besinAdi: besinAdi,
+          orijinalMetin: temizMetin,
+        );
+      }
+    }
+
+    // ========================================================================
     // PATTERN 1: Sayı + Birim + Besin (en yaygın)
     // Örn: "10 adet badem", "100 gram tavuk", "2 dilim peynir"
     // ========================================================================

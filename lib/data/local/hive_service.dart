@@ -13,6 +13,7 @@ import '../../domain/entities/gunluk_plan.dart';
 import '../../domain/entities/antrenman.dart';
 import '../../domain/entities/yemek.dart';
 import '../../core/utils/app_logger.dart';
+import '../../core/utils/yemek_migration_guncel.dart';
 
 class HiveService {
   static const String _kullaniciBox = 'kullanici_box';
@@ -44,6 +45,25 @@ class HiveService {
       await Hive.openBox<YemekHiveModel>(_yemekBox);
 
       AppLogger.info('✅ Hive başarıyla başlatıldı (Yemek desteği ile)');
+
+      // 🔥 OTOMATİK MİGRATION KONTROLÜ VE ÇALIŞTIRMA
+      try {
+        final migrationGerekli = await YemekMigration.migrationGerekliMi();
+        if (migrationGerekli) {
+          AppLogger.info('🚀 Yemek veritabanı boş, migration başlatılıyor...');
+          final success = await YemekMigration.jsonToHiveMigration();
+          if (success) {
+            AppLogger.success('✅ Migration başarıyla tamamlandı!');
+          } else {
+            AppLogger.warning('⚠️ Migration tamamlandı ancak bazı sorunlar olabilir');
+          }
+        } else {
+          AppLogger.info('ℹ️ Yemek veritabanı dolu, migration atlanıyor');
+        }
+      } catch (e, stackTrace) {
+        AppLogger.error('❌ Migration kontrolü hatası (devam ediliyor)', 
+            error: e, stackTrace: stackTrace);
+      }
     } catch (e, stackTrace) {
       AppLogger.error('❌ Hive başlatma hatası',
           error: e, stackTrace: stackTrace);

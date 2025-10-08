@@ -93,6 +93,27 @@ class BesinVeritabani {
       'karb100g': 42.1,
       'yag100g': 30.7,
     },
+    'fıstık_ezmesi': {
+      'porsiyonGram': 32.0, // 2 yemek kaşığı = 1 porsiyon
+      'kalori100g': 588,
+      'protein100g': 25.8,
+      'karb100g': 20.0,
+      'yag100g': 50.0,
+    },
+    'tahin': {
+      'porsiyonGram': 15.0, // 1 yemek kaşığı = 1 porsiyon
+      'kalori100g': 595,
+      'protein100g': 17.0,
+      'karb100g': 21.2,
+      'yag100g': 53.8,
+    },
+    'badem_ezmesi': {
+      'porsiyonGram': 32.0, // 2 yemek kaşığı = 1 porsiyon
+      'kalori100g': 614,
+      'protein100g': 21.0,
+      'karb100g': 19.0,
+      'yag100g': 55.0,
+    },
     'pirinç_patlağı': {
       'porsiyonGram': 10.0,
       'standartAdetSayisi': 10,
@@ -251,6 +272,34 @@ class BesinVeritabani {
       'protein100g': 0.4,
       'karb100g': 1.5,
       'yag100g': 1.1,
+    },
+    'yulaf_sütü': {
+      'porsiyonGram': 240.0,
+      'kalori100g': 47,
+      'protein100g': 1.0,
+      'karb100g': 8.0,
+      'yag100g': 1.5,
+    },
+    'soya_sütü': {
+      'porsiyonGram': 240.0,
+      'kalori100g': 33,
+      'protein100g': 2.9,
+      'karb100g': 1.7,
+      'yag100g': 1.8,
+    },
+    'hindistan_cevizi_sütü': {
+      'porsiyonGram': 240.0,
+      'kalori100g': 19,
+      'protein100g': 0.2,
+      'karb100g': 1.8,
+      'yag100g': 1.3,
+    },
+    'hindistan_cevizi_yağı': {
+      'porsiyonGram': 5.0, // 1 çay kaşığı = 5ml
+      'kalori100g': 862,
+      'protein100g': 0.0,
+      'karb100g': 0.0,
+      'yag100g': 100.0,
     },
     'süt_tam_yağlı': {
       'porsiyonGram': 240.0,
@@ -612,6 +661,13 @@ class BesinVeritabani {
       'chia_tohumu',
     ],
 
+    // Ara Öğün - Ezmeler (Yüksek Protein)
+    'ara_ogun_ezme': [
+      'fıstık_ezmesi',
+      'tahin',
+      'badem_ezmesi',
+    ],
+
     // Ara Öğün - Patlaklar (Düşük Kalorili Atıştırmalık)
     'ara_ogun_patlak': [
       'pirinç_patlağı',
@@ -660,6 +716,14 @@ class BesinVeritabani {
     // Ara Öğün - Bitkisel Sütler
     'ara_ogun_bitkisel_sut': [
       'badem_sütü',
+      'yulaf_sütü',
+      'soya_sütü',
+      'hindistan_cevizi_sütü',
+    ],
+
+    // Ara Öğün - Sağlıklı Yağlar
+    'ara_ogun_saglikli_yag': [
+      'hindistan_cevizi_yağı',
     ],
 
     // Ana Öğün - Beyaz Et
@@ -1018,6 +1082,14 @@ class AlternatifOneriServisi {
       'keten_tohümu': 'keten_tohumu',
       'chia_tohümu': 'chia_tohumu',
 
+      // Ezmeler
+      'fistik_ezmesi': 'fıstık_ezmesi',
+      'fıstık_ezmesi': 'fıstık_ezmesi',
+      'fistık_ezmesi': 'fıstık_ezmesi',
+      'badem_ezmesi': 'badem_ezmesi',
+      'tahin': 'tahin',
+      'tahın': 'tahin',
+
       // Patlaklar
       'pirinc_patlagi': 'pirinç_patlağı',
       'pirınc_patlağı': 'pirinç_patlağı',
@@ -1048,6 +1120,10 @@ class AlternatifOneriServisi {
       'süzme_yögürt': 'süzme_yoğurt',
       'sut': 'süt',
       'badem_sutu': 'badem_sütü',
+      'yulaf_sutu': 'yulaf_sütü',
+      'soya_sutu': 'soya_sütü',
+      'hindistan_cevizi_sutu': 'hindistan_cevizi_sütü',
+      'hindistan_cevizi_yagi': 'hindistan_cevizi_yağı',
       'sut_tam_yagli': 'süt_tam_yağlı',
       'ispanak': 'ıspanak',
       'çeviz': 'ceviz',

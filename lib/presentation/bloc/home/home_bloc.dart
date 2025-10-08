@@ -543,12 +543,12 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         birim: parsedMalzeme.birim,
       );
 
-      // Alternatif bulunamasa bile bottom sheet açılsın (kullanıcı geri dönebilsin)
+      // 🔥 FIX: Alternatif bulunamasa bile bottom sheet aç (kullanıcı geri dönebilsin)
       if (alternatifler.isEmpty) {
         AppLogger.warning('⚠️ Alternatif besin bulunamadı: "${parsedMalzeme.besinAdi}"');
       }
 
-      // Alternatifler state'ini emit et (boş liste bile olsa)
+      // Alternatifler state'ini emit et (boş liste bile olsa - bottom sheet açılacak)
       emit(AlternativeIngredientsLoaded(
         yemek: event.yemek,
         malzemeIndex: event.malzemeIndex,

@@ -4,9 +4,15 @@ import '../../domain/entities/makro_hedefleri.dart';
 import '../../domain/entities/hedef.dart';
 import '../../domain/entities/kullanici_profili.dart';
 import '../../data/local/hive_service.dart';
+import '../../core/utils/yemek_migration_guncel.dart';
 
 class ProfilPage extends StatefulWidget {
-  const ProfilPage({Key? key}) : super(key: key);
+  final VoidCallback? onProfilKaydedildi; // 🔥 Profil kaydedilince callback
+  
+  const ProfilPage({
+    Key? key,
+    this.onProfilKaydedildi,
+  }) : super(key: key);
 
   @override
   State<ProfilPage> createState() => _ProfilPageState();
@@ -143,13 +149,25 @@ class _ProfilPageState extends State<ProfilPage> {
     });
 
     if (mounted) {
+      // 🔥 FIX: Profil kaydedilince tüm planları sil - yeni profile göre yeniden oluşturulacak
+      try {
+        await HiveService.tumPlanlariSil();
+        print('✅ Profil kaydedildi - tüm planlar silindi, yeni profile göre yeniden oluşturulacak');
+      } catch (e) {
+        print('⚠️ Planlar temizlenirken hata: $e');
+      }
+
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Profil başarıyla kaydedildi!'),
+          content: Text('✅ Profil kaydedildi! Beslenme planınız oluşturuluyor...'),
           backgroundColor: Colors.green,
           duration: Duration(seconds: 2),
         ),
       );
+
+      // 🔥 FIX: Profil kaydedilince otomatik olarak beslenme sekmesine geç
+      // Parent widget (YeniHomePageView) callback'i çağır
+      widget.onProfilKaydedildi?.call();
     }
   }
 
@@ -515,6 +533,119 @@ class _ProfilPageState extends State<ProfilPage> {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.purple,
                   foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 16),
+
+            // YENİ YEMEK VERİTABANI YENİLEME BUTONU
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: () async {
+                  final confirm = await showDialog<bool>(
+                    context: context,
+                    builder: (context) => AlertDialog(
+                      title: const Text('Yemek Veritabanını Yenile'),
+                      content: const Text(
+                        '''Eski yemekler silinip yeni yemekler yüklenecek.
+
+✅ 120 farklı ara öğün
+✅ Yeni akşam yemekleri
+✅ Tüm kategorilerde çeşitlilik
+
+Planlar yeniden oluşturulacak. Devam edilsin mi?''',
+                      ),
+                      actions: [
+                        TextButton(
+                          onPressed: () => Navigator.pop(context, false),
+                          child: const Text('İptal'),
+                        ),
+                        ElevatedButton(
+                          onPressed: () => Navigator.pop(context, true),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.orange,
+                            foregroundColor: Colors.white,
+                          ),
+                          child: const Text('Yenile'),
+                        ),
+                      ],
+                    ),
+                  );
+
+                  if (confirm == true && mounted) {
+                    // Progress dialog göster
+                    showDialog(
+                      context: context,
+                      barrierDismissible: false,
+                      builder: (context) => const AlertDialog(
+                        content: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            CircularProgressIndicator(),
+                            SizedBox(height: 16),
+                            Text('Yeni yemekler yükleniyor...'),
+                          ],
+                        ),
+                      ),
+                    );
+
+                    try {
+                      // Eski verileri temizle
+                      await YemekMigration.migrationTemizle();
+                      
+                      // Yeni verileri yükle
+                      final success = await YemekMigration.jsonToHiveMigration();
+
+                      if (mounted) {
+                        Navigator.pop(context); // Progress dialog kapat
+
+                        if (success) {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('✅ Yeni yemekler başarıyla yüklendi! 120 ara öğün artık kullanılabilir!'),
+                              backgroundColor: Colors.green,
+                              duration: Duration(seconds: 3),
+                            ),
+                          );
+                        } else {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('❌ Yükleme başarısız!'),
+                              backgroundColor: Colors.red,
+                            ),
+                          );
+                        }
+                      }
+                    } catch (e) {
+                      if (mounted) {
+                        Navigator.pop(context); // Progress dialog kapat
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text('❌ Hata: $e'),
+                            backgroundColor: Colors.red,
+                          ),
+                        );
+                      }
+                    }
+                  }
+                },
+                icon: const Icon(Icons.refresh),
+                label: const Text(
+                  'Yemek Veritabanını Yenile (120 Ara Öğün Ekle)',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.orange,
+                  side: const BorderSide(color: Colors.orange, width: 2),
                   padding: const EdgeInsets.symmetric(vertical: 16),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),

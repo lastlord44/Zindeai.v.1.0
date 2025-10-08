@@ -171,8 +171,47 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
 
-                ...alternatifler
-                    .map((alt) => _buildAlternatifCard(context, alt)),
+                // 🔥 FIX: Alternatif bulunamadıysa mesaj göster
+                if (alternatifler.isEmpty)
+                  Container(
+                    padding: const EdgeInsets.all(24),
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade100,
+                      borderRadius: BorderRadius.circular(16),
+                      border: Border.all(color: Colors.grey.shade300),
+                    ),
+                    child: Column(
+                      children: [
+                        Icon(
+                          Icons.search_off,
+                          size: 64,
+                          color: Colors.grey.shade400,
+                        ),
+                        const SizedBox(height: 16),
+                        Text(
+                          'Alternatif Besin Bulunamadı',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey.shade700,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          'Bu besin için uygun alternatif bulunamadı. Lütfen farklı bir besin seçin veya beslenme uzmanınıza danışın.',
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: Colors.grey.shade600,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                  )
+                else
+                  ...alternatifler
+                      .map((alt) => _buildAlternatifCard(context, alt)),
 
                 const SizedBox(height: 80), // Alt boşluk
               ],

@@ -165,7 +165,7 @@ class Yemek extends Equatable {
         return OgunTipi.araOgun1;
       case 'ogle':
       case 'öğle':
-      case 'öğle yemeği':  // ✅ FIX: Hive'daki tam kategori adı
+      case 'öğle yemeği': // ✅ FIX: Hive'daki tam kategori adı
         return OgunTipi.ogle;
       case 'araogun2':
       case 'ara_ogun_2':
@@ -173,12 +173,12 @@ class Yemek extends Equatable {
         return OgunTipi.araOgun2;
       case 'aksam':
       case 'akşam':
-      case 'akşam yemeği':  // ✅ FIX: Hive'daki tam kategori adı
+      case 'akşam yemeği': // ✅ FIX: Hive'daki tam kategori adı
         return OgunTipi.aksam;
       case 'geceatistirma':
       case 'gece_atistirma':
       case 'gece atıştırma':
-      case 'gece atıştırması':  // ✅ FIX: Hive'daki tam kategori adı
+      case 'gece atıştırması': // ✅ FIX: Hive'daki tam kategori adı
         return OgunTipi.geceAtistirma;
       case 'cheatmeal':
       case 'cheat_meal':

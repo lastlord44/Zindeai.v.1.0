@@ -79,26 +79,52 @@ class YemekHiveModel extends HiveObject {
     this.alternatives,
   });
 
-  /// JSON'dan YemekHiveModel oluştur
+  /// JSON'dan YemekHiveModel oluştur (hem eski hem yeni format desteği)
   factory YemekHiveModel.fromJson(Map<String, dynamic> json) {
-    return YemekHiveModel(
-      mealId: json['meal_id']?.toString(),
-      category: json['category']?.toString(),
-      mealName: json['meal_name']?.toString(),
-      calorie: _parseDouble(json['calorie']),
-      proteinG: _parseDouble(json['protein_g']),
-      carbG: _parseDouble(json['carb_g']),
-      fatG: _parseDouble(json['fat_g']),
-      fiberG: _parseDouble(json['fiber_g']),
-      goalTag: json['goal_tag']?.toString(),
-      difficulty: json['difficulty']?.toString(),
-      prepTimeMin: _parseInt(json['prep_time_min']),
-      ingredients: _parseStringList(json['ingredients']),
-      recipe: json['recipe']?.toString(),
-      imageUrl: json['image_url']?.toString(),
-      tags: _parseStringList(json['tags']),
-      alternatives: _parseAlternatives(json['alternatives']),
-    );
+    // Yeni format kontrolü (Türkçe field adları)
+    final bool yeniFormat = json.containsKey('isim') || json.containsKey('aciklama');
+    
+    if (yeniFormat) {
+      // 🆕 YENİ FORMAT (zindeai_*.json dosyaları)
+      return YemekHiveModel(
+        mealId: json['id']?.toString(),
+        category: json['kategori']?.toString(),
+        mealName: json['isim']?.toString(),
+        calorie: _parseDouble(json['kalori']),
+        proteinG: _parseDouble(json['protein']),
+        carbG: _parseDouble(json['karbonhidrat']),
+        fatG: _parseDouble(json['yag']),
+        fiberG: 0.0, // Yeni formatta yok
+        goalTag: json['goal']?.toString() ?? 'cut',
+        difficulty: json['zorluk']?.toString(),
+        prepTimeMin: _parseInt(json['hazirlamaSuresi']),
+        ingredients: _parseStringList(json['malzemeler']),
+        recipe: json['aciklama']?.toString(), // Açıklama = tarif
+        imageUrl: json['gorselUrl']?.toString(),
+        tags: _parseStringList(json['etiketler']),
+        alternatives: _parseAlternatives(json['alternatifler']),
+      );
+    } else {
+      // 📜 ESKİ FORMAT (mevcut JSON dosyaları)
+      return YemekHiveModel(
+        mealId: json['meal_id']?.toString(),
+        category: json['category']?.toString(),
+        mealName: json['meal_name']?.toString(),
+        calorie: _parseDouble(json['calorie']),
+        proteinG: _parseDouble(json['protein_g']),
+        carbG: _parseDouble(json['carb_g']),
+        fatG: _parseDouble(json['fat_g']),
+        fiberG: _parseDouble(json['fiber_g']),
+        goalTag: json['goal_tag']?.toString(),
+        difficulty: json['difficulty']?.toString(),
+        prepTimeMin: _parseInt(json['prep_time_min']),
+        ingredients: _parseStringList(json['ingredients']),
+        recipe: json['recipe']?.toString(),
+        imageUrl: json['image_url']?.toString(),
+        tags: _parseStringList(json['tags']),
+        alternatives: _parseAlternatives(json['alternatives']),
+      );
+    }
   }
 
   /// YemekHiveModel'i Yemek entity'sine çevir
@@ -230,21 +256,35 @@ class YemekHiveModel extends HiveObject {
   static OgunTipi _categoryToOgunTipi(String category) {
     switch (category.toLowerCase()) {
       case 'kahvaltı':
+      case 'kahvalti': // Türkçe karakter yok
+      case 'kahvalt':
         return OgunTipi.kahvalti;
       case 'ara öğün 1':
+      case 'ara ogun 1': // Türkçe karakter yok  
+      case 'ara_ogun_1': // 🔥 FIX: Underscore formatı
         return OgunTipi.araOgun1;
       case 'öğle':
-      case 'öğle yemeği':  // ✅ FIX: Hive'daki tam kategori adı
+      case 'ogle': // Türkçe karakter yok
+      case 'öğle yemeği':
+      case 'ogle yemegi': // Türkçe karakter yok
         return OgunTipi.ogle;
       case 'ara öğün 2':
+      case 'ara ogun 2': // Türkçe karakter yok
+      case 'ara_ogun_2': // 🔥 FIX: Underscore formatı - KRITIK!
         return OgunTipi.araOgun2;
       case 'akşam':
-      case 'akşam yemeği':  // ✅ FIX: Hive'daki tam kategori adı
+      case 'aksam': // Türkçe karakter yok
+      case 'akşam yemeği':
+      case 'aksam yemegi': // Türkçe karakter yok
         return OgunTipi.aksam;
       case 'gece atıştırma':
-      case 'gece atıştırması':  // ✅ FIX: Hive'daki tam kategori adı
+      case 'gece atıştırması':
+      case 'gece atistirma': // Türkçe karakter yok
+      case 'gece atistirmasi': // Türkçe karakter yok
+      case 'gece_atistirmasi': // 🔥 FIX: Underscore formatı
         return OgunTipi.geceAtistirma;
       case 'cheat meal':
+      case 'cheat_meal': // 🔥 FIX: Underscore formatı
         return OgunTipi.cheatMeal;
       default:
         return OgunTipi.kahvalti;

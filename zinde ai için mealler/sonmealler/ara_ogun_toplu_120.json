@@ -1,0 +1,1202 @@
+[
+  {
+    "category": "Bulk",
+    "snack_name": "Yulaf + Yoğurt + Whey + Badem",
+    "portion": "Yulaf 60g + yoğurt 200g + whey 20g + badem 14g",
+    "kcal": 515,
+    "protein_g": 39.2,
+    "carb_g": 53.6,
+    "fat_g": 17.8,
+    "snack_id": "SNACK-0001"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Fıstık Ezmesi + Pirinç Patlağı (3)",
+    "portion": "Fıstık ezmesi 20g + pirinç patlağı 3",
+    "kcal": 223,
+    "protein_g": 7.1,
+    "carb_g": 25.9,
+    "fat_g": 10.9,
+    "snack_id": "SNACK-0002"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Muz + Süzme + Yulaf",
+    "portion": "Muz 1 + süzme 100g + yulaf 50g",
+    "kcal": 358,
+    "protein_g": 19.8,
+    "carb_g": 63.6,
+    "fat_g": 4.7,
+    "snack_id": "SNACK-0003"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Lor + Tam Buğday Ekmek (2 dilim)",
+    "portion": "Lor 100g + tam buğday ekmek 2 dilim",
+    "kcal": 258,
+    "protein_g": 29.2,
+    "carb_g": 26.2,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0004"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Ton Balığı + Galeta (2) + Badem",
+    "portion": "Ton balığı 120g + galeta 2 + badem 14g",
+    "kcal": 324,
+    "protein_g": 34.0,
+    "carb_g": 24.0,
+    "fat_g": 9.5,
+    "snack_id": "SNACK-0005"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Hindi Füme Wrap",
+    "portion": "Hindi füme 80g + tam buğday ekmek 1 + light labne 40g",
+    "kcal": 225,
+    "protein_g": 25.6,
+    "carb_g": 15.6,
+    "fat_g": 6.4,
+    "snack_id": "SNACK-0006"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Kefir + Badem",
+    "portion": "Kefir 250 ml + badem 14g",
+    "kcal": 222,
+    "protein_g": 12.0,
+    "carb_g": 13.0,
+    "fat_g": 13.0,
+    "snack_id": "SNACK-0007"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Tahin–Pekmez + Ekmek",
+    "portion": "Tahin 10g + pekmez 10g + tam buğday ekmek 1",
+    "kcal": 157,
+    "protein_g": 5.3,
+    "carb_g": 20.5,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0008"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Avokado + Yumurta + Badem",
+    "portion": "Avokado 100g + 2 yumurta + badem 14g",
+    "kcal": 386,
+    "protein_g": 17.0,
+    "carb_g": 12.3,
+    "fat_g": 31.7,
+    "snack_id": "SNACK-0009"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Protein Bar + Ayran",
+    "portion": "Protein bar 1 + ayran 330 ml",
+    "kcal": 325,
+    "protein_g": 27.0,
+    "carb_g": 31.0,
+    "fat_g": 11.0,
+    "snack_id": "SNACK-0010"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Humus + Havuç",
+    "portion": "Humus 100g + havuç 150g",
+    "kcal": 226,
+    "protein_g": 9.4,
+    "carb_g": 28.3,
+    "fat_g": 8.9,
+    "snack_id": "SNACK-0011"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Nohut (haşlama) + Yoğurt",
+    "portion": "Nohut 150g + yoğurt 200g",
+    "kcal": 366,
+    "protein_g": 23.5,
+    "carb_g": 49.5,
+    "fat_g": 8.9,
+    "snack_id": "SNACK-0012"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Kuru Fasulye (haş) + Ekmek + Badem",
+    "portion": "Kuru fasulye 150g + tam buğday ekmek 1 + badem 14g",
+    "kcal": 342,
+    "protein_g": 19.6,
+    "carb_g": 48.6,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0013"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Smoothie: Muz + Whey + Yoğurt",
+    "portion": "Muz 1 + whey 30g + yoğurt 200g",
+    "kcal": 345,
+    "protein_g": 35.3,
+    "carb_g": 39.0,
+    "fat_g": 6.8,
+    "snack_id": "SNACK-0014"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Pirinç Patlağı (2) + Lor",
+    "portion": "Pirinç patlağı 2 + lor 100g",
+    "kcal": 190,
+    "protein_g": 23.4,
+    "carb_g": 17.6,
+    "fat_g": 2.6,
+    "snack_id": "SNACK-0015"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Yulaf + Whey + Ekmek",
+    "portion": "Yulaf 50g + whey 20g + ekmek 1",
+    "kcal": 343,
+    "protein_g": 28.1,
+    "carb_g": 46.6,
+    "fat_g": 5.9,
+    "snack_id": "SNACK-0016"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Yulaf + Yoğurt + Whey (30g) + Badem",
+    "portion": "Yulaf 60g + yoğurt 200g + whey 30g + badem 14g",
+    "kcal": 555,
+    "protein_g": 47.2,
+    "carb_g": 54.6,
+    "fat_g": 18.3,
+    "snack_id": "SNACK-0017"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Fıstık Ezmesi + Pirinç Patlağı (3)",
+    "portion": "Fıstık ezmesi 20g + pirinç patlağı 3",
+    "kcal": 223,
+    "protein_g": 7.1,
+    "carb_g": 25.9,
+    "fat_g": 10.9,
+    "snack_id": "SNACK-0018"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Muz + Süzme + Yulaf",
+    "portion": "Muz 1 + süzme 100g + yulaf 50g",
+    "kcal": 358,
+    "protein_g": 19.8,
+    "carb_g": 63.6,
+    "fat_g": 4.7,
+    "snack_id": "SNACK-0019"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Lor + Tam Buğday Ekmek (2 dilim)",
+    "portion": "Lor 100g + tam buğday ekmek 2 dilim",
+    "kcal": 258,
+    "protein_g": 29.2,
+    "carb_g": 26.2,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0020"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Ton Balığı + Galeta (2) + Badem",
+    "portion": "Ton balığı 120g + galeta 2 + badem 14g",
+    "kcal": 324,
+    "protein_g": 34.0,
+    "carb_g": 24.0,
+    "fat_g": 9.5,
+    "snack_id": "SNACK-0021"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Hindi Füme Wrap",
+    "portion": "Hindi füme 80g + tam buğday ekmek 1 + light labne 40g",
+    "kcal": 225,
+    "protein_g": 25.6,
+    "carb_g": 15.6,
+    "fat_g": 6.4,
+    "snack_id": "SNACK-0022"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Kefir + Badem",
+    "portion": "Kefir 250 ml + badem 14g",
+    "kcal": 222,
+    "protein_g": 12.0,
+    "carb_g": 13.0,
+    "fat_g": 13.0,
+    "snack_id": "SNACK-0023"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Tahin–Pekmez + Ekmek",
+    "portion": "Tahin 10g + pekmez 10g + tam buğday ekmek 1",
+    "kcal": 157,
+    "protein_g": 5.3,
+    "carb_g": 20.5,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0024"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Avokado + Yumurta + Badem",
+    "portion": "Avokado 100g + 2 yumurta + badem 14g",
+    "kcal": 386,
+    "protein_g": 17.0,
+    "carb_g": 12.3,
+    "fat_g": 31.7,
+    "snack_id": "SNACK-0025"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Protein Bar + Ayran",
+    "portion": "Protein bar 1 + ayran 330 ml",
+    "kcal": 325,
+    "protein_g": 27.0,
+    "carb_g": 31.0,
+    "fat_g": 11.0,
+    "snack_id": "SNACK-0026"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Humus + Havuç",
+    "portion": "Humus 100g + havuç 150g",
+    "kcal": 226,
+    "protein_g": 9.4,
+    "carb_g": 28.3,
+    "fat_g": 8.9,
+    "snack_id": "SNACK-0027"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Nohut (haşlama) + Yoğurt",
+    "portion": "Nohut 150g + yoğurt 200g",
+    "kcal": 366,
+    "protein_g": 23.5,
+    "carb_g": 49.5,
+    "fat_g": 8.9,
+    "snack_id": "SNACK-0028"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Kuru Fasulye (haş) + Ekmek + Badem",
+    "portion": "Kuru fasulye 150g + tam buğday ekmek 1 + badem 14g",
+    "kcal": 342,
+    "protein_g": 19.6,
+    "carb_g": 48.6,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0029"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Smoothie: Muz + Whey + Yoğurt",
+    "portion": "Muz 1 + whey 30g + yoğurt 200g",
+    "kcal": 345,
+    "protein_g": 35.3,
+    "carb_g": 39.0,
+    "fat_g": 6.8,
+    "snack_id": "SNACK-0030"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Pirinç Patlağı (2) + Lor",
+    "portion": "Pirinç patlağı 2 + lor 100g",
+    "kcal": 190,
+    "protein_g": 23.4,
+    "carb_g": 17.6,
+    "fat_g": 2.6,
+    "snack_id": "SNACK-0031"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Yulaf + Whey (30g) + Ekmek",
+    "portion": "Yulaf 50g + whey 30g + ekmek 1",
+    "kcal": 383,
+    "protein_g": 36.1,
+    "carb_g": 47.6,
+    "fat_g": 6.4,
+    "snack_id": "SNACK-0032"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Yulaf + Yoğurt + Whey + Badem",
+    "portion": "Yulaf 60g + yoğurt 200g + whey 20g + badem 14g",
+    "kcal": 515,
+    "protein_g": 39.2,
+    "carb_g": 53.6,
+    "fat_g": 17.8,
+    "snack_id": "SNACK-0033"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Fıstık Ezmesi + Pirinç Patlağı (3)",
+    "portion": "Fıstık ezmesi 20g + pirinç patlağı 3",
+    "kcal": 223,
+    "protein_g": 7.1,
+    "carb_g": 25.9,
+    "fat_g": 10.9,
+    "snack_id": "SNACK-0034"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Muz + Süzme + Yulaf",
+    "portion": "Muz 1 + süzme 100g + yulaf 50g",
+    "kcal": 358,
+    "protein_g": 19.8,
+    "carb_g": 63.6,
+    "fat_g": 4.7,
+    "snack_id": "SNACK-0035"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Lor + Tam Buğday Ekmek (2 dilim)",
+    "portion": "Lor 100g + tam buğday ekmek 2 dilim",
+    "kcal": 258,
+    "protein_g": 29.2,
+    "carb_g": 26.2,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0036"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Ton Balığı + Galeta (2) + Badem",
+    "portion": "Ton balığı 120g + galeta 2 + badem 14g",
+    "kcal": 324,
+    "protein_g": 34.0,
+    "carb_g": 24.0,
+    "fat_g": 9.5,
+    "snack_id": "SNACK-0037"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Hindi Füme Wrap",
+    "portion": "Hindi füme 80g + tam buğday ekmek 1 + light labne 40g",
+    "kcal": 225,
+    "protein_g": 25.6,
+    "carb_g": 15.6,
+    "fat_g": 6.4,
+    "snack_id": "SNACK-0038"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Kefir + Badem",
+    "portion": "Kefir 250 ml + badem 14g",
+    "kcal": 222,
+    "protein_g": 12.0,
+    "carb_g": 13.0,
+    "fat_g": 13.0,
+    "snack_id": "SNACK-0039"
+  },
+  {
+    "category": "Bulk",
+    "snack_name": "Tahin–Pekmez + Ekmek",
+    "portion": "Tahin 10g + pekmez 10g + tam buğday ekmek 1",
+    "kcal": 157,
+    "protein_g": 5.3,
+    "carb_g": 20.5,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0040"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Süzme Yoğurt (200g) + Badem",
+    "portion": "Süzme yoğurt 200g + badem 14g",
+    "kcal": 200,
+    "protein_g": 23.0,
+    "carb_g": 10.2,
+    "fat_g": 7.8,
+    "snack_id": "SNACK-0041"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Karabuğday Patlağı (2) + Lor",
+    "portion": "Karabuğday patlağı 2 + lor 60g",
+    "kcal": 132,
+    "protein_g": 15.0,
+    "carb_g": 13.8,
+    "fat_g": 1.8,
+    "snack_id": "SNACK-0042"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Whey + Su",
+    "portion": "Whey 20g + su",
+    "kcal": 80,
+    "protein_g": 16.0,
+    "carb_g": 2.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0043"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Elma + Fıstık Ezmesi",
+    "portion": "Elma 1 + fıstık ezmesi 15g",
+    "kcal": 183,
+    "protein_g": 4.3,
+    "carb_g": 28.0,
+    "fat_g": 7.8,
+    "snack_id": "SNACK-0044"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Ton Balığı + Kraker (TB)",
+    "portion": "Ton balığı 120g + kraker 30g",
+    "kcal": 252,
+    "protein_g": 32.0,
+    "carb_g": 20.0,
+    "fat_g": 4.0,
+    "snack_id": "SNACK-0045"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "2 Yumurta + Salatalık",
+    "portion": "2 yumurta + salatalık 200g",
+    "kcal": 174,
+    "protein_g": 13.5,
+    "carb_g": 6.8,
+    "fat_g": 10.2,
+    "snack_id": "SNACK-0046"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Kefir (250 ml)",
+    "portion": "Kefir 250 ml",
+    "kcal": 140,
+    "protein_g": 9.0,
+    "carb_g": 10.0,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0047"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Humus + Kapya Biber",
+    "portion": "Humus 100g + kapya 150g",
+    "kcal": 211,
+    "protein_g": 9.9,
+    "carb_g": 23.3,
+    "fat_g": 9.1,
+    "snack_id": "SNACK-0048"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Kraker + Light Labne",
+    "portion": "Kraker 30g + light labne 60g",
+    "kcal": 210,
+    "protein_g": 11.5,
+    "carb_g": 23.0,
+    "fat_g": 8.0,
+    "snack_id": "SNACK-0049"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Yulaf + Yoğurt",
+    "portion": "Yulaf 50g + yoğurt 200g",
+    "kcal": 314,
+    "protein_g": 18.5,
+    "carb_g": 42.0,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0050"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Pirinç Patlağı (2) + Hindi Füme",
+    "portion": "Pirinç patlağı 2 + hindi füme 80g",
+    "kcal": 166,
+    "protein_g": 18.4,
+    "carb_g": 16.6,
+    "fat_g": 2.6,
+    "snack_id": "SNACK-0051"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Protein Puding",
+    "portion": "Protein puding 1",
+    "kcal": 130,
+    "protein_g": 20.0,
+    "carb_g": 7.0,
+    "fat_g": 2.0,
+    "snack_id": "SNACK-0052"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0053"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Karabuğday Patlağı (2) + Lor",
+    "portion": "Karabuğday patlağı 2 + lor 60g",
+    "kcal": 132,
+    "protein_g": 15.0,
+    "carb_g": 13.8,
+    "fat_g": 1.8,
+    "snack_id": "SNACK-0054"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Whey + Su",
+    "portion": "Whey 20g + su",
+    "kcal": 80,
+    "protein_g": 16.0,
+    "carb_g": 2.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0055"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Elma + Fıstık Ezmesi",
+    "portion": "Elma 1 + fıstık ezmesi 15g",
+    "kcal": 183,
+    "protein_g": 4.3,
+    "carb_g": 28.0,
+    "fat_g": 7.8,
+    "snack_id": "SNACK-0056"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Ton Balığı + Kraker (TB)",
+    "portion": "Ton balığı 120g + kraker 30g",
+    "kcal": 252,
+    "protein_g": 32.0,
+    "carb_g": 20.0,
+    "fat_g": 4.0,
+    "snack_id": "SNACK-0057"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "2 Yumurta + Salatalık",
+    "portion": "2 yumurta + salatalık 200g",
+    "kcal": 174,
+    "protein_g": 13.5,
+    "carb_g": 6.8,
+    "fat_g": 10.2,
+    "snack_id": "SNACK-0058"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Kefir (250 ml)",
+    "portion": "Kefir 250 ml",
+    "kcal": 140,
+    "protein_g": 9.0,
+    "carb_g": 10.0,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0059"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Humus + Kapya Biber",
+    "portion": "Humus 100g + kapya 150g",
+    "kcal": 211,
+    "protein_g": 9.9,
+    "carb_g": 23.3,
+    "fat_g": 9.1,
+    "snack_id": "SNACK-0060"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Kraker + Light Labne",
+    "portion": "Kraker 30g + light labne 60g",
+    "kcal": 210,
+    "protein_g": 11.5,
+    "carb_g": 23.0,
+    "fat_g": 8.0,
+    "snack_id": "SNACK-0061"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Yulaf + Yoğurt",
+    "portion": "Yulaf 50g + yoğurt 200g",
+    "kcal": 314,
+    "protein_g": 18.5,
+    "carb_g": 42.0,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0062"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Pirinç Patlağı (2) + Hindi Füme",
+    "portion": "Pirinç patlağı 2 + hindi füme 80g",
+    "kcal": 166,
+    "protein_g": 18.4,
+    "carb_g": 16.6,
+    "fat_g": 2.6,
+    "snack_id": "SNACK-0063"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Protein Puding",
+    "portion": "Protein puding 1",
+    "kcal": 130,
+    "protein_g": 20.0,
+    "carb_g": 7.0,
+    "fat_g": 2.0,
+    "snack_id": "SNACK-0064"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0065"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Karabuğday Patlağı (2) + Lor",
+    "portion": "Karabuğday patlağı 2 + lor 60g",
+    "kcal": 132,
+    "protein_g": 15.0,
+    "carb_g": 13.8,
+    "fat_g": 1.8,
+    "snack_id": "SNACK-0066"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Whey + Su",
+    "portion": "Whey 20g + su",
+    "kcal": 80,
+    "protein_g": 16.0,
+    "carb_g": 2.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0067"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Elma + Fıstık Ezmesi",
+    "portion": "Elma 1 + fıstık ezmesi 15g",
+    "kcal": 183,
+    "protein_g": 4.3,
+    "carb_g": 28.0,
+    "fat_g": 7.8,
+    "snack_id": "SNACK-0068"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Ton Balığı + Kraker (TB)",
+    "portion": "Ton balığı 120g + kraker 30g",
+    "kcal": 252,
+    "protein_g": 32.0,
+    "carb_g": 20.0,
+    "fat_g": 4.0,
+    "snack_id": "SNACK-0069"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "2 Yumurta + Salatalık",
+    "portion": "2 yumurta + salatalık 200g",
+    "kcal": 174,
+    "protein_g": 13.5,
+    "carb_g": 6.8,
+    "fat_g": 10.2,
+    "snack_id": "SNACK-0070"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Kefir (250 ml)",
+    "portion": "Kefir 250 ml",
+    "kcal": 140,
+    "protein_g": 9.0,
+    "carb_g": 10.0,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0071"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Humus + Kapya Biber",
+    "portion": "Humus 100g + kapya 150g",
+    "kcal": 211,
+    "protein_g": 9.9,
+    "carb_g": 23.3,
+    "fat_g": 9.1,
+    "snack_id": "SNACK-0072"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Kraker + Light Labne",
+    "portion": "Kraker 30g + light labne 60g",
+    "kcal": 210,
+    "protein_g": 11.5,
+    "carb_g": 23.0,
+    "fat_g": 8.0,
+    "snack_id": "SNACK-0073"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Yulaf + Yoğurt",
+    "portion": "Yulaf 50g + yoğurt 200g",
+    "kcal": 314,
+    "protein_g": 18.5,
+    "carb_g": 42.0,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0074"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Pirinç Patlağı (2) + Hindi Füme",
+    "portion": "Pirinç patlağı 2 + hindi füme 80g",
+    "kcal": 166,
+    "protein_g": 18.4,
+    "carb_g": 16.6,
+    "fat_g": 2.6,
+    "snack_id": "SNACK-0075"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Protein Puding",
+    "portion": "Protein puding 1",
+    "kcal": 130,
+    "protein_g": 20.0,
+    "carb_g": 7.0,
+    "fat_g": 2.0,
+    "snack_id": "SNACK-0076"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0077"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Karabuğday Patlağı (2) + Lor",
+    "portion": "Karabuğday patlağı 2 + lor 60g",
+    "kcal": 132,
+    "protein_g": 15.0,
+    "carb_g": 13.8,
+    "fat_g": 1.8,
+    "snack_id": "SNACK-0078"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Whey + Su",
+    "portion": "Whey 20g + su",
+    "kcal": 80,
+    "protein_g": 16.0,
+    "carb_g": 2.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0079"
+  },
+  {
+    "category": "Clean Bulk",
+    "snack_name": "Elma + Fıstık Ezmesi",
+    "portion": "Elma 1 + fıstık ezmesi 15g",
+    "kcal": 183,
+    "protein_g": 4.3,
+    "carb_g": 28.0,
+    "fat_g": 7.8,
+    "snack_id": "SNACK-0080"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0081"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Whey (30g) + Su",
+    "portion": "Whey 30g + su",
+    "kcal": 120,
+    "protein_g": 24.0,
+    "carb_g": 3.0,
+    "fat_g": 1.5,
+    "snack_id": "SNACK-0082"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Light Ayran + Salatalık",
+    "portion": "Ayran 330 ml + salatalık 200g",
+    "kcal": 135,
+    "protein_g": 8.5,
+    "carb_g": 14.0,
+    "fat_g": 4.2,
+    "snack_id": "SNACK-0083"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Ton Balığı (light)",
+    "portion": "Ton balığı 120g (salata ekle)",
+    "kcal": 132,
+    "protein_g": 28.0,
+    "carb_g": 0.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0084"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Lor + Kapya",
+    "portion": "Lor 60–80g + kapya 150g",
+    "kcal": 117,
+    "protein_g": 15.0,
+    "carb_g": 10.8,
+    "fat_g": 1.7,
+    "snack_id": "SNACK-0085"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Pirinç Patlağı (1) + Light Peynir",
+    "portion": "Pirinç patlağı 1 + light peynir 60g",
+    "kcal": 125,
+    "protein_g": 11.7,
+    "carb_g": 9.3,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0086"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Yoğurt (200g)",
+    "portion": "Yoğurt 200g",
+    "kcal": 120,
+    "protein_g": 10.0,
+    "carb_g": 9.0,
+    "fat_g": 5.0,
+    "snack_id": "SNACK-0087"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Elma + Badem",
+    "portion": "Elma 1 + badem 10-12",
+    "kcal": 177,
+    "protein_g": 3.5,
+    "carb_g": 28.0,
+    "fat_g": 7.3,
+    "snack_id": "SNACK-0088"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Airfryer Nohut",
+    "portion": "Airfryer nohut ~80g",
+    "kcal": 300,
+    "protein_g": 15.0,
+    "carb_g": 38.0,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0089"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Protein Puding",
+    "portion": "Protein puding 1",
+    "kcal": 130,
+    "protein_g": 20.0,
+    "carb_g": 7.0,
+    "fat_g": 2.0,
+    "snack_id": "SNACK-0090"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Kefir (250 ml)",
+    "portion": "Kefir 250 ml",
+    "kcal": 140,
+    "protein_g": 9.0,
+    "carb_g": 10.0,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0091"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0092"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Whey + Su",
+    "portion": "Whey 20g + su",
+    "kcal": 80,
+    "protein_g": 16.0,
+    "carb_g": 2.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0093"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Light Ayran + Salatalık",
+    "portion": "Ayran 330 ml + salatalık 200g",
+    "kcal": 135,
+    "protein_g": 8.5,
+    "carb_g": 14.0,
+    "fat_g": 4.2,
+    "snack_id": "SNACK-0094"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Ton Balığı (light)",
+    "portion": "Ton balığı 120g (salata ekle)",
+    "kcal": 132,
+    "protein_g": 28.0,
+    "carb_g": 0.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0095"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Lor + Kapya",
+    "portion": "Lor 60–80g + kapya 150g",
+    "kcal": 117,
+    "protein_g": 15.0,
+    "carb_g": 10.8,
+    "fat_g": 1.7,
+    "snack_id": "SNACK-0096"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Pirinç Patlağı (1) + Light Peynir",
+    "portion": "Pirinç patlağı 1 + light peynir 60g",
+    "kcal": 125,
+    "protein_g": 11.7,
+    "carb_g": 9.3,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0097"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Yoğurt (200g)",
+    "portion": "Yoğurt 200g",
+    "kcal": 120,
+    "protein_g": 10.0,
+    "carb_g": 9.0,
+    "fat_g": 5.0,
+    "snack_id": "SNACK-0098"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Elma + Badem",
+    "portion": "Elma 1 + badem 10-12",
+    "kcal": 177,
+    "protein_g": 3.5,
+    "carb_g": 28.0,
+    "fat_g": 7.3,
+    "snack_id": "SNACK-0099"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Airfryer Nohut",
+    "portion": "Airfryer nohut ~80g",
+    "kcal": 300,
+    "protein_g": 15.0,
+    "carb_g": 38.0,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0100"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Protein Puding",
+    "portion": "Protein puding 1",
+    "kcal": 130,
+    "protein_g": 20.0,
+    "carb_g": 7.0,
+    "fat_g": 2.0,
+    "snack_id": "SNACK-0101"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Kefir (250 ml)",
+    "portion": "Kefir 250 ml",
+    "kcal": 140,
+    "protein_g": 9.0,
+    "carb_g": 10.0,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0102"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0103"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Whey + Su",
+    "portion": "Whey 20g + su",
+    "kcal": 80,
+    "protein_g": 16.0,
+    "carb_g": 2.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0104"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Light Ayran + Salatalık",
+    "portion": "Ayran 330 ml + salatalık 200g",
+    "kcal": 135,
+    "protein_g": 8.5,
+    "carb_g": 14.0,
+    "fat_g": 4.2,
+    "snack_id": "SNACK-0105"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Ton Balığı (light)",
+    "portion": "Ton balığı 120g (salata ekle)",
+    "kcal": 132,
+    "protein_g": 28.0,
+    "carb_g": 0.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0106"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Lor + Kapya",
+    "portion": "Lor 60–80g + kapya 150g",
+    "kcal": 117,
+    "protein_g": 15.0,
+    "carb_g": 10.8,
+    "fat_g": 1.7,
+    "snack_id": "SNACK-0107"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Pirinç Patlağı (1) + Light Peynir",
+    "portion": "Pirinç patlağı 1 + light peynir 60g",
+    "kcal": 125,
+    "protein_g": 11.7,
+    "carb_g": 9.3,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0108"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Yoğurt (200g)",
+    "portion": "Yoğurt 200g",
+    "kcal": 120,
+    "protein_g": 10.0,
+    "carb_g": 9.0,
+    "fat_g": 5.0,
+    "snack_id": "SNACK-0109"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Elma + Badem",
+    "portion": "Elma 1 + badem 10-12",
+    "kcal": 177,
+    "protein_g": 3.5,
+    "carb_g": 28.0,
+    "fat_g": 7.3,
+    "snack_id": "SNACK-0110"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Airfryer Nohut",
+    "portion": "Airfryer nohut ~80g",
+    "kcal": 300,
+    "protein_g": 15.0,
+    "carb_g": 38.0,
+    "fat_g": 9.0,
+    "snack_id": "SNACK-0111"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Protein Puding",
+    "portion": "Protein puding 1",
+    "kcal": 130,
+    "protein_g": 20.0,
+    "carb_g": 7.0,
+    "fat_g": 2.0,
+    "snack_id": "SNACK-0112"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Kefir (250 ml)",
+    "portion": "Kefir 250 ml",
+    "kcal": 140,
+    "protein_g": 9.0,
+    "carb_g": 10.0,
+    "fat_g": 6.0,
+    "snack_id": "SNACK-0113"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Süzme Yoğurt (200g)",
+    "portion": "Süzme yoğurt 200g",
+    "kcal": 118,
+    "protein_g": 20.0,
+    "carb_g": 7.2,
+    "fat_g": 0.8,
+    "snack_id": "SNACK-0114"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Whey (30g) + Su",
+    "portion": "Whey 30g + su",
+    "kcal": 120,
+    "protein_g": 24.0,
+    "carb_g": 3.0,
+    "fat_g": 1.5,
+    "snack_id": "SNACK-0115"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Light Ayran + Salatalık",
+    "portion": "Ayran 330 ml + salatalık 200g",
+    "kcal": 135,
+    "protein_g": 8.5,
+    "carb_g": 14.0,
+    "fat_g": 4.2,
+    "snack_id": "SNACK-0116"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Ton Balığı (light)",
+    "portion": "Ton balığı 120g (salata ekle)",
+    "kcal": 132,
+    "protein_g": 28.0,
+    "carb_g": 0.0,
+    "fat_g": 1.0,
+    "snack_id": "SNACK-0117"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Lor + Kapya",
+    "portion": "Lor 60–80g + kapya 150g",
+    "kcal": 117,
+    "protein_g": 15.0,
+    "carb_g": 10.8,
+    "fat_g": 1.7,
+    "snack_id": "SNACK-0118"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Pirinç Patlağı (1) + Light Peynir",
+    "portion": "Pirinç patlağı 1 + light peynir 60g",
+    "kcal": 125,
+    "protein_g": 11.7,
+    "carb_g": 9.3,
+    "fat_g": 3.8,
+    "snack_id": "SNACK-0119"
+  },
+  {
+    "category": "Zayıflama",
+    "snack_name": "Yoğurt (200g)",
+    "portion": "Yoğurt 200g",
+    "kcal": 120,
+    "protein_g": 10.0,
+    "carb_g": 9.0,
+    "fat_g": 5.0,
+    "snack_id": "SNACK-0120"
+  }
+]

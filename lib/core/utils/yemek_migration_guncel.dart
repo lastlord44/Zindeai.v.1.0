@@ -10,24 +10,39 @@ import '../../data/local/hive_service.dart';
 import '../../core/utils/app_logger.dart';
 
 class YemekMigration {
-  // JSON dosya listesi (Web uyumlu - TÜM DOSYALAR!)
+  // 🆕 YENİ JSON DOSYA LİSTESİ (tüm kategoriler + SONMEALLER!)
   static const List<String> _jsonDosyalari = [
+    // KAHVALTI (300 yemek)
+    'zindeai_kahvalti_300.json',
     'kahvalti_batch_01.json',
     'kahvalti_batch_02.json',
+    
+    // ARA ÖĞÜN (120 + batch'ler)
+    'ara_ogun_toplu_120.json',
     'ara_ogun_1_batch_01.json',
     'ara_ogun_1_batch_02.json',
-    'ogle_yemegi_batch_01.json',
-    'ogle_yemegi_batch_02.json',
     'ara_ogun_2_batch_01.json',
     'ara_ogun_2_batch_02.json',
+    
+    // ÖĞLE YEMEĞİ (300 + batch'ler)
+    'zindeai_ogle_300.json',
+    'ogle_yemegi_batch_01.json',
+    'ogle_yemegi_batch_02.json',
+    
+    // AKŞAM YEMEĞİ (300 + 450 + 150 + 150) - ÇEŞİTLİLİK İÇİN TÜMÜ!
+    'zindeai_aksam_300.json',
+    'aksam_combo_450.json',             // 🔥 YENİ - SONMEALLER!
+    'aksam_yemekbalık_150.json',        // 🔥 YENİ - SONMEALLER!
+    'aksam_yemekbalik_150.json',        // 🔥 YENİ - alternatif isim
+    'aksam_yemekleri_150_kofte_kiyma_kusbasi_haslama.json', // 🔥 YENİ - SONMEALLER!
     'aksam_yemegi_batch_01.json',
     'aksam_yemegi_batch_02.json',
+    
+    // GECE ATIŞTIRMASI
     'gece_atistirmasi.json',
+    
+    // CHEAT MEAL
     'cheat_meal.json',
-    // 🆕 YENİ EKLENEN DOSYALAR (750+ yeni yemek!)
-    'aksam_combo_450.json', // 450 combo yemek
-    'aksam_yemekbalik_150.json', // 150 balık yemeği
-    'aksam_yemekleri_150_kofte.json', // 150 et yemeği
   ];
 
   // JSON dosya yolları (assets klasörü - Web uyumlu)
@@ -62,15 +77,26 @@ class YemekMigration {
             continue;
           }
 
-          // Yemekleri Hive'a kaydet (LOG MİNİMİZED!)
+          // Yemekleri Hive'a kaydet (DUPLICATE ÖNLEME!)
           int dosyaBasarili = 0;
           int dosyaHatali = 0;
+          int dosyaSkipped = 0;
           
           for (var yemekJson in yemekler) {
             toplamYemek++;
             try {
               final yemekModel =
                   YemekHiveModel.fromJson(yemekJson as Map<String, dynamic>);
+              
+              // 🔥 DUPLICATE KONTROLÜ: Aynı meal_id varsa ekleme!
+              if (yemekModel.mealId != null) {
+                final mevcutYemek = await HiveService.yemekGetir(yemekModel.mealId!);
+                if (mevcutYemek != null) {
+                  dosyaSkipped++;
+                  continue; // Zaten var, atla
+                }
+              }
+              
               await HiveService.yemekKaydet(yemekModel);
               basariliYemek++;
               dosyaBasarili++;
@@ -84,9 +110,13 @@ class YemekMigration {
               }
             }
           }
-
+          
           // Toplu log - her yemek için değil
-          AppLogger.success('✅ $dosya: ${yemekler.length} yemek (Başarılı: $dosyaBasarili, Hatalı: $dosyaHatali)');
+          final logMessage = dosyaSkipped > 0 
+              ? '✅ $dosya: ${yemekler.length} yemek (Başarılı: $dosyaBasarili, Hatalı: $dosyaHatali, Zaten var: $dosyaSkipped)'
+              : '✅ $dosya: ${yemekler.length} yemek (Başarılı: $dosyaBasarili, Hatalı: $dosyaHatali)';
+          AppLogger.success(logMessage);
+
         } catch (e) {
           AppLogger.error('❌ $dosya işlenirken hata: $e');
         }

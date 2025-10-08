@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "last_migration": "2025-10-07",
+  "total_meals": 10000,
+  "source_files": [
+    "kahvalti_batch_01.json",
+    "kahvalti_batch_02.json",
+    "ogle_yemegi_batch_01.json",
+    "ogle_yemegi_batch_02.json",
+    "aksam_yemegi_batch_01.json",
+    "aksam_yemegi_batch_02.json",
+    "ara_ogun_1_batch_01.json",
+    "ara_ogun_1_batch_02.json",
+    "ara_ogun_2_batch_01.json",
+    "ara_ogun_2_batch_02.json",
+    "ara_ogun_toplu_120.json",
+    "cheat_meal.json",
+    "gece_atistirmasi.json"
+  ],
+  "categories": {
+    "kahvalti": 60,
+    "ogle": 80,
+    "aksam": 80,
+    "ara_ogun_1": 170,
+    "ara_ogun_2": 50,
+    "cheat_meal": 10,
+    "gece_atistirmasi": 20
+  },
+  "ai_instructions": {
+    "IMPORTANT": "DO NOT read raw JSON files! They are 10k+ lines and will consume all tokens.",
+    "HOW_TO_QUERY": "Use YemekHiveDataSource methods: tumYemekleriYukle(), etc.",
+    "HOW_TO_DEBUG": "Use DBSummaryService.healthCheck() to check DB status",
+    "SAMPLE_CODE": "final dataSource = YemekHiveDataSource(); final tumYemekler = await dataSource.tumYemekleriYukle();"
+  },
+  "diversity_fix": {
+    "status": "FIXED",
+    "issue": "_sonSecilenYemekler was instance variable, resetting on each new OgunPlanlayici instance",
+    "solution": "Made _sonSecilenYemekler static - now shared across all instances",
+    "result": "Diversity mechanism now works correctly, different meals selected each day"
+  }
+}

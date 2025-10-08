@@ -123,8 +123,77 @@ class DetayliOgunCard extends StatelessWidget {
             ),
           ),
 
-          // Malzemeler listesi
-          if (yemek.malzemeler.isNotEmpty) ...[
+          // Malzemeler listesi - aciklama varsa onu göster (gram bilgili), yoksa malzemeler array'ini göster
+          if (yemek.tarif != null && yemek.tarif!.contains('(') && yemek.tarif!.contains('g)')) ...[
+            // Tarif field'ı malzeme gramlarını içeriyor (açıklama formatında)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Malzemeler:',
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.grey,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  // Tarifi virgüllerle böl ve her malzemeyi listele
+                  ..._parseMalzemelerFromTarif(yemek.tarif!).asMap().entries.map((entry) {
+                    final index = entry.key;
+                    final malzeme = entry.value;
+                    
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 4),
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 4,
+                            height: 4,
+                            decoration: BoxDecoration(
+                              color: _getOgunRengi(),
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              malzeme,
+                              style: const TextStyle(
+                                fontSize: 13,
+                                color: Colors.black87,
+                              ),
+                            ),
+                          ),
+                          // Malzeme alternatifi butonu
+                          if (onMalzemeAlternatifiPressed != null)
+                            InkWell(
+                              onTap: () => onMalzemeAlternatifiPressed!(
+                                yemek,
+                                malzeme,
+                                index,
+                              ),
+                              borderRadius: BorderRadius.circular(12),
+                              child: Padding(
+                                padding: const EdgeInsets.all(4),
+                                child: Icon(
+                                  Icons.swap_horiz,
+                                  size: 16,
+                                  color: _getOgunRengi().withValues(alpha: 0.7),
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                    );
+                  }),
+                ],
+              ),
+            ),
+          ] else if (yemek.malzemeler.isNotEmpty) ...[
+            // Fallback: Sadece malzeme isimleri varsa onları göster
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
               child: Column(
@@ -373,6 +442,13 @@ class DetayliOgunCard extends StatelessWidget {
         ),
       ],
     );
+  }
+
+  /// Tarif field'ından malzemeleri parse et (gram bilgileriyle)
+  List<String> _parseMalzemelerFromTarif(String tarif) {
+    // "lor peyniri (120 g), kinoa (80 g), roka (60 g)" formatını parse et
+    final malzemeler = tarif.split(',').map((m) => m.trim()).where((m) => m.isNotEmpty).toList();
+    return malzemeler;
   }
 
   Color _getOgunRengi() {

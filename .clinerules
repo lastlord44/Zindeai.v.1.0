@@ -1,0 +1,57 @@
+# .clinerules - Cline'ın okumasını istemediğin dosyalar
+
+# ⛔ BÜYÜK JSON DOSYALARI - ASLA OKUMA!
+**/assets/data/*.json
+**/build/**
+**/indirilen dosyalar/**
+**/zinde ai için mealler/**
+
+# ✅ Sadece bu dosyaları oku:
+!**/assets/data/db_summary.json
+
+# Hive boxları da okuma (binary)
+**/*.hive
+**/*.lock
+
+# Cache dosyaları
+**/.dart_tool/**
+**/flutter_windows/**
+
+# 🤖 CLINE İÇİN DB KULLANIM KILAVUZU
+
+## ⛔ YASAK: JSON Dosyalarını Okuma
+- `assets/data/*.json` dosyalarını **ASLA** okuma/analiz etme
+- Bu dosyalar 10k+ satır ve token'ı bitirir
+- Migration zaten yapıldı, veriler Hive DB'de
+
+## ✅ İZİNLİ: Hive DB Kullanımı
+- Yemek verilerine **HiveService** üzerinden eriş
+- DB özetini görmek için: `DBSummaryService.getDatabaseSummary()`
+- Sağlık kontrolü: `DBSummaryService.healthCheck()`
+
+## 📖 Örnek Kullanım
+
+### Yemek sayısı öğren:
+```dart
+final hiveService = HiveService();
+final sayi = await hiveService.yemekSayisi();
+print('Toplam yemek: $sayi');
+```
+
+### Kategori bazında yemekleri getir:
+```dart
+final yemekDataSource = YemekHiveDataSource();
+final tumYemekler = await yemekDataSource.tumYemekleriYukle();
+final kahvaltilar = tumYemekler[OgunTipi.kahvalti];
+print('Kahvaltı sayısı: ${kahvaltilar?.length}');
+```
+
+### Örnek yemekleri gör:
+```dart
+final ornekler = await DBSummaryService.getSampleMeals();
+```
+
+## 🚨 Token Tasarrufu Kuralı
+- Kod yazarken asla raw JSON'a dokunma
+- Migration'a dokunma (zaten çalışıyor)
+- Sadece HiveService API'sini kullan

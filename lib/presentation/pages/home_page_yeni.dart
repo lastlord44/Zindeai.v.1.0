@@ -48,9 +48,35 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.grey.shade50,
-      appBar: AppBar(
+    return WillPopScope(
+      onWillPop: () async {
+        // Android geri tuşu için çıkış onayı
+        final shouldPop = await showDialog<bool>(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('Uygulamadan Çık'),
+            content: const Text('Uygulamadan çıkmak istediğinize emin misiniz?'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context, false),
+                child: const Text('Hayır'),
+              ),
+              ElevatedButton(
+                onPressed: () => Navigator.pop(context, true),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red,
+                  foregroundColor: Colors.white,
+                ),
+                child: const Text('Evet, Çık'),
+              ),
+            ],
+          ),
+        );
+        return shouldPop ?? false;
+      },
+      child: Scaffold(
+        backgroundColor: Colors.grey.shade50,
+        appBar: AppBar(
         title: const Text('ZindeAI'),
         backgroundColor: Colors.purple,
         foregroundColor: Colors.white,
@@ -104,6 +130,17 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
                         yeniMalzemeMetni: yeniMalzemeMetni,
                       ),
                     );
+              } else {
+                // 🔥 FIX: Alternatif seçilmeden iptal edildiyse, mevcut HomeLoaded state'ine dön
+                // Plan zaten mevcut, gereksiz yere LoadPlanByDate çağırma (performans optimizasyonu)
+                final currentState = state as AlternativeIngredientsLoaded;
+                context.read<HomeBloc>().emit(HomeLoaded(
+                  plan: currentState.plan,
+                  hedefler: currentState.hedefler,
+                  kullanici: currentState.kullanici,
+                  currentDate: currentState.currentDate,
+                  tamamlananOgunler: currentState.tamamlananOgunler,
+                ));
               }
             });
           }
@@ -113,7 +150,18 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
           if (_aktifSekme == NavigasyonSekme.profil) {
             return Column(
               children: [
-                const Expanded(child: ProfilPage()),
+                Expanded(
+                  child: ProfilPage(
+                    // 🔥 FIX: Profil kaydedilince otomatik beslenme sekmesine geç
+                    onProfilKaydedildi: () {
+                      setState(() {
+                        _aktifSekme = NavigasyonSekme.beslenme;
+                      });
+                      // HomeBloc'u reload et - yeni makrolarla plan oluşturacak
+                      context.read<HomeBloc>().add(LoadHomePage());
+                    },
+                  ),
+                ),
                 AltNavigasyonBar(
                   aktifSekme: _aktifSekme,
                   onSekmeSecildi: (sekme) {
@@ -658,6 +706,7 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
             ],
           );
         },
+        ),
       ),
     );
   }
