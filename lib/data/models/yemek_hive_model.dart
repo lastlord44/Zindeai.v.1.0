@@ -4,6 +4,7 @@
 // ============================================================================
 
 import 'package:hive/hive.dart';
+import 'dart:math';
 import '../../domain/entities/yemek.dart';
 import '../../domain/entities/alternatif_besin.dart';
 
@@ -82,12 +83,16 @@ class YemekHiveModel extends HiveObject {
   /// JSON'dan YemekHiveModel oluştur (hem eski hem yeni format desteği)
   factory YemekHiveModel.fromJson(Map<String, dynamic> json) {
     // Yeni format kontrolü (Türkçe field adları)
-    final bool yeniFormat = json.containsKey('isim') || json.containsKey('aciklama');
-    
+    final bool yeniFormat =
+        json.containsKey('isim') || json.containsKey('aciklama');
+
+    YemekHiveModel model;
+
     if (yeniFormat) {
       // 🆕 YENİ FORMAT (zindeai_*.json dosyaları)
-      return YemekHiveModel(
-        mealId: json['id']?.toString(),
+      final rawId = json['id']?.toString();
+      model = YemekHiveModel(
+        mealId: rawId != null && rawId.isNotEmpty ? rawId : generateMealId(),
         category: json['kategori']?.toString(),
         mealName: json['isim']?.toString(),
         calorie: _parseDouble(json['kalori']),
@@ -106,8 +111,9 @@ class YemekHiveModel extends HiveObject {
       );
     } else {
       // 📜 ESKİ FORMAT (mevcut JSON dosyaları)
-      return YemekHiveModel(
-        mealId: json['meal_id']?.toString(),
+      final rawId = json['meal_id']?.toString();
+      model = YemekHiveModel(
+        mealId: rawId != null && rawId.isNotEmpty ? rawId : generateMealId(),
         category: json['category']?.toString(),
         mealName: json['meal_name']?.toString(),
         calorie: _parseDouble(json['calorie']),
@@ -125,6 +131,11 @@ class YemekHiveModel extends HiveObject {
         alternatives: _parseAlternatives(json['alternatives']),
       );
     }
+
+    // 🔥 SON KONTROL: mealId hala null ise unique ID ata (GARANTILI!)
+    model.mealId ??= generateMealId();
+
+    return model;
   }
 
   /// YemekHiveModel'i Yemek entity'sine çevir
@@ -195,6 +206,13 @@ class YemekHiveModel extends HiveObject {
   // HELPER METODLAR
   // ========================================================================
 
+  /// 🔥 Unique Meal ID Generator (STATIC - her yerden erişilebilir!)
+  static String generateMealId() {
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+    final random = Random().nextInt(99999).toString().padLeft(5, '0');
+    return 'MEAL-$timestamp-$random';
+  }
+
   /// Double değer parse helper metodu
   static double? _parseDouble(dynamic value) {
     if (value == null) return null;
@@ -260,7 +278,7 @@ class YemekHiveModel extends HiveObject {
       case 'kahvalt':
         return OgunTipi.kahvalti;
       case 'ara öğün 1':
-      case 'ara ogun 1': // Türkçe karakter yok  
+      case 'ara ogun 1': // Türkçe karakter yok
       case 'ara_ogun_1': // 🔥 FIX: Underscore formatı
         return OgunTipi.araOgun1;
       case 'öğle':

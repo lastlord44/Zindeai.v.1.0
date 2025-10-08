@@ -1,6 +1,5 @@
 import 'package:zinde_ai/data/datasources/yemek_hive_data_source.dart';
 import 'package:zinde_ai/core/utils/app_logger.dart';
-import 'package:zinde_ai/domain/entities/yemek.dart';
 
 /// 🎯 Cline için DB özeti - JSON'lara girmeden bilgi verir
 class DBSummaryService {

@@ -21,6 +21,28 @@ class MakroProgressCard extends StatelessWidget {
     required this.emoji,
   }) : super(key: key);
 
+  /// ±5% tolerans limiti (GunlukPlan entity ile aynı)
+  static const double toleransYuzdesi = 5.0;
+
+  /// Sapma yüzdesi hesapla (mutlak değer)
+  double get sapmaYuzdesi {
+    return ((mevcut - hedef).abs() / hedef) * 100;
+  }
+
+  /// ±5% tolerans içinde mi?
+  bool get toleranstaMi {
+    return sapmaYuzdesi <= toleransYuzdesi;
+  }
+
+  /// Tolerans durumuna göre renk
+  Color get durumaGoreRenk {
+    if (toleranstaMi) {
+      return Colors.green; // ✅ Tolerans içinde
+    } else {
+      return Colors.red; // ❌ Tolerans aşıldı (SIÇ TIK!)
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final yuzde = (mevcut / hedef * 100).clamp(0, 100);
@@ -33,6 +55,10 @@ class MakroProgressCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
+        // 🎯 Tolerans durumuna göre border ekle
+        border: !toleranstaMi 
+            ? Border.all(color: Colors.red, width: 2)
+            : null,
         boxShadow: [
           BoxShadow(
             color: renk.withValues(alpha: 0.1),
@@ -114,8 +140,69 @@ class MakroProgressCard extends StatelessWidget {
                 ),
             ],
           ),
+
+          // 🎯 TOLERANS KONTROLÜ (±5%)
+          const SizedBox(height: 8),
+          _buildToleranceIndicator(),
         ],
       ),
     );
+  }
+
+  /// Tolerans göstergesi widget'ı
+  Widget _buildToleranceIndicator() {
+    if (toleranstaMi) {
+      // ✅ Tolerans içinde - yeşil onay
+      return Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+        decoration: BoxDecoration(
+          color: Colors.green.withValues(alpha: 0.1),
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(color: Colors.green.withValues(alpha: 0.3)),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.check_circle, color: Colors.green, size: 16),
+            const SizedBox(width: 6),
+            Text(
+              '±5% tolerans içinde (${sapmaYuzdesi.toStringAsFixed(1)}% sapma)',
+              style: TextStyle(
+                fontSize: 11,
+                color: Colors.green.shade700,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ],
+        ),
+      );
+    } else {
+      // ❌ Tolerans aşıldı - kırmızı uyarı
+      return Container(
+        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+        decoration: BoxDecoration(
+          color: Colors.red.withValues(alpha: 0.1),
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(color: Colors.red, width: 1.5),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.warning_rounded, color: Colors.red, size: 18),
+            const SizedBox(width: 6),
+            Flexible(
+              child: Text(
+                '⚠️ TOLERANS AŞILDI! ${sapmaYuzdesi.toStringAsFixed(1)}% sapma (Max: ±5%)',
+                style: TextStyle(
+                  fontSize: 11,
+                  color: Colors.red.shade700,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        ),
+      );
+    }
   }
 }

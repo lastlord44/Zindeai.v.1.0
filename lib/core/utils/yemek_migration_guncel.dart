@@ -16,31 +16,31 @@ class YemekMigration {
     'zindeai_kahvalti_300.json',
     'kahvalti_batch_01.json',
     'kahvalti_batch_02.json',
-    
+
     // ARA ÖĞÜN (120 + batch'ler)
     'ara_ogun_toplu_120.json',
     'ara_ogun_1_batch_01.json',
     'ara_ogun_1_batch_02.json',
     'ara_ogun_2_batch_01.json',
     'ara_ogun_2_batch_02.json',
-    
+
     // ÖĞLE YEMEĞİ (300 + batch'ler)
     'zindeai_ogle_300.json',
     'ogle_yemegi_batch_01.json',
     'ogle_yemegi_batch_02.json',
-    
+
     // AKŞAM YEMEĞİ (300 + 450 + 150 + 150) - ÇEŞİTLİLİK İÇİN TÜMÜ!
     'zindeai_aksam_300.json',
-    'aksam_combo_450.json',             // 🔥 YENİ - SONMEALLER!
-    'aksam_yemekbalık_150.json',        // 🔥 YENİ - SONMEALLER!
-    'aksam_yemekbalik_150.json',        // 🔥 YENİ - alternatif isim
+    'aksam_combo_450.json', // 🔥 YENİ - SONMEALLER!
+    'aksam_yemekbalık_150.json', // 🔥 YENİ - SONMEALLER!
+    'aksam_yemekbalik_150.json', // 🔥 YENİ - alternatif isim
     'aksam_yemekleri_150_kofte_kiyma_kusbasi_haslama.json', // 🔥 YENİ - SONMEALLER!
     'aksam_yemegi_batch_01.json',
     'aksam_yemegi_batch_02.json',
-    
+
     // GECE ATIŞTIRMASI
     'gece_atistirmasi.json',
-    
+
     // CHEAT MEAL
     'cheat_meal.json',
   ];
@@ -48,11 +48,10 @@ class YemekMigration {
   // JSON dosya yolları (assets klasörü - Web uyumlu)
   static const String _assetsPath = 'assets/data/';
 
-  /// JSON dosyalarını Hive'a migration yap (GÜNCEL)
+  /// JSON dosyalarını Hive'a migration yap (SESSIZ - kullanıcı "Plan Oluştur" butonuna basmadan log yok)
   static Future<bool> jsonToHiveMigration() async {
     try {
-      AppLogger.info(
-          '🚀 JSON to Hive migration başlatılıyor... (Optimized - Log minimized)');
+      // Log kaldırıldı - kullanıcı "Plan Oluştur" butonuna basmadan önce hiçbir yemek logu olmamalı
 
       int toplamYemek = 0;
       int basariliYemek = 0;
@@ -62,7 +61,7 @@ class YemekMigration {
       for (var dosya in _jsonDosyalari) {
         final assetsPath = '$_assetsPath$dosya';
 
-        AppLogger.info('📂 İşleniyor: $dosya');
+        // Log kaldırıldı - sessiz çalışma
 
         try {
           List<dynamic> yemekler = [];
@@ -71,8 +70,9 @@ class YemekMigration {
           try {
             final jsonStr = await rootBundle.loadString(assetsPath);
             yemekler = json.decode(jsonStr);
-            // Log minimized - sadece dosya okuma bilgisi
+            // Sessiz çalışma - log yok
           } catch (e) {
+            // Sadece kritik dosya bulunamama hatası
             AppLogger.warning('⚠️ Dosya bulunamadı: $dosya - $e');
             continue;
           }
@@ -81,58 +81,73 @@ class YemekMigration {
           int dosyaBasarili = 0;
           int dosyaHatali = 0;
           int dosyaSkipped = 0;
-          
+
           for (var yemekJson in yemekler) {
             toplamYemek++;
             try {
-              final yemekModel =
-                  YemekHiveModel.fromJson(yemekJson as Map<String, dynamic>);
-              
+              // 🔥 KATEGORİ DÜZELTMESİ: Dosya adına göre kategori belirle (JSON'a güvenme!)
+              final jsonMap =
+                  Map<String, dynamic>.from(yemekJson as Map<String, dynamic>);
+
+              // Dosya adından doğru kategoriyi al
+              final dogruKategori = _dosyaAdindanKategoriBelirle(dosya);
+              if (dogruKategori != null) {
+                jsonMap['category'] =
+                    dogruKategori; // ✅ Dosya adına göre category override et!
+              }
+
+              // 🔥 MEAL_NAME DÜZELTMESİ: Ara öğün yemeklerinin isimlerini düzelt
+              final category = jsonMap['category'] as String?;
+              final mealName = jsonMap['meal_name'] as String?;
+
+              if (category != null && mealName != null) {
+                // Ara Öğün 1: "Kahvaltı Kombinasyonu:" → "Ara Öğün 1:"
+                if (category.toLowerCase().contains('ara') &&
+                    category.contains('1') &&
+                    mealName.startsWith('Kahvaltı Kombinasyonu:')) {
+                  jsonMap['meal_name'] = mealName.replaceFirst(
+                      'Kahvaltı Kombinasyonu:', 'Ara Öğün 1:');
+                }
+                // Ara Öğün 2: "Öğle:" → "Ara Öğün 2:"
+                else if (category.toLowerCase().contains('ara') &&
+                    category.contains('2') &&
+                    mealName.startsWith('Öğle:')) {
+                  jsonMap['meal_name'] =
+                      mealName.replaceFirst('Öğle:', 'Ara Öğün 2:');
+                }
+              }
+
+              final yemekModel = YemekHiveModel.fromJson(jsonMap);
+
               // 🔥 DUPLICATE KONTROLÜ: Aynı meal_id varsa ekleme!
               if (yemekModel.mealId != null) {
-                final mevcutYemek = await HiveService.yemekGetir(yemekModel.mealId!);
+                final mevcutYemek =
+                    await HiveService.yemekGetir(yemekModel.mealId!);
                 if (mevcutYemek != null) {
                   dosyaSkipped++;
                   continue; // Zaten var, atla
                 }
               }
-              
+
               await HiveService.yemekKaydet(yemekModel);
               basariliYemek++;
               dosyaBasarili++;
             } catch (e) {
               hataliYemek++;
               dosyaHatali++;
-              // Sadece ilk 3 hatayı göster
-              if (dosyaHatali <= 3) {
-                AppLogger.warning(
-                    '⚠️ Yemek kaydedilemedi: ${yemekJson['meal_name']} - $e');
-              }
+              // Sessiz çalışma - log yok
             }
           }
-          
-          // Toplu log - her yemek için değil
-          final logMessage = dosyaSkipped > 0 
-              ? '✅ $dosya: ${yemekler.length} yemek (Başarılı: $dosyaBasarili, Hatalı: $dosyaHatali, Zaten var: $dosyaSkipped)'
-              : '✅ $dosya: ${yemekler.length} yemek (Başarılı: $dosyaBasarili, Hatalı: $dosyaHatali)';
-          AppLogger.success(logMessage);
 
+          // Toplu log KALDIRILDI - sessiz çalışma
         } catch (e) {
-          AppLogger.error('❌ $dosya işlenirken hata: $e');
+          // Sadece kritik dosya işleme hatası
+          AppLogger.error('❌ $dosya işlenirken kritik hata: $e');
         }
       }
 
-      // Sonuç raporu
-      AppLogger.info('📊 === MIGRATION RAPORU (GÜNCEL) ===');
-      AppLogger.info('Toplam yemek: $toplamYemek');
-      AppLogger.info('Başarılı: $basariliYemek');
-      AppLogger.info('Hatalı: $hataliYemek');
-      AppLogger.info(
-          'Başarı oranı: ${(basariliYemek / toplamYemek * 100).toStringAsFixed(1)}%');
-      AppLogger.info('=====================================');
-
-      // Veritabanı durumunu göster
-      await _yemekVeritabaniDurumu();
+      // Sonuç raporu KALDIRILDI - sessiz çalışma
+      // Veritabanı durumu KALDIRILDI - sessiz çalışma
 
       return basariliYemek > 0;
     } catch (e, stackTrace) {
@@ -141,13 +156,14 @@ class YemekMigration {
     }
   }
 
-  /// Migration durumunu kontrol et
+  /// Migration durumunu kontrol et (SESSIZ - log yok)
   static Future<bool> migrationGerekliMi() async {
     try {
       final yemekSayisi = await HiveService.yemekSayisi();
-      AppLogger.debug('📊 Mevcut yemek sayısı: $yemekSayisi');
+      // Log kaldırıldı - kullanıcı "Plan Oluştur" butonuna basmadan log çıkmamalı
       return yemekSayisi == 0; // Yemek yoksa migration gerekli
     } catch (e) {
+      // Sadece kritik hatalarda log bas
       AppLogger.error('❌ Migration kontrol hatası', error: e);
       return true; // Hata durumunda migration yap
     }
@@ -180,6 +196,27 @@ class YemekMigration {
       AppLogger.error('❌ İstatistik hatası', error: e);
       return {};
     }
+  }
+
+  /// 🔥 Dosya adından kategori belirle (JSON'daki category'ye güvenme!)
+  static String? _dosyaAdindanKategoriBelirle(String dosyaAdi) {
+    final dosyaLower = dosyaAdi.toLowerCase();
+
+    // Dosya adına göre kategori mapping'i
+    if (dosyaLower.contains('kahvalti')) return 'Kahvaltı';
+    if (dosyaLower.contains('ara_ogun_1') || dosyaLower.contains('ara ogun 1'))
+      return 'Ara Öğün 1';
+    if (dosyaLower.contains('ara_ogun_2') || dosyaLower.contains('ara ogun 2'))
+      return 'Ara Öğün 2';
+    if (dosyaLower.contains('ara_ogun_toplu'))
+      return 'Ara Öğün 2'; // 🔥 DÜZELTİLDİ: Toplu ara öğün = Ara Öğün 2
+    if (dosyaLower.contains('ogle')) return 'Öğle Yemeği';
+    if (dosyaLower.contains('aksam')) return 'Akşam Yemeği';
+    if (dosyaLower.contains('gece')) return 'Gece Atıştırması';
+    if (dosyaLower.contains('cheat')) return 'Cheat Meal';
+
+    // Dosya adından belirlenemezse null dön (JSON'daki category kullanılacak)
+    return null;
   }
 
   /// Yemek veritabanı durumu (helper method)

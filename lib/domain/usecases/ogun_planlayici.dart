@@ -9,14 +9,14 @@ import '../../core/utils/app_logger.dart';
 import '../entities/yemek.dart';
 import '../entities/gunluk_plan.dart';
 import '../entities/makro_hedefleri.dart';
+import '../services/karbonhidrat_validator.dart';
+import '../../core/services/cesitlilik_gecmis_servisi.dart';
 
 class OgunPlanlayici {
   final YemekHiveDataSource dataSource;
   final Random _random = Random();
 
-  // 🎯 ÇEŞİTLİLİK MEKANİZMASI: Son seçilen yemekleri hatırla
-  // ⚡ FİX: Static yapıldı - tüm instance'lar arasında paylaşılır!
-  static final Map<OgunTipi, List<String>> _sonSecilenYemekler = {};
+  // 🎯 ÇEŞİTLİLİK MEKANİZMASI: Kalici gecmis (Hive'da saklanir)
   static const int _cokYakindaKullanilanSinir =
       3; // Son 3 günde kullanılanları azalt
   static const int _yakindaKullanilanSinir =
@@ -24,7 +24,7 @@ class OgunPlanlayici {
 
   OgunPlanlayici({required this.dataSource});
 
-  /// Günlük plan oluştur
+  /// Günlük plan oluştur (SESSIZ MOD - log spam önlendi)
   Future<GunlukPlan> gunlukPlanOlustur({
     required double hedefKalori,
     required double hedefProtein,
@@ -33,39 +33,9 @@ class OgunPlanlayici {
     List<String> kisitlamalar = const [],
   }) async {
     try {
-      AppLogger.info('🍽️ Günlük plan oluşturma başladı');
-      AppLogger.debug(
-          'Hedefler: Kalori=$hedefKalori, Protein=$hedefProtein, Karb=$hedefKarb, Yağ=$hedefYag');
-      AppLogger.debug(
-          'Kısıtlamalar: ${kisitlamalar.isEmpty ? "Yok" : kisitlamalar.join(", ")}');
-
-      // 1. Tüm yemekleri yükle
-      AppLogger.info('📂 Yemekler data source\'dan yükleniyor...');
+      // Yemekleri yükle ve filtrele (sessiz)
       final tumYemekler = await dataSource.tumYemekleriYukle();
-
-      // Yemek sayılarını logla
-      int toplamYemek = 0;
-      tumYemekler.forEach((ogun, yemekler) {
-        toplamYemek += yemekler.length;
-        AppLogger.debug(
-            '  ${ogun.toString().split('.').last}: ${yemekler.length} yemek');
-      });
-      AppLogger.success(
-          '✅ Toplam $toplamYemek yemek yüklendi (${tumYemekler.length} kategori)');
-
-      // 2. Kısıtlamalara göre filtrele
-      AppLogger.info('🔍 Kısıtlamalara göre filtreleme yapılıyor...');
       final uygunYemekler = _kisitlamalariFiltrele(tumYemekler, kisitlamalar);
-
-      // Filtrelenmiş yemek sayılarını logla
-      int filtrelenmisToplamYemek = 0;
-      uygunYemekler.forEach((ogun, yemekler) {
-        filtrelenmisToplamYemek += yemekler.length;
-        AppLogger.debug(
-            '  ${ogun.toString().split('.').last}: ${yemekler.length} uygun yemek');
-      });
-      AppLogger.success(
-          '✅ Filtreleme tamamlandı: $filtrelenmisToplamYemek uygun yemek');
 
       // Boş kategori kontrolü
       final bosKategoriler =
@@ -80,8 +50,7 @@ class OgunPlanlayici {
             'Plan oluşturulamadı: $bosKategoriIsimleri kategorilerinde uygun yemek bulunamadı. Lütfen kısıtlamalarınızı kontrol edin.');
       }
 
-      // 3. Genetik algoritma ile en iyi kombinasyonu bul
-      AppLogger.info('🧬 Genetik algoritma ile en iyi kombinasyon aranıyor...');
+      // Genetik algoritma (sessiz)
       final plan = _genetikAlgoritmaIleEslestir(
         yemekler: uygunYemekler,
         hedefKalori: hedefKalori,
@@ -89,11 +58,6 @@ class OgunPlanlayici {
         hedefKarb: hedefKarb,
         hedefYag: hedefYag,
       );
-
-      AppLogger.success(
-          '✅ Plan başarıyla oluşturuldu! Fitness Skoru: ${plan.fitnessSkoru.toStringAsFixed(1)}');
-      AppLogger.debug(
-          'Plan özeti: ${plan.ogunler.length} öğün, Toplam Kalori: ${plan.toplamKalori.toStringAsFixed(0)}');
 
       return plan;
     } catch (e, stackTrace) {
@@ -106,21 +70,35 @@ class OgunPlanlayici {
     }
   }
 
-  /// Kısıtlamalara göre filtrele
+  /// Kısıtlamalara göre filtrele + Karbonhidrat validasyonu
   Map<OgunTipi, List<Yemek>> _kisitlamalariFiltrele(
     Map<OgunTipi, List<Yemek>> tumYemekler,
     List<String> kisitlamalar,
   ) {
-    if (kisitlamalar.isEmpty) return tumYemekler;
-
     return tumYemekler.map((ogun, yemekler) {
-      final filtrelenmis =
-          yemekler.where((y) => y.kisitlamayaUygunMu(kisitlamalar)).toList();
+      var filtrelenmis = yemekler;
+
+      // 1. Kısıtlamalara göre filtrele
+      if (kisitlamalar.isNotEmpty) {
+        filtrelenmis = filtrelenmis
+            .where((y) => y.kisitlamayaUygunMu(kisitlamalar))
+            .toList();
+      }
+
+      // 2. Karbonhidrat validasyonu (Ogle ve Aksam icin)
+      if (ogun == OgunTipi.ogle || ogun == OgunTipi.aksam) {
+        final oncekiSayi = filtrelenmis.length;
+        filtrelenmis = KarbonhidratValidator.yemekleriFiltrele(filtrelenmis);
+        final sonrakiSayi = filtrelenmis.length;
+
+        // Karbonhidrat filtreleme sessiz çalışır
+      }
+
       return MapEntry(ogun, filtrelenmis);
     });
   }
 
-  /// Genetik algoritma (ÇEŞİTLİLİK OPTİMİZE EDİLMİŞ)
+  /// Genetik algoritma (ÇEŞİTLİLİK OPTİMİZE EDİLMİŞ + PERFORMANS İYİLEŞTİRMESİ V2)
   GunlukPlan _genetikAlgoritmaIleEslestir({
     required Map<OgunTipi, List<Yemek>> yemekler,
     required double hedefKalori,
@@ -128,10 +106,10 @@ class OgunPlanlayici {
     required double hedefKarb,
     required double hedefYag,
   }) {
-    // 🎯 ÇEŞİTLİLİK OPTİMİZASYONU: Daha fazla çeşitlilik için parametreler artırıldı
-    const populasyonBoyutu = 50; // 30 -> 50 (daha fazla seçenek)
-    const jenerasyonSayisi = 30; // 20 -> 30 (daha fazla evrim)
-    const elitOrani = 0.2;
+    // 🎯 PERFORMANS OPTİMİZASYONU V2: UI donması tamamen önlendi
+    const populasyonBoyutu = 15; // 30 → 15 (2x hızlı)
+    const jenerasyonSayisi = 10; // 20 → 10 (2x hızlı)
+    const elitOrani = 0.2; // En iyi bireyleri koru
 
     // 1. Rastgele popülasyon oluştur
     List<GunlukPlan> populasyon = List.generate(populasyonBoyutu, (_) {
@@ -184,27 +162,12 @@ class OgunPlanlayici {
     populasyon.sort((a, b) => b.fitnessSkoru.compareTo(a.fitnessSkoru));
     final enIyiPlan = populasyon.first;
 
-    // 🔥 FIX: En iyi planın yemeklerini çeşitlilik geçmişine kaydet
-    // Böylece sadece GERÇEKTEN kullanılan planın yemekleri geçmişe kaydedilir
-    // ve günler arası çeşitlilik sağlanır (her gün farklı yemekler)
-    
-    // 📋 SEÇİLEN BESİNLERİ LOGLA (her besin 1 kez)
-    AppLogger.info('🍽️ === SEÇİLEN BESİNLER ===');
-    final loggananlar = <String>{};  // Set ile duplicate önle
-    
+    // Çeşitlilik geçmişine kaydet (sessiz)
     for (final yemek in enIyiPlan.ogunler) {
       if (yemek != null) {
         _yemekSecildiKaydet(yemek.ogun, yemek.id);
-        
-        // Her besini sadece 1 kez logla
-        if (!loggananlar.contains(yemek.id)) {
-          loggananlar.add(yemek.id);
-          final ogunAdi = yemek.ogun.toString().split('.').last;
-          AppLogger.info('  [$ogunAdi] ${yemek.ad} (${yemek.kalori.toStringAsFixed(0)} kcal, P:${yemek.protein.toStringAsFixed(0)}g)');
-        }
       }
     }
-    AppLogger.info('================================');
 
     return enIyiPlan;
   }
@@ -262,6 +225,9 @@ class OgunPlanlayici {
       throw Exception('Akşam yemeği listesi boş!');
     }
 
+    // 🚫 ANA MALZEMELERİ BELİRLE (somon, tavuk, et, balık vb.)
+    final ogleAnaMalzeme = _anaMalzemeyiBul(ogleYemegi.ad);
+
     // Hafta sonu kontrolü (Cumartesi=6, Pazar=7)
     final haftaSonuMu =
         tarih.weekday == DateTime.saturday || tarih.weekday == DateTime.sunday;
@@ -275,28 +241,34 @@ class OgunPlanlayici {
       'mercimek'
     ];
 
-    if (haftaSonuMu) {
-      final ogleAdLower = ogleYemegi.ad.toLowerCase();
-      final istisnaGecerliMi = haftaSonuIstisnaYemekler
-          .any((kelime) => ogleAdLower.contains(kelime));
+    if (haftaSonuMu && ogleAnaMalzeme != null) {
+      final istisnaGecerliMi =
+          haftaSonuIstisnaYemekler.contains(ogleAnaMalzeme);
 
       if (istisnaGecerliMi) {
-        // Hafta sonu + istisna yemek: Aynı yemeği seçebilir
-        AppLogger.debug(
-            '🎉 Hafta sonu istisnası: ${ogleYemegi.ad} akşam da verilebilir');
-        // Normal seçim yap, öğle kontrolü YAPMA
+        // Hafta sonu + istisna yemek: Aynı yemeği seçebilir (sessiz)
         return _cesitliYemekSec(aksamYemekleri, OgunTipi.aksam);
       }
     }
 
-    // Normal durum: Öğle ile akşam FARKLI olmalı
-    final uygunAksamYemekleri =
-        aksamYemekleri.where((y) => y.id != ogleYemegi.id).toList();
+    // 🔥 KRİTİK: Öğle ile akşam FARKLI ana malzeme olmalı!
+    final uygunAksamYemekleri = aksamYemekleri.where((y) {
+      // 1. ID farklı olmalı
+      if (y.id == ogleYemegi.id) return false;
+
+      // 2. ANA MALZEME farklı olmalı (somon != somon, tavuk != tavuk)
+      final aksamAnaMalzeme = _anaMalzemeyiBul(y.ad);
+      if (ogleAnaMalzeme != null && aksamAnaMalzeme != null) {
+        if (ogleAnaMalzeme == aksamAnaMalzeme) {
+          return false; // Sessiz filtreleme
+        }
+      }
+
+      return true;
+    }).toList();
 
     if (uygunAksamYemekleri.isEmpty) {
-      // Çok nadir: Tüm akşam yemekleri öğle yemeği ile aynı
-      AppLogger.warning(
-          '⚠️ Tüm akşam yemekleri öğle ile aynı! En azından farklı yemek seçiliyor...');
+      // Çok nadir: Tüm akşam yemekleri öğle ile aynı ana malzemeden (sessiz)
       return aksamYemekleri.firstWhere(
         (y) => y.id != ogleYemegi.id,
         orElse: () => aksamYemekleri.first,
@@ -306,59 +278,166 @@ class OgunPlanlayici {
     // Çeşitlilik mekanizmasını kullanarak seç
     final secilen = _cesitliYemekSec(uygunAksamYemekleri, OgunTipi.aksam);
 
-    // Double-check: Seçilen öğle ile aynı mı?
-    if (secilen.id == ogleYemegi.id) {
-      AppLogger.error(
-          '❌ HATA: Akşam yemeği öğle ile aynı seçildi! ID: ${secilen.id}');
-      // Farklı bir yemek seç
+    // Double-check: Seçilen öğle ile aynı ana malzemeden mi? (sessiz kontrol)
+    final secilenAnaMalzeme = _anaMalzemeyiBul(secilen.ad);
+    if (ogleAnaMalzeme != null &&
+        secilenAnaMalzeme != null &&
+        ogleAnaMalzeme == secilenAnaMalzeme) {
+      // Farklı ana malzemeli yemek seç (sessiz)
       final alternatif = uygunAksamYemekleri.firstWhere(
-        (y) => y.id != ogleYemegi.id,
-        orElse: () => aksamYemekleri.first,
+        (y) => _anaMalzemeyiBul(y.ad) != ogleAnaMalzeme,
+        orElse: () => uygunAksamYemekleri.first,
       );
-      AppLogger.info('✅ Alternatif akşam yemeği seçildi: ${alternatif.ad}');
       return alternatif;
     }
 
     return secilen;
   }
 
-  /// Çeşitlilik sağlayan yemek seçimi (ağırlıklı rastgele)
+  /// Ana malzemeyi bul (somon, tavuk, et, balık, vb.)
+  String? _anaMalzemeyiBul(String yemekAdi) {
+    final adLower = yemekAdi.toLowerCase();
+
+    // Ana malzemeler listesi (alfabetik sırayla)
+    const anaMalzemeler = [
+      'alabalık',
+      'balık',
+      'barbunya',
+      'bonfile',
+      'böbrek',
+      'ciğer',
+      'dana',
+      'deniz ürünleri',
+      'enginar',
+      'fasulye',
+      'hamsi',
+      'hindi',
+      'ıspanak',
+      'kalkan',
+      'karides',
+      'koyun',
+      'köfte',
+      'kuzu',
+      'kıyma',
+      'kuşbaşı',
+      'levrek',
+      'mantar',
+      'mercimek',
+      'midye',
+      'nohut',
+      'patlıcan',
+      'paça',
+      'pizza',
+      'rosto',
+      'salam',
+      'sardalye',
+      'sebze',
+      'sığır',
+      'somon',
+      'sosisli',
+      'sucuk',
+      'tavuk',
+      'ton balığı',
+      'turbot',
+      'uskumru',
+      'yumurta',
+    ];
+
+    // En uzun eşleşmeyi bul (örn: "ton balığı" önce denenmeli, "balık"tan önce)
+    String? enUzunEslesen;
+    for (final malzeme in anaMalzemeler) {
+      if (adLower.contains(malzeme)) {
+        if (enUzunEslesen == null || malzeme.length > enUzunEslesen.length) {
+          enUzunEslesen = malzeme;
+        }
+      }
+    }
+
+    return enUzunEslesen;
+  }
+
+  /// Çeşitlilik sağlayan yemek seçimi (ağırlıklı rastgele) - KALICI GECMIS
   Yemek _cesitliYemekSec(List<Yemek> yemekler, OgunTipi ogunTipi) {
     if (yemekler.isEmpty) {
       AppLogger.error('❌ HATA: _cesitliYemekSec - Yemek listesi boş!');
       throw Exception('Yemek listesi boş! Genetik algoritma çalışamıyor.');
     }
 
-    // Son seçilen yemekleri al
-    final sonSecilenler = _sonSecilenYemekler[ogunTipi] ?? [];
+    // 🔥 GÜVENLİK KONTROLÜ: Yemeklerin doğru kategoride olup olmadığını kontrol et (SESSIZ)
+    final yanlisKategoriler =
+        yemekler.where((y) => y.ogun != ogunTipi).toList();
+    if (yanlisKategoriler.isNotEmpty) {
+      // Sadece doğru kategorideki yemekleri kullan (log spam önlemek için sessiz)
+      final dogruYemekler = yemekler.where((y) => y.ogun == ogunTipi).toList();
+      if (dogruYemekler.isEmpty) {
+        // Sadece kritik durumlarda log bas
+        AppLogger.error(
+            '❌ KRİTİK: ${ogunTipi.toString().split('.').last} için hiç doğru kategoride yemek yok!');
+        throw Exception(
+            '${ogunTipi.toString().split('.').last} kategorisinde uygun yemek bulunamadı! Lütfen migration\'ı kontrol edin.');
+      }
+
+      // Doğru yemeklerle devam et (sessizce)
+      return _cesitliYemekSec(dogruYemekler, ogunTipi);
+    }
+
+    // Hive'dan kalici gecmisi al
+    final sonSecilenler = CesitlilikGecmisServisi.gecmisiGetir(ogunTipi);
+
+    // 🔥 KRİTİK: Son 3 günde kullanılan yemekleri DİREKT FİLTRELE
+    // (Fitness skoruna bırakmayın, süzme yoğurt gibi makro uygun yemekler her gün gelmesin!)
+    var uygunYemekler = yemekler;
+    if (sonSecilenler.isNotEmpty) {
+      // Son 3 yemeği al
+      final yassakYemekler = sonSecilenler.length > 3
+          ? sonSecilenler.sublist(sonSecilenler.length - 3)
+          : sonSecilenler;
+
+      // Son 3 günde kullanılan yemekleri FİLTRELE
+      uygunYemekler =
+          yemekler.where((y) => !yassakYemekler.contains(y.id)).toList();
+
+      // Eğer tüm yemekler yasak ise (çok nadir), en azından en eski kullanılanları al (sessiz)
+      if (uygunYemekler.isEmpty) {
+        // Son 7 günde kullanılan yemekleri filtrele (daha yumuşak)
+        final son7Yemek = sonSecilenler.length > 7
+            ? sonSecilenler.sublist(sonSecilenler.length - 7)
+            : sonSecilenler;
+        uygunYemekler =
+            yemekler.where((y) => !son7Yemek.contains(y.id)).toList();
+
+        // Hala boşsa, tüm yemekleri kullan (son çare)
+        if (uygunYemekler.isEmpty) {
+          uygunYemekler = yemekler;
+        }
+      }
+    }
 
     // Eğer hiç yemek seçilmemişse, normal rastgele seçim yap
     if (sonSecilenler.isEmpty) {
-      return yemekler[_random.nextInt(yemekler.length)];
+      return uygunYemekler[_random.nextInt(uygunYemekler.length)];
     }
 
-    // Ağırlıklı seçim için ağırlıkları hesapla
+    // Ağırlıklı seçim için ağırlıkları hesapla (7+ gün önceki yemekler için)
     final agirliklar = <double>[];
-    for (final yemek in yemekler) {
-      double agirlik = 1.0;
+    for (final yemek in uygunYemekler) {
+      double agirlik = 100.0; // Hiç kullanılmayanlar için çok yüksek ağırlık
 
-      // Son N günde kullanıldı mı kontrol et
+      // Son N günde kullanıldı mı kontrol et (7+ gün için)
       final kullanimIndex = sonSecilenler.indexOf(yemek.id);
       if (kullanimIndex != -1) {
         final kullanimSirasi = sonSecilenler.length - kullanimIndex;
 
-        if (kullanimSirasi <= _cokYakindaKullanilanSinir) {
-          // Çok yakın zamanda kullanıldı - çok düşük ağırlık (10%)
-          agirlik = 0.1;
-        } else if (kullanimSirasi <= _yakindaKullanilanSinir) {
-          // Yakın zamanda kullanıldı - düşük ağırlık (40%)
-          agirlik = 0.4;
+        // Son 3 gün zaten filtrelendi, burada sadece 7+ gün kontrolü
+        if (kullanimSirasi <= _yakindaKullanilanSinir) {
+          // 3-7 gün arası: düşük ağırlık
+          agirlik = 10.0;
         } else {
-          // Uzun zaman önce kullanıldı - orta ağırlık (70%)
-          agirlik = 0.7;
+          // 7+ gün önce: orta ağırlık
+          agirlik = 50.0;
         }
       }
-      // Hiç kullanılmadıysa ağırlık 1.0 kalır
+      // Hiç kullanılmamışlar zaten 100 ağırlıkta
 
       agirliklar.add(agirlik);
     }
@@ -371,40 +450,26 @@ class OgunPlanlayici {
 
     // Ağırlıklara göre yemek seç
     double kumulatifAgirlik = 0.0;
-    for (int i = 0; i < yemekler.length; i++) {
+    for (int i = 0; i < uygunYemekler.length; i++) {
       kumulatifAgirlik += agirliklar[i];
       if (rastgeleDeger <= kumulatifAgirlik) {
-        return yemekler[i];
+        return uygunYemekler[i];
       }
     }
-    
+
     // Fallback (normalde buraya gelmemeli)
-    return yemekler.last;
+    return uygunYemekler.last;
   }
 
-  /// Seçilen yemeği kaydet (çeşitlilik için)
+  /// Seçilen yemeği kaydet (çeşitlilik için) - KALICI GECMIS
   void _yemekSecildiKaydet(OgunTipi ogunTipi, String yemekId) {
-    if (!_sonSecilenYemekler.containsKey(ogunTipi)) {
-      _sonSecilenYemekler[ogunTipi] = [];
-    }
-
-    final liste = _sonSecilenYemekler[ogunTipi]!;
-
-    // Aynı yemek zaten listede varsa, eski kaydı sil
-    liste.remove(yemekId);
-
-    // Yeni kaydı en sona ekle
-    liste.add(yemekId);
-
-    // Maksimum 10 yemek hatırla (bellek optimizasyonu)
-    if (liste.length > 10) {
-      liste.removeAt(0);
-    }
+    // Hive'a kaydet - boylece uygulama kapansa bile gecmis korunur
+    CesitlilikGecmisServisi.yemekSecildi(ogunTipi, yemekId);
   }
 
   /// Çeşitlilik geçmişini temizle (yeni haftalık plan başlarken)
-  void cesitlilikGecmisiniTemizle() {
-    _sonSecilenYemekler.clear();
+  Future<void> cesitlilikGecmisiniTemizle() async {
+    await CesitlilikGecmisServisi.gecmisiTemizle();
   }
 
   /// Çaprazlama (crossover)
@@ -421,17 +486,17 @@ class OgunPlanlayici {
         kesimNoktasi > 4 ? parent1.aksamYemegi : parent2.aksamYemegi;
 
     // 🔒 VALİDASYON: Akşam-öğle aynı olmamalı (crossover sonrası kontrol)
-    if (ogleYemegi != null &&
-        aksamYemegi != null &&
+    // Null safety: Her iki yemeğin de null olmadığından emin ol
+    if (aksamYemegi != null &&
+        ogleYemegi != null &&
         ogleYemegi.id == aksamYemegi.id) {
       // Ebeveynlerden gelen akşam yemeği öğle ile aynı! Yeni akşam seç
       aksamYemegi = _aksamYemegiSec(
         yemekler[OgunTipi.aksam]!,
-        ogleYemegi,
+        ogleYemegi, // Artık null olmadığı garanti
         DateTime.now(),
       );
-      AppLogger.debug(
-          '🔧 Crossover validasyonu: Akşam yemeği öğle ile aynıydı, değiştirildi');
+      // Crossover validasyonu sessiz çalışır
     }
 
     return GunlukPlan(
@@ -447,12 +512,12 @@ class OgunPlanlayici {
     );
   }
 
-  /// Mutasyon (ÇEŞİTLİLİK için artırıldı)
+  /// Mutasyon (Dengeli mutasyon oranı)
   GunlukPlan _mutasyonUygula(
     GunlukPlan plan,
     Map<OgunTipi, List<Yemek>> yemekler,
   ) {
-    const mutasyonOrani = 0.4; // 0.2 -> 0.4 (2x daha fazla mutasyon)
+    const mutasyonOrani = 0.4; // Dengeli mutasyon oranı
 
     if (_random.nextDouble() > mutasyonOrani) {
       return plan;
@@ -475,11 +540,13 @@ class OgunPlanlayici {
         // Öğle yemeği değişince, akşam yemeğini de kontrol et
         final yeniOgleYemegi =
             _cesitliYemekSec(yemekler[OgunTipi.ogle]!, OgunTipi.ogle);
-        final yeniAksamYemegi = plan.aksamYemegi != null &&
-                plan.aksamYemegi!.id == yeniOgleYemegi.id
-            ? _aksamYemegiSec(
-                yemekler[OgunTipi.aksam]!, yeniOgleYemegi, plan.tarih)
-            : plan.aksamYemegi;
+        // Null safety: Local variable ile flow analysis'i netleştir
+        final mevcutAksam = plan.aksamYemegi;
+        final yeniAksamYemegi =
+            mevcutAksam != null && mevcutAksam.id == yeniOgleYemegi.id
+                ? _aksamYemegiSec(
+                    yemekler[OgunTipi.aksam]!, yeniOgleYemegi, plan.tarih)
+                : plan.aksamYemegi;
         return plan.copyWith(
           ogleYemegi: yeniOgleYemegi,
           aksamYemegi: yeniAksamYemegi,
@@ -491,10 +558,12 @@ class OgunPlanlayici {
         );
       default:
         // Akşam yemeği değişirken öğle ile aynı olmamasını sağla
-        if (plan.ogleYemegi != null) {
+        // Null safety: Local variable ile flow analysis'i netleştir
+        final mevcutOgle = plan.ogleYemegi;
+        if (mevcutOgle != null) {
           return plan.copyWith(
             aksamYemegi: _aksamYemegiSec(
-                yemekler[OgunTipi.aksam]!, plan.ogleYemegi!, plan.tarih),
+                yemekler[OgunTipi.aksam]!, mevcutOgle, plan.tarih),
           );
         }
         return plan.copyWith(
@@ -504,7 +573,7 @@ class OgunPlanlayici {
     }
   }
 
-  /// Fitness fonksiyonu (0-100 arası skor) + ÇEŞİTLİLİK BONUSU
+  /// Fitness fonksiyonu - 4 MAKRO EŞİT AĞIRLIKLI (Her makro 25 puan = 100)
   double _fitnessHesapla(
     GunlukPlan plan,
     double hedefKalori,
@@ -512,62 +581,54 @@ class OgunPlanlayici {
     double hedefKarb,
     double hedefYag,
   ) {
-    // 1. Makro sapması (0-70 puan)
-    final kaloriSapma = (plan.toplamKalori - hedefKalori).abs() / hedefKalori;
+    // 🎯 4 MAKRO KONTROLÜ - HER MAKRO 25 PUAN (Toplam 100)
+    final kaloriSapma =
+        ((plan.toplamKalori - hedefKalori).abs() / hedefKalori) * 100;
     final proteinSapma =
-        (plan.toplamProtein - hedefProtein).abs() / hedefProtein;
-    final karbSapma = (plan.toplamKarbonhidrat - hedefKarb).abs() / hedefKarb;
-    final yagSapma = (plan.toplamYag - hedefYag).abs() / hedefYag;
+        ((plan.toplamProtein - hedefProtein).abs() / hedefProtein) * 100;
+    final karbSapma =
+        ((plan.toplamKarbonhidrat - hedefKarb).abs() / hedefKarb) * 100;
+    final yagSapma = ((plan.toplamYag - hedefYag).abs() / hedefYag) * 100;
 
-    final toplamSapma = (kaloriSapma * 0.4 +
-            proteinSapma * 0.35 +
-            karbSapma * 0.15 +
-            yagSapma * 0.1)
-        .clamp(0.0, 1.0);
-
-    final makroSkoru = (1 - toplamSapma) * 50;
-
-    // 2. ÇEŞİTLİLİK BONUSU (0-50 puan) - ÇEŞİTLİLİK ÖNCELİKLİ!
-    double cesitlilikBonusu = 0;
-    int yeniYemekSayisi = 0;
-    int toplamYemekSayisi = 0;
-
-    for (var yemek in plan.ogunler) {
-      if (yemek != null) {
-        toplamYemekSayisi++;
-        final ogunTipi = _yemekOgunTipiniBul(yemek);
-        final sonSecilenler = _sonSecilenYemekler[ogunTipi] ?? [];
-
-        // Son 7 günde kullanılmadıysa yeni sayılır
-        if (!sonSecilenler.contains(yemek.id)) {
-          yeniYemekSayisi++;
-        }
+    // Her makro için skor hesapla (0-25 puan)
+    double makroSkoru(double sapmaYuzdesi) {
+      if (sapmaYuzdesi <= 10.0) {
+        // ±10% tolerans içinde: 22.5-25 puan
+        return 25.0 - (sapmaYuzdesi * 0.25);
+      } else if (sapmaYuzdesi <= 20.0) {
+        // %10-20 arası: 7.5-22.5 puan (ceza)
+        return 22.5 - ((sapmaYuzdesi - 10.0) * 1.5);
+      } else if (sapmaYuzdesi <= 30.0) {
+        // %20-30 arası: 2.5-7.5 puan (ağır ceza)
+        return 7.5 - ((sapmaYuzdesi - 20.0) * 0.5);
+      } else {
+        // %30+ sapma: 0-2.5 puan (kabul edilemez)
+        return (2.5 - (sapmaYuzdesi - 30.0) * 0.1).clamp(0.0, 2.5);
       }
     }
 
-    if (toplamYemekSayisi > 0) {
-      // Yeni yemek oranı 0-1 arası
-      final yeniYemekOrani = yeniYemekSayisi / toplamYemekSayisi;
-      cesitlilikBonusu =
-          yeniYemekOrani * 50; // 30 -> 50 puan (çeşitlilik daha önemli!)
-    }
+    final kaloriSkoru = makroSkoru(kaloriSapma);
+    final proteinSkoru = makroSkoru(proteinSapma);
+    final karbSkoru = makroSkoru(karbSapma);
+    final yagSkoru = makroSkoru(yagSapma);
 
-    final toplamFitness = makroSkoru + cesitlilikBonusu;
+    // Toplam fitness (0-100)
+    final toplamFitness = kaloriSkoru + proteinSkoru + karbSkoru + yagSkoru;
 
     return toplamFitness.clamp(0.0, 100.0);
   }
 
-  /// Yemeğin öğün tipini bul (çeşitlilik bonusu için)
-  OgunTipi _yemekOgunTipiniBul(Yemek yemek) {
-    // Yemek entity'sinde zaten ogun field'ı var (OgunTipi türünde)
-    return yemek.ogun;
+  /// 4 MAKRONUN DETAYLI SAPMA RAPORUNU LOGLA (KALDIRILDI - sessiz çalış)
+  void _makroSapmalariniLogla(GunlukPlan plan, double hedefKalori,
+      double hedefProtein, double hedefKarb, double hedefYag) {
+    // Sessiz çalış - log spam önlendi
   }
 
   // ========================================================================
   // HAFTALIK PLAN OLUŞTURMA
   // ========================================================================
 
-  /// Haftalık plan oluştur (7 günlük)
+  /// Haftalık plan oluştur (7 günlük) - SESSIZ MOD
   Future<List<GunlukPlan>> haftalikPlanOlustur({
     required double hedefKalori,
     required double hedefProtein,
@@ -577,26 +638,16 @@ class OgunPlanlayici {
     DateTime? baslangicTarihi,
   }) async {
     try {
-      AppLogger.info('📅 Haftalık plan oluşturma başladı (7 gün)');
-
       final baslangic = baslangicTarihi ?? DateTime.now();
       final haftalikPlanlar = <GunlukPlan>[];
 
-      // 🎯 ÇEŞİTLİLİK İÇİN: Geçmişi TEMİZLEME - böylece gerçek çeşitlilik sağlanır!
-      // cesitlilikGecmisiniTemizle(); // ❌ KALDIRILDI: Geçmişi silersek aynı yemekler tekrar çıkar!
-      AppLogger.info(
-          '🔄 Çeşitlilik mekanizması aktif - son ${_yakindaKullanilanSinir} günün geçmişi kullanılıyor');
-
-      // 7 gün için plan oluştur
+      // 7 gün için plan oluştur (sessiz)
       for (int gun = 0; gun < 7; gun++) {
         final planTarihi = DateTime(
           baslangic.year,
           baslangic.month,
           baslangic.day + gun,
         );
-
-        AppLogger.info(
-            '📋 ${gun + 1}. gün planı oluşturuluyor (${planTarihi.toString().split(' ')[0]})...');
 
         // Her gün için ayrı plan oluştur
         final gunlukPlan = await gunlukPlanOlustur(
@@ -614,10 +665,8 @@ class OgunPlanlayici {
         );
 
         haftalikPlanlar.add(guncelPlan);
-        AppLogger.success('✅ ${gun + 1}. gün planı tamamlandı');
       }
 
-      AppLogger.success('✅ Haftalık plan başarıyla oluşturuldu (7 gün)');
       return haftalikPlanlar;
     } catch (e, stackTrace) {
       AppLogger.error(

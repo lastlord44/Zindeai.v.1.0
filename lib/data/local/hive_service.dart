@@ -14,6 +14,7 @@ import '../../domain/entities/antrenman.dart';
 import '../../domain/entities/yemek.dart';
 import '../../core/utils/app_logger.dart';
 import '../../core/utils/yemek_migration_guncel.dart';
+import '../../core/services/cesitlilik_gecmis_servisi.dart';
 
 class HiveService {
   static const String _kullaniciBox = 'kullanici_box';
@@ -44,23 +45,23 @@ class HiveService {
       await Hive.openBox<TamamlananAntrenmanHiveModel>(_antrenmanBox);
       await Hive.openBox<YemekHiveModel>(_yemekBox);
 
+      // Cesitlilik gecmis servisi baslat
+      await CesitlilikGecmisServisi.init();
+
       AppLogger.info('✅ Hive başarıyla başlatıldı (Yemek desteği ile)');
 
-      // 🔥 OTOMATİK MİGRATION KONTROLÜ VE ÇALIŞTIRMA
+      // 🔥 OTOMATİK MİGRATION KONTROLÜ VE ÇALIŞTIRMA (SESSIZ)
+      // Kullanıcı "Plan Oluştur" butonuna basmadan log çıkmaması için sessiz çalışma
       try {
         final migrationGerekli = await YemekMigration.migrationGerekliMi();
         if (migrationGerekli) {
-          AppLogger.info('🚀 Yemek veritabanı boş, migration başlatılıyor...');
+          // Migration gerekiyorsa başlat (sadece ilk kurulumda)
           final success = await YemekMigration.jsonToHiveMigration();
-          if (success) {
-            AppLogger.success('✅ Migration başarıyla tamamlandı!');
-          } else {
-            AppLogger.warning('⚠️ Migration tamamlandı ancak bazı sorunlar olabilir');
-          }
-        } else {
-          AppLogger.info('ℹ️ Yemek veritabanı dolu, migration atlanıyor');
+          // Başarı/başarısızlık logları migration metodunun içinde
         }
+        // Migration atlandı - log yok (spam önleme)
       } catch (e, stackTrace) {
+        // Sadece kritik hatalarda log bas
         AppLogger.error('❌ Migration kontrolü hatası (devam ediliyor)', 
             error: e, stackTrace: stackTrace);
       }
@@ -79,8 +80,16 @@ class HiveService {
   static Future<void> yemekKaydet(YemekHiveModel yemek) async {
     try {
       final box = Hive.box<YemekHiveModel>(_yemekBox);
-      await box.put(yemek.mealId, yemek);
-      // Log removed - causes spam during bulk migration
+      
+      // 🔥 FIX: mealId null olmamalı! Static method kullanarak garantili ID oluştur
+      if (yemek.mealId == null || yemek.mealId!.isEmpty) {
+        yemek.mealId = YemekHiveModel.generateMealId();
+      }
+      
+      final key = yemek.mealId!; // Artık kesinlikle null değil
+      
+      await box.put(key, yemek);
+      // Log removed - spam önleme (migration sırasında binlerce kez çağrılıyor)
     } catch (e, stackTrace) {
       AppLogger.error('❌ Yemek kaydetme hatası', error: e, stackTrace: stackTrace);
       rethrow;
@@ -94,10 +103,10 @@ class HiveService {
       final model = box.get(mealId);
 
       if (model != null) {
-        AppLogger.debug('✅ Yemek bulundu: ${model.mealName}');
+        // Log removed - spam önleme
         return model.toEntity();
       } else {
-        AppLogger.debug('ℹ️ Yemek bulunamadı: $mealId');
+        // Log removed - spam önleme (migration sırasında binlerce kez çağrılıyor)
         return null;
       }
     } catch (e, stackTrace) {

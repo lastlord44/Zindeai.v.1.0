@@ -81,6 +81,30 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
         AppLogger.success('✅ Plan başarıyla oluşturuldu: ${plan.ogunler.length} öğün');
         
+        // 📋 GÜNLÜK PLAN DETAYLARI - Kullanıcı görebilsin diye log
+        AppLogger.info('');
+        AppLogger.info('📅 ═══════════════════════════════════════════════════');
+        AppLogger.info('   ${plan.tarih.day}.${plan.tarih.month}.${plan.tarih.year} - GÜNLÜK PLAN');
+        AppLogger.info('═══════════════════════════════════════════════════');
+        
+        for (final yemek in plan.ogunler) {
+          if (yemek != null) {
+            final kategori = yemek.ogun.toString().split('.').last.toUpperCase();
+            AppLogger.info('🍽️  $kategori: ${yemek.ad}');
+            AppLogger.info('    Kalori: ${yemek.kalori.toStringAsFixed(0)} kcal | Protein: ${yemek.protein.toStringAsFixed(0)}g | Karb: ${yemek.karbonhidrat.toStringAsFixed(0)}g | Yağ: ${yemek.yag.toStringAsFixed(0)}g');
+          }
+        }
+        
+        AppLogger.info('');
+        AppLogger.info('📊 TOPLAM MAKROLAR:');
+        AppLogger.info('    Kalori: ${plan.toplamKalori.toStringAsFixed(0)} / ${hedefler.gunlukKalori.toStringAsFixed(0)} kcal');
+        AppLogger.info('    Protein: ${plan.toplamProtein.toStringAsFixed(0)} / ${hedefler.gunlukProtein.toStringAsFixed(0)}g');
+        AppLogger.info('    Karb: ${plan.toplamKarbonhidrat.toStringAsFixed(0)} / ${hedefler.gunlukKarbonhidrat.toStringAsFixed(0)}g');
+        AppLogger.info('    Yağ: ${plan.toplamYag.toStringAsFixed(0)} / ${hedefler.gunlukYag.toStringAsFixed(0)}g');
+        AppLogger.info('    Fitness Skoru: ${plan.fitnessSkoru.toStringAsFixed(1)}/100');
+        AppLogger.info('═══════════════════════════════════════════════════');
+        AppLogger.info('');
+        
         // Planı kaydet
         await HiveService.planKaydet(plan);
         AppLogger.info('💾 Plan Hive\'a kaydedildi');

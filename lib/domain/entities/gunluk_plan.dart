@@ -82,6 +82,108 @@ class GunlukPlan extends Equatable {
     return (toplamYag / makroHedefleri.gunlukYag) * 100;
   }
 
+  // ========================================================================
+  // 🎯 MAKRO TOLERANS KONTROLÜ (±5%)
+  // ========================================================================
+
+  /// ±5% tolerans limiti
+  static const double toleransYuzdesi = 5.0;
+
+  /// Kalori ±5% tolerans içinde mi?
+  bool get kaloriToleranstaMi {
+    final sapma = ((toplamKalori - makroHedefleri.gunlukKalori).abs() / 
+                   makroHedefleri.gunlukKalori) * 100;
+    return sapma <= toleransYuzdesi;
+  }
+
+  /// Protein ±5% tolerans içinde mi?
+  bool get proteinToleranstaMi {
+    final sapma = ((toplamProtein - makroHedefleri.gunlukProtein).abs() / 
+                   makroHedefleri.gunlukProtein) * 100;
+    return sapma <= toleransYuzdesi;
+  }
+
+  /// Karbonhidrat ±5% tolerans içinde mi?
+  bool get karbonhidratToleranstaMi {
+    final sapma = ((toplamKarbonhidrat - makroHedefleri.gunlukKarbonhidrat).abs() / 
+                   makroHedefleri.gunlukKarbonhidrat) * 100;
+    return sapma <= toleransYuzdesi;
+  }
+
+  /// Yağ ±5% tolerans içinde mi?
+  bool get yagToleranstaMi {
+    final sapma = ((toplamYag - makroHedefleri.gunlukYag).abs() / 
+                   makroHedefleri.gunlukYag) * 100;
+    return sapma <= toleransYuzdesi;
+  }
+
+  /// TÜM makrolar ±5% tolerans içinde mi? (KRİTİK KONTROL!)
+  bool get tumMakrolarToleranstaMi {
+    return kaloriToleranstaMi && 
+           proteinToleranstaMi && 
+           karbonhidratToleranstaMi && 
+           yagToleranstaMi;
+  }
+
+  /// Kalori sapma yüzdesi (mutlak değer)
+  double get kaloriSapmaYuzdesi {
+    return ((toplamKalori - makroHedefleri.gunlukKalori).abs() / 
+            makroHedefleri.gunlukKalori) * 100;
+  }
+
+  /// Protein sapma yüzdesi (mutlak değer)
+  double get proteinSapmaYuzdesi {
+    return ((toplamProtein - makroHedefleri.gunlukProtein).abs() / 
+            makroHedefleri.gunlukProtein) * 100;
+  }
+
+  /// Karbonhidrat sapma yüzdesi (mutlak değer)
+  double get karbonhidratSapmaYuzdesi {
+    return ((toplamKarbonhidrat - makroHedefleri.gunlukKarbonhidrat).abs() / 
+            makroHedefleri.gunlukKarbonhidrat) * 100;
+  }
+
+  /// Yağ sapma yüzdesi (mutlak değer)
+  double get yagSapmaYuzdesi {
+    return ((toplamYag - makroHedefleri.gunlukYag).abs() / 
+            makroHedefleri.gunlukYag) * 100;
+  }
+
+  /// Tolerans aşan makroların listesi (debug/UI için)
+  List<String> get toleransAsanMakrolar {
+    final asanlar = <String>[];
+    
+    if (!kaloriToleranstaMi) {
+      asanlar.add('Kalori (${kaloriSapmaYuzdesi.toStringAsFixed(1)}% sapma)');
+    }
+    if (!proteinToleranstaMi) {
+      asanlar.add('Protein (${proteinSapmaYuzdesi.toStringAsFixed(1)}% sapma)');
+    }
+    if (!karbonhidratToleranstaMi) {
+      asanlar.add('Karbonhidrat (${karbonhidratSapmaYuzdesi.toStringAsFixed(1)}% sapma)');
+    }
+    if (!yagToleranstaMi) {
+      asanlar.add('Yağ (${yagSapmaYuzdesi.toStringAsFixed(1)}% sapma)');
+    }
+    
+    return asanlar;
+  }
+
+  /// Makro kalitesi skoru (0-100) - tolerans göz önünde bulundurularak
+  double get makroKaliteSkoru {
+    if (tumMakrolarToleranstaMi) {
+      // Tüm makrolar toleransta: 90-100 puan (sapma ne kadar az o kadar yüksek)
+      final ortalamaSapma = (kaloriSapmaYuzdesi + proteinSapmaYuzdesi + 
+                             karbonhidratSapmaYuzdesi + yagSapmaYuzdesi) / 4;
+      return 100 - (ortalamaSapma * 2); // Sapma arttıkça skor azalır
+    } else {
+      // Tolerans aşıldı: 0-89 puan (ceza!)
+      final ortalamaSapma = (kaloriSapmaYuzdesi + proteinSapmaYuzdesi + 
+                             karbonhidratSapmaYuzdesi + yagSapmaYuzdesi) / 4;
+      return (90 - (ortalamaSapma * 5)).clamp(0.0, 89.0); // Ağır ceza
+    }
+  }
+
   /// Plan tamamlandı mı?
   bool get tamamlandi {
     return kahvalti != null && ogleYemegi != null && aksamYemegi != null;

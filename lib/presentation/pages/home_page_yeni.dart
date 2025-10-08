@@ -18,6 +18,7 @@ import '../widgets/alternatif_yemek_bottom_sheet.dart';
 import '../widgets/alternatif_besin_bottom_sheet.dart';
 import 'profil_page.dart';
 import 'antrenman_page.dart';
+import 'maintenance_page.dart';
 
 class YeniHomePage extends StatelessWidget {
   const YeniHomePage({Key? key}) : super(key: key);
@@ -30,7 +31,7 @@ class YeniHomePage extends StatelessWidget {
           dataSource: YemekHiveDataSource(),
         ),
         makroHesaplama: MakroHesapla(),
-      )..add(LoadHomePage()),
+      ), // ✅ Otomatik plan oluşturma kaldırıldı - kullanıcı "Plan Oluştur" butonuna basacak
       child: const YeniHomePageView(),
     );
   }
@@ -48,8 +49,11 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (bool didPop, dynamic result) async {
+        if (didPop) return;
+        
         // Android geri tuşu için çıkış onayı
         final shouldPop = await showDialog<bool>(
           context: context,
@@ -72,7 +76,10 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
             ],
           ),
         );
-        return shouldPop ?? false;
+        
+        if (shouldPop == true && context.mounted) {
+          Navigator.of(context).pop();
+        }
       },
       child: Scaffold(
         backgroundColor: Colors.grey.shade50,
@@ -85,8 +92,14 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
           IconButton(
             icon: const Icon(Icons.settings_outlined),
             onPressed: () {
-              // Ayarlar sayfası
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const MaintenancePage(),
+                ),
+              );
             },
+            tooltip: 'Maintenance & Debug',
           ),
         ],
       ),
@@ -131,16 +144,10 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
                       ),
                     );
               } else {
-                // 🔥 FIX: Alternatif seçilmeden iptal edildiyse, mevcut HomeLoaded state'ine dön
-                // Plan zaten mevcut, gereksiz yere LoadPlanByDate çağırma (performans optimizasyonu)
-                final currentState = state as AlternativeIngredientsLoaded;
-                context.read<HomeBloc>().emit(HomeLoaded(
-                  plan: currentState.plan,
-                  hedefler: currentState.hedefler,
-                  kullanici: currentState.kullanici,
-                  currentDate: currentState.currentDate,
-                  tamamlananOgunler: currentState.tamamlananOgunler,
-                ));
+                // 🔥 FIX: Alternatif seçilmeden iptal edildiyse, planı yeniden yükle
+                context.read<HomeBloc>().add(
+                      LoadPlanByDate(state.currentDate),
+                    );
               }
             });
           }
@@ -152,13 +159,12 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
               children: [
                 Expanded(
                   child: ProfilPage(
-                    // 🔥 FIX: Profil kaydedilince otomatik beslenme sekmesine geç
+                    // ✅ Profil kaydedilince sadece sekmeyi değiştir, otomatik plan oluşturma YOK
                     onProfilKaydedildi: () {
                       setState(() {
                         _aktifSekme = NavigasyonSekme.beslenme;
                       });
-                      // HomeBloc'u reload et - yeni makrolarla plan oluşturacak
-                      context.read<HomeBloc>().add(LoadHomePage());
+                      // Plan oluşturma YOK - kullanıcı "Plan Oluştur" butonuna basacak
                     },
                   ),
                 ),
@@ -237,7 +243,6 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
           // Beslenme sekmesi (varsayılan)
           // AlternativeIngredientsLoaded da HomeLoaded gibi render edilmeli
           if (state is AlternativeIngredientsLoaded) {
-            final alternativeState = state as AlternativeIngredientsLoaded;
             return Column(
               children: [
                 // Ana içerik
@@ -246,23 +251,23 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
                     onRefresh: () async {
                       context
                           .read<HomeBloc>()
-                          .add(LoadPlanByDate(alternativeState.currentDate));
+                          .add(LoadPlanByDate(state.currentDate));
                     },
                     child: ListView(
                       padding: const EdgeInsets.all(16),
                       children: [
                         // Tarih seçici (ok butonları ile)
                         TarihSecici(
-                          secilenTarih: alternativeState.currentDate,
+                          secilenTarih: state.currentDate,
                           onGeriGit: () {
-                            final yeniTarih = alternativeState.currentDate
+                            final yeniTarih = state.currentDate
                                 .subtract(const Duration(days: 1));
                             context
                                 .read<HomeBloc>()
                                 .add(LoadPlanByDate(yeniTarih));
                           },
                           onIleriGit: () {
-                            final yeniTarih = alternativeState.currentDate
+                            final yeniTarih = state.currentDate
                                 .add(const Duration(days: 1));
                             context
                                 .read<HomeBloc>()
@@ -274,7 +279,7 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
 
                         // Haftalık takvim
                         HaftalikTakvim(
-                          secilenTarih: alternativeState.currentDate,
+                          secilenTarih: state.currentDate,
                           onTarihSecildi: (tarih) {
                             context.read<HomeBloc>().add(LoadPlanByDate(tarih));
                           },
@@ -284,14 +289,15 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
 
                         // Kompakt makro özeti
                         KompaktMakroOzet(
-                          mevcutKalori: _calculateTamamlananKalori(alternativeState.plan, alternativeState.tamamlananOgunler),
-                          hedefKalori: alternativeState.hedefler.gunlukKalori,
-                          mevcutProtein: _calculateTamamlananProtein(alternativeState.plan, alternativeState.tamamlananOgunler),
-                          hedefProtein: alternativeState.hedefler.gunlukProtein,
-                          mevcutKarb: _calculateTamamlananKarb(alternativeState.plan, alternativeState.tamamlananOgunler),
-                          hedefKarb: alternativeState.hedefler.gunlukKarbonhidrat,
-                          mevcutYag: _calculateTamamlananYag(alternativeState.plan, alternativeState.tamamlananOgunler),
-                          hedefYag: alternativeState.hedefler.gunlukYag,
+                          mevcutKalori: _calculateTamamlananKalori(state.plan, state.tamamlananOgunler),
+                          hedefKalori: state.hedefler.gunlukKalori,
+                          mevcutProtein: _calculateTamamlananProtein(state.plan, state.tamamlananOgunler),
+                          hedefProtein: state.hedefler.gunlukProtein,
+                          mevcutKarb: _calculateTamamlananKarb(state.plan, state.tamamlananOgunler),
+                          hedefKarb: state.hedefler.gunlukKarbonhidrat,
+                          mevcutYag: _calculateTamamlananYag(state.plan, state.tamamlananOgunler),
+                          hedefYag: state.hedefler.gunlukYag,
+                          plan: state.plan, // 🎯 Tolerans kontrolü için
                         ),
 
                         const SizedBox(height: 24),
@@ -370,9 +376,9 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
                         const SizedBox(height: 12),
 
                         // Detaylı öğün kartları
-                        ...alternativeState.plan.ogunler.map((yemek) {
+                        ...state.plan.ogunler.map((yemek) {
                           final tamamlandi =
-                              alternativeState.tamamlananOgunler[yemek.id] ?? false;
+                              state.tamamlananOgunler[yemek.id] ?? false;
                           return DetayliOgunCard(
                             yemek: yemek,
                             tamamlandi: tamamlandi,
@@ -456,37 +462,58 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
           }
 
           if (state is HomeError) {
+            // Hata durumunda da "Plan Oluştur" butonu göster
             return Column(
               children: [
                 Expanded(
                   child: Center(
                     child: Padding(
-                      padding: const EdgeInsets.all(24),
+                      padding: const EdgeInsets.all(32),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.error_outline,
-                              size: 64, color: Colors.red.shade300),
-                          const SizedBox(height: 16),
-                          Text(
-                            state.message,
-                            textAlign: TextAlign.center,
-                            style: const TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                            ),
+                          Icon(
+                            Icons.restaurant_menu,
+                            size: 80,
+                            color: Colors.purple.shade200,
                           ),
                           const SizedBox(height: 24),
+                          Text(
+                            'Beslenme Planı Oluştur',
+                            style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey.shade800,
+                            ),
+                          ),
+                          const SizedBox(height: 12),
+                          Text(
+                            'Günlük beslenme planınızı oluşturmak için\naşağıdaki butona tıklayın',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: Colors.grey.shade600,
+                            ),
+                          ),
+                          const SizedBox(height: 32),
                           ElevatedButton.icon(
-                            onPressed: () => _createDemoUser(),
-                            icon: const Icon(Icons.person_add),
-                            label: const Text('Demo Kullanıcı Oluştur'),
+                            onPressed: () {
+                              context.read<HomeBloc>().add(LoadHomePage());
+                            },
+                            icon: const Icon(Icons.add_circle_outline, size: 28),
+                            label: const Text(
+                              'Plan Oluştur',
+                              style: TextStyle(fontSize: 18),
+                            ),
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.purple,
                               foregroundColor: Colors.white,
                               padding: const EdgeInsets.symmetric(
-                                horizontal: 24,
-                                vertical: 12,
+                                horizontal: 32,
+                                vertical: 16,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
                               ),
                             ),
                           ),
@@ -562,6 +589,7 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
                           hedefKarb: state.hedefler.gunlukKarbonhidrat,
                           mevcutYag: state.tamamlananYag,
                           hedefYag: state.hedefler.gunlukYag,
+                          plan: state.plan, // 🎯 Tolerans kontrolü için
                         ),
 
                         const SizedBox(height: 24),
@@ -692,9 +720,66 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
             );
           }
 
+          // 🎯 BAŞLANGİÇ DURUMU: Kullanıcıdan plan oluşturmasını bekle
           return Column(
             children: [
-              const Expanded(child: SizedBox.shrink()),
+              Expanded(
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(32),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.restaurant_menu,
+                          size: 80,
+                          color: Colors.purple.shade200,
+                        ),
+                        const SizedBox(height: 24),
+                        Text(
+                          'Beslenme Planı Oluştur',
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey.shade800,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        Text(
+                          'Günlük beslenme planınızı oluşturmak için\naşağıdaki butona tıklayın',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.grey.shade600,
+                          ),
+                        ),
+                        const SizedBox(height: 32),
+                        ElevatedButton.icon(
+                          onPressed: () {
+                            context.read<HomeBloc>().add(LoadHomePage());
+                          },
+                          icon: const Icon(Icons.add_circle_outline, size: 28),
+                          label: const Text(
+                            'Plan Oluştur',
+                            style: TextStyle(fontSize: 18),
+                          ),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.purple,
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 32,
+                              vertical: 16,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
               AltNavigasyonBar(
                 aktifSekme: _aktifSekme,
                 onSekmeSecildi: (sekme) {

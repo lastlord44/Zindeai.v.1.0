@@ -381,28 +381,29 @@ class DetayliOgunCard extends StatelessWidget {
                   ],
                 ),
                 
-                // Alternatif besin butonu
+                // 🍽️ Alternatif yemek butonu - Tüm yemeği değiştir
                 if (onAlternatifPressed != null) ...[
                   const SizedBox(height: 12),
                   SizedBox(
                     width: double.infinity,
-                    child: OutlinedButton.icon(
+                    child: ElevatedButton.icon(
                       onPressed: onAlternatifPressed,
-                      icon: const Icon(Icons.swap_horiz, size: 18),
+                      icon: const Icon(Icons.restaurant_menu, size: 18),
                       label: const Text(
-                        'Alternatif Besin Seç',
+                        'Farklı Yemek Seç',
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
-                      style: OutlinedButton.styleFrom(
-                        foregroundColor: Colors.purple,
-                        side: const BorderSide(color: Colors.purple, width: 1.5),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple,
+                        foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(vertical: 14),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
+                        elevation: 2,
                       ),
                     ),
                   ),
