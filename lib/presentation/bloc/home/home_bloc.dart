@@ -77,6 +77,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           hedefKarb: hedefler.gunlukKarbonhidrat,
           hedefYag: hedefler.gunlukYag,
           kisitlamalar: kullanici.tumKisitlamalar,
+          tarih: today, // 🔥 Tarih parametresi eklendi
         );
 
         AppLogger.success('✅ Plan başarıyla oluşturuldu: ${plan.ogunler.length} öğün');
@@ -101,7 +102,21 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         AppLogger.info('    Protein: ${plan.toplamProtein.toStringAsFixed(0)} / ${hedefler.gunlukProtein.toStringAsFixed(0)}g');
         AppLogger.info('    Karb: ${plan.toplamKarbonhidrat.toStringAsFixed(0)} / ${hedefler.gunlukKarbonhidrat.toStringAsFixed(0)}g');
         AppLogger.info('    Yağ: ${plan.toplamYag.toStringAsFixed(0)} / ${hedefler.gunlukYag.toStringAsFixed(0)}g');
+        AppLogger.info('');
+        AppLogger.info('📈 PLAN KALİTESİ:');
         AppLogger.info('    Fitness Skoru: ${plan.fitnessSkoru.toStringAsFixed(1)}/100');
+        AppLogger.info('    Kalite Skoru: ${plan.makroKaliteSkoru.toStringAsFixed(1)}/100');
+        
+        // 🎯 TOLERANS KONTROLÜ (±5%)
+        if (plan.tumMakrolarToleranstaMi) {
+          AppLogger.success('    ✅ Tüm makrolar ±5% tolerans içinde');
+        } else {
+          AppLogger.warning('    ⚠️  TOLERANS AŞILDI! (±5% limit)');
+          for (final makro in plan.toleransAsanMakrolar) {
+            AppLogger.warning('       ❌ $makro');
+          }
+        }
+        
         AppLogger.info('═══════════════════════════════════════════════════');
         AppLogger.info('');
         
@@ -151,6 +166,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
         hedefYag: currentState.hedefler.gunlukYag,
         kisitlamalar: currentState.kullanici.tumKisitlamalar,
+        tarih: currentState.currentDate, // 🔥 Tarih parametresi eklendi
       );
 
       // Planı kaydet
@@ -235,6 +251,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
         hedefYag: currentState.hedefler.gunlukYag,
         kisitlamalar: currentState.kullanici.tumKisitlamalar,
+        tarih: currentState.currentDate, // 🔥 Tarih parametresi eklendi
       );
 
       // Kaydet
@@ -378,6 +395,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
           hedefYag: currentState.hedefler.gunlukYag,
           kisitlamalar: currentState.kullanici.tumKisitlamalar,
+          tarih: currentState.currentDate, // 🔥 Tarih parametresi eklendi
         );
 
         // Aynı öğün tipindeki yemeği bul

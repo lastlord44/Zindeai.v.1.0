@@ -1,0 +1,2761 @@
+[
+  {
+    "id": "EKONOMIK_OGLE_001",
+    "ad": "Tavuk Sote + Bulgur Pilavı + Cacık",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "180g tavuk + bulgur + yoğurt"
+  },
+  {
+    "id": "EKONOMIK_OGLE_002",
+    "ad": "Kıymalı Bezelye + Esmer Pirinç + Ayran",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_003",
+    "ad": "Tavuk Haşlama + Sebzeli Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 38,
+    "karbonhidrat": 42,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur + yoğurt"
+  },
+  {
+    "id": "EKONOMIK_OGLE_004",
+    "ad": "Yumurtalı Ispanak + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 390,
+    "protein": 28,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "3 yumurta + ıspanak + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_005",
+    "ad": "Mercimek Köfte + Yoğurt + Yeşillik",
+    "kategori": "ogle",
+    "kalori": 400,
+    "protein": 26,
+    "karbonhidrat": 54,
+    "yag": 8,
+    "porsiyon": "8-10 adet köfte + yoğurt"
+  },
+  {
+    "id": "EKONOMIK_OGLE_006",
+    "ad": "Tavuk Güveç + Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_007",
+    "ad": "Nohut Yemeği + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_008",
+    "ad": "Tavuk Döner + Pilav + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "porsiyon": "150g tavuk + pilav + salata"
+  },
+  {
+    "id": "EKONOMIK_OGLE_009",
+    "ad": "Kıymalı Makarna + Yoğurt + Salata",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 34,
+    "karbonhidrat": 52,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon makarna"
+  },
+  {
+    "id": "EKONOMIK_OGLE_010",
+    "ad": "Tavuk Haşlama Çorbası + Tam Buğday Ekmek",
+    "kategori": "ogle",
+    "kalori": 380,
+    "protein": 32,
+    "karbonhidrat": 44,
+    "yag": 8,
+    "porsiyon": "1 kase çorba + 2 dilim ekmek"
+  },
+  {
+    "id": "EKONOMIK_OGLE_011",
+    "ad": "Yeşil Mercimek Yemeği + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 26,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_012",
+    "ad": "Tavuk Sac Kavurma + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_013",
+    "ad": "Kıymalı Patlıcan + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 32,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_014",
+    "ad": "Haşlanmış Tavuk + Sebze Sote + Bulgur",
+    "kategori": "ogle",
+    "kalori": 400,
+    "protein": 36,
+    "karbonhidrat": 42,
+    "yag": 9,
+    "porsiyon": "160g tavuk + sebze + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_015",
+    "ad": "Kuru Fasulye + Bulgur Pilavı + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 28,
+    "karbonhidrat": 60,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_016",
+    "ad": "Tavuk Şnitzel + Patates Püresi + Salata",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 14,
+    "porsiyon": "150g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_OGLE_017",
+    "ad": "Kıymalı Biber Dolma + Yoğurt + Bulgur",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 46,
+    "yag": 14,
+    "porsiyon": "4-5 adet dolma + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_018",
+    "ad": "Tavuk Tandır + Bulgur + Sebze",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_019",
+    "ad": "Barbunya + Tam Buğday Ekmek + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 26,
+    "karbonhidrat": 58,
+    "yag": 7,
+    "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": "EKONOMIK_OGLE_020",
+    "ad": "Tavuk Izgara + Esmer Pirinç + Cacık",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_021",
+    "ad": "Kıymalı Karnabahar + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 30,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_022",
+    "ad": "Tavuk Külbastı + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 39,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_023",
+    "ad": "Yumurtalı Menemen + Tam Buğday Ekmek",
+    "kategori": "ogle",
+    "kalori": 380,
+    "protein": 26,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "porsiyon": "3 yumurta + sebze + ekmek"
+  },
+  {
+    "id": "EKONOMIK_OGLE_024",
+    "ad": "Tavuk Burger + Esmer Ekmek + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "150g tavuk + ekmek"
+  },
+  {
+    "id": "EKONOMIK_OGLE_025",
+    "ad": "Kıymalı Türlü + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_026",
+    "ad": "Tavuk Rosto + Patates + Havuç",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "150g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_OGLE_027",
+    "ad": "Kırmızı Mercimek Çorbası + Tavuk + Bulgur",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 9,
+    "porsiyon": "Çorba + 120g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_028",
+    "ad": "Tavuk Kanat + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 35,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "porsiyon": "200g kanat + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_029",
+    "ad": "Kıymalı Pırasa + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_030",
+    "ad": "Tavuk Suyuna Pilav + Haşlanmış Tavuk",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 36,
+    "karbonhidrat": 50,
+    "yag": 10,
+    "porsiyon": "150g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_031",
+    "ad": "Nohutlu Pilav + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_032",
+    "ad": "Tavuk But Izgara + Bulgur + Cacık",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_033",
+    "ad": "Kıymalı Kabak + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_034",
+    "ad": "Tavuk Fajita + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_035",
+    "ad": "Mercimek + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 25,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_036",
+    "ad": "Tavuk Pirzola + Patates + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "170g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_OGLE_037",
+    "ad": "Kıymalı Domates + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 32,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_038",
+    "ad": "Tavuk Şaşlık + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "160g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_039",
+    "ad": "Yumurtalı Taze Fasulye + Bulgur",
+    "kategori": "ogle",
+    "kalori": 390,
+    "protein": 26,
+    "karbonhidrat": 48,
+    "yag": 11,
+    "porsiyon": "2 yumurta + fasulye + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_040",
+    "ad": "Tavuk Döş Izgara + Bulgur + Cacık",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_041",
+    "ad": "Kıymalı Bamya + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_042",
+    "ad": "Tavuk Wrap + Sebze + Ayran",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "1 wrap + sebze"
+  },
+  {
+    "id": "EKONOMIK_OGLE_043",
+    "ad": "Fasulye Pilaki + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_044",
+    "ad": "Tavuk Köri + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "160g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_045",
+    "ad": "Kıymalı Patates + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_046",
+    "ad": "Tavuk Strips + Patates Kızartması + Salata",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 14,
+    "porsiyon": "150g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_OGLE_047",
+    "ad": "Nohutlu Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 24,
+    "karbonhidrat": 56,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_048",
+    "ad": "Tavuk Baget + Esmer Ekmek + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "150g tavuk + ekmek"
+  },
+  {
+    "id": "EKONOMIK_OGLE_049",
+    "ad": "Kıymalı Havuç + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_050",
+    "ad": "Tavuk Güveç + Bulgur + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_051",
+    "ad": "Zeytinyağlı Taze Fasulye + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 400,
+    "protein": 22,
+    "karbonhidrat": 54,
+    "yag": 10,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_052",
+    "ad": "Tavuk Kanat Izgara + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "200g kanat + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_053",
+    "ad": "Kıymalı Yeşillik + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_054",
+    "ad": "Tavuk Kebap + Bulgur + Cacık",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_055",
+    "ad": "Yumurtalı Sote + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 390,
+    "protein": 26,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "3 yumurta + sebze + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_056",
+    "ad": "Tavuk Çorbası + Tavuk + Bulgur",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 9,
+    "porsiyon": "Çorba + 140g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_057",
+    "ad": "Kıymalı Kereviz + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_058",
+    "ad": "Tavuk Sote + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_059",
+    "ad": "Mercimekli Bulgur Pilavı + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 25,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_060",
+    "ad": "Tavuk Izgara + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_061",
+    "ad": "Kıymalı Pırasa + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 31,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_062",
+    "ad": "Tavuk Döner + Bulgur + Turşu",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "150g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_063",
+    "ad": "Nohut Yemeği + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_064",
+    "ad": "Tavuk Fırın + Patates + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "160g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_OGLE_065",
+    "ad": "Kıymalı Karnıbahar + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 30,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_066",
+    "ad": "Tavuk But + Esmer Pirinç + Cacık",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_067",
+    "ad": "Fasulye Pilaki + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_068",
+    "ad": "Tavuk Göğsü + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_069",
+    "ad": "Kıymalı Ispanak + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 32,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_070",
+    "ad": "Tavuk Sac + Bulgur + Turşu",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_071",
+    "ad": "Yumurtalı Havuç Sote + Bulgur",
+    "kategori": "ogle",
+    "kalori": 380,
+    "protein": 24,
+    "karbonhidrat": 48,
+    "yag": 10,
+    "porsiyon": "2 yumurta + havuç + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_072",
+    "ad": "Tavuk Izgara + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_073",
+    "ad": "Kıymalı Sebze + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 31,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_074",
+    "ad": "Tavuk Kanat + Bulgur + Cacık",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "porsiyon": "200g kanat + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_075",
+    "ad": "Mercimek Köfte + Esmer Ekmek + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 400,
+    "protein": 26,
+    "karbonhidrat": 54,
+    "yag": 8,
+    "porsiyon": "8 adet köfte + ekmek"
+  },
+  {
+    "id": "EKONOMIK_OGLE_076",
+    "ad": "Tavuk Döş + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_077",
+    "ad": "Kıymalı Bezelye + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_078",
+    "ad": "Tavuk Haşlama + Bulgur + Turşu",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_079",
+    "ad": "Nohutlu Pilav + Yoğurt + Salata",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_080",
+    "ad": "Tavuk Güveç + Esmer Pirinç + Cacık",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_081",
+    "ad": "Kıymalı Kabak + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_082",
+    "ad": "Tavuk Sote + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_083",
+    "ad": "Yeşil Mercimek + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 26,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_084",
+    "ad": "Tavuk Izgara + Bulgur + Turşu",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_085",
+    "ad": "Kıymalı Patlıcan + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 32,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_086",
+    "ad": "Tavuk But Izgara + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_087",
+    "ad": "Barbunya + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_088",
+    "ad": "Tavuk Döner + Esmer Pirinç + Cacık",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "150g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_089",
+    "ad": "Kıymalı Türlü + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_090",
+    "ad": "Tavuk Fırın + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_091",
+    "ad": "Yumurtalı Menemen + Bulgur",
+    "kategori": "ogle",
+    "kalori": 390,
+    "protein": 26,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "3 yumurta + sebze + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_092",
+    "ad": "Tavuk Izgara + Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_093",
+    "ad": "Kıymalı Pırasa + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_094",
+    "ad": "Tavuk Sote + Bulgur + Cacık",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_095",
+    "ad": "Mercimek + Bulgur + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "kalori": 410,
+    "protein": 25,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_096",
+    "ad": "Tavuk Kanat + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "porsiyon": "200g kanat + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_097",
+    "ad": "Kıymalı Sebze Sote + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_098",
+    "ad": "Tavuk Haşlama + Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 9,
+    "porsiyon": "160g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_OGLE_099",
+    "ad": "Nohut Yemeği + Bulgur + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 24,
+    "karbonhidrat": 58,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_OGLE_100",
+    "ad": "Tavuk Döş Izgara + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_001",
+    "ad": "Tavuk Sote + Bulgur Pilavı + Cacık",
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "180g tavuk + bulgur + yoğurt"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_002",
+    "ad": "Kıymalı Bezelye + Esmer Pirinç + Ayran",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 33,
+    "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_003",
+    "ad": "Tavuk Haşlama + Sebzeli Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 420,
+    "protein": 39,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "170g tavuk + bulgur + yoğurt"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_004",
+    "ad": "Yumurtalı Ispanak + Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": 400,
+    "protein": 29,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "3 yumurta + ıspanak + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_005",
+    "ad": "Mercimek Köfte + Yoğurt + Yeşillik",
+    "kategori": "aksam",
+    "kalori": 410,
+    "protein": 27,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "porsiyon": "8-10 adet köfte + yoğurt"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_006",
+    "ad": "Tavuk Güveç + Esmer Pirinç + Turşu",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_007",
+    "ad": "Nohut Yemeği + Bulgur Pilavı + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 25,
+    "karbonhidrat": 60,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_008",
+    "ad": "Tavuk Döner + Pilav + Salata",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 38,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "150g tavuk + pilav + salata"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_009",
+    "ad": "Kıymalı Makarna + Yoğurt + Salata",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 35,
+    "karbonhidrat": 54,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon makarna"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_010",
+    "ad": "Tavuk Haşlama Çorbası + Tam Buğday Ekmek",
+    "kategori": "aksam",
+    "kalori": 390,
+    "protein": 33,
+    "karbonhidrat": 46,
+    "yag": 8,
+    "porsiyon": "1 kase çorba + 2 dilim ekmek"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_011",
+    "ad": "Yeşil Mercimek Yemeği + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": 27,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_012",
+    "ad": "Tavuk Sac Kavurma + Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_013",
+    "ad": "Kıymalı Patlıcan + Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 33,
+    "karbonhidrat": 50,
+    "yag": 15,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_014",
+    "ad": "Haşlanmış Tavuk + Sebze Sote + Bulgur",
+    "kategori": "aksam",
+    "kalori": 410,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 9,
+    "porsiyon": "160g tavuk + sebze + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_015",
+    "ad": "Kuru Fasulye + Bulgur Pilavı + Turşu",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 29,
+    "karbonhidrat": 62,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_016",
+    "ad": "Tavuk Şnitzel + Patates Püresi + Salata",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 37,
+    "karbonhidrat": 50,
+    "yag": 14,
+    "porsiyon": "150g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_017",
+    "ad": "Kıymalı Biber Dolma + Yoğurt + Bulgur",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 33,
+    "karbonhidrat": 48,
+    "yag": 14,
+    "porsiyon": "4-5 adet dolma + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_018",
+    "ad": "Tavuk Tandır + Bulgur + Sebze",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_019",
+    "ad": "Barbunya + Tam Buğday Ekmek + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 420,
+    "protein": 27,
+    "karbonhidrat": 60,
+    "yag": 7,
+    "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_020",
+    "ad": "Tavuk Izgara + Esmer Pirinç + Cacık",
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_021",
+    "ad": "Kıymalı Karnabahar + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": 31,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_022",
+    "ad": "Tavuk Külbastı + Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 40,
+    "karbonhidrat": 46,
+    "yag": 11,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_023",
+    "ad": "Yumurtalı Menemen + Tam Buğday Ekmek",
+    "kategori": "aksam",
+    "kalori": 390,
+    "protein": 27,
+    Anladım! Genetik algoritma optimizasyonu "karbonhidrat": 44,
+    "yag": tamamlandı, şimdi **ekonomik ve uygun fiyatlı 200+ yemek daha** ekleyeceğim. Çipura, levrek, somon gibi pahalı balıklar yerine **tavuk, kıyma, hamsi, 14,
+    "porsiyon": "3 yumurta + sebze + nohut, mercimek** gibi ekonomik alternatifler kullanacağım.
+
+<write_to_file>
+<path>assets/data/uzman_ana_yemekler_300_ekonomik.json</path>
+<content>[
+  {
+    "id": "EKO_OGLE_001",
+    "ad": "Tavuk Göğsü Haşlama + Bulgur Pilavı + ekmek"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_024",
+    Yeşil Salata",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 38,
+    "karbonhidrat": 45,
+    "yag": 8,
+    "porsiyon": "180g tavuk + 120g bulgur + "ad": "Tavuk salata"
+  },
+  {
+    "id": "EKO_OGLE_002",
+    "ad": "Kıymalı Nohut Burger + Esmer Ekmek + Salata",
+    "kategori": "aksam",
+    + Yoğurt + Bulgur Pilavı",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 35,
+    "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon "kalori": 470,
+    "protein": 36,
+    "karbonhidrat": + bulgur"
+  },
+  {
+    "id": "EKO_OGLE_003",
+    "ad": "Tavuk But Fırın + Patates Haşlama + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    50,
+    "yag": 13,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "160g tavuk + patates + salata"
+  },
+  {
+    "id": "EKO_OGLE_004",
+    "ad": "Kuru Fasulye (Etli) "porsiyon": "150g tavuk + ekmek"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_025",
+    + Tam Buğday Ekmek + Cacık",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 32,
+    "karbonhidrat": 58,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon "ad": "Kıymalı + 2 dilim Türlü + Bulgur Pilavı + Yoğurt",
+    "kategori": ekmek"
+  },
+  {
+    "id": "EKO_OGLE_005",
+    "aksam",
+    "kalori": 450,
+    "protein": 32,
+    "ad": "Izgara Tavuk "karbonhidrat": 50,
+    "yag": Şiş + Esmer 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  Pirinç + {
+    "id": "EKONOMIK_AKSAM_026",
+    "ad": "Tavuk Rosto + Patates + Havuç",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "150g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_027",
+    Ezme Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 39,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "180g "ad": "Kırmızı tavuk + pilav + salata"
+  },
+  {
+    "id": "EKO_OGLE_006",
+    "ad": "Mercimek Köfte + Yoğurt + Yeşillik",
+    "kategori": "ogle",
+    Mercimek Çorbası + Tavuk + "kalori": 420,
+    "protein": 28,
+    "karbonhidrat": 56,
+    "yag": 9,
+    Bulgur",
+    "kategori": "aksam",
+    "kalori": 430,
+    "porsiyon": "protein": 35,
+    "karbonhidrat": "10-12 adet köfte + yoğurt"
+  50,
+    "yag": 9,
+    },
+  {
+    "id": "EKO_OGLE_007",
+    "ad": "Tavuk Haşlama + "porsiyon": "Çorba + 120g tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_028",
+    Yeşil Mercimek + Bulgur",
+    "kategori": "ogle",
+    "ad": "Tavuk Kanat + Esmer Pirinç + Salata",
+    "kategori": "kalori": 440,
+    "protein": 36,
+    "aksam",
+    "kalori": 470,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 10,
+    "porsiyon": "150g tavuk "karbonhidrat": 48,
+    "yag": 13,
+    + mercimek + bulgur"
+  },
+  {
+    "id": "porsiyon": "200g kanat "EKO_OGLE_008",
+    "ad": "Kıymalı Ispanak + Yoğurt + Bulgur + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_029",
+    "ad": Pilavı",
+    "kategori": "ogle",
+    "Kıymalı Pırasa + Bulgur + Yoğurt",
+    "kalori": 450,
+    "protein": "kategori": "aksam",
+    "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": 35,
+    "EKONOMIK_AKSAM_030",
+    "ad": "Tavuk "karbonhidrat": 42,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  Suyuna {
+    "id": "EKO_OGLE_009",
+    "ad": "Izgara Hamsi + Misket Köfte + Salata",
+    Pilav + Haşlanmış Tavuk",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "kategori": "aksam",
+    "kalori": "yag": 15,
+    "porsiyon": 450,
+    "protein": 37,
+    "karbonhidrat": 52,
+    "yag": "150g hamsi + köfte + salata"
+  },
+  {
+    "id": 10,
+    "porsiyon": "150g tavuk + pilav"
+  },
+  {
+    "EKO_OGLE_010",
+    "id": "EKONOMIK_AKSAM_031",
+    "ad": "ad": "Tavuk Köfte + Esmer Pirinç + Turşu",
+    "Nohutlu Pilav + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": "yag": 11,
+    "porsiyon": 25,
+    "karbonhidrat": 60,
+    "yag": 9,
+    "150g köfte + pilav"
+  },
+  {
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  "id": "EKO_OGLE_011",
+    "ad": {
+    "id": "EKONOMIK_AKSAM_032",
+    "ad": "Nohutlu "Tavuk But Izgara + Bulgur + Cacık",
+    "kategori": "aksam",
+    Pilav + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 28,
+    "karbonhidrat": "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": 62,
+    "yag": 10,
+    "porsiyon": "Orta porsiyon pilav"
+  46,
+    "yag": 12,
+    },
+  {
+    "id": "EKO_OGLE_012",
+    "ad": "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "Tavuk Sote + Bulgur "EKONOMIK_AKSAM_033",
+    "ad": "Kıymalı Pilavı + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": Kabak + Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    38,
+    "karbonhidrat": 44,
+    "yag": "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 12,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": 50,
+    "yag": 12,
+    "porsiyon": "Orta "EKO_OGLE_013",
+    "ad": "Kıymalı porsiyon + pilav"
+  },
+  {
+    "id": Kuru Fasulye + Bulgur + "EKONOMIK_AKSAM_034",
+    "ad": "Tavuk Yoğurt",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 34,
+    Fajita + Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 48,
+    "yag": 11,
+    "karbonhidrat": 56,
+    "yag": 12,
+    "porsiyon": "160g tavuk + "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKO_OGLE_014",
+    "ad": "Izgara Tavuk Göğsü + Patates Haşlama + Salata",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_035",
+    "ad": "Mercimek + Bulgur Pilavı + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 420,
+    "protein": 26,
+    37,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_036",
+    "ad": "Tavuk Pirzola + Patates + Salata",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 39,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "170g tavuk + patates"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_037",
+    "ad": "Kıymalı Domates + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 33,
+    "karbonhidrat": 50,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_038",
+    "ad": "Tavuk Şaşlık + Esmer Pirinç + Salata",
+    "kategori": "aksam",
+    "karbonhidrat": 46,
+    "yag": 9,
+    "porsiyon": "kalori": 460,
+    "protein": 38,
+    "180g tavuk + patates"
+  },
+  {
+    "id": "EKO_OGLE_015",
+    "ad": "Barbunya Pilaki + Esmer Ekmek + Yoğurt",
+    "kategori": "ogle",
+    "kalori": "karbonhidrat": 48,
+    "yag": 420,
+    "protein": 28,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + 11,
+    "porsiyon": "160g tavuk + pilav"
+  },
+  {
+    "id": 2 dilim ekmek"
+  },
+  {
+    "id": "EKO_OGLE_016",
+    "ad": "Tavuk Kanat Fırın + "EKONOMIK_AKSAM_039",
+    "ad": "Yumurtalı Esmer Pirinç + Çoban Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 13,
+    "porsiyon": "200g Taze Fasulye + Bulgur",
+    "kategori": kanat + pilav"
+  },
+  {
+    "id": "EKO_OGLE_017",
+    "ad": "Yeşil "aksam",
+    "kalori": 400,
+    "protein": 27,
+    Mercimek Yemeği + Bulgur + Yoğurt",
+    "kategori": "karbonhidrat": 50,
+    "yag": "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "karbonhidrat": 54,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": 11,
+    "porsiyon": "2 yumurta + fasulye "EKO_OGLE_018",
+    "ad": "Kıymalı Patlıcan Musakka + Yoğurt + + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_040",
+    Bulgur",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 34,
+    "karbonhidrat": 46,
+    "yag": "ad": "Tavuk Döş Izgara + Bulgur + 16,
+    "porsiyon": "Orta porsiyon + Cacık",
+    "kategori": "aksam",
+    "kalori": bulgur"
+  },
+  {
+    "id": "EKO_OGLE_019",
+    "ad": 430,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "Tavuk Budu "yag": 9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  Haşlama + Yeşil Fasulye + {
+    "id": "EKONOMIK_AKSAM_041",
+    "ad": "Kıymalı Bulgur",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    Bamya + Esmer Pirinç + Yoğurt",
+    "karbonhidrat": 46,
+    "yag": 12,
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 32,
+    "porsiyon": "170g tavuk + fasulye + bulgur"
+  },
+  "karbonhidrat": 52,
+    "yag": {
+    "id": "EKO_OGLE_020",
+    "ad": 12,
+    "porsiyon": "Orta porsiyon "Izgara Uskumru + Yeşil + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_042",
+    "ad": Mercimek + Salata",
+    "kategori": "ogle",
+    "Tavuk Wrap + Sebze + "kalori": 440,
+    "protein": 36,
+    "karbonhidrat": Ayran",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 38,
+    "yag": 14,
+    36,
+    "karbonhidrat": 50,
+    "yag": "porsiyon": "200g uskumru + mercimek"
+  },
+  {
+    12,
+    "porsiyon": "1 "id": "EKO_OGLE_021",
+    "ad": wrap + sebze"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_043",
+    "Tavuk Ciğeri + Esmer Pirinç + Salata",
+    "ad": "Fasulye "kategori": "ogle",
+    "kalori": 450,
+    "protein": 38,
+    Pilaki + Bulgur + Yoğurt",
+    "kategori": "karbonhidrat": 44,
+    "yag": "aksam",
+    "kalori": 430,
+    "protein": 25,
+    "karbonhidrat": 13,
+    "porsiyon": "150g ciğer + pilav"
+  60,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon },
+  {
+    "id": "EKO_OGLE_022",
+    "ad": + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_044",
+    "ad": "Kıymalı Lahana "Tavuk Köri + Esmer Sarma + Yoğurt + Bulgur",
+    Pirinç + Salata",
+    "kategori": "aksam",
+    "kalori": "kategori": "ogle",
+    "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 470,
+    "protein": 37,
+    "karbonhidrat": 50,
+    13,
+    "yag": 12,
+    "porsiyon": "8-10 adet "porsiyon": "160g tavuk + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_045",
+    sarma + bulgur"
+  },
+  {
+    "id": "ad": "Kıymalı Patates + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "kalori": "EKO_OGLE_023",
+    "ad": "Fırın Tavuk Göğsü + Sebze Güveç 460,
+    "protein": 33,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_046",
+    "ad": "Tavuk Strips + + Bulgur",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 11,
+    Patates Kızartması + Salata",
+    "kategori": "aksam",
+    "porsiyon": "180g tavuk + güveç + bulgur"
+  },
+  {
+    "id": "EKO_OGLE_024",
+    "ad": "Kuru Fasulye "kalori": 480,
+    "protein": 37,
+    (Kıymalı) + Tam Buğday Ekmek + Turşu",
+    "karbonhidrat": 50,
+    "yag": 14,
+    "porsiyon": "kategori": "ogle",
+    "kalori": 470,
+    "protein": 32,
+    "150g tavuk + patates"
+  },
+  {
+    "id": "karbonhidrat": 58,
+    "yag": 11,
+    "EKONOMIK_AKSAM_047",
+    "ad": "Nohutlu Bulgur Pilavı "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": + Yoğurt",
+    "kategori": "aksam",
+    "EKO_OGLE_025",
+    "ad": "Tavuk "kalori": 420,
+    "protein": 25,
+    "karbonhidrat": 58,
+    Sote + "yag": 9,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_048",
+    "ad": Patates "Tavuk Baget + Haşlama + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "170g tavuk Esmer Ekmek + Salata",
+    "kategori": "aksam",
+    "kalori": + patates"
+  },
+  {
+    "id": "EKO_OGLE_026",
+    "ad": "Izgara 460,
+    "protein": 36,
+    Sardalya + "karbonhidrat": 50,
+    "yag": 12,
+    Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    "porsiyon": "150g tavuk + ekmek"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_049",
+    "kalori": 430,
+    "protein": 34,
+    "karbonhidrat": "ad": "Kıymalı 44,
+    "yag": 12,
+    "porsiyon": Havuç + Bulgur Pilavı + Yoğurt",
+    "kategori": "aksam",
+    "200g sardalya + bulgur"
+  },
+  "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  {
+    "id": "EKO_OGLE_027",
+    "ad": "Kırmızı Mercimek Çorbası + Tavuk },
+  {
+    "id": "EKONOMIK_AKSAM_050",
+    "ad": "Tavuk Göğsü + Ekmek",
+    "kategori": "ogle",
+    Güveç + Bulgur + Turşu",
+    "kalori": 430,
+    "protein": 34,
+    "karbonhidrat": "kategori": "aksam",
+    "kalori": 450,
+    "protein": 37,
+    48,
+    "yag": 9,
+    "karbonhidrat": 48,
+    "yag": 11,
+    "porsiyon": "1 "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": kase çorba + "EKONOMIK_AKSAM_051",
+    "ad": "Zeytinyağlı 150g tavuk + ekmek"
+  },
+  {
+    "id": "EKO_OGLE_028",
+    Taze Fasulye + Bulgur + Yoğurt",
+    "ad": "Tavuk Köfte + Patates Haşlama "kategori": "aksam",
+    "kalori": 410,
+    "protein": 23,
+    + Salata",
+    "kategori": "ogle",
+    "kalori": "karbonhidrat": 56,
+    "yag": 10,
+    440,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "yag": 11,
+    "porsiyon": "150g köfte + patates"
+  },
+  "EKONOMIK_AKSAM_052",
+    "ad": "Tavuk {
+    "id": "EKO_OGLE_029",
+    "ad": Kanat Izgara + Esmer Pirinç + Salata",
+    "Etli Nohut Yemeği + "kategori": "aksam",
+    "kalori": 460,
+    "protein": 37,
+    Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "karbonhidrat": 48,
+    "yag": "kalori": 480,
+    "protein": 36,
+    "karbonhidrat": 12,
+    "porsiyon": "200g 52,
+    "yag": 12,
+    "porsiyon": "Orta kanat + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_053",
+    porsiyon + bulgur"
+  },
+  {
+    "id": "ad": "Kıymalı Yeşillik + Bulgur "EKO_OGLE_030",
+    "ad": "Fırın Tavuk + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": But + Yeşil Fasulye + Bulgur",
+    "kategori": 31,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "karbonhidrat": 44,
+    "yag": 13,
+    "EKONOMIK_AKSAM_054",
+    "ad": "Tavuk "porsiyon": "160g tavuk + fasulye + Kebap + Bulgur + Cacık",
+    bulgur"
+  "kategori": "aksam",
+    "kalori": 470,
+    "protein": 39,
+    },
+  {
+    "id": "ad": "Tavuk Haşlama + Esmer Pirinç + Cacık",
+    "karbonhidrat": 48,
+    "yag": 12,
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": 46,
+    "yag": 10,
+    "EKONOMIK_AKSAM_055",
+    "ad": "Yumurtalı "porsiyon": "180g tavuk + pilav"
+  },
+  {
+    "id": Sote + Bulgur + Salata",
+    "kategori": "aksam",
+    "EKO_OGLE_032",
+    "ad": "Kıymalı "kalori": 400,
+    "protein": 27,
+    "karbonhidrat": Pırasa 48,
+    "yag": 12,
+    "porsiyon": + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": "3 yumurta + sebze + bulgur"
+  },
+  460,
+    "protein": 33,
+    "karbonhidrat": {
+    "id": "EKONOMIK_AKSAM_056",
+    "ad": "Tavuk 48,
+    "yag": 14,
+    "porsiyon": Çorbası + Tavuk + Bulgur",
+    "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "kategori": "aksam",
+    "kalori": 430,
+    "protein": "EKO_OGLE_033",
+    "ad": "Izgara Tavuk Şiş 37,
+    "karbonhidrat": 48,
+    "yag": 9,
+    + Bulgur + Ezme Salata",
+    "porsiyon": "Çorba + 140g tavuk + bulgur"
+  },
+  {
+    "kategori": "ogle",
+    "kalori": 450,
+    "id": "EKONOMIK_AKSAM_057",
+    "ad": "Kıymalı "protein": 39,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": Kereviz + Esmer Pirinç + "180g tavuk + Yoğurt",
+    "kategori": "aksam",
+    "kalori": bulgur"
+  },
+  {
+    "id": "EKO_OGLE_034",
+    "ad": 440,
+    "protein": 31,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Izgara İstavrit + Yeşil Mercimek "Orta porsiyon + pilav"
+  },
+  {
+    "id": + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "EKONOMIK_AKSAM_058",
+    "ad": "protein": 35,
+    "karbonhidrat": "Tavuk Sote + Esmer Pirinç + Salata",
+    "kategori": "aksam",
+    42,
+    "yag": 12,
+    "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": "porsiyon": "200g istavrit + mercimek"
+  },
+  {
+    "id": 48,
+    "yag": 11,
+    "porsiyon": "170g tavuk + "EKO_OGLE_035",
+    "ad": "Tavuk Sote + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_059",
+    Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": 450,
+    "ad": "Mercimekli Bulgur Pilavı + Yoğurt "protein": 38,
+    + Turşu",
+    "kategori": "aksam",
+    "karbonhidrat": 46,
+    "yag": 11,
+    "kalori": 420,
+    "protein": "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": 26,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "EKO_OGLE_036",
+    "ad": "Kıymalı Bamya + Bulgur "Orta porsiyon pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_060",
+    "ad": Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "Tavuk Izgara + Bulgur + "kalori": 460,
+    "protein": 33,
+    "karbonhidrat": 50,
+    Salata",
+    "kategori": "aksam",
+    "kalori": "yag": 13,
+    "porsiyon": "Orta porsiyon 450,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "yag": 10,
+    + bulgur"
+  },
+  {
+    "id": "EKO_OGLE_037",
+    "ad": "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "Fırın Tavuk Kanat + "EKONOMIK_AKSAM_061",
+    "ad": Patates + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "Kıymalı Pırasa + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": "kalori": 440,
+    "protein": 32,
+    "karbonhidrat": 50,
+    13,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  "porsiyon": "200g kanat + patates"
+  },
+  {
+    "id": "EKO_OGLE_038",
+    },
+  {
+    "id": "EKONOMIK_AKSAM_062",
+    "ad": "ad": "Yeşil Mercimek Çorbası + "Tavuk Döner + Yumurtalı Ekmek + Bulgur + Turşu",
+    "kategori": "aksam",
+    Salata",
+    "kategori": "ogle",
+    "kalori": "kalori": 470,
+    "protein": 37,
+    "karbonhidrat": 420,
+    "protein": 28,
+    "karbonhidrat": 52,
+    "yag": 50,
+    "yag": 13,
+    12,
+    "porsiyon": "1 kase çorba + "porsiyon": "150g tavuk + bulgur"
+  },
+  {
+    "id": 2 "EKONOMIK_AKSAM_063",
+    "ad": yumurta + ekmek"
+  },
+  {
+    "id": "EKO_OGLE_039",
+    "Nohut Yemeği + Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    "ad": "Tavuk Göğsü Izgara + Bulgur "kalori": 430,
+    "protein": 25,
+    + Çoban Salata",
+    "kategori": "ogle",
+    "kalori": "karbonhidrat": 60,
+    "yag": 9,
+    "porsiyon": "Orta 440,
+    "protein": 38,
+    "karbonhidrat": porsiyon + pilav"
+  },
+  {
+    "id": 44,
+    "yag": 10,
+    "EKONOMIK_AKSAM_064",
+    "ad": "Tavuk "porsiyon": "180g tavuk + bulgur"
+  },
+  {
+    "id": Fırın + Patates + Salata",
+    "EKO_OGLE_040",
+    "ad": "Kıymalı "kategori": "aksam",
+    "kalori": 460,
+    "protein": 37,
+    Taze Fasulye + Esmer Pirinç + Yoğurt",
+    "karbonhidrat": 48,
+    "yag": "kategori": "ogle",
+    "kalori": 470,
+    "protein": 34,
+    12,
+    "porsiyon": "160g tavuk + patates"
+  },
+  "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": {
+    "id": "EKONOMIK_AKSAM_065",
+    "ad": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "Kıymalı Karnıbahar + Bulgur + Yoğurt",
+    "EKO_OGLE_041",
+    "ad": "Izgara Hamsi + "kategori": "aksam",
+    "kalori": 430,
+    "protein": Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    31,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": 44,
+    "yag": 13,
+    "porsiyon": "EKONOMIK_AKSAM_066",
+    "ad": "Tavuk But + "150g hamsi + bulgur"
+  },
+  {
+    "id": Esmer Pirinç + Cacık",
+    "kategori": "aksam",
+    "EKO_OGLE_042",
+    "ad": "Tavuk Haşlama + Yeşil "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": Fasulye + Bulgur",
+    "kategori": "ogle",
+    "kalori": 48,
+    "yag": 12,
+    440,
+    "protein": 36,
+    "karbonhidrat": "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": 46,
+    "yag": 10,
+    "porsiyon": "170g tavuk + "EKONOMIK_AKSAM_067",
+    "ad": "Fasulye Pilaki + Bulgur + fasulye + bulgur"
+  },
+  {
+    "id": Yoğurt",
+    "kategori": "aksam",
+    "kalori": 420,
+    "EKO_OGLE_043",
+    "ad": "Nohutlu Pilav "protein": 25,
+    "karbonhidrat": 60,
+    "yag": (Etli) + Yoğurt + Turşu",
+    "kategori": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "ogle",
+    "kalori": 480,
+    "protein": 34,
+    "karbonhidrat": "EKONOMIK_AKSAM_068",
+    "ad": "Tavuk 54,
+    "yag": 12,
+    Göğsü + "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": "EKO_OGLE_044",
+    "ad": "Tavuk Köfte + Esmer Pirinç + 440,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "yag": Ezme Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "id": "protein": 37,
+    "karbonhidrat": 46,
+    "yag": "EKONOMIK_AKSAM_069",
+    "ad": "Kıymalı 11,
+    "porsiyon": "150g köfte + pilav"
+  },
+  {
+    "id": Ispanak + Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    "EKO_OGLE_045",
+    "ad": "Izgara "kalori": 450,
+    "protein": 33,
+    "karbonhidrat": Sardalya + Yeşil Mercimek + Salata",
+    "kategori": "ogle",
+    50,
+    "yag": 13,
+    "porsiyon": "Orta "kalori": 440,
+    "protein": 34,
+    porsiyon + pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_070",
+    "ad": "Tavuk Sac + Bulgur + Turşu",
+    "kategori": "aksam",
+    "kalori": "karbonhidrat": 42,
+    "yag": 13,
+    "porsiyon": "200g sardalya + mercimek"
+  },
+  {
+    "id": "EKO_OGLE_046",
+    "ad": "Kıymalı 460,
+    "protein": 37,
+    "karbonhidrat": 48,
+    Kabak Dolması + Bulgur + Yoğurt",
+    "yag": 12,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  "kategori": "ogle",
+    "kalori": 450,
+    "protein": 33,
+    {
+    "id": "EKONOMIK_AKSAM_071",
+    "ad": "Yumurtalı "karbonhidrat": 46,
+    "yag": Havuç Sote + 14,
+    "porsiyon": "6-8 adet dolma + Bulgur",
+    "kategori": "aksam",
+    "kalori": 390,
+    "protein": bulgur"
+  },
+  {
+    "id": 25,
+    "karbonhidrat": 50,
+    "yag": "EKO_OGLE_047",
+    "ad": "Fırın Tavuk Göğsü + Patates Haşlama + Cacık",
+    "kategori": "ogle",
+    10,
+    "porsiyon": "2 yumurta + havuç + bulgur"
+  },
+  {
+    "id": "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": "EKONOMIK_AKSAM_072",
+    "ad": "Tavuk Izgara + 10,
+    "porsiyon": Esmer Pirinç + Salata",
+    "kategori": "aksam",
+    "kalori": 450,
+    "180g tavuk + patates"
+  },
+  {
+    "id": "EKO_OGLE_048",
+    "ad": "Barbunya "protein": 38,
+    "karbonhidrat": 48,
+    "yag": Pilaki + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    10,
+    "porsiyon": "170g tavuk + pilav"
+  },
+  "kalori": 430,
+    "protein": 28,
+    "karbonhidrat": {
+    "id": "EKONOMIK_AKSAM_073",
+    "ad": "Kıymalı 56,
+    "yag": 9,
+    "porsiyon": "Orta Sebze + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    porsiyon + bulgur"
+  },
+  {
+    "id": "kalori": 440,
+    "protein": 32,
+    "EKO_OGLE_049",
+    "ad": "Tavuk Sote + Sebze Güveç + "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta Bulgur",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_074",
+    "ad": 36,
+    "karbonhidrat": 46,
+    "yag": "Tavuk 12,
+    "porsiyon": "170g tavuk + güveç + bulgur"
+  },
+  {
+    Kanat + Bulgur + Cacık",
+    "kategori": "aksam",
+    "id": "EKO_OGLE_050",
+    "ad": "Izgara "kalori": 470,
+    "protein": 37,
+    "karbonhidrat": Uskumru + Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    48,
+    "yag": 13,
+    "kalori": "porsiyon": "200g kanat + bulgur"
+  },
+  {
+    450,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": "id": "EKONOMIK_AKSAM_075",
+    "ad": 14,
+    "porsiyon": "200g uskumru + bulgur"
+  },
+  "Mercimek Köfte + {
+    "id": "EKO_OGLE_051",
+    "ad": Esmer Ekmek + Yoğurt",
+    "kategori": "Kıymalı Mercimek Köfte + Yoğurt "aksam",
+    "kalori": 410,
+    "protein": 27,
+    + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "karbonhidrat": 56,
+    "yag": 8,
+    "protein": 30,
+    "karbonhidrat": 54,
+    "yag": "porsiyon": "8 adet köfte + 11,
+    "porsiyon": "10-12 ekmek"
+  },
+  {
+    "id": köfte + "EKONOMIK_AKSAM_076",
+    "ad": yoğurt"
+  },
+  {
+    "Tavuk Döş + Bulgur + Salata",
+    "id": "EKO_OGLE_052",
+    "ad": "Tavuk Haşlama + Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": 39,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": "karbonhidrat": 46,
+    "yag": 9,
+    "porsiyon": "170g 10,
+    "porsiyon": "180g tavuk + pilav"
+  },
+  {
+    "id": tavuk + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_077",
+    "EKO_OGLE_053",
+    "ad": "Kıymalı "ad": "Kıymalı Bezelye + Kuru Fasulye + Bulgur + Cacık",
+    Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": "kalori": 460,
+    "protein": 33,
+    34,
+    "karbonhidrat": 56,
+    "yag": 12,
+    "porsiyon": "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": "Orta "Orta porsiyon + bulgur"
+  },
+  {
+    "id": porsiyon + pilav"
+  },
+  {
+    "id": "EKO_OGLE_054",
+    "ad": "Izgara Tavuk Şiş + "EKONOMIK_AKSAM_078",
+    "ad": "Tavuk Patates + Salata",
+    "kategori": "ogle",
+    Haşlama + Bulgur + Turşu",
+    "kalori": 450,
+    "protein": 39,
+    "karbonhidrat": "kategori": "aksam",
+    "kalori": 420,
+    "protein": 37,
+    46,
+    "yag": 11,
+    "karbonhidrat": 46,
+    "yag": 9,
+    "porsiyon": "180g tavuk + patates"
+  },
+  {
+    "id": "porsiyon": "160g tavuk + bulgur"
+  },
+  {
+    "id": "EKO_OGLE_055",
+    "ad": "Yeşil Mercimek + Bulgur "EKONOMIK_AKSAM_079",
+    "ad": "Nohutlu Pilav + Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": Yoğurt + Salata",
+    "kategori": "aksam",
+    "kalori": 430,
+    430,
+    "protein": 30,
+    "protein": 25,
+    "karbonhidrat": 60,
+    "karbonhidrat": 54,
+    "yag": 9,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  "yag": 9,
+    "porsiyon": "Orta porsiyon pilav"
+  {
+    "id": "EKO_OGLE_056",
+    "ad": },
+  {
+    "id": "EKONOMIK_AKSAM_080",
+    "ad": "Tavuk "Tavuk Ciğeri Güveç + Esmer Pirinç + Cacık",
+    "kategori": Sote + Esmer Pirinç + Salata",
+    "aksam",
+    "kalori": 460,
+    "protein": 37,
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 38,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "karbonhidrat": 44,
+    "yag": "porsiyon": "Orta porsiyon + pilav"
+  },
+  13,
+    "porsiyon": {
+    "id": "EKONOMIK_AKSAM_081",
+    "ad": "Kıymalı "150g ciğer + pilav"
+  },
+  {
+    "id": Kabak + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "EKO_OGLE_057",
+    "ad": "Kıymalı "kalori": 440,
+    "protein": 31,
+    "karbonhidrat": 50,
+    Patlıcan Musakka + Bulgur + "yag": 12,
+    "porsiyon": "Orta porsiyon + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 34,
+    bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_082",
+    "karbonhidrat": 46,
+    "yag": "ad": "Tavuk Sote + 16,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": "id": "EKO_OGLE_058",
+    "ad": 38,
+    "karbonhidrat": 46,
+    "yag": "Fırın Tavuk But + Bulgur Pilavı + 11,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  Cacık",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    {
+    "id": "EKONOMIK_AKSAM_083",
+    "ad": "karbonhidrat": 44,
+    "yag": 13,
+    "porsiyon": "Yeşil Mercimek "160g tavuk + bulgur"
+  },
+  {
+    "id": + Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    "EKO_OGLE_059",
+    "ad": "Izgara "kalori": 420,
+    "protein": 27,
+    İstavrit + Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": porsiyon + pilav"
+  },
+  {
+    "id": 44,
+    "yag": 12,
+    "porsiyon": "200g istavrit "EKONOMIK_AKSAM_084",
+    "ad": "Tavuk + bulgur"
+  },
+  {
+    "id": "EKO_OGLE_060",
+    "ad": Izgara + Bulgur + Turşu",
+    "kategori": "aksam",
+    "kalori": "Tavuk Köfte + Yeşil Fasulye 440,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "yag": + Bulgur",
+    "kategori": "ogle",
+    "kalori": 450,
+    9,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  {
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": "id": "EKONOMIK_AKSAM_085",
+    "ad": "Kıymalı 12,
+    "porsiyon": "150g köfte + fasulye + Patlıcan + Bulgur + Yoğurt",
+    bulgur"
+  },
+  {
+    "id": "EKO_OGLE_061",
+    "ad": "kategori": "aksam",
+    "kalori": 470,
+    "protein": 33,
+    "Nohutlu Pilav + Yoğurt + "karbonhidrat": 50,
+    "yag": 15,
+    Turşu",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": 28,
+    "karbonhidrat": 62,
+    "yag": "EKONOMIK_AKSAM_086",
+    "ad": 10,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "Tavuk But Izgara + Esmer Pirinç + Salata",
+    "kategori": "aksam",
+    "EKO_OGLE_062",
+    "ad": "Izgara Tavuk "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": Göğsü + Esmer Pirinç + Ezme",
+    "kategori": 48,
+    "yag": 12,
+    "porsiyon": "170g tavuk + "ogle",
+    "kalori": 440,
+    "protein": pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_087",
+    "ad": 38,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "Barbunya + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "180g tavuk + pilav"
+  },
+  {
+    "id": "kalori": 420,
+    "protein": 25,
+    "karbonhidrat": "EKO_OGLE_063",
+    "ad": "Kıymalı Lahana Sarma + 60,
+    "yag": 8,
+    "porsiyon": "Orta Bulgur + Yoğurt",
+    "kategori": "ogle",
+    porsiyon + bulgur"
+  },
+  {
+    "id": "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "EKONOMIK_AKSAM_088",
+    "ad": "Tavuk Döner + "yag": 13,
+    "porsiyon": Esmer Pirinç + Cacık",
+    "kategori": "aksam",
+    "8-10 sarma + bulgur"
+  },
+  {
+    "id": "kalori": 470,
+    "protein": 38,
+    "karbonhidrat": "EKO_OGLE_064",
+    "ad": "Tavuk Sote + 50,
+    "yag": 12,
+    Patates Haşlama + Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "porsiyon": "150g tavuk + pilav"
+  },
+  {
+    "protein": 36,
+    "karbonhidrat": "id": "EKONOMIK_AKSAM_089",
+    "ad": "Kıymalı 48,
+    "yag": 12,
+    Türlü + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "porsiyon": "170g tavuk + patates"
+  },
+  {
+    "id": "EKO_OGLE_065",
+    "ad": "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": "Izgara Hamsi + Yeşil Mercimek + Salata",
+    "kategori": "ogle",
+    50,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + "kalori": 450,
+    "protein": 35,
+    bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_090",
+    "ad": "karbonhidrat": 42,
+    "yag": 13,
+    "Tavuk Fırın + Bulgur "porsiyon": "150g hamsi + mercimek"
+  },
+  {
+    "id": + Salata",
+    "kategori": "aksam",
+    "kalori": 460,
+    "EKO_OGLE_066",
+    "ad": "Barbunya Pilaki + Esmer "protein": 37,
+    "karbonhidrat": 48,
+    "yag": Ekmek + 11,
+    "porsiyon": "160g tavuk + bulgur"
+  },
+  Yoğurt",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 28,
+    "karbonhidrat": {
+    "id": "EKONOMIK_AKSAM_091",
+    "ad": "Yumurtalı 58,
+    "yag": Menemen + Bulgur",
+    "kategori": "aksam",
+    8,
+    "kalori": 400,
+    "protein": 27,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "3 "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": "EKO_OGLE_067",
+    "ad": "Tavuk Haşlama + yumurta + sebze + bulgur"
+  },
+  {
+    "id": Bulgur Pilavı + Cacık",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "EKONOMIK_AKSAM_092",
+    "ad": "Tavuk Izgara + Esmer "yag": 10,
+    "porsiyon": "180g tavuk + bulgur"
+  },
+  Pirinç + Turşu",
+    "kategori": "aksam",
+    "kalori": {
+    "id": "EKO_OGLE_068",
+    "ad": 450,
+    "protein": 38,
+    "karbonhidrat": 48,
+    "Kıymalı Nohut + "yag": 10,
+    "porsiyon": "170g tavuk + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    pilav"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_093",
+    "ad": "kalori": 470,
+    "protein": 35,
+    "Kıymalı Pırasa + Esmer Pirinç + Yoğurt",
+    "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": "Orta "kategori": "aksam",
+    "kalori": 460,
+    "protein": porsiyon + pilav"
+  },
+  {
+    "id": "EKO_OGLE_069",
+    "ad": 33,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "porsiyon": Tavuk Kanat + "Orta porsiyon + pilav"
+  },
+  {
+    "id": Bulgur + Salata",
+    "EKONOMIK_AKSAM_094",
+    "ad": "Tavuk "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    Sote + Bulgur + Cacık",
+    "karbonhidrat": 44,
+    "yag": 13,
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 37,
+    "porsiyon": "200g kanat + bulgur"
+  },
+  {
+    "id": "karbonhidrat": 46,
+    "yag": "EKO_OGLE_070",
+    "ad": "Izgara Sardalya + 10,
+    "porsiyon": "170g tavuk + bulgur"
+  },
+  Bulgur Pilavı + Cacık",
+    "kategori": "ogle",
+    "kalori": {
+    "id": "EKONOMIK_AKSAM_095",
+    "ad": 440,
+    "protein": "Mercimek + Bulgur + 34,
+    "karbonhidrat": 44,
+    "yag": 13,
+    Yoğurt + Turşu",
+    "kategori": "aksam",
+    "kalori": "porsiyon": "200g sardalya + bulgur"
+  },
+  {
+    "id": 420,
+    "protein": 26,
+    "karbonhidrat": 58,
+    "EKO_OGLE_071",
+    "ad": "Tavuk Göğsü Sote + "yag": 8,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": {
+    "id": "EKONOMIK_AKSAM_096",
+    "ad": 450,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": "Tavuk Kanat + 11,
+    Esmer Pirinç + Salata",
+    "kategori": "aksam",
+    "porsiyon": "170g tavuk + pilav"
+  },
+  {
+    "id": "EKO_OGLE_072",
+    "kalori": 470,
+    "protein": 37,
+    "karbonhidrat": 48,
+    "yag": "ad": "Kuru Fasulye (Etli) + Bulgur 13,
+    "porsiyon": "200g kanat + pilav"
+  },
+  + Yoğurt",
+    "kategori": {
+    "id": "EKONOMIK_AKSAM_097",
+    "ad": "Kıymalı Sebze Sote + Bulgur + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "ogle",
+    "kalori": 480,
+    "protein": 34,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "karbonhidrat": 56,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "EKONOMIK_AKSAM_098",
+    "ad": "Tavuk "EKO_OGLE_073",
+    "ad": "Izgara Tavuk Şiş + Bulgur + Çoban Salata",
+    Haşlama + Esmer Pirinç + Turşu",
+    "kategori": "aksam",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 39,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "180g tavuk + "kalori": 430,
+    "protein": 37,
+    "karbonhidrat": bulgur"
+  },
+  {
+    "id": "EKO_OGLE_074",
+    "ad": "Yeşil Mercimek 48,
+    "yag": 9,
+    Yemeği + Esmer Pirinç + Yoğurt",
+    "kategori": "porsiyon": "160g tavuk + pilav"
+  },
+  {
+    "ogle",
+    "kalori": 430,
+    "protein": 30,
+    "id": "EKONOMIK_AKSAM_099",
+    "ad": "karbonhidrat": 54,
+    "yag": 9,
+    "porsiyon": "Orta "Nohut Yemeği + Bulgur + Yoğurt",
+    porsiyon + pilav"
+  },
+  {
+    "id": "kategori": "aksam",
+    "kalori": 430,
+    "protein": "EKO_OGLE_075",
+    "ad": "Tavuk Köfte + Patates 25,
+    "karbonhidrat": 60,
+    "yag": 9,
+    "porsiyon": Haşlama + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "protein": 36,
+    "karbonhidrat": 46,
+    "yag": "EKONOMIK_AKSAM_100",
+    "ad": "Tavuk 11,
+    "porsiyon": "150g köfte + patates"
+  Döş Izgara + Bulgur + Salata",
+    "kategori": "aksam",
+    },
+  {
+    "id": "EKO_OGLE_076",
+    "ad": "kalori": 440,
+    "protein": 39,
+    "karbonhidrat": "Kıymalı Pırasa + Bulgur Pilavı 46,
+    "yag": 9,
+    "porsiyon": "170g tavuk + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 460,
+    + bulgur"
+  }
+]

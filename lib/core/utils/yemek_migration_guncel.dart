@@ -4,6 +4,8 @@
 // ============================================================================
 
 import 'dart:convert';
+import 'dart:io'; // Flutter bağımlılığını kaldır
+import 'package:flutter/foundation.dart'; // Sadece AppLogger için
 import 'package:flutter/services.dart';
 import '../../data/models/yemek_hive_model.dart';
 import '../../data/local/hive_service.dart';
@@ -66,14 +68,27 @@ class YemekMigration {
         try {
           List<dynamic> yemekler = [];
 
-          // Assets'ten oku (Web uyumlu)
+          // Dosyadan oku (Flutter için rootBundle, standalone script için dart:io)
           try {
-            final jsonStr = await rootBundle.loadString(assetsPath);
-            yemekler = json.decode(jsonStr);
-            // Sessiz çalışma - log yok
+            List<dynamic> yemeklerList;
+            try {
+              // Önce Flutter uygulaması için rootBundle dene
+              final jsonStr = await rootBundle.loadString(assetsPath);
+              yemeklerList = json.decode(jsonStr);
+            } catch (e) {
+              // rootBundle başarısız olursa, standalone script için dart:io dene
+              final file = File(assetsPath);
+              if (!await file.exists()) {
+                AppLogger.warning('⚠️ Dosya bulunamadı: $assetsPath');
+                continue;
+              }
+              final jsonStr = await file.readAsString();
+              yemeklerList = json.decode(jsonStr);
+            }
+            yemekler = yemeklerList;
           } catch (e) {
             // Sadece kritik dosya bulunamama hatası
-            AppLogger.warning('⚠️ Dosya bulunamadı: $dosya - $e');
+            AppLogger.warning('⚠️ Dosya okunamadı: $dosya - $e');
             continue;
           }
 
@@ -98,23 +113,62 @@ class YemekMigration {
 
               // 🔥 MEAL_NAME DÜZELTMESİ: Ara öğün yemeklerinin isimlerini düzelt
               final category = jsonMap['category'] as String?;
-              final mealName = jsonMap['meal_name'] as String?;
+              var mealName = jsonMap['meal_name'] as String?;
 
               if (category != null && mealName != null) {
                 // Ara Öğün 1: "Kahvaltı Kombinasyonu:" → "Ara Öğün 1:"
                 if (category.toLowerCase().contains('ara') &&
                     category.contains('1') &&
                     mealName.startsWith('Kahvaltı Kombinasyonu:')) {
-                  jsonMap['meal_name'] = mealName.replaceFirst(
+                  mealName = mealName.replaceFirst(
                       'Kahvaltı Kombinasyonu:', 'Ara Öğün 1:');
                 }
                 // Ara Öğün 2: "Öğle:" → "Ara Öğün 2:"
                 else if (category.toLowerCase().contains('ara') &&
                     category.contains('2') &&
                     mealName.startsWith('Öğle:')) {
-                  jsonMap['meal_name'] =
-                      mealName.replaceFirst('Öğle:', 'Ara Öğün 2:');
+                  mealName = mealName.replaceFirst('Öğle:', 'Ara Öğün 2:');
                 }
+
+                // 🔥 YENİ FİX: Eğer meal_name sadece kategori adı ise (yemek adı eksikse)
+                // Malzemelerden anlamlı bir isim oluştur
+                final categoryOnly = ['Kahvaltı:', 'Ara Öğün 1:', 'Ara Öğün 2:', 'Öğle:', 'Akşam:', 'Gece Atıştırması:'];
+                final mealNameTrimmed = mealName.trim();
+                if (categoryOnly.any((cat) => mealNameTrimmed == cat || mealNameTrimmed == cat.replaceAll(':', ''))) {
+                  // Malzemeleri al
+                  final malzemeler = jsonMap['malzemeler'] as List<dynamic>?;
+                  if (malzemeler != null && malzemeler.isNotEmpty) {
+                    // İlk 2-3 malzemeyi kullanarak isim oluştur
+                    final malzemeIsimleri = <String>[];
+                    for (var i = 0; i < (malzemeler.length > 3 ? 3 : malzemeler.length); i++) {
+                      final malzeme = malzemeler[i].toString();
+                      // Sadece besin adını al (miktar ve birim çıkar)
+                      final besinAdi = malzeme.split('(').first.trim();
+                      final kisaAd = besinAdi.split(' ').take(2).join(' '); // İlk 2 kelime
+                      if (kisaAd.isNotEmpty && !malzemeIsimleri.contains(kisaAd)) {
+                        malzemeIsimleri.add(kisaAd);
+                      }
+                    }
+                    
+                    if (malzemeIsimleri.isNotEmpty) {
+                      // Kategori adını koru ama malzemelerle zenginleştir
+                      final categoryName = category.contains('Ara Öğün 1') 
+                          ? 'Ara Öğün 1:' 
+                          : category.contains('Ara Öğün 2')
+                              ? 'Ara Öğün 2:'
+                              : category.contains('Öğle')
+                                  ? 'Öğle:'
+                                  : category.contains('Akşam')
+                                      ? 'Akşam:'
+                                      : category.contains('Kahvaltı')
+                                          ? 'Kahvaltı:'
+                                          : 'Gece Atıştırması:';
+                      mealName = '$categoryName ${malzemeIsimleri.join(" + ")}';
+                    }
+                  }
+                }
+                
+                jsonMap['meal_name'] = mealName;
               }
 
               final yemekModel = YemekHiveModel.fromJson(jsonMap);

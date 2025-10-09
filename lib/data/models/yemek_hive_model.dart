@@ -140,9 +140,33 @@ class YemekHiveModel extends HiveObject {
 
   /// YemekHiveModel'i Yemek entity'sine çevir
   Yemek toEntity() {
+    // 🔥 FIX V2: mealName boş/null ise öğün tipine göre varsayılan isim ver
+    // Ara Öğün 2 isim sorunu çözümü (logda sadece "Ara Öğün 2:" görünmesi)
+    String finalMealName = (mealName ?? '').trim();
+    
+    // Boş string veya sadece kategori ismi içeren isimleri düzelt
+    if (finalMealName.isEmpty || 
+        finalMealName == 'İsimsiz Yemek' ||
+        finalMealName == 'Ara Öğün 2:' ||
+        finalMealName == 'Ara Öğün 1:' ||
+        finalMealName == 'Kahvaltı:' ||
+        finalMealName == 'Öğle:' ||
+        finalMealName == 'Akşam:' ||
+        finalMealName.endsWith(':')) {
+      // Varsayılan isim oluştur
+      final defaultName = _getDefaultMealNameForCategory(category ?? '');
+      
+      // Eğer kalori bilgisi varsa ismini daha detaylı yap
+      if (calorie != null && calorie! > 0) {
+        finalMealName = '$defaultName (${calorie!.toStringAsFixed(0)} kcal)';
+      } else {
+        finalMealName = defaultName;
+      }
+    }
+    
     return Yemek(
       id: mealId ?? '',
-      ad: mealName ?? 'İsimsiz Yemek',
+      ad: finalMealName,
       ogun: _categoryToOgunTipi(category ?? ''),
       kalori: calorie ?? 0.0,
       protein: proteinG ?? 0.0,
@@ -156,6 +180,44 @@ class YemekHiveModel extends HiveObject {
       tarif: recipe,
       gorselUrl: imageUrl,
     );
+  }
+
+  /// Kategori için varsayılan yemek adı oluştur
+  static String _getDefaultMealNameForCategory(String category) {
+    switch (category.toLowerCase()) {
+      case 'ara öğün 2':
+      case 'ara ogun 2':
+      case 'ara_ogun_2':
+        return 'Ara Öğün 2: Sağlıklı Atıştırmalık';
+      case 'ara öğün 1':
+      case 'ara ogun 1':
+      case 'ara_ogun_1':
+        return 'Ara Öğün 1: Hafif Atıştırmalık';
+      case 'kahvaltı':
+      case 'kahvalti':
+        return 'Kahvaltı Menüsü';
+      case 'öğle':
+      case 'ogle':
+      case 'öğle yemeği':
+      case 'ogle yemegi':
+        return 'Öğle Yemeği';
+      case 'akşam':
+      case 'aksam':
+      case 'akşam yemeği':
+      case 'aksam yemegi':
+        return 'Akşam Yemeği';
+      case 'gece atıştırma':
+      case 'gece atıştırması':
+      case 'gece atistirma':
+      case 'gece atistirmasi':
+      case 'gece_atistirmasi':
+        return 'Gece Atıştırması';
+      case 'cheat meal':
+      case 'cheat_meal':
+        return 'Cheat Meal';
+      default:
+        return 'Yemek Menüsü';
+    }
   }
 
   /// Yemek entity'sinden YemekHiveModel oluştur

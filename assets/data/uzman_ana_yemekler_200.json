@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "UZMAN_OGLE_001",
+    "ad": "Izgara Somon Fileto + Quinoa + Brokoli",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 40,
+    "yag": 15,
+    "porsiyon": "200g somon + 100g quinoa + 150g brokoli"
+  },
+  {
+    "id": "UZMAN_OGLE_002",
+    "ad": "Izgara Tavuk Göğsü + Esmer Pirinç Pilavı + Yeşil Salata",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 38,
+    "karbonhidrat": 45,
+    "yag": 8,
+    "porsiyon": "180g tavuk + 120g pilav + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_003",
+    "ad": "Fırında Levrek + Bulgur Pilavı + Haşlanmış Sebze",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 32,
+    "karbonhidrat": 48,
+    "yag": 12,
+    "porsiyon": "200g levrek + 100g bulgur + sebze"
+  },
+  {
+    "id": "UZMAN_OGLE_004",
+    "ad": "Dana Biftek + Tatlı Patates Püresi + Mantar Sote",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 40,
+    "karbonhidrat": 42,
+    "yag": 16,
+    "porsiyon": "150g biftek + 150g patates + mantar"
+  },
+  {
+    "id": "UZMAN_OGLE_005",
+    "ad": "Izgara Hindi Göğsü + Kinoa + Közlenmiş Patlıcan",
+    "kategori": "ogle",
+    "kalori": 400,
+    "protein": 36,
+    "karbonhidrat": 38,
+    "yag": 10,
+    "porsiyon": "180g hindi + 100g kinoa + patlıcan"
+  },
+  {
+    "id": "UZMAN_OGLE_006",
+    "ad": "Ton Balığı Salatası + Nohut + Zeytinyağlı Sos",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 35,
+    "yag": 18,
+    "porsiyon": "150g ton + 100g nohut + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_007",
+    "ad": "Izgara Köfte (Dana) + Esmer Pirinç + Çoban Salata",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 14,
+    "porsiyon": "150g köfte + 100g pilav + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_008",
+    "ad": "Fırında Tavuk But + Patlıcan Musakka (Light) + Bulgur",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "160g tavuk + musakka + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_009",
+    "ad": "Izgara Uskumru + Yeşil Mercimek + Roka Salatası",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 36,
+    "karbonhidrat": 38,
+    "yag": 14,
+    "porsiyon": "200g uskumru + 100g mercimek + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_010",
+    "ad": "Kırmızı Mercimek Çorbası + Izgara Tavuk + Esmer Ekmek",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 9,
+    "porsiyon": "1 kase çorba + 150g tavuk + 2 dilim ekmek"
+  },
+  {
+    "id": "UZMAN_OGLE_011",
+    "ad": "Izgara Alabalık + Kinoa Salatası + Avokado",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 33,
+    "karbonhidrat": 40,
+    "yag": 18,
+    "porsiyon": "200g alabalık + kinoa + 1/4 avokado"
+  },
+  {
+    "id": "UZMAN_OGLE_012",
+    "ad": "Etli Nohut Yemeği + Yoğurt + Bulgur Pilavı",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 36,
+    "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon yemek + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_013",
+    "ad": "Izgara Bonfile + Tatlı Patates + Buharda Brokoli",
+    "kategori": "ogle",
+    "kalori": 490,
+    "protein": 42,
+    "karbonhidrat": 40,
+    "yag": 16,
+    "porsiyon": "150g bonfile + 150g patates + brokoli"
+  },
+  {
+    "id": "UZMAN_OGLE_014",
+    "ad": "Fırın Tavuk Sarma + Esmer Pirinç + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "180g sarma + pilav"
+  },
+  {
+    "id": "UZMAN_OGLE_015",
+    "ad": "Izgara Sıgır Antrikot + Patlıcan Kebabı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 500,
+    "protein": 40,
+    "karbonhidrat": 38,
+    "yag": 18,
+    "porsiyon": "150g et + patlıcan + yoğurt"
+  },
+  {
+    "id": "UZMAN_OGLE_016",
+    "ad": "Izgara Sardalya + Yeşil Fasulye + Bulgur Pilavı",
+    "kategori": "ogle",
+    "kalori": 430,
+    "protein": 34,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "200g sardalya + fasulye + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_017",
+    "ad": "Kıymalı Ispanak + Yoğurt + Tam Buğday Ekmek",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + 2 dilim ekmek"
+  },
+  {
+    "id": "UZMAN_OGLE_018",
+    "ad": "Izgara Hamsi + Misket Köfte + Zeytinyağlı Yeşillik",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "yag": 15,
+    "porsiyon": "150g hamsi + köfte + yeşillik"
+  },
+  {
+    "id": "UZMAN_OGLE_019",
+    "ad": "Etli Kuru Fasulye + Bulgur Pilavı + Cacık",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 34,
+    "karbonhidrat": 56,
+    "yag": 10,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_020",
+    "ad": "Izgara Palamut + Roka Salatası + Kinoa",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 38,
+    "yag": 14,
+    "porsiyon": "200g palamut + kinoa + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_021",
+    "ad": "Fırında Kuzu Pirzola + Patates + Havuç Sote",
+    "kategori": "ogle",
+    "kalori": 510,
+    "protein": 38,
+    "karbonhidrat": 45,
+    "yag": 19,
+    "porsiyon": "150g kuzu + patates + havuç"
+  },
+  {
+    "id": "UZMAN_OGLE_022",
+    "ad": "Izgara Tavuk Kanat + Esmer Pirinç + Çoban Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 13,
+    "porsiyon": "200g kanat + pilav + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_023",
+    "ad": "Barbunya Pilaki + Yoğurt + Tam Buğday Ekmek",
+    "kategori": "ogle",
+    "kalori": 420,
+    "protein": 28,
+    "karbonhidrat": 58,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + 2 dilim ekmek"
+  },
+  {
+    "id": "UZMAN_OGLE_024",
+    "ad": "Izgara Dana Kaburga + Közlenmiş Biber + Bulgur",
+    "kategori": "ogle",
+    "kalori": 490,
+    "protein": 39,
+    "karbonhidrat": 42,
+    "yag": 16,
+    "porsiyon": "150g kaburga + biber + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_025",
+    "ad": "Fırında Çipura + Sebze Güveç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": 38,
+    "yag": 14,
+    "porsiyon": "200g çipura + güveç + yoğurt"
+  },
+  {
+    "id": "UZMAN_OGLE_026",
+    "ad": "Izgara Köfte (Hindi) + Tatlı Patates + Yeşil Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "150g köfte + patates + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_027",
+    "ad": "Etli Pırasa Yemeği + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 33,
+    "karbonhidrat": 48,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_028",
+    "ad": "Izgara Lüfer + Yeşil Mercimek + Roka",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "porsiyon": "200g lüfer + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_029",
+    "ad": "Kıymalı Patlıcan Musakka (Fırın) + Yoğurt + Bulgur",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 34,
+    "karbonhidrat": 46,
+    "yag": 16,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_030",
+    "ad": "Izgara Mezgit + Patlıcan Beğendi + Turşu",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": 42,
+    "yag": 12,
+    "porsiyon": "200g mezgit + beğendi"
+  },
+  {
+    "id": "UZMAN_OGLE_031",
+    "ad": "Fırında Rosto + Haşlanmış Patates + Havuç",
+    "kategori": "ogle",
+    "kalori": 490,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 15,
+    "porsiyon": "150g rosto + patates + havuç"
+  },
+  {
+    "id": "UZMAN_OGLE_032",
+    "ad": "Izgara Tavuk Şiş + Esmer Pirinç + Ezme Salata",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 39,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "180g tavuk + pilav + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_033",
+    "ad": "Kuru Fasulye (Etli) + Tam Buğday Ekmek + Turşu",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 32,
+    "karbonhidrat": 58,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + 2 dilim ekmek"
+  },
+  {
+    "id": "UZMAN_OGLE_034",
+    "ad": "Izgara Kalkan Balığı + Kinoa + Brokoli",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 38,
+    "yag": 15,
+    "porsiyon": "200g kalkan + kinoa + brokoli"
+  },
+  {
+    "id": "UZMAN_OGLE_035",
+    "ad": "Etli Taze Fasulye + Bulgur Pilavı + Ayran",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 33,
+    "karbonhidrat": 50,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_036",
+    "ad": "Izgara Dana Bonfile + Sebze Izgara + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 41,
+    "karbonhidrat": 36,
+    "yag": 17,
+    "porsiyon": "150g bonfile + sebze + yoğurt"
+  },
+  {
+    "id": "UZMAN_OGLE_037",
+    "ad": "Fırında Tavuk Budu + Patlıcan Kızartma (Az Yağlı) + Bulgur",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 14,
+    "porsiyon": "170g tavuk + patlıcan + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_038",
+    "ad": "Izgara İstavrit + Yeşil Mercimek + Salata",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": 42,
+    "yag": 12,
+    "porsiyon": "200g istavrit + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_039",
+    "ad": "Kıymalı Lahana Sarma + Yoğurt + Bulgur",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 13,
+    "porsiyon": "8-10 adet sarma + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_040",
+    "ad": "Izgara Turbot + Patlıcan Beğendi + Turşu",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 38,
+    "karbonhidrat": 40,
+    "yag": 15,
+    "porsiyon": "200g turbot + beğendi"
+  },
+  {
+    "id": "UZMAN_OGLE_041",
+    "ad": "Etli Bamya Yemeği + Esmer Pirinç + Cacık",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "UZMAN_OGLE_042",
+    "ad": "Izgara Çupra + Sebze Sote + Kinoa",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "porsiyon": "200g çupra + sebze + kinoa"
+  },
+  {
+    "id": "UZMAN_OGLE_043",
+    "ad": "Fırında Kuzu Kol + Patates + Salata",
+    "kategori": "ogle",
+    "kalori": 500,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "porsiyon": "150g kuzu + patates + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_044",
+    "ad": "Izgara Tavuk Karides Karışık + Bulgur + Salata",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 40,
+    "karbonhidrat": 42,
+    "yag": 11,
+    "porsiyon": "Karışık deniz ürünü + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_045",
+    "ad": "Nohutlu Etli Pilav + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "kalori": 480,
+    "protein": 34,
+    "karbonhidrat": 54,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "UZMAN_OGLE_046",
+    "ad": "Izgara Akya + Yeşil Mercimek + Roka",
+    "kategori": "ogle",
+    "kalori": 440,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "porsiyon": "200g akya + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_OGLE_047",
+    "ad": "Kıymalı Kabak Dolması + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 33,
+    "karbonhidrat": 46,
+    "yag": 14,
+    "porsiyon": "6-8 adet dolma + bulgur"
+  },
+  {
+    "id": "UZMAN_OGLE_048",
+    "ad": "Izgara Dil Balığı + Patlıcan Beğendi + Salata",
+    "kategori": "ogle",
+    "kalori": 470,
+    "protein": 38,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "porsiyon": "200g dil balığı + beğendi"
+  },
+  {
+    "id": "UZMAN_OGLE_049",
+    "ad": "Etli Enginar Yemeği + Esmer Pirinç + Yoğurt",
+    "kategori": "ogle",
+    "kalori": 460,
+    "protein": 32,
+    "karbonhidrat": 48,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "UZMAN_OGLE_050",
+    "ad": "Izgara Barbun + Kinoa Salatası + Zeytinyağı",
+    "kategori": "ogle",
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 40,
+    "yag": 15,
+    "porsiyon": "200g barbun + kinoa salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_001",
+    "ad": "Izgara Somon Fileto + Quinoa + Buharda Kuşkonmaz",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "yag": 16,
+    "porsiyon": "200g somon + 100g quinoa + kuşkonmaz"
+  },
+  {
+    "id": "UZMAN_AKSAM_002",
+    "ad": "Fırın Tavuk Göğsü + Patlıcan Musakka (Light) + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "180g tavuk + musakka + yoğurt"
+  },
+  {
+    "id": "UZMAN_AKSAM_003",
+    "ad": "Izgara Levrek + Esmer Pirinç + Sebze Sote",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 33,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "porsiyon": "200g levrek + pilav + sebze"
+  },
+  {
+    "id": "UZMAN_AKSAM_004",
+    "ad": "Dana Biftek + Tatlı Patates + Mantar Sote",
+    "kategori": "aksam",
+    "kalori": 490,
+    "protein": 41,
+    "karbonhidrat": 42,
+    "yag": 17,
+    "porsiyon": "150g biftek + patates + mantar"
+  },
+  {
+    "id": "UZMAN_AKSAM_005",
+    "ad": "Izgara Hindi Göğsü + Bulgur Pilavı + Közlenmiş Patlıcan",
+    "kategori": "aksam",
+    "kalori": 410,
+    "protein": 37,
+    "karbonhidrat": 40,
+    "yag": 9,
+    "porsiyon": "180g hindi + bulgur + patlıcan"
+  },
+  {
+    "id": "UZMAN_AKSAM_006",
+    "ad": "Ton Balığı (Izgara) + Nohut Salatası + Zeytinyağlı Sos",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 35,
+    "karbonhidrat": 38,
+    "yag": 18,
+    "porsiyon": "150g ton + nohut salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_007",
+    "ad": "Izgara Köfte (Dana) + Sebze Güveç + Bulgur",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 14,
+    "porsiyon": "150g köfte + güveç + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_008",
+    "ad": "Fırında Tavuk But + Yeşil Fasulye + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 13,
+    "porsiyon": "160g tavuk + fasulye + yoğurt"
+  },
+  {
+    "id": "UZMAN_AKSAM_009",
+    "ad": "Izgara Uskumru + Yeşil Mercimek + Roka Salatası",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 40,
+    "yag": 14,
+    "porsiyon": "200g uskumru + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_010",
+    "ad": "Kırmızı Mercimek Çorbası + Izgara Tavuk + Esmer Ekmek",
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": 50,
+    "yag": 9,
+    "porsiyon": "1 kase çorba + 150g tavuk + ekmek"
+  },
+  {
+    "id": "UZMAN_AKSAM_011",
+    "ad": "Izgara Alabalık + Kinoa Salatası + Avokado",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 34,
+    "karbonhidrat": 42,
+    "yag": 19,
+    "porsiyon": "200g alabalık + kinoa + avokado"
+  },
+  {
+    "id": "UZMAN_AKSAM_012",
+    "ad": "Etli Nohut Yemeği + Yoğurt + Bulgur Pilavı",
+    "kategori": "aksam",
+    "kalori": 490,
+    "protein": 37,
+    "karbonhidrat": 54,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_013",
+    "ad": "Izgara Bonfile + Tatlı Patates + Brokoli",
+    "kategori": "aksam",
+    "kalori": 500,
+    "protein": 43,
+    "karbonhidrat": 40,
+    "yag": 17,
+    "porsiyon": "150g bonfile + patates + brokoli"
+  },
+  {
+    "id": "UZMAN_AKSAM_014",
+    "ad": "Fırın Tavuk Sarma + Esmer Pirinç + Turşu",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 39,
+    "karbonhidrat": 48,
+    "yag": 10,
+    "porsiyon": "180g sarma + pilav"
+  },
+  {
+    "id": "UZMAN_AKSAM_015",
+    "ad": "Izgara Sığır Antrikot + Patlıcan Kebabı + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 510,
+    "protein": 41,
+    "karbonhidrat": 38,
+    "yag": 19,
+    "porsiyon": "150g et + patlıcan + yoğurt"
+  },
+  {
+    "id": "UZMAN_AKSAM_016",
+    "ad": "Izgara Sardalya + Yeşil Fasulye + Bulgur Pilavı",
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 35,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "200g sardalya + fasulye + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_017",
+    "ad": "Kıymalı Ispanak + Yoğurt + Tam Buğday Ekmek",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": "UZMAN_AKSAM_018",
+    "ad": "Izgara Hamsi + Misket Köfte + Salata",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 37,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "porsiyon": "150g hamsi + köfte + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_019",
+    "ad": "Etli Kuru Fasulye + Bulgur Pilavı + Cacık",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 35,
+    "karbonhidrat": 58,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_020",
+    "ad": "Izgara Palamut + Roka Salatası + Kinoa",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": 40,
+    "yag": 14,
+    "porsiyon": "200g palamut + kinoa + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_021",
+    "ad": "Fırında Kuzu Pirzola + Patates + Havuç Sote",
+    "kategori": "aksam",
+    "kalori": 520,
+    "protein": 39,
+    "karbonhidrat": 46,
+    "yag": 20,
+    "porsiyon": "150g kuzu + patates + havuç"
+  },
+  {
+    "id": "UZMAN_AKSAM_022",
+    "ad": "Izgara Tavuk Kanat + Esmer Pirinç + Çoban Salata",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "porsiyon": "200g kanat + pilav + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_023",
+    "ad": "Barbunya Pilaki + Yoğurt + Tam Buğday Ekmek",
+    "kategori": "aksam",
+    "kalori": 430,
+    "protein": 29,
+    "karbonhidrat": 60,
+    "yag": 8,
+    "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": "UZMAN_AKSAM_024",
+    "ad": "Izgara Dana Kaburga + Közlenmiş Biber + Bulgur",
+    "kategori": "aksam",
+    "kalori": 500,
+    "protein": 40,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "porsiyon": "150g kaburga + biber + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_025",
+    "ad": "Fırında Çipura + Sebze Güveç + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 40,
+    "yag": 14,
+    "porsiyon": "200g çipura + güveç + yoğurt"
+  },
+  {
+    "id": "UZMAN_AKSAM_026",
+    "ad": "Izgara Köfte (Hindi) + Tatlı Patates + Salata",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": 46,
+    "yag": 12,
+    "porsiyon": "150g köfte + patates + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_027",
+    "ad": "Etli Pırasa Yemeği + Bulgur Pilavı + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 34,
+    "karbonhidrat": 50,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_028",
+    "ad": "Izgara Lüfer + Yeşil Mercimek + Roka",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 42,
+    "yag": 13,
+    "porsiyon": "200g lüfer + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_029",
+    "ad": "Kıymalı Patlıcan Musakka (Fırın) + Yoğurt + Bulgur",
+    "kategori": "aksam",
+    "kalori": 490,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 16,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_030",
+    "ad": "Izgara Mezgit + Patlıcan Beğendi + Turşu",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "200g mezgit + beğendi"
+  },
+  {
+    "id": "UZMAN_AKSAM_031",
+    "ad": "Fırında Rosto + Haşlanmış Patates + Havuç",
+    "kategori": "aksam",
+    "kalori": 500,
+    "protein": 39,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "porsiyon": "150g rosto + patates + havuç"
+  },
+  {
+    "id": "UZMAN_AKSAM_032",
+    "ad": "Izgara Tavuk Şiş + Esmer Pirinç + Ezme Salata",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 40,
+    "karbonhidrat": 46,
+    "yag": 10,
+    "porsiyon": "180g tavuk + pilav + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_033",
+    "ad": "Kuru Fasulye (Etli) + Tam Buğday Ekmek + Turşu",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 33,
+    "karbonhidrat": 60,
+    "yag": 11,
+    "porsiyon": "Orta porsiyon + ekmek"
+  },
+  {
+    "id": "UZMAN_AKSAM_034",
+    "ad": "Izgara Kalkan Balığı + Kinoa + Brokoli",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 38,
+    "karbonhidrat": 40,
+    "yag": 15,
+    "porsiyon": "200g kalkan + kinoa + brokoli"
+  },
+  {
+    "id": "UZMAN_AKSAM_035",
+    "ad": "Etli Taze Fasulye + Bulgur Pilavı + Ayran",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 52,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_036",
+    "ad": "Izgara Dana Bonfile + Sebze Izgara + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 490,
+    "protein": 42,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "porsiyon": "150g bonfile + sebze + yoğurt"
+  },
+  {
+    "id": "UZMAN_AKSAM_037",
+    "ad": "Fırında Tavuk Budu + Patlıcan Kızartma (Az Yağlı) + Bulgur",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 37,
+    "karbonhidrat": 46,
+    "yag": 14,
+    "porsiyon": "170g tavuk + patlıcan + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_038",
+    "ad": "Izgara İstavrit + Yeşil Mercimek + Salata",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "porsiyon": "200g istavrit + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_039",
+    "ad": "Kıymalı Lahana Sarma + Yoğurt + Bulgur",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 35,
+    "karbonhidrat": 50,
+    "yag": 13,
+    "porsiyon": "8-10 adet sarma + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_040",
+    "ad": "Izgara Turbot + Patlıcan Beğendi + Turşu",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 39,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "porsiyon": "200g turbot + beğendi"
+  },
+  {
+    "id": "UZMAN_AKSAM_041",
+    "ad": "Etli Bamya Yemeği + Esmer Pirinç + Cacık",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 33,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "UZMAN_AKSAM_042",
+    "ad": "Izgara Çupra + Sebze Sote + Kinoa",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 37,
+    "karbonhidrat": 42,
+    "yag": 13,
+    "porsiyon": "200g çupra + sebze + kinoa"
+  },
+  {
+    "id": "UZMAN_AKSAM_043",
+    "ad": "Fırında Kuzu Kol + Patates + Salata",
+    "kategori": "aksam",
+    "kalori": 510,
+    "protein": 38,
+    "karbonhidrat": 48,
+    "yag": 18,
+    "porsiyon": "150g kuzu + patates + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_044",
+    "ad": "Izgara Karides + Bulgur + Salata",
+    "kategori": "aksam",
+    "kalori": 440,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 10,
+    "porsiyon": "200g karides + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_045",
+    "ad": "Nohutlu Etli Pilav + Yoğurt + Turşu",
+    "kategori": "aksam",
+    "kalori": 490,
+    "protein": 35,
+    "karbonhidrat": 56,
+    "yag": 12,
+    "porsiyon": "Orta porsiyon pilav"
+  },
+  {
+    "id": "UZMAN_AKSAM_046",
+    "ad": "Izgara Akya + Yeşil Mercimek + Roka",
+    "kategori": "aksam",
+    "kalori": 450,
+    "protein": 37,
+    "karbonhidrat": 42,
+    "yag": 12,
+    "porsiyon": "200g akya + mercimek + salata"
+  },
+  {
+    "id": "UZMAN_AKSAM_047",
+    "ad": "Kıymalı Kabak Dolması + Bulgur Pilavı + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 14,
+    "porsiyon": "6-8 adet dolma + bulgur"
+  },
+  {
+    "id": "UZMAN_AKSAM_048",
+    "ad": "Izgara Dil Balığı + Patlıcan Beğendi + Salata",
+    "kategori": "aksam",
+    "kalori": 480,
+    "protein": 39,
+    "karbonhidrat": 40,
+    "yag": 16,
+    "porsiyon": "200g dil balığı + beğendi"
+  },
+  {
+    "id": "UZMAN_AKSAM_049",
+    "ad": "Etli Enginar Yemeği + Esmer Pirinç + Yoğurt",
+    "kategori": "aksam",
+    "kalori": 470,
+    "protein": 33,
+    "karbonhidrat": 50,
+    "yag": 14,
+    "porsiyon": "Orta porsiyon + pilav"
+  },
+  {
+    "id": "UZMAN_AKSAM_050",
+    "ad": "Izgara Barbun + Kinoa Salatası + Zeytinyağı",
+    "kategori": "aksam",
+    "kalori": 460,
+    "protein": 36,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "porsiyon": "200g barbun + kinoa salata"
+  }
+]

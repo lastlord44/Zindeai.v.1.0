@@ -49,6 +49,17 @@ class Yemek extends Equatable {
   final String? tarif;
   final String? gorselUrl;
 
+  // 🔥 Alerji grubu tanımlamaları (statik)
+  static const Map<String, List<String>> _alerjiGruplari = {
+    'balık': ['somon', 'ton', 'levrek', 'hamsi', 'palamut', 'çipura', 'sardalya', 'uskumru', 'istavrit', 'mezgit'],
+    'deniz ürünleri': ['karides', 'midye', 'kalamar', 'ahtapot', 'istiridye', 'yengeç'],
+    'süt': ['süt', 'yoğurt', 'peynir', 'ayran', 'kaymak', 'tereyağı', 'labne', 'lor', 'beyaz peynir', 'kaşar'],
+    'yumurta': ['yumurta', 'yumurtalı'],
+    'gluten': ['buğday', 'arpa', 'çavdar', 'bulgur', 'makarna', 'ekmek', 'un'],
+    'fındık': ['fındık', 'badem', 'ceviz', 'antep fıstığı', 'fıstık', 'kaju'],
+    'soya': ['soya', 'tofu', 'soya sütü', 'soya sosu'],
+  };
+
   const Yemek({
     required this.id,
     required this.ad,
@@ -165,7 +176,7 @@ class Yemek extends Equatable {
         return OgunTipi.araOgun1;
       case 'ogle':
       case 'öğle':
-      case 'öğle yemeği': // ✅ FIX: Hive'daki tam kategori adı
+      case 'öğle yemeği':
         return OgunTipi.ogle;
       case 'araogun2':
       case 'ara_ogun_2':
@@ -173,12 +184,12 @@ class Yemek extends Equatable {
         return OgunTipi.araOgun2;
       case 'aksam':
       case 'akşam':
-      case 'akşam yemeği': // ✅ FIX: Hive'daki tam kategori adı
+      case 'akşam yemeği':
         return OgunTipi.aksam;
       case 'geceatistirma':
       case 'gece_atistirma':
       case 'gece atıştırma':
-      case 'gece atıştırması': // ✅ FIX: Hive'daki tam kategori adı
+      case 'gece atıştırması':
         return OgunTipi.geceAtistirma;
       case 'cheatmeal':
       case 'cheat_meal':
@@ -212,19 +223,47 @@ class Yemek extends Equatable {
     return kaloriFark <= hedefKalori * tolerans;
   }
 
+  /// 🔥 FIX: Akıllı alerji eşleştirme sistemi
   /// Kısıtlamalara uygunluk kontrolü (alerji, vegan vb)
   bool kisitlamayaUygunMu(List<String> kisitlamalar) {
     if (kisitlamalar.isEmpty) return true;
 
     for (final kisitlama in kisitlamalar) {
-      final kisitlamaLower = kisitlama.toLowerCase();
+      final kisitlamaLower = kisitlama.toLowerCase().trim();
 
-      // Malzemelerde arama
+      // 1️⃣ Alerji grubu kontrolü (örn: "balık" alerjisi -> somon, ton, levrek...)
+      if (_alerjiGruplari.containsKey(kisitlamaLower)) {
+        final allerjenler = _alerjiGruplari[kisitlamaLower]!;
+        
+        // Yemek adında allerjen var mı?
+        for (final allerjen in allerjenler) {
+          if (ad.toLowerCase().contains(allerjen)) {
+            return false;
+          }
+        }
+        
+        // Malzemelerde allerjen var mı?
+        for (final malzeme in malzemeler) {
+          final malzemeLower = malzeme.toLowerCase();
+          for (final allerjen in allerjenler) {
+            if (malzemeLower.contains(allerjen)) {
+              return false;
+            }
+          }
+        }
+      }
+
+      // 2️⃣ Direkt kelime eşleştirme (yemek adında)
+      if (ad.toLowerCase().contains(kisitlamaLower)) {
+        return false;
+      }
+
+      // 3️⃣ Direkt kelime eşleştirme (malzemelerde)
       if (malzemeler.any((m) => m.toLowerCase().contains(kisitlamaLower))) {
         return false;
       }
 
-      // Etiketlerde arama (örn: vegan değil ise)
+      // 4️⃣ Etiket kontrolü (örn: vegan değil ise et yasak)
       if (kisitlamaLower == 'et' && !etiketler.contains('vejetaryen')) {
         return false;
       }

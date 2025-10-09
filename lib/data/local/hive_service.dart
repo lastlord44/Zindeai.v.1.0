@@ -79,7 +79,13 @@ class HiveService {
   /// Yemek kaydet
   static Future<void> yemekKaydet(YemekHiveModel yemek) async {
     try {
-      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      // 🔥 FIX: Box açık değilse aç
+      Box<YemekHiveModel> box;
+      if (Hive.isBoxOpen(_yemekBox)) {
+        box = Hive.box<YemekHiveModel>(_yemekBox);
+      } else {
+        box = await Hive.openBox<YemekHiveModel>(_yemekBox);
+      }
       
       // 🔥 FIX: mealId null olmamalı! Static method kullanarak garantili ID oluştur
       if (yemek.mealId == null || yemek.mealId!.isEmpty) {
@@ -99,7 +105,14 @@ class HiveService {
   /// Yemek getir
   static Future<Yemek?> yemekGetir(String mealId) async {
     try {
-      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      // 🔥 FIX: Box açık değilse aç
+      Box<YemekHiveModel> box;
+      if (Hive.isBoxOpen(_yemekBox)) {
+        box = Hive.box<YemekHiveModel>(_yemekBox);
+      } else {
+        box = await Hive.openBox<YemekHiveModel>(_yemekBox);
+      }
+      
       final model = box.get(mealId);
 
       if (model != null) {
@@ -207,7 +220,14 @@ class HiveService {
   /// Tüm yemekleri sil
   static Future<void> tumYemekleriSil() async {
     try {
-      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      // 🔥 FIX: Box açık değilse aç
+      Box<YemekHiveModel> box;
+      if (Hive.isBoxOpen(_yemekBox)) {
+        box = Hive.box<YemekHiveModel>(_yemekBox);
+      } else {
+        box = await Hive.openBox<YemekHiveModel>(_yemekBox);
+      }
+      
       final count = box.length;
       await box.clear();
       AppLogger.info('🗑️ $count yemek silindi');

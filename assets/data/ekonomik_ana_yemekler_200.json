@@ -1,0 +1,927 @@
+[
+  {
+    "id": "EKO_OGLE_001",
+    "ad": "Izgara Tavuk Göğüs + Bulgur Pilavı + Yeşil Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 150, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      {"ad": "Domates", "miktar": 50, "birim": "gram"},
+      {"ad": "Salatalık", "miktar": 50, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 450,
+    "protein": 45,
+    "karbonhidrat": 40,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_002",
+    "ad": "Mercimek Köftesi + Yoğurt + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kırmızı Mercimek", "miktar": 80, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 40, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Maydanoz", "miktar": 20, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"}
+    ],
+    "kalori": 420,
+    "protein": 22,
+    "karbonhidrat": 62,
+    "yag": 8
+  },
+  {
+    "id": "EKO_OGLE_003",
+    "ad": "Nohut Yemeği + Esmer Pirinç Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Nohut (Haşlanmış)", "miktar": 120, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 40, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 8, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 18,
+    "karbonhidrat": 68,
+    "yag": 11
+  },
+  {
+    "id": "EKO_OGLE_004",
+    "ad": "Haşlama Tavuk But + Patates Püresi",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 160, "birim": "gram"},
+      {"ad": "Patates", "miktar": 150, "birim": "gram"},
+      {"ad": "Süt", "miktar": 30, "birim": "ml"},
+      {"ad": "Tereyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 465,
+    "protein": 38,
+    "karbonhidrat": 42,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_005",
+    "ad": "Kuru Fasulye + Bulgur Pilavı + Turşu",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuru Fasulye (Haşlanmış)", "miktar": 120, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"},
+      {"ad": "Salça", "miktar": 15, "birim": "gram"},
+      {"ad": "Turşu", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 440,
+    "protein": 20,
+    "karbonhidrat": 70,
+    "yag": 8
+  },
+  {
+    "id": "EKO_OGLE_006",
+    "ad": "Yumurtalı Menemen + Tam Buğday Ekmeği",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 120, "birim": "gram"},
+      {"ad": "Domates", "miktar": 80, "birim": "gram"},
+      {"ad": "Biber", "miktar": 50, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"},
+      {"ad": "Tam Buğday Ekmeği", "miktar": 60, "birim": "gram"}
+    ],
+    "kalori": 430,
+    "protein": 24,
+    "karbonhidrat": 42,
+    "yag": 18
+  },
+  {
+    "id": "EKO_OGLE_007",
+    "ad": "Dana Kıymalı Bulgur Pilavı + Cacık",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Dana Kıyma", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Salatalık", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 480,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_008",
+    "ad": "Izgara Tavuk Kanat + Kızarmış Patates + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Kanat", "miktar": 180, "birim": "gram"},
+      {"ad": "Patates", "miktar": 120, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 12, "birim": "gram"}
+    ],
+    "kalori": 520,
+    "protein": 42,
+    "karbonhidrat": 38,
+    "yag": 22
+  },
+  {
+    "id": "EKO_OGLE_009",
+    "ad": "Yeşil Mercimek Çorbası + Peynirli Tost",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yeşil Mercimek", "miktar": 60, "birim": "gram"},
+      {"ad": "Tam Buğday Ekmeği", "miktar": 80, "birim": "gram"},
+      {"ad": "Beyaz Peynir", "miktar": 60, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 455,
+    "protein": 26,
+    "karbonhidrat": 58,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_010",
+    "ad": "Barbunya Pilaki + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Barbunya (Haşlanmış)", "miktar": 130, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 40, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 40, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 435,
+    "protein": 19,
+    "karbonhidrat": 66,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_011",
+    "ad": "Fırında Tavuk But + Sebze Garnitür",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 170, "birim": "gram"},
+      {"ad": "Patates", "miktar": 100, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 60, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 40, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 8, "birim": "gram"}
+    ],
+    "kalori": 470,
+    "protein": 40,
+    "karbonhidrat": 38,
+    "yag": 18
+  },
+  {
+    "id": "EKO_OGLE_012",
+    "ad": "Omlet (3 Yumurta) + Tam Buğday Ekmeği + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 150, "birim": "gram"},
+      {"ad": "Tam Buğday Ekmeği", "miktar": 70, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Domates", "miktar": 50, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 460,
+    "protein": 28,
+    "karbonhidrat": 40,
+    "yag": 20
+  },
+  {
+    "id": "EKO_OGLE_013",
+    "ad": "Kuzu Kıymalı Patlıcan Musakka + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuzu Kıyma", "miktar": 90, "birim": "gram"},
+      {"ad": "Patlıcan", "miktar": 150, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 80, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 28,
+    "karbonhidrat": 32,
+    "yag": 22
+  },
+  {
+    "id": "EKO_OGLE_014",
+    "ad": "Haşlanmış Tavuk Göğüs + Kinoa Salatası",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 140, "birim": "gram"},
+      {"ad": "Kinoa", "miktar": 50, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 440,
+    "protein": 42,
+    "karbonhidrat": 38,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_015",
+    "ad": "Hamsi Tava + Mısır Ekmeği + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Hamsi", "miktar": 150, "birim": "gram"},
+      {"ad": "Mısır Unu", "miktar": 40, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      "Limon", "miktar": 20, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 12, "birim": "gram"}
+    ],
+    "kalori": 475,
+    "protein": 38,
+    "karbonhidrat": 35,
+    "yag": 20
+  },
+  {
+    "id": "EKO_OGLE_016",
+    "ad": "Mercimekli Bulgur Pilavı + Yoğurt + Turşu",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kırmızı Mercimek", "miktar": 60, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Turşu", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 430,
+    "protein": 20,
+    "karbonhidrat": 65,
+    "yag": 9
+  },
+  {
+    "id": "EKO_OGLE_017",
+    "ad": "Tavuk Sote + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 140, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"},
+      {"ad": "Biber", "miktar": 60, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"}
+    ],
+    "kalori": 455,
+    "protein": 43,
+    "karbonhidrat": 45,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_018",
+    "ad": "Dana Kıymalı Kuru Fasulye + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Dana Kıyma", "miktar": 80, "birim": "gram"},
+      {"ad": "Kuru Fasulye", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"},
+      {"ad": "Salça", "miktar": 15, "birim": "gram"}
+    ],
+    "kalori": 490,
+    "protein": 32,
+    "karbonhidrat": 60,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_019",
+    "ad": "Izgara Sardalya + Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Sardalya", "miktar": 140, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      {"ad": "Limon", "miktar": 20, "birim": "gram"}
+    ],
+    "kalori": 465,
+    "protein": 36,
+    "karbonhidrat": 42,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_020",
+    "ad": "Sebzeli Tavuk Güveç + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 130, "birim": "gram"},
+      {"ad": "Patlıcan", "miktar": 80, "birim": "gram"},
+      {"ad": "Domates", "miktar": 70, "birim": "gram"},
+      {"ad": "Biber", "miktar": 50, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 450,
+    "protein": 35,
+    "karbonhidrat": 48,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_021",
+    "ad": "Nohutlu Bulgur Pilavı + Cacık",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Nohut", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Salatalık", "miktar": 50, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 8, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 20,
+    "karbonhidrat": 68,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_022",
+    "ad": "Haşlama Tavuk + Sebze Püresi",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 150, "birim": "gram"},
+      {"ad": "Patates", "miktar": 100, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 60, "birim": "gram"},
+      {"ad": "Kabak", "miktar": 60, "birim": "gram"},
+      {"ad": "Tereyağı", "miktar": 8, "birim": "gram"}
+    ],
+    "kalori": 440,
+    "protein": 44,
+    "karbonhidrat": 38,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_023",
+    "ad": "Yumurtalı Ispanak + Yoğurt + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 100, "birim": "gram"},
+      {"ad": "Ispanak", "miktar": 150, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 80, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 435,
+    "protein": 26,
+    "karbonhidrat": 48,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_024",
+    "ad": "Kuzu Kıymalı Türlü + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuzu Kıyma", "miktar": 90, "birim": "gram"},
+      {"ad": "Patlıcan", "miktar": 80, "birim": "gram"},
+      {"ad": "Kabak", "miktar": 70, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"}
+    ],
+    "kalori": 455,
+    "protein": 28,
+    "karbonhidrat": 36,
+    "yag": 22
+  },
+  {
+    "id": "EKO_OGLE_025",
+    "ad": "Tavuklu Nohut Yemeği + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 100, "birim": "gram"},
+      {"ad": "Nohut", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 8, "birim": "gram"}
+    ],
+    "kalori": 480,
+    "protein": 32,
+    "karbonhidrat": 60,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_026",
+    "ad": "Uskumru Tava + Patates Kızartması + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Uskumru", "miktar": 140, "birim": "gram"},
+      {"ad": "Patates", "miktar": 120, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 12, "birim": "gram"}
+    ],
+    "kalori": 510,
+    "protein": 35,
+    "karbonhidrat": 40,
+    "yag": 24
+  },
+  {
+    "id": "EKO_OGLE_027",
+    "ad": "Dana Kıymalı Ispanak + Yoğurt + Pilav",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Dana Kıyma", "miktar": 90, "birim": "gram"},
+      {"ad": "Ispanak", "miktar": 150, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 470,
+    "protein": 32,
+    "karbonhidrat": 45,
+    "yag": 18
+  },
+  {
+    "id": "EKO_OGLE_028",
+    "ad": "Tavuk Haşlama + Sebzeli Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 140, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 50, "birim": "gram"},
+      {"ad": "Bezelye", "miktar": 40, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 42,
+    "karbonhidrat": 48,
+    "yag": 9
+  },
+  {
+    "id": "EKO_OGLE_029",
+    "ad": "Mercimekli Köfte + Salata + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kırmızı Mercimek", "miktar": 80, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"}
+    ],
+    "kalori": 425,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 8
+  },
+  {
+    "id": "EKO_OGLE_030",
+    "ad": "Fırında Tavuk Kanat + Sebze Garnitür",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Kanat", "miktar": 170, "birim": "gram"},
+      {"ad": "Patates", "miktar": 100, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 60, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 40, "birim": "gram"}
+    ],
+    "kalori": 485,
+    "protein": 40,
+    "karbonhidrat": 38,
+    "yag": 20
+  },
+  {
+    "id": "EKO_OGLE_031",
+    "ad": "Kuru Fasulye + Esmer Pirinç Pilavı + Turşu",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuru Fasulye", "miktar": 120, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"},
+      {"ad": "Turşu", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 450,
+    "protein": 20,
+    "karbonhidrat": 72,
+    "yag": 8
+  },
+  {
+    "id": "EKO_OGLE_032",
+    "ad": "Haşlanmış Yumurta (3 Adet) + Tam Buğday Ekmeği + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 150, "birim": "gram"},
+      {"ad": "Tam Buğday Ekmeği", "miktar": 80, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"}
+    ],
+    "kalori": 440,
+    "protein": 28,
+    "karbonhidrat": 48,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_033",
+    "ad": "Tavuklu Sebze Sote + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 130, "birim": "gram"},
+      {"ad": "Biber", "miktar": 70, "birim": "gram"},
+      {"ad": "Domates", "miktar": 70, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 435,
+    "protein": 40,
+    "karbonhidrat": 46,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_034",
+    "ad": "Nohutlu Ispanak + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Nohut", "miktar": 100, "birim": "gram"},
+      {"ad": "Ispanak", "miktar": 150, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 120, "birim": "gram"},
+      {"ad": "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 420,
+    "protein": 22,
+    "karbonhidrat": 52,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_035",
+    "ad": "Dana Kıymalı Kabak Dolması + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Dana Kıyma", "miktar": 90, "birim": "gram"},
+      {"ad": "Kabak", "miktar": 150, "birim": "gram"},
+      {"ad": "Pirinç", "miktar": 30, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 30,
+    "karbonhidrat": 42,
+    "yag": 18
+  },
+  {
+    "id": "EKO_OGLE_036",
+    "ad": "Hamsi Buğulama + Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Hamsi", "miktar": 150, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Limon", "miktar": 20, "birim": "gram"}
+    ],
+    "kalori": 460,
+    "protein": 38,
+    "karbonhidrat": 48,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_037",
+    "ad": "Barbunya + Sebzeli Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Barbunya", "miktar": 130, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 40, "birim": "gram"}
+    ],
+    "kalori": 430,
+    "protein": 19,
+    "karbonhidrat": 68,
+    "yag": 9
+  },
+  {
+    "id": "EKO_OGLE_038",
+    "ad": "Tavuk Güveç + Esmer Pirinç Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 140, "birim": "gram"},
+      {"ad": "Patlıcan", "miktar": 80, "birim": "gram"},
+      {"ad": "Domates", "miktar": 60, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 465,
+    "protein": 38,
+    "karbonhidrat": 48,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_039",
+    "ad": "Kuzu Kıymalı Nohut + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuzu Kıyma", "miktar": 80, "birim": "gram"},
+      {"ad": "Nohut", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 485,
+    "protein": 30,
+    "karbonhidrat": 58,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_040",
+    "ad": "Yumurtalı Sebze Sote + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 100, "birim": "gram"},
+      {"ad": "Biber", "miktar": 80, "birim": "gram"},
+      {"ad": "Domates", "miktar": 80, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 425,
+    "protein": 24,
+    "karbonhidrat": 50,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_041",
+    "ad": "Izgara Tavuk Göğüs + Kinoa + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 150, "birim": "gram"},
+      {"ad": "Kinoa", "miktar": 50, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 45,
+    "karbonhidrat": 38,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_042",
+    "ad": "Mercimek Çorbası + Tavuklu Sandviç",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kırmızı Mercimek", "miktar": 50, "birim": "gram"},
+      {"ad": "Tavuk Göğüs", "miktar": 80, "birim": "gram"},
+      {"ad": "Tam Buğday Ekmeği", "miktar": 80, "birim": "gram"},
+      {"ad": "Marul", "miktar": 40, "birim": "gram"}
+    ],
+    "kalori": 450,
+    "protein": 38,
+    "karbonhidrat": 55,
+    "yag": 9
+  },
+  {
+    "id": "EKO_OGLE_043",
+    "ad": "Istavrit Tava + Bulgur Pilavı + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Istavrit", "miktar": 140, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 12, "birim": "gram"}
+    ],
+    "kalori": 470,
+    "protein": 36,
+    "karbonhidrat": 44,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_044",
+    "ad": "Dana Kıymalı Mercimek + Yoğurt + Pilav",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Dana Kıyma", "miktar": 80, "birim": "gram"},
+      {"ad": "Yeşil Mercimek", "miktar": 80, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 480,
+    "protein": 34,
+    "karbonhidrat": 56,
+    "yag": 14
+  },
+  {
+    "id": "EKO_OGLE_045",
+    "ad": "Tavuk Sote + Sebzeli Esmer Pirinç",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 140, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"},
+      {"ad": "Biber", "miktar": 60, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 455,
+    "protein": 43,
+    "karbonhidrat": 48,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_046",
+    "ad": "Nohutlu Bulgur Pilavı + Cacık + Turşu",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Nohut", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 60, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Salatalık", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 20,
+    "karbonhidrat": 68,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_047",
+    "ad": "Kuzu Kıymalı Patlıcan Kızartma + Yoğurt + Pilav",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuzu Kıyma", "miktar": 90, "birim": "gram"},
+      {"ad": "Patlıcan", "miktar": 120, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 80, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 475,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 20
+  },
+  {
+    "id": "EKO_OGLE_048",
+    "ad": "Fırında Tavuk But + Patates + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 160, "birim": "gram"},
+      {"ad": "Patates", "miktar": 120, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Zeytinyağı", "miktar": 8, "birim": "gram"}
+    ],
+    "kalori": 485,
+    "protein": 42,
+    "karbonhidrat": 42,
+    "yag": 18
+  },
+  {
+    "id": "EKO_OGLE_049",
+    "ad": "Omlet (2 Yumurta) + Tam Buğday Ekmeği + Peynir",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 100, "birim": "gram"},
+      {"ad": "Tam Buğday Ekmeği", "miktar": 80, "birim": "gram"},
+      {"ad": "Beyaz Peynir", "miktar": 60, "birim": "gram"},
+      {"ad": "Domates", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 460,
+    "protein": 30,
+    "karbonhidrat": 42,
+    "yag": 20
+  },
+  {
+    "id": "EKO_OGLE_050",
+    "ad": "Kuru Fasulye + Sebzeli Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuru Fasulye", "miktar": 120, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 440,
+    "protein": 20,
+    "karbonhidrat": 70,
+    "yag": 8
+  },
+  {
+    "id": "EKO_OGLE_051",
+    "ad": "Haşlama Tavuk Göğüs + Patates Püresi + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Göğüs", "miktar": 140, "birim": "gram"},
+      {"ad": "Patates", "miktar": 130, "birim": "gram"},
+      {"ad": "Marul", "miktar": 80, "birim": "gram"},
+      {"ad": "Süt", "miktar": 30, "birim": "ml"}
+    ],
+    "kalori": 450,
+    "protein": 42,
+    "karbonhidrat": 45,
+    "yag": 10
+  },
+  {
+    "id": "EKO_OGLE_052",
+    "ad": "Sardalya Izgara + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Sardalya", "miktar": 140, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"},
+      {"ad": "Limon", "miktar": 20, "birim": "gram"}
+    ],
+    "kalori": 465,
+    "protein": 36,
+    "karbonhidrat": 42,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_053",
+    "ad": "Dana Kıymalı Sebze Sote + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Dana Kıyma", "miktar": 100, "birim": "gram"},
+      {"ad": "Biber", "miktar": 70, "birim": "gram"},
+      {"ad": "Domates", "miktar": 70, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 475,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_054",
+    "ad": "Mercimekli Köfte + Bulgur Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kırmızı Mercimek", "miktar": 80, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "gram"}
+    ],
+    "kalori": 430,
+    "protein": 22,
+    "karbonhidrat": 66,
+    "yag": 8
+  },
+  {
+    "id": "EKO_OGLE_055",
+    "ad": "Tavuklu Sebze Güveç + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk But", "miktar": 130, "birim": "gram"},
+      {"ad": "Kabak", "miktar": 80, "birim": "gram"},
+      {"ad": "Havuç", "miktar": 60, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 445,
+    "protein": 36,
+    "karbonhidrat": 50,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_056",
+    "ad": "Nohutlu Ispanak + Yoğurt + Pilav",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Nohut", "miktar": 100, "birim": "gram"},
+      {"ad": "Ispanak", "miktar": 150, "birim": "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 40, "birim": "gram"}
+    ],
+    "kalori": 435,
+    "protein": 22,
+    "karbonhidrat": 60,
+    "yag": 12
+  },
+  {
+    "id": "EKO_OGLE_057",
+    "ad": "Kuzu Kıymalı Kuru Fasulye + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Kuzu Kıyma", "miktar": 80, "birim": "gram"},
+      {"ad": "Kuru Fasulye", "miktar": 100, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"},
+      {"ad": "Soğan", "miktar": 30, "birim": "gram"}
+    ],
+    "kalori": 490,
+    "protein": 32,
+    "karbonhidrat": 60,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_058",
+    "ad": "Yumurtalı Menemen + Bulgur Pilavı",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Yumurta", "miktar": 100, "birim": "gram"},
+      {"ad": "Domates", "miktar": 80, "birim": "gram"},
+      {"ad": "Biber", "miktar": 60, "birim": "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": "gram"}
+    ],
+    "kalori": 440,
+    "protein": 24,
+    "karbonhidrat": 52,
+    "yag": 16
+  },
+  {
+    "id": "EKO_OGLE_059",
+    "ad": "Izgara Tavuk Kanat + Esmer Pirinç + Salata",
+    "kategori": "ogle",
+    "malzemeler": [
+      {"ad": "Tavuk Kanat", "miktar": 170, "birim": "gram"},
+      {"ad": "Esmer Pirinç", "miktar": 50, "birim": "gram"},
+      {"ad": "Marul", "miktar": 100, "birim": "gram"}
+    ],
+    "kalori": 495,
+    "protein": 42,
+    "karbonhidrat": 42,
+    "yag": 20
+  },
+  {
+    "id": "EKO_OGLE_060",
+    "ad": Anladım! Önceki session'dan devam ediyorum. Ekonomik ana yemekler ekleme görevinde kalmıştık. "Barbunya Pilaki + Bulgur `ekonomik_ana_yemekler_400.json` dosyası bozuk çıkmış, düzeltmem gerekiyor.
+
+Önce bozuk dosyanın durumunu Pilavı + Yoğurt",
+    "kategori": "ogle",
+    "malzemeler": kontrol edeyim:
+
+<read_file>
+<path>EKONOMIK_YEMEKLER_EKLEME_TALIMATI.md</path>
+<task_progress>
+- [ ] Bozuk JSON dosyasını analiz et
+- [ ] Temiz ekonomik yemekler [
+      {"ad": "Barbunya", "miktar": 120, "birim": JSON dosyası oluştur (100 öğle + 100 akşam)
+- "gram"},
+      {"ad": "Bulgur", "miktar": 50, "birim": [ ] Migration scripti oluştur
+- [ "gram"},
+      {"ad": "Yoğurt", "miktar": 100, "birim": "gram"},
+      {"ad": ] DB'ye yükle ve test et
+- [ ] DB özetini "Zeytinyağı", "miktar": 10, "birim": "gram"}
+    ],
+    güncelle
+</task_progress>
+</read_file>

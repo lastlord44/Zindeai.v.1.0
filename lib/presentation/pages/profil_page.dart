@@ -5,6 +5,7 @@ import '../../domain/entities/hedef.dart';
 import '../../domain/entities/kullanici_profili.dart';
 import '../../data/local/hive_service.dart';
 import '../../core/utils/yemek_migration_guncel.dart';
+import '../../core/services/cesitlilik_gecmis_servisi.dart'; // 🔥 ÇEŞİTLİLİK GEÇMİŞİ TEMİZLEMEK İÇİN
 
 class ProfilPage extends StatefulWidget {
   final VoidCallback? onProfilKaydedildi; // 🔥 Profil kaydedilince callback
@@ -596,11 +597,20 @@ Planlar yeniden oluşturulacak. Devam edilsin mi?''',
                     );
 
                     try {
-                      // Eski verileri temizle
+                      // 1. Eski verileri temizle
                       await YemekMigration.migrationTemizle();
                       
-                      // Yeni verileri yükle
+                      // 2. Yeni verileri yükle
                       final success = await YemekMigration.jsonToHiveMigration();
+                      
+                      // 🔥 3. KRİTİK: ESKİ PLANLARI SİL! (Yeni yemeklerle plan oluşturulmalı)
+                      if (success) {
+                        await HiveService.tumPlanlariSil();
+                        
+                        // 🔥 4. ÇOK KRİTİK: ÇEŞİTLİLİK GEÇMİŞİNİ TEMİZLE!
+                        // (DB yenilenince yemekler yeni ID alıyor, eski geçmiş geçersiz!)
+                        await CesitlilikGecmisServisi.gecmisiTemizle();
+                      }
 
                       if (mounted) {
                         Navigator.pop(context); // Progress dialog kapat
@@ -608,9 +618,9 @@ Planlar yeniden oluşturulacak. Devam edilsin mi?''',
                         if (success) {
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
-                              content: Text('✅ Yeni yemekler başarıyla yüklendi! 120 ara öğün artık kullanılabilir!'),
+                              content: Text('✅ Yeni yemekler yüklendi! Şimdi "Plan Oluştur" butonuna basın!'),
                               backgroundColor: Colors.green,
-                              duration: Duration(seconds: 3),
+                              duration: Duration(seconds: 4),
                             ),
                           );
                         } else {
