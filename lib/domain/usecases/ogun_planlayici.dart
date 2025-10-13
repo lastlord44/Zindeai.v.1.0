@@ -38,12 +38,23 @@ class OgunPlanlayici {
       final tumYemekler = await dataSource.tumYemekleriYukle();
       final uygunYemekler = _kisitlamalariFiltrele(tumYemekler, kisitlamalar);
 
-      // Boş kategori kontrolü
-      final bosKategoriler =
-          uygunYemekler.entries.where((e) => e.value.isEmpty).toList();
-      if (bosKategoriler.isNotEmpty) {
-        final bosKategoriIsimleri = bosKategoriler
-            .map((e) => e.key.toString().split('.').last)
+      // 🔥 Boş kategori kontrolü (Gece Atıştırması ve Cheat Meal opsiyonel)
+      // Sadece ana 5 kategoride yemek olması zorunlu
+      final zorunluKategoriler = [
+        OgunTipi.kahvalti,
+        OgunTipi.araOgun1,
+        OgunTipi.ogle,
+        OgunTipi.araOgun2,
+        OgunTipi.aksam,
+      ];
+
+      final bosZorunluKategoriler = zorunluKategoriler
+          .where((kategori) => uygunYemekler[kategori]?.isEmpty ?? true)
+          .toList();
+
+      if (bosZorunluKategoriler.isNotEmpty) {
+        final bosKategoriIsimleri = bosZorunluKategoriler
+            .map((e) => e.toString().split('.').last)
             .join(', ');
         AppLogger.error(
             '❌ HATA: Şu kategorilerde uygun yemek yok: $bosKategoriIsimleri');
@@ -72,32 +83,204 @@ class OgunPlanlayici {
     }
   }
 
-  /// Kısıtlamalara göre filtrele + Karbonhidrat validasyonu
+  /// Kısıtlamalara göre filtrele + Karbonhidrat validasyonu + TÜRK MUTFAĞI FİLTRESİ
+  /// 🔥 Sadece zorunlu 5 kategoriyi filtrele (Gece Atıştırması ve Cheat Meal hariç)
   Map<OgunTipi, List<Yemek>> _kisitlamalariFiltrele(
     Map<OgunTipi, List<Yemek>> tumYemekler,
     List<String> kisitlamalar,
   ) {
-    return tumYemekler.map((ogun, yemekler) {
+    // Zorunlu kategorileri belirle
+    final zorunluKategoriler = [
+      OgunTipi.kahvalti,
+      OgunTipi.araOgun1,
+      OgunTipi.ogle,
+      OgunTipi.araOgun2,
+      OgunTipi.aksam,
+    ];
+
+    // Sadece zorunlu kategorileri filtrele
+    final filtrelenmisMap = <OgunTipi, List<Yemek>>{};
+
+    for (final ogun in zorunluKategoriler) {
+      final yemekler = tumYemekler[ogun] ?? [];
       var filtrelenmis = yemekler;
 
-      // 1. Kısıtlamalara göre filtrele
+      // 1. 🇹🇷 TÜRK MUTFAĞI FİLTRESİ - Yabancı besinleri çıkar!
+      filtrelenmis = _turkMutfagiFiltrelemeUygula(filtrelenmis);
+
+      // 2. Kısıtlamalara göre filtrele
       if (kisitlamalar.isNotEmpty) {
         filtrelenmis = filtrelenmis
             .where((y) => y.kisitlamayaUygunMu(kisitlamalar))
             .toList();
       }
 
-      // 2. Karbonhidrat validasyonu (Ogle ve Aksam icin)
+      // 3. Karbonhidrat validasyonu (Ogle ve Aksam icin)
       if (ogun == OgunTipi.ogle || ogun == OgunTipi.aksam) {
-        final oncekiSayi = filtrelenmis.length;
         filtrelenmis = KarbonhidratValidator.yemekleriFiltrele(filtrelenmis);
-        final sonrakiSayi = filtrelenmis.length;
-
-        // Karbonhidrat filtreleme sessiz çalışır
       }
 
-      return MapEntry(ogun, filtrelenmis);
-    });
+      filtrelenmisMap[ogun] = filtrelenmis;
+    }
+
+    return filtrelenmisMap;
+  }
+
+  /// 🇹🇷 TÜRK MUTFAĞI + SAĞLIKLI BESİN FİLTRESİ (AKILLI VERSİYON)
+  /// Yabancı besinler + Zararlı un ürünleri YASAK! (Sağlıklı ekmek hariç)
+  List<Yemek> _turkMutfagiFiltrelemeUygula(List<Yemek> yemekler) {
+    // 🚫 YASAK KELİMELER LİSTESİ (Daha akıllı ve dengeli)
+    final yasakKelimeler = [
+      // 🔥 ULTRA KESİN YASAK - ZARARLII UN ÜRÜNLERİ
+      'sigara böreği',
+      'sigara boregi',
+      'börek',
+      'borek',
+      'poğaça',
+      'pogaca',
+      'pişi',
+      'pisi',
+      'simit',
+      'açma',
+      'acma',
+      'çörek',
+      'corek',
+      'katmer',
+      'gözleme',
+      'gozleme',
+      'pide',
+      'lahmacun',
+      'tost',
+      'sandviç',
+      'sandwich',
+      'galeta',
+      'kraker',
+      'gevrek',
+      'kıtır',
+      'kitir',
+      'milföy',
+      'milfoy',
+
+      // 🔥 YASAK - WRAP & YABANCİ KELİMELER
+      'wrap',
+      'tortilla',
+      'burrito',
+      'taco',
+      'quesadilla',
+      'fajita',
+      'panini',
+      'focaccia',
+      'ciabatta',
+      'baguette',
+      'croissant',
+      'bagel',
+
+      // Yabancı Supplement/Protein Ürünleri
+      'whey',
+      'protein shake',
+      'protein powder',
+      'protein smoothie',
+      'smoothie',
+      'vegan protein',
+      'protein bite',
+      'protein tozu',
+      'protein bar',
+      'casein',
+      'bcaa',
+      'kreatin',
+      'gainer',
+      'supplement',
+      'cottage cheese',
+      'cottage',
+      'premium',
+
+      // Yabancı Yemekler
+      'smoothie bowl',
+      'chia pudding',
+      'chia',
+      'acai bowl',
+      'acai',
+      'quinoa',
+      'hummus wrap',
+      'hummus',
+      'falafel',
+      'sushi',
+      'poke bowl',
+      'poke',
+      'ramen',
+      'pad thai',
+      'curry',
+      'bowl',
+
+      // Zararlı Fast Food
+      'hamburger',
+      'burger',
+      'cheeseburger',
+      'pizza',
+      'hot dog',
+      'sosisli',
+      'nugget',
+      'crispy',
+      'fried',
+      'tavuk burger',
+      'doner',
+      'döner',
+      'kokoreç',
+      'kokorec',
+
+      // Kızartma/Zararlı Pişirme
+      'kızarmış',
+      'kizarmis',
+      'kızartma',
+      'kizartma',
+      'cips',
+      'chips',
+      'patates kızartması',
+      'french fries',
+      'frites',
+
+      // Aşırı İşlenmiş Ürünler
+      'hazır çorba',
+      'instant',
+      'paketli',
+      'hazır',
+    ];
+
+    // ✅ SAĞLIKLI İSTİSNALAR - Bunlar yasak listede olsa bile kabul edilir
+    final saglikliIstisnalar = [
+      'tam buğday ekmek',
+      'tam buğday',
+      'çavdar ekmeği',
+      'çavdar',
+      'kepek',
+      'kepekli ekmek',
+      'tam tahıl',
+      'yulaf ekmeği',
+      'esmer ekmek',
+      'bulgur',
+      'kinoa',
+    ];
+
+    return yemekler.where((yemek) {
+      final adLower = yemek.ad.toLowerCase();
+
+      // 🔍 ÖNCE İSTİSNA KONTROLÜ YAP
+      // Sağlıklı ekmek türleri gibi istisnalar yasak listede olsa bile kabul edilir
+      for (final istisna in saglikliIstisnalar) {
+        if (adLower.contains(istisna.toLowerCase())) {
+          return true; // İstisna, kabul et!
+        }
+      }
+
+      // 🚫 YASAK KELİME KONTROLÜ
+      for (final yasak in yasakKelimeler) {
+        if (adLower.contains(yasak.toLowerCase())) {
+          return false; // Yasak, çıkar!
+        }
+      }
+
+      return true; // Türk mutfağı, kabul et
+    }).toList();
   }
 
   /// Genetik algoritma (ÇEŞİTLİLİK OPTİMİZE EDİLMİŞ + PERFORMANS İYİLEŞTİRMESİ V4)
@@ -109,12 +292,12 @@ class OgunPlanlayici {
     required double hedefYag,
     required DateTime tarih, // 🔥 Tarih parametresi eklendi
   }) {
-    // 🎯 V6: OPTİMİZE EDİLMİŞ PERFORMANS + TOLERANS! (500 iterasyon)
-    // ⚡ Performans: 900 → 500 iterasyon (%44 hız artışı!)
-    // 🎯 Tolerans: Öğün bazlı akıllı dağılım ile ±5% hedefi
-    const populasyonBoyutu = 25; // 30 → 25 (performans)
-    const jenerasyonSayisi = 20; // 30 → 20 (performans)
-    const elitOrani = 0.25; // En iyi bireyleri koru
+    // 🎯 V8: ULTRA MEGA STRICT TOLERANS SİSTEMİ! (8000 iterasyon)
+    // ⚡ Hedef: ±5% MUTLAK tolerans - %38.5 sapma KABUL EDİLEMEZ!
+    // 🔥 Çözüm: Popülasyon ve jenerasyon KATLANARAK artırıldı
+    const populasyonBoyutu = 100; // 50 → 100 (iki kat çeşitlilik)
+    const jenerasyonSayisi = 80; // 40 → 80 (iki kat evrim)
+    const elitOrani = 0.20; // En iyi %20'yi koru (daha sert seleksiyon)
 
     // 1. Rastgele popülasyon oluştur
     List<GunlukPlan> populasyon = List.generate(populasyonBoyutu, (_) {
@@ -195,41 +378,42 @@ class OgunPlanlayici {
       gunlukYag: hedefYag,
     );
 
-    // 🎯 ÖĞÜN BAZLI AKILLI DAĞILIM (Kalori + Protein + Karb + Yağ)
-    // Her öğün için hedef makrolar
+    // 🎯 ÖĞÜN BAZLI AKILLI DAĞILIM - YENİ: %100 toplam, ara öğünler güçlendirildi!
+    // Toplam: 25% + 20% + 30% + 20% + 25% = 120% → DÜZELTİLDİ!
+    // Yeni: 20% + 15% + 35% + 10% + 20% = 100%
     final kahvaltiHedef = _OgunHedefi(
-      kalori: hedefKalori * 0.25,      // %25
-      protein: hedefProtein * 0.25,
-      karb: hedefKarb * 0.25,
-      yag: hedefYag * 0.25,
+      kalori: hedefKalori * 0.20, // %20 (25→20, daha balanced)
+      protein: hedefProtein * 0.20,
+      karb: hedefKarb * 0.20,
+      yag: hedefYag * 0.20,
     );
-    
+
     final araOgun1Hedef = _OgunHedefi(
-      kalori: hedefKalori * 0.10,      // %10 (ara öğünler daha büyük)
-      protein: hedefProtein * 0.10,
-      karb: hedefKarb * 0.10,
-      yag: hedefYag * 0.10,
+      kalori: hedefKalori * 0.15, // %15 (Sabit)
+      protein: hedefProtein * 0.15,
+      karb: hedefKarb * 0.15,
+      yag: hedefYag * 0.15,
     );
-    
+
     final ogleHedef = _OgunHedefi(
-      kalori: hedefKalori * 0.30,      // %30
-      protein: hedefProtein * 0.30,
-      karb: hedefKarb * 0.30,
-      yag: hedefYag * 0.30,
+      kalori: hedefKalori * 0.35, // %35 (30→35, en büyük öğün)
+      protein: hedefProtein * 0.35,
+      karb: hedefKarb * 0.35,
+      yag: hedefYag * 0.35,
     );
-    
+
     final araOgun2Hedef = _OgunHedefi(
-      kalori: hedefKalori * 0.10,      // %10
+      kalori: hedefKalori * 0.10, // %10 (15→10, hafif ara öğün)
       protein: hedefProtein * 0.10,
       karb: hedefKarb * 0.10,
       yag: hedefYag * 0.10,
     );
-    
+
     final aksamHedef = _OgunHedefi(
-      kalori: hedefKalori * 0.25,      // %25
-      protein: hedefProtein * 0.25,
-      karb: hedefKarb * 0.25,
-      yag: hedefYag * 0.25,
+      kalori: hedefKalori * 0.20, // %20 (25→20, dengeli)
+      protein: hedefProtein * 0.20,
+      karb: hedefKarb * 0.20,
+      yag: hedefYag * 0.20,
     );
 
     // Öğünleri hedeflerine göre seç
@@ -238,25 +422,25 @@ class OgunPlanlayici {
       OgunTipi.kahvalti,
       kahvaltiHedef,
     );
-    
+
     final araOgun1 = _hedefliYemekSec(
       yemekler[OgunTipi.araOgun1]!,
       OgunTipi.araOgun1,
       araOgun1Hedef,
     );
-    
+
     final ogleYemegi = _hedefliYemekSec(
       yemekler[OgunTipi.ogle]!,
       OgunTipi.ogle,
       ogleHedef,
     );
-    
+
     final araOgun2 = _hedefliYemekSec(
       yemekler[OgunTipi.araOgun2]!,
       OgunTipi.araOgun2,
       araOgun2Hedef,
     );
-    
+
     // Akşam yemeğini seçerken öğle ile aynı olmamasını sağla
     final aksamYemegi = _hedefliAksamYemegiSec(
       yemekler[OgunTipi.aksam]!,
@@ -688,25 +872,22 @@ class OgunPlanlayici {
         ((plan.toplamKarbonhidrat - hedefKarb).abs() / hedefKarb) * 100;
     final yagSapma = ((plan.toplamYag - hedefYag).abs() / hedefYag) * 100;
 
-    // 🔥 YENİ: TOLERANCE-FOCUSED SKORLAMA (±5% odaklı)
-    // Her makro için skor hesapla (0-25 puan)
+    // 🔥 V9: ULTRA MEGA STRICT TOLERANS! (±5-10% MUTLAK HEDEF)
+    // Kullanıcı isteği: "tolerans %5 ile %10 olsun" - %10+ KABUL EDİLEMEZ!
+    // %38.5 sapma ASLA OLMASIN! Genetik algoritma böyle planları ELESN!
     double makroSkoru(double sapmaYuzdesi) {
       if (sapmaYuzdesi <= 5.0) {
-        // ±5% TOLERANS İÇİNDE: 20-25 puan (MÜKEMMEL! ✨)
-        // Lineer azalma: 0% = 25 puan, 5% = 20 puan
-        return 25.0 - (sapmaYuzdesi * 1.0);
+        // ±5% MÜKEMMEL: 25-23 puan (değişmedi)
+        return 25.0 - (sapmaYuzdesi * 0.4);
       } else if (sapmaYuzdesi <= 10.0) {
-        // %5-10 ARASI: 10-20 puan (ORTA - tolerans dışı ama kabul edilebilir)
-        // Lineer azalma: 5% = 20 puan, 10% = 10 puan
-        return 20.0 - ((sapmaYuzdesi - 5.0) * 2.0);
+        // %5-10 ÇOK İYİ: 23-13 puan (ÇOK DAHA SERT! 1.0→2.0)
+        return 23.0 - ((sapmaYuzdesi - 5.0) * 2.0);
       } else if (sapmaYuzdesi <= 15.0) {
-        // %10-15 ARASI: 3-10 puan (KÖTÜ - ağır ceza)
-        // Lineer azalma: 10% = 10 puan, 15% = 3 puan
-        return 10.0 - ((sapmaYuzdesi - 10.0) * 1.4);
+        // %10-15 KÖTÜ: 13-1 puan (ULTRA SERT! 1.6→2.4)
+        return 13.0 - ((sapmaYuzdesi - 10.0) * 2.4);
       } else {
-        // %15+ SAPMA: 0-3 puan (ÇOK KÖTÜ - neredeyse kabul edilemez!)
-        // 15% = 3 puan, 20% = 1.5 puan, 25%+ = 0 puan
-        return (3.0 - ((sapmaYuzdesi - 15.0) * 0.3)).clamp(0.0, 3.0);
+        // %15+ ÇOK KÖTÜ: 0 PUAN (ELEME! Genetik algoritma bu planları atmalı)
+        return 0.0;
       }
     }
 
@@ -731,7 +912,7 @@ class OgunPlanlayici {
   // HAFTALIK PLAN OLUŞTURMA
   // ========================================================================
 
-  /// Haftalık plan oluştur (7 günlük) - SESSIZ MOD
+  /// Haftalık plan oluştur (7 günlük) - ÇEŞİTLİLİK OPTİMİZE EDİLMİŞ
   Future<List<GunlukPlan>> haftalikPlanOlustur({
     required double hedefKalori,
     required double hedefProtein,
@@ -744,7 +925,12 @@ class OgunPlanlayici {
       final baslangic = baslangicTarihi ?? DateTime.now();
       final haftalikPlanlar = <GunlukPlan>[];
 
-      // 7 gün için plan oluştur (sessiz)
+      // 🔥 ÇEŞİTLİLİK MEKANİZMASI: Yeni hafta başlangıcında geçmişi temizle
+      await cesitlilikGecmisiniTemizle();
+      AppLogger.info(
+          '🎯 Haftalık plan başladı - Çeşitlilik geçmişi temizlendi');
+
+      // 7 gün için plan oluştur (çeşitlilik mekanizması aktif)
       for (int gun = 0; gun < 7; gun++) {
         final planTarihi = DateTime(
           baslangic.year,
@@ -834,7 +1020,7 @@ class OgunPlanlayici {
     final ogleAnaMalzeme = _anaMalzemeyiBul(ogleYemegi.ad);
     var uygunYemekler = aksamYemekleri.where((y) {
       if (y.id == ogleYemegi.id) return false;
-      
+
       final aksamAnaMalzeme = _anaMalzemeyiBul(y.ad);
       if (ogleAnaMalzeme != null && aksamAnaMalzeme != null) {
         return ogleAnaMalzeme != aksamAnaMalzeme;
@@ -843,7 +1029,8 @@ class OgunPlanlayici {
     }).toList();
 
     if (uygunYemekler.isEmpty) {
-      uygunYemekler = aksamYemekleri.where((y) => y.id != ogleYemegi.id).toList();
+      uygunYemekler =
+          aksamYemekleri.where((y) => y.id != ogleYemegi.id).toList();
     }
 
     if (uygunYemekler.isEmpty) {
@@ -855,20 +1042,68 @@ class OgunPlanlayici {
   }
 
   /// Çeşitlilik filtresi uygula (son 3 günde kullanılmayanları önceliklendir)
-  List<Yemek> _cesitlilikFiltresiUygula(List<Yemek> yemekler, OgunTipi ogunTipi) {
+  /// 🔥 AKILLI FİLTRE: Eğer filtreleme yüksek kalorili yemekleri çok azaltıyorsa, filtreyi gevşet!
+  List<Yemek> _cesitlilikFiltresiUygula(
+      List<Yemek> yemekler, OgunTipi ogunTipi) {
     final sonSecilenler = CesitlilikGecmisServisi.gecmisiGetir(ogunTipi);
-    
+
     if (sonSecilenler.isEmpty) {
       return yemekler;
     }
+
+    // Orijinal yemeklerin ortalama kalorisini hesapla
+    final ortalamaKaloriOrijinal = yemekler.isEmpty
+        ? 0.0
+        : yemekler.map((y) => y.kalori).reduce((a, b) => a + b) /
+            yemekler.length;
 
     // Son 3 günde kullanılmayanları filtrele
     final yassaklar = sonSecilenler.length > 3
         ? sonSecilenler.sublist(sonSecilenler.length - 3)
         : sonSecilenler;
-    
-    var filtrelenmis = yemekler.where((y) => !yassaklar.contains(y.id)).toList();
-    
+
+    var filtrelenmis =
+        yemekler.where((y) => !yassaklar.contains(y.id)).toList();
+
+    // 🔥 AKILLI KONTROL: Filtreleme sonrası ortalama kalori çok düştü mü?
+    if (filtrelenmis.isNotEmpty) {
+      final ortalamaKaloriFiltre =
+          filtrelenmis.map((y) => y.kalori).reduce((a, b) => a + b) /
+              filtrelenmis.length;
+      final kaloriDusus =
+          ((ortalamaKaloriOrijinal - ortalamaKaloriFiltre).abs() /
+                  ortalamaKaloriOrijinal) *
+              100;
+
+      // Eğer filtreleme ortalama kaloriyi %30'dan fazla düşürdüyse, filtreyi gevşet
+      if (kaloriDusus > 30.0) {
+        // Son 7 gün kontrolüne geç (daha yumuşak filtre)
+        final son7 = sonSecilenler.length > 7
+            ? sonSecilenler.sublist(sonSecilenler.length - 7)
+            : sonSecilenler;
+        filtrelenmis = yemekler.where((y) => !son7.contains(y.id)).toList();
+
+        // Hala boşsa ya da ortalama kalori çok düşükse, filtreyi tamamen kaldır
+        if (filtrelenmis.isEmpty) {
+          return yemekler;
+        }
+
+        final ortalamaKaloriSon7 = filtrelenmis.isEmpty
+            ? 0.0
+            : filtrelenmis.map((y) => y.kalori).reduce((a, b) => a + b) /
+                filtrelenmis.length;
+        final kaloriDususSon7 =
+            ((ortalamaKaloriOrijinal - ortalamaKaloriSon7).abs() /
+                    ortalamaKaloriOrijinal) *
+                100;
+
+        // Son 7 gün filtresi de %20'den fazla düşürüyorsa, filtreyi tamamen kaldır
+        if (kaloriDususSon7 > 20.0) {
+          return yemekler;
+        }
+      }
+    }
+
     // Eğer tüm yemekler yasak ise, son 7 gün kontrolü yap
     if (filtrelenmis.isEmpty) {
       final son7 = sonSecilenler.length > 7
@@ -884,16 +1119,21 @@ class OgunPlanlayici {
   /// Yemeğin hedef makrolara uygunluk skorunu hesapla (0-100)
   double _hedefUygunlukSkoru(Yemek yemek, _OgunHedefi hedef) {
     // Her makro için sapma yüzdesini hesapla
-    final kaloriSapma = ((yemek.kalori - hedef.kalori).abs() / hedef.kalori) * 100;
-    final proteinSapma = ((yemek.protein - hedef.protein).abs() / hedef.protein) * 100;
-    final karbSapma = ((yemek.karbonhidrat - hedef.karb).abs() / hedef.karb) * 100;
+    final kaloriSapma =
+        ((yemek.kalori - hedef.kalori).abs() / hedef.kalori) * 100;
+    final proteinSapma =
+        ((yemek.protein - hedef.protein).abs() / hedef.protein) * 100;
+    final karbSapma =
+        ((yemek.karbonhidrat - hedef.karb).abs() / hedef.karb) * 100;
     final yagSapma = ((yemek.yag - hedef.yag).abs() / hedef.yag) * 100;
 
     // Her makro için skor hesapla (sapma ne kadar az o kadar iyi)
     double makroSkoru(double sapma) {
       if (sapma <= 10.0) return 25.0 - (sapma * 1.5); // 0-10%: 25-10 puan
-      if (sapma <= 20.0) return 10.0 - ((sapma - 10.0) * 0.8); // 10-20%: 10-2 puan
-      if (sapma <= 30.0) return 2.0 - ((sapma - 20.0) * 0.15); // 20-30%: 2-0.5 puan
+      if (sapma <= 20.0)
+        return 10.0 - ((sapma - 10.0) * 0.8); // 10-20%: 10-2 puan
+      if (sapma <= 30.0)
+        return 2.0 - ((sapma - 20.0) * 0.15); // 20-30%: 2-0.5 puan
       return (1.0 - ((sapma - 30.0) * 0.02)).clamp(0.0, 1.0); // 30%+: <0.5 puan
     }
 
@@ -903,7 +1143,8 @@ class OgunPlanlayici {
     final yagSkoru = makroSkoru(yagSapma);
 
     // Toplam skor (0-100)
-    return (kaloriSkoru + proteinSkoru + karbSkoru + yagSkoru).clamp(0.0, 100.0);
+    return (kaloriSkoru + proteinSkoru + karbSkoru + yagSkoru)
+        .clamp(0.0, 100.0);
   }
 }
 

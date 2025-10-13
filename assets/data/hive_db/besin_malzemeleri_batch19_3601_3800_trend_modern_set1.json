@@ -1,0 +1,4105 @@
+[
+  {
+    "id": "BESIN-3601",
+    "ad": "Whey Protein (concentrate)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 78.0,
+    "karbonhidrat100g": 8.0,
+    "yag100g": 6.0,
+    "kalori100g": 395,
+    "fiyat100g": 20.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3633",
+      "BESIN-3797"
+    ]
+  },
+  {
+    "id": "BESIN-3602",
+    "ad": "Whey Protein (isolate)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 88.0,
+    "karbonhidrat100g": 3.0,
+    "yag100g": 2.0,
+    "kalori100g": 380,
+    "fiyat100g": 28.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3705",
+      "BESIN-3723"
+    ]
+  },
+  {
+    "id": "BESIN-3603",
+    "ad": "Casein Protein",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 77.0,
+    "karbonhidrat100g": 7.0,
+    "yag100g": 5.0,
+    "kalori100g": 370,
+    "fiyat100g": 24.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3695",
+      "BESIN-3739",
+      "BESIN-3601"
+    ]
+  },
+  {
+    "id": "BESIN-3604",
+    "ad": "Vegan Protein (bezelye + pirinç)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 72.0,
+    "karbonhidrat100g": 8.0,
+    "yag100g": 6.0,
+    "kalori100g": 380,
+    "fiyat100g": 22.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3739",
+      "BESIN-3800",
+      "BESIN-3777"
+    ]
+  },
+  {
+    "id": "BESIN-3605",
+    "ad": "Kollajen Peptit",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 92.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 368,
+    "fiyat100g": 30.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3698",
+      "BESIN-3660",
+      "BESIN-3646"
+    ]
+  },
+  {
+    "id": "BESIN-3606",
+    "ad": "Yumurta Akı Tozu",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 85.0,
+    "karbonhidrat100g": 5.0,
+    "yag100g": 0.5,
+    "kalori100g": 380,
+    "fiyat100g": 26.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3792",
+      "BESIN-3696"
+    ]
+  },
+  {
+    "id": "BESIN-3607",
+    "ad": "Chia Tohumu (trend)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.0,
+    "karbonhidrat100g": 42.0,
+    "yag100g": 31.0,
+    "kalori100g": 486,
+    "fiyat100g": 9.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3781",
+      "BESIN-3703",
+      "BESIN-3635"
+    ]
+  },
+  {
+    "id": "BESIN-3608",
+    "ad": "Keten Tohumu (öğütülmüş)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.0,
+    "karbonhidrat100g": 29.0,
+    "yag100g": 42.0,
+    "kalori100g": 534,
+    "fiyat100g": 5.0,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3732",
+      "BESIN-3693",
+      "BESIN-3673"
+    ]
+  },
+  {
+    "id": "BESIN-3609",
+    "ad": "Kinoa (kuru)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 14.0,
+    "karbonhidrat100g": 64.0,
+    "yag100g": 6.0,
+    "kalori100g": 368,
+    "fiyat100g": 7.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3644",
+      "BESIN-3789",
+      "BESIN-3610"
+    ]
+  },
+  {
+    "id": "BESIN-3610",
+    "ad": "Karabuğday (kuru)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.0,
+    "karbonhidrat100g": 72.0,
+    "yag100g": 3.4,
+    "kalori100g": 343,
+    "fiyat100g": 5.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3627",
+      "BESIN-3680",
+      "BESIN-3757"
+    ]
+  },
+  {
+    "id": "BESIN-3611",
+    "ad": "Amarant (kuru)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 14.0,
+    "karbonhidrat100g": 65.0,
+    "yag100g": 7.0,
+    "kalori100g": 371,
+    "fiyat100g": 7.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3744",
+      "BESIN-3789",
+      "BESIN-3671"
+    ]
+  },
+  {
+    "id": "BESIN-3612",
+    "ad": "Teff (kuru)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.0,
+    "karbonhidrat100g": 73.0,
+    "yag100g": 2.0,
+    "kalori100g": 367,
+    "fiyat100g": 8.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3684",
+      "BESIN-3610"
+    ]
+  },
+  {
+    "id": "BESIN-3613",
+    "ad": "Spirulina Tozu",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 57.0,
+    "karbonhidrat100g": 24.0,
+    "yag100g": 8.0,
+    "kalori100g": 290,
+    "fiyat100g": 35.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3777",
+      "BESIN-3647",
+      "BESIN-3739"
+    ]
+  },
+  {
+    "id": "BESIN-3614",
+    "ad": "Matcha Tozu (şekersiz)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.0,
+    "karbonhidrat100g": 40.0,
+    "yag100g": 5.0,
+    "kalori100g": 324,
+    "fiyat100g": 40.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3694",
+      "BESIN-3630",
+      "BESIN-3667"
+    ]
+  },
+  {
+    "id": "BESIN-3615",
+    "ad": "Kakao Tozu (şekersiz)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.0,
+    "karbonhidrat100g": 50.0,
+    "yag100g": 13.0,
+    "kalori100g": 400,
+    "fiyat100g": 12.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3651",
+      "BESIN-3740",
+      "BESIN-3616"
+    ]
+  },
+  {
+    "id": "BESIN-3616",
+    "ad": "Maltodekstrin Tozu",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 95.0,
+    "yag100g": 0.0,
+    "kalori100g": 380,
+    "fiyat100g": 6.0,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3611",
+      "BESIN-3612",
+      "BESIN-3643"
+    ]
+  },
+  {
+    "id": "BESIN-3617",
+    "ad": "Dextroz Tozu",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 95.0,
+    "yag100g": 0.0,
+    "kalori100g": 380,
+    "fiyat100g": 6.0,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3768",
+      "BESIN-3634",
+      "BESIN-3710"
+    ]
+  },
+  {
+    "id": "BESIN-3618",
+    "ad": "Badem Sütü (proteinli)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.5,
+    "karbonhidrat100g": 2.0,
+    "yag100g": 1.5,
+    "kalori100g": 35,
+    "fiyat100g": 4.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3662",
+      "BESIN-3755"
+    ]
+  },
+  {
+    "id": "BESIN-3619",
+    "ad": "Yulaf Sütü (proteinli)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 3.0,
+    "karbonhidrat100g": 6.0,
+    "yag100g": 1.5,
+    "kalori100g": 50,
+    "fiyat100g": 3.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3662",
+      "BESIN-3704"
+    ]
+  },
+  {
+    "id": "BESIN-3620",
+    "ad": "Soya Sütü (proteinli)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.0,
+    "karbonhidrat100g": 3.0,
+    "yag100g": 1.8,
+    "kalori100g": 45,
+    "fiyat100g": 3.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3629",
+      "BESIN-3665"
+    ]
+  },
+  {
+    "id": "BESIN-3621",
+    "ad": "Kreatin Monohidrat (toz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0,
+    "fiyat100g": 25.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3745",
+      "BESIN-3797",
+      "BESIN-3646"
+    ]
+  },
+  {
+    "id": "BESIN-3622",
+    "ad": "Beta-Alanin (toz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0,
+    "fiyat100g": 22.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3735",
+      "BESIN-3726"
+    ]
+  },
+  {
+    "id": "BESIN-3623",
+    "ad": "Kafein Tozu",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0,
+    "fiyat100g": 30.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3719",
+      "BESIN-3698"
+    ]
+  },
+  {
+    "id": "BESIN-3624",
+    "ad": "Elektrolit Karışımı (şekersiz)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 1.0,
+    "yag100g": 0.0,
+    "kalori100g": 4,
+    "fiyat100g": 15.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3694",
+      "BESIN-3609"
+    ]
+  },
+  {
+    "id": "BESIN-3625",
+    "ad": "Teff (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.26,
+    "karbonhidrat100g": 68.66,
+    "yag100g": 2.04,
+    "kalori100g": 372.0,
+    "fiyat100g": 8.17,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3630",
+      "BESIN-3617"
+    ]
+  },
+  {
+    "id": "BESIN-3626",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.12,
+    "karbonhidrat100g": 30.49,
+    "yag100g": 43.9,
+    "kalori100g": 551.5,
+    "fiyat100g": 4.82,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3795",
+      "BESIN-3730",
+      "BESIN-3732"
+    ]
+  },
+  {
+    "id": "BESIN-3627",
+    "ad": "Elektrolit Karışımı (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.98,
+    "yag100g": 0.0,
+    "kalori100g": 4.2,
+    "fiyat100g": 14.15,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3611",
+      "BESIN-3661",
+      "BESIN-3709"
+    ]
+  },
+  {
+    "id": "BESIN-3628",
+    "ad": "Elektrolit Karışımı (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.99,
+    "yag100g": 0.0,
+    "kalori100g": 3.9,
+    "fiyat100g": 14.96,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3709",
+      "BESIN-3685",
+      "BESIN-3642"
+    ]
+  },
+  {
+    "id": "BESIN-3629",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.0,
+    "karbonhidrat100g": 3.03,
+    "yag100g": 1.9,
+    "kalori100g": 42.9,
+    "fiyat100g": 2.89,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3754",
+      "BESIN-3683",
+      "BESIN-3640"
+    ]
+  },
+  {
+    "id": "BESIN-3630",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.75,
+    "karbonhidrat100g": 71.12,
+    "yag100g": 3.37,
+    "kalori100g": 342.4,
+    "fiyat100g": 5.51,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3616",
+      "BESIN-3663"
+    ]
+  },
+  {
+    "id": "BESIN-3631",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.83,
+    "karbonhidrat100g": 27.97,
+    "yag100g": 41.91,
+    "kalori100g": 533.4,
+    "fiyat100g": 5.01,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3784",
+      "BESIN-3626",
+      "BESIN-3673"
+    ]
+  },
+  {
+    "id": "BESIN-3632",
+    "ad": "Beta-Alanin (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 21.71,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3722",
+      "BESIN-3736",
+      "BESIN-3724"
+    ]
+  },
+  {
+    "id": "BESIN-3633",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 75.96,
+    "karbonhidrat100g": 8.37,
+    "yag100g": 6.23,
+    "kalori100g": 366.1,
+    "fiyat100g": 23.11,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3796",
+      "BESIN-3646",
+      "BESIN-3621"
+    ]
+  },
+  {
+    "id": "BESIN-3634",
+    "ad": "Dextroz Tozu (premium)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 90.07,
+    "yag100g": 0.0,
+    "kalori100g": 392.9,
+    "fiyat100g": 6.23,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3609",
+      "BESIN-3740"
+    ]
+  },
+  {
+    "id": "BESIN-3635",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.32,
+    "karbonhidrat100g": 29.16,
+    "yag100g": 43.17,
+    "kalori100g": 553.8,
+    "fiyat100g": 5.14,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3693",
+      "BESIN-3649",
+      "BESIN-3608"
+    ]
+  },
+  {
+    "id": "BESIN-3636",
+    "ad": "Dextroz Tozu (yerli)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 91.27,
+    "yag100g": 0.0,
+    "kalori100g": 395.3,
+    "fiyat100g": 6.11,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3727",
+      "BESIN-3616"
+    ]
+  },
+  {
+    "id": "BESIN-3637",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 25.74,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3633",
+      "BESIN-3666"
+    ]
+  },
+  {
+    "id": "BESIN-3638",
+    "ad": "Kafein Tozu (isolate)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 28.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3719",
+      "BESIN-3650",
+      "BESIN-3758"
+    ]
+  },
+  {
+    "id": "BESIN-3639",
+    "ad": "Yumurta Akı Tozu (organik)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 86.14,
+    "karbonhidrat100g": 4.87,
+    "yag100g": 0.49,
+    "kalori100g": 378.3,
+    "fiyat100g": 27.39,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3787",
+      "BESIN-3695",
+      "BESIN-3696"
+    ]
+  },
+  {
+    "id": "BESIN-3640",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.55,
+    "karbonhidrat100g": 1.99,
+    "yag100g": 1.48,
+    "kalori100g": 35.2,
+    "fiyat100g": 3.85,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3762",
+      "BESIN-3664"
+    ]
+  },
+  {
+    "id": "BESIN-3641",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 82.45,
+    "karbonhidrat100g": 8.32,
+    "yag100g": 5.78,
+    "kalori100g": 397.1,
+    "fiyat100g": 20.97,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3741",
+      "BESIN-3735",
+      "BESIN-3736"
+    ]
+  },
+  {
+    "id": "BESIN-3642",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.96,
+    "karbonhidrat100g": 51.11,
+    "yag100g": 13.42,
+    "kalori100g": 412.4,
+    "fiyat100g": 12.22,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3684",
+      "BESIN-3767",
+      "BESIN-3729"
+    ]
+  },
+  {
+    "id": "BESIN-3643",
+    "ad": "Maltodekstrin Tozu (premium)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 100.25,
+    "yag100g": 0.0,
+    "kalori100g": 373.3,
+    "fiyat100g": 6.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3727",
+      "BESIN-3615",
+      "BESIN-3667"
+    ]
+  },
+  {
+    "id": "BESIN-3644",
+    "ad": "Dextroz Tozu (organik)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 91.69,
+    "yag100g": 0.0,
+    "kalori100g": 357.8,
+    "fiyat100g": 6.03,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3793",
+      "BESIN-3609"
+    ]
+  },
+  {
+    "id": "BESIN-3645",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 74.88,
+    "karbonhidrat100g": 7.69,
+    "yag100g": 6.12,
+    "kalori100g": 382.3,
+    "fiyat100g": 23.1,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3751",
+      "BESIN-3647",
+      "BESIN-3779"
+    ]
+  },
+  {
+    "id": "BESIN-3646",
+    "ad": "Spirulina Tozu (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 57.6,
+    "karbonhidrat100g": 22.95,
+    "yag100g": 7.64,
+    "kalori100g": 305.2,
+    "fiyat100g": 35.91,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3779",
+      "BESIN-3713"
+    ]
+  },
+  {
+    "id": "BESIN-3647",
+    "ad": "Spirulina Tozu (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 56.9,
+    "karbonhidrat100g": 23.75,
+    "yag100g": 7.71,
+    "kalori100g": 286.6,
+    "fiyat100g": 34.93,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3721",
+      "BESIN-3800"
+    ]
+  },
+  {
+    "id": "BESIN-3648",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.41,
+    "karbonhidrat100g": 1.97,
+    "yag100g": 1.42,
+    "kalori100g": 35.2,
+    "fiyat100g": 4.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3664",
+      "BESIN-3618",
+      "BESIN-3619"
+    ]
+  },
+  {
+    "id": "BESIN-3649",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.24,
+    "karbonhidrat100g": 30.47,
+    "yag100g": 40.12,
+    "kalori100g": 507.9,
+    "fiyat100g": 5.24,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3607",
+      "BESIN-3608",
+      "BESIN-3784"
+    ]
+  },
+  {
+    "id": "BESIN-3650",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 24.71,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3800",
+      "BESIN-3775"
+    ]
+  },
+  {
+    "id": "BESIN-3651",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.48,
+    "karbonhidrat100g": 51.42,
+    "yag100g": 13.12,
+    "kalori100g": 411.0,
+    "fiyat100g": 12.14,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3785",
+      "BESIN-3790",
+      "BESIN-3627"
+    ]
+  },
+  {
+    "id": "BESIN-3652",
+    "ad": "Kafein Tozu (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 29.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3697",
+      "BESIN-3604",
+      "BESIN-3645"
+    ]
+  },
+  {
+    "id": "BESIN-3653",
+    "ad": "Matcha Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.89,
+    "karbonhidrat100g": 39.15,
+    "yag100g": 5.17,
+    "kalori100g": 340.9,
+    "fiyat100g": 39.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3793",
+      "BESIN-3614"
+    ]
+  },
+  {
+    "id": "BESIN-3654",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.21,
+    "karbonhidrat100g": 2.97,
+    "yag100g": 1.89,
+    "kalori100g": 44.6,
+    "fiyat100g": 2.89,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3692",
+      "BESIN-3665",
+      "BESIN-3755"
+    ]
+  },
+  {
+    "id": "BESIN-3655",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 23.64,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3741",
+      "BESIN-3721",
+      "BESIN-3726"
+    ]
+  },
+  {
+    "id": "BESIN-3656",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 3.92,
+    "karbonhidrat100g": 3.04,
+    "yag100g": 1.71,
+    "kalori100g": 45.4,
+    "fiyat100g": 3.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3664",
+      "BESIN-3686"
+    ]
+  },
+  {
+    "id": "BESIN-3657",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.83,
+    "karbonhidrat100g": 48.08,
+    "yag100g": 13.19,
+    "kalori100g": 421.4,
+    "fiyat100g": 12.29,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3743",
+      "BESIN-3729"
+    ]
+  },
+  {
+    "id": "BESIN-3658",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.08,
+    "karbonhidrat100g": 27.5,
+    "yag100g": 42.28,
+    "kalori100g": 515.8,
+    "fiyat100g": 5.13,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3776",
+      "BESIN-3649"
+    ]
+  },
+  {
+    "id": "BESIN-3659",
+    "ad": "Kinoa (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.59,
+    "karbonhidrat100g": 65.64,
+    "yag100g": 6.03,
+    "kalori100g": 363.5,
+    "fiyat100g": 6.79,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3790",
+      "BESIN-3657"
+    ]
+  },
+  {
+    "id": "BESIN-3660",
+    "ad": "Kafein Tozu (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 29.19,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3603",
+      "BESIN-3748"
+    ]
+  },
+  {
+    "id": "BESIN-3661",
+    "ad": "Kinoa (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.34,
+    "karbonhidrat100g": 64.02,
+    "yag100g": 5.78,
+    "kalori100g": 389.5,
+    "fiyat100g": 7.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3657",
+      "BESIN-3680"
+    ]
+  },
+  {
+    "id": "BESIN-3662",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.54,
+    "karbonhidrat100g": 1.93,
+    "yag100g": 1.56,
+    "kalori100g": 33.1,
+    "fiyat100g": 4.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3772",
+      "BESIN-3754"
+    ]
+  },
+  {
+    "id": "BESIN-3663",
+    "ad": "Matcha Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.76,
+    "karbonhidrat100g": 38.21,
+    "yag100g": 5.11,
+    "kalori100g": 307.1,
+    "fiyat100g": 38.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3744",
+      "BESIN-3750"
+    ]
+  },
+  {
+    "id": "BESIN-3664",
+    "ad": "Yulaf Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.94,
+    "karbonhidrat100g": 5.88,
+    "yag100g": 1.54,
+    "kalori100g": 50.6,
+    "fiyat100g": 3.87,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3648",
+      "BESIN-3619",
+      "BESIN-3665"
+    ]
+  },
+  {
+    "id": "BESIN-3665",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.47,
+    "karbonhidrat100g": 2.09,
+    "yag100g": 1.5,
+    "kalori100g": 34.8,
+    "fiyat100g": 4.08,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3704",
+      "BESIN-3683"
+    ]
+  },
+  {
+    "id": "BESIN-3666",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 84.91,
+    "karbonhidrat100g": 2.83,
+    "yag100g": 2.02,
+    "kalori100g": 384.8,
+    "fiyat100g": 28.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3713",
+      "BESIN-3752",
+      "BESIN-3745"
+    ]
+  },
+  {
+    "id": "BESIN-3667",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.12,
+    "karbonhidrat100g": 47.26,
+    "yag100g": 12.66,
+    "kalori100g": 419.7,
+    "fiyat100g": 12.47,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3651",
+      "BESIN-3644"
+    ]
+  },
+  {
+    "id": "BESIN-3668",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.37,
+    "karbonhidrat100g": 1.9,
+    "yag100g": 1.5,
+    "kalori100g": 34.2,
+    "fiyat100g": 3.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3686",
+      "BESIN-3629"
+    ]
+  },
+  {
+    "id": "BESIN-3669",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.21,
+    "karbonhidrat100g": 52.06,
+    "yag100g": 12.47,
+    "kalori100g": 408.5,
+    "fiyat100g": 11.49,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3625",
+      "BESIN-3642",
+      "BESIN-3685"
+    ]
+  },
+  {
+    "id": "BESIN-3670",
+    "ad": "Casein Protein (organik)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 78.13,
+    "karbonhidrat100g": 6.7,
+    "yag100g": 4.85,
+    "kalori100g": 368.2,
+    "fiyat100g": 24.64,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3759",
+      "BESIN-3666",
+      "BESIN-3713"
+    ]
+  },
+  {
+    "id": "BESIN-3671",
+    "ad": "Matcha Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.57,
+    "karbonhidrat100g": 37.68,
+    "yag100g": 5.08,
+    "kalori100g": 329.8,
+    "fiyat100g": 39.93,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3653",
+      "BESIN-3659"
+    ]
+  },
+  {
+    "id": "BESIN-3672",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.69,
+    "karbonhidrat100g": 71.79,
+    "yag100g": 3.25,
+    "kalori100g": 343.4,
+    "fiyat100g": 5.4,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3627",
+      "BESIN-3694",
+      "BESIN-3661"
+    ]
+  },
+  {
+    "id": "BESIN-3673",
+    "ad": "Chia Tohumu (trend) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 16.13,
+    "karbonhidrat100g": 39.68,
+    "yag100g": 31.51,
+    "kalori100g": 457.6,
+    "fiyat100g": 8.67,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3649",
+      "BESIN-3784"
+    ]
+  },
+  {
+    "id": "BESIN-3674",
+    "ad": "Matcha Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.54,
+    "karbonhidrat100g": 37.95,
+    "yag100g": 4.71,
+    "kalori100g": 339.1,
+    "fiyat100g": 41.55,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3765",
+      "BESIN-3720"
+    ]
+  },
+  {
+    "id": "BESIN-3675",
+    "ad": "Beta-Alanin (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 23.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3637",
+      "BESIN-3650",
+      "BESIN-3734"
+    ]
+  },
+  {
+    "id": "BESIN-3676",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 25.79,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3714",
+      "BESIN-3746",
+      "BESIN-3799"
+    ]
+  },
+  {
+    "id": "BESIN-3677",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 25.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3604",
+      "BESIN-3734",
+      "BESIN-3688"
+    ]
+  },
+  {
+    "id": "BESIN-3678",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 81.02,
+    "karbonhidrat100g": 7.53,
+    "yag100g": 5.77,
+    "kalori100g": 378.3,
+    "fiyat100g": 19.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3752",
+      "BESIN-3775"
+    ]
+  },
+  {
+    "id": "BESIN-3679",
+    "ad": "Matcha Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.36,
+    "karbonhidrat100g": 39.26,
+    "yag100g": 4.92,
+    "kalori100g": 341.5,
+    "fiyat100g": 38.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3694",
+      "BESIN-3617",
+      "BESIN-3771"
+    ]
+  },
+  {
+    "id": "BESIN-3680",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.99,
+    "karbonhidrat100g": 67.42,
+    "yag100g": 7.11,
+    "kalori100g": 350.3,
+    "fiyat100g": 7.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3694",
+      "BESIN-3742"
+    ]
+  },
+  {
+    "id": "BESIN-3681",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.97,
+    "karbonhidrat100g": 50.33,
+    "yag100g": 12.39,
+    "kalori100g": 394.9,
+    "fiyat100g": 11.56,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3742",
+      "BESIN-3757",
+      "BESIN-3661"
+    ]
+  },
+  {
+    "id": "BESIN-3682",
+    "ad": "Yulaf Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.91,
+    "karbonhidrat100g": 6.35,
+    "yag100g": 1.59,
+    "kalori100g": 49.9,
+    "fiyat100g": 3.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3618",
+      "BESIN-3686",
+      "BESIN-3668"
+    ]
+  },
+  {
+    "id": "BESIN-3683",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.4,
+    "karbonhidrat100g": 1.91,
+    "yag100g": 1.58,
+    "kalori100g": 32.9,
+    "fiyat100g": 4.09,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3619",
+      "BESIN-3629",
+      "BESIN-3692"
+    ]
+  },
+  {
+    "id": "BESIN-3684",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 14.83,
+    "karbonhidrat100g": 62.63,
+    "yag100g": 7.23,
+    "kalori100g": 370.8,
+    "fiyat100g": 7.41,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3718",
+      "BESIN-3742",
+      "BESIN-3661"
+    ]
+  },
+  {
+    "id": "BESIN-3685",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.38,
+    "karbonhidrat100g": 49.04,
+    "yag100g": 12.23,
+    "kalori100g": 410.8,
+    "fiyat100g": 11.65,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3669",
+      "BESIN-3680",
+      "BESIN-3785"
+    ]
+  },
+  {
+    "id": "BESIN-3686",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.04,
+    "karbonhidrat100g": 3.16,
+    "yag100g": 1.82,
+    "kalori100g": 44.2,
+    "fiyat100g": 3.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3640",
+      "BESIN-3762",
+      "BESIN-3668"
+    ]
+  },
+  {
+    "id": "BESIN-3687",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 25.4,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3697",
+      "BESIN-3759",
+      "BESIN-3698"
+    ]
+  },
+  {
+    "id": "BESIN-3688",
+    "ad": "Spirulina Tozu (glutensiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 59.5,
+    "karbonhidrat100g": 22.9,
+    "yag100g": 7.6,
+    "kalori100g": 299.2,
+    "fiyat100g": 36.6,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3733",
+      "BESIN-3796",
+      "BESIN-3751"
+    ]
+  },
+  {
+    "id": "BESIN-3689",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.64,
+    "karbonhidrat100g": 66.24,
+    "yag100g": 7.37,
+    "kalori100g": 361.5,
+    "fiyat100g": 6.63,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3729",
+      "BESIN-3780",
+      "BESIN-3701"
+    ]
+  },
+  {
+    "id": "BESIN-3690",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 24.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3697",
+      "BESIN-3601"
+    ]
+  },
+  {
+    "id": "BESIN-3691",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 87.86,
+    "karbonhidrat100g": 2.84,
+    "yag100g": 1.95,
+    "kalori100g": 366.8,
+    "fiyat100g": 28.92,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3733",
+      "BESIN-3751",
+      "BESIN-3774"
+    ]
+  },
+  {
+    "id": "BESIN-3692",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.15,
+    "karbonhidrat100g": 3.15,
+    "yag100g": 1.8,
+    "kalori100g": 43.4,
+    "fiyat100g": 3.05,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3755",
+      "BESIN-3629"
+    ]
+  },
+  {
+    "id": "BESIN-3693",
+    "ad": "Chia Tohumu (trend) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 16.04,
+    "karbonhidrat100g": 43.05,
+    "yag100g": 32.83,
+    "kalori100g": 490.5,
+    "fiyat100g": 9.31,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3784",
+      "BESIN-3706"
+    ]
+  },
+  {
+    "id": "BESIN-3694",
+    "ad": "Dextroz Tozu (glutensiz)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 90.26,
+    "yag100g": 0.0,
+    "kalori100g": 382.8,
+    "fiyat100g": 6.24,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3663",
+      "BESIN-3750",
+      "BESIN-3681"
+    ]
+  },
+  {
+    "id": "BESIN-3695",
+    "ad": "Kafein Tozu (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 31.6,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3756",
+      "BESIN-3711",
+      "BESIN-3778"
+    ]
+  },
+  {
+    "id": "BESIN-3696",
+    "ad": "Spirulina Tozu (glutensiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 56.36,
+    "karbonhidrat100g": 24.29,
+    "yag100g": 8.16,
+    "kalori100g": 290.5,
+    "fiyat100g": 36.22,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3645",
+      "BESIN-3691"
+    ]
+  },
+  {
+    "id": "BESIN-3697",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 25.75,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3733",
+      "BESIN-3713"
+    ]
+  },
+  {
+    "id": "BESIN-3698",
+    "ad": "Spirulina Tozu (isolate)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 56.75,
+    "karbonhidrat100g": 23.63,
+    "yag100g": 8.31,
+    "kalori100g": 296.8,
+    "fiyat100g": 33.98,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3670",
+      "BESIN-3714"
+    ]
+  },
+  {
+    "id": "BESIN-3699",
+    "ad": "Teff (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.99,
+    "karbonhidrat100g": 71.9,
+    "yag100g": 1.89,
+    "kalori100g": 374.7,
+    "fiyat100g": 7.86,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3659",
+      "BESIN-3684",
+      "BESIN-3611"
+    ]
+  },
+  {
+    "id": "BESIN-3700",
+    "ad": "Maltodekstrin Tozu (glutensiz)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 93.6,
+    "yag100g": 0.0,
+    "kalori100g": 370.0,
+    "fiyat100g": 5.89,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3689",
+      "BESIN-3709"
+    ]
+  },
+  {
+    "id": "BESIN-3701",
+    "ad": "Elektrolit Karışımı (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.95,
+    "yag100g": 0.0,
+    "kalori100g": 4.2,
+    "fiyat100g": 15.75,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3717",
+      "BESIN-3674"
+    ]
+  },
+  {
+    "id": "BESIN-3702",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 73.81,
+    "karbonhidrat100g": 7.57,
+    "yag100g": 6.26,
+    "kalori100g": 375.0,
+    "fiyat100g": 22.19,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3690",
+      "BESIN-3646"
+    ]
+  },
+  {
+    "id": "BESIN-3703",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.44,
+    "karbonhidrat100g": 30.13,
+    "yag100g": 39.76,
+    "kalori100g": 530.8,
+    "fiyat100g": 4.92,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3764",
+      "BESIN-3784",
+      "BESIN-3649"
+    ]
+  },
+  {
+    "id": "BESIN-3704",
+    "ad": "Yulaf Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.86,
+    "karbonhidrat100g": 6.27,
+    "yag100g": 1.54,
+    "kalori100g": 47.4,
+    "fiyat100g": 3.63,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3619",
+      "BESIN-3640"
+    ]
+  },
+  {
+    "id": "BESIN-3705",
+    "ad": "Casein Protein (organik)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 77.11,
+    "karbonhidrat100g": 6.95,
+    "yag100g": 5.03,
+    "kalori100g": 384.3,
+    "fiyat100g": 24.58,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3721",
+      "BESIN-3799"
+    ]
+  },
+  {
+    "id": "BESIN-3706",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 16.93,
+    "karbonhidrat100g": 29.8,
+    "yag100g": 44.32,
+    "kalori100g": 506.0,
+    "fiyat100g": 5.23,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3784",
+      "BESIN-3730"
+    ]
+  },
+  {
+    "id": "BESIN-3707",
+    "ad": "Yumurta Akı Tozu (premium)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 81.5,
+    "karbonhidrat100g": 5.05,
+    "yag100g": 0.49,
+    "kalori100g": 361.1,
+    "fiyat100g": 26.19,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3724",
+      "BESIN-3725",
+      "BESIN-3638"
+    ]
+  },
+  {
+    "id": "BESIN-3708",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 24.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3645",
+      "BESIN-3775",
+      "BESIN-3759"
+    ]
+  },
+  {
+    "id": "BESIN-3709",
+    "ad": "Kinoa (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.23,
+    "karbonhidrat100g": 65.36,
+    "yag100g": 5.69,
+    "kalori100g": 388.0,
+    "fiyat100g": 7.38,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3701",
+      "BESIN-3765",
+      "BESIN-3742"
+    ]
+  },
+  {
+    "id": "BESIN-3710",
+    "ad": "Dextroz Tozu (isolate)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 95.22,
+    "yag100g": 0.0,
+    "kalori100g": 361.6,
+    "fiyat100g": 5.91,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3747",
+      "BESIN-3628",
+      "BESIN-3771"
+    ]
+  },
+  {
+    "id": "BESIN-3711",
+    "ad": "Spirulina Tozu (premium)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 58.16,
+    "karbonhidrat100g": 23.02,
+    "yag100g": 7.96,
+    "kalori100g": 298.0,
+    "fiyat100g": 33.75,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3746",
+      "BESIN-3725",
+      "BESIN-3752"
+    ]
+  },
+  {
+    "id": "BESIN-3712",
+    "ad": "Spirulina Tozu (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 54.75,
+    "karbonhidrat100g": 23.75,
+    "yag100g": 7.8,
+    "kalori100g": 287.7,
+    "fiyat100g": 37.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3633",
+      "BESIN-3759",
+      "BESIN-3670"
+    ]
+  },
+  {
+    "id": "BESIN-3713",
+    "ad": "Yumurta Akı Tozu (şekersiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 81.78,
+    "karbonhidrat100g": 4.97,
+    "yag100g": 0.53,
+    "kalori100g": 398.4,
+    "fiyat100g": 25.79,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3601",
+      "BESIN-3604",
+      "BESIN-3773"
+    ]
+  },
+  {
+    "id": "BESIN-3714",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 89.29,
+    "karbonhidrat100g": 2.84,
+    "yag100g": 1.96,
+    "kalori100g": 365.7,
+    "fiyat100g": 28.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3738",
+      "BESIN-3696",
+      "BESIN-3690"
+    ]
+  },
+  {
+    "id": "BESIN-3715",
+    "ad": "Dextroz Tozu (organik)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 91.78,
+    "yag100g": 0.0,
+    "kalori100g": 381.3,
+    "fiyat100g": 6.08,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3628",
+      "BESIN-3740",
+      "BESIN-3674"
+    ]
+  },
+  {
+    "id": "BESIN-3716",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 14.07,
+    "karbonhidrat100g": 65.1,
+    "yag100g": 7.21,
+    "kalori100g": 373.2,
+    "fiyat100g": 7.06,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3783",
+      "BESIN-3757"
+    ]
+  },
+  {
+    "id": "BESIN-3717",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.88,
+    "karbonhidrat100g": 72.94,
+    "yag100g": 3.27,
+    "kalori100g": 359.3,
+    "fiyat100g": 5.25,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3630",
+      "BESIN-3737"
+    ]
+  },
+  {
+    "id": "BESIN-3718",
+    "ad": "Maltodekstrin Tozu (premium)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 99.3,
+    "yag100g": 0.0,
+    "kalori100g": 392.3,
+    "fiyat100g": 6.07,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3694",
+      "BESIN-3636",
+      "BESIN-3680"
+    ]
+  },
+  {
+    "id": "BESIN-3719",
+    "ad": "Kollajen Peptit (premium)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 94.02,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 388.6,
+    "fiyat100g": 31.41,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3696",
+      "BESIN-3698"
+    ]
+  },
+  {
+    "id": "BESIN-3720",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 14.16,
+    "karbonhidrat100g": 65.8,
+    "yag100g": 7.39,
+    "kalori100g": 370.2,
+    "fiyat100g": 6.63,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3610",
+      "BESIN-3716",
+      "BESIN-3699"
+    ]
+  },
+  {
+    "id": "BESIN-3721",
+    "ad": "Kollajen Peptit (glutensiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 93.69,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 376.3,
+    "fiyat100g": 31.48,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3722",
+      "BESIN-3753"
+    ]
+  },
+  {
+    "id": "BESIN-3722",
+    "ad": "Spirulina Tozu (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 56.45,
+    "karbonhidrat100g": 24.36,
+    "yag100g": 7.85,
+    "kalori100g": 288.8,
+    "fiyat100g": 33.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3788",
+      "BESIN-3791",
+      "BESIN-3725"
+    ]
+  },
+  {
+    "id": "BESIN-3723",
+    "ad": "Kollajen Peptit (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 94.93,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 379.0,
+    "fiyat100g": 29.66,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3688",
+      "BESIN-3766",
+      "BESIN-3779"
+    ]
+  },
+  {
+    "id": "BESIN-3724",
+    "ad": "Kollajen Peptit (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 95.72,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 348.0,
+    "fiyat100g": 29.04,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3769",
+      "BESIN-3646"
+    ]
+  },
+  {
+    "id": "BESIN-3725",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 79.3,
+    "karbonhidrat100g": 8.21,
+    "yag100g": 5.7,
+    "kalori100g": 371.6,
+    "fiyat100g": 20.56,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3690",
+      "BESIN-3786"
+    ]
+  },
+  {
+    "id": "BESIN-3726",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 83.68,
+    "karbonhidrat100g": 3.08,
+    "yag100g": 1.97,
+    "kalori100g": 363.3,
+    "fiyat100g": 28.26,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3738",
+      "BESIN-3641",
+      "BESIN-3622"
+    ]
+  },
+  {
+    "id": "BESIN-3727",
+    "ad": "Kinoa (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.67,
+    "karbonhidrat100g": 67.82,
+    "yag100g": 6.18,
+    "kalori100g": 359.8,
+    "fiyat100g": 6.91,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3642",
+      "BESIN-3681"
+    ]
+  },
+  {
+    "id": "BESIN-3728",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 78.46,
+    "karbonhidrat100g": 7.68,
+    "yag100g": 6.23,
+    "kalori100g": 416.7,
+    "fiyat100g": 19.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3756",
+      "BESIN-3769"
+    ]
+  },
+  {
+    "id": "BESIN-3729",
+    "ad": "Maltodekstrin Tozu (premium)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 94.73,
+    "yag100g": 0.0,
+    "kalori100g": 358.6,
+    "fiyat100g": 5.7,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3790",
+      "BESIN-3689",
+      "BESIN-3674"
+    ]
+  },
+  {
+    "id": "BESIN-3730",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.66,
+    "karbonhidrat100g": 28.24,
+    "yag100g": 42.93,
+    "kalori100g": 502.5,
+    "fiyat100g": 4.83,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3782",
+      "BESIN-3673",
+      "BESIN-3607"
+    ]
+  },
+  {
+    "id": "BESIN-3731",
+    "ad": "Spirulina Tozu (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 57.07,
+    "karbonhidrat100g": 23.42,
+    "yag100g": 7.83,
+    "kalori100g": 288.2,
+    "fiyat100g": 36.07,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3660",
+      "BESIN-3678"
+    ]
+  },
+  {
+    "id": "BESIN-3732",
+    "ad": "Chia Tohumu (trend) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 16.65,
+    "karbonhidrat100g": 42.42,
+    "yag100g": 31.44,
+    "kalori100g": 488.8,
+    "fiyat100g": 9.15,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3635",
+      "BESIN-3626"
+    ]
+  },
+  {
+    "id": "BESIN-3733",
+    "ad": "Beta-Alanin (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 20.7,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3799",
+      "BESIN-3639",
+      "BESIN-3766"
+    ]
+  },
+  {
+    "id": "BESIN-3734",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 89.66,
+    "karbonhidrat100g": 2.97,
+    "yag100g": 1.92,
+    "kalori100g": 386.7,
+    "fiyat100g": 28.47,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3728",
+      "BESIN-3739",
+      "BESIN-3773"
+    ]
+  },
+  {
+    "id": "BESIN-3735",
+    "ad": "Kreatin Monohidrat (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 26.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3753",
+      "BESIN-3774"
+    ]
+  },
+  {
+    "id": "BESIN-3736",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 85.7,
+    "karbonhidrat100g": 3.02,
+    "yag100g": 2.02,
+    "kalori100g": 394.1,
+    "fiyat100g": 26.69,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3622",
+      "BESIN-3745"
+    ]
+  },
+  {
+    "id": "BESIN-3737",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.38,
+    "karbonhidrat100g": 74.24,
+    "yag100g": 3.22,
+    "kalori100g": 330.3,
+    "fiyat100g": 5.67,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3701",
+      "BESIN-3767"
+    ]
+  },
+  {
+    "id": "BESIN-3738",
+    "ad": "Kafein Tozu (isolate)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 29.65,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3714",
+      "BESIN-3792"
+    ]
+  },
+  {
+    "id": "BESIN-3739",
+    "ad": "Kollajen Peptit (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 95.64,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 349.1,
+    "fiyat100g": 28.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3604",
+      "BESIN-3713"
+    ]
+  },
+  {
+    "id": "BESIN-3740",
+    "ad": "Kinoa (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 14.08,
+    "karbonhidrat100g": 64.27,
+    "yag100g": 5.99,
+    "kalori100g": 383.4,
+    "fiyat100g": 7.25,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3727",
+      "BESIN-3780",
+      "BESIN-3634"
+    ]
+  },
+  {
+    "id": "BESIN-3741",
+    "ad": "Beta-Alanin (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 22.13,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3759",
+      "BESIN-3633",
+      "BESIN-3734"
+    ]
+  },
+  {
+    "id": "BESIN-3742",
+    "ad": "Maltodekstrin Tozu (premium)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 97.75,
+    "yag100g": 0.0,
+    "kalori100g": 373.1,
+    "fiyat100g": 5.98,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3624",
+      "BESIN-3710",
+      "BESIN-3770"
+    ]
+  },
+  {
+    "id": "BESIN-3743",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.2,
+    "karbonhidrat100g": 49.98,
+    "yag100g": 12.31,
+    "kalori100g": 390.1,
+    "fiyat100g": 12.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3789",
+      "BESIN-3737",
+      "BESIN-3614"
+    ]
+  },
+  {
+    "id": "BESIN-3744",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.31,
+    "karbonhidrat100g": 68.52,
+    "yag100g": 3.25,
+    "kalori100g": 347.8,
+    "fiyat100g": 5.74,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3612",
+      "BESIN-3610"
+    ]
+  },
+  {
+    "id": "BESIN-3745",
+    "ad": "Casein Protein (glutensiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 76.79,
+    "karbonhidrat100g": 6.62,
+    "yag100g": 4.82,
+    "kalori100g": 373.3,
+    "fiyat100g": 23.16,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3688",
+      "BESIN-3731"
+    ]
+  },
+  {
+    "id": "BESIN-3746",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 74.35,
+    "karbonhidrat100g": 8.48,
+    "yag100g": 6.28,
+    "kalori100g": 386.3,
+    "fiyat100g": 22.44,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3759",
+      "BESIN-3712",
+      "BESIN-3670"
+    ]
+  },
+  {
+    "id": "BESIN-3747",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.81,
+    "karbonhidrat100g": 72.49,
+    "yag100g": 3.36,
+    "kalori100g": 333.9,
+    "fiyat100g": 5.64,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3680",
+      "BESIN-3627"
+    ]
+  },
+  {
+    "id": "BESIN-3748",
+    "ad": "Yumurta Akı Tozu (premium)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 82.03,
+    "karbonhidrat100g": 4.78,
+    "yag100g": 0.5,
+    "kalori100g": 397.0,
+    "fiyat100g": 24.62,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3761",
+      "BESIN-3646",
+      "BESIN-3707"
+    ]
+  },
+  {
+    "id": "BESIN-3749",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 68.58,
+    "karbonhidrat100g": 7.52,
+    "yag100g": 6.14,
+    "kalori100g": 391.8,
+    "fiyat100g": 21.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3724",
+      "BESIN-3752"
+    ]
+  },
+  {
+    "id": "BESIN-3750",
+    "ad": "Teff (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.61,
+    "karbonhidrat100g": 69.14,
+    "yag100g": 1.93,
+    "kalori100g": 359.2,
+    "fiyat100g": 7.58,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3793",
+      "BESIN-3644"
+    ]
+  },
+  {
+    "id": "BESIN-3751",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 75.96,
+    "karbonhidrat100g": 7.92,
+    "yag100g": 6.13,
+    "kalori100g": 364.6,
+    "fiyat100g": 23.17,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3792",
+      "BESIN-3632",
+      "BESIN-3698"
+    ]
+  },
+  {
+    "id": "BESIN-3752",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 68.37,
+    "karbonhidrat100g": 7.61,
+    "yag100g": 5.73,
+    "kalori100g": 387.0,
+    "fiyat100g": 23.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3723",
+      "BESIN-3741",
+      "BESIN-3623"
+    ]
+  },
+  {
+    "id": "BESIN-3753",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 78.69,
+    "karbonhidrat100g": 8.21,
+    "yag100g": 5.93,
+    "kalori100g": 406.3,
+    "fiyat100g": 19.87,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3752",
+      "BESIN-3759"
+    ]
+  },
+  {
+    "id": "BESIN-3754",
+    "ad": "Badem Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.6,
+    "karbonhidrat100g": 1.92,
+    "yag100g": 1.43,
+    "kalori100g": 34.3,
+    "fiyat100g": 4.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3664",
+      "BESIN-3692",
+      "BESIN-3683"
+    ]
+  },
+  {
+    "id": "BESIN-3755",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.21,
+    "karbonhidrat100g": 3.05,
+    "yag100g": 1.75,
+    "kalori100g": 46.2,
+    "fiyat100g": 2.84,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3640",
+      "BESIN-3629"
+    ]
+  },
+  {
+    "id": "BESIN-3756",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 79.81,
+    "karbonhidrat100g": 8.43,
+    "yag100g": 5.81,
+    "kalori100g": 387.1,
+    "fiyat100g": 20.99,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3799",
+      "BESIN-3708"
+    ]
+  },
+  {
+    "id": "BESIN-3757",
+    "ad": "Teff (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.27,
+    "karbonhidrat100g": 76.89,
+    "yag100g": 1.96,
+    "kalori100g": 357.2,
+    "fiyat100g": 8.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3612",
+      "BESIN-3625",
+      "BESIN-3783"
+    ]
+  },
+  {
+    "id": "BESIN-3758",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 79.33,
+    "karbonhidrat100g": 8.39,
+    "yag100g": 6.3,
+    "kalori100g": 396.8,
+    "fiyat100g": 20.35,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3786",
+      "BESIN-3638"
+    ]
+  },
+  {
+    "id": "BESIN-3759",
+    "ad": "Casein Protein (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 73.72,
+    "karbonhidrat100g": 7.07,
+    "yag100g": 4.91,
+    "kalori100g": 370.6,
+    "fiyat100g": 24.75,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3778",
+      "BESIN-3637"
+    ]
+  },
+  {
+    "id": "BESIN-3760",
+    "ad": "Yumurta Akı Tozu (glutensiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 84.01,
+    "karbonhidrat100g": 5.2,
+    "yag100g": 0.48,
+    "kalori100g": 385.4,
+    "fiyat100g": 25.07,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3773",
+      "BESIN-3622",
+      "BESIN-3688"
+    ]
+  },
+  {
+    "id": "BESIN-3761",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 92.52,
+    "karbonhidrat100g": 2.89,
+    "yag100g": 1.92,
+    "kalori100g": 372.6,
+    "fiyat100g": 27.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3708",
+      "BESIN-3670"
+    ]
+  },
+  {
+    "id": "BESIN-3762",
+    "ad": "Soya Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 4.05,
+    "karbonhidrat100g": 3.0,
+    "yag100g": 1.71,
+    "kalori100g": 45.5,
+    "fiyat100g": 2.9,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3692",
+      "BESIN-3686"
+    ]
+  },
+  {
+    "id": "BESIN-3763",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 77.96,
+    "karbonhidrat100g": 7.52,
+    "yag100g": 6.33,
+    "kalori100g": 410.3,
+    "fiyat100g": 19.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3604",
+      "BESIN-3623"
+    ]
+  },
+  {
+    "id": "BESIN-3764",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.81,
+    "karbonhidrat100g": 29.2,
+    "yag100g": 43.29,
+    "kalori100g": 514.6,
+    "fiyat100g": 5.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3631",
+      "BESIN-3732"
+    ]
+  },
+  {
+    "id": "BESIN-3765",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.61,
+    "karbonhidrat100g": 73.26,
+    "yag100g": 3.22,
+    "kalori100g": 324.0,
+    "fiyat100g": 5.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3634",
+      "BESIN-3767",
+      "BESIN-3785"
+    ]
+  },
+  {
+    "id": "BESIN-3766",
+    "ad": "Beta-Alanin (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 21.54,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3800",
+      "BESIN-3670"
+    ]
+  },
+  {
+    "id": "BESIN-3767",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.26,
+    "karbonhidrat100g": 69.11,
+    "yag100g": 3.48,
+    "kalori100g": 324.0,
+    "fiyat100g": 5.49,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3770",
+      "BESIN-3653"
+    ]
+  },
+  {
+    "id": "BESIN-3768",
+    "ad": "Matcha Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.54,
+    "karbonhidrat100g": 40.7,
+    "yag100g": 5.01,
+    "kalori100g": 305.5,
+    "fiyat100g": 38.1,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3740",
+      "BESIN-3689",
+      "BESIN-3699"
+    ]
+  },
+  {
+    "id": "BESIN-3769",
+    "ad": "Kafein Tozu (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 31.63,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3779",
+      "BESIN-3603",
+      "BESIN-3748"
+    ]
+  },
+  {
+    "id": "BESIN-3770",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.88,
+    "karbonhidrat100g": 50.23,
+    "yag100g": 13.68,
+    "kalori100g": 420.3,
+    "fiyat100g": 12.05,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3737",
+      "BESIN-3729"
+    ]
+  },
+  {
+    "id": "BESIN-3771",
+    "ad": "Elektrolit Karışımı (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 1.01,
+    "yag100g": 0.0,
+    "kalori100g": 4.1,
+    "fiyat100g": 14.87,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3789",
+      "BESIN-3794"
+    ]
+  },
+  {
+    "id": "BESIN-3772",
+    "ad": "Yulaf Sütü (proteinli) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 2.88,
+    "karbonhidrat100g": 5.95,
+    "yag100g": 1.46,
+    "kalori100g": 47.4,
+    "fiyat100g": 3.95,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3755",
+      "BESIN-3664"
+    ]
+  },
+  {
+    "id": "BESIN-3773",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 70.79,
+    "karbonhidrat100g": 8.16,
+    "yag100g": 5.9,
+    "kalori100g": 389.9,
+    "fiyat100g": 23.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3639",
+      "BESIN-3652"
+    ]
+  },
+  {
+    "id": "BESIN-3774",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 86.55,
+    "karbonhidrat100g": 2.93,
+    "yag100g": 1.97,
+    "kalori100g": 383.2,
+    "fiyat100g": 27.9,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3647",
+      "BESIN-3769"
+    ]
+  },
+  {
+    "id": "BESIN-3775",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 80.44,
+    "karbonhidrat100g": 7.55,
+    "yag100g": 6.12,
+    "kalori100g": 389.3,
+    "fiyat100g": 20.69,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3774",
+      "BESIN-3632",
+      "BESIN-3719"
+    ]
+  },
+  {
+    "id": "BESIN-3776",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.42,
+    "karbonhidrat100g": 27.61,
+    "yag100g": 44.47,
+    "kalori100g": 525.9,
+    "fiyat100g": 5.25,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3706",
+      "BESIN-3635",
+      "BESIN-3732"
+    ]
+  },
+  {
+    "id": "BESIN-3777",
+    "ad": "Kafein Tozu (isolate)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 31.25,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3748",
+      "BESIN-3675",
+      "BESIN-3792"
+    ]
+  },
+  {
+    "id": "BESIN-3778",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 92.92,
+    "karbonhidrat100g": 2.9,
+    "yag100g": 2.09,
+    "kalori100g": 357.9,
+    "fiyat100g": 27.96,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3602",
+      "BESIN-3705"
+    ]
+  },
+  {
+    "id": "BESIN-3779",
+    "ad": "Kafein Tozu (yerli)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 29.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3641",
+      "BESIN-3748",
+      "BESIN-3723"
+    ]
+  },
+  {
+    "id": "BESIN-3780",
+    "ad": "Karabuğday (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.33,
+    "karbonhidrat100g": 74.36,
+    "yag100g": 3.59,
+    "kalori100g": 352.8,
+    "fiyat100g": 5.54,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3709",
+      "BESIN-3680",
+      "BESIN-3743"
+    ]
+  },
+  {
+    "id": "BESIN-3781",
+    "ad": "Chia Tohumu (trend) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 16.41,
+    "karbonhidrat100g": 44.07,
+    "yag100g": 32.54,
+    "kalori100g": 483.4,
+    "fiyat100g": 9.45,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3795",
+      "BESIN-3626",
+      "BESIN-3607"
+    ]
+  },
+  {
+    "id": "BESIN-3782",
+    "ad": "Chia Tohumu (trend) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.75,
+    "karbonhidrat100g": 43.43,
+    "yag100g": 31.56,
+    "kalori100g": 500.6,
+    "fiyat100g": 9.04,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3703",
+      "BESIN-3649"
+    ]
+  },
+  {
+    "id": "BESIN-3783",
+    "ad": "Teff (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.75,
+    "karbonhidrat100g": 73.25,
+    "yag100g": 1.98,
+    "kalori100g": 345.7,
+    "fiyat100g": 8.19,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3709",
+      "BESIN-3680",
+      "BESIN-3727"
+    ]
+  },
+  {
+    "id": "BESIN-3784",
+    "ad": "Keten Tohumu (öğütülmüş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.38,
+    "karbonhidrat100g": 28.08,
+    "yag100g": 42.81,
+    "kalori100g": 541.2,
+    "fiyat100g": 4.98,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3658",
+      "BESIN-3795",
+      "BESIN-3608"
+    ]
+  },
+  {
+    "id": "BESIN-3785",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.88,
+    "karbonhidrat100g": 64.86,
+    "yag100g": 6.78,
+    "kalori100g": 385.0,
+    "fiyat100g": 6.94,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3710",
+      "BESIN-3720",
+      "BESIN-3770"
+    ]
+  },
+  {
+    "id": "BESIN-3786",
+    "ad": "Whey Protein (concentrate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 77.41,
+    "karbonhidrat100g": 8.35,
+    "yag100g": 5.75,
+    "kalori100g": 378.8,
+    "fiyat100g": 18.89,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3774",
+      "BESIN-3748",
+      "BESIN-3601"
+    ]
+  },
+  {
+    "id": "BESIN-3787",
+    "ad": "Casein Protein (şekersiz)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 74.4,
+    "karbonhidrat100g": 7.38,
+    "yag100g": 5.07,
+    "kalori100g": 389.2,
+    "fiyat100g": 23.66,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3759",
+      "BESIN-3687",
+      "BESIN-3779"
+    ]
+  },
+  {
+    "id": "BESIN-3788",
+    "ad": "Yumurta Akı Tozu (organik)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 87.4,
+    "karbonhidrat100g": 5.16,
+    "yag100g": 0.51,
+    "kalori100g": 389.3,
+    "fiyat100g": 26.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3777",
+      "BESIN-3711",
+      "BESIN-3752"
+    ]
+  },
+  {
+    "id": "BESIN-3789",
+    "ad": "Kakao Tozu (şekersiz) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.2,
+    "karbonhidrat100g": 47.29,
+    "yag100g": 12.78,
+    "kalori100g": 382.9,
+    "fiyat100g": 11.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3628",
+      "BESIN-3689",
+      "BESIN-3729"
+    ]
+  },
+  {
+    "id": "BESIN-3790",
+    "ad": "Dextroz Tozu (isolate)",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 98.91,
+    "yag100g": 0.0,
+    "kalori100g": 394.8,
+    "fiyat100g": 6.29,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3679",
+      "BESIN-3612"
+    ]
+  },
+  {
+    "id": "BESIN-3791",
+    "ad": "Beta-Alanin (toz) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 21.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3746",
+      "BESIN-3690",
+      "BESIN-3778"
+    ]
+  },
+  {
+    "id": "BESIN-3792",
+    "ad": "Whey Protein (isolate) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 91.89,
+    "karbonhidrat100g": 3.03,
+    "yag100g": 1.88,
+    "kalori100g": 363.1,
+    "fiyat100g": 27.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3788",
+      "BESIN-3791",
+      "BESIN-3638"
+    ]
+  },
+  {
+    "id": "BESIN-3793",
+    "ad": "Teff (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 12.37,
+    "karbonhidrat100g": 75.7,
+    "yag100g": 2.04,
+    "kalori100g": 386.7,
+    "fiyat100g": 8.36,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3740",
+      "BESIN-3661"
+    ]
+  },
+  {
+    "id": "BESIN-3794",
+    "ad": "Amarant (kuru) v2",
+    "kategori": "karbonhidrat",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 13.75,
+    "karbonhidrat100g": 66.0,
+    "yag100g": 6.79,
+    "kalori100g": 350.6,
+    "fiyat100g": 7.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3684",
+      "BESIN-3729",
+      "BESIN-3657"
+    ]
+  },
+  {
+    "id": "BESIN-3795",
+    "ad": "Chia Tohumu (trend) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.14,
+    "karbonhidrat100g": 43.59,
+    "yag100g": 30.93,
+    "kalori100g": 466.0,
+    "fiyat100g": 8.85,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3631",
+      "BESIN-3673",
+      "BESIN-3626"
+    ]
+  },
+  {
+    "id": "BESIN-3796",
+    "ad": "Kollajen Peptit (stevialı)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 96.58,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 384.1,
+    "fiyat100g": 29.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3759",
+      "BESIN-3677"
+    ]
+  },
+  {
+    "id": "BESIN-3797",
+    "ad": "Kafein Tozu (mikronize)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 29.86,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3761",
+      "BESIN-3766",
+      "BESIN-3791"
+    ]
+  },
+  {
+    "id": "BESIN-3798",
+    "ad": "Kafein Tozu (premium)",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 0.0,
+    "kalori100g": 0.0,
+    "fiyat100g": 30.95,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3735",
+      "BESIN-3647",
+      "BESIN-3773"
+    ]
+  },
+  {
+    "id": "BESIN-3799",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 71.55,
+    "karbonhidrat100g": 8.1,
+    "yag100g": 5.77,
+    "kalori100g": 384.8,
+    "fiyat100g": 21.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3695",
+      "BESIN-3735"
+    ]
+  },
+  {
+    "id": "BESIN-3800",
+    "ad": "Vegan Protein (bezelye + pirinç) v2",
+    "kategori": "protein",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 75.63,
+    "karbonhidrat100g": 7.95,
+    "yag100g": 5.85,
+    "kalori100g": 385.9,
+    "fiyat100g": 22.24,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3796",
+      "BESIN-3733"
+    ]
+  }
+]

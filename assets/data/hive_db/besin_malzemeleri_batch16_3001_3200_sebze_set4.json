@@ -1,0 +1,4139 @@
+[
+  {
+    "id": "BESIN-3001",
+    "ad": "Roka",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.6,
+    "karbonhidrat100g": 3.7,
+    "yag100g": 0.7,
+    "kalori100g": 25,
+    "fiyat100g": 1.5,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3014",
+      "BESIN-3187",
+      "BESIN-3156"
+    ]
+  },
+  {
+    "id": "BESIN-3002",
+    "ad": "Kuzu Kulağı",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.3,
+    "karbonhidrat100g": 3.6,
+    "yag100g": 0.7,
+    "kalori100g": 27,
+    "fiyat100g": 2.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3197",
+      "BESIN-3046",
+      "BESIN-3169"
+    ]
+  },
+  {
+    "id": "BESIN-3003",
+    "ad": "Pancar (haşlanmış)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.6,
+    "karbonhidrat100g": 10.0,
+    "yag100g": 0.1,
+    "kalori100g": 44,
+    "fiyat100g": 1.8,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3170",
+      "BESIN-3012",
+      "BESIN-3142"
+    ]
+  },
+  {
+    "id": "BESIN-3004",
+    "ad": "Kereviz (zeytinyağlı)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.5,
+    "karbonhidrat100g": 7.0,
+    "yag100g": 6.0,
+    "kalori100g": 95,
+    "fiyat100g": 2.2,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3118",
+      "BESIN-3122",
+      "BESIN-3006"
+    ]
+  },
+  {
+    "id": "BESIN-3005",
+    "ad": "Taze Bezelye (haşlanmış)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.4,
+    "karbonhidrat100g": 14.0,
+    "yag100g": 0.4,
+    "kalori100g": 81,
+    "fiyat100g": 1.6,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3195",
+      "BESIN-3117"
+    ]
+  },
+  {
+    "id": "BESIN-3006",
+    "ad": "Bebek Ispanak",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.9,
+    "karbonhidrat100g": 3.6,
+    "yag100g": 0.4,
+    "kalori100g": 23,
+    "fiyat100g": 1.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3002",
+      "BESIN-3193"
+    ]
+  },
+  {
+    "id": "BESIN-3007",
+    "ad": "Kapya Biber",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.2,
+    "karbonhidrat100g": 6.0,
+    "yag100g": 0.3,
+    "kalori100g": 31,
+    "fiyat100g": 1.3,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3148",
+      "BESIN-3035"
+    ]
+  },
+  {
+    "id": "BESIN-3008",
+    "ad": "Dolmalık Biber",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.0,
+    "karbonhidrat100g": 4.6,
+    "yag100g": 0.2,
+    "kalori100g": 20,
+    "fiyat100g": 1.1,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3106",
+      "BESIN-3003"
+    ]
+  },
+  {
+    "id": "BESIN-3009",
+    "ad": "Taze Mantar (ızgara)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.1,
+    "karbonhidrat100g": 3.3,
+    "yag100g": 0.3,
+    "kalori100g": 35,
+    "fiyat100g": 3.2,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3199",
+      "BESIN-3142"
+    ]
+  },
+  {
+    "id": "BESIN-3010",
+    "ad": "Brokolini",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.8,
+    "karbonhidrat100g": 7.0,
+    "yag100g": 0.3,
+    "kalori100g": 35,
+    "fiyat100g": 5.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3023",
+      "BESIN-3115"
+    ]
+  },
+  {
+    "id": "BESIN-3011",
+    "ad": "Börülce (haşlanmış)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.0,
+    "karbonhidrat100g": 8.0,
+    "yag100g": 0.4,
+    "kalori100g": 42,
+    "fiyat100g": 2.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3195",
+      "BESIN-3109",
+      "BESIN-3031"
+    ]
+  },
+  {
+    "id": "BESIN-3012",
+    "ad": "Karalahana Sarması",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.0,
+    "karbonhidrat100g": 12.0,
+    "yag100g": 3.0,
+    "kalori100g": 110,
+    "fiyat100g": 3.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3154",
+      "BESIN-3061"
+    ]
+  },
+  {
+    "id": "BESIN-3013",
+    "ad": "Turp",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.0,
+    "karbonhidrat100g": 3.4,
+    "yag100g": 0.1,
+    "kalori100g": 16,
+    "fiyat100g": 0.9,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3191",
+      "BESIN-3034"
+    ]
+  },
+  {
+    "id": "BESIN-3014",
+    "ad": "Köz Patlıcan",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.0,
+    "karbonhidrat100g": 5.9,
+    "yag100g": 0.2,
+    "kalori100g": 29,
+    "fiyat100g": 1.1,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3122",
+      "BESIN-3191"
+    ]
+  },
+  {
+    "id": "BESIN-3015",
+    "ad": "Kabak Spagetti",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.2,
+    "karbonhidrat100g": 3.1,
+    "yag100g": 0.3,
+    "kalori100g": 20,
+    "fiyat100g": 2.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3014",
+      "BESIN-3096"
+    ]
+  },
+  {
+    "id": "BESIN-3016",
+    "ad": "Enginar Kalbi (konserve)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.2,
+    "karbonhidrat100g": 12.0,
+    "yag100g": 0.2,
+    "kalori100g": 60,
+    "fiyat100g": 4.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3075",
+      "BESIN-3070"
+    ]
+  },
+  {
+    "id": "BESIN-3017",
+    "ad": "Bambu Filizi (konserve)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.6,
+    "karbonhidrat100g": 5.2,
+    "yag100g": 0.3,
+    "kalori100g": 27,
+    "fiyat100g": 4.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3191",
+      "BESIN-3007",
+      "BESIN-3154"
+    ]
+  },
+  {
+    "id": "BESIN-3018",
+    "ad": "Şalgam",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.5,
+    "karbonhidrat100g": 4.3,
+    "yag100g": 0.1,
+    "kalori100g": 20,
+    "fiyat100g": 0.8,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3025",
+      "BESIN-3073",
+      "BESIN-3125"
+    ]
+  },
+  {
+    "id": "BESIN-3019",
+    "ad": "Kırmızı Lahana",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.4,
+    "karbonhidrat100g": 7.0,
+    "yag100g": 0.2,
+    "kalori100g": 31,
+    "fiyat100g": 1.0,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3081",
+      "BESIN-3132"
+    ]
+  },
+  {
+    "id": "BESIN-3020",
+    "ad": "Beyaz Lahana",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.3,
+    "karbonhidrat100g": 6.0,
+    "yag100g": 0.1,
+    "kalori100g": 25,
+    "fiyat100g": 0.9,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3170",
+      "BESIN-3135"
+    ]
+  },
+  {
+    "id": "BESIN-3021",
+    "ad": "Bebek Ispanak (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.85,
+    "karbonhidrat100g": 3.54,
+    "yag100g": 0.38,
+    "kalori100g": 21.9,
+    "fiyat100g": 1.26,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3100",
+      "BESIN-3155",
+      "BESIN-3057"
+    ]
+  },
+  {
+    "id": "BESIN-3022",
+    "ad": "Köz Patlıcan (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.96,
+    "karbonhidrat100g": 5.89,
+    "yag100g": 0.21,
+    "kalori100g": 29.8,
+    "fiyat100g": 1.15,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3160",
+      "BESIN-3164",
+      "BESIN-3102"
+    ]
+  },
+  {
+    "id": "BESIN-3023",
+    "ad": "Brokolini (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.91,
+    "karbonhidrat100g": 6.94,
+    "yag100g": 0.3,
+    "kalori100g": 35.9,
+    "fiyat100g": 4.95,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3177",
+      "BESIN-3149"
+    ]
+  },
+  {
+    "id": "BESIN-3024",
+    "ad": "Kapya Biber (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.23,
+    "karbonhidrat100g": 6.23,
+    "yag100g": 0.3,
+    "kalori100g": 32.6,
+    "fiyat100g": 1.34,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3125",
+      "BESIN-3002",
+      "BESIN-3046"
+    ]
+  },
+  {
+    "id": "BESIN-3025",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.57,
+    "karbonhidrat100g": 6.82,
+    "yag100g": 6.16,
+    "kalori100g": 96.5,
+    "fiyat100g": 2.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3004",
+      "BESIN-3079"
+    ]
+  },
+  {
+    "id": "BESIN-3026",
+    "ad": "Kabak Spagetti (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.19,
+    "karbonhidrat100g": 3.26,
+    "yag100g": 0.32,
+    "kalori100g": 19.6,
+    "fiyat100g": 2.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3153",
+      "BESIN-3158",
+      "BESIN-3170"
+    ]
+  },
+  {
+    "id": "BESIN-3027",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.19,
+    "karbonhidrat100g": 3.3,
+    "yag100g": 0.31,
+    "kalori100g": 36.3,
+    "fiyat100g": 3.35,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3077",
+      "BESIN-3121"
+    ]
+  },
+  {
+    "id": "BESIN-3028",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.58,
+    "karbonhidrat100g": 7.01,
+    "yag100g": 5.77,
+    "kalori100g": 93.5,
+    "fiyat100g": 2.15,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3026",
+      "BESIN-3188",
+      "BESIN-3099"
+    ]
+  },
+  {
+    "id": "BESIN-3029",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.93,
+    "karbonhidrat100g": 3.41,
+    "yag100g": 0.32,
+    "kalori100g": 35.3,
+    "fiyat100g": 3.27,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3072",
+      "BESIN-3194"
+    ]
+  },
+  {
+    "id": "BESIN-3030",
+    "ad": "Kapya Biber (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.2,
+    "karbonhidrat100g": 6.06,
+    "yag100g": 0.28,
+    "kalori100g": 30.4,
+    "fiyat100g": 1.34,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3141",
+      "BESIN-3101",
+      "BESIN-3047"
+    ]
+  },
+  {
+    "id": "BESIN-3031",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.58,
+    "karbonhidrat100g": 14.22,
+    "yag100g": 0.42,
+    "kalori100g": 79.7,
+    "fiyat100g": 1.57,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3072",
+      "BESIN-3052",
+      "BESIN-3118"
+    ]
+  },
+  {
+    "id": "BESIN-3032",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.59,
+    "karbonhidrat100g": 9.71,
+    "yag100g": 0.1,
+    "kalori100g": 42.3,
+    "fiyat100g": 1.81,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3143",
+      "BESIN-3063",
+      "BESIN-3134"
+    ]
+  },
+  {
+    "id": "BESIN-3033",
+    "ad": "Beyaz Lahana (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.28,
+    "karbonhidrat100g": 6.21,
+    "yag100g": 0.11,
+    "kalori100g": 24.6,
+    "fiyat100g": 0.91,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3041",
+      "BESIN-3194",
+      "BESIN-3095"
+    ]
+  },
+  {
+    "id": "BESIN-3034",
+    "ad": "Bambu Filizi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.45,
+    "karbonhidrat100g": 5.29,
+    "yag100g": 0.29,
+    "kalori100g": 26.5,
+    "fiyat100g": 4.11,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3093",
+      "BESIN-3155"
+    ]
+  },
+  {
+    "id": "BESIN-3035",
+    "ad": "Kabak Spagetti (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.16,
+    "karbonhidrat100g": 3.02,
+    "yag100g": 0.32,
+    "kalori100g": 20.4,
+    "fiyat100g": 2.59,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3086",
+      "BESIN-3001"
+    ]
+  },
+  {
+    "id": "BESIN-3036",
+    "ad": "Kırmızı Lahana (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.36,
+    "karbonhidrat100g": 6.64,
+    "yag100g": 0.2,
+    "kalori100g": 32.5,
+    "fiyat100g": 1.02,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3103",
+      "BESIN-3178"
+    ]
+  },
+  {
+    "id": "BESIN-3037",
+    "ad": "Dolmalık Biber (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.97,
+    "karbonhidrat100g": 4.77,
+    "yag100g": 0.21,
+    "kalori100g": 20.8,
+    "fiyat100g": 1.07,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3110",
+      "BESIN-3131"
+    ]
+  },
+  {
+    "id": "BESIN-3038",
+    "ad": "Turp (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.94,
+    "karbonhidrat100g": 3.25,
+    "yag100g": 0.1,
+    "kalori100g": 16.8,
+    "fiyat100g": 0.91,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3043",
+      "BESIN-3083",
+      "BESIN-3100"
+    ]
+  },
+  {
+    "id": "BESIN-3039",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.05,
+    "karbonhidrat100g": 3.34,
+    "yag100g": 0.29,
+    "kalori100g": 33.6,
+    "fiyat100g": 3.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3126",
+      "BESIN-3017",
+      "BESIN-3153"
+    ]
+  },
+  {
+    "id": "BESIN-3040",
+    "ad": "Brokolini (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.86,
+    "karbonhidrat100g": 7.03,
+    "yag100g": 0.29,
+    "kalori100g": 36.6,
+    "fiyat100g": 5.07,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3044",
+      "BESIN-3002",
+      "BESIN-3148"
+    ]
+  },
+  {
+    "id": "BESIN-3041",
+    "ad": "Kırmızı Lahana (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.48,
+    "karbonhidrat100g": 6.92,
+    "yag100g": 0.19,
+    "kalori100g": 32.6,
+    "fiyat100g": 0.96,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3096",
+      "BESIN-3168"
+    ]
+  },
+  {
+    "id": "BESIN-3042",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.05,
+    "karbonhidrat100g": 11.66,
+    "yag100g": 0.21,
+    "kalori100g": 57.8,
+    "fiyat100g": 4.2,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3118",
+      "BESIN-3162"
+    ]
+  },
+  {
+    "id": "BESIN-3043",
+    "ad": "Turp (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.02,
+    "karbonhidrat100g": 3.26,
+    "yag100g": 0.1,
+    "kalori100g": 15.8,
+    "fiyat100g": 0.92,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3154",
+      "BESIN-3169",
+      "BESIN-3066"
+    ]
+  },
+  {
+    "id": "BESIN-3044",
+    "ad": "Roka (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.71,
+    "karbonhidrat100g": 3.57,
+    "yag100g": 0.72,
+    "kalori100g": 24.9,
+    "fiyat100g": 1.5,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3134",
+      "BESIN-3097",
+      "BESIN-3032"
+    ]
+  },
+  {
+    "id": "BESIN-3045",
+    "ad": "Kırmızı Lahana (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.36,
+    "karbonhidrat100g": 6.77,
+    "yag100g": 0.2,
+    "kalori100g": 29.9,
+    "fiyat100g": 0.97,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3010",
+      "BESIN-3177"
+    ]
+  },
+  {
+    "id": "BESIN-3046",
+    "ad": "Brokolini (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.86,
+    "karbonhidrat100g": 7.23,
+    "yag100g": 0.3,
+    "kalori100g": 33.7,
+    "fiyat100g": 5.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3056",
+      "BESIN-3173"
+    ]
+  },
+  {
+    "id": "BESIN-3047",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.49,
+    "karbonhidrat100g": 13.7,
+    "yag100g": 0.39,
+    "kalori100g": 83.8,
+    "fiyat100g": 1.68,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3186",
+      "BESIN-3153"
+    ]
+  },
+  {
+    "id": "BESIN-3048",
+    "ad": "Turp (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.03,
+    "karbonhidrat100g": 3.23,
+    "yag100g": 0.11,
+    "kalori100g": 15.7,
+    "fiyat100g": 0.93,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3055",
+      "BESIN-3094",
+      "BESIN-3047"
+    ]
+  },
+  {
+    "id": "BESIN-3049",
+    "ad": "Turp (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.04,
+    "karbonhidrat100g": 3.49,
+    "yag100g": 0.09,
+    "kalori100g": 15.4,
+    "fiyat100g": 0.85,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3027",
+      "BESIN-3098"
+    ]
+  },
+  {
+    "id": "BESIN-3050",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.91,
+    "karbonhidrat100g": 7.97,
+    "yag100g": 0.39,
+    "kalori100g": 43.4,
+    "fiyat100g": 2.59,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3001",
+      "BESIN-3036",
+      "BESIN-3158"
+    ]
+  },
+  {
+    "id": "BESIN-3051",
+    "ad": "Köz Patlıcan (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.01,
+    "karbonhidrat100g": 5.64,
+    "yag100g": 0.21,
+    "kalori100g": 30.3,
+    "fiyat100g": 1.04,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3009",
+      "BESIN-3143"
+    ]
+  },
+  {
+    "id": "BESIN-3052",
+    "ad": "Kırmızı Lahana (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.38,
+    "karbonhidrat100g": 6.6,
+    "yag100g": 0.2,
+    "kalori100g": 31.3,
+    "fiyat100g": 0.95,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3129",
+      "BESIN-3147",
+      "BESIN-3057"
+    ]
+  },
+  {
+    "id": "BESIN-3053",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.08,
+    "karbonhidrat100g": 12.59,
+    "yag100g": 0.21,
+    "kalori100g": 61.9,
+    "fiyat100g": 3.87,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3004",
+      "BESIN-3064",
+      "BESIN-3077"
+    ]
+  },
+  {
+    "id": "BESIN-3054",
+    "ad": "Roka (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.62,
+    "karbonhidrat100g": 3.59,
+    "yag100g": 0.73,
+    "kalori100g": 24.5,
+    "fiyat100g": 1.47,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3085",
+      "BESIN-3176"
+    ]
+  },
+  {
+    "id": "BESIN-3055",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.44,
+    "karbonhidrat100g": 7.05,
+    "yag100g": 6.0,
+    "kalori100g": 94.3,
+    "fiyat100g": 2.14,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3105",
+      "BESIN-3036",
+      "BESIN-3022"
+    ]
+  },
+  {
+    "id": "BESIN-3056",
+    "ad": "Karalahana Sarması (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.83,
+    "karbonhidrat100g": 12.28,
+    "yag100g": 3.18,
+    "kalori100g": 115.5,
+    "fiyat100g": 3.92,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3083",
+      "BESIN-3033"
+    ]
+  },
+  {
+    "id": "BESIN-3057",
+    "ad": "Kapya Biber (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.2,
+    "karbonhidrat100g": 5.73,
+    "yag100g": 0.31,
+    "kalori100g": 30.5,
+    "fiyat100g": 1.32,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3053",
+      "BESIN-3038"
+    ]
+  },
+  {
+    "id": "BESIN-3058",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.2,
+    "karbonhidrat100g": 11.61,
+    "yag100g": 0.19,
+    "kalori100g": 60.6,
+    "fiyat100g": 4.07,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3069",
+      "BESIN-3086",
+      "BESIN-3128"
+    ]
+  },
+  {
+    "id": "BESIN-3059",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.92,
+    "karbonhidrat100g": 3.26,
+    "yag100g": 0.3,
+    "kalori100g": 32.9,
+    "fiyat100g": 3.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3086",
+      "BESIN-3121"
+    ]
+  },
+  {
+    "id": "BESIN-3060",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.54,
+    "karbonhidrat100g": 6.69,
+    "yag100g": 5.66,
+    "kalori100g": 96.4,
+    "fiyat100g": 2.08,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3120",
+      "BESIN-3166",
+      "BESIN-3186"
+    ]
+  },
+  {
+    "id": "BESIN-3061",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.02,
+    "karbonhidrat100g": 7.77,
+    "yag100g": 0.41,
+    "kalori100g": 44.3,
+    "fiyat100g": 2.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3191",
+      "BESIN-3186",
+      "BESIN-3162"
+    ]
+  },
+  {
+    "id": "BESIN-3062",
+    "ad": "Roka (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.59,
+    "karbonhidrat100g": 3.63,
+    "yag100g": 0.73,
+    "kalori100g": 25.2,
+    "fiyat100g": 1.57,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3112",
+      "BESIN-3158",
+      "BESIN-3023"
+    ]
+  },
+  {
+    "id": "BESIN-3063",
+    "ad": "Kabak Spagetti (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.23,
+    "karbonhidrat100g": 2.94,
+    "yag100g": 0.3,
+    "kalori100g": 20.8,
+    "fiyat100g": 2.36,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3045",
+      "BESIN-3150",
+      "BESIN-3033"
+    ]
+  },
+  {
+    "id": "BESIN-3064",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.95,
+    "karbonhidrat100g": 8.4,
+    "yag100g": 0.42,
+    "kalori100g": 42.5,
+    "fiyat100g": 2.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3057",
+      "BESIN-3089"
+    ]
+  },
+  {
+    "id": "BESIN-3065",
+    "ad": "Roka (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.67,
+    "karbonhidrat100g": 3.92,
+    "yag100g": 0.68,
+    "kalori100g": 26.0,
+    "fiyat100g": 1.57,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3130",
+      "BESIN-3121"
+    ]
+  },
+  {
+    "id": "BESIN-3066",
+    "ad": "Bebek Ispanak (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.97,
+    "karbonhidrat100g": 3.58,
+    "yag100g": 0.39,
+    "kalori100g": 23.2,
+    "fiyat100g": 1.26,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3033",
+      "BESIN-3170"
+    ]
+  },
+  {
+    "id": "BESIN-3067",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.54,
+    "karbonhidrat100g": 9.59,
+    "yag100g": 0.1,
+    "kalori100g": 43.2,
+    "fiyat100g": 1.8,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3055",
+      "BESIN-3008"
+    ]
+  },
+  {
+    "id": "BESIN-3068",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.97,
+    "karbonhidrat100g": 7.72,
+    "yag100g": 0.39,
+    "kalori100g": 39.7,
+    "fiyat100g": 2.51,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3159",
+      "BESIN-3156",
+      "BESIN-3110"
+    ]
+  },
+  {
+    "id": "BESIN-3069",
+    "ad": "Bebek Ispanak (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.74,
+    "karbonhidrat100g": 3.68,
+    "yag100g": 0.4,
+    "kalori100g": 22.2,
+    "fiyat100g": 1.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3107",
+      "BESIN-3186"
+    ]
+  },
+  {
+    "id": "BESIN-3070",
+    "ad": "Dolmalık Biber (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.98,
+    "karbonhidrat100g": 4.69,
+    "yag100g": 0.2,
+    "kalori100g": 18.9,
+    "fiyat100g": 1.09,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3003",
+      "BESIN-3169"
+    ]
+  },
+  {
+    "id": "BESIN-3071",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.6,
+    "karbonhidrat100g": 9.42,
+    "yag100g": 0.1,
+    "kalori100g": 43.2,
+    "fiyat100g": 1.85,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3117",
+      "BESIN-3086"
+    ]
+  },
+  {
+    "id": "BESIN-3072",
+    "ad": "Kırmızı Lahana (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.43,
+    "karbonhidrat100g": 7.35,
+    "yag100g": 0.2,
+    "kalori100g": 29.4,
+    "fiyat100g": 0.95,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3194",
+      "BESIN-3120",
+      "BESIN-3183"
+    ]
+  },
+  {
+    "id": "BESIN-3073",
+    "ad": "Bebek Ispanak (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.8,
+    "karbonhidrat100g": 3.71,
+    "yag100g": 0.38,
+    "kalori100g": 24.2,
+    "fiyat100g": 1.21,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3141",
+      "BESIN-3014",
+      "BESIN-3130"
+    ]
+  },
+  {
+    "id": "BESIN-3074",
+    "ad": "Karalahana Sarması (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.22,
+    "karbonhidrat100g": 11.88,
+    "yag100g": 2.91,
+    "kalori100g": 110.8,
+    "fiyat100g": 3.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3060",
+      "BESIN-3065"
+    ]
+  },
+  {
+    "id": "BESIN-3075",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.66,
+    "karbonhidrat100g": 14.77,
+    "yag100g": 0.39,
+    "kalori100g": 84.7,
+    "fiyat100g": 1.63,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3060",
+      "BESIN-3044"
+    ]
+  },
+  {
+    "id": "BESIN-3076",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.57,
+    "karbonhidrat100g": 6.79,
+    "yag100g": 6.17,
+    "kalori100g": 93.2,
+    "fiyat100g": 2.24,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3066",
+      "BESIN-3081"
+    ]
+  },
+  {
+    "id": "BESIN-3077",
+    "ad": "Kuzu Kulağı (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.32,
+    "karbonhidrat100g": 3.57,
+    "yag100g": 0.68,
+    "kalori100g": 27.4,
+    "fiyat100g": 1.91,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3142",
+      "BESIN-3028",
+      "BESIN-3112"
+    ]
+  },
+  {
+    "id": "BESIN-3078",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.33,
+    "karbonhidrat100g": 12.48,
+    "yag100g": 0.21,
+    "kalori100g": 56.8,
+    "fiyat100g": 3.88,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3066",
+      "BESIN-3166"
+    ]
+  },
+  {
+    "id": "BESIN-3079",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.94,
+    "karbonhidrat100g": 7.55,
+    "yag100g": 0.38,
+    "kalori100g": 42.2,
+    "fiyat100g": 2.64,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3102",
+      "BESIN-3180",
+      "BESIN-3085"
+    ]
+  },
+  {
+    "id": "BESIN-3080",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.49,
+    "karbonhidrat100g": 7.27,
+    "yag100g": 5.84,
+    "kalori100g": 97.5,
+    "fiyat100g": 2.24,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3087",
+      "BESIN-3020"
+    ]
+  },
+  {
+    "id": "BESIN-3081",
+    "ad": "Kuzu Kulağı (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.31,
+    "karbonhidrat100g": 3.66,
+    "yag100g": 0.68,
+    "kalori100g": 27.1,
+    "fiyat100g": 2.11,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3068",
+      "BESIN-3042"
+    ]
+  },
+  {
+    "id": "BESIN-3082",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.97,
+    "karbonhidrat100g": 7.96,
+    "yag100g": 0.4,
+    "kalori100g": 40.3,
+    "fiyat100g": 2.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3188",
+      "BESIN-3116",
+      "BESIN-3039"
+    ]
+  },
+  {
+    "id": "BESIN-3083",
+    "ad": "Bambu Filizi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.67,
+    "karbonhidrat100g": 5.13,
+    "yag100g": 0.3,
+    "kalori100g": 26.3,
+    "fiyat100g": 4.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3106",
+      "BESIN-3049"
+    ]
+  },
+  {
+    "id": "BESIN-3084",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.5,
+    "karbonhidrat100g": 13.95,
+    "yag100g": 0.39,
+    "kalori100g": 79.3,
+    "fiyat100g": 1.5,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3081",
+      "BESIN-3143",
+      "BESIN-3022"
+    ]
+  },
+  {
+    "id": "BESIN-3085",
+    "ad": "Turp (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.98,
+    "karbonhidrat100g": 3.25,
+    "yag100g": 0.1,
+    "kalori100g": 16.6,
+    "fiyat100g": 0.92,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3054",
+      "BESIN-3193",
+      "BESIN-3041"
+    ]
+  },
+  {
+    "id": "BESIN-3086",
+    "ad": "Kabak Spagetti (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.19,
+    "karbonhidrat100g": 3.22,
+    "yag100g": 0.29,
+    "kalori100g": 20.3,
+    "fiyat100g": 2.57,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3176",
+      "BESIN-3195"
+    ]
+  },
+  {
+    "id": "BESIN-3087",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.49,
+    "karbonhidrat100g": 6.98,
+    "yag100g": 5.72,
+    "kalori100g": 100.3,
+    "fiyat100g": 2.2,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3119",
+      "BESIN-3063"
+    ]
+  },
+  {
+    "id": "BESIN-3088",
+    "ad": "Beyaz Lahana (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.31,
+    "karbonhidrat100g": 5.72,
+    "yag100g": 0.1,
+    "kalori100g": 26.4,
+    "fiyat100g": 0.91,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3182",
+      "BESIN-3028",
+      "BESIN-3126"
+    ]
+  },
+  {
+    "id": "BESIN-3089",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.53,
+    "karbonhidrat100g": 7.05,
+    "yag100g": 6.18,
+    "kalori100g": 94.0,
+    "fiyat100g": 2.29,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3067",
+      "BESIN-3050",
+      "BESIN-3033"
+    ]
+  },
+  {
+    "id": "BESIN-3090",
+    "ad": "Dolmalık Biber (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.01,
+    "karbonhidrat100g": 4.49,
+    "yag100g": 0.21,
+    "kalori100g": 19.1,
+    "fiyat100g": 1.16,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3142",
+      "BESIN-3040",
+      "BESIN-3077"
+    ]
+  },
+  {
+    "id": "BESIN-3091",
+    "ad": "Kabak Spagetti (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.16,
+    "karbonhidrat100g": 3.16,
+    "yag100g": 0.29,
+    "kalori100g": 19.7,
+    "fiyat100g": 2.44,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3189",
+      "BESIN-3004",
+      "BESIN-3182"
+    ]
+  },
+  {
+    "id": "BESIN-3092",
+    "ad": "Turp (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.02,
+    "karbonhidrat100g": 3.32,
+    "yag100g": 0.1,
+    "kalori100g": 16.5,
+    "fiyat100g": 0.87,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3134",
+      "BESIN-3117",
+      "BESIN-3084"
+    ]
+  },
+  {
+    "id": "BESIN-3093",
+    "ad": "Brokolini (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.76,
+    "karbonhidrat100g": 6.82,
+    "yag100g": 0.31,
+    "kalori100g": 33.0,
+    "fiyat100g": 4.99,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3136",
+      "BESIN-3032",
+      "BESIN-3131"
+    ]
+  },
+  {
+    "id": "BESIN-3094",
+    "ad": "Kuzu Kulağı (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.17,
+    "karbonhidrat100g": 3.59,
+    "yag100g": 0.69,
+    "kalori100g": 27.1,
+    "fiyat100g": 2.08,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3028",
+      "BESIN-3060",
+      "BESIN-3051"
+    ]
+  },
+  {
+    "id": "BESIN-3095",
+    "ad": "Karalahana Sarması (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.16,
+    "karbonhidrat100g": 11.68,
+    "yag100g": 2.94,
+    "kalori100g": 104.0,
+    "fiyat100g": 4.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3087",
+      "BESIN-3064",
+      "BESIN-3017"
+    ]
+  },
+  {
+    "id": "BESIN-3096",
+    "ad": "Roka (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.72,
+    "karbonhidrat100g": 3.82,
+    "yag100g": 0.68,
+    "kalori100g": 23.8,
+    "fiyat100g": 1.51,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3031",
+      "BESIN-3090"
+    ]
+  },
+  {
+    "id": "BESIN-3097",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.51,
+    "karbonhidrat100g": 13.53,
+    "yag100g": 0.4,
+    "kalori100g": 76.2,
+    "fiyat100g": 1.53,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3173",
+      "BESIN-3022"
+    ]
+  },
+  {
+    "id": "BESIN-3098",
+    "ad": "Kırmızı Lahana (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.39,
+    "karbonhidrat100g": 7.26,
+    "yag100g": 0.2,
+    "kalori100g": 30.8,
+    "fiyat100g": 0.94,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3060",
+      "BESIN-3162",
+      "BESIN-3189"
+    ]
+  },
+  {
+    "id": "BESIN-3099",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.13,
+    "karbonhidrat100g": 11.71,
+    "yag100g": 0.2,
+    "kalori100g": 63.2,
+    "fiyat100g": 4.22,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3137",
+      "BESIN-3012",
+      "BESIN-3017"
+    ]
+  },
+  {
+    "id": "BESIN-3100",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.0,
+    "karbonhidrat100g": 8.25,
+    "yag100g": 0.41,
+    "kalori100g": 42.0,
+    "fiyat100g": 2.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3189",
+      "BESIN-3084"
+    ]
+  },
+  {
+    "id": "BESIN-3101",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.34,
+    "karbonhidrat100g": 14.16,
+    "yag100g": 0.38,
+    "kalori100g": 84.1,
+    "fiyat100g": 1.51,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3048",
+      "BESIN-3052",
+      "BESIN-3181"
+    ]
+  },
+  {
+    "id": "BESIN-3102",
+    "ad": "Bebek Ispanak (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.9,
+    "karbonhidrat100g": 3.78,
+    "yag100g": 0.38,
+    "kalori100g": 24.3,
+    "fiyat100g": 1.21,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3090",
+      "BESIN-3112",
+      "BESIN-3012"
+    ]
+  },
+  {
+    "id": "BESIN-3103",
+    "ad": "Köz Patlıcan (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.0,
+    "karbonhidrat100g": 5.85,
+    "yag100g": 0.2,
+    "kalori100g": 28.2,
+    "fiyat100g": 1.16,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3079",
+      "BESIN-3019"
+    ]
+  },
+  {
+    "id": "BESIN-3104",
+    "ad": "Şalgam (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.49,
+    "karbonhidrat100g": 4.5,
+    "yag100g": 0.11,
+    "kalori100g": 19.5,
+    "fiyat100g": 0.85,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3018",
+      "BESIN-3157",
+      "BESIN-3111"
+    ]
+  },
+  {
+    "id": "BESIN-3105",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.95,
+    "karbonhidrat100g": 8.11,
+    "yag100g": 0.38,
+    "kalori100g": 43.0,
+    "fiyat100g": 2.35,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3094",
+      "BESIN-3041",
+      "BESIN-3141"
+    ]
+  },
+  {
+    "id": "BESIN-3106",
+    "ad": "Brokolini (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.78,
+    "karbonhidrat100g": 7.21,
+    "yag100g": 0.3,
+    "kalori100g": 34.4,
+    "fiyat100g": 4.76,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3200",
+      "BESIN-3174"
+    ]
+  },
+  {
+    "id": "BESIN-3107",
+    "ad": "Turp (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.06,
+    "karbonhidrat100g": 3.43,
+    "yag100g": 0.1,
+    "kalori100g": 15.2,
+    "fiyat100g": 0.93,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3132",
+      "BESIN-3032"
+    ]
+  },
+  {
+    "id": "BESIN-3108",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.65,
+    "karbonhidrat100g": 10.44,
+    "yag100g": 0.1,
+    "kalori100g": 45.3,
+    "fiyat100g": 1.9,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3028",
+      "BESIN-3150",
+      "BESIN-3064"
+    ]
+  },
+  {
+    "id": "BESIN-3109",
+    "ad": "Karalahana Sarması (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.02,
+    "karbonhidrat100g": 12.57,
+    "yag100g": 2.87,
+    "kalori100g": 113.3,
+    "fiyat100g": 3.79,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3064",
+      "BESIN-3194"
+    ]
+  },
+  {
+    "id": "BESIN-3110",
+    "ad": "Bambu Filizi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.69,
+    "karbonhidrat100g": 5.42,
+    "yag100g": 0.29,
+    "kalori100g": 27.1,
+    "fiyat100g": 4.16,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3189",
+      "BESIN-3158",
+      "BESIN-3166"
+    ]
+  },
+  {
+    "id": "BESIN-3111",
+    "ad": "Bebek Ispanak (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.78,
+    "karbonhidrat100g": 3.49,
+    "yag100g": 0.4,
+    "kalori100g": 23.4,
+    "fiyat100g": 1.24,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3092",
+      "BESIN-3145",
+      "BESIN-3027"
+    ]
+  },
+  {
+    "id": "BESIN-3112",
+    "ad": "Kuzu Kulağı (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.4,
+    "karbonhidrat100g": 3.42,
+    "yag100g": 0.7,
+    "kalori100g": 26.0,
+    "fiyat100g": 1.94,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3103",
+      "BESIN-3166"
+    ]
+  },
+  {
+    "id": "BESIN-3113",
+    "ad": "Karalahana Sarması (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.0,
+    "karbonhidrat100g": 12.5,
+    "yag100g": 2.97,
+    "kalori100g": 113.0,
+    "fiyat100g": 3.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3108",
+      "BESIN-3052",
+      "BESIN-3024"
+    ]
+  },
+  {
+    "id": "BESIN-3114",
+    "ad": "Kapya Biber (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.16,
+    "karbonhidrat100g": 6.12,
+    "yag100g": 0.31,
+    "kalori100g": 30.0,
+    "fiyat100g": 1.29,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3062",
+      "BESIN-3186",
+      "BESIN-3193"
+    ]
+  },
+  {
+    "id": "BESIN-3115",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.51,
+    "karbonhidrat100g": 9.96,
+    "yag100g": 0.1,
+    "kalori100g": 44.6,
+    "fiyat100g": 1.76,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3055",
+      "BESIN-3048",
+      "BESIN-3149"
+    ]
+  },
+  {
+    "id": "BESIN-3116",
+    "ad": "Brokolini (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.88,
+    "karbonhidrat100g": 7.35,
+    "yag100g": 0.3,
+    "kalori100g": 35.0,
+    "fiyat100g": 5.01,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3113",
+      "BESIN-3008"
+    ]
+  },
+  {
+    "id": "BESIN-3117",
+    "ad": "Karalahana Sarması (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.83,
+    "karbonhidrat100g": 11.66,
+    "yag100g": 2.95,
+    "kalori100g": 107.3,
+    "fiyat100g": 3.57,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3197",
+      "BESIN-3134",
+      "BESIN-3084"
+    ]
+  },
+  {
+    "id": "BESIN-3118",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.07,
+    "karbonhidrat100g": 3.31,
+    "yag100g": 0.31,
+    "kalori100g": 35.2,
+    "fiyat100g": 3.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3192",
+      "BESIN-3199"
+    ]
+  },
+  {
+    "id": "BESIN-3119",
+    "ad": "Turp (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.06,
+    "karbonhidrat100g": 3.21,
+    "yag100g": 0.1,
+    "kalori100g": 15.7,
+    "fiyat100g": 0.89,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3114",
+      "BESIN-3193",
+      "BESIN-3051"
+    ]
+  },
+  {
+    "id": "BESIN-3120",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.31,
+    "karbonhidrat100g": 11.66,
+    "yag100g": 0.21,
+    "kalori100g": 60.7,
+    "fiyat100g": 4.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3100",
+      "BESIN-3132",
+      "BESIN-3031"
+    ]
+  },
+  {
+    "id": "BESIN-3121",
+    "ad": "Bebek Ispanak (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.79,
+    "karbonhidrat100g": 3.8,
+    "yag100g": 0.41,
+    "kalori100g": 24.3,
+    "fiyat100g": 1.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3195",
+      "BESIN-3028"
+    ]
+  },
+  {
+    "id": "BESIN-3122",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.09,
+    "karbonhidrat100g": 3.38,
+    "yag100g": 0.32,
+    "kalori100g": 34.6,
+    "fiyat100g": 3.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3176",
+      "BESIN-3016"
+    ]
+  },
+  {
+    "id": "BESIN-3123",
+    "ad": "Brokolini (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.77,
+    "karbonhidrat100g": 7.26,
+    "yag100g": 0.28,
+    "kalori100g": 34.8,
+    "fiyat100g": 5.12,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3152",
+      "BESIN-3126",
+      "BESIN-3006"
+    ]
+  },
+  {
+    "id": "BESIN-3124",
+    "ad": "Karalahana Sarması (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.0,
+    "karbonhidrat100g": 11.55,
+    "yag100g": 3.12,
+    "kalori100g": 114.0,
+    "fiyat100g": 4.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3156",
+      "BESIN-3050"
+    ]
+  },
+  {
+    "id": "BESIN-3125",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.19,
+    "karbonhidrat100g": 12.37,
+    "yag100g": 0.21,
+    "kalori100g": 60.9,
+    "fiyat100g": 4.07,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3163",
+      "BESIN-3075",
+      "BESIN-3027"
+    ]
+  },
+  {
+    "id": "BESIN-3126",
+    "ad": "Beyaz Lahana (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.33,
+    "karbonhidrat100g": 6.18,
+    "yag100g": 0.1,
+    "kalori100g": 25.9,
+    "fiyat100g": 0.95,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3021",
+      "BESIN-3159"
+    ]
+  },
+  {
+    "id": "BESIN-3127",
+    "ad": "Roka (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.73,
+    "karbonhidrat100g": 3.65,
+    "yag100g": 0.68,
+    "kalori100g": 26.3,
+    "fiyat100g": 1.52,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3161",
+      "BESIN-3143"
+    ]
+  },
+  {
+    "id": "BESIN-3128",
+    "ad": "Roka (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.69,
+    "karbonhidrat100g": 3.67,
+    "yag100g": 0.74,
+    "kalori100g": 26.4,
+    "fiyat100g": 1.43,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3130",
+      "BESIN-3177"
+    ]
+  },
+  {
+    "id": "BESIN-3129",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.26,
+    "karbonhidrat100g": 13.53,
+    "yag100g": 0.39,
+    "kalori100g": 79.9,
+    "fiyat100g": 1.64,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3098",
+      "BESIN-3002",
+      "BESIN-3150"
+    ]
+  },
+  {
+    "id": "BESIN-3130",
+    "ad": "Kabak Spagetti (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.21,
+    "karbonhidrat100g": 3.26,
+    "yag100g": 0.31,
+    "kalori100g": 20.8,
+    "fiyat100g": 2.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3136",
+      "BESIN-3132"
+    ]
+  },
+  {
+    "id": "BESIN-3131",
+    "ad": "Bebek Ispanak (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.74,
+    "karbonhidrat100g": 3.4,
+    "yag100g": 0.39,
+    "kalori100g": 24.2,
+    "fiyat100g": 1.21,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3158",
+      "BESIN-3014"
+    ]
+  },
+  {
+    "id": "BESIN-3132",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.56,
+    "karbonhidrat100g": 9.58,
+    "yag100g": 0.1,
+    "kalori100g": 46.2,
+    "fiyat100g": 1.82,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3012",
+      "BESIN-3193"
+    ]
+  },
+  {
+    "id": "BESIN-3133",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.54,
+    "karbonhidrat100g": 10.41,
+    "yag100g": 0.1,
+    "kalori100g": 42.0,
+    "fiyat100g": 1.7,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3062",
+      "BESIN-3084",
+      "BESIN-3127"
+    ]
+  },
+  {
+    "id": "BESIN-3134",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.99,
+    "karbonhidrat100g": 7.52,
+    "yag100g": 0.39,
+    "kalori100g": 44.2,
+    "fiyat100g": 2.6,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3056",
+      "BESIN-3004",
+      "BESIN-3158"
+    ]
+  },
+  {
+    "id": "BESIN-3135",
+    "ad": "Bebek Ispanak (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.74,
+    "karbonhidrat100g": 3.64,
+    "yag100g": 0.41,
+    "kalori100g": 21.9,
+    "fiyat100g": 1.17,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3070",
+      "BESIN-3169"
+    ]
+  },
+  {
+    "id": "BESIN-3136",
+    "ad": "Karalahana Sarması (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.83,
+    "karbonhidrat100g": 12.7,
+    "yag100g": 3.05,
+    "kalori100g": 113.4,
+    "fiyat100g": 3.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3152",
+      "BESIN-3014",
+      "BESIN-3083"
+    ]
+  },
+  {
+    "id": "BESIN-3137",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.69,
+    "karbonhidrat100g": 9.52,
+    "yag100g": 0.1,
+    "kalori100g": 42.9,
+    "fiyat100g": 1.75,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3068",
+      "BESIN-3015"
+    ]
+  },
+  {
+    "id": "BESIN-3138",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.57,
+    "karbonhidrat100g": 9.77,
+    "yag100g": 0.1,
+    "kalori100g": 42.6,
+    "fiyat100g": 1.7,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3009",
+      "BESIN-3044"
+    ]
+  },
+  {
+    "id": "BESIN-3139",
+    "ad": "Kabak Spagetti (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.14,
+    "karbonhidrat100g": 2.93,
+    "yag100g": 0.31,
+    "kalori100g": 20.2,
+    "fiyat100g": 2.45,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3072",
+      "BESIN-3029",
+      "BESIN-3053"
+    ]
+  },
+  {
+    "id": "BESIN-3140",
+    "ad": "Karalahana Sarması (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.91,
+    "karbonhidrat100g": 11.66,
+    "yag100g": 3.08,
+    "kalori100g": 106.2,
+    "fiyat100g": 3.85,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3036",
+      "BESIN-3014"
+    ]
+  },
+  {
+    "id": "BESIN-3141",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.47,
+    "karbonhidrat100g": 6.59,
+    "yag100g": 6.08,
+    "kalori100g": 94.7,
+    "fiyat100g": 2.24,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3050",
+      "BESIN-3045",
+      "BESIN-3051"
+    ]
+  },
+  {
+    "id": "BESIN-3142",
+    "ad": "Köz Patlıcan (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.03,
+    "karbonhidrat100g": 5.69,
+    "yag100g": 0.2,
+    "kalori100g": 29.9,
+    "fiyat100g": 1.04,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3059",
+      "BESIN-3074",
+      "BESIN-3104"
+    ]
+  },
+  {
+    "id": "BESIN-3143",
+    "ad": "Kuzu Kulağı (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.44,
+    "karbonhidrat100g": 3.78,
+    "yag100g": 0.68,
+    "kalori100g": 26.3,
+    "fiyat100g": 1.95,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3175",
+      "BESIN-3164",
+      "BESIN-3008"
+    ]
+  },
+  {
+    "id": "BESIN-3144",
+    "ad": "Şalgam (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.53,
+    "karbonhidrat100g": 4.37,
+    "yag100g": 0.11,
+    "kalori100g": 20.7,
+    "fiyat100g": 0.82,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3019",
+      "BESIN-3020"
+    ]
+  },
+  {
+    "id": "BESIN-3145",
+    "ad": "Kapya Biber (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.14,
+    "karbonhidrat100g": 5.9,
+    "yag100g": 0.31,
+    "kalori100g": 30.2,
+    "fiyat100g": 1.28,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3144",
+      "BESIN-3136"
+    ]
+  },
+  {
+    "id": "BESIN-3146",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.71,
+    "karbonhidrat100g": 14.07,
+    "yag100g": 0.39,
+    "kalori100g": 76.5,
+    "fiyat100g": 1.69,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3012",
+      "BESIN-3197"
+    ]
+  },
+  {
+    "id": "BESIN-3147",
+    "ad": "Şalgam (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.49,
+    "karbonhidrat100g": 4.31,
+    "yag100g": 0.1,
+    "kalori100g": 18.8,
+    "fiyat100g": 0.83,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3142",
+      "BESIN-3118",
+      "BESIN-3163"
+    ]
+  },
+  {
+    "id": "BESIN-3148",
+    "ad": "Karalahana Sarması (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.97,
+    "karbonhidrat100g": 12.38,
+    "yag100g": 2.98,
+    "kalori100g": 107.4,
+    "fiyat100g": 3.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3088",
+      "BESIN-3108",
+      "BESIN-3144"
+    ]
+  },
+  {
+    "id": "BESIN-3149",
+    "ad": "Brokolini (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.8,
+    "karbonhidrat100g": 7.38,
+    "yag100g": 0.29,
+    "kalori100g": 35.6,
+    "fiyat100g": 4.72,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3084",
+      "BESIN-3055"
+    ]
+  },
+  {
+    "id": "BESIN-3150",
+    "ad": "Beyaz Lahana (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.23,
+    "karbonhidrat100g": 6.17,
+    "yag100g": 0.1,
+    "kalori100g": 25.4,
+    "fiyat100g": 0.86,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3173",
+      "BESIN-3162"
+    ]
+  },
+  {
+    "id": "BESIN-3151",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.1,
+    "karbonhidrat100g": 7.67,
+    "yag100g": 0.39,
+    "kalori100g": 41.0,
+    "fiyat100g": 2.45,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3114",
+      "BESIN-3158"
+    ]
+  },
+  {
+    "id": "BESIN-3152",
+    "ad": "Kabak Spagetti (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.26,
+    "karbonhidrat100g": 3.03,
+    "yag100g": 0.31,
+    "kalori100g": 21.1,
+    "fiyat100g": 2.58,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3185",
+      "BESIN-3162",
+      "BESIN-3069"
+    ]
+  },
+  {
+    "id": "BESIN-3153",
+    "ad": "Brokolini (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.77,
+    "karbonhidrat100g": 6.69,
+    "yag100g": 0.31,
+    "kalori100g": 37.0,
+    "fiyat100g": 5.1,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3162",
+      "BESIN-3010"
+    ]
+  },
+  {
+    "id": "BESIN-3154",
+    "ad": "Turp (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.98,
+    "karbonhidrat100g": 3.6,
+    "yag100g": 0.1,
+    "kalori100g": 16.5,
+    "fiyat100g": 0.87,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3174",
+      "BESIN-3017"
+    ]
+  },
+  {
+    "id": "BESIN-3155",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.03,
+    "karbonhidrat100g": 3.33,
+    "yag100g": 0.29,
+    "kalori100g": 34.4,
+    "fiyat100g": 3.09,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3163",
+      "BESIN-3199"
+    ]
+  },
+  {
+    "id": "BESIN-3156",
+    "ad": "Karalahana Sarması (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.01,
+    "karbonhidrat100g": 12.37,
+    "yag100g": 3.04,
+    "kalori100g": 106.1,
+    "fiyat100g": 3.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3006",
+      "BESIN-3082"
+    ]
+  },
+  {
+    "id": "BESIN-3157",
+    "ad": "Kuzu Kulağı (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.16,
+    "karbonhidrat100g": 3.52,
+    "yag100g": 0.69,
+    "kalori100g": 25.6,
+    "fiyat100g": 2.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3123",
+      "BESIN-3075",
+      "BESIN-3150"
+    ]
+  },
+  {
+    "id": "BESIN-3158",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.39,
+    "karbonhidrat100g": 11.79,
+    "yag100g": 0.19,
+    "kalori100g": 60.0,
+    "fiyat100g": 4.13,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3011",
+      "BESIN-3102",
+      "BESIN-3036"
+    ]
+  },
+  {
+    "id": "BESIN-3159",
+    "ad": "Beyaz Lahana (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.29,
+    "karbonhidrat100g": 5.7,
+    "yag100g": 0.1,
+    "kalori100g": 26.0,
+    "fiyat100g": 0.86,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3140",
+      "BESIN-3011",
+      "BESIN-3056"
+    ]
+  },
+  {
+    "id": "BESIN-3160",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.26,
+    "karbonhidrat100g": 3.44,
+    "yag100g": 0.3,
+    "kalori100g": 34.0,
+    "fiyat100g": 3.08,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3063",
+      "BESIN-3140"
+    ]
+  },
+  {
+    "id": "BESIN-3161",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.28,
+    "karbonhidrat100g": 3.37,
+    "yag100g": 0.29,
+    "kalori100g": 34.2,
+    "fiyat100g": 3.34,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3009",
+      "BESIN-3017"
+    ]
+  },
+  {
+    "id": "BESIN-3162",
+    "ad": "Dolmalık Biber (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.96,
+    "karbonhidrat100g": 4.55,
+    "yag100g": 0.21,
+    "kalori100g": 20.3,
+    "fiyat100g": 1.11,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3050",
+      "BESIN-3054",
+      "BESIN-3179"
+    ]
+  },
+  {
+    "id": "BESIN-3163",
+    "ad": "Dolmalık Biber (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.99,
+    "karbonhidrat100g": 4.84,
+    "yag100g": 0.21,
+    "kalori100g": 20.2,
+    "fiyat100g": 1.14,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3030",
+      "BESIN-3064"
+    ]
+  },
+  {
+    "id": "BESIN-3164",
+    "ad": "Bebek Ispanak (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.85,
+    "karbonhidrat100g": 3.4,
+    "yag100g": 0.38,
+    "kalori100g": 22.0,
+    "fiyat100g": 1.25,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3031",
+      "BESIN-3106",
+      "BESIN-3002"
+    ]
+  },
+  {
+    "id": "BESIN-3165",
+    "ad": "Şalgam (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.48,
+    "karbonhidrat100g": 4.16,
+    "yag100g": 0.1,
+    "kalori100g": 21.1,
+    "fiyat100g": 0.83,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3087",
+      "BESIN-3070"
+    ]
+  },
+  {
+    "id": "BESIN-3166",
+    "ad": "Beyaz Lahana (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.27,
+    "karbonhidrat100g": 6.06,
+    "yag100g": 0.1,
+    "kalori100g": 24.5,
+    "fiyat100g": 0.88,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3053",
+      "BESIN-3187",
+      "BESIN-3019"
+    ]
+  },
+  {
+    "id": "BESIN-3167",
+    "ad": "Kapya Biber (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.17,
+    "karbonhidrat100g": 6.28,
+    "yag100g": 0.31,
+    "kalori100g": 29.4,
+    "fiyat100g": 1.29,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3114",
+      "BESIN-3092",
+      "BESIN-3120"
+    ]
+  },
+  {
+    "id": "BESIN-3168",
+    "ad": "Kapya Biber (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.2,
+    "karbonhidrat100g": 6.27,
+    "yag100g": 0.3,
+    "kalori100g": 29.4,
+    "fiyat100g": 1.27,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3200",
+      "BESIN-3013"
+    ]
+  },
+  {
+    "id": "BESIN-3169",
+    "ad": "Kuzu Kulağı (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.33,
+    "karbonhidrat100g": 3.46,
+    "yag100g": 0.72,
+    "kalori100g": 28.2,
+    "fiyat100g": 2.08,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3039",
+      "BESIN-3116"
+    ]
+  },
+  {
+    "id": "BESIN-3170",
+    "ad": "Brokolini (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.72,
+    "karbonhidrat100g": 7.01,
+    "yag100g": 0.29,
+    "kalori100g": 36.4,
+    "fiyat100g": 5.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3033",
+      "BESIN-3188",
+      "BESIN-3135"
+    ]
+  },
+  {
+    "id": "BESIN-3171",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.27,
+    "karbonhidrat100g": 12.0,
+    "yag100g": 0.2,
+    "kalori100g": 59.3,
+    "fiyat100g": 4.04,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3017",
+      "BESIN-3009",
+      "BESIN-3084"
+    ]
+  },
+  {
+    "id": "BESIN-3172",
+    "ad": "Bebek Ispanak (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.93,
+    "karbonhidrat100g": 3.59,
+    "yag100g": 0.4,
+    "kalori100g": 22.1,
+    "fiyat100g": 1.26,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3077",
+      "BESIN-3156"
+    ]
+  },
+  {
+    "id": "BESIN-3173",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.01,
+    "karbonhidrat100g": 8.34,
+    "yag100g": 0.41,
+    "kalori100g": 40.5,
+    "fiyat100g": 2.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3014",
+      "BESIN-3104"
+    ]
+  },
+  {
+    "id": "BESIN-3174",
+    "ad": "Kuzu Kulağı (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.24,
+    "karbonhidrat100g": 3.67,
+    "yag100g": 0.67,
+    "kalori100g": 26.7,
+    "fiyat100g": 1.97,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3012",
+      "BESIN-3063",
+      "BESIN-3194"
+    ]
+  },
+  {
+    "id": "BESIN-3175",
+    "ad": "Brokolini (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.75,
+    "karbonhidrat100g": 7.05,
+    "yag100g": 0.31,
+    "kalori100g": 33.2,
+    "fiyat100g": 4.81,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3160",
+      "BESIN-3051"
+    ]
+  },
+  {
+    "id": "BESIN-3176",
+    "ad": "Enginar Kalbi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.35,
+    "karbonhidrat100g": 11.38,
+    "yag100g": 0.21,
+    "kalori100g": 61.2,
+    "fiyat100g": 4.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3155",
+      "BESIN-3179",
+      "BESIN-3092"
+    ]
+  },
+  {
+    "id": "BESIN-3177",
+    "ad": "Kapya Biber (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.21,
+    "karbonhidrat100g": 5.93,
+    "yag100g": 0.3,
+    "kalori100g": 30.5,
+    "fiyat100g": 1.33,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3095",
+      "BESIN-3002",
+      "BESIN-3072"
+    ]
+  },
+  {
+    "id": "BESIN-3178",
+    "ad": "Roka (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.55,
+    "karbonhidrat100g": 3.68,
+    "yag100g": 0.7,
+    "kalori100g": 25.9,
+    "fiyat100g": 1.57,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3061",
+      "BESIN-3074",
+      "BESIN-3048"
+    ]
+  },
+  {
+    "id": "BESIN-3179",
+    "ad": "Brokolini (organik)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.83,
+    "karbonhidrat100g": 6.94,
+    "yag100g": 0.3,
+    "kalori100g": 37.1,
+    "fiyat100g": 5.05,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3124",
+      "BESIN-3170"
+    ]
+  },
+  {
+    "id": "BESIN-3180",
+    "ad": "Turp (mini)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.96,
+    "karbonhidrat100g": 3.26,
+    "yag100g": 0.1,
+    "kalori100g": 15.6,
+    "fiyat100g": 0.89,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3178",
+      "BESIN-3077"
+    ]
+  },
+  {
+    "id": "BESIN-3181",
+    "ad": "Kereviz (zeytinyağlı) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.49,
+    "karbonhidrat100g": 7.29,
+    "yag100g": 5.83,
+    "kalori100g": 90.4,
+    "fiyat100g": 2.2,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3148",
+      "BESIN-3040"
+    ]
+  },
+  {
+    "id": "BESIN-3182",
+    "ad": "Kabak Spagetti (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.23,
+    "karbonhidrat100g": 2.99,
+    "yag100g": 0.3,
+    "kalori100g": 19.1,
+    "fiyat100g": 2.47,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3036",
+      "BESIN-3103"
+    ]
+  },
+  {
+    "id": "BESIN-3183",
+    "ad": "Bambu Filizi (konserve) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.68,
+    "karbonhidrat100g": 5.35,
+    "yag100g": 0.29,
+    "kalori100g": 27.0,
+    "fiyat100g": 3.83,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3194",
+      "BESIN-3081",
+      "BESIN-3001"
+    ]
+  },
+  {
+    "id": "BESIN-3184",
+    "ad": "Roka (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 2.46,
+    "karbonhidrat100g": 3.57,
+    "yag100g": 0.66,
+    "kalori100g": 26.1,
+    "fiyat100g": 1.45,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3192",
+      "BESIN-3128"
+    ]
+  },
+  {
+    "id": "BESIN-3185",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.07,
+    "karbonhidrat100g": 3.35,
+    "yag100g": 0.29,
+    "kalori100g": 34.0,
+    "fiyat100g": 3.39,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3038",
+      "BESIN-3200",
+      "BESIN-3001"
+    ]
+  },
+  {
+    "id": "BESIN-3186",
+    "ad": "Karalahana Sarması (büyük boy)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 4.1,
+    "karbonhidrat100g": 12.07,
+    "yag100g": 2.98,
+    "kalori100g": 111.7,
+    "fiyat100g": 3.63,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3175",
+      "BESIN-3027"
+    ]
+  },
+  {
+    "id": "BESIN-3187",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 3.08,
+    "karbonhidrat100g": 3.42,
+    "yag100g": 0.29,
+    "kalori100g": 36.5,
+    "fiyat100g": 3.31,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3104",
+      "BESIN-3169",
+      "BESIN-3119"
+    ]
+  },
+  {
+    "id": "BESIN-3188",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.26,
+    "karbonhidrat100g": 14.28,
+    "yag100g": 0.38,
+    "kalori100g": 80.3,
+    "fiyat100g": 1.52,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3143",
+      "BESIN-3040",
+      "BESIN-3182"
+    ]
+  },
+  {
+    "id": "BESIN-3189",
+    "ad": "Dolmalık Biber (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 0.96,
+    "karbonhidrat100g": 4.33,
+    "yag100g": 0.19,
+    "kalori100g": 19.0,
+    "fiyat100g": 1.16,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3151",
+      "BESIN-3160",
+      "BESIN-3179"
+    ]
+  },
+  {
+    "id": "BESIN-3190",
+    "ad": "Turp (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.0,
+    "karbonhidrat100g": 3.4,
+    "yag100g": 0.1,
+    "kalori100g": 16.6,
+    "fiyat100g": 0.91,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3124",
+      "BESIN-3176"
+    ]
+  },
+  {
+    "id": "BESIN-3191",
+    "ad": "Köz Patlıcan (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.96,
+    "karbonhidrat100g": 5.6,
+    "yag100g": 0.19,
+    "kalori100g": 29.7,
+    "fiyat100g": 1.16,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3196",
+      "BESIN-3035",
+      "BESIN-3115"
+    ]
+  },
+  {
+    "id": "BESIN-3192",
+    "ad": "Pancar (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.64,
+    "karbonhidrat100g": 9.5,
+    "yag100g": 0.1,
+    "kalori100g": 44.9,
+    "fiyat100g": 1.76,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3151",
+      "BESIN-3141"
+    ]
+  },
+  {
+    "id": "BESIN-3193",
+    "ad": "Köz Patlıcan (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.97,
+    "karbonhidrat100g": 6.23,
+    "yag100g": 0.19,
+    "kalori100g": 30.7,
+    "fiyat100g": 1.14,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3026",
+      "BESIN-3125"
+    ]
+  },
+  {
+    "id": "BESIN-3194",
+    "ad": "Beyaz Lahana (hazır paket)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.36,
+    "karbonhidrat100g": 6.35,
+    "yag100g": 0.1,
+    "kalori100g": 24.4,
+    "fiyat100g": 0.92,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3140",
+      "BESIN-3200"
+    ]
+  },
+  {
+    "id": "BESIN-3195",
+    "ad": "Dolmalık Biber (mevsim)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 1.02,
+    "karbonhidrat100g": 4.67,
+    "yag100g": 0.19,
+    "kalori100g": 19.2,
+    "fiyat100g": 1.1,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3187",
+      "BESIN-3165",
+      "BESIN-3090"
+    ]
+  },
+  {
+    "id": "BESIN-3196",
+    "ad": "Brokolini (dilimli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.95,
+    "karbonhidrat100g": 6.63,
+    "yag100g": 0.3,
+    "kalori100g": 36.5,
+    "fiyat100g": 4.82,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3028",
+      "BESIN-3002"
+    ]
+  },
+  {
+    "id": "BESIN-3197",
+    "ad": "Börülce (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 1.9,
+    "karbonhidrat100g": 7.68,
+    "yag100g": 0.42,
+    "kalori100g": 40.5,
+    "fiyat100g": 2.44,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3133",
+      "BESIN-3092",
+      "BESIN-3186"
+    ]
+  },
+  {
+    "id": "BESIN-3198",
+    "ad": "Brokolini (yerli)",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.7,
+    "karbonhidrat100g": 6.96,
+    "yag100g": 0.29,
+    "kalori100g": 34.2,
+    "fiyat100g": 4.91,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3165",
+      "BESIN-3085",
+      "BESIN-3115"
+    ]
+  },
+  {
+    "id": "BESIN-3199",
+    "ad": "Taze Mantar (ızgara) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 2.94,
+    "karbonhidrat100g": 3.25,
+    "yag100g": 0.31,
+    "kalori100g": 33.9,
+    "fiyat100g": 3.17,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-3179",
+      "BESIN-3103"
+    ]
+  },
+  {
+    "id": "BESIN-3200",
+    "ad": "Taze Bezelye (haşlanmış) v2",
+    "kategori": "sebze",
+    "uygunOgunler": [
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 5.22,
+    "karbonhidrat100g": 13.25,
+    "yag100g": 0.4,
+    "kalori100g": 78.9,
+    "fiyat100g": 1.6,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-3006",
+      "BESIN-3103"
+    ]
+  }
+]

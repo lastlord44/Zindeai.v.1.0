@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "ARA1_1101",
+    "ad": "Süzme Yoğurt + Çilek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 50g",
+      "Bal 10g"
+    ],
+    "kalori": 180,
+    "protein": 15,
+    "karbonhidrat": 20,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1102",
+    "ad": "Protein Smoothie Çilek-Muz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 221,
+    "protein": 26,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1103",
+    "ad": "Badem Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 242,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 18
+  },
+  {
+    "id": "ARA1_1104",
+    "ad": "Elma Dilim",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 153g"
+    ],
+    "kalori": 83,
+    "protein": 2,
+    "karbonhidrat": 21,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1105",
+    "ad": "Beyaz Peynir + Tam Buğday Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 44g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 164,
+    "protein": 16,
+    "karbonhidrat": 19,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1106",
+    "ad": "Haşlanmış Yumurta (2 adet)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 2 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 145,
+    "protein": 17,
+    "karbonhidrat": 3,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1107",
+    "ad": "Protein Bar Çikolatalı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 206,
+    "protein": 26,
+    "karbonhidrat": 28,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1108",
+    "ad": "Havuç Stick + Humus",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 137,
+    "protein": 9,
+    "karbonhidrat": 21,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1109",
+    "ad": "Avokado Dilim + Limon",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 68g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 168,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 13
+  },
+  {
+    "id": "ARA1_1110",
+    "ad": "Fıstık Ezmesi + Elma Dilim",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 209,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1111",
+    "ad": "Kefir 200ml",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 100,
+    "protein": 9,
+    "karbonhidrat": 12,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1112",
+    "ad": "Ceviz İçi + Kuru Üzüm",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 221,
+    "protein": 9,
+    "karbonhidrat": 35,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1113",
+    "ad": "Mini Ton Balıklı Sandviç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 192,
+    "protein": 18,
+    "karbonhidrat": 22,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1114",
+    "ad": "Whey Protein Shake Vanilya",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 143,
+    "protein": 30,
+    "karbonhidrat": 10,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1115",
+    "ad": "Yoğurt Bowl (Yulaf + Meyve)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 234,
+    "protein": 18,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1116",
+    "ad": "Süzme Yoğurt + Yaban Mersini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 65g",
+      "Bal 10g"
+    ],
+    "kalori": 195,
+    "protein": 22,
+    "karbonhidrat": 23,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1117",
+    "ad": "Protein Smoothie Yaban Mersini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 236,
+    "protein": 31,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1118",
+    "ad": "Ceviz Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 257,
+    "protein": 10,
+    "karbonhidrat": 25,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1119",
+    "ad": "Portakal + Kivi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 168g"
+    ],
+    "kalori": 98,
+    "protein": 1,
+    "karbonhidrat": 24,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1120",
+    "ad": "Lor Peyniri + Galeta",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 59g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 179,
+    "protein": 13,
+    "karbonhidrat": 18,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1121",
+    "ad": "Haşlanmış Yumurta (1 adet) + Domates",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 1 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 160,
+    "protein": 16,
+    "karbonhidrat": 3,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1122",
+    "ad": "Protein Bar Fındıklı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 221,
+    "protein": 21,
+    "karbonhidrat": 28,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1123",
+    "ad": "Kereviz + Fıstık Ezmesi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 152,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1124",
+    "ad": "Avokado + Tam Tahıl Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 83g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 183,
+    "protein": 5,
+    "karbonhidrat": 14,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1125",
+    "ad": "Fıstık Ezmesi + Muz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 224,
+    "protein": 12,
+    "karbonhidrat": 22,
+    "yag": 12
+  },
+  {
+    "id": "ARA1_1126",
+    "ad": "Ayran 250ml",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 115,
+    "protein": 8,
+    "karbonhidrat": 11,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1127",
+    "ad": "İncir + Badem",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 236,
+    "protein": 8,
+    "karbonhidrat": 26,
+    "yag": 16
+  },
+  {
+    "id": "ARA1_1128",
+    "ad": "Mini Beyaz Peynirli Sandviç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 207,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1129",
+    "ad": "Whey Protein Shake Çikolata",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 158,
+    "protein": 29,
+    "karbonhidrat": 9,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1130",
+    "ad": "Açai Bowl Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 249,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1131",
+    "ad": "Süzme Yoğurt + Muz + Tarçın",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 50g",
+      "Bal 10g"
+    ],
+    "kalori": 210,
+    "protein": 21,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1132",
+    "ad": "Protein Smoothie Çikolatalı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 251,
+    "protein": 26,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1133",
+    "ad": "Fındık Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 272,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 16
+  },
+  {
+    "id": "ARA1_1134",
+    "ad": "Muz + Çilek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 183g"
+    ],
+    "kalori": 113,
+    "protein": 2,
+    "karbonhidrat": 27,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1135",
+    "ad": "Çökelek + Kepekli Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 54g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 194,
+    "protein": 16,
+    "karbonhidrat": 17,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1136",
+    "ad": "Haşlanmış Yumurta + Salatalık",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 2 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 175,
+    "protein": 15,
+    "karbonhidrat": 3,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1137",
+    "ad": "Protein Bar Bademli",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 236,
+    "protein": 26,
+    "karbonhidrat": 28,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1138",
+    "ad": "Salatalık Dilim + Tahin",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 167,
+    "protein": 7,
+    "karbonhidrat": 19,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1139",
+    "ad": "Avokado + Domates",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 98g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 198,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 19
+  },
+  {
+    "id": "ARA1_1140",
+    "ad": "Fıstık Ezmesi + Kereviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 239,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1141",
+    "ad": "Kefir + Çilek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 130,
+    "protein": 7,
+    "karbonhidrat": 10,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1142",
+    "ad": "Hurma + Ceviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 251,
+    "protein": 7,
+    "karbonhidrat": 29,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1143",
+    "ad": "Mini Tavuklu Wrap",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 222,
+    "protein": 16,
+    "karbonhidrat": 22,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1144",
+    "ad": "Whey Protein Shake Çilek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 173,
+    "protein": 28,
+    "karbonhidrat": 8,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1145",
+    "ad": "Protein Pudding",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 264,
+    "protein": 16,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1146",
+    "ad": "Süzme Yoğurt + Bal + Ceviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 65g",
+      "Bal 10g"
+    ],
+    "kalori": 185,
+    "protein": 20,
+    "karbonhidrat": 29,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1147",
+    "ad": "Protein Smoothie Muzlu",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 266,
+    "protein": 31,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1148",
+    "ad": "Antep Fıstığı Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 287,
+    "protein": 10,
+    "karbonhidrat": 25,
+    "yag": 23
+  },
+  {
+    "id": "ARA1_1149",
+    "ad": "Üzüm + Armut",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 198g"
+    ],
+    "kalori": 88,
+    "protein": 1,
+    "karbonhidrat": 18,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1150",
+    "ad": "Labne + Tam Tahıl Ekmek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 49g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 209,
+    "protein": 13,
+    "karbonhidrat": 16,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1151",
+    "ad": "Çırpılmış Yumurta Light",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 1 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 190,
+    "protein": 14,
+    "karbonhidrat": 3,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1152",
+    "ad": "Protein Bar Yer Fıstıklı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 251,
+    "protein": 21,
+    "karbonhidrat": 28,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1153",
+    "ad": "Biber Dilim + Humus",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 132,
+    "protein": 6,
+    "karbonhidrat": 18,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1154",
+    "ad": "Guacamole + Sebze Stick",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 73g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 213,
+    "protein": 5,
+    "karbonhidrat": 14,
+    "yag": 18
+  },
+  {
+    "id": "ARA1_1155",
+    "ad": "Fıstık Ezmesi + Tam Tahıl Ekmek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 254,
+    "protein": 12,
+    "karbonhidrat": 22,
+    "yag": 12
+  },
+  {
+    "id": "ARA1_1156",
+    "ad": "Ayran + Nane",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 95,
+    "protein": 10,
+    "karbonhidrat": 17,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1157",
+    "ad": "Kuru Kayısı + Antep Fıstığı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 266,
+    "protein": 6,
+    "karbonhidrat": 32,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1158",
+    "ad": "Tam Tahıl Ekmek + Avokado",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 237,
+    "protein": 15,
+    "karbonhidrat": 27,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1159",
+    "ad": "Casein Protein Shake",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 138,
+    "protein": 27,
+    "karbonhidrat": 7,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1160",
+    "ad": "Chia Pudding",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 279,
+    "protein": 15,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1161",
+    "ad": "Süzme Yoğurt + Frambuaz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 50g",
+      "Bal 10g"
+    ],
+    "kalori": 200,
+    "protein": 19,
+    "karbonhidrat": 20,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1162",
+    "ad": "Protein Smoothie Karışık Meyveli",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 231,
+    "protein": 26,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1163",
+    "ad": "Karışık Kuruyemiş",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 242,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 22
+  },
+  {
+    "id": "ARA1_1164",
+    "ad": "Kavun Dilim",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 163g"
+    ],
+    "kalori": 103,
+    "protein": 2,
+    "karbonhidrat": 21,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1165",
+    "ad": "Beyaz Peynir + Yulaf Krateri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 44g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 174,
+    "protein": 16,
+    "karbonhidrat": 15,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1166",
+    "ad": "Omlet Mini (1 yumurta)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 2 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 145,
+    "protein": 13,
+    "karbonhidrat": 3,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1167",
+    "ad": "Protein Bar Vanilya",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 266,
+    "protein": 26,
+    "karbonhidrat": 28,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1168",
+    "ad": "Havuç + Tzatziki",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 147,
+    "protein": 9,
+    "karbonhidrat": 17,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1169",
+    "ad": "Avokado + Haşlanmış Yumurta",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 88g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 228,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1170",
+    "ad": "Badem Ezmesi + Elma",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 209,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1171",
+    "ad": "Kefir + Muz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 110,
+    "protein": 9,
+    "karbonhidrat": 16,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1172",
+    "ad": "Kuru Erik + Ceviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 211,
+    "protein": 9,
+    "karbonhidrat": 35,
+    "yag": 12
+  },
+  {
+    "id": "ARA1_1173",
+    "ad": "Kepekli Ekmek + Labne",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 182,
+    "protein": 14,
+    "karbonhidrat": 22,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1174",
+    "ad": "Vegan Protein Shake",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 153,
+    "protein": 26,
+    "karbonhidrat": 6,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1175",
+    "ad": "Overnight Oats",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 294,
+    "protein": 14,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1176",
+    "ad": "Süzme Yoğurt + Elma + Badem",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 65g",
+      "Bal 10g"
+    ],
+    "kalori": 215,
+    "protein": 18,
+    "karbonhidrat": 23,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1177",
+    "ad": "Protein Smoothie Frambuazlı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 246,
+    "protein": 31,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1178",
+    "ad": "Fıstık + Kuru Üzüm Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 257,
+    "protein": 10,
+    "karbonhidrat": 25,
+    "yag": 21
+  },
+  {
+    "id": "ARA1_1179",
+    "ad": "Karpuz Dilim",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 178g"
+    ],
+    "kalori": 118,
+    "protein": 1,
+    "karbonhidrat": 24,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1180",
+    "ad": "Cottage Cheese + Tam Tahıl",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 59g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 189,
+    "protein": 13,
+    "karbonhidrat": 22,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1181",
+    "ad": "Yumurta + Avokado Dilim",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 1 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 160,
+    "protein": 12,
+    "karbonhidrat": 3,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1182",
+    "ad": "Protein Bar Karamel",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 201,
+    "protein": 21,
+    "karbonhidrat": 28,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1183",
+    "ad": "Kereviz + Labne",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 162,
+    "protein": 8,
+    "karbonhidrat": 16,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1184",
+    "ad": "Avokado Toast Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 63g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 173,
+    "protein": 5,
+    "karbonhidrat": 14,
+    "yag": 16
+  },
+  {
+    "id": "ARA1_1185",
+    "ad": "Fındık Ezmesi + Muz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 224,
+    "protein": 12,
+    "karbonhidrat": 22,
+    "yag": 12
+  },
+  {
+    "id": "ARA1_1186",
+    "ad": "Probiyotik İçecek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 125,
+    "protein": 8,
+    "karbonhidrat": 15,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1187",
+    "ad": "Fındık + Kuru Dut",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 226,
+    "protein": 8,
+    "karbonhidrat": 26,
+    "yag": 13
+  },
+  {
+    "id": "ARA1_1188",
+    "ad": "Mini Hindi Füme Sandviç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 197,
+    "protein": 21,
+    "karbonhidrat": 27,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1189",
+    "ad": "Protein Shake + Muz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 168,
+    "protein": 25,
+    "karbonhidrat": 5,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1190",
+    "ad": "Granola Bowl",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 229,
+    "protein": 13,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1191",
+    "ad": "Süzme Yoğurt + Kivi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 50g",
+      "Bal 10g"
+    ],
+    "kalori": 190,
+    "protein": 17,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1192",
+    "ad": "Protein Smoothie Mangolu",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 261,
+    "protein": 26,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1193",
+    "ad": "Badem + Kuru Kayısı Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 272,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1194",
+    "ad": "Şeftali + Kiraz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 193g"
+    ],
+    "kalori": 93,
+    "protein": 2,
+    "karbonhidrat": 27,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1195",
+    "ad": "Kaşar Peyniri + Kepekli Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 54g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 204,
+    "protein": 16,
+    "karbonhidrat": 21,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1196",
+    "ad": "Yumurta + Cherry Domates",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 2 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 175,
+    "protein": 19,
+    "karbonhidrat": 3,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1197",
+    "ad": "Ev Yapımı Enerji Topu",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 216,
+    "protein": 26,
+    "karbonhidrat": 28,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1198",
+    "ad": "Cherry Domates + Humus",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 177,
+    "protein": 7,
+    "karbonhidrat": 15,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1199",
+    "ad": "Avokado + Kırmızı Biber",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 78g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 188,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1200",
+    "ad": "Fıstık Ezmesi + Hurma",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 239,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1201",
+    "ad": "Kefir + Yaban Mersini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 90,
+    "protein": 7,
+    "karbonhidrat": 14,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1202",
+    "ad": "Leblebi (Kavurga)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 241,
+    "protein": 7,
+    "karbonhidrat": 29,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1203",
+    "ad": "Tam Tahıl + Humus",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 212,
+    "protein": 20,
+    "karbonhidrat": 22,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1204",
+    "ad": "Protein Shake + Yulaf",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 133,
+    "protein": 32,
+    "karbonhidrat": 12,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1205",
+    "ad": "Smoothie Bowl",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 244,
+    "protein": 12,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1206",
+    "ad": "Süzme Yoğurt + Mango",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 65g",
+      "Bal 10g"
+    ],
+    "kalori": 205,
+    "protein": 16,
+    "karbonhidrat": 29,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1207",
+    "ad": "Green Protein Smoothie",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 226,
+    "protein": 31,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1208",
+    "ad": "Ceviz + Hurma Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 287,
+    "protein": 10,
+    "karbonhidrat": 25,
+    "yag": 19
+  },
+  {
+    "id": "ARA1_1209",
+    "ad": "Nar Taneleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 158g"
+    ],
+    "kalori": 108,
+    "protein": 1,
+    "karbonhidrat": 18,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1210",
+    "ad": "Tulum Peyniri + Tam Buğday",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 49g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 169,
+    "protein": 13,
+    "karbonhidrat": 20,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1211",
+    "ad": "Haşlanmış Yumurta + Marul",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 1 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 190,
+    "protein": 18,
+    "karbonhidrat": 3,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1212",
+    "ad": "Protein Brownie",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 231,
+    "protein": 21,
+    "karbonhidrat": 28,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1213",
+    "ad": "Sebze Mix + Avokado Dip",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 142,
+    "protein": 6,
+    "karbonhidrat": 14,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1214",
+    "ad": "Avokado + Roka",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 93g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 203,
+    "protein": 5,
+    "karbonhidrat": 14,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1215",
+    "ad": "Badem Ezmesi + Kereviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 254,
+    "protein": 12,
+    "karbonhidrat": 22,
+    "yag": 12
+  },
+  {
+    "id": "ARA1_1216",
+    "ad": "Ayran + Salatalık",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 105,
+    "protein": 10,
+    "karbonhidrat": 13,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1217",
+    "ad": "Çekirdek Karışımı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 256,
+    "protein": 6,
+    "karbonhidrat": 32,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1218",
+    "ad": "Light Sandviç (Yumurta)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 227,
+    "protein": 19,
+    "karbonhidrat": 27,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1219",
+    "ad": "Protein Coffee",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 148,
+    "protein": 31,
+    "karbonhidrat": 11,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1220",
+    "ad": "Yoğurt Parfait",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 259,
+    "protein": 19,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1221",
+    "ad": "Süzme Yoğurt + Böğürtlen",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 50g",
+      "Bal 10g"
+    ],
+    "kalori": 180,
+    "protein": 15,
+    "karbonhidrat": 20,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1222",
+    "ad": "Protein Smoothie Vişneli",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 241,
+    "protein": 26,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1223",
+    "ad": "Fındık + Kuru Erik Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 242,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 18
+  },
+  {
+    "id": "ARA1_1224",
+    "ad": "Mandalina",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 173g"
+    ],
+    "kalori": 83,
+    "protein": 2,
+    "karbonhidrat": 21,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1225",
+    "ad": "Ezine Peyniri + Galeta",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 44g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 184,
+    "protein": 16,
+    "karbonhidrat": 19,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1226",
+    "ad": "Yumurta + Tam Tahıl Ekmek Dilimi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 2 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 145,
+    "protein": 17,
+    "karbonhidrat": 3,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1227",
+    "ad": "Protein Cookie",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 246,
+    "protein": 26,
+    "karbonhidrat": 28,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1228",
+    "ad": "Havuç + Yoğurt Sos",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 157,
+    "protein": 9,
+    "karbonhidrat": 21,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1229",
+    "ad": "Avokado Salatası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 68g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 218,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 13
+  },
+  {
+    "id": "ARA1_1230",
+    "ad": "Fıstık Ezmesi + Galeta",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 209,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1231",
+    "ad": "Kefir Smoothie",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 120,
+    "protein": 9,
+    "karbonhidrat": 12,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1232",
+    "ad": "Kuru Meyve Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 271,
+    "protein": 9,
+    "karbonhidrat": 35,
+    "yag": 16
+  },
+  {
+    "id": "ARA1_1233",
+    "ad": "Sebzeli Mini Wrap",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 242,
+    "protein": 18,
+    "karbonhidrat": 22,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1234",
+    "ad": "Protein Shake Karamel",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 163,
+    "protein": 30,
+    "karbonhidrat": 10,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1235",
+    "ad": "Meyve Salatası Bowl",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 274,
+    "protein": 18,
+    "karbonhidrat": 42,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1236",
+    "ad": "Süzme Yoğurt + Nar + Ceviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Süzme yoğurt 200g",
+      "Meyve 65g",
+      "Bal 10g"
+    ],
+    "kalori": 195,
+    "protein": 22,
+    "karbonhidrat": 23,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1237",
+    "ad": "Protein Smoothie Kayısılı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Süt 200ml",
+      "Meyve 100g",
+      "Yulaf 20g"
+    ],
+    "kalori": 256,
+    "protein": 31,
+    "karbonhidrat": 26,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1238",
+    "ad": "Kaju + Kuru İncir Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık kuruyemiş 40g",
+      "Kuru meyve 20g"
+    ],
+    "kalori": 257,
+    "protein": 10,
+    "karbonhidrat": 25,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1239",
+    "ad": "Greyfurt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 188g"
+    ],
+    "kalori": 98,
+    "protein": 1,
+    "karbonhidrat": 24,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1240",
+    "ad": "Light Peynir + Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Peynir 59g",
+      "Tam tahıl kraker 30g"
+    ],
+    "kalori": 199,
+    "protein": 13,
+    "karbonhidrat": 18,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1241",
+    "ad": "Poşe Yumurta",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Yumurta 1 adet",
+      "Sebze 50g"
+    ],
+    "kalori": 160,
+    "protein": 16,
+    "karbonhidrat": 3,
+    "yag": 11
+  },
+  {
+    "id": "ARA1_1242",
+    "ad": "Quest Bar",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Protein bar 60g"
+    ],
+    "kalori": 261,
+    "protein": 21,
+    "karbonhidrat": 28,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1243",
+    "ad": "Kabak Dilim + Humus",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze sebze 150g",
+      "Dip sos 40g"
+    ],
+    "kalori": 172,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 9
+  },
+  {
+    "id": "ARA1_1244",
+    "ad": "Avokado Smoothie Bowl",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Avokado 83g",
+      "Ek malzeme 30g"
+    ],
+    "kalori": 163,
+    "protein": 5,
+    "karbonhidrat": 14,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1245",
+    "ad": "Fıstık Ezmesi + Havuç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fıstık ezmesi 25g",
+      "Meyve/sebze 100g"
+    ],
+    "kalori": 224,
+    "protein": 12,
+    "karbonhidrat": 22,
+    "yag": 12
+  },
+  {
+    "id": "ARA1_1246",
+    "ad": "Buttermilk 250ml",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente süt ürünü 200ml",
+      "Ek tatlandırıcı (opsiyonel)"
+    ],
+    "kalori": 135,
+    "protein": 8,
+    "karbonhidrat": 11,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1247",
+    "ad": "Pestil + Ceviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuruyemiş 30g",
+      "Kuru meyve 30g"
+    ],
+    "kalori": 216,
+    "protein": 8,
+    "karbonhidrat": 26,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1248",
+    "ad": "Lor Peyniri Sandviç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tam tahıl ekmek 40g",
+      "Protein kaynağı 30g",
+      "Sebze 20g"
+    ],
+    "kalori": 187,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1249",
+    "ad": "Mass Gainer Shake Light",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Whey protein 30g",
+      "Su/Süt 250ml"
+    ],
+    "kalori": 178,
+    "protein": 29,
+    "karbonhidrat": 9,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1250",
+    "ad": "Cottage Cheese Bowl",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ana baz 150g",
+      "Topping 40g",
+      "Meyve 50g"
+    ],
+    "kalori": 289,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 10
+  }
+]

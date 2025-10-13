@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "ARA2_2451",
+    "ad": "Izgara Köfte Mini (1 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 40g",
+      "Baharat"
+    ],
+    "kalori": 110,
+    "protein": 18,
+    "karbonhidrat": 1,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2452",
+    "ad": "Edamame Protein Bowl",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 51g"
+    ],
+    "kalori": 121,
+    "protein": 15,
+    "karbonhidrat": 13,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2453",
+    "ad": "Sushi Roll Mini (2 parça)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 52g"
+    ],
+    "kalori": 92,
+    "protein": 9,
+    "karbonhidrat": 14,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2454",
+    "ad": "Tavuk Suyu Çorbası Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 153ml",
+      "Baharat"
+    ],
+    "kalori": 73,
+    "protein": 8,
+    "karbonhidrat": 13,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2455",
+    "ad": "Kefir + Chia (150ml)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 54g/ml"
+    ],
+    "kalori": 54,
+    "protein": 8,
+    "karbonhidrat": 10,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2456",
+    "ad": "Humus Mini Porsiyon (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 35g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 65,
+    "protein": 3,
+    "karbonhidrat": 12,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2457",
+    "ad": "Mini Protein Bowl (Tavuk)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 106g"
+    ],
+    "kalori": 156,
+    "protein": 18,
+    "karbonhidrat": 21,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2458",
+    "ad": "Air-Popped Popcorn (30g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 57g"
+    ],
+    "kalori": 27,
+    "protein": 2,
+    "karbonhidrat": 12,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2459",
+    "ad": "Chia Pudding Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 28g"
+    ],
+    "kalori": 108,
+    "protein": 16,
+    "karbonhidrat": 6,
+    "yag": 8
+  },
+  {
+    "id": "ARA2_2460",
+    "ad": "Yaban Mersini (80g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 69g"
+    ],
+    "kalori": 69,
+    "protein": 3,
+    "karbonhidrat": 23,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2461",
+    "ad": "Green Smoothie Light (200ml)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 160ml"
+    ],
+    "kalori": 100,
+    "protein": 8,
+    "karbonhidrat": 24,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2462",
+    "ad": "Zencefil Çayı + Hurma (2 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 26g"
+    ],
+    "kalori": 81,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2463",
+    "ad": "Acai Bowl Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 42g",
+      "Ek malzeme"
+    ],
+    "kalori": 92,
+    "protein": 10,
+    "karbonhidrat": 24,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2464",
+    "ad": "Mini Chicken Breast (60g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 53g",
+      "Baharat"
+    ],
+    "kalori": 103,
+    "protein": 17,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2465",
+    "ad": "Chamomile Tea + Bisküvi",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 34g"
+    ],
+    "kalori": 94,
+    "protein": 8,
+    "karbonhidrat": 16,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2466",
+    "ad": "Tavuk Şiş (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 55g",
+      "Baharat"
+    ],
+    "kalori": 125,
+    "protein": 19,
+    "karbonhidrat": 1,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2467",
+    "ad": "Soya Nugget (5 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 66g"
+    ],
+    "kalori": 136,
+    "protein": 20,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2468",
+    "ad": "Edamame (80g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 67g"
+    ],
+    "kalori": 107,
+    "protein": 8,
+    "karbonhidrat": 17,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2469",
+    "ad": "Sebze Çorbası (1 kase)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 168ml",
+      "Baharat"
+    ],
+    "kalori": 88,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2470",
+    "ad": "Sauerkraut (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 69g/ml"
+    ],
+    "kalori": 69,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2471",
+    "ad": "Muhammara (30g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 50g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 80,
+    "protein": 3,
+    "karbonhidrat": 11,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2472",
+    "ad": "Balanced Bento Box Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 121g"
+    ],
+    "kalori": 171,
+    "protein": 13,
+    "karbonhidrat": 24,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2473",
+    "ad": "Sebze Stick (200g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 72g"
+    ],
+    "kalori": 42,
+    "protein": 2,
+    "karbonhidrat": 11,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2474",
+    "ad": "Keten Tohumu + Yoğurt",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 43g"
+    ],
+    "kalori": 123,
+    "protein": 11,
+    "karbonhidrat": 9,
+    "yag": 15
+  },
+  {
+    "id": "ARA2_2475",
+    "ad": "Böğürtlen (70g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 84g"
+    ],
+    "kalori": 84,
+    "protein": 2,
+    "karbonhidrat": 14,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2476",
+    "ad": "Protein Smoothie Küçük",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 175ml"
+    ],
+    "kalori": 115,
+    "protein": 7,
+    "karbonhidrat": 15,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2477",
+    "ad": "Turmeric Latte Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 21g"
+    ],
+    "kalori": 96,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2478",
+    "ad": "Goji Berry Mix (20g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 57g",
+      "Ek malzeme"
+    ],
+    "kalori": 107,
+    "protein": 11,
+    "karbonhidrat": 24,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2479",
+    "ad": "Tuna Cake Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 68g",
+      "Baharat"
+    ],
+    "kalori": 118,
+    "protein": 20,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2480",
+    "ad": "Lavender Tea + Badem",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 24g"
+    ],
+    "kalori": 109,
+    "protein": 8,
+    "karbonhidrat": 19,
+    "yag": 9
+  },
+  {
+    "id": "ARA2_2481",
+    "ad": "Dana Parça Izgara (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 40g",
+      "Baharat"
+    ],
+    "kalori": 140,
+    "protein": 20,
+    "karbonhidrat": 1,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2482",
+    "ad": "Nohut Protein Snack",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 81g"
+    ],
+    "kalori": 151,
+    "protein": 15,
+    "karbonhidrat": 13,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2483",
+    "ad": "Miso Soup Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 82g"
+    ],
+    "kalori": 122,
+    "protein": 7,
+    "karbonhidrat": 20,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2484",
+    "ad": "Mantar Çorbası Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 183ml",
+      "Baharat"
+    ],
+    "kalori": 103,
+    "protein": 8,
+    "karbonhidrat": 13,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2485",
+    "ad": "Kimchi Light (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 84g/ml"
+    ],
+    "kalori": 84,
+    "protein": 8,
+    "karbonhidrat": 10,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2486",
+    "ad": "Baba Ghanoush (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 35g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 95,
+    "protein": 3,
+    "karbonhidrat": 10,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2487",
+    "ad": "Protein + Sebze Combo",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 136g"
+    ],
+    "kalori": 186,
+    "protein": 18,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2488",
+    "ad": "Cherry Domates (150g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 87g"
+    ],
+    "kalori": 57,
+    "protein": 2,
+    "karbonhidrat": 10,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2489",
+    "ad": "Ceviz (6 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 58g"
+    ],
+    "kalori": 138,
+    "protein": 16,
+    "karbonhidrat": 6,
+    "yag": 14
+  },
+  {
+    "id": "ARA2_2490",
+    "ad": "Frambuaz (80g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 99g"
+    ],
+    "kalori": 99,
+    "protein": 5,
+    "karbonhidrat": 17,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2491",
+    "ad": "Berry Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 190ml"
+    ],
+    "kalori": 130,
+    "protein": 6,
+    "karbonhidrat": 18,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2492",
+    "ad": "Cinnamon Apple Slices",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 16g"
+    ],
+    "kalori": 111,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2493",
+    "ad": "Spirulina Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 32g",
+      "Ek malzeme"
+    ],
+    "kalori": 122,
+    "protein": 5,
+    "karbonhidrat": 24,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2494",
+    "ad": "Salmon Patty Small",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 43g",
+      "Baharat"
+    ],
+    "kalori": 133,
+    "protein": 23,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2495",
+    "ad": "Valerian Root Tea + Hurma",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 39g"
+    ],
+    "kalori": 124,
+    "protein": 8,
+    "karbonhidrat": 22,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2496",
+    "ad": "Hindi Köftesi Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 55g",
+      "Baharat"
+    ],
+    "kalori": 155,
+    "protein": 21,
+    "karbonhidrat": 1,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2497",
+    "ad": "Bezelye Proteini Bar",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 56g"
+    ],
+    "kalori": 166,
+    "protein": 20,
+    "karbonhidrat": 18,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2498",
+    "ad": "Wakame Salad Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 97g"
+    ],
+    "kalori": 137,
+    "protein": 14,
+    "karbonhidrat": 23,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2499",
+    "ad": "Domates Çorbası",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 198ml",
+      "Baharat"
+    ],
+    "kalori": 118,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2500",
+    "ad": "Pickles Çeşitleri (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 99g/ml"
+    ],
+    "kalori": 99,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2501",
+    "ad": "Tzatziki (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 50g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 110,
+    "protein": 3,
+    "karbonhidrat": 9,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2502",
+    "ad": "Tahıl + Protein Mix",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 151g"
+    ],
+    "kalori": 201,
+    "protein": 13,
+    "karbonhidrat": 18,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2503",
+    "ad": "Salatalık Dilimleri (200g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 102g"
+    ],
+    "kalori": 22,
+    "protein": 2,
+    "karbonhidrat": 9,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2504",
+    "ad": "Somon Füme Mini (30g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 33g"
+    ],
+    "kalori": 153,
+    "protein": 11,
+    "karbonhidrat": 9,
+    "yag": 13
+  },
+  {
+    "id": "ARA2_2505",
+    "ad": "Nar Taneleri (100g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 64g"
+    ],
+    "kalori": 114,
+    "protein": 4,
+    "karbonhidrat": 20,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2506",
+    "ad": "Detox Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 205ml"
+    ],
+    "kalori": 145,
+    "protein": 13,
+    "karbonhidrat": 21,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2507",
+    "ad": "Ginger Shot + Bal",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 31g"
+    ],
+    "kalori": 126,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2508",
+    "ad": "Chia Seed Pudding",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 47g",
+      "Ek malzeme"
+    ],
+    "kalori": 137,
+    "protein": 6,
+    "karbonhidrat": 24,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2509",
+    "ad": "Turkey Meatball (2 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 58g",
+      "Baharat"
+    ],
+    "kalori": 148,
+    "protein": 26,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2510",
+    "ad": "Passionflower Tea + Ceviz",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 29g"
+    ],
+    "kalori": 139,
+    "protein": 8,
+    "karbonhidrat": 25,
+    "yag": 9
+  },
+  {
+    "id": "ARA2_2511",
+    "ad": "Izgara Tavuk But (60g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 40g",
+      "Baharat"
+    ],
+    "kalori": 170,
+    "protein": 22,
+    "karbonhidrat": 1,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2512",
+    "ad": "Mercimek Protein Topu",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 71g"
+    ],
+    "kalori": 181,
+    "protein": 15,
+    "karbonhidrat": 13,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2513",
+    "ad": "Tofu Stick (3 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 62g"
+    ],
+    "kalori": 152,
+    "protein": 13,
+    "karbonhidrat": 14,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2514",
+    "ad": "Brokoli Çorbası",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 213ml",
+      "Baharat"
+    ],
+    "kalori": 133,
+    "protein": 8,
+    "karbonhidrat": 13,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2515",
+    "ad": "Fermented Vegetables Mix",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 114g/ml"
+    ],
+    "kalori": 114,
+    "protein": 8,
+    "karbonhidrat": 10,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2516",
+    "ad": "Haydari (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 35g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 125,
+    "protein": 3,
+    "karbonhidrat": 8,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2517",
+    "ad": "Yoğurt + Yulaf + Meyve",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 166g"
+    ],
+    "kalori": 216,
+    "protein": 18,
+    "karbonhidrat": 21,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2518",
+    "ad": "Jelatin Sugar-Free",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 117g"
+    ],
+    "kalori": 37,
+    "protein": 2,
+    "karbonhidrat": 8,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2519",
+    "ad": "Sardalya (1 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 48g"
+    ],
+    "kalori": 168,
+    "protein": 16,
+    "karbonhidrat": 6,
+    "yag": 12
+  },
+  {
+    "id": "ARA2_2520",
+    "ad": "Bitter Çikolata (15g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 79g"
+    ],
+    "kalori": 129,
+    "protein": 3,
+    "karbonhidrat": 23,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2521",
+    "ad": "Mango Smoothie Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 220ml"
+    ],
+    "kalori": 160,
+    "protein": 12,
+    "karbonhidrat": 24,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2522",
+    "ad": "Tarçınlı Yoğurt",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 26g"
+    ],
+    "kalori": 141,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2523",
+    "ad": "Maca Powder Shake",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 62g",
+      "Ek malzeme"
+    ],
+    "kalori": 152,
+    "protein": 7,
+    "karbonhidrat": 24,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2524",
+    "ad": "Fish Stick Light (2 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 73g",
+      "Baharat"
+    ],
+    "kalori": 163,
+    "protein": 17,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2525",
+    "ad": "Warm Milk + Tarçın",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 44g"
+    ],
+    "kalori": 154,
+    "protein": 8,
+    "karbonhidrat": 16,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2526",
+    "ad": "Dana Jambon Light (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 55g",
+      "Baharat"
+    ],
+    "kalori": 185,
+    "protein": 23,
+    "karbonhidrat": 1,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2527",
+    "ad": "Fasulye Protein Mix",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 86g"
+    ],
+    "kalori": 196,
+    "protein": 20,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2528",
+    "ad": "Spring Roll Light (1 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 77g"
+    ],
+    "kalori": 167,
+    "protein": 12,
+    "karbonhidrat": 17,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2529",
+    "ad": "Ispanak Çorbası",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 228ml",
+      "Baharat"
+    ],
+    "kalori": 78,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2530",
+    "ad": "Probiotic Yogurt Drink",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 129g/ml"
+    ],
+    "kalori": 59,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2531",
+    "ad": "Acuka (30g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 50g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 70,
+    "protein": 3,
+    "karbonhidrat": 7,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2532",
+    "ad": "Cottage Cheese Bowl",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 101g"
+    ],
+    "kalori": 231,
+    "protein": 13,
+    "karbonhidrat": 24,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2533",
+    "ad": "Sparkling Water + Limon",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 132g"
+    ],
+    "kalori": 52,
+    "protein": 2,
+    "karbonhidrat": 7,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2534",
+    "ad": "Uskumru Füme Dilim (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 23g"
+    ],
+    "kalori": 103,
+    "protein": 11,
+    "karbonhidrat": 9,
+    "yag": 11
+  },
+  {
+    "id": "ARA2_2535",
+    "ad": "Yeşil Çay + Badem",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 94g"
+    ],
+    "kalori": 74,
+    "protein": 2,
+    "karbonhidrat": 14,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2536",
+    "ad": "Spinach + Banana Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 235ml"
+    ],
+    "kalori": 95,
+    "protein": 11,
+    "karbonhidrat": 15,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2537",
+    "ad": "Kimyon Çayı + Badem",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 21g"
+    ],
+    "kalori": 76,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2538",
+    "ad": "Wheatgrass Shot",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 37g",
+      "Ek malzeme"
+    ],
+    "kalori": 167,
+    "protein": 8,
+    "karbonhidrat": 24,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2539",
+    "ad": "Shrimp Skewer (3 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 48g",
+      "Baharat"
+    ],
+    "kalori": 178,
+    "protein": 20,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2540",
+    "ad": "Lemon Balm Tea + İncir",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 34g"
+    ],
+    "kalori": 89,
+    "protein": 8,
+    "karbonhidrat": 19,
+    "yag": 9
+  },
+  {
+    "id": "ARA2_2541",
+    "ad": "Tavuk Sote Küçük Porsiyon",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 40g",
+      "Baharat"
+    ],
+    "kalori": 110,
+    "protein": 24,
+    "karbonhidrat": 1,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2542",
+    "ad": "Kinoa Protein Ball",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 61g"
+    ],
+    "kalori": 131,
+    "protein": 15,
+    "karbonhidrat": 13,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2543",
+    "ad": "Dumpling (2 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 92g"
+    ],
+    "kalori": 102,
+    "protein": 11,
+    "karbonhidrat": 20,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2544",
+    "ad": "Balkabağı Çorbası",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 243ml",
+      "Baharat"
+    ],
+    "kalori": 93,
+    "protein": 8,
+    "karbonhidrat": 13,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2545",
+    "ad": "Kombucha Tea (200ml)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 64g/ml"
+    ],
+    "kalori": 74,
+    "protein": 8,
+    "karbonhidrat": 10,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2546",
+    "ad": "Taramasalata Light (30g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 35g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 85,
+    "protein": 3,
+    "karbonhidrat": 14,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2547",
+    "ad": "Kinoa + Sebze Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 116g"
+    ],
+    "kalori": 156,
+    "protein": 18,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2548",
+    "ad": "Ice Pop Sugar-Free",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 147g"
+    ],
+    "kalori": 67,
+    "protein": 2,
+    "karbonhidrat": 6,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2549",
+    "ad": "Badem (12 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 38g"
+    ],
+    "kalori": 118,
+    "protein": 16,
+    "karbonhidrat": 6,
+    "yag": 10
+  },
+  {
+    "id": "ARA2_2550",
+    "ad": "Ahududu (80g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 109g"
+    ],
+    "kalori": 89,
+    "protein": 5,
+    "karbonhidrat": 17,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2551",
+    "ad": "Kefir Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 150ml"
+    ],
+    "kalori": 110,
+    "protein": 10,
+    "karbonhidrat": 18,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2552",
+    "ad": "Karanfil Çayı + İncir",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 16g"
+    ],
+    "kalori": 91,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2553",
+    "ad": "Chlorella Tablet + Su",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 52g",
+      "Ek malzeme"
+    ],
+    "kalori": 92,
+    "protein": 9,
+    "karbonhidrat": 24,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2554",
+    "ad": "Egg White Frittata Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 63g",
+      "Baharat"
+    ],
+    "kalori": 103,
+    "protein": 23,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2555",
+    "ad": "Ashwagandha Tea + Fıstık",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 24g"
+    ],
+    "kalori": 104,
+    "protein": 8,
+    "karbonhidrat": 22,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2556",
+    "ad": "Izgara Biftek Dilim (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 55g",
+      "Baharat"
+    ],
+    "kalori": 125,
+    "protein": 25,
+    "karbonhidrat": 1,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2557",
+    "ad": "Amarant Protein Snack",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 76g"
+    ],
+    "kalori": 146,
+    "protein": 20,
+    "karbonhidrat": 18,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2558",
+    "ad": "Gyoza Light (2 adet)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 57g"
+    ],
+    "kalori": 117,
+    "protein": 10,
+    "karbonhidrat": 23,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2559",
+    "ad": "Mercimek Çorbası Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 158ml",
+      "Baharat"
+    ],
+    "kalori": 108,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2560",
+    "ad": "Miso Soup Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 79g/ml"
+    ],
+    "kalori": 89,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2561",
+    "ad": "Fava (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 50g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 100,
+    "protein": 3,
+    "karbonhidrat": 13,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2562",
+    "ad": "Edamame + Pirinç",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 131g"
+    ],
+    "kalori": 171,
+    "protein": 13,
+    "karbonhidrat": 18,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2563",
+    "ad": "Konjac Jelly",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 62g"
+    ],
+    "kalori": 32,
+    "protein": 2,
+    "karbonhidrat": 5,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2564",
+    "ad": "Hemp Seeds Mix (20g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 53g"
+    ],
+    "kalori": 133,
+    "protein": 11,
+    "karbonhidrat": 9,
+    "yag": 9
+  },
+  {
+    "id": "ARA2_2565",
+    "ad": "Çilek (100g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 74g"
+    ],
+    "kalori": 104,
+    "protein": 4,
+    "karbonhidrat": 20,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2566",
+    "ad": "Avocado Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 165ml"
+    ],
+    "kalori": 125,
+    "protein": 9,
+    "karbonhidrat": 21,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2567",
+    "ad": "Biberiye Çayı + Ceviz",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 31g"
+    ],
+    "kalori": 106,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2568",
+    "ad": "Moringa Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 67g",
+      "Ek malzeme"
+    ],
+    "kalori": 107,
+    "protein": 10,
+    "karbonhidrat": 24,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2569",
+    "ad": "Cottage Cheese Pancake Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 78g",
+      "Baharat"
+    ],
+    "kalori": 118,
+    "protein": 26,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2570",
+    "ad": "Holy Basil Tea + Kuru Kayısı",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 39g"
+    ],
+    "kalori": 119,
+    "protein": 8,
+    "karbonhidrat": 25,
+    "yag": 9
+  },
+  {
+    "id": "ARA2_2571",
+    "ad": "Hindi Sote Mini",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 40g",
+      "Baharat"
+    ],
+    "kalori": 140,
+    "protein": 26,
+    "karbonhidrat": 1,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2572",
+    "ad": "Chia Protein Bite",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 51g"
+    ],
+    "kalori": 161,
+    "protein": 15,
+    "karbonhidrat": 13,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2573",
+    "ad": "Rice Paper Roll",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 72g"
+    ],
+    "kalori": 132,
+    "protein": 9,
+    "karbonhidrat": 14,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2574",
+    "ad": "Havuç Çorbası",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 173ml",
+      "Baharat"
+    ],
+    "kalori": 123,
+    "protein": 8,
+    "karbonhidrat": 13,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2575",
+    "ad": "Tempeh Cube Fermente",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 94g/ml"
+    ],
+    "kalori": 104,
+    "protein": 8,
+    "karbonhidrat": 10,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2576",
+    "ad": "Patlıcan Salatası (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 35g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 115,
+    "protein": 3,
+    "karbonhidrat": 12,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2577",
+    "ad": "Protein Wrap Balanced",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 146g"
+    ],
+    "kalori": 186,
+    "protein": 18,
+    "karbonhidrat": 21,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2578",
+    "ad": "Pickles Light (100g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 77g"
+    ],
+    "kalori": 47,
+    "protein": 2,
+    "karbonhidrat": 12,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2579",
+    "ad": "Ton Balığı Konserve (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 28g"
+    ],
+    "kalori": 148,
+    "protein": 16,
+    "karbonhidrat": 6,
+    "yag": 8
+  },
+  {
+    "id": "ARA2_2580",
+    "ad": "Kırmızı Üzüm (80g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 89g"
+    ],
+    "kalori": 119,
+    "protein": 3,
+    "karbonhidrat": 23,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2581",
+    "ad": "Cucumber Smoothie",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 180ml"
+    ],
+    "kalori": 140,
+    "protein": 8,
+    "karbonhidrat": 24,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2582",
+    "ad": "Kakule Kahve + Fındık",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 26g"
+    ],
+    "kalori": 121,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2583",
+    "ad": "Matcha Bowl Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 42g",
+      "Ek malzeme"
+    ],
+    "kalori": 122,
+    "protein": 11,
+    "karbonhidrat": 24,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2584",
+    "ad": "Protein Muffin Savory",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 53g",
+      "Baharat"
+    ],
+    "kalori": 133,
+    "protein": 17,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2585",
+    "ad": "Magnesium Drink + Muz",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 29g"
+    ],
+    "kalori": 134,
+    "protein": 8,
+    "karbonhidrat": 16,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2586",
+    "ad": "Izgara Dana Bonfile (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Et/Tavuk 55g",
+      "Baharat"
+    ],
+    "kalori": 155,
+    "protein": 27,
+    "karbonhidrat": 1,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2587",
+    "ad": "Hemp Protein Ball",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki bazlı protein 66g"
+    ],
+    "kalori": 176,
+    "protein": 20,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2588",
+    "ad": "Seaweed Snack",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Asya atıştırmalığı 87g"
+    ],
+    "kalori": 147,
+    "protein": 8,
+    "karbonhidrat": 17,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2589",
+    "ad": "Kabak Çorbası",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Çorba 188ml",
+      "Baharat"
+    ],
+    "kalori": 138,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2590",
+    "ad": "Natto (Japon Fermente Fasulye)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Probiyotik gıda 109g/ml"
+    ],
+    "kalori": 119,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 5
+  },
+  {
+    "id": "ARA2_2591",
+    "ad": "Közlenmiş Biber Ezme (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Ezme/Meze 50g",
+      "Sebze stick (opsiyonel)"
+    ],
+    "kalori": 60,
+    "protein": 3,
+    "karbonhidrat": 11,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2592",
+    "ad": "Mini Buddha Bowl",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Dengeli makro mix 161g"
+    ],
+    "kalori": 201,
+    "protein": 13,
+    "karbonhidrat": 24,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2593",
+    "ad": "Radish Snack",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Düşük kalorili snack 92g"
+    ],
+    "kalori": 62,
+    "protein": 2,
+    "karbonhidrat": 11,
+    "yag": 0
+  },
+  {
+    "id": "ARA2_2594",
+    "ad": "Avokado Küp (50g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Omega-3 kaynağı 43g"
+    ],
+    "kalori": 163,
+    "protein": 11,
+    "karbonhidrat": 9,
+    "yag": 15
+  },
+  {
+    "id": "ARA2_2595",
+    "ad": "Grenade + Ceviz Mix",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Antioksidan zengin gıda 104g"
+    ],
+    "kalori": 64,
+    "protein": 2,
+    "karbonhidrat": 14,
+    "yag": 2
+  },
+  {
+    "id": "ARA2_2596",
+    "ad": "Beetroot Smoothie Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Smoothie bileşenleri 195ml"
+    ],
+    "kalori": 155,
+    "protein": 7,
+    "karbonhidrat": 15,
+    "yag": 3
+  },
+  {
+    "id": "ARA2_2597",
+    "ad": "Safran Süt Light",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Bitki çayı/içecek 200ml",
+      "Baharat",
+      "Ek snack 21g"
+    ],
+    "kalori": 136,
+    "protein": 4,
+    "karbonhidrat": 23,
+    "yag": 4
+  },
+  {
+    "id": "ARA2_2598",
+    "ad": "Cacao Nibs + Badem",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Superfood 57g",
+      "Ek malzeme"
+    ],
+    "kalori": 137,
+    "protein": 5,
+    "karbonhidrat": 24,
+    "yag": 7
+  },
+  {
+    "id": "ARA2_2599",
+    "ad": "Mini Beef Patty (40g)",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Protein kaynağı 68g",
+      "Baharat"
+    ],
+    "kalori": 148,
+    "protein": 20,
+    "karbonhidrat": 6,
+    "yag": 6
+  },
+  {
+    "id": "ARA2_2600",
+    "ad": "Bedtime Tea + Protein Ball",
+    "ogun": "ara_ogun_2",
+    "malzemeler": [
+      "Relax çayı 250ml",
+      "Sağlıklı snack 44g"
+    ],
+    "kalori": 149,
+    "protein": 8,
+    "karbonhidrat": 19,
+    "yag": 9
+  }
+]

@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "KAH_1",
+    "ad": "Zeytinyağlı Menemen + Tam Buğday Ekmeği",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Domates 80g",
+      "Biber 60g",
+      "Soğan 30g",
+      "Zeytinyağı 10g",
+      "Tam Buğday Ekmeği 60g"
+    ],
+    "kalori": 380,
+    "protein": 20,
+    "karbonhidrat": 38,
+    "yag": 18
+  },
+  {
+    "id": "KAH_2",
+    "ad": "Tereyağlı Menemen + Beyaz Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Domates 80g",
+      "Biber 60g",
+      "Tereyağı 12g",
+      "Beyaz Peynir 50g"
+    ],
+    "kalori": 390,
+    "protein": 22,
+    "karbonhidrat": 12,
+    "yag": 28
+  },
+  {
+    "id": "KAH_3",
+    "ad": "Sebzeli Kaşarlı Menemen + Zeytin",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Domates 70g",
+      "Biber 60g",
+      "Kaşar 40g",
+      "Zeytin 30g"
+    ],
+    "kalori": 400,
+    "protein": 24,
+    "karbonhidrat": 14,
+    "yag": 30
+  },
+  {
+    "id": "KAH_4",
+    "ad": "Sebzeli Omlet 3 Yumurta + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 150g",
+      "Domates 50g",
+      "Biber 40g",
+      "Soğan 20g",
+      "Ekmek 50g"
+    ],
+    "kalori": 410,
+    "protein": 26,
+    "karbonhidrat": 32,
+    "yag": 20
+  },
+  {
+    "id": "KAH_5",
+    "ad": "Peynirli Omlet + Roka Salatası",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 150g",
+      "Beyaz Peynir 60g",
+      "Roka 50g",
+      "Zeytinyağı 10g"
+    ],
+    "kalori": 380,
+    "protein": 28,
+    "karbonhidrat": 8,
+    "yag": 28
+  },
+  {
+    "id": "KAH_6",
+    "ad": "Mantarlı Kaşarlı Omlet + Domates",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 150g",
+      "Mantar 60g",
+      "Kaşar 50g",
+      "Domates 80g"
+    ],
+    "kalori": 420,
+    "protein": 30,
+    "karbonhidrat": 12,
+    "yag": 30
+  },
+  {
+    "id": "KAH_7",
+    "ad": "Haşlanmış Yumurta 3 Adet + Avokado + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 150g",
+      "Avokado 100g",
+      "Tam Buğday Ekmeği 60g"
+    ],
+    "kalori": 460,
+    "protein": 24,
+    "karbonhidrat": 35,
+    "yag": 26
+  },
+  {
+    "id": "KAH_8",
+    "ad": "Rafadan Yumurta 2 Adet + Peynir + Zeytin",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Beyaz Peynir 80g",
+      "Zeytin 40g",
+      "Ekmek 50g"
+    ],
+    "kalori": 420,
+    "protein": 26,
+    "karbonhidrat": 28,
+    "yag": 24
+  },
+  {
+    "id": "KAH_9",
+    "ad": "Sahanda Yumurta 2 + Sucuk + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Sucuk 50g",
+      "Ekmek 60g",
+      "Domates 50g"
+    ],
+    "kalori": 480,
+    "protein": 24,
+    "karbonhidrat": 32,
+    "yag": 30
+  },
+  {
+    "id": "KAH_10",
+    "ad": "Beyaz Peynir + Zeytin + Ceviz + Bal + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Beyaz Peynir 100g",
+      "Zeytin 40g",
+      "Ceviz 30g",
+      "Bal 20g",
+      "Ekmek 70g"
+    ],
+    "kalori": 520,
+    "protein": 24,
+    "karbonhidrat": 48,
+    "yag": 26
+  },
+  {
+    "id": "KAH_11",
+    "ad": "Kaşar Peyniri + Domates + Salatalık + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Kaşar Peyniri 80g",
+      "Domates 100g",
+      "Salatalık 80g",
+      "Ekmek 60g"
+    ],
+    "kalori": 440,
+    "protein": 22,
+    "karbonhidrat": 38,
+    "yag": 24
+  },
+  {
+    "id": "KAH_12",
+    "ad": "Lor Peyniri + Maydanoz + Ceviz + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Lor Peyniri 120g",
+      "Maydanoz 20g",
+      "Ceviz 25g",
+      "Ekmek 60g"
+    ],
+    "kalori": 400,
+    "protein": 26,
+    "karbonhidrat": 34,
+    "yag": 18
+  },
+  {
+    "id": "KAH_13",
+    "ad": "Kaşarlı Tost + Domates + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Kaşar 60g",
+      "Domates 60g",
+      "Marul 30g"
+    ],
+    "kalori": 420,
+    "protein": 20,
+    "karbonhidrat": 42,
+    "yag": 20
+  },
+  {
+    "id": "KAH_14",
+    "ad": "Karışık Tost (Kaşar + Beyaz Peynir + Zeytin)",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 80g",
+      "Kaşar 40g",
+      "Beyaz Peynir 40g",
+      "Zeytin 30g"
+    ],
+    "kalori": 460,
+    "protein": 22,
+    "karbonhidrat": 40,
+    "yag": 24
+  },
+  {
+    "id": "KAH_15",
+    "ad": "Sucuklu Kaşarlı Tost + Turşu",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 80g",
+      "Sucuk 40g",
+      "Kaşar 50g",
+      "Turşu 30g"
+    ],
+    "kalori": 500,
+    "protein": 22,
+    "karbonhidrat": 42,
+    "yag": 28
+  },
+  {
+    "id": "KAH_16",
+    "ad": "Yulaf + Süt + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yulaf 60g",
+      "Süt 200ml",
+      "Muz 100g",
+      "Bal 15g"
+    ],
+    "kalori": 420,
+    "protein": 16,
+    "karbonhidrat": 68,
+    "yag": 10
+  },
+  {
+    "id": "KAH_17",
+    "ad": "Yulaf + Yoğurt + Çilek + Ceviz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yulaf 50g",
+      "Yoğurt 150g",
+      "Çilek 80g",
+      "Ceviz 25g"
+    ],
+    "kalori": 400,
+    "protein": 18,
+    "karbonhidrat": 50,
+    "yag": 16
+  },
+  {
+    "id": "KAH_18",
+    "ad": "Muzlu Yulaf Pankek + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yulaf 60g",
+      "Yumurta 50g",
+      "Muz 100g",
+      "Bal 20g",
+      "Süt 50ml"
+    ],
+    "kalori": 440,
+    "protein": 18,
+    "karbonhidrat": 66,
+    "yag": 12
+  },
+  {
+    "id": "KAH_19",
+    "ad": "Peynirli Börek + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yufka 80g",
+      "Beyaz Peynir 80g",
+      "Maydanoz 20g",
+      "Ayran 200ml"
+    ],
+    "kalori": 480,
+    "protein": 20,
+    "karbonhidrat": 52,
+    "yag": 22
+  },
+  {
+    "id": "KAH_20",
+    "ad": "Ispanaklı Börek + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yufka 80g",
+      "Ispanak 100g",
+      "Beyaz Peynir 60g",
+      "Yoğurt 150g"
+    ],
+    "kalori": 460,
+    "protein": 22,
+    "karbonhidrat": 50,
+    "yag": 20
+  },
+  {
+    "id": "KAH_21",
+    "ad": "Kıymalı Börek + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yufka 80g",
+      "Dana Kıyma 60g",
+      "Soğan 30g",
+      "Ayran 200ml"
+    ],
+    "kalori": 500,
+    "protein": 24,
+    "karbonhidrat": 54,
+    "yag": 22
+  },
+  {
+    "id": "KAH_22",
+    "ad": "Granola + Süt + Muz + Fındık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Granola 60g",
+      "Süt 200ml",
+      "Muz 80g",
+      "Fındık 20g"
+    ],
+    "kalori": 480,
+    "protein": 14,
+    "karbonhidrat": 64,
+    "yag": 18
+  },
+  {
+    "id": "KAH_23",
+    "ad": "Mısır Gevreği + Süt + Çilek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Mısır Gevreği 50g",
+      "Süt 250ml",
+      "Çilek 100g"
+    ],
+    "kalori": 360,
+    "protein": 12,
+    "karbonhidrat": 62,
+    "yag": 8
+  },
+  {
+    "id": "KAH_24",
+    "ad": "Kepekli Gevrek + Yoğurt + Meyve",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Kepekli Gevrek 60g",
+      "Yoğurt 200g",
+      "Elma 80g",
+      "Bal 10g"
+    ],
+    "kalori": 400,
+    "protein": 16,
+    "karbonhidrat": 68,
+    "yag": 8
+  },
+  {
+    "id": "KAH_25",
+    "ad": "Peynirli Gözleme + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Beyaz Peynir 100g",
+      "Maydanoz 20g",
+      "Ayran 200ml"
+    ],
+    "kalori": 490,
+    "protein": 22,
+    "karbonhidrat": 56,
+    "yag": 20
+  },
+  {
+    "id": "KAH_26",
+    "ad": "Patatesli Gözleme + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Patates 120g",
+      "Soğan 30g",
+      "Yoğurt 150g"
+    ],
+    "kalori": 480,
+    "protein": 16,
+    "karbonhidrat": 72,
+    "yag": 16
+  },
+  {
+    "id": "KAH_27",
+    "ad": "Karışık Gözleme (Peynir + Ispanak) + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Beyaz Peynir 60g",
+      "Ispanak 80g",
+      "Ayran 200ml"
+    ],
+    "kalori": 470,
+    "protein": 20,
+    "karbonhidrat": 58,
+    "yag": 18
+  },
+  {
+    "id": "KAH_28",
+    "ad": "Süzme Yoğurt + Bal + Ceviz + Meyve",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süzme Yoğurt 200g",
+      "Bal 25g",
+      "Ceviz 30g",
+      "Muz 80g"
+    ],
+    "kalori": 460,
+    "protein": 20,
+    "karbonhidrat": 56,
+    "yag": 18
+  },
+  {
+    "id": "KAH_29",
+    "ad": "Yoğurt + Granola + Yaban Mersini",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 200g",
+      "Granola 50g",
+      "Yaban Mersini 60g"
+    ],
+    "kalori": 420,
+    "protein": 16,
+    "karbonhidrat": 60,
+    "yag": 14
+  },
+  {
+    "id": "KAH_30",
+    "ad": "Yoğurt + Çilek + Fındık + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 200g",
+      "Çilek 100g",
+      "Fındık 25g",
+      "Bal 15g"
+    ],
+    "kalori": 400,
+    "protein": 14,
+    "karbonhidrat": 52,
+    "yag": 16
+  },
+  {
+    "id": "KAH_31",
+    "ad": "Simit + Peynir + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Beyaz Peynir 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 460,
+    "protein": 20,
+    "karbonhidrat": 60,
+    "yag": 16
+  },
+  {
+    "id": "KAH_32",
+    "ad": "Sandviç Ton Balıklı + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Ton Balığı 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 411,
+    "protein": 29,
+    "karbonhidrat": 41,
+    "yag": 13
+  },
+  {
+    "id": "KAH_33",
+    "ad": "Pankek + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Bal 25g"
+    ],
+    "kalori": 502,
+    "protein": 20,
+    "karbonhidrat": 67,
+    "yag": 18
+  },
+  {
+    "id": "KAH_34",
+    "ad": "Peynirli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Beyaz Peynir 70g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 483,
+    "protein": 19,
+    "karbonhidrat": 67,
+    "yag": 21
+  },
+  {
+    "id": "KAH_35",
+    "ad": "Ekmek + Reçel + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Reçel 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 454,
+    "protein": 16,
+    "karbonhidrat": 60,
+    "yag": 20
+  },
+  {
+    "id": "KAH_36",
+    "ad": "Avokado Toast + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Beyaz Peynir 70g",
+      "Limon 10g"
+    ],
+    "kalori": 475,
+    "protein": 20,
+    "karbonhidrat": 43,
+    "yag": 31
+  },
+  {
+    "id": "KAH_37",
+    "ad": "Smoothie Bowl Çilekli + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çilek 100g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Chia 10g"
+    ],
+    "kalori": 436,
+    "protein": 15,
+    "karbonhidrat": 70,
+    "yag": 14
+  },
+  {
+    "id": "KAH_38",
+    "ad": "Simit + Kaşar + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Kaşar 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 467,
+    "protein": 22,
+    "karbonhidrat": 67,
+    "yag": 17
+  },
+  {
+    "id": "KAH_39",
+    "ad": "Sandviç Tavuklu + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Tavuk Göğüs 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 418,
+    "protein": 28,
+    "karbonhidrat": 40,
+    "yag": 15
+  },
+  {
+    "id": "KAH_40",
+    "ad": "Krep + Muz + Fıstık Ezmesi",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Fıstık Ezmesi 25g"
+    ],
+    "kalori": 509,
+    "protein": 21,
+    "karbonhidrat": 74,
+    "yag": 17
+  },
+  {
+    "id": "KAH_41",
+    "ad": "Patatesli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Patates 100g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 490,
+    "protein": 20,
+    "karbonhidrat": 74,
+    "yag": 18
+  },
+  {
+    "id": "KAH_42",
+    "ad": "Ekmek + Fıstık Ezmesi + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Fıstık Ezmesi 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 461,
+    "protein": 19,
+    "karbonhidrat": 67,
+    "yag": 19
+  },
+  {
+    "id": "KAH_43",
+    "ad": "Avokado Toast + Yumurta",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Yumurta 100g",
+      "Limon 10g"
+    ],
+    "kalori": 482,
+    "protein": 22,
+    "karbonhidrat": 42,
+    "yag": 26
+  },
+  {
+    "id": "KAH_44",
+    "ad": "Smoothie Bowl Muzlu + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Muz 150g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Fındık 20g"
+    ],
+    "kalori": 443,
+    "protein": 16,
+    "karbonhidrat": 67,
+    "yag": 16
+  },
+  {
+    "id": "KAH_45",
+    "ad": "Simit + Peynir + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Beyaz Peynir 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 474,
+    "protein": 24,
+    "karbonhidrat": 64,
+    "yag": 18
+  },
+  {
+    "id": "KAH_46",
+    "ad": "Sandviç Ton Balıklı + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Ton Balığı 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 425,
+    "protein": 31,
+    "karbonhidrat": 47,
+    "yag": 12
+  },
+  {
+    "id": "KAH_47",
+    "ad": "Pankek + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Bal 25g"
+    ],
+    "kalori": 516,
+    "protein": 22,
+    "karbonhidrat": 71,
+    "yag": 16
+  },
+  {
+    "id": "KAH_48",
+    "ad": "Zeytinli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Zeytin 50g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 497,
+    "protein": 21,
+    "karbonhidrat": 69,
+    "yag": 20
+  },
+  {
+    "id": "KAH_49",
+    "ad": "Ekmek + Tahin Pekmez + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Tahin 20g, Pekmez 25g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 468,
+    "protein": 18,
+    "karbonhidrat": 62,
+    "yag": 18
+  },
+  {
+    "id": "KAH_50",
+    "ad": "Avokado Toast + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Beyaz Peynir 70g",
+      "Limon 10g"
+    ],
+    "kalori": 489,
+    "protein": 24,
+    "karbonhidrat": 41,
+    "yag": 27
+  },
+  {
+    "id": "KAH_51",
+    "ad": "Smoothie Bowl Çilekli + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çilek 100g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Chia 10g"
+    ],
+    "kalori": 450,
+    "protein": 17,
+    "karbonhidrat": 64,
+    "yag": 13
+  },
+  {
+    "id": "KAH_52",
+    "ad": "Simit + Kaşar + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Kaşar 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 481,
+    "protein": 21,
+    "karbonhidrat": 61,
+    "yag": 19
+  },
+  {
+    "id": "KAH_53",
+    "ad": "Sandviç Tavuklu + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Tavuk Göğüs 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 432,
+    "protein": 30,
+    "karbonhidrat": 46,
+    "yag": 14
+  },
+  {
+    "id": "KAH_54",
+    "ad": "Krep + Muz + Fıstık Ezmesi",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Fıstık Ezmesi 25g"
+    ],
+    "kalori": 523,
+    "protein": 23,
+    "karbonhidrat": 68,
+    "yag": 23
+  },
+  {
+    "id": "KAH_55",
+    "ad": "Peynirli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Beyaz Peynir 70g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 504,
+    "protein": 16,
+    "karbonhidrat": 64,
+    "yag": 22
+  },
+  {
+    "id": "KAH_56",
+    "ad": "Ekmek + Reçel + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Reçel 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 475,
+    "protein": 17,
+    "karbonhidrat": 57,
+    "yag": 17
+  },
+  {
+    "id": "KAH_57",
+    "ad": "Avokado Toast + Yumurta",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Yumurta 100g",
+      "Limon 10g"
+    ],
+    "kalori": 496,
+    "protein": 21,
+    "karbonhidrat": 40,
+    "yag": 28
+  },
+  {
+    "id": "KAH_58",
+    "ad": "Smoothie Bowl Muzlu + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Muz 150g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Fındık 20g"
+    ],
+    "kalori": 457,
+    "protein": 15,
+    "karbonhidrat": 71,
+    "yag": 15
+  },
+  {
+    "id": "KAH_59",
+    "ad": "Simit + Peynir + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Beyaz Peynir 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 488,
+    "protein": 23,
+    "karbonhidrat": 68,
+    "yag": 20
+  },
+  {
+    "id": "KAH_60",
+    "ad": "Sandviç Ton Balıklı + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Ton Balığı 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 414,
+    "protein": 29,
+    "karbonhidrat": 45,
+    "yag": 16
+  },
+  {
+    "id": "KAH_61",
+    "ad": "Pankek + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Bal 25g"
+    ],
+    "kalori": 530,
+    "protein": 18,
+    "karbonhidrat": 65,
+    "yag": 22
+  },
+  {
+    "id": "KAH_62",
+    "ad": "Patatesli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Patates 100g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 481,
+    "protein": 17,
+    "karbonhidrat": 71,
+    "yag": 19
+  },
+  {
+    "id": "KAH_63",
+    "ad": "Ekmek + Fıstık Ezmesi + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Fıstık Ezmesi 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 482,
+    "protein": 16,
+    "karbonhidrat": 64,
+    "yag": 16
+  },
+  {
+    "id": "KAH_64",
+    "ad": "Avokado Toast + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Beyaz Peynir 70g",
+      "Limon 10g"
+    ],
+    "kalori": 503,
+    "protein": 23,
+    "karbonhidrat": 39,
+    "yag": 29
+  },
+  {
+    "id": "KAH_65",
+    "ad": "Smoothie Bowl Çilekli + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çilek 100g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Chia 10g"
+    ],
+    "kalori": 434,
+    "protein": 16,
+    "karbonhidrat": 68,
+    "yag": 17
+  },
+  {
+    "id": "KAH_66",
+    "ad": "Simit + Kaşar + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Kaşar 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 465,
+    "protein": 20,
+    "karbonhidrat": 65,
+    "yag": 21
+  },
+  {
+    "id": "KAH_67",
+    "ad": "Sandviç Tavuklu + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Tavuk Göğüs 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 421,
+    "protein": 28,
+    "karbonhidrat": 44,
+    "yag": 13
+  },
+  {
+    "id": "KAH_68",
+    "ad": "Krep + Muz + Fıstık Ezmesi",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Fıstık Ezmesi 25g"
+    ],
+    "kalori": 537,
+    "protein": 19,
+    "karbonhidrat": 72,
+    "yag": 21
+  },
+  {
+    "id": "KAH_69",
+    "ad": "Zeytinli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Zeytin 50g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 488,
+    "protein": 18,
+    "karbonhidrat": 66,
+    "yag": 21
+  },
+  {
+    "id": "KAH_70",
+    "ad": "Ekmek + Tahin Pekmez + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Tahin 20g, Pekmez 25g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 489,
+    "protein": 19,
+    "karbonhidrat": 59,
+    "yag": 23
+  },
+  {
+    "id": "KAH_71",
+    "ad": "Avokado Toast + Yumurta",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Yumurta 100g",
+      "Limon 10g"
+    ],
+    "kalori": 475,
+    "protein": 20,
+    "karbonhidrat": 38,
+    "yag": 30
+  },
+  {
+    "id": "KAH_72",
+    "ad": "Smoothie Bowl Muzlu + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Muz 150g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Fındık 20g"
+    ],
+    "kalori": 441,
+    "protein": 17,
+    "karbonhidrat": 65,
+    "yag": 14
+  },
+  {
+    "id": "KAH_73",
+    "ad": "Simit + Peynir + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Beyaz Peynir 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 472,
+    "protein": 22,
+    "karbonhidrat": 62,
+    "yag": 16
+  },
+  {
+    "id": "KAH_74",
+    "ad": "Sandviç Ton Balıklı + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Ton Balığı 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 428,
+    "protein": 31,
+    "karbonhidrat": 43,
+    "yag": 15
+  },
+  {
+    "id": "KAH_75",
+    "ad": "Pankek + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Bal 25g"
+    ],
+    "kalori": 504,
+    "protein": 20,
+    "karbonhidrat": 69,
+    "yag": 20
+  },
+  {
+    "id": "KAH_76",
+    "ad": "Peynirli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Beyaz Peynir 70g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 495,
+    "protein": 19,
+    "karbonhidrat": 73,
+    "yag": 18
+  },
+  {
+    "id": "KAH_77",
+    "ad": "Ekmek + Reçel + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Reçel 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 456,
+    "protein": 18,
+    "karbonhidrat": 66,
+    "yag": 22
+  },
+  {
+    "id": "KAH_78",
+    "ad": "Avokado Toast + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Beyaz Peynir 70g",
+      "Limon 10g"
+    ],
+    "kalori": 482,
+    "protein": 22,
+    "karbonhidrat": 45,
+    "yag": 31
+  },
+  {
+    "id": "KAH_79",
+    "ad": "Smoothie Bowl Çilekli + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çilek 100g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Chia 10g"
+    ],
+    "kalori": 448,
+    "protein": 15,
+    "karbonhidrat": 72,
+    "yag": 16
+  },
+  {
+    "id": "KAH_80",
+    "ad": "Simit + Kaşar + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Kaşar 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 479,
+    "protein": 24,
+    "karbonhidrat": 69,
+    "yag": 17
+  },
+  {
+    "id": "KAH_81",
+    "ad": "Sandviç Tavuklu + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Tavuk Göğüs 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 410,
+    "protein": 30,
+    "karbonhidrat": 42,
+    "yag": 12
+  },
+  {
+    "id": "KAH_82",
+    "ad": "Krep + Muz + Fıstık Ezmesi",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Fıstık Ezmesi 25g"
+    ],
+    "kalori": 511,
+    "protein": 21,
+    "karbonhidrat": 66,
+    "yag": 19
+  },
+  {
+    "id": "KAH_83",
+    "ad": "Patatesli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Patates 100g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 502,
+    "protein": 20,
+    "karbonhidrat": 68,
+    "yag": 20
+  },
+  {
+    "id": "KAH_84",
+    "ad": "Ekmek + Fıstık Ezmesi + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Fıstık Ezmesi 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 463,
+    "protein": 17,
+    "karbonhidrat": 61,
+    "yag": 21
+  },
+  {
+    "id": "KAH_85",
+    "ad": "Avokado Toast + Yumurta",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Yumurta 100g",
+      "Limon 10g"
+    ],
+    "kalori": 489,
+    "protein": 24,
+    "karbonhidrat": 44,
+    "yag": 26
+  },
+  {
+    "id": "KAH_86",
+    "ad": "Smoothie Bowl Muzlu + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Muz 150g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Fındık 20g"
+    ],
+    "kalori": 455,
+    "protein": 16,
+    "karbonhidrat": 69,
+    "yag": 13
+  },
+  {
+    "id": "KAH_87",
+    "ad": "Simit + Peynir + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Beyaz Peynir 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 486,
+    "protein": 21,
+    "karbonhidrat": 66,
+    "yag": 18
+  },
+  {
+    "id": "KAH_88",
+    "ad": "Sandviç Ton Balıklı + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Ton Balığı 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 417,
+    "protein": 29,
+    "karbonhidrat": 41,
+    "yag": 14
+  },
+  {
+    "id": "KAH_89",
+    "ad": "Pankek + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Bal 25g"
+    ],
+    "kalori": 518,
+    "protein": 22,
+    "karbonhidrat": 73,
+    "yag": 18
+  },
+  {
+    "id": "KAH_90",
+    "ad": "Zeytinli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Zeytin 50g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 509,
+    "protein": 21,
+    "karbonhidrat": 75,
+    "yag": 22
+  },
+  {
+    "id": "KAH_91",
+    "ad": "Ekmek + Tahin Pekmez + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Tahin 20g, Pekmez 25g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 470,
+    "protein": 16,
+    "karbonhidrat": 56,
+    "yag": 20
+  },
+  {
+    "id": "KAH_92",
+    "ad": "Avokado Toast + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Beyaz Peynir 70g",
+      "Limon 10g"
+    ],
+    "kalori": 496,
+    "protein": 21,
+    "karbonhidrat": 43,
+    "yag": 27
+  },
+  {
+    "id": "KAH_93",
+    "ad": "Smoothie Bowl Çilekli + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çilek 100g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Chia 10g"
+    ],
+    "kalori": 432,
+    "protein": 17,
+    "karbonhidrat": 66,
+    "yag": 15
+  },
+  {
+    "id": "KAH_94",
+    "ad": "Simit + Kaşar + Domates + Salatalık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Simit 120g",
+      "Kaşar 70g",
+      "Domates 80g",
+      "Salatalık 60g"
+    ],
+    "kalori": 463,
+    "protein": 23,
+    "karbonhidrat": 63,
+    "yag": 19
+  },
+  {
+    "id": "KAH_95",
+    "ad": "Sandviç Tavuklu + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Tavuk Göğüs 70g",
+      "Marul 40g",
+      "Domates 50g"
+    ],
+    "kalori": 424,
+    "protein": 28,
+    "karbonhidrat": 40,
+    "yag": 16
+  },
+  {
+    "id": "KAH_96",
+    "ad": "Krep + Muz + Fıstık Ezmesi",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 70g",
+      "Yumurta 50g",
+      "Süt 100ml",
+      "Muz 80g",
+      "Fıstık Ezmesi 25g"
+    ],
+    "kalori": 525,
+    "protein": 23,
+    "karbonhidrat": 70,
+    "yag": 17
+  },
+  {
+    "id": "KAH_97",
+    "ad": "Peynirli Poğaça + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 90g",
+      "Beyaz Peynir 70g",
+      "Yoğurt 40g",
+      "Ayran 200ml"
+    ],
+    "kalori": 486,
+    "protein": 16,
+    "karbonhidrat": 70,
+    "yag": 19
+  },
+  {
+    "id": "KAH_98",
+    "ad": "Ekmek + Reçel + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ekmek 70g",
+      "Reçel 30g",
+      "Beyaz Peynir 60g"
+    ],
+    "kalori": 477,
+    "protein": 19,
+    "karbonhidrat": 63,
+    "yag": 19
+  },
+  {
+    "id": "KAH_99",
+    "ad": "Avokado Toast + Yumurta",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tam Buğday Ekmeği 80g",
+      "Avokado 100g",
+      "Yumurta 100g",
+      "Limon 10g"
+    ],
+    "kalori": 503,
+    "protein": 23,
+    "karbonhidrat": 42,
+    "yag": 28
+  },
+  {
+    "id": "KAH_100",
+    "ad": "Smoothie Bowl Muzlu + Granola",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Muz 150g",
+      "Yoğurt 150g",
+      "Granola 40g",
+      "Fındık 20g"
+    ],
+    "kalori": 439,
+    "protein": 15,
+    "karbonhidrat": 73,
+    "yag": 17
+  }
+]

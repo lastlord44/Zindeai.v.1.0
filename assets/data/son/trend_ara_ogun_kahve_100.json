@@ -1,0 +1,1704 @@
+[
+  {
+    "meal_name": "Türk Kahvesi + Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 243,
+    "protein": 17,
+    "carbs": 24,
+    "fat": 8,
+    "portion_info": "Türk Kahvesi 1g, Süzme Yoğurt 140g, Tam Buğday Ekmek 40g (≈1 dilim)",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Türk Kahvesi (1g)",
+      "Süzme Yoğurt (140g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))"
+    ]
+  },
+  {
+    "meal_name": "Türk Kahvesi + Lor Peyniri + Tam Buğday Ekmek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 240,
+    "protein": 22,
+    "carbs": 22,
+    "fat": 6,
+    "portion_info": "Türk Kahvesi 1g, Lor Peyniri 100g, Tam Buğday Ekmek 40g (≈1 dilim)",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Türk Kahvesi (1g)",
+      "Lor Peyniri (100g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))"
+    ]
+  },
+  {
+    "meal_name": "Türk Kahvesi + Ton Balığı (suda) + Haşlanmış Patates",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 243,
+    "protein": 24,
+    "carbs": 22,
+    "fat": 6,
+    "portion_info": "Türk Kahvesi 1g, Ton Balığı (suda) 80g, Haşlanmış Patates 120g, Fıstık Ezmesi 10g (≈1 YK)",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Türk Kahvesi (1g)",
+      "Ton Balığı (suda) (80g)",
+      "Haşlanmış Patates (120g)",
+      "Fıstık Ezmesi (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "Filtre Kahve + Ton Balığı (suda) + Haşlanmış Patates",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 243,
+    "protein": 24,
+    "carbs": 22,
+    "fat": 6,
+    "portion_info": "Filtre Kahve 1g, Ton Balığı (suda) 80g, Haşlanmış Patates 120g, Fıstık Ezmesi 10g (≈1 YK)",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Ton Balığı (suda) (80g)",
+      "Haşlanmış Patates (120g)",
+      "Fıstık Ezmesi (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "Filtre Kahve + Lor Peyniri + Tam Buğday Ekmek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 240,
+    "protein": 22,
+    "carbs": 22,
+    "fat": 6,
+    "portion_info": "Filtre Kahve 1g, Lor Peyniri 100g, Tam Buğday Ekmek 40g (≈1 dilim)",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Lor Peyniri (100g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))"
+    ]
+  },
+  {
+    "meal_name": "Filtre Kahve + Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 243,
+    "protein": 17,
+    "carbs": 24,
+    "fat": 8,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 140g, Tam Buğday Ekmek 40g (≈1 dilim)",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (140g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara1",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Filtre Kahve + Süzme Yoğurt + Çilek",
+    "main_ingredient": "trend",
+    "meal_type": "ara2",
+    "calories": 238,
+    "protein": 19,
+    "carbs": 19,
+    "fat": 10,
+    "portion_info": "Filtre Kahve 1g, Süzme Yoğurt 200g, Çilek 150g",
+    "cooking_method": "Hazırlama",
+    "cooking_time": "5 dk",
+    "ingredients": [
+      "Filtre Kahve (1g)",
+      "Süzme Yoğurt (200g)",
+      "Çilek (150g)"
+    ]
+  }
+]

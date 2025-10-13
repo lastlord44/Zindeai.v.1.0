@@ -1,0 +1,230 @@
+[
+  {
+    "ogunTipi": "kahvalti",
+    "kategoriKurallari": {
+      "protein": {
+        "kategori": "protein",
+        "minAdet": 1,
+        "maxAdet": 2,
+        "minOran": 0.25,
+        "maxOran": 0.4,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": [
+          "Tavuk Göğsü",
+          "Dana Bonfile",
+          "Kuzu Pirzola"
+        ]
+      },
+      "karbonhidrat": {
+        "kategori": "karbonhidrat",
+        "minAdet": 1,
+        "maxAdet": 1,
+        "minOran": 0.35,
+        "maxOran": 0.5,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": [
+          "Pirinç",
+          "Makarna",
+          "Patates"
+        ]
+      },
+      "yag": {
+        "kategori": "yag",
+        "minAdet": 1,
+        "maxAdet": 2,
+        "minOran": 0.15,
+        "maxOran": 0.3,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "sebze": {
+        "kategori": "sebze",
+        "minAdet": 0,
+        "maxAdet": 2,
+        "minOran": 0.0,
+        "maxOran": 0.15,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      }
+    }
+  },
+  {
+    "ogunTipi": "araOgun1",
+    "kategoriKurallari": {
+      "protein": {
+        "kategori": "protein",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.15,
+        "maxOran": 0.3,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "karbonhidrat": {
+        "kategori": "karbonhidrat",
+        "minAdet": 1,
+        "maxAdet": 1,
+        "minOran": 0.3,
+        "maxOran": 0.45,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": [
+          "Pirinç",
+          "Patates",
+          "Makarna"
+        ]
+      },
+      "yag": {
+        "kategori": "yag",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.15,
+        "maxOran": 0.25,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "meyve": {
+        "kategori": "meyve",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.0,
+        "maxOran": 0.25,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      }
+    }
+  },
+  {
+    "ogunTipi": "ogle",
+    "kategoriKurallari": {
+      "protein": {
+        "kategori": "protein",
+        "minAdet": 1,
+        "maxAdet": 1,
+        "minOran": 0.3,
+        "maxOran": 0.45,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "karbonhidrat": {
+        "kategori": "karbonhidrat",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.25,
+        "maxOran": 0.4,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": [
+          "Yulaf",
+          "Granola"
+        ]
+      },
+      "sebze": {
+        "kategori": "sebze",
+        "minAdet": 1,
+        "maxAdet": 3,
+        "minOran": 0.1,
+        "maxOran": 0.25,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "yag": {
+        "kategori": "yag",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.1,
+        "maxOran": 0.2,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      }
+    }
+  },
+  {
+    "ogunTipi": "araOgun2",
+    "kategoriKurallari": {
+      "protein": {
+        "kategori": "protein",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.15,
+        "maxOran": 0.3,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "karbonhidrat": {
+        "kategori": "karbonhidrat",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.2,
+        "maxOran": 0.35,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": [
+          "Pirinç",
+          "Patates",
+          "Makarna"
+        ]
+      },
+      "meyve": {
+        "kategori": "meyve",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.0,
+        "maxOran": 0.25,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "yag": {
+        "kategori": "yag",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.1,
+        "maxOran": 0.2,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      }
+    }
+  },
+  {
+    "ogunTipi": "aksam",
+    "kategoriKurallari": {
+      "protein": {
+        "kategori": "protein",
+        "minAdet": 1,
+        "maxAdet": 1,
+        "minOran": 0.4,
+        "maxOran": 0.5,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "karbonhidrat": {
+        "kategori": "karbonhidrat",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.0,
+        "maxOran": 0.25,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": [
+          "Yulaf",
+          "Granola",
+          "Mısır Gevreği"
+        ]
+      },
+      "sebze": {
+        "kategori": "sebze",
+        "minAdet": 2,
+        "maxAdet": 4,
+        "minOran": 0.15,
+        "maxOran": 0.3,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      },
+      "yag": {
+        "kategori": "yag",
+        "minAdet": 0,
+        "maxAdet": 1,
+        "minOran": 0.1,
+        "maxOran": 0.2,
+        "zorunluMalzemeler": [],
+        "yasakMalzemeler": []
+      }
+    }
+  }
+]

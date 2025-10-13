@@ -21,6 +21,7 @@ dependencies:
   
   # Network
   dio: ^5.3.3
+  http: ^1.1.0
   connectivity_plus: ^5.0.1
   
   # UI
@@ -51,4 +52,6 @@ flutter:
   
   assets:
     - assets/data/
+    - assets/data/son/
     - assets/images/
+    - assets/data/hive_db/

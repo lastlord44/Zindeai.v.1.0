@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "KAH_101",
+    "ad": "Çırpılmış Yumurta + Peynir + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Ekmek 60g",
+      "Zeytin 40g"
+    ],
+    "kalori": 380,
+    "protein": 20,
+    "karbonhidrat": 35,
+    "yag": 16
+  },
+  {
+    "id": "KAH_102",
+    "ad": "Beyaz Peynir + Zeytin + Domates + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Kaşar 81g",
+      "Ekmek 61g",
+      "Salatalık 70g"
+    ],
+    "kalori": 401,
+    "protein": 19,
+    "karbonhidrat": 41,
+    "yag": 19
+  },
+  {
+    "id": "KAH_103",
+    "ad": "Yoğurt + Granola + Meyve",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süzme Yoğurt 152g",
+      "Mısır Gevreği 52g",
+      "Elma 90g"
+    ],
+    "kalori": 362,
+    "protein": 16,
+    "karbonhidrat": 57,
+    "yag": 12
+  },
+  {
+    "id": "KAH_104",
+    "ad": "Közlenmiş Patlıcan + Yoğurt + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Marul 50g",
+      "Zeytinyağı 10g",
+      "Ekmek 63g"
+    ],
+    "kalori": 343,
+    "protein": 19,
+    "karbonhidrat": 41,
+    "yag": 17
+  },
+  {
+    "id": "KAH_105",
+    "ad": "Peynirli Börek + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Peynir 70g",
+      "Yoğurt 54g"
+    ],
+    "kalori": 454,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "KAH_106",
+    "ad": "Sahanda Yumurta + Domates + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 105g",
+      "Ekmek 65g",
+      "Zeytin 40g"
+    ],
+    "kalori": 385,
+    "protein": 25,
+    "karbonhidrat": 40,
+    "yag": 21
+  },
+  {
+    "id": "KAH_107",
+    "ad": "Kaşar + Salatalık + Ceviz + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Feta 86g",
+      "Ekmek 66g",
+      "Domates 80g"
+    ],
+    "kalori": 406,
+    "protein": 24,
+    "karbonhidrat": 46,
+    "yag": 24
+  },
+  {
+    "id": "KAH_108",
+    "ad": "Süt + Yulaf + Muz + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ayran 157g",
+      "Kepekli Gevrek 57g",
+      "Elma 90g"
+    ],
+    "kalori": 367,
+    "protein": 21,
+    "karbonhidrat": 62,
+    "yag": 17
+  },
+  {
+    "id": "KAH_109",
+    "ad": "Avokado + Yumurta + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Biber 60g",
+      "Zeytinyağı 10g",
+      "Ekmek 68g"
+    ],
+    "kalori": 348,
+    "protein": 16,
+    "karbonhidrat": 46,
+    "yag": 22
+  },
+  {
+    "id": "KAH_110",
+    "ad": "Ispanaklı Börek + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Kıyma 60g",
+      "Yoğurt 59g"
+    ],
+    "kalori": 459,
+    "protein": 27,
+    "karbonhidrat": 69,
+    "yag": 25
+  },
+  {
+    "id": "KAH_111",
+    "ad": "Haşlanmış Yumurta + Zeytin + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 110g",
+      "Ekmek 70g",
+      "Zeytin 40g"
+    ],
+    "kalori": 390,
+    "protein": 30,
+    "karbonhidrat": 45,
+    "yag": 26
+  },
+  {
+    "id": "KAH_112",
+    "ad": "Lor + Bal + Ceviz + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tulum 91g",
+      "Ekmek 71g",
+      "Maydanoz 30g"
+    ],
+    "kalori": 411,
+    "protein": 19,
+    "karbonhidrat": 51,
+    "yag": 19
+  },
+  {
+    "id": "KAH_113",
+    "ad": "Yoğurt + Chia + Çilek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 162g",
+      "Yulaf 62g",
+      "Elma 90g"
+    ],
+    "kalori": 372,
+    "protein": 18,
+    "karbonhidrat": 67,
+    "yag": 12
+  },
+  {
+    "id": "KAH_114",
+    "ad": "Domates + Salatalık + Peynir + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Salatalık 70g",
+      "Zeytinyağı 10g",
+      "Ekmek 73g"
+    ],
+    "kalori": 353,
+    "protein": 21,
+    "karbonhidrat": 51,
+    "yag": 17
+  },
+  {
+    "id": "KAH_115",
+    "ad": "Kıymalı Börek + Salata",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Ispanak 80g",
+      "Yoğurt 64g"
+    ],
+    "kalori": 464,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 18
+  },
+  {
+    "id": "KAH_116",
+    "ad": "Yumurtalı Sandviç + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 115g",
+      "Ekmek 75g",
+      "Zeytin 40g"
+    ],
+    "kalori": 395,
+    "protein": 23,
+    "karbonhidrat": 35,
+    "yag": 19
+  },
+  {
+    "id": "KAH_117",
+    "ad": "Tulum + Roka + Domates + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Beyaz Peynir 96g",
+      "Ekmek 76g",
+      "Roka 40g"
+    ],
+    "kalori": 416,
+    "protein": 24,
+    "karbonhidrat": 56,
+    "yag": 24
+  },
+  {
+    "id": "KAH_118",
+    "ad": "Süt + Mısır Gevreği + Muz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süt 167g",
+      "Granola 67g",
+      "Elma 90g"
+    ],
+    "kalori": 377,
+    "protein": 15,
+    "karbonhidrat": 72,
+    "yag": 17
+  },
+  {
+    "id": "KAH_119",
+    "ad": "Sebze Omlet + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Domates 80g",
+      "Zeytinyağı 10g",
+      "Ekmek 78g"
+    ],
+    "kalori": 358,
+    "protein": 18,
+    "karbonhidrat": 38,
+    "yag": 22
+  },
+  {
+    "id": "KAH_120",
+    "ad": "Su Böreği + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Patates 100g",
+      "Yoğurt 69g"
+    ],
+    "kalori": 469,
+    "protein": 27,
+    "karbonhidrat": 79,
+    "yag": 23
+  },
+  {
+    "id": "KAH_121",
+    "ad": "Rafadan Yumurta + Avokado + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 120g",
+      "Ekmek 60g",
+      "Zeytin 40g"
+    ],
+    "kalori": 400,
+    "protein": 28,
+    "karbonhidrat": 40,
+    "yag": 24
+  },
+  {
+    "id": "KAH_122",
+    "ad": "Çerkez Peyniri + Yeşillik + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Labne 101g",
+      "Ekmek 61g",
+      "Marul 50g"
+    ],
+    "kalori": 421,
+    "protein": 19,
+    "karbonhidrat": 41,
+    "yag": 19
+  },
+  {
+    "id": "KAH_123",
+    "ad": "Yoğurt + Hurma + Ceviz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süzme Yoğurt 172g",
+      "Mısır Gevreği 52g",
+      "Elma 90g"
+    ],
+    "kalori": 382,
+    "protein": 20,
+    "karbonhidrat": 77,
+    "yag": 12
+  },
+  {
+    "id": "KAH_124",
+    "ad": "Roka + Peynir + Ceviz + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Maydanoz 30g",
+      "Zeytinyağı 10g",
+      "Ekmek 63g"
+    ],
+    "kalori": 363,
+    "protein": 23,
+    "karbonhidrat": 43,
+    "yag": 17
+  },
+  {
+    "id": "KAH_125",
+    "ad": "Gözleme Peynirli + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Peynir 70g",
+      "Yoğurt 74g"
+    ],
+    "kalori": 474,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 16
+  },
+  {
+    "id": "KAH_126",
+    "ad": "Menemen + Kaşar + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 125g",
+      "Ekmek 65g",
+      "Zeytin 40g"
+    ],
+    "kalori": 405,
+    "protein": 21,
+    "karbonhidrat": 45,
+    "yag": 17
+  },
+  {
+    "id": "KAH_127",
+    "ad": "Labne + Zeytinyağı + Nane + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Lor 106g",
+      "Ekmek 66g",
+      "Biber 60g"
+    ],
+    "kalori": 426,
+    "protein": 24,
+    "karbonhidrat": 46,
+    "yag": 24
+  },
+  {
+    "id": "KAH_128",
+    "ad": "Süt + Kepek + Elma",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ayran 177g",
+      "Kepekli Gevrek 57g",
+      "Elma 90g"
+    ],
+    "kalori": 387,
+    "protein": 17,
+    "karbonhidrat": 57,
+    "yag": 17
+  },
+  {
+    "id": "KAH_129",
+    "ad": "Enginar + Zeytinyağı + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Roka 40g",
+      "Zeytinyağı 10g",
+      "Ekmek 68g"
+    ],
+    "kalori": 368,
+    "protein": 20,
+    "karbonhidrat": 48,
+    "yag": 22
+  },
+  {
+    "id": "KAH_130",
+    "ad": "Gözleme Patatesli + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Kıyma 60g",
+      "Yoğurt 79g"
+    ],
+    "kalori": 479,
+    "protein": 27,
+    "karbonhidrat": 69,
+    "yag": 21
+  },
+  {
+    "id": "KAH_131",
+    "ad": "Omlet + Mantar + Domates",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 130g",
+      "Ekmek 70g",
+      "Zeytin 40g"
+    ],
+    "kalori": 410,
+    "protein": 26,
+    "karbonhidrat": 35,
+    "yag": 22
+  },
+  {
+    "id": "KAH_132",
+    "ad": "Feta + Zeytin + Biber + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Cottage Cheese 111g",
+      "Ekmek 71g",
+      "Salatalık 70g"
+    ],
+    "kalori": 431,
+    "protein": 19,
+    "karbonhidrat": 51,
+    "yag": 19
+  },
+  {
+    "id": "KAH_133",
+    "ad": "Smoothie Bowl + Granola + Meyve",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 182g",
+      "Yulaf 62g",
+      "Elma 90g"
+    ],
+    "kalori": 392,
+    "protein": 14,
+    "karbonhidrat": 62,
+    "yag": 12
+  },
+  {
+    "id": "KAH_134",
+    "ad": "Irmik Helvası + Salata",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Marul 50g",
+      "Zeytinyağı 10g",
+      "Ekmek 73g"
+    ],
+    "kalori": 373,
+    "protein": 17,
+    "karbonhidrat": 53,
+    "yag": 17
+  },
+  {
+    "id": "KAH_135",
+    "ad": "Poğaça Peynirli + Çay",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Ispanak 80g",
+      "Yoğurt 84g"
+    ],
+    "kalori": 484,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 26
+  },
+  {
+    "id": "KAH_136",
+    "ad": "Yumurta + Jambon + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 135g",
+      "Ekmek 75g",
+      "Zeytin 40g"
+    ],
+    "kalori": 415,
+    "protein": 31,
+    "karbonhidrat": 40,
+    "yag": 27
+  },
+  {
+    "id": "KAH_137",
+    "ad": "Kaşar Tost + Domates + Marul",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çerkez Peyniri 116g",
+      "Ekmek 76g",
+      "Domates 80g"
+    ],
+    "kalori": 436,
+    "protein": 24,
+    "karbonhidrat": 56,
+    "yag": 24
+  },
+  {
+    "id": "KAH_138",
+    "ad": "Süzme Yoğurt + Bal + Badem",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süt 187g",
+      "Granola 67g",
+      "Elma 90g"
+    ],
+    "kalori": 397,
+    "protein": 19,
+    "karbonhidrat": 67,
+    "yag": 17
+  },
+  {
+    "id": "KAH_139",
+    "ad": "Patlıcan Salatası + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Biber 60g",
+      "Zeytinyağı 10g",
+      "Ekmek 78g"
+    ],
+    "kalori": 378,
+    "protein": 22,
+    "karbonhidrat": 40,
+    "yag": 22
+  },
+  {
+    "id": "KAH_140",
+    "ad": "Poğaça Zeytinli + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Patates 100g",
+      "Yoğurt 89g"
+    ],
+    "kalori": 489,
+    "protein": 27,
+    "karbonhidrat": 79,
+    "yag": 19
+  },
+  {
+    "id": "KAH_141",
+    "ad": "Yumurta + Sosis + Salata",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 140g",
+      "Ekmek 60g",
+      "Zeytin 40g"
+    ],
+    "kalori": 420,
+    "protein": 24,
+    "karbonhidrat": 45,
+    "yag": 20
+  },
+  {
+    "id": "KAH_142",
+    "ad": "Peynir Tabağı + Ceviz + Üzüm",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Kaşar 81g",
+      "Ekmek 61g",
+      "Maydanoz 30g"
+    ],
+    "kalori": 441,
+    "protein": 19,
+    "karbonhidrat": 41,
+    "yag": 19
+  },
+  {
+    "id": "KAH_143",
+    "ad": "Yoğurt + Yaban Mersini + Fındık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süzme Yoğurt 192g",
+      "Mısır Gevreği 52g",
+      "Elma 90g"
+    ],
+    "kalori": 402,
+    "protein": 16,
+    "karbonhidrat": 72,
+    "yag": 12
+  },
+  {
+    "id": "KAH_144",
+    "ad": "Yeşil Salata + Peynir + Ceviz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Salatalık 70g",
+      "Zeytinyağı 10g",
+      "Ekmek 63g"
+    ],
+    "kalori": 383,
+    "protein": 19,
+    "karbonhidrat": 45,
+    "yag": 17
+  },
+  {
+    "id": "KAH_145",
+    "ad": "Açma + Peynir + Domates",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Peynir 70g",
+      "Yoğurt 94g"
+    ],
+    "kalori": 494,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 24
+  },
+  {
+    "id": "KAH_146",
+    "ad": "Çılbır + Yoğurt + Sarımsak",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 145g",
+      "Ekmek 65g",
+      "Zeytin 40g"
+    ],
+    "kalori": 425,
+    "protein": 29,
+    "karbonhidrat": 35,
+    "yag": 25
+  },
+  {
+    "id": "KAH_147",
+    "ad": "Cottage Cheese + Salatalık + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Feta 86g",
+      "Ekmek 66g",
+      "Roka 40g"
+    ],
+    "kalori": 446,
+    "protein": 24,
+    "karbonhidrat": 46,
+    "yag": 24
+  },
+  {
+    "id": "KAH_148",
+    "ad": "Süt + Protein Tozu + Muz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ayran 197g",
+      "Kepekli Gevrek 57g",
+      "Elma 90g"
+    ],
+    "kalori": 407,
+    "protein": 21,
+    "karbonhidrat": 77,
+    "yag": 17
+  },
+  {
+    "id": "KAH_149",
+    "ad": "Izgara Sebze + Labne + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Domates 80g",
+      "Zeytinyağı 10g",
+      "Ekmek 68g"
+    ],
+    "kalori": 388,
+    "protein": 16,
+    "karbonhidrat": 50,
+    "yag": 22
+  },
+  {
+    "id": "KAH_150",
+    "ad": "Çörek + Peynir + Çay",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Kıyma 60g",
+      "Yoğurt 99g"
+    ],
+    "kalori": 499,
+    "protein": 27,
+    "karbonhidrat": 69,
+    "yag": 17
+  },
+  {
+    "id": "KAH_151",
+    "ad": "Yumurta + Pastırma + Biber",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 100g",
+      "Ekmek 70g",
+      "Zeytin 40g"
+    ],
+    "kalori": 430,
+    "protein": 22,
+    "karbonhidrat": 40,
+    "yag": 18
+  },
+  {
+    "id": "KAH_152",
+    "ad": "Ricotta + Bal + Meyve",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tulum 91g",
+      "Ekmek 71g",
+      "Marul 50g"
+    ],
+    "kalori": 451,
+    "protein": 19,
+    "karbonhidrat": 51,
+    "yag": 19
+  },
+  {
+    "id": "KAH_153",
+    "ad": "Yoğurt + Kivi + Chia",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 152g",
+      "Yulaf 62g",
+      "Elma 90g"
+    ],
+    "kalori": 412,
+    "protein": 18,
+    "karbonhidrat": 57,
+    "yag": 12
+  },
+  {
+    "id": "KAH_154",
+    "ad": "Humus + Domates + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Maydanoz 30g",
+      "Zeytinyağı 10g",
+      "Ekmek 73g"
+    ],
+    "kalori": 393,
+    "protein": 21,
+    "karbonhidrat": 55,
+    "yag": 17
+  },
+  {
+    "id": "KAH_155",
+    "ad": "Simit + Peynir + Domates",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Ispanak 80g",
+      "Yoğurt 54g"
+    ],
+    "kalori": 504,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 22
+  },
+  {
+    "id": "KAH_156",
+    "ad": "Yumurta + Sucuk + Domates",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 105g",
+      "Ekmek 75g",
+      "Zeytin 40g"
+    ],
+    "kalori": 435,
+    "protein": 27,
+    "karbonhidrat": 45,
+    "yag": 23
+  },
+  {
+    "id": "KAH_157",
+    "ad": "Mozzarella + Domates + Fesleğen",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Beyaz Peynir 96g",
+      "Ekmek 76g",
+      "Biber 60g"
+    ],
+    "kalori": 456,
+    "protein": 24,
+    "karbonhidrat": 56,
+    "yag": 24
+  },
+  {
+    "id": "KAH_158",
+    "ad": "Süt + Karabuğday + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süt 157g",
+      "Granola 67g",
+      "Elma 90g"
+    ],
+    "kalori": 417,
+    "protein": 15,
+    "karbonhidrat": 62,
+    "yag": 17
+  },
+  {
+    "id": "KAH_159",
+    "ad": "Ezme + Peynir + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Roka 40g",
+      "Zeytinyağı 10g",
+      "Ekmek 78g"
+    ],
+    "kalori": 398,
+    "protein": 18,
+    "karbonhidrat": 42,
+    "yag": 22
+  },
+  {
+    "id": "KAH_160",
+    "ad": "Pide Peynirli + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Patates 100g",
+      "Yoğurt 59g"
+    ],
+    "kalori": 509,
+    "protein": 27,
+    "karbonhidrat": 79,
+    "yag": 27
+  },
+  {
+    "id": "KAH_161",
+    "ad": "Yumurtalı Wrap + Sebze",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 110g",
+      "Ekmek 60g",
+      "Zeytin 40g"
+    ],
+    "kalori": 440,
+    "protein": 20,
+    "karbonhidrat": 35,
+    "yag": 16
+  },
+  {
+    "id": "KAH_162",
+    "ad": "Peynir + Kavun + Fındık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Labne 101g",
+      "Ekmek 61g",
+      "Salatalık 70g"
+    ],
+    "kalori": 461,
+    "protein": 19,
+    "karbonhidrat": 41,
+    "yag": 19
+  },
+  {
+    "id": "KAH_163",
+    "ad": "Yoğurt + Kayısı + Ceviz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süzme Yoğurt 162g",
+      "Mısır Gevreği 52g",
+      "Elma 90g"
+    ],
+    "kalori": 422,
+    "protein": 20,
+    "karbonhidrat": 67,
+    "yag": 12
+  },
+  {
+    "id": "KAH_164",
+    "ad": "Çoban Salata + Peynir + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Marul 50g",
+      "Zeytinyağı 10g",
+      "Ekmek 63g"
+    ],
+    "kalori": 403,
+    "protein": 23,
+    "karbonhidrat": 47,
+    "yag": 17
+  },
+  {
+    "id": "KAH_165",
+    "ad": "Lahmacun + Ayran + Yeşillik",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Peynir 70g",
+      "Yoğurt 64g"
+    ],
+    "kalori": 514,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "KAH_166",
+    "ad": "Yumurta + Lor + Maydanoz",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 115g",
+      "Ekmek 65g",
+      "Zeytin 40g"
+    ],
+    "kalori": 445,
+    "protein": 25,
+    "karbonhidrat": 40,
+    "yag": 21
+  },
+  {
+    "id": "KAH_167",
+    "ad": "Cream Cheese + Somon + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Lor 106g",
+      "Ekmek 66g",
+      "Domates 80g"
+    ],
+    "kalori": 466,
+    "protein": 24,
+    "karbonhidrat": 46,
+    "yag": 24
+  },
+  {
+    "id": "KAH_168",
+    "ad": "Süt + Tam Buğday Gevrek + Çilek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ayran 167g",
+      "Kepekli Gevrek 57g",
+      "Elma 90g"
+    ],
+    "kalori": 427,
+    "protein": 17,
+    "karbonhidrat": 72,
+    "yag": 17
+  },
+  {
+    "id": "KAH_169",
+    "ad": "Atom + Zeytinyağı + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Biber 60g",
+      "Zeytinyağı 10g",
+      "Ekmek 68g"
+    ],
+    "kalori": 408,
+    "protein": 20,
+    "karbonhidrat": 52,
+    "yag": 22
+  },
+  {
+    "id": "KAH_170",
+    "ad": "Katmer + Kaymak + Fıstık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Kıyma 60g",
+      "Yoğurt 69g"
+    ],
+    "kalori": 519,
+    "protein": 27,
+    "karbonhidrat": 69,
+    "yag": 25
+  },
+  {
+    "id": "KAH_171",
+    "ad": "Yumurta + Ispanak + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 120g",
+      "Ekmek 70g",
+      "Zeytin 40g"
+    ],
+    "kalori": 450,
+    "protein": 30,
+    "karbonhidrat": 45,
+    "yag": 26
+  },
+  {
+    "id": "KAH_172",
+    "ad": "Keçi Peyniri + Roka + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Cottage Cheese 111g",
+      "Ekmek 71g",
+      "Maydanoz 30g"
+    ],
+    "kalori": 471,
+    "protein": 19,
+    "karbonhidrat": 51,
+    "yag": 19
+  },
+  {
+    "id": "KAH_173",
+    "ad": "Ayran + Ekmek + Peynir",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 172g",
+      "Yulaf 62g",
+      "Elma 90g"
+    ],
+    "kalori": 432,
+    "protein": 14,
+    "karbonhidrat": 77,
+    "yag": 12
+  },
+  {
+    "id": "KAH_174",
+    "ad": "Maydanoz Salatası + Bulgur + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Salatalık 70g",
+      "Zeytinyağı 10g",
+      "Ekmek 73g"
+    ],
+    "kalori": 413,
+    "protein": 17,
+    "karbonhidrat": 39,
+    "yag": 17
+  },
+  {
+    "id": "KAH_175",
+    "ad": "Milföy Börek + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Ispanak 80g",
+      "Yoğurt 74g"
+    ],
+    "kalori": 524,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 18
+  },
+  {
+    "id": "KAH_176",
+    "ad": "Yumurta + Kavurma + Salata",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 125g",
+      "Ekmek 75g",
+      "Zeytin 40g"
+    ],
+    "kalori": 455,
+    "protein": 23,
+    "karbonhidrat": 35,
+    "yag": 19
+  },
+  {
+    "id": "KAH_177",
+    "ad": "Peynir + Ceviz + Reçel + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Çerkez Peyniri 116g",
+      "Ekmek 76g",
+      "Roka 40g"
+    ],
+    "kalori": 476,
+    "protein": 24,
+    "karbonhidrat": 56,
+    "yag": 24
+  },
+  {
+    "id": "KAH_178",
+    "ad": "Yoğurt + Elma + Tarçın",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süt 177g",
+      "Granola 67g",
+      "Elma 90g"
+    ],
+    "kalori": 437,
+    "protein": 19,
+    "karbonhidrat": 57,
+    "yag": 17
+  },
+  {
+    "id": "KAH_179",
+    "ad": "Kısır + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Domates 80g",
+      "Zeytinyağı 10g",
+      "Ekmek 78g"
+    ],
+    "kalori": 418,
+    "protein": 22,
+    "karbonhidrat": 44,
+    "yag": 22
+  },
+  {
+    "id": "KAH_180",
+    "ad": "Sigara Böreği + Salata",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Patates 100g",
+      "Yoğurt 79g"
+    ],
+    "kalori": 529,
+    "protein": 27,
+    "karbonhidrat": 79,
+    "yag": 23
+  },
+  {
+    "id": "KAH_181",
+    "ad": "Yumurta + Ton Balığı + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 130g",
+      "Ekmek 60g",
+      "Zeytin 40g"
+    ],
+    "kalori": 460,
+    "protein": 28,
+    "karbonhidrat": 40,
+    "yag": 24
+  },
+  {
+    "id": "KAH_182",
+    "ad": "Kaşar + Sosis + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Kaşar 81g",
+      "Ekmek 61g",
+      "Marul 50g"
+    ],
+    "kalori": 481,
+    "protein": 19,
+    "karbonhidrat": 41,
+    "yag": 19
+  },
+  {
+    "id": "KAH_183",
+    "ad": "Süt + Quinoa + Meyve",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süzme Yoğurt 182g",
+      "Mısır Gevreği 52g",
+      "Elma 90g"
+    ],
+    "kalori": 442,
+    "protein": 16,
+    "karbonhidrat": 62,
+    "yag": 12
+  },
+  {
+    "id": "KAH_184",
+    "ad": "Marul + Ceviz + Peynir + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Maydanoz 30g",
+      "Zeytinyağı 10g",
+      "Ekmek 63g"
+    ],
+    "kalori": 423,
+    "protein": 19,
+    "karbonhidrat": 49,
+    "yag": 17
+  },
+  {
+    "id": "KAH_185",
+    "ad": "Kol Böreği + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Peynir 70g",
+      "Yoğurt 84g"
+    ],
+    "kalori": 534,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 16
+  },
+  {
+    "id": "KAH_186",
+    "ad": "Yumurta + Füme Et + Roka",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 135g",
+      "Ekmek 65g",
+      "Zeytin 40g"
+    ],
+    "kalori": 465,
+    "protein": 21,
+    "karbonhidrat": 45,
+    "yag": 17
+  },
+  {
+    "id": "KAH_187",
+    "ad": "Peynir + Yeşil Zeytin + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Feta 86g",
+      "Ekmek 66g",
+      "Biber 60g"
+    ],
+    "kalori": 486,
+    "protein": 24,
+    "karbonhidrat": 46,
+    "yag": 24
+  },
+  {
+    "id": "KAH_188",
+    "ad": "Yoğurt + Mango + Hindistan Cevizi",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Ayran 187g",
+      "Kepekli Gevrek 57g",
+      "Elma 90g"
+    ],
+    "kalori": 447,
+    "protein": 21,
+    "karbonhidrat": 67,
+    "yag": 17
+  },
+  {
+    "id": "KAH_189",
+    "ad": "Kapya Biber + Yoğurt + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Roka 40g",
+      "Zeytinyağı 10g",
+      "Ekmek 68g"
+    ],
+    "kalori": 428,
+    "protein": 16,
+    "karbonhidrat": 54,
+    "yag": 22
+  },
+  {
+    "id": "KAH_190",
+    "ad": "Çiğ Börek + Yoğurt",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Kıyma 60g",
+      "Yoğurt 89g"
+    ],
+    "kalori": 539,
+    "protein": 27,
+    "karbonhidrat": 69,
+    "yag": 21
+  },
+  {
+    "id": "KAH_191",
+    "ad": "Yumurta + Biberli Ezme + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 140g",
+      "Ekmek 70g",
+      "Zeytin 40g"
+    ],
+    "kalori": 470,
+    "protein": 26,
+    "karbonhidrat": 35,
+    "yag": 22
+  },
+  {
+    "id": "KAH_192",
+    "ad": "Peynirli Pide + Ayran",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Tulum 91g",
+      "Ekmek 71g",
+      "Salatalık 70g"
+    ],
+    "kalori": 491,
+    "protein": 19,
+    "karbonhidrat": 51,
+    "yag": 19
+  },
+  {
+    "id": "KAH_193",
+    "ad": "Süt + Amarant + Fındık",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yoğurt 192g",
+      "Yulaf 62g",
+      "Elma 90g"
+    ],
+    "kalori": 452,
+    "protein": 18,
+    "karbonhidrat": 72,
+    "yag": 12
+  },
+  {
+    "id": "KAH_194",
+    "ad": "Sebzeli Wrap + Humus",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Marul 50g",
+      "Zeytinyağı 10g",
+      "Ekmek 73g"
+    ],
+    "kalori": 433,
+    "protein": 21,
+    "karbonhidrat": 41,
+    "yag": 17
+  },
+  {
+    "id": "KAH_195",
+    "ad": "Mantı + Yoğurt + Salça",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Ispanak 80g",
+      "Yoğurt 94g"
+    ],
+    "kalori": 544,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 26
+  },
+  {
+    "id": "KAH_196",
+    "ad": "Yumurta + Pesto + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Yumurta 145g",
+      "Ekmek 75g",
+      "Zeytin 40g"
+    ],
+    "kalori": 475,
+    "protein": 31,
+    "karbonhidrat": 40,
+    "yag": 27
+  },
+  {
+    "id": "KAH_197",
+    "ad": "Peynir + Domates + Biber + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Beyaz Peynir 96g",
+      "Ekmek 76g",
+      "Domates 80g"
+    ],
+    "kalori": 496,
+    "protein": 24,
+    "karbonhidrat": 56,
+    "yag": 24
+  },
+  {
+    "id": "KAH_198",
+    "ad": "Yoğurt + İncir + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Süt 197g",
+      "Granola 67g",
+      "Elma 90g"
+    ],
+    "kalori": 457,
+    "protein": 15,
+    "karbonhidrat": 77,
+    "yag": 17
+  },
+  {
+    "id": "KAH_199",
+    "ad": "Mantar Sote + Ekmek",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Biber 60g",
+      "Zeytinyağı 10g",
+      "Ekmek 78g"
+    ],
+    "kalori": 438,
+    "protein": 18,
+    "karbonhidrat": 46,
+    "yag": 22
+  },
+  {
+    "id": "KAH_200",
+    "ad": "Pişi + Peynir + Bal",
+    "ogun": "kahvalti",
+    "malzemeler": [
+      "Un 80g",
+      "Patates 100g",
+      "Yoğurt 99g"
+    ],
+    "kalori": 549,
+    "protein": 27,
+    "karbonhidrat": 79,
+    "yag": 19
+  }
+]

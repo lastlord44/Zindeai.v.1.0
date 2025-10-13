@@ -83,18 +83,19 @@ class YemekHiveModel extends HiveObject {
   /// JSON'dan YemekHiveModel oluştur (hem eski hem yeni format desteği)
   factory YemekHiveModel.fromJson(Map<String, dynamic> json) {
     // Yeni format kontrolü (Türkçe field adları)
+    // 🔥 FIX: Hem 'isim' hem de 'ad' kontrolü yap (mega yemekler 'ad' kullanıyor)
     final bool yeniFormat =
-        json.containsKey('isim') || json.containsKey('aciklama');
+        json.containsKey('isim') || json.containsKey('ad') || json.containsKey('aciklama');
 
     YemekHiveModel model;
 
     if (yeniFormat) {
-      // 🆕 YENİ FORMAT (zindeai_*.json dosyaları)
+      // 🆕 YENİ FORMAT (zindeai_*.json ve mega_*.json dosyaları)
       final rawId = json['id']?.toString();
       model = YemekHiveModel(
         mealId: rawId != null && rawId.isNotEmpty ? rawId : generateMealId(),
-        category: json['kategori']?.toString(),
-        mealName: json['isim']?.toString(),
+        category: json['kategori']?.toString() ?? json['ogun']?.toString(), // 🔥 FIX: 'ogun' da destekle
+        mealName: json['isim']?.toString() ?? json['ad']?.toString(), // 🔥 FIX: 'ad' da destekle
         calorie: _parseDouble(json['kalori']),
         proteinG: _parseDouble(json['protein']),
         carbG: _parseDouble(json['karbonhidrat']),

@@ -1,0 +1,1812 @@
+[
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Pul biber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Sumak",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Kekik",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Karabiber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Fesleğen",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Kimyon",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Nane",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Pul biber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Sumak",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Kekik",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Karabiber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Fesleğen",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Kimyon",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Nane",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Pul biber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Sumak",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Kekik",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Karabiber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Fesleğen",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Kimyon",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Nane",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Pul biber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Sumak",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Kekik",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Karabiber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Fesleğen",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Kimyon",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Nane",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Pul biber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Sumak",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Kekik",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Karabiber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Fesleğen",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Kimyon",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Nane",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Pul biber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + domates-salatalık + Sumak",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: domates-salatalık; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Domates-salatalık",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + ızgara biber + Kekik",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: ızgara biber; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Izgara biber",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + karnabahar + Karabiber",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: karnabahar; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Karnabahar",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + göbek marul + Fesleğen",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: göbek marul; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Göbek marul",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + mor lahana + Kimyon",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: mor lahana; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Mor lahana",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Yumurta + Haşlanmış Patates + taze soğan + Nane",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 446,
+    "protein": 26,
+    "carbs": 44,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 160g, Haşlanmış Patates 250g; Garnitür: taze soğan; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Haşlanmış Yumurta (160g)",
+      "Haşlanmış Patates (250g)",
+      "Taze soğan",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "kahvalti",
+    "calories": 437,
+    "protein": 26,
+    "carbs": 40,
+    "fat": 18,
+    "portion_info": "Haşlanmış Yumurta 140g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (140g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  }
+]

@@ -1,0 +1,4130 @@
+[
+  {
+    "id": "BESIN-1801",
+    "ad": "Zeytinyağı (soğuk sıkım)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.0,
+    "kalori100g": 884,
+    "fiyat100g": 9.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1898",
+      "BESIN-1878"
+    ]
+  },
+  {
+    "id": "BESIN-1802",
+    "ad": "Ayçiçek Yağı (rafine)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.0,
+    "kalori100g": 884,
+    "fiyat100g": 3.5,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1806",
+      "BESIN-1858"
+    ]
+  },
+  {
+    "id": "BESIN-1803",
+    "ad": "Fındık Yağı (natürel)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.0,
+    "kalori100g": 884,
+    "fiyat100g": 8.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1829",
+      "BESIN-1904",
+      "BESIN-1944"
+    ]
+  },
+  {
+    "id": "BESIN-1804",
+    "ad": "Kokos Yağı (rafine)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.0,
+    "kalori100g": 892,
+    "fiyat100g": 8.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1902",
+      "BESIN-1939",
+      "BESIN-1811"
+    ]
+  },
+  {
+    "id": "BESIN-1805",
+    "ad": "Tahin (susam ezmesi)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 17.0,
+    "karbonhidrat100g": 23.0,
+    "yag100g": 53.0,
+    "kalori100g": 595,
+    "fiyat100g": 4.5,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1932",
+      "BESIN-1872",
+      "BESIN-1891"
+    ]
+  },
+  {
+    "id": "BESIN-1806",
+    "ad": "Fıstık Ezmesi (kavrulmuş)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 25.0,
+    "karbonhidrat100g": 20.0,
+    "yag100g": 50.0,
+    "kalori100g": 588,
+    "fiyat100g": 5.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1999",
+      "BESIN-1873",
+      "BESIN-1855"
+    ]
+  },
+  {
+    "id": "BESIN-1807",
+    "ad": "Badem Ezmesi (şekersiz)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.0,
+    "karbonhidrat100g": 19.0,
+    "yag100g": 55.0,
+    "kalori100g": 614,
+    "fiyat100g": 8.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1849",
+      "BESIN-1904",
+      "BESIN-1942"
+    ]
+  },
+  {
+    "id": "BESIN-1808",
+    "ad": "Ceviz (kavrulmuş)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.0,
+    "karbonhidrat100g": 14.0,
+    "yag100g": 65.0,
+    "kalori100g": 654,
+    "fiyat100g": 6.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1985",
+      "BESIN-1813",
+      "BESIN-1872"
+    ]
+  },
+  {
+    "id": "BESIN-1809",
+    "ad": "Fındık (kavrulmuş)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.0,
+    "karbonhidrat100g": 17.0,
+    "yag100g": 61.0,
+    "kalori100g": 628,
+    "fiyat100g": 6.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1927",
+      "BESIN-1960",
+      "BESIN-1860"
+    ]
+  },
+  {
+    "id": "BESIN-1810",
+    "ad": "Kaju (kavrulmuş)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.0,
+    "karbonhidrat100g": 30.0,
+    "yag100g": 44.0,
+    "kalori100g": 553,
+    "fiyat100g": 7.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1808",
+      "BESIN-1823"
+    ]
+  },
+  {
+    "id": "BESIN-1811",
+    "ad": "Pekan (kavrulmuş)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.0,
+    "karbonhidrat100g": 14.0,
+    "yag100g": 72.0,
+    "kalori100g": 691,
+    "fiyat100g": 9.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1999",
+      "BESIN-1957"
+    ]
+  },
+  {
+    "id": "BESIN-1812",
+    "ad": "Pistachio (Antep, tuzsuz)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.0,
+    "karbonhidrat100g": 28.0,
+    "yag100g": 45.0,
+    "kalori100g": 560,
+    "fiyat100g": 11.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1970",
+      "BESIN-1911",
+      "BESIN-1928"
+    ]
+  },
+  {
+    "id": "BESIN-1813",
+    "ad": "Zeytin Ezmesi",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 2.0,
+    "karbonhidrat100g": 4.0,
+    "yag100g": 30.0,
+    "kalori100g": 300,
+    "fiyat100g": 3.2,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1808",
+      "BESIN-1842",
+      "BESIN-1921"
+    ]
+  },
+  {
+    "id": "BESIN-1814",
+    "ad": "Tahin Helvası (şekersiz)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 12.0,
+    "karbonhidrat100g": 20.0,
+    "yag100g": 45.0,
+    "kalori100g": 520,
+    "fiyat100g": 5.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1957",
+      "BESIN-1959"
+    ]
+  },
+  {
+    "id": "BESIN-1815",
+    "ad": "Süt Kaymağı",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 3.0,
+    "karbonhidrat100g": 4.0,
+    "yag100g": 55.0,
+    "kalori100g": 600,
+    "fiyat100g": 6.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1820",
+      "BESIN-1866"
+    ]
+  },
+  {
+    "id": "BESIN-1816",
+    "ad": "Yoğurt (Yüksek Protein)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.0,
+    "karbonhidrat100g": 5.0,
+    "yag100g": 0.5,
+    "kalori100g": 70,
+    "fiyat100g": 1.8,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1897",
+      "BESIN-1848",
+      "BESIN-1963"
+    ]
+  },
+  {
+    "id": "BESIN-1817",
+    "ad": "Skyr (doğal)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.0,
+    "karbonhidrat100g": 4.0,
+    "yag100g": 0.2,
+    "kalori100g": 63,
+    "fiyat100g": 4.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1827",
+      "BESIN-1815",
+      "BESIN-1884"
+    ]
+  },
+  {
+    "id": "BESIN-1818",
+    "ad": "Quark (light)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.0,
+    "karbonhidrat100g": 4.0,
+    "yag100g": 0.2,
+    "kalori100g": 62,
+    "fiyat100g": 4.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1992",
+      "BESIN-1815",
+      "BESIN-1862"
+    ]
+  },
+  {
+    "id": "BESIN-1819",
+    "ad": "Labne (light)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.0,
+    "karbonhidrat100g": 4.0,
+    "yag100g": 15.0,
+    "kalori100g": 190,
+    "fiyat100g": 6.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1919",
+      "BESIN-1994"
+    ]
+  },
+  {
+    "id": "BESIN-1820",
+    "ad": "Mozzarella (tam yağlı)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 22.0,
+    "karbonhidrat100g": 2.0,
+    "yag100g": 22.0,
+    "kalori100g": 280,
+    "fiyat100g": 9.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-2000",
+      "BESIN-1866"
+    ]
+  },
+  {
+    "id": "BESIN-1821",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.13,
+    "karbonhidrat100g": 4.19,
+    "yag100g": 0.19,
+    "kalori100g": 61.3,
+    "fiyat100g": 3.82,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1846",
+      "BESIN-1956"
+    ]
+  },
+  {
+    "id": "BESIN-1822",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.1,
+    "karbonhidrat100g": 4.1,
+    "yag100g": 14.88,
+    "kalori100g": 179.7,
+    "fiyat100g": 5.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1863",
+      "BESIN-1947",
+      "BESIN-1919"
+    ]
+  },
+  {
+    "id": "BESIN-1823",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 102.12,
+    "kalori100g": 911.2,
+    "fiyat100g": 3.36,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1855",
+      "BESIN-1966",
+      "BESIN-1945"
+    ]
+  },
+  {
+    "id": "BESIN-1824",
+    "ad": "Süt Kaymağı (mini paket)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 3.05,
+    "karbonhidrat100g": 4.21,
+    "yag100g": 53.55,
+    "kalori100g": 628.8,
+    "fiyat100g": 6.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1853",
+      "BESIN-1901",
+      "BESIN-1846"
+    ]
+  },
+  {
+    "id": "BESIN-1825",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.58,
+    "karbonhidrat100g": 4.07,
+    "yag100g": 0.2,
+    "kalori100g": 63.9,
+    "fiyat100g": 4.1,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1892",
+      "BESIN-1914"
+    ]
+  },
+  {
+    "id": "BESIN-1826",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 101.74,
+    "kalori100g": 872.5,
+    "fiyat100g": 8.95,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1991",
+      "BESIN-1916",
+      "BESIN-1894"
+    ]
+  },
+  {
+    "id": "BESIN-1827",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 23.22,
+    "karbonhidrat100g": 2.02,
+    "yag100g": 20.86,
+    "kalori100g": 279.8,
+    "fiyat100g": 9.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1818",
+      "BESIN-1918",
+      "BESIN-1824"
+    ]
+  },
+  {
+    "id": "BESIN-1828",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.54,
+    "karbonhidrat100g": 3.78,
+    "yag100g": 0.19,
+    "kalori100g": 64.0,
+    "fiyat100g": 4.27,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1882",
+      "BESIN-1893",
+      "BESIN-1940"
+    ]
+  },
+  {
+    "id": "BESIN-1829",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 94.74,
+    "kalori100g": 850.1,
+    "fiyat100g": 3.61,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1870",
+      "BESIN-1996"
+    ]
+  },
+  {
+    "id": "BESIN-1830",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.38,
+    "karbonhidrat100g": 3.8,
+    "yag100g": 15.59,
+    "kalori100g": 178.8,
+    "fiyat100g": 6.21,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1963",
+      "BESIN-1899",
+      "BESIN-1980"
+    ]
+  },
+  {
+    "id": "BESIN-1831",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.0,
+    "karbonhidrat100g": 13.71,
+    "yag100g": 64.2,
+    "kalori100g": 676.3,
+    "fiyat100g": 6.33,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1894",
+      "BESIN-1999",
+      "BESIN-1806"
+    ]
+  },
+  {
+    "id": "BESIN-1832",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.73,
+    "karbonhidrat100g": 20.01,
+    "yag100g": 51.88,
+    "kalori100g": 608.9,
+    "fiyat100g": 8.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1801",
+      "BESIN-1805"
+    ]
+  },
+  {
+    "id": "BESIN-1833",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.14,
+    "karbonhidrat100g": 17.46,
+    "yag100g": 60.37,
+    "kalori100g": 632.0,
+    "fiyat100g": 5.88,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1826",
+      "BESIN-1951",
+      "BESIN-1953"
+    ]
+  },
+  {
+    "id": "BESIN-1834",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 99.07,
+    "kalori100g": 875.8,
+    "fiyat100g": 3.54,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1982",
+      "BESIN-1909",
+      "BESIN-1842"
+    ]
+  },
+  {
+    "id": "BESIN-1835",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 101.87,
+    "kalori100g": 924.4,
+    "fiyat100g": 7.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1860",
+      "BESIN-1870"
+    ]
+  },
+  {
+    "id": "BESIN-1836",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.19,
+    "karbonhidrat100g": 20.04,
+    "yag100g": 58.07,
+    "kalori100g": 639.2,
+    "fiyat100g": 8.98,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1920",
+      "BESIN-1835"
+    ]
+  },
+  {
+    "id": "BESIN-1837",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.28,
+    "karbonhidrat100g": 29.84,
+    "yag100g": 42.67,
+    "kalori100g": 534.8,
+    "fiyat100g": 7.28,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1855",
+      "BESIN-1870",
+      "BESIN-1964"
+    ]
+  },
+  {
+    "id": "BESIN-1838",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 17.86,
+    "karbonhidrat100g": 22.73,
+    "yag100g": 55.57,
+    "kalori100g": 565.3,
+    "fiyat100g": 4.62,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1930",
+      "BESIN-1917",
+      "BESIN-1887"
+    ]
+  },
+  {
+    "id": "BESIN-1839",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.34,
+    "karbonhidrat100g": 13.68,
+    "yag100g": 73.56,
+    "kalori100g": 686.5,
+    "fiyat100g": 8.96,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1999",
+      "BESIN-1939",
+      "BESIN-1844"
+    ]
+  },
+  {
+    "id": "BESIN-1840",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.35,
+    "karbonhidrat100g": 13.54,
+    "yag100g": 68.36,
+    "kalori100g": 723.3,
+    "fiyat100g": 9.88,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1993",
+      "BESIN-1861",
+      "BESIN-1836"
+    ]
+  },
+  {
+    "id": "BESIN-1841",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.89,
+    "karbonhidrat100g": 14.18,
+    "yag100g": 61.89,
+    "kalori100g": 642.2,
+    "fiyat100g": 6.32,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1973",
+      "BESIN-1945",
+      "BESIN-1858"
+    ]
+  },
+  {
+    "id": "BESIN-1842",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 23.58,
+    "karbonhidrat100g": 21.09,
+    "yag100g": 51.2,
+    "kalori100g": 561.1,
+    "fiyat100g": 5.44,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1962",
+      "BESIN-1840"
+    ]
+  },
+  {
+    "id": "BESIN-1843",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.96,
+    "karbonhidrat100g": 17.94,
+    "yag100g": 52.55,
+    "kalori100g": 631.5,
+    "fiyat100g": 8.32,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1999",
+      "BESIN-1809"
+    ]
+  },
+  {
+    "id": "BESIN-1844",
+    "ad": "Zeytin Ezmesi (düşük yağ)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 2.02,
+    "karbonhidrat100g": 3.89,
+    "yag100g": 29.08,
+    "kalori100g": 297.6,
+    "fiyat100g": 3.19,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1941",
+      "BESIN-1967",
+      "BESIN-1920"
+    ]
+  },
+  {
+    "id": "BESIN-1845",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 96.96,
+    "kalori100g": 888.0,
+    "fiyat100g": 8.57,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1999",
+      "BESIN-1946"
+    ]
+  },
+  {
+    "id": "BESIN-1846",
+    "ad": "Yoğurt (Yüksek Protein) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.58,
+    "karbonhidrat100g": 5.06,
+    "yag100g": 0.5,
+    "kalori100g": 67.7,
+    "fiyat100g": 1.71,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1863",
+      "BESIN-1947",
+      "BESIN-1853"
+    ]
+  },
+  {
+    "id": "BESIN-1847",
+    "ad": "Tahin Helvası (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 12.36,
+    "karbonhidrat100g": 19.29,
+    "yag100g": 44.77,
+    "kalori100g": 548.3,
+    "fiyat100g": 5.13,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1930",
+      "BESIN-1886"
+    ]
+  },
+  {
+    "id": "BESIN-1848",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.74,
+    "karbonhidrat100g": 3.91,
+    "yag100g": 0.19,
+    "kalori100g": 62.5,
+    "fiyat100g": 4.35,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1955",
+      "BESIN-1947",
+      "BESIN-1901"
+    ]
+  },
+  {
+    "id": "BESIN-1849",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 99.54,
+    "kalori100g": 882.3,
+    "fiyat100g": 8.94,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1993",
+      "BESIN-1982",
+      "BESIN-1902"
+    ]
+  },
+  {
+    "id": "BESIN-1850",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 97.02,
+    "kalori100g": 838.0,
+    "fiyat100g": 8.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1970",
+      "BESIN-1960",
+      "BESIN-1928"
+    ]
+  },
+  {
+    "id": "BESIN-1851",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 105.28,
+    "kalori100g": 863.4,
+    "fiyat100g": 3.56,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1930",
+      "BESIN-1931",
+      "BESIN-1999"
+    ]
+  },
+  {
+    "id": "BESIN-1852",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.73,
+    "karbonhidrat100g": 16.1,
+    "yag100g": 60.65,
+    "kalori100g": 597.5,
+    "fiyat100g": 5.81,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1976",
+      "BESIN-1860",
+      "BESIN-1933"
+    ]
+  },
+  {
+    "id": "BESIN-1853",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.6,
+    "karbonhidrat100g": 4.0,
+    "yag100g": 0.21,
+    "kalori100g": 60.0,
+    "fiyat100g": 4.55,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1848",
+      "BESIN-1817"
+    ]
+  },
+  {
+    "id": "BESIN-1854",
+    "ad": "Zeytin Ezmesi (yüksek protein)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 1.93,
+    "karbonhidrat100g": 3.81,
+    "yag100g": 28.42,
+    "kalori100g": 303.4,
+    "fiyat100g": 3.04,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1908",
+      "BESIN-1974",
+      "BESIN-1811"
+    ]
+  },
+  {
+    "id": "BESIN-1855",
+    "ad": "Pistachio (Antep, tuzsuz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.41,
+    "karbonhidrat100g": 28.89,
+    "yag100g": 45.11,
+    "kalori100g": 590.4,
+    "fiyat100g": 10.58,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1890",
+      "BESIN-1904"
+    ]
+  },
+  {
+    "id": "BESIN-1856",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.4,
+    "karbonhidrat100g": 4.19,
+    "yag100g": 0.2,
+    "kalori100g": 60.2,
+    "fiyat100g": 4.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1816",
+      "BESIN-1893",
+      "BESIN-1879"
+    ]
+  },
+  {
+    "id": "BESIN-1857",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 94.56,
+    "kalori100g": 867.7,
+    "fiyat100g": 8.84,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1867",
+      "BESIN-1966",
+      "BESIN-1809"
+    ]
+  },
+  {
+    "id": "BESIN-1858",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.53,
+    "karbonhidrat100g": 19.54,
+    "yag100g": 53.03,
+    "kalori100g": 586.1,
+    "fiyat100g": 7.99,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1834",
+      "BESIN-1978",
+      "BESIN-1928"
+    ]
+  },
+  {
+    "id": "BESIN-1859",
+    "ad": "Yoğurt (Yüksek Protein) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 9.95,
+    "karbonhidrat100g": 5.19,
+    "yag100g": 0.53,
+    "kalori100g": 72.4,
+    "fiyat100g": 1.85,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1820",
+      "BESIN-1950",
+      "BESIN-1994"
+    ]
+  },
+  {
+    "id": "BESIN-1860",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 17.72,
+    "karbonhidrat100g": 23.95,
+    "yag100g": 50.6,
+    "kalori100g": 595.2,
+    "fiyat100g": 4.69,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1931",
+      "BESIN-1805"
+    ]
+  },
+  {
+    "id": "BESIN-1861",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 96.06,
+    "kalori100g": 858.1,
+    "fiyat100g": 3.37,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1843",
+      "BESIN-1923"
+    ]
+  },
+  {
+    "id": "BESIN-1862",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.28,
+    "karbonhidrat100g": 4.05,
+    "yag100g": 15.78,
+    "kalori100g": 188.5,
+    "fiyat100g": 6.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1922",
+      "BESIN-1824"
+    ]
+  },
+  {
+    "id": "BESIN-1863",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.27,
+    "karbonhidrat100g": 4.17,
+    "yag100g": 14.61,
+    "kalori100g": 197.2,
+    "fiyat100g": 6.12,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1853",
+      "BESIN-1893",
+      "BESIN-1830"
+    ]
+  },
+  {
+    "id": "BESIN-1864",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.22,
+    "karbonhidrat100g": 14.56,
+    "yag100g": 66.61,
+    "kalori100g": 692.1,
+    "fiyat100g": 6.87,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1834",
+      "BESIN-1989",
+      "BESIN-1840"
+    ]
+  },
+  {
+    "id": "BESIN-1865",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 95.94,
+    "kalori100g": 880.4,
+    "fiyat100g": 8.33,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1961",
+      "BESIN-1850",
+      "BESIN-1984"
+    ]
+  },
+  {
+    "id": "BESIN-1866",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.78,
+    "karbonhidrat100g": 4.13,
+    "yag100g": 0.19,
+    "kalori100g": 62.9,
+    "fiyat100g": 4.22,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1819",
+      "BESIN-1919"
+    ]
+  },
+  {
+    "id": "BESIN-1867",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 96.24,
+    "kalori100g": 874.6,
+    "fiyat100g": 8.51,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1931",
+      "BESIN-1896"
+    ]
+  },
+  {
+    "id": "BESIN-1868",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.23,
+    "karbonhidrat100g": 4.11,
+    "yag100g": 0.21,
+    "kalori100g": 66.4,
+    "fiyat100g": 3.89,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1856",
+      "BESIN-1863"
+    ]
+  },
+  {
+    "id": "BESIN-1869",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 105.95,
+    "kalori100g": 936.3,
+    "fiyat100g": 3.7,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1954",
+      "BESIN-1812"
+    ]
+  },
+  {
+    "id": "BESIN-1870",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 104.07,
+    "kalori100g": 869.4,
+    "fiyat100g": 8.71,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1858",
+      "BESIN-1931"
+    ]
+  },
+  {
+    "id": "BESIN-1871",
+    "ad": "Yoğurt (Yüksek Protein) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.52,
+    "karbonhidrat100g": 4.95,
+    "yag100g": 0.51,
+    "kalori100g": 71.0,
+    "fiyat100g": 1.77,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1877",
+      "BESIN-1975"
+    ]
+  },
+  {
+    "id": "BESIN-1872",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 8.6,
+    "karbonhidrat100g": 13.17,
+    "yag100g": 73.65,
+    "kalori100g": 721.9,
+    "fiyat100g": 10.04,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1803",
+      "BESIN-1889",
+      "BESIN-1810"
+    ]
+  },
+  {
+    "id": "BESIN-1873",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.79,
+    "karbonhidrat100g": 14.8,
+    "yag100g": 65.13,
+    "kalori100g": 632.4,
+    "fiyat100g": 6.66,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1885",
+      "BESIN-1984",
+      "BESIN-1900"
+    ]
+  },
+  {
+    "id": "BESIN-1874",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 6.91,
+    "karbonhidrat100g": 3.78,
+    "yag100g": 15.05,
+    "kalori100g": 183.1,
+    "fiyat100g": 6.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1892",
+      "BESIN-1914"
+    ]
+  },
+  {
+    "id": "BESIN-1875",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 99.95,
+    "kalori100g": 917.2,
+    "fiyat100g": 3.35,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1961",
+      "BESIN-1809",
+      "BESIN-1896"
+    ]
+  },
+  {
+    "id": "BESIN-1876",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.86,
+    "karbonhidrat100g": 30.55,
+    "yag100g": 46.06,
+    "kalori100g": 547.2,
+    "fiyat100g": 7.7,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1855",
+      "BESIN-1902",
+      "BESIN-1802"
+    ]
+  },
+  {
+    "id": "BESIN-1877",
+    "ad": "Süt Kaymağı (light)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 2.83,
+    "karbonhidrat100g": 4.02,
+    "yag100g": 52.69,
+    "kalori100g": 596.6,
+    "fiyat100g": 6.62,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1914",
+      "BESIN-1940",
+      "BESIN-1897"
+    ]
+  },
+  {
+    "id": "BESIN-1878",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 16.32,
+    "karbonhidrat100g": 23.5,
+    "yag100g": 52.44,
+    "kalori100g": 564.7,
+    "fiyat100g": 4.56,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1959",
+      "BESIN-1927",
+      "BESIN-1875"
+    ]
+  },
+  {
+    "id": "BESIN-1879",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.64,
+    "karbonhidrat100g": 3.92,
+    "yag100g": 0.19,
+    "kalori100g": 65.1,
+    "fiyat100g": 3.91,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1848",
+      "BESIN-1980",
+      "BESIN-1877"
+    ]
+  },
+  {
+    "id": "BESIN-1880",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 94.36,
+    "kalori100g": 916.3,
+    "fiyat100g": 9.1,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1844",
+      "BESIN-1985"
+    ]
+  },
+  {
+    "id": "BESIN-1881",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 22.16,
+    "karbonhidrat100g": 2.09,
+    "yag100g": 21.61,
+    "kalori100g": 274.7,
+    "fiyat100g": 8.86,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1947",
+      "BESIN-1918"
+    ]
+  },
+  {
+    "id": "BESIN-1882",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.25,
+    "karbonhidrat100g": 4.22,
+    "yag100g": 0.19,
+    "kalori100g": 59.4,
+    "fiyat100g": 4.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1897",
+      "BESIN-1969",
+      "BESIN-1822"
+    ]
+  },
+  {
+    "id": "BESIN-1883",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 23.05,
+    "karbonhidrat100g": 2.1,
+    "yag100g": 21.87,
+    "kalori100g": 275.2,
+    "fiyat100g": 8.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1884",
+      "BESIN-1901",
+      "BESIN-1947"
+    ]
+  },
+  {
+    "id": "BESIN-1884",
+    "ad": "Süt Kaymağı (mini paket)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 3.07,
+    "karbonhidrat100g": 4.09,
+    "yag100g": 51.88,
+    "kalori100g": 580.8,
+    "fiyat100g": 6.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1820",
+      "BESIN-1819"
+    ]
+  },
+  {
+    "id": "BESIN-1885",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.18,
+    "karbonhidrat100g": 30.53,
+    "yag100g": 45.42,
+    "kalori100g": 537.1,
+    "fiyat100g": 7.78,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1917",
+      "BESIN-1986",
+      "BESIN-1924"
+    ]
+  },
+  {
+    "id": "BESIN-1886",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 101.56,
+    "kalori100g": 874.9,
+    "fiyat100g": 7.84,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1849",
+      "BESIN-1929",
+      "BESIN-1999"
+    ]
+  },
+  {
+    "id": "BESIN-1887",
+    "ad": "Zeytin Ezmesi (soğuk sıkım)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 2.05,
+    "karbonhidrat100g": 4.14,
+    "yag100g": 30.98,
+    "kalori100g": 305.2,
+    "fiyat100g": 3.31,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1888",
+      "BESIN-1965",
+      "BESIN-1812"
+    ]
+  },
+  {
+    "id": "BESIN-1888",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.79,
+    "karbonhidrat100g": 17.99,
+    "yag100g": 61.55,
+    "kalori100g": 624.3,
+    "fiyat100g": 5.75,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1986",
+      "BESIN-1999",
+      "BESIN-1864"
+    ]
+  },
+  {
+    "id": "BESIN-1889",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.87,
+    "karbonhidrat100g": 19.59,
+    "yag100g": 56.93,
+    "kalori100g": 631.7,
+    "fiyat100g": 8.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1903",
+      "BESIN-1928"
+    ]
+  },
+  {
+    "id": "BESIN-1890",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.06,
+    "karbonhidrat100g": 13.94,
+    "yag100g": 75.28,
+    "kalori100g": 663.5,
+    "fiyat100g": 10.01,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1916",
+      "BESIN-1902",
+      "BESIN-1841"
+    ]
+  },
+  {
+    "id": "BESIN-1891",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 24.37,
+    "karbonhidrat100g": 19.24,
+    "yag100g": 52.69,
+    "kalori100g": 609.5,
+    "fiyat100g": 5.09,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1865",
+      "BESIN-1873",
+      "BESIN-1902"
+    ]
+  },
+  {
+    "id": "BESIN-1892",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 20.93,
+    "karbonhidrat100g": 1.94,
+    "yag100g": 22.68,
+    "kalori100g": 275.7,
+    "fiyat100g": 9.51,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1907",
+      "BESIN-1980"
+    ]
+  },
+  {
+    "id": "BESIN-1893",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.72,
+    "karbonhidrat100g": 4.02,
+    "yag100g": 0.2,
+    "kalori100g": 60.0,
+    "fiyat100g": 4.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1925",
+      "BESIN-1881",
+      "BESIN-1879"
+    ]
+  },
+  {
+    "id": "BESIN-1894",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 101.89,
+    "kalori100g": 833.5,
+    "fiyat100g": 9.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1981",
+      "BESIN-1957"
+    ]
+  },
+  {
+    "id": "BESIN-1895",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 96.15,
+    "kalori100g": 892.1,
+    "fiyat100g": 9.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1801",
+      "BESIN-1905",
+      "BESIN-1991"
+    ]
+  },
+  {
+    "id": "BESIN-1896",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.8,
+    "karbonhidrat100g": 16.62,
+    "yag100g": 60.24,
+    "kalori100g": 598.6,
+    "fiyat100g": 6.11,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1814",
+      "BESIN-1829",
+      "BESIN-1840"
+    ]
+  },
+  {
+    "id": "BESIN-1897",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.08,
+    "karbonhidrat100g": 4.09,
+    "yag100g": 14.62,
+    "kalori100g": 197.2,
+    "fiyat100g": 6.24,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1881",
+      "BESIN-1883"
+    ]
+  },
+  {
+    "id": "BESIN-1898",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.33,
+    "karbonhidrat100g": 17.45,
+    "yag100g": 63.18,
+    "kalori100g": 619.5,
+    "fiyat100g": 5.88,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1806",
+      "BESIN-1985"
+    ]
+  },
+  {
+    "id": "BESIN-1899",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.25,
+    "karbonhidrat100g": 3.9,
+    "yag100g": 0.19,
+    "kalori100g": 61.8,
+    "fiyat100g": 4.63,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1825",
+      "BESIN-1922"
+    ]
+  },
+  {
+    "id": "BESIN-1900",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 17.2,
+    "karbonhidrat100g": 23.9,
+    "yag100g": 51.84,
+    "kalori100g": 570.8,
+    "fiyat100g": 4.6,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1946",
+      "BESIN-1812",
+      "BESIN-1836"
+    ]
+  },
+  {
+    "id": "BESIN-1901",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.4,
+    "karbonhidrat100g": 4.12,
+    "yag100g": 0.2,
+    "kalori100g": 60.6,
+    "fiyat100g": 4.69,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1992",
+      "BESIN-1879",
+      "BESIN-1820"
+    ]
+  },
+  {
+    "id": "BESIN-1902",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.61,
+    "karbonhidrat100g": 17.54,
+    "yag100g": 58.0,
+    "kalori100g": 637.6,
+    "fiyat100g": 5.85,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1987",
+      "BESIN-1912"
+    ]
+  },
+  {
+    "id": "BESIN-1903",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 17.9,
+    "karbonhidrat100g": 21.79,
+    "yag100g": 50.67,
+    "kalori100g": 592.5,
+    "fiyat100g": 4.77,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1996",
+      "BESIN-1915"
+    ]
+  },
+  {
+    "id": "BESIN-1904",
+    "ad": "Pistachio (Antep, tuzsuz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.0,
+    "karbonhidrat100g": 27.2,
+    "yag100g": 43.65,
+    "kalori100g": 591.6,
+    "fiyat100g": 11.47,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1920",
+      "BESIN-1855",
+      "BESIN-1865"
+    ]
+  },
+  {
+    "id": "BESIN-1905",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 24.25,
+    "karbonhidrat100g": 21.11,
+    "yag100g": 50.72,
+    "kalori100g": 592.7,
+    "fiyat100g": 4.92,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1995",
+      "BESIN-1870",
+      "BESIN-1887"
+    ]
+  },
+  {
+    "id": "BESIN-1906",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 95.77,
+    "kalori100g": 918.4,
+    "fiyat100g": 8.27,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1808",
+      "BESIN-1912",
+      "BESIN-1876"
+    ]
+  },
+  {
+    "id": "BESIN-1907",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 22.39,
+    "karbonhidrat100g": 1.94,
+    "yag100g": 21.71,
+    "kalori100g": 287.9,
+    "fiyat100g": 8.88,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1899",
+      "BESIN-1935",
+      "BESIN-1997"
+    ]
+  },
+  {
+    "id": "BESIN-1908",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 8.9,
+    "karbonhidrat100g": 13.94,
+    "yag100g": 71.7,
+    "kalori100g": 712.2,
+    "fiyat100g": 9.43,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1865",
+      "BESIN-1974",
+      "BESIN-1917"
+    ]
+  },
+  {
+    "id": "BESIN-1909",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.87,
+    "karbonhidrat100g": 14.02,
+    "yag100g": 66.29,
+    "kalori100g": 693.1,
+    "fiyat100g": 6.58,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1998",
+      "BESIN-1917",
+      "BESIN-1842"
+    ]
+  },
+  {
+    "id": "BESIN-1910",
+    "ad": "Yoğurt (Yüksek Protein) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.38,
+    "karbonhidrat100g": 4.81,
+    "yag100g": 0.5,
+    "kalori100g": 69.8,
+    "fiyat100g": 1.88,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1955",
+      "BESIN-1914",
+      "BESIN-1828"
+    ]
+  },
+  {
+    "id": "BESIN-1911",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 99.94,
+    "kalori100g": 903.6,
+    "fiyat100g": 3.44,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1813",
+      "BESIN-1944"
+    ]
+  },
+  {
+    "id": "BESIN-1912",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.43,
+    "karbonhidrat100g": 13.79,
+    "yag100g": 76.16,
+    "kalori100g": 707.1,
+    "fiyat100g": 9.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1927",
+      "BESIN-1961"
+    ]
+  },
+  {
+    "id": "BESIN-1913",
+    "ad": "Tahin Helvası (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 12.39,
+    "karbonhidrat100g": 19.99,
+    "yag100g": 43.69,
+    "kalori100g": 498.8,
+    "fiyat100g": 4.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1875",
+      "BESIN-1808"
+    ]
+  },
+  {
+    "id": "BESIN-1914",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.04,
+    "karbonhidrat100g": 4.04,
+    "yag100g": 0.2,
+    "kalori100g": 63.1,
+    "fiyat100g": 4.64,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1994",
+      "BESIN-1863"
+    ]
+  },
+  {
+    "id": "BESIN-1915",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.22,
+    "karbonhidrat100g": 16.12,
+    "yag100g": 62.29,
+    "kalori100g": 617.3,
+    "fiyat100g": 6.0,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1949",
+      "BESIN-1991"
+    ]
+  },
+  {
+    "id": "BESIN-1916",
+    "ad": "Zeytin Ezmesi (organik)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 1.92,
+    "karbonhidrat100g": 4.11,
+    "yag100g": 30.33,
+    "kalori100g": 292.0,
+    "fiyat100g": 3.36,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1909",
+      "BESIN-1954",
+      "BESIN-1902"
+    ]
+  },
+  {
+    "id": "BESIN-1917",
+    "ad": "Zeytin Ezmesi (yüksek protein)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 2.07,
+    "karbonhidrat100g": 4.13,
+    "yag100g": 28.91,
+    "kalori100g": 291.1,
+    "fiyat100g": 3.08,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1943",
+      "BESIN-1998",
+      "BESIN-1801"
+    ]
+  },
+  {
+    "id": "BESIN-1918",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.54,
+    "karbonhidrat100g": 4.05,
+    "yag100g": 0.2,
+    "kalori100g": 62.0,
+    "fiyat100g": 4.13,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1882",
+      "BESIN-1992",
+      "BESIN-1818"
+    ]
+  },
+  {
+    "id": "BESIN-1919",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 20.74,
+    "karbonhidrat100g": 1.97,
+    "yag100g": 22.01,
+    "kalori100g": 265.9,
+    "fiyat100g": 8.9,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1918",
+      "BESIN-1882",
+      "BESIN-1815"
+    ]
+  },
+  {
+    "id": "BESIN-1920",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.81,
+    "kalori100g": 918.8,
+    "fiyat100g": 3.54,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1839",
+      "BESIN-1852",
+      "BESIN-1805"
+    ]
+  },
+  {
+    "id": "BESIN-1921",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 25.86,
+    "karbonhidrat100g": 21.07,
+    "yag100g": 49.15,
+    "kalori100g": 560.0,
+    "fiyat100g": 5.39,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1886",
+      "BESIN-1939",
+      "BESIN-1978"
+    ]
+  },
+  {
+    "id": "BESIN-1922",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.1,
+    "karbonhidrat100g": 4.08,
+    "yag100g": 15.09,
+    "kalori100g": 193.2,
+    "fiyat100g": 5.78,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1997",
+      "BESIN-1822",
+      "BESIN-1947"
+    ]
+  },
+  {
+    "id": "BESIN-1923",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 25.89,
+    "karbonhidrat100g": 21.14,
+    "yag100g": 52.13,
+    "kalori100g": 553.3,
+    "fiyat100g": 5.25,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1987",
+      "BESIN-1912",
+      "BESIN-1927"
+    ]
+  },
+  {
+    "id": "BESIN-1924",
+    "ad": "Tahin Helvası (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 11.99,
+    "karbonhidrat100g": 20.91,
+    "yag100g": 46.92,
+    "kalori100g": 506.9,
+    "fiyat100g": 4.99,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1952",
+      "BESIN-1867"
+    ]
+  },
+  {
+    "id": "BESIN-1925",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.42,
+    "karbonhidrat100g": 4.14,
+    "yag100g": 0.21,
+    "kalori100g": 66.2,
+    "fiyat100g": 3.85,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1821",
+      "BESIN-1827"
+    ]
+  },
+  {
+    "id": "BESIN-1926",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.75,
+    "karbonhidrat100g": 17.87,
+    "yag100g": 61.21,
+    "kalori100g": 609.2,
+    "fiyat100g": 5.86,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1987",
+      "BESIN-1966"
+    ]
+  },
+  {
+    "id": "BESIN-1927",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 17.83,
+    "karbonhidrat100g": 22.22,
+    "yag100g": 49.88,
+    "kalori100g": 568.8,
+    "fiyat100g": 4.59,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1938",
+      "BESIN-1959",
+      "BESIN-1811"
+    ]
+  },
+  {
+    "id": "BESIN-1928",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.66,
+    "karbonhidrat100g": 17.4,
+    "yag100g": 62.97,
+    "kalori100g": 664.1,
+    "fiyat100g": 5.83,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1959",
+      "BESIN-1908",
+      "BESIN-1887"
+    ]
+  },
+  {
+    "id": "BESIN-1929",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 96.95,
+    "kalori100g": 932.7,
+    "fiyat100g": 8.73,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1971",
+      "BESIN-1833"
+    ]
+  },
+  {
+    "id": "BESIN-1930",
+    "ad": "Zeytin Ezmesi (yüksek protein)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 1.94,
+    "karbonhidrat100g": 4.22,
+    "yag100g": 30.9,
+    "kalori100g": 284.5,
+    "fiyat100g": 3.3,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1972",
+      "BESIN-1839",
+      "BESIN-1941"
+    ]
+  },
+  {
+    "id": "BESIN-1931",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 104.49,
+    "kalori100g": 925.6,
+    "fiyat100g": 7.79,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1927",
+      "BESIN-1911"
+    ]
+  },
+  {
+    "id": "BESIN-1932",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 96.83,
+    "kalori100g": 870.7,
+    "fiyat100g": 3.37,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1909",
+      "BESIN-1970",
+      "BESIN-1913"
+    ]
+  },
+  {
+    "id": "BESIN-1933",
+    "ad": "Pistachio (Antep, tuzsuz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.6,
+    "karbonhidrat100g": 26.62,
+    "yag100g": 43.47,
+    "kalori100g": 591.7,
+    "fiyat100g": 11.3,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1931",
+      "BESIN-1977"
+    ]
+  },
+  {
+    "id": "BESIN-1934",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 22.78,
+    "karbonhidrat100g": 2.05,
+    "yag100g": 21.93,
+    "kalori100g": 273.4,
+    "fiyat100g": 8.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1859",
+      "BESIN-1968",
+      "BESIN-1822"
+    ]
+  },
+  {
+    "id": "BESIN-1935",
+    "ad": "Yoğurt (Yüksek Protein) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.48,
+    "karbonhidrat100g": 4.84,
+    "yag100g": 0.48,
+    "kalori100g": 68.8,
+    "fiyat100g": 1.78,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1955",
+      "BESIN-1830",
+      "BESIN-1918"
+    ]
+  },
+  {
+    "id": "BESIN-1936",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 23.11,
+    "karbonhidrat100g": 2.11,
+    "yag100g": 21.43,
+    "kalori100g": 289.0,
+    "fiyat100g": 9.45,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1918",
+      "BESIN-1897"
+    ]
+  },
+  {
+    "id": "BESIN-1937",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 6.65,
+    "karbonhidrat100g": 4.02,
+    "yag100g": 14.66,
+    "kalori100g": 194.9,
+    "fiyat100g": 5.73,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1877",
+      "BESIN-1910"
+    ]
+  },
+  {
+    "id": "BESIN-1938",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.95,
+    "karbonhidrat100g": 13.79,
+    "yag100g": 66.13,
+    "kalori100g": 638.9,
+    "fiyat100g": 6.15,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1958",
+      "BESIN-1945",
+      "BESIN-1898"
+    ]
+  },
+  {
+    "id": "BESIN-1939",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.83,
+    "karbonhidrat100g": 14.57,
+    "yag100g": 64.09,
+    "kalori100g": 622.8,
+    "fiyat100g": 6.48,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1806",
+      "BESIN-1854",
+      "BESIN-1829"
+    ]
+  },
+  {
+    "id": "BESIN-1940",
+    "ad": "Süt Kaymağı (düşük yağ)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 2.86,
+    "karbonhidrat100g": 4.02,
+    "yag100g": 56.97,
+    "kalori100g": 569.0,
+    "fiyat100g": 6.44,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1988",
+      "BESIN-1937"
+    ]
+  },
+  {
+    "id": "BESIN-1941",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.46,
+    "kalori100g": 903.0,
+    "fiyat100g": 3.42,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1885",
+      "BESIN-1920"
+    ]
+  },
+  {
+    "id": "BESIN-1942",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 101.03,
+    "kalori100g": 916.0,
+    "fiyat100g": 3.41,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1905",
+      "BESIN-1974",
+      "BESIN-1801"
+    ]
+  },
+  {
+    "id": "BESIN-1943",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 26.33,
+    "karbonhidrat100g": 20.34,
+    "yag100g": 50.09,
+    "kalori100g": 586.1,
+    "fiyat100g": 5.41,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1845",
+      "BESIN-1982"
+    ]
+  },
+  {
+    "id": "BESIN-1944",
+    "ad": "Tahin (susam ezmesi) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "araOgun1"
+    ],
+    "protein100g": 16.1,
+    "karbonhidrat100g": 22.23,
+    "yag100g": 51.11,
+    "kalori100g": 601.1,
+    "fiyat100g": 4.69,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1839",
+      "BESIN-1832"
+    ]
+  },
+  {
+    "id": "BESIN-1945",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.04,
+    "karbonhidrat100g": 14.67,
+    "yag100g": 72.94,
+    "kalori100g": 691.8,
+    "fiyat100g": 9.17,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1813",
+      "BESIN-1801"
+    ]
+  },
+  {
+    "id": "BESIN-1946",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.69,
+    "karbonhidrat100g": 19.95,
+    "yag100g": 54.81,
+    "kalori100g": 590.4,
+    "fiyat100g": 8.62,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1838",
+      "BESIN-1840"
+    ]
+  },
+  {
+    "id": "BESIN-1947",
+    "ad": "Yoğurt (Yüksek Protein) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 9.94,
+    "karbonhidrat100g": 4.95,
+    "yag100g": 0.51,
+    "kalori100g": 71.3,
+    "fiyat100g": 1.76,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1914",
+      "BESIN-1940",
+      "BESIN-1901"
+    ]
+  },
+  {
+    "id": "BESIN-1948",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 102.12,
+    "kalori100g": 930.0,
+    "fiyat100g": 8.84,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1913",
+      "BESIN-1938",
+      "BESIN-1912"
+    ]
+  },
+  {
+    "id": "BESIN-1949",
+    "ad": "Pistachio (Antep, tuzsuz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 19.9,
+    "karbonhidrat100g": 26.66,
+    "yag100g": 46.79,
+    "kalori100g": 530.5,
+    "fiyat100g": 11.54,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1973",
+      "BESIN-1903"
+    ]
+  },
+  {
+    "id": "BESIN-1950",
+    "ad": "Süt Kaymağı (light)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 3.07,
+    "karbonhidrat100g": 4.18,
+    "yag100g": 51.71,
+    "kalori100g": 582.0,
+    "fiyat100g": 6.46,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1992",
+      "BESIN-1907"
+    ]
+  },
+  {
+    "id": "BESIN-1951",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 22.18,
+    "karbonhidrat100g": 19.61,
+    "yag100g": 52.06,
+    "kalori100g": 641.4,
+    "fiyat100g": 8.82,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1823",
+      "BESIN-1851"
+    ]
+  },
+  {
+    "id": "BESIN-1952",
+    "ad": "Zeytin Ezmesi (yüksek protein)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 2.06,
+    "karbonhidrat100g": 4.02,
+    "yag100g": 28.34,
+    "kalori100g": 307.8,
+    "fiyat100g": 3.24,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1911",
+      "BESIN-1805",
+      "BESIN-1885"
+    ]
+  },
+  {
+    "id": "BESIN-1953",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 25.61,
+    "karbonhidrat100g": 20.34,
+    "yag100g": 51.02,
+    "kalori100g": 572.3,
+    "fiyat100g": 4.98,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1847",
+      "BESIN-1964",
+      "BESIN-1917"
+    ]
+  },
+  {
+    "id": "BESIN-1954",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 97.73,
+    "kalori100g": 934.1,
+    "fiyat100g": 7.84,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1995",
+      "BESIN-1831",
+      "BESIN-1888"
+    ]
+  },
+  {
+    "id": "BESIN-1955",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.0,
+    "karbonhidrat100g": 4.01,
+    "yag100g": 0.2,
+    "kalori100g": 61.7,
+    "fiyat100g": 3.8,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1828",
+      "BESIN-1940",
+      "BESIN-1950"
+    ]
+  },
+  {
+    "id": "BESIN-1956",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.92,
+    "karbonhidrat100g": 3.9,
+    "yag100g": 0.21,
+    "kalori100g": 60.1,
+    "fiyat100g": 4.31,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1918",
+      "BESIN-1820",
+      "BESIN-1892"
+    ]
+  },
+  {
+    "id": "BESIN-1957",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.97,
+    "karbonhidrat100g": 13.8,
+    "yag100g": 65.64,
+    "kalori100g": 632.8,
+    "fiyat100g": 6.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1970",
+      "BESIN-1895"
+    ]
+  },
+  {
+    "id": "BESIN-1958",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.43,
+    "karbonhidrat100g": 31.18,
+    "yag100g": 45.6,
+    "kalori100g": 528.4,
+    "fiyat100g": 7.7,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1894",
+      "BESIN-1814"
+    ]
+  },
+  {
+    "id": "BESIN-1959",
+    "ad": "Ayçiçek Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 102.76,
+    "kalori100g": 896.2,
+    "fiyat100g": 3.65,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1810",
+      "BESIN-1890",
+      "BESIN-1995"
+    ]
+  },
+  {
+    "id": "BESIN-1960",
+    "ad": "Tahin Helvası (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 12.07,
+    "karbonhidrat100g": 19.08,
+    "yag100g": 43.8,
+    "kalori100g": 548.4,
+    "fiyat100g": 5.18,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1932",
+      "BESIN-1807",
+      "BESIN-1852"
+    ]
+  },
+  {
+    "id": "BESIN-1961",
+    "ad": "Tahin Helvası (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 11.74,
+    "karbonhidrat100g": 20.67,
+    "yag100g": 46.88,
+    "kalori100g": 525.2,
+    "fiyat100g": 4.73,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1894",
+      "BESIN-1962",
+      "BESIN-1928"
+    ]
+  },
+  {
+    "id": "BESIN-1962",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.58,
+    "karbonhidrat100g": 19.95,
+    "yag100g": 52.94,
+    "kalori100g": 579.9,
+    "fiyat100g": 8.59,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1840",
+      "BESIN-1841"
+    ]
+  },
+  {
+    "id": "BESIN-1963",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.17,
+    "karbonhidrat100g": 3.85,
+    "yag100g": 0.2,
+    "kalori100g": 65.5,
+    "fiyat100g": 4.24,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1956",
+      "BESIN-1992"
+    ]
+  },
+  {
+    "id": "BESIN-1964",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.04,
+    "karbonhidrat100g": 17.39,
+    "yag100g": 64.49,
+    "kalori100g": 659.3,
+    "fiyat100g": 5.71,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1843",
+      "BESIN-1931",
+      "BESIN-1808"
+    ]
+  },
+  {
+    "id": "BESIN-1965",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 103.76,
+    "kalori100g": 934.6,
+    "fiyat100g": 8.61,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1888",
+      "BESIN-1854",
+      "BESIN-1908"
+    ]
+  },
+  {
+    "id": "BESIN-1966",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 25.43,
+    "karbonhidrat100g": 18.85,
+    "yag100g": 50.34,
+    "kalori100g": 558.4,
+    "fiyat100g": 5.15,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1875",
+      "BESIN-1807"
+    ]
+  },
+  {
+    "id": "BESIN-1967",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.69,
+    "karbonhidrat100g": 28.37,
+    "yag100g": 42.93,
+    "kalori100g": 564.7,
+    "fiyat100g": 7.44,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1944",
+      "BESIN-1986"
+    ]
+  },
+  {
+    "id": "BESIN-1968",
+    "ad": "Süt Kaymağı (soğuk sıkım)",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 3.15,
+    "karbonhidrat100g": 4.01,
+    "yag100g": 54.17,
+    "kalori100g": 603.1,
+    "fiyat100g": 6.86,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1817",
+      "BESIN-1884"
+    ]
+  },
+  {
+    "id": "BESIN-1969",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.62,
+    "karbonhidrat100g": 4.16,
+    "yag100g": 0.2,
+    "kalori100g": 64.2,
+    "fiyat100g": 3.9,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1925",
+      "BESIN-1822"
+    ]
+  },
+  {
+    "id": "BESIN-1970",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 25.07,
+    "karbonhidrat100g": 19.32,
+    "yag100g": 47.98,
+    "kalori100g": 563.6,
+    "fiyat100g": 5.49,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1927",
+      "BESIN-1964"
+    ]
+  },
+  {
+    "id": "BESIN-1971",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 17.69,
+    "karbonhidrat100g": 30.86,
+    "yag100g": 44.0,
+    "kalori100g": 569.3,
+    "fiyat100g": 7.26,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1987",
+      "BESIN-1890"
+    ]
+  },
+  {
+    "id": "BESIN-1972",
+    "ad": "Zeytin Ezmesi (soğuk sıkım)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 1.97,
+    "karbonhidrat100g": 4.13,
+    "yag100g": 29.4,
+    "kalori100g": 291.3,
+    "fiyat100g": 3.14,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1873",
+      "BESIN-1913",
+      "BESIN-1909"
+    ]
+  },
+  {
+    "id": "BESIN-1973",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 103.96,
+    "kalori100g": 838.7,
+    "fiyat100g": 8.72,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1954",
+      "BESIN-1912",
+      "BESIN-1938"
+    ]
+  },
+  {
+    "id": "BESIN-1974",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 103.42,
+    "kalori100g": 903.1,
+    "fiyat100g": 8.25,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1945",
+      "BESIN-1933",
+      "BESIN-1989"
+    ]
+  },
+  {
+    "id": "BESIN-1975",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 6.81,
+    "karbonhidrat100g": 3.94,
+    "yag100g": 14.56,
+    "kalori100g": 186.5,
+    "fiyat100g": 5.82,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1919",
+      "BESIN-1899",
+      "BESIN-1822"
+    ]
+  },
+  {
+    "id": "BESIN-1976",
+    "ad": "Fıstık Ezmesi (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 23.86,
+    "karbonhidrat100g": 20.52,
+    "yag100g": 47.04,
+    "kalori100g": 571.3,
+    "fiyat100g": 4.97,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1807",
+      "BESIN-1953",
+      "BESIN-1896"
+    ]
+  },
+  {
+    "id": "BESIN-1977",
+    "ad": "Zeytin Ezmesi (soğuk sıkım)",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 2.03,
+    "karbonhidrat100g": 4.17,
+    "yag100g": 31.05,
+    "kalori100g": 311.9,
+    "fiyat100g": 3.33,
+    "ekonomik": true,
+    "alternatifler": [
+      "BESIN-1948",
+      "BESIN-1917",
+      "BESIN-1971"
+    ]
+  },
+  {
+    "id": "BESIN-1978",
+    "ad": "Pekan (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 9.04,
+    "karbonhidrat100g": 14.58,
+    "yag100g": 74.6,
+    "kalori100g": 684.2,
+    "fiyat100g": 9.6,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1973",
+      "BESIN-1959",
+      "BESIN-1845"
+    ]
+  },
+  {
+    "id": "BESIN-1979",
+    "ad": "Ceviz (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.17,
+    "karbonhidrat100g": 14.58,
+    "yag100g": 65.78,
+    "kalori100g": 691.1,
+    "fiyat100g": 6.47,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1832",
+      "BESIN-1953",
+      "BESIN-1875"
+    ]
+  },
+  {
+    "id": "BESIN-1980",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.06,
+    "karbonhidrat100g": 4.18,
+    "yag100g": 0.2,
+    "kalori100g": 60.7,
+    "fiyat100g": 4.55,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1883",
+      "BESIN-1816",
+      "BESIN-1817"
+    ]
+  },
+  {
+    "id": "BESIN-1981",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.86,
+    "karbonhidrat100g": 17.65,
+    "yag100g": 63.7,
+    "kalori100g": 611.4,
+    "fiyat100g": 6.3,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1965",
+      "BESIN-1986"
+    ]
+  },
+  {
+    "id": "BESIN-1982",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 15.02,
+    "karbonhidrat100g": 16.03,
+    "yag100g": 62.99,
+    "kalori100g": 590.7,
+    "fiyat100g": 6.27,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1831",
+      "BESIN-1852",
+      "BESIN-1985"
+    ]
+  },
+  {
+    "id": "BESIN-1983",
+    "ad": "Skyr (doğal) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 10.6,
+    "karbonhidrat100g": 4.09,
+    "yag100g": 0.21,
+    "kalori100g": 59.4,
+    "fiyat100g": 4.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1980",
+      "BESIN-1881"
+    ]
+  },
+  {
+    "id": "BESIN-1984",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 103.39,
+    "kalori100g": 892.7,
+    "fiyat100g": 7.77,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1995",
+      "BESIN-1880"
+    ]
+  },
+  {
+    "id": "BESIN-1985",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 105.18,
+    "kalori100g": 853.1,
+    "fiyat100g": 7.52,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1886",
+      "BESIN-1948"
+    ]
+  },
+  {
+    "id": "BESIN-1986",
+    "ad": "Fındık (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 14.42,
+    "karbonhidrat100g": 16.51,
+    "yag100g": 61.97,
+    "kalori100g": 598.0,
+    "fiyat100g": 5.82,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1872",
+      "BESIN-1946"
+    ]
+  },
+  {
+    "id": "BESIN-1987",
+    "ad": "Kaju (kavrulmuş) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 18.1,
+    "karbonhidrat100g": 29.43,
+    "yag100g": 42.22,
+    "kalori100g": 557.3,
+    "fiyat100g": 7.48,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1932",
+      "BESIN-1803",
+      "BESIN-1954"
+    ]
+  },
+  {
+    "id": "BESIN-1988",
+    "ad": "Mozzarella (tam yağlı) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle"
+    ],
+    "protein100g": 22.86,
+    "karbonhidrat100g": 1.94,
+    "yag100g": 22.55,
+    "kalori100g": 286.9,
+    "fiyat100g": 9.03,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1815",
+      "BESIN-1910",
+      "BESIN-1828"
+    ]
+  },
+  {
+    "id": "BESIN-1989",
+    "ad": "Tahin Helvası (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1"
+    ],
+    "protein100g": 11.44,
+    "karbonhidrat100g": 20.6,
+    "yag100g": 44.74,
+    "kalori100g": 546.8,
+    "fiyat100g": 4.97,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1923",
+      "BESIN-1895",
+      "BESIN-1946"
+    ]
+  },
+  {
+    "id": "BESIN-1990",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.87,
+    "karbonhidrat100g": 4.22,
+    "yag100g": 0.21,
+    "kalori100g": 59.8,
+    "fiyat100g": 4.38,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1825",
+      "BESIN-1975"
+    ]
+  },
+  {
+    "id": "BESIN-1991",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.66,
+    "karbonhidrat100g": 18.77,
+    "yag100g": 51.9,
+    "kalori100g": 612.8,
+    "fiyat100g": 8.02,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1869",
+      "BESIN-1852",
+      "BESIN-1923"
+    ]
+  },
+  {
+    "id": "BESIN-1992",
+    "ad": "Labne (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 7.33,
+    "karbonhidrat100g": 3.85,
+    "yag100g": 15.88,
+    "kalori100g": 200.9,
+    "fiyat100g": 5.83,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1969",
+      "BESIN-1935",
+      "BESIN-1859"
+    ]
+  },
+  {
+    "id": "BESIN-1993",
+    "ad": "Kokos Yağı (rafine) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 103.11,
+    "kalori100g": 857.0,
+    "fiyat100g": 8.01,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1911",
+      "BESIN-1854"
+    ]
+  },
+  {
+    "id": "BESIN-1994",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.68,
+    "karbonhidrat100g": 3.78,
+    "yag100g": 0.19,
+    "kalori100g": 58.8,
+    "fiyat100g": 4.5,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1853",
+      "BESIN-1940"
+    ]
+  },
+  {
+    "id": "BESIN-1995",
+    "ad": "Zeytinyağı (soğuk sıkım) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 104.3,
+    "kalori100g": 886.9,
+    "fiyat100g": 9.25,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1974",
+      "BESIN-1979"
+    ]
+  },
+  {
+    "id": "BESIN-1996",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 21.77,
+    "karbonhidrat100g": 18.18,
+    "yag100g": 52.07,
+    "kalori100g": 602.6,
+    "fiyat100g": 8.16,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1888",
+      "BESIN-1842",
+      "BESIN-1869"
+    ]
+  },
+  {
+    "id": "BESIN-1997",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 11.71,
+    "karbonhidrat100g": 4.2,
+    "yag100g": 0.2,
+    "kalori100g": 59.9,
+    "fiyat100g": 4.4,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1868",
+      "BESIN-1859",
+      "BESIN-1881"
+    ]
+  },
+  {
+    "id": "BESIN-1998",
+    "ad": "Fındık Yağı (natürel) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "ogle",
+      "aksam"
+    ],
+    "protein100g": 0.0,
+    "karbonhidrat100g": 0.0,
+    "yag100g": 100.5,
+    "kalori100g": 868.9,
+    "fiyat100g": 8.82,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1971",
+      "BESIN-1869"
+    ]
+  },
+  {
+    "id": "BESIN-1999",
+    "ad": "Badem Ezmesi (şekersiz) v2",
+    "kategori": "yag",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2"
+    ],
+    "protein100g": 20.0,
+    "karbonhidrat100g": 19.28,
+    "yag100g": 53.01,
+    "kalori100g": 595.9,
+    "fiyat100g": 8.34,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1806",
+      "BESIN-1872",
+      "BESIN-1890"
+    ]
+  },
+  {
+    "id": "BESIN-2000",
+    "ad": "Quark (light) v2",
+    "kategori": "sut",
+    "uygunOgunler": [
+      "kahvalti",
+      "araOgun1",
+      "araOgun2",
+      "geceAtistirma"
+    ],
+    "protein100g": 12.48,
+    "karbonhidrat100g": 4.12,
+    "yag100g": 0.2,
+    "kalori100g": 64.8,
+    "fiyat100g": 4.37,
+    "ekonomik": false,
+    "alternatifler": [
+      "BESIN-1820",
+      "BESIN-1975"
+    ]
+  }
+]

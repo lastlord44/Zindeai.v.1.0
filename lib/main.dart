@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'data/local/hive_service.dart';
+import 'data/local/besin_malzeme_hive_service.dart';
 import 'data/datasources/yemek_hive_data_source.dart';
 import 'domain/usecases/ogun_planlayici.dart';
+import 'domain/usecases/malzeme_bazli_ogun_planlayici.dart';
 import 'domain/usecases/makro_hesapla.dart';
 import 'domain/entities/makro_hedefleri.dart';
 import 'presentation/bloc/home/home_bloc.dart';
@@ -14,6 +16,7 @@ import 'presentation/pages/home_page_yeni.dart';
 import 'domain/entities/hedef.dart';
 import 'domain/entities/kullanici_profili.dart';
 import 'core/utils/app_logger.dart';
+import 'core/utils/yemek_migration_3000.dart';
 
 // ============================================================================
 // MAKRO HESAPLAMA EKRANI - DİNAMİK GÜNCELLEME + ALERJİ SİSTEMİ
@@ -556,6 +559,19 @@ void main() async {
     AppLogger.error('❌ Hive başlatma hatası: $e');
   }
 
+  // 🚀 3000 YEMEK MİGRATION FLAG
+  const MIGRATION_3000_AKTIF = false; // ✅ Migration tamamlandı - KAPALI
+
+  if (MIGRATION_3000_AKTIF) {
+    try {
+      AppLogger.info('🚀 3000 Yemek Migration başlatılıyor...');
+      await YemekMigration3000.yukle();
+      AppLogger.info('✅ 3000 Yemek Migration tamamlandı!');
+    } catch (e) {
+      AppLogger.error('❌ Migration hatası: $e');
+    }
+  }
+
   runApp(const MyApp());
 }
 
@@ -585,11 +601,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ⚡ ESKİ SİSTEM AKTİF: Hazır yemeklerle hızlı plan oluşturma
+    // Malzeme bazlı sistem performans sorunları sebebiyle devre dışı
+
     return BlocProvider(
       create: (context) => HomeBloc(
         planlayici: OgunPlanlayici(
           dataSource: YemekHiveDataSource(),
         ),
+        malzemeBazliPlanlayici: null, // ⚡ Eski sistem kullanılıyor - HIZLI!
         makroHesaplama: MakroHesapla(),
       )..add(LoadHomePage()),
       child: const HomePageView(),

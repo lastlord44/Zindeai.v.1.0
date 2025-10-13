@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "ARA1_1401",
+    "ad": "Fırınlanmış Nohut Krokan",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 70g",
+      "Baharat/Sos 10g"
+    ],
+    "kalori": 130,
+    "protein": 9,
+    "karbonhidrat": 18,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1402",
+    "ad": "Çiğ Badem Dilimleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 101g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 81,
+    "protein": 5,
+    "karbonhidrat": 13,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1403",
+    "ad": "Kuru Kayısı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 42g"
+    ],
+    "kalori": 112,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1404",
+    "ad": "Meyve Şişi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 123g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 93,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1405",
+    "ad": "Protein Granola + Süt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 44g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 184,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1406",
+    "ad": "Zeytinyağlı Taze Fasulye",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 105g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 125,
+    "protein": 4,
+    "karbonhidrat": 20,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1407",
+    "ad": "Humus + Sebze Stick",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 66g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 146,
+    "protein": 6,
+    "karbonhidrat": 22,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1408",
+    "ad": "Cappuccino Light",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 87,
+    "protein": 5,
+    "karbonhidrat": 17,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1409",
+    "ad": "Çoban Salatası Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 108g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 118,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1410",
+    "ad": "Ev Yapımı Granola Bar",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 179,
+    "protein": 9,
+    "karbonhidrat": 31,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1411",
+    "ad": "Çiğ Badem (30g)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 170,
+    "protein": 6,
+    "karbonhidrat": 10,
+    "yag": 16
+  },
+  {
+    "id": "ARA1_1412",
+    "ad": "Kavrulmuş Badem",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 41g"
+    ],
+    "kalori": 191,
+    "protein": 12,
+    "karbonhidrat": 11,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1413",
+    "ad": "Yulaf Lapası Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 52g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 162,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1414",
+    "ad": "Haşlanmış Mısır",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 133g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 113,
+    "protein": 5,
+    "karbonhidrat": 19,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1415",
+    "ad": "Kefir + Meyve",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 114g"
+    ],
+    "kalori": 84,
+    "protein": 7,
+    "karbonhidrat": 14,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1416",
+    "ad": "Baharatlı Bezelye Kızartması",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 85g",
+      "Baharat/Sos 15g"
+    ],
+    "kalori": 145,
+    "protein": 10,
+    "karbonhidrat": 21,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1417",
+    "ad": "Çiğ Havuç + Humus",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 116g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 96,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1418",
+    "ad": "Kuru İncir",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 57g"
+    ],
+    "kalori": 127,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1419",
+    "ad": "Meyve Salatası Bardağı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 138g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 108,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 1
+  },
+  {
+    "id": "ARA1_1420",
+    "ad": "Yulaf + Protein Tozu",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 59g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 199,
+    "protein": 21,
+    "karbonhidrat": 32,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1421",
+    "ad": "Zeytinyağlı Pırasa Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 120g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 140,
+    "protein": 3,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1422",
+    "ad": "Baba Ganoush + Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 81g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 161,
+    "protein": 9,
+    "karbonhidrat": 25,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1423",
+    "ad": "Latte + Badem Sütü",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 102,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1424",
+    "ad": "Akdeniz Salatası Bardağı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 123g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 133,
+    "protein": 15,
+    "karbonhidrat": 15,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1425",
+    "ad": "Ev Yapımı Protein Topu",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 194,
+    "protein": 8,
+    "karbonhidrat": 31,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1426",
+    "ad": "Çiğ Ceviz (25g)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 185,
+    "protein": 6,
+    "karbonhidrat": 9,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1427",
+    "ad": "Kavrulmuş Fındık",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 36g"
+    ],
+    "kalori": 206,
+    "protein": 9,
+    "karbonhidrat": 16,
+    "yag": 23
+  },
+  {
+    "id": "ARA1_1428",
+    "ad": "Kinoa Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 47g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 177,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1429",
+    "ad": "Fırınlanmış Tatlı Patates",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 148g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 128,
+    "protein": 4,
+    "karbonhidrat": 22,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1430",
+    "ad": "Ayran + Nane",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 129g"
+    ],
+    "kalori": 99,
+    "protein": 10,
+    "karbonhidrat": 19,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1431",
+    "ad": "Soya Fıstığı Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 100g",
+      "Baharat/Sos 10g"
+    ],
+    "kalori": 160,
+    "protein": 11,
+    "karbonhidrat": 24,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1432",
+    "ad": "Çiğ Brokoli Çubukları",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 131g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 111,
+    "protein": 5,
+    "karbonhidrat": 13,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1433",
+    "ad": "Kuru Üzüm",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 42g"
+    ],
+    "kalori": 142,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1434",
+    "ad": "Elma Dilimleri + Tarçın",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 153g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 123,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1435",
+    "ad": "Kepek Gevreği + Süt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 54g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 214,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1436",
+    "ad": "Zeytinyağlı Enginar",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 135g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 155,
+    "protein": 6,
+    "karbonhidrat": 20,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1437",
+    "ad": "Tzatziki + Havuç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 96g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 176,
+    "protein": 6,
+    "karbonhidrat": 16,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1438",
+    "ad": "Türk Kahvesi + Hurma",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 117,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1439",
+    "ad": "Yeşil Salata + Ton Balığı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 138g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 148,
+    "protein": 14,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1440",
+    "ad": "Ev Yapımı Enerji Bar",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 209,
+    "protein": 15,
+    "karbonhidrat": 31,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1441",
+    "ad": "Çiğ Fındık (30g)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 200,
+    "protein": 6,
+    "karbonhidrat": 8,
+    "yag": 14
+  },
+  {
+    "id": "ARA1_1442",
+    "ad": "Kavrulmuş Yer Fıstığı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 31g"
+    ],
+    "kalori": 221,
+    "protein": 12,
+    "karbonhidrat": 11,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1443",
+    "ad": "Bulgur Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 42g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 192,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1444",
+    "ad": "Buharda Brokoli + Sos",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 163g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 143,
+    "protein": 7,
+    "karbonhidrat": 25,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1445",
+    "ad": "Probiyotik Yoğurt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 144g"
+    ],
+    "kalori": 114,
+    "protein": 7,
+    "karbonhidrat": 14,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1446",
+    "ad": "Edamame + Deniz Tuzu",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 115g",
+      "Baharat/Sos 15g"
+    ],
+    "kalori": 175,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1447",
+    "ad": "Çiğ Mantar + Zeytinyağı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 146g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 126,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1448",
+    "ad": "Kuru Erik",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 57g"
+    ],
+    "kalori": 157,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1449",
+    "ad": "Portakal Dilimleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 168g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 138,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 1
+  },
+  {
+    "id": "ARA1_1450",
+    "ad": "Müsli + Kefir",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 49g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 229,
+    "protein": 21,
+    "karbonhidrat": 32,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1451",
+    "ad": "Zeytinyağlı Kabak",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 100g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 170,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1452",
+    "ad": "Tahin + Pekmez",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 71g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 191,
+    "protein": 9,
+    "karbonhidrat": 19,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1453",
+    "ad": "Espresso + Bitter Çikolata",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 132,
+    "protein": 8,
+    "karbonhidrat": 14,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1454",
+    "ad": "Roka + Parmesan",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 103g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 163,
+    "protein": 13,
+    "karbonhidrat": 15,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1455",
+    "ad": "Ev Yapımı Yulaf Kurabiyesi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 224,
+    "protein": 14,
+    "karbonhidrat": 31,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1456",
+    "ad": "Çiğ Kaju (30g)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 215,
+    "protein": 6,
+    "karbonhidrat": 15,
+    "yag": 21
+  },
+  {
+    "id": "ARA1_1457",
+    "ad": "Kavrulmuş Nohut",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 46g"
+    ],
+    "kalori": 236,
+    "protein": 9,
+    "karbonhidrat": 16,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1458",
+    "ad": "Arpa Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 57g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 207,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1459",
+    "ad": "Haşlanmış Karnabahar",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 178g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 158,
+    "protein": 6,
+    "karbonhidrat": 28,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1460",
+    "ad": "Kombucha",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 159g"
+    ],
+    "kalori": 129,
+    "protein": 10,
+    "karbonhidrat": 19,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1461",
+    "ad": "Nohut + Sumak",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 80g",
+      "Baharat/Sos 10g"
+    ],
+    "kalori": 190,
+    "protein": 13,
+    "karbonhidrat": 18,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1462",
+    "ad": "Çiğ Kabak Dilimleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 161g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 81,
+    "protein": 5,
+    "karbonhidrat": 13,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1463",
+    "ad": "Hurma (4 adet)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 42g"
+    ],
+    "kalori": 172,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1464",
+    "ad": "Çilek + Yoğurt Dip",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 183g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 93,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1465",
+    "ad": "Kinoa Gevreği + Yoğurt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 44g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 244,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1466",
+    "ad": "Zeytinyağlı Barbunya",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 115g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 125,
+    "protein": 4,
+    "karbonhidrat": 20,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1467",
+    "ad": "Guacamole + Pirinç Patlağı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 86g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 206,
+    "protein": 6,
+    "karbonhidrat": 22,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1468",
+    "ad": "Yeşil Çay + Badem",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 147,
+    "protein": 5,
+    "karbonhidrat": 17,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1469",
+    "ad": "Kırmızı Lahana Salatası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 118g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 178,
+    "protein": 12,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1470",
+    "ad": "Ev Yapımı Protein Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 239,
+    "protein": 13,
+    "karbonhidrat": 31,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1471",
+    "ad": "Çiğ Antep Fıstığı (25g)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 230,
+    "protein": 6,
+    "karbonhidrat": 14,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1472",
+    "ad": "Kavrulmuş Ay Çekirdeği",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 41g"
+    ],
+    "kalori": 251,
+    "protein": 12,
+    "karbonhidrat": 11,
+    "yag": 23
+  },
+  {
+    "id": "ARA1_1473",
+    "ad": "Pirinç Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 52g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 152,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1474",
+    "ad": "Fırın Kabak Dilimleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 193g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 103,
+    "protein": 5,
+    "karbonhidrat": 19,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1475",
+    "ad": "Kimchi Mini Porsiyon",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 174g"
+    ],
+    "kalori": 144,
+    "protein": 7,
+    "karbonhidrat": 14,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1476",
+    "ad": "Barbunya Fasulyesi Salatası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 95g",
+      "Baharat/Sos 15g"
+    ],
+    "kalori": 135,
+    "protein": 14,
+    "karbonhidrat": 21,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1477",
+    "ad": "Çiğ Karnabahar + Sos",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 176g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 96,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1478",
+    "ad": "Kuru Elma Dilimleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 57g"
+    ],
+    "kalori": 117,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1479",
+    "ad": "Muz + Fıstık Ezmesi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 198g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 108,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 1
+  },
+  {
+    "id": "ARA1_1480",
+    "ad": "Tahıl Karışımı + Badem Sütü",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 59g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 259,
+    "protein": 21,
+    "karbonhidrat": 32,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1481",
+    "ad": "Zeytinyağlı Biber Dolması",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 130g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 140,
+    "protein": 3,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1482",
+    "ad": "Taramasalata + Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 61g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 151,
+    "protein": 9,
+    "karbonhidrat": 25,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1483",
+    "ad": "Matcha Latte",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 162,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1484",
+    "ad": "Mevsim Salata Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 133g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 113,
+    "protein": 11,
+    "karbonhidrat": 15,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1485",
+    "ad": "Ev Yapımı Meyve Leather",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 174,
+    "protein": 12,
+    "karbonhidrat": 31,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1486",
+    "ad": "Çiğ Brezilya Cevizi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 165,
+    "protein": 6,
+    "karbonhidrat": 13,
+    "yag": 19
+  },
+  {
+    "id": "ARA1_1487",
+    "ad": "Kavrulmuş Kabak Çekirdeği",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 36g"
+    ],
+    "kalori": 266,
+    "protein": 9,
+    "karbonhidrat": 16,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1488",
+    "ad": "Karabuğday Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 47g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 167,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1489",
+    "ad": "Izgara Patlıcan",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 128g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 118,
+    "protein": 4,
+    "karbonhidrat": 22,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1490",
+    "ad": "Turşu Çeşitleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 189g"
+    ],
+    "kalori": 79,
+    "protein": 10,
+    "karbonhidrat": 19,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1491",
+    "ad": "Fasulye Dip + Kraker",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 110g",
+      "Baharat/Sos 10g"
+    ],
+    "kalori": 150,
+    "protein": 15,
+    "karbonhidrat": 24,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1492",
+    "ad": "Çiğ Ispanak Salatası Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 111g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 111,
+    "protein": 5,
+    "karbonhidrat": 13,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1493",
+    "ad": "Kuru Mango",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 42g"
+    ],
+    "kalori": 132,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1494",
+    "ad": "Üzüm Taneleri (150g)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 133g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 123,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1495",
+    "ad": "Cornflakes Protein + Süt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 54g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 194,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1496",
+    "ad": "Zeytinyağlı Yaprak Sarması (2 adet)",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 145g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 155,
+    "protein": 6,
+    "karbonhidrat": 20,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1497",
+    "ad": "Patlıcan Salatası + Domates",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 76g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 166,
+    "protein": 6,
+    "karbonhidrat": 16,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1498",
+    "ad": "Chai Tea + Süt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 87,
+    "protein": 5,
+    "karbonhidrat": 11,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1499",
+    "ad": "Caesar Salad Light",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 148g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 128,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1500",
+    "ad": "Ev Yapımı Trail Mix",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 189,
+    "protein": 11,
+    "karbonhidrat": 31,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1501",
+    "ad": "Çiğ Pekan Cevizi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 180,
+    "protein": 6,
+    "karbonhidrat": 12,
+    "yag": 18
+  },
+  {
+    "id": "ARA1_1502",
+    "ad": "Kavrulmuş Kaju",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 31g"
+    ],
+    "kalori": 191,
+    "protein": 12,
+    "karbonhidrat": 11,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1503",
+    "ad": "Mısır Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 42g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 182,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1504",
+    "ad": "Haşlanmış Bezelye",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 143g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 133,
+    "protein": 7,
+    "karbonhidrat": 25,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1505",
+    "ad": "Fermente Lahana",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 104g"
+    ],
+    "kalori": 94,
+    "protein": 7,
+    "karbonhidrat": 14,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1506",
+    "ad": "Mercimek Cipsi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 75g",
+      "Baharat/Sos 15g"
+    ],
+    "kalori": 165,
+    "protein": 9,
+    "karbonhidrat": 27,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1507",
+    "ad": "Çiğ Cherry Domates",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 126g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 126,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1508",
+    "ad": "Kuru Ananas",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 57g"
+    ],
+    "kalori": 147,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1509",
+    "ad": "Kavun + Mozzarella",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 148g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 138,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 1
+  },
+  {
+    "id": "ARA1_1510",
+    "ad": "Yulaf Ezmesi Soğuk",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 49g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 209,
+    "protein": 21,
+    "karbonhidrat": 32,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1511",
+    "ad": "Zeytinyağlı Kereviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 110g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 170,
+    "protein": 5,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1512",
+    "ad": "Yoğurt + Sarımsak Ezme",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 91g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 181,
+    "protein": 9,
+    "karbonhidrat": 19,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1513",
+    "ad": "Protein Kahve",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 102,
+    "protein": 8,
+    "karbonhidrat": 14,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1514",
+    "ad": "Kinoa Salatası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 113g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 143,
+    "protein": 9,
+    "karbonhidrat": 15,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1515",
+    "ad": "Ev Yapımı Protein Brownie",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 204,
+    "protein": 10,
+    "karbonhidrat": 31,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1516",
+    "ad": "Çiğ Macadamia",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 195,
+    "protein": 6,
+    "karbonhidrat": 11,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1517",
+    "ad": "Kavrulmuş Leblebi",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 46g"
+    ],
+    "kalori": 206,
+    "protein": 9,
+    "karbonhidrat": 16,
+    "yag": 23
+  },
+  {
+    "id": "ARA1_1518",
+    "ad": "Çavdar Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 57g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 197,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1519",
+    "ad": "Fırın Havuç",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 158g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 148,
+    "protein": 6,
+    "karbonhidrat": 28,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1520",
+    "ad": "Probiyotik İçecek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 119g"
+    ],
+    "kalori": 109,
+    "protein": 10,
+    "karbonhidrat": 19,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1521",
+    "ad": "Börülce + Zeytinyağı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 90g",
+      "Baharat/Sos 10g"
+    ],
+    "kalori": 180,
+    "protein": 10,
+    "karbonhidrat": 18,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1522",
+    "ad": "Çiğ Kırmızı Lahana",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 141g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 81,
+    "protein": 5,
+    "karbonhidrat": 13,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1523",
+    "ad": "Kuru Çilek",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 42g"
+    ],
+    "kalori": 162,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1524",
+    "ad": "Karpuz Küpleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 163g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 93,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 2
+  },
+  {
+    "id": "ARA1_1525",
+    "ad": "Granola + Meyve",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 44g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 224,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1526",
+    "ad": "Zeytinyağlı Bamya",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 125g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 125,
+    "protein": 4,
+    "karbonhidrat": 20,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1527",
+    "ad": "Acuka + Kereviz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 66g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 196,
+    "protein": 6,
+    "karbonhidrat": 22,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1528",
+    "ad": "Cold Brew + Süt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 117,
+    "protein": 5,
+    "karbonhidrat": 17,
+    "yag": 5
+  },
+  {
+    "id": "ARA1_1529",
+    "ad": "Mercimek Salatası Mini",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 128g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 158,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1530",
+    "ad": "Ev Yapımı Chia Bar",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 219,
+    "protein": 9,
+    "karbonhidrat": 31,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1531",
+    "ad": "Karışık Çiğ Nuts",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 210,
+    "protein": 6,
+    "karbonhidrat": 10,
+    "yag": 16
+  },
+  {
+    "id": "ARA1_1532",
+    "ad": "Kavrulmuş Antep Fıstığı",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 41g"
+    ],
+    "kalori": 221,
+    "protein": 12,
+    "karbonhidrat": 11,
+    "yag": 20
+  },
+  {
+    "id": "ARA1_1533",
+    "ad": "Amarant Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 52g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 212,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1534",
+    "ad": "Buharda Kuşkonmaz",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 173g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 163,
+    "protein": 5,
+    "karbonhidrat": 19,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1535",
+    "ad": "Yoğurt + Probiyotik",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 134g"
+    ],
+    "kalori": 124,
+    "protein": 7,
+    "karbonhidrat": 14,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1536",
+    "ad": "Bakla + Limon",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Baklagil 105g",
+      "Baharat/Sos 15g"
+    ],
+    "kalori": 195,
+    "protein": 11,
+    "karbonhidrat": 21,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1537",
+    "ad": "Çiğ Roka + Parmesan",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ sebze 156g",
+      "Dip/Sos 30g"
+    ],
+    "kalori": 96,
+    "protein": 5,
+    "karbonhidrat": 18,
+    "yag": 4
+  },
+  {
+    "id": "ARA1_1538",
+    "ad": "Kuru Armut",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kuru meyve 57g"
+    ],
+    "kalori": 177,
+    "protein": 4,
+    "karbonhidrat": 28,
+    "yag": 0
+  },
+  {
+    "id": "ARA1_1539",
+    "ad": "Şeftali Dilimleri",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Taze meyve 178g",
+      "Ek sos (opsiyonel)"
+    ],
+    "kalori": 108,
+    "protein": 2,
+    "karbonhidrat": 23,
+    "yag": 1
+  },
+  {
+    "id": "ARA1_1540",
+    "ad": "Tam Tahıl Gevrek + Süt",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 59g",
+      "Süt/Yoğurt 150ml",
+      "Meyve (opsiyonel)"
+    ],
+    "kalori": 239,
+    "protein": 21,
+    "karbonhidrat": 32,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1541",
+    "ad": "Zeytinyağlı Lahana Sarması",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze 140g",
+      "Zeytinyağı 10ml",
+      "Baharat"
+    ],
+    "kalori": 140,
+    "protein": 3,
+    "karbonhidrat": 15,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1542",
+    "ad": "Atom + Sebze",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Ezme/Dip 81g",
+      "Sebze/Kraker 50g"
+    ],
+    "kalori": 141,
+    "protein": 9,
+    "karbonhidrat": 25,
+    "yag": 10
+  },
+  {
+    "id": "ARA1_1543",
+    "ad": "Bulletproof Coffee Light",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kahve/Çay 200ml",
+      "Süt/Tatlandırıcı",
+      "Ek (opsiyonel)"
+    ],
+    "kalori": 132,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1544",
+    "ad": "Bulgur Salatası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Sebze karışımı 143g",
+      "Protein 30g",
+      "Sos 15ml"
+    ],
+    "kalori": 173,
+    "protein": 15,
+    "karbonhidrat": 15,
+    "yag": 8
+  },
+  {
+    "id": "ARA1_1545",
+    "ad": "Ev Yapımı Tahini Ball",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Karışık malzemeler (ev yapımı)"
+    ],
+    "kalori": 234,
+    "protein": 8,
+    "karbonhidrat": 31,
+    "yag": 7
+  },
+  {
+    "id": "ARA1_1546",
+    "ad": "Çiğ Kabak Çekirdeği",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Çiğ kuruyemiş 35g"
+    ],
+    "kalori": 225,
+    "protein": 6,
+    "karbonhidrat": 9,
+    "yag": 15
+  },
+  {
+    "id": "ARA1_1547",
+    "ad": "Kavrulmuş Mix Nuts",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Kavrulmuş kuruyemiş 36g"
+    ],
+    "kalori": 236,
+    "protein": 9,
+    "karbonhidrat": 16,
+    "yag": 17
+  },
+  {
+    "id": "ARA1_1548",
+    "ad": "Tahıl Mix Lapası",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Tahıl 47g",
+      "Süt/Su 150ml",
+      "Tatlandırıcı"
+    ],
+    "kalori": 157,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 6
+  },
+  {
+    "id": "ARA1_1549",
+    "ad": "Haşlanmış Ispanak",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Pişmiş sebze 188g",
+      "Zeytinyağı 5ml",
+      "Baharat"
+    ],
+    "kalori": 108,
+    "protein": 4,
+    "karbonhidrat": 22,
+    "yag": 3
+  },
+  {
+    "id": "ARA1_1550",
+    "ad": "Kefir Smoothie",
+    "ogun": "ara_ogun_1",
+    "malzemeler": [
+      "Fermente gıda 149g"
+    ],
+    "kalori": 139,
+    "protein": 10,
+    "karbonhidrat": 19,
+    "yag": 3
+  }
+]

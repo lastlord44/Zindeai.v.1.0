@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "OGLE_301",
+    "ad": "Izgara Tavuk Göğüs + Bulgur Pilavı + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 120g",
+      "Karbonhidrat 50g",
+      "Sebze 80g"
+    ],
+    "kalori": 450,
+    "protein": 38,
+    "karbonhidrat": 45,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_302",
+    "ad": "Izgara Köfte + Bulgur Pilavı + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 101g",
+      "Pilav/Bulgur 51g",
+      "Sebze 71g"
+    ],
+    "kalori": 481,
+    "protein": 36,
+    "karbonhidrat": 49,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_303",
+    "ad": "Izgara Somon + Bulgur Pilavı + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 122g",
+      "Pilav 52g",
+      "Sebze 82g"
+    ],
+    "kalori": 422,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 16
+  },
+  {
+    "id": "OGLE_304",
+    "ad": "Kuru Fasulye + Bulgur Pilavı + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 103g",
+      "Pilav 53g",
+      "Yoğurt/Salata 83g"
+    ],
+    "kalori": 433,
+    "protein": 23,
+    "karbonhidrat": 71,
+    "yag": 11
+  },
+  {
+    "id": "OGLE_305",
+    "ad": "Patlıcan Musakka + Yoğurt + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 124g",
+      "Pilav 54g",
+      "Yoğurt 84g"
+    ],
+    "kalori": 404,
+    "protein": 22,
+    "karbonhidrat": 59,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_306",
+    "ad": "Bolonez Makarna + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 85g",
+      "Sos/Et 65g",
+      "Sebze 65g"
+    ],
+    "kalori": 485,
+    "protein": 27,
+    "karbonhidrat": 70,
+    "yag": 21
+  },
+  {
+    "id": "OGLE_307",
+    "ad": "İç Pilav + Tavuk + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 76g",
+      "Protein 86g",
+      "Sebze 66g"
+    ],
+    "kalori": 466,
+    "protein": 34,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_308",
+    "ad": "Mercimek Çorbası + Tavuklu Sandviç",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 87g",
+      "Ekmek 57g"
+    ],
+    "kalori": 447,
+    "protein": 31,
+    "karbonhidrat": 62,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_309",
+    "ad": "Karnıyarık + Pilav + Cacık",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 108g",
+      "Pilav 68g",
+      "Garnitür 78g"
+    ],
+    "kalori": 478,
+    "protein": 34,
+    "karbonhidrat": 60,
+    "yag": 26
+  },
+  {
+    "id": "OGLE_310",
+    "ad": "Hamburger + Patates Kızartması",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 129g",
+      "Ek 69g",
+      "İçecek 200ml"
+    ],
+    "kalori": 529,
+    "protein": 35,
+    "karbonhidrat": 69,
+    "yag": 31
+  },
+  {
+    "id": "OGLE_311",
+    "ad": "Fırında Tavuk But + Patates + Sebze",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 130g",
+      "Karbonhidrat 60g",
+      "Sebze 90g"
+    ],
+    "kalori": 460,
+    "protein": 48,
+    "karbonhidrat": 55,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_312",
+    "ad": "Dana Haşlama + Sebze + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 111g",
+      "Pilav/Bulgur 61g",
+      "Sebze 81g"
+    ],
+    "kalori": 491,
+    "protein": 46,
+    "karbonhidrat": 59,
+    "yag": 29
+  },
+  {
+    "id": "OGLE_313",
+    "ad": "Levrek Buğulama + Esmer Pirinç",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 132g",
+      "Pilav 62g",
+      "Sebze 92g"
+    ],
+    "kalori": 432,
+    "protein": 47,
+    "karbonhidrat": 54,
+    "yag": 14
+  },
+  {
+    "id": "OGLE_314",
+    "ad": "Nohut Yemeği + Esmer Pirinç + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 113g",
+      "Pilav 63g",
+      "Yoğurt/Salata 93g"
+    ],
+    "kalori": 443,
+    "protein": 23,
+    "karbonhidrat": 81,
+    "yag": 13
+  },
+  {
+    "id": "OGLE_315",
+    "ad": "Türlü + Bulgur Pilavı",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 134g",
+      "Pilav 64g",
+      "Yoğurt 94g"
+    ],
+    "kalori": 414,
+    "protein": 22,
+    "karbonhidrat": 69,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_316",
+    "ad": "Fettuccine Alfredo + Tavuk",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 95g",
+      "Sos/Et 75g",
+      "Sebze 75g"
+    ],
+    "kalori": 495,
+    "protein": 25,
+    "karbonhidrat": 80,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_317",
+    "ad": "Etli Pilav + Yoğurt + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 86g",
+      "Protein 96g",
+      "Sebze 76g"
+    ],
+    "kalori": 476,
+    "protein": 32,
+    "karbonhidrat": 74,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_318",
+    "ad": "Tarhana Çorbası + Börek + Ayran",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 97g",
+      "Ekmek 67g"
+    ],
+    "kalori": 457,
+    "protein": 29,
+    "karbonhidrat": 72,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_319",
+    "ad": "İmam Bayıldı + Bulgur + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 118g",
+      "Pilav 78g",
+      "Garnitür 88g"
+    ],
+    "kalori": 488,
+    "protein": 30,
+    "karbonhidrat": 70,
+    "yag": 24
+  },
+  {
+    "id": "OGLE_320",
+    "ad": "Tavuk Wrap + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 139g",
+      "Ek 79g",
+      "İçecek 200ml"
+    ],
+    "kalori": 539,
+    "protein": 31,
+    "karbonhidrat": 79,
+    "yag": 26
+  },
+  {
+    "id": "OGLE_321",
+    "ad": "Tavuk Sote + Esmer Pirinç + Cacık",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 140g",
+      "Karbonhidrat 70g",
+      "Sebze 100g"
+    ],
+    "kalori": 470,
+    "protein": 43,
+    "karbonhidrat": 45,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_322",
+    "ad": "Kuzu Güveç + Esmer Pirinç",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 121g",
+      "Pilav/Bulgur 71g",
+      "Sebze 91g"
+    ],
+    "kalori": 501,
+    "protein": 41,
+    "karbonhidrat": 69,
+    "yag": 27
+  },
+  {
+    "id": "OGLE_323",
+    "ad": "Hamsi Tava + Mısır Ekmeği + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 142g",
+      "Pilav 72g",
+      "Sebze 102g"
+    ],
+    "kalori": 442,
+    "protein": 42,
+    "karbonhidrat": 44,
+    "yag": 24
+  },
+  {
+    "id": "OGLE_324",
+    "ad": "Barbunya Pilaki + Bulgur + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 123g",
+      "Pilav 73g",
+      "Yoğurt/Salata 103g"
+    ],
+    "kalori": 453,
+    "protein": 23,
+    "karbonhidrat": 71,
+    "yag": 15
+  },
+  {
+    "id": "OGLE_325",
+    "ad": "Kabak Dolması + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 144g",
+      "Pilav 74g",
+      "Yoğurt 104g"
+    ],
+    "kalori": 424,
+    "protein": 22,
+    "karbonhidrat": 79,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_326",
+    "ad": "Penne Arabiata + Peynir",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 105g",
+      "Sos/Et 85g",
+      "Sebze 85g"
+    ],
+    "kalori": 505,
+    "protein": 23,
+    "karbonhidrat": 65,
+    "yag": 17
+  },
+  {
+    "id": "OGLE_327",
+    "ad": "Tavuklu Nohutlu Pilav + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 96g",
+      "Protein 106g",
+      "Sebze 86g"
+    ],
+    "kalori": 486,
+    "protein": 30,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_328",
+    "ad": "Ezogelin Çorbası + Pilav + Köfte",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 107g",
+      "Ekmek 77g"
+    ],
+    "kalori": 467,
+    "protein": 27,
+    "karbonhidrat": 57,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_329",
+    "ad": "Hünkar Beğendi + Kuzu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 128g",
+      "Pilav 88g",
+      "Garnitür 98g"
+    ],
+    "kalori": 498,
+    "protein": 26,
+    "karbonhidrat": 55,
+    "yag": 22
+  },
+  {
+    "id": "OGLE_330",
+    "ad": "Pizza Dilim (3) + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 149g",
+      "Ek 89g",
+      "İçecek 200ml"
+    ],
+    "kalori": 549,
+    "protein": 27,
+    "karbonhidrat": 89,
+    "yag": 36
+  },
+  {
+    "id": "OGLE_331",
+    "ad": "Tavuk Şiş + Bulgur + Közlenmiş Biber",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 150g",
+      "Karbonhidrat 50g",
+      "Sebze 110g"
+    ],
+    "kalori": 480,
+    "protein": 38,
+    "karbonhidrat": 55,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_332",
+    "ad": "Dana Kavurma + Bulgur + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 131g",
+      "Pilav/Bulgur 51g",
+      "Sebze 101g"
+    ],
+    "kalori": 511,
+    "protein": 36,
+    "karbonhidrat": 54,
+    "yag": 25
+  },
+  {
+    "id": "OGLE_333",
+    "ad": "Ton Balığı Izgara + Kinoa + Sebze",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 152g",
+      "Pilav 52g",
+      "Sebze 112g"
+    ],
+    "kalori": 452,
+    "protein": 37,
+    "karbonhidrat": 54,
+    "yag": 22
+  },
+  {
+    "id": "OGLE_334",
+    "ad": "Yeşil Mercimek Yemeği + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 133g",
+      "Pilav 53g",
+      "Yoğurt/Salata 113g"
+    ],
+    "kalori": 463,
+    "protein": 23,
+    "karbonhidrat": 81,
+    "yag": 9
+  },
+  {
+    "id": "OGLE_335",
+    "ad": "Ispanaklı Börek + Ayran",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 154g",
+      "Pilav 54g",
+      "Yoğurt 114g"
+    ],
+    "kalori": 434,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_336",
+    "ad": "Mantı + Yoğurt + Salça",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 115g",
+      "Sos/Et 95g",
+      "Sebze 65g"
+    ],
+    "kalori": 515,
+    "protein": 33,
+    "karbonhidrat": 75,
+    "yag": 27
+  },
+  {
+    "id": "OGLE_337",
+    "ad": "Bulgur Pilavı + Köfte + Cacık",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 76g",
+      "Protein 116g",
+      "Sebze 66g"
+    ],
+    "kalori": 496,
+    "protein": 28,
+    "karbonhidrat": 74,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_338",
+    "ad": "Domates Çorbası + Peynirli Tost",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 117g",
+      "Ekmek 57g"
+    ],
+    "kalori": 477,
+    "protein": 25,
+    "karbonhidrat": 67,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_339",
+    "ad": "Patlıcan Kebabı + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 138g",
+      "Pilav 68g",
+      "Garnitür 78g"
+    ],
+    "kalori": 508,
+    "protein": 36,
+    "karbonhidrat": 65,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_340",
+    "ad": "Döner Dürüm + Ayran",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 159g",
+      "Ek 99g",
+      "İçecek 200ml"
+    ],
+    "kalori": 559,
+    "protein": 37,
+    "karbonhidrat": 69,
+    "yag": 31
+  },
+  {
+    "id": "OGLE_341",
+    "ad": "Haşlanmış Tavuk + Sebze Püresi",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 160g",
+      "Karbonhidrat 60g",
+      "Sebze 80g"
+    ],
+    "kalori": 490,
+    "protein": 48,
+    "karbonhidrat": 45,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_342",
+    "ad": "Biftek + Patates + Mantar Sos",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 141g",
+      "Pilav/Bulgur 61g",
+      "Sebze 71g"
+    ],
+    "kalori": 521,
+    "protein": 46,
+    "karbonhidrat": 64,
+    "yag": 23
+  },
+  {
+    "id": "OGLE_343",
+    "ad": "Sardalya Tava + Bulgur + Limon",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 162g",
+      "Pilav 62g",
+      "Sebze 82g"
+    ],
+    "kalori": 462,
+    "protein": 47,
+    "karbonhidrat": 44,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_344",
+    "ad": "Kırmızı Mercimek Çorbası + Pilav + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 143g",
+      "Pilav 63g",
+      "Yoğurt/Salata 83g"
+    ],
+    "kalori": 473,
+    "protein": 23,
+    "karbonhidrat": 71,
+    "yag": 11
+  },
+  {
+    "id": "OGLE_345",
+    "ad": "Karnabahar Graten + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 164g",
+      "Pilav 64g",
+      "Yoğurt 84g"
+    ],
+    "kalori": 444,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_346",
+    "ad": "Ravioli + Domates Sos",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 85g",
+      "Sos/Et 65g",
+      "Sebze 75g"
+    ],
+    "kalori": 525,
+    "protein": 31,
+    "karbonhidrat": 85,
+    "yag": 25
+  },
+  {
+    "id": "OGLE_347",
+    "ad": "Sebzeli Pilav + Tavuk",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 86g",
+      "Protein 126g",
+      "Sebze 76g"
+    ],
+    "kalori": 506,
+    "protein": 38,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_348",
+    "ad": "Sebze Çorbası + Tavuk + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 127g",
+      "Ekmek 67g"
+    ],
+    "kalori": 487,
+    "protein": 35,
+    "karbonhidrat": 77,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_349",
+    "ad": "Tepsi Kebabı + Bulgur + Ayran",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 148g",
+      "Pilav 78g",
+      "Garnitür 88g"
+    ],
+    "kalori": 518,
+    "protein": 32,
+    "karbonhidrat": 75,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_350",
+    "ad": "Lahmacun (2) + Ayran + Yeşillik",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 169g",
+      "Ek 69g",
+      "İçecek 200ml"
+    ],
+    "kalori": 569,
+    "protein": 33,
+    "karbonhidrat": 79,
+    "yag": 26
+  },
+  {
+    "id": "OGLE_351",
+    "ad": "Tavuk Kanat + Patates Kızartması + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 170g",
+      "Karbonhidrat 70g",
+      "Sebze 90g"
+    ],
+    "kalori": 500,
+    "protein": 43,
+    "karbonhidrat": 55,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_352",
+    "ad": "Etli Kuru Fasulye + Pilav + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 151g",
+      "Pilav/Bulgur 71g",
+      "Sebze 81g"
+    ],
+    "kalori": 531,
+    "protein": 41,
+    "karbonhidrat": 49,
+    "yag": 21
+  },
+  {
+    "id": "OGLE_353",
+    "ad": "Alabalık Fırın + Patates + Roka",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 172g",
+      "Pilav 72g",
+      "Sebze 92g"
+    ],
+    "kalori": 472,
+    "protein": 42,
+    "karbonhidrat": 54,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_354",
+    "ad": "Nohutlu Ispanak + Bulgur + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 103g",
+      "Pilav 73g",
+      "Yoğurt/Salata 93g"
+    ],
+    "kalori": 483,
+    "protein": 23,
+    "karbonhidrat": 81,
+    "yag": 13
+  },
+  {
+    "id": "OGLE_355",
+    "ad": "Pırasa Yemeği + Pilav + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 174g",
+      "Pilav 74g",
+      "Yoğurt 94g"
+    ],
+    "kalori": 454,
+    "protein": 22,
+    "karbonhidrat": 59,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_356",
+    "ad": "Kıymalı Makarna + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 95g",
+      "Sos/Et 75g",
+      "Sebze 85g"
+    ],
+    "kalori": 535,
+    "protein": 29,
+    "karbonhidrat": 70,
+    "yag": 23
+  },
+  {
+    "id": "OGLE_357",
+    "ad": "Esmer Pirinç Pilav + Izgara Et",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 96g",
+      "Protein 86g",
+      "Sebze 86g"
+    ],
+    "kalori": 516,
+    "protein": 36,
+    "karbonhidrat": 74,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_358",
+    "ad": "İşkembe Çorbası + Ekmek + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 87g",
+      "Ekmek 77g"
+    ],
+    "kalori": 497,
+    "protein": 33,
+    "karbonhidrat": 62,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_359",
+    "ad": "Güveç + Pilav + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 158g",
+      "Pilav 88g",
+      "Garnitür 98g"
+    ],
+    "kalori": 528,
+    "protein": 28,
+    "karbonhidrat": 60,
+    "yag": 28
+  },
+  {
+    "id": "OGLE_360",
+    "ad": "Pide Kıymalı + Ayran",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 179g",
+      "Ek 79g",
+      "İçecek 200ml"
+    ],
+    "kalori": 579,
+    "protein": 29,
+    "karbonhidrat": 89,
+    "yag": 36
+  },
+  {
+    "id": "OGLE_361",
+    "ad": "Tavuklu Nohut Yemeği + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 180g",
+      "Karbonhidrat 50g",
+      "Sebze 100g"
+    ],
+    "kalori": 510,
+    "protein": 38,
+    "karbonhidrat": 45,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_362",
+    "ad": "Kıymalı Patlıcan Musakka + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 101g",
+      "Pilav/Bulgur 51g",
+      "Sebze 91g"
+    ],
+    "kalori": 541,
+    "protein": 36,
+    "karbonhidrat": 59,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_363",
+    "ad": "Uskumru Izgara + Pilav + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 182g",
+      "Pilav 52g",
+      "Sebze 102g"
+    ],
+    "kalori": 482,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 16
+  },
+  {
+    "id": "OGLE_364",
+    "ad": "Börülce Yemeği + Pilav + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 113g",
+      "Pilav 53g",
+      "Yoğurt/Salata 103g"
+    ],
+    "kalori": 493,
+    "protein": 23,
+    "karbonhidrat": 71,
+    "yag": 15
+  },
+  {
+    "id": "OGLE_365",
+    "ad": "Bamya Yemeği + Bulgur + Cacık",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 184g",
+      "Pilav 54g",
+      "Yoğurt 104g"
+    ],
+    "kalori": 464,
+    "protein": 22,
+    "karbonhidrat": 69,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_366",
+    "ad": "Tavuklu Spagetti + Sebze",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 105g",
+      "Sos/Et 85g",
+      "Sebze 65g"
+    ],
+    "kalori": 545,
+    "protein": 27,
+    "karbonhidrat": 80,
+    "yag": 21
+  },
+  {
+    "id": "OGLE_367",
+    "ad": "Şehriyeli Pilav + Tavuk Haşlama",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 76g",
+      "Protein 96g",
+      "Sebze 66g"
+    ],
+    "kalori": 526,
+    "protein": 34,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_368",
+    "ad": "Yayla Çorbası + Pilav + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 97g",
+      "Ekmek 57g"
+    ],
+    "kalori": 507,
+    "protein": 31,
+    "karbonhidrat": 72,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_369",
+    "ad": "Türlü + Tavuk + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 108g",
+      "Pilav 68g",
+      "Garnitür 78g"
+    ],
+    "kalori": 538,
+    "protein": 38,
+    "karbonhidrat": 70,
+    "yag": 26
+  },
+  {
+    "id": "OGLE_370",
+    "ad": "Sandviç Tavuklu + Cips",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 189g",
+      "Ek 89g",
+      "İçecek 200ml"
+    ],
+    "kalori": 589,
+    "protein": 39,
+    "karbonhidrat": 69,
+    "yag": 31
+  },
+  {
+    "id": "OGLE_371",
+    "ad": "Tavuklu Sebze Güveç + Bulgur",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 190g",
+      "Karbonhidrat 60g",
+      "Sebze 110g"
+    ],
+    "kalori": 520,
+    "protein": 48,
+    "karbonhidrat": 55,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_372",
+    "ad": "Etli Nohut + Bulgur Pilavı",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 111g",
+      "Pilav/Bulgur 61g",
+      "Sebze 101g"
+    ],
+    "kalori": 551,
+    "protein": 46,
+    "karbonhidrat": 69,
+    "yag": 29
+  },
+  {
+    "id": "OGLE_373",
+    "ad": "Palamut Tava + Bulgur + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 192g",
+      "Pilav 62g",
+      "Sebze 112g"
+    ],
+    "kalori": 492,
+    "protein": 47,
+    "karbonhidrat": 54,
+    "yag": 14
+  },
+  {
+    "id": "OGLE_374",
+    "ad": "Mercimekli Köfte + Salata + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 123g",
+      "Pilav 63g",
+      "Yoğurt/Salata 113g"
+    ],
+    "kalori": 503,
+    "protein": 23,
+    "karbonhidrat": 81,
+    "yag": 9
+  },
+  {
+    "id": "OGLE_375",
+    "ad": "Kabak Mücver + Yoğurt + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 194g",
+      "Pilav 64g",
+      "Yoğurt 114g"
+    ],
+    "kalori": 474,
+    "protein": 22,
+    "karbonhidrat": 79,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_376",
+    "ad": "Pesto Soslu Makarna + Mantar",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 115g",
+      "Sos/Et 95g",
+      "Sebze 75g"
+    ],
+    "kalori": 555,
+    "protein": 25,
+    "karbonhidrat": 65,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_377",
+    "ad": "Nohutlu Bulgur Pilavı + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 86g",
+      "Protein 106g",
+      "Sebze 76g"
+    ],
+    "kalori": 536,
+    "protein": 32,
+    "karbonhidrat": 74,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_378",
+    "ad": "Düğün Çorbası + Ekmek + Peynir",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 107g",
+      "Ekmek 67g"
+    ],
+    "kalori": 517,
+    "protein": 29,
+    "karbonhidrat": 57,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_379",
+    "ad": "Fırın Sebze + Et + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 118g",
+      "Pilav 78g",
+      "Garnitür 88g"
+    ],
+    "kalori": 548,
+    "protein": 34,
+    "karbonhidrat": 55,
+    "yag": 24
+  },
+  {
+    "id": "OGLE_380",
+    "ad": "Tost Kaşarlı + Ayran",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 199g",
+      "Ek 99g",
+      "İçecek 200ml"
+    ],
+    "kalori": 599,
+    "protein": 35,
+    "karbonhidrat": 79,
+    "yag": 26
+  },
+  {
+    "id": "OGLE_381",
+    "ad": "Kremalı Mantarlı Tavuk + Pirinç",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 120g",
+      "Karbonhidrat 70g",
+      "Sebze 80g"
+    ],
+    "kalori": 530,
+    "protein": 43,
+    "karbonhidrat": 45,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_382",
+    "ad": "Dana Rosto + Sebze Garnitür",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 121g",
+      "Pilav/Bulgur 71g",
+      "Sebze 71g"
+    ],
+    "kalori": 561,
+    "protein": 41,
+    "karbonhidrat": 54,
+    "yag": 27
+  },
+  {
+    "id": "OGLE_383",
+    "ad": "Levrek Izgara + Sebze + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 122g",
+      "Pilav 72g",
+      "Sebze 82g"
+    ],
+    "kalori": 502,
+    "protein": 42,
+    "karbonhidrat": 44,
+    "yag": 24
+  },
+  {
+    "id": "OGLE_384",
+    "ad": "Etli Nohut + Bulgur Pilavı",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 133g",
+      "Pilav 73g",
+      "Yoğurt/Salata 83g"
+    ],
+    "kalori": 513,
+    "protein": 23,
+    "karbonhidrat": 71,
+    "yag": 11
+  },
+  {
+    "id": "OGLE_385",
+    "ad": "Patlıcan Karnıyarık + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 124g",
+      "Pilav 74g",
+      "Yoğurt 84g"
+    ],
+    "kalori": 484,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_386",
+    "ad": "Kremalı Mantarlı Makarna",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 85g",
+      "Sos/Et 65g",
+      "Sebze 85g"
+    ],
+    "kalori": 565,
+    "protein": 23,
+    "karbonhidrat": 75,
+    "yag": 17
+  },
+  {
+    "id": "OGLE_387",
+    "ad": "Mercimekli Bulgur + Cacık",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 96g",
+      "Protein 116g",
+      "Sebze 86g"
+    ],
+    "kalori": 546,
+    "protein": 30,
+    "karbonhidrat": 64,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_388",
+    "ad": "Tavuk Suyu Çorbası + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 117g",
+      "Ekmek 77g"
+    ],
+    "kalori": 527,
+    "protein": 27,
+    "karbonhidrat": 67,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_389",
+    "ad": "Kapama + Bulgur + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 128g",
+      "Pilav 88g",
+      "Garnitür 98g"
+    ],
+    "kalori": 558,
+    "protein": 30,
+    "karbonhidrat": 65,
+    "yag": 22
+  },
+  {
+    "id": "OGLE_390",
+    "ad": "Köfte Ekmek + Patates",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 129g",
+      "Ek 69g",
+      "İçecek 200ml"
+    ],
+    "kalori": 609,
+    "protein": 31,
+    "karbonhidrat": 89,
+    "yag": 36
+  },
+  {
+    "id": "OGLE_391",
+    "ad": "Tavuk Döner + Bulgur Pilavı + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Tavuk 130g",
+      "Karbonhidrat 50g",
+      "Sebze 90g"
+    ],
+    "kalori": 540,
+    "protein": 38,
+    "karbonhidrat": 55,
+    "yag": 12
+  },
+  {
+    "id": "OGLE_392",
+    "ad": "Kuzu Pirzola + Patates + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Et 131g",
+      "Pilav/Bulgur 51g",
+      "Sebze 81g"
+    ],
+    "kalori": 571,
+    "protein": 36,
+    "karbonhidrat": 64,
+    "yag": 25
+  },
+  {
+    "id": "OGLE_393",
+    "ad": "Mezgit Kızartma + Patates + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Balık 132g",
+      "Pilav 52g",
+      "Sebze 92g"
+    ],
+    "kalori": 512,
+    "protein": 37,
+    "karbonhidrat": 54,
+    "yag": 22
+  },
+  {
+    "id": "OGLE_394",
+    "ad": "Kuru Fasulye Pilaki + Pilav",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Baklagil 143g",
+      "Pilav 53g",
+      "Yoğurt/Salata 93g"
+    ],
+    "kalori": 523,
+    "protein": 23,
+    "karbonhidrat": 81,
+    "yag": 13
+  },
+  {
+    "id": "OGLE_395",
+    "ad": "Biber Dolması + Yoğurt",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Sebze 134g",
+      "Pilav 54g",
+      "Yoğurt 94g"
+    ],
+    "kalori": 494,
+    "protein": 22,
+    "karbonhidrat": 74,
+    "yag": 18
+  },
+  {
+    "id": "OGLE_396",
+    "ad": "Fırın Makarna + Salata",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Makarna 95g",
+      "Sos/Et 75g",
+      "Sebze 65g"
+    ],
+    "kalori": 575,
+    "protein": 33,
+    "karbonhidrat": 85,
+    "yag": 27
+  },
+  {
+    "id": "OGLE_397",
+    "ad": "Etli Sebzeli Pilav + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Pilav 76g",
+      "Protein 126g",
+      "Sebze 66g"
+    ],
+    "kalori": 556,
+    "protein": 28,
+    "karbonhidrat": 74,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_398",
+    "ad": "Kelle Paça + Ekmek + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 127g",
+      "Ekmek 57g"
+    ],
+    "kalori": 537,
+    "protein": 25,
+    "karbonhidrat": 77,
+    "yag": 19
+  },
+  {
+    "id": "OGLE_399",
+    "ad": "Tas Kebabı + Pilav + Turşu",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Malzeme 138g",
+      "Pilav 68g",
+      "Garnitür 78g"
+    ],
+    "kalori": 568,
+    "protein": 26,
+    "karbonhidrat": 75,
+    "yag": 20
+  },
+  {
+    "id": "OGLE_400",
+    "ad": "Tavuk Burger + Soğan Halkası",
+    "ogun": "ogle",
+    "malzemeler": [
+      "Ana Ürün 139g",
+      "Ek 79g",
+      "İçecek 200ml"
+    ],
+    "kalori": 619,
+    "protein": 27,
+    "karbonhidrat": 69,
+    "yag": 31
+  }
+]

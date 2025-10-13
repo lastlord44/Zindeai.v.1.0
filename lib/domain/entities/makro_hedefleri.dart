@@ -62,14 +62,22 @@ class MakroHedefleri extends Equatable {
     );
   }
 
-  /// JSON'dan oluştur
+  /// JSON'dan oluştur (null-safe)
   factory MakroHedefleri.fromJson(Map<String, dynamic> json) {
     return MakroHedefleri(
-      gunlukKalori: (json['gunlukKalori'] as num).toDouble(),
-      gunlukProtein: (json['gunlukProtein'] as num).toDouble(),
-      gunlukKarbonhidrat: (json['gunlukKarbonhidrat'] as num).toDouble(),
-      gunlukYag: (json['gunlukYag'] as num).toDouble(),
+      gunlukKalori: _parseDouble(json['gunlukKalori']) ?? 2000.0,
+      gunlukProtein: _parseDouble(json['gunlukProtein']) ?? 150.0,
+      gunlukKarbonhidrat: _parseDouble(json['gunlukKarbonhidrat']) ?? 200.0,
+      gunlukYag: _parseDouble(json['gunlukYag']) ?? 70.0,
     );
+  }
+
+  /// Null-safe double parser
+  static double? _parseDouble(dynamic value) {
+    if (value == null) return null;
+    if (value is num) return value.toDouble();
+    if (value is String) return double.tryParse(value);
+    return null;
   }
 
   /// JSON'a çevir

@@ -12,48 +12,45 @@ import '../../data/local/hive_service.dart';
 import '../../core/utils/app_logger.dart';
 
 class YemekMigration {
-  // 🆕 YENİ JSON DOSYA LİSTESİ (tüm kategoriler + SONMEALLER!)
+  // 🔥 MEGA YEMEKLER - SADECE BENİM YAZDIĞIM YEMEKLER!
   static const List<String> _jsonDosyalari = [
-    // KAHVALTI (300 yemek)
-    'zindeai_kahvalti_300.json',
-    'kahvalti_batch_01.json',
-    'kahvalti_batch_02.json',
+    // KAHVALTI (300 yemek - 3 batch)
+    'mega_kahvalti_batch_1.json',
+    'mega_kahvalti_batch_2.json',
+    'mega_kahvalti_batch_3.json',
 
-    // ARA ÖĞÜN (120 + batch'ler)
-    'ara_ogun_toplu_120.json',
-    'ara_ogun_1_batch_01.json',
-    'ara_ogun_1_batch_02.json',
-    'ara_ogun_2_batch_01.json',
-    'ara_ogun_2_batch_02.json',
+    // ÖĞLE YEMEĞİ (400 yemek - 4 batch)
+    'mega_ogle_batch_1.json',
+    'mega_ogle_batch_2.json',
+    'mega_ogle_batch_3.json',
+    'mega_ogle_batch_4.json',
 
-    // ÖĞLE YEMEĞİ (300 + batch'ler)
-    'zindeai_ogle_300.json',
-    'ogle_yemegi_batch_01.json',
-    'ogle_yemegi_batch_02.json',
+    // AKŞAM YEMEĞİ (400 yemek - 4 batch)
+    'mega_aksam_batch_1.json',
+    'mega_aksam_batch_2.json',
+    'mega_aksam_batch_3.json',
+    'mega_aksam_batch_4.json',
 
-    // AKŞAM YEMEĞİ (300 + 450 + 150 + 150) - ÇEŞİTLİLİK İÇİN TÜMÜ!
-    'zindeai_aksam_300.json',
-    'aksam_combo_450.json', // 🔥 YENİ - SONMEALLER!
-    'aksam_yemekbalık_150.json', // 🔥 YENİ - SONMEALLER!
-    'aksam_yemekbalik_150.json', // 🔥 YENİ - alternatif isim
-    'aksam_yemekleri_150_kofte_kiyma_kusbasi_haslama.json', // 🔥 YENİ - SONMEALLER!
-    'aksam_yemegi_batch_01.json',
-    'aksam_yemegi_batch_02.json',
+    // ARA ÖĞÜN 1 (450 yemek - 3 batch)
+    'mega_ara_ogun_1_batch_1.json',
+    'mega_ara_ogun_1_batch_2.json',
+    'mega_ara_ogun_1_batch_3.json',
 
-    // GECE ATIŞTIRMASI
-    'gece_atistirmasi.json',
-
-    // CHEAT MEAL
-    'cheat_meal.json',
+    // ARA ÖĞÜN 2 (750 yemek - 5 batch)
+    'mega_ara_ogun_2_batch_1.json',
+    'mega_ara_ogun_2_batch_2.json',
+    'mega_ara_ogun_2_batch_3.json',
+    'mega_ara_ogun_2_batch_4.json',
+    'mega_ara_ogun_2_batch_5.json',
   ];
 
   // JSON dosya yolları (assets klasörü - Web uyumlu)
   static const String _assetsPath = 'assets/data/';
 
-  /// JSON dosyalarını Hive'a migration yap (SESSIZ - kullanıcı "Plan Oluştur" butonuna basmadan log yok)
+  /// JSON dosyalarını Hive'a migration yap (VERBOSE - DEBUG MODE)
   static Future<bool> jsonToHiveMigration() async {
     try {
-      // Log kaldırıldı - kullanıcı "Plan Oluştur" butonuna basmadan önce hiçbir yemek logu olmamalı
+      AppLogger.info('🔥 [DEBUG] Migration başlatıldı - jsonToHiveMigration()');
 
       int toplamYemek = 0;
       int basariliYemek = 0;
@@ -63,7 +60,7 @@ class YemekMigration {
       for (var dosya in _jsonDosyalari) {
         final assetsPath = '$_assetsPath$dosya';
 
-        // Log kaldırıldı - sessiz çalışma
+        AppLogger.info('📂 [DEBUG] Dosya işleniyor: $dosya');
 
         try {
           List<dynamic> yemekler = [];
@@ -86,9 +83,8 @@ class YemekMigration {
               yemeklerList = json.decode(jsonStr);
             }
             yemekler = yemeklerList;
-          } catch (e) {
-            // Sadece kritik dosya bulunamama hatası
-            AppLogger.warning('⚠️ Dosya okunamadı: $dosya - $e');
+          } catch (e, stackTrace) {
+            AppLogger.error('❌ [DEBUG] Dosya okuma hatası: $dosya', error: e, stackTrace: stackTrace);
             continue;
           }
 
@@ -96,6 +92,8 @@ class YemekMigration {
           int dosyaBasarili = 0;
           int dosyaHatali = 0;
           int dosyaSkipped = 0;
+
+          AppLogger.info('   📊 [DEBUG] ${yemekler.length} yemek işlenecek');
 
           for (var yemekJson in yemekler) {
             toplamYemek++;
@@ -186,22 +184,23 @@ class YemekMigration {
               await HiveService.yemekKaydet(yemekModel);
               basariliYemek++;
               dosyaBasarili++;
-            } catch (e) {
+            } catch (e, stackTrace) {
               hataliYemek++;
               dosyaHatali++;
-              // Sessiz çalışma - log yok
+              AppLogger.error('   ❌ [DEBUG] Yemek kaydetme hatası', error: e, stackTrace: stackTrace);
             }
           }
 
-          // Toplu log KALDIRILDI - sessiz çalışma
-        } catch (e) {
-          // Sadece kritik dosya işleme hatası
-          AppLogger.error('❌ $dosya işlenirken kritik hata: $e');
+          AppLogger.info('   ✅ [DEBUG] $dosya tamamlandı: $dosyaBasarili başarılı, $dosyaHatali hatalı, $dosyaSkipped atlandı');
+        } catch (e, stackTrace) {
+          AppLogger.error('❌ [DEBUG] $dosya işlenirken kritik hata', error: e, stackTrace: stackTrace);
         }
       }
 
-      // Sonuç raporu KALDIRILDI - sessiz çalışma
-      // Veritabanı durumu KALDIRILDI - sessiz çalışma
+      AppLogger.info('\n🎉 [DEBUG] Migration tamamlandı!');
+      AppLogger.info('   📊 Toplam: $toplamYemek yemek');
+      AppLogger.info('   ✅ Başarılı: $basariliYemek');
+      AppLogger.info('   ❌ Hatalı: $hataliYemek');
 
       return basariliYemek > 0;
     } catch (e, stackTrace) {

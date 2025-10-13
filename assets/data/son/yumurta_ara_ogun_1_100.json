@@ -1,0 +1,1702 @@
+[
+  {
+    "meal_name": "Yumurta Beyazı + Haşlanmış Patates",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 250,
+    "protein": 16,
+    "carbs": 21,
+    "fat": 10,
+    "portion_info": "Yumurta Beyazı 125g, Haşlanmış Patates 120g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, hızlı hazırlık",
+    "cooking_time": "5-15 dk",
+    "ingredients": [
+      "Yumurta Beyazı (125g)",
+      "Haşlanmış Patates (120g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Yumurta + Tam Buğday Ekmek",
+    "main_ingredient": "yumurta",
+    "meal_type": "ara1",
+    "calories": 308,
+    "protein": 13,
+    "carbs": 20,
+    "fat": 19,
+    "portion_info": "Haşlanmış Yumurta 70g, Tam Buğday Ekmek 40g (≈1 dilim), Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama",
+    "cooking_time": "10 dk",
+    "ingredients": [
+      "Haşlanmış Yumurta (70g)",
+      "Tam Buğday Ekmek (40g (≈1 dilim))",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  }
+]

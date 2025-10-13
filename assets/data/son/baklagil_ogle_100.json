@@ -1,0 +1,1692 @@
+[
+  {
+    "meal_name": "Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 517,
+    "protein": 50,
+    "carbs": 48,
+    "fat": 14,
+    "portion_info": "Haşlanmış Mercimek 240g, Izgara Tavuk Göğüs 90g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Mercimek (240g)",
+      "Izgara Tavuk Göğüs (90g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Nohut + Izgara Hindi Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 524,
+    "protein": 49,
+    "carbs": 46,
+    "fat": 17,
+    "portion_info": "Haşlanmış Nohut 170g, Izgara Hindi Göğüs 115g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Nohut (170g)",
+      "Izgara Hindi Göğüs (115g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Kuru Fasulye + Ton Balığı (suda)",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 494,
+    "protein": 48,
+    "carbs": 46,
+    "fat": 12,
+    "portion_info": "Haşlanmış Kuru Fasulye 210g, Ton Balığı (suda) 125g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Kuru Fasulye (210g)",
+      "Ton Balığı (suda) (125g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Nohut + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 542,
+    "protein": 48,
+    "carbs": 46,
+    "fat": 19,
+    "portion_info": "Haşlanmış Nohut 170g, Izgara Tavuk Göğüs 105g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Nohut (170g)",
+      "Izgara Tavuk Göğüs (105g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Kuru Fasulye + Izgara Hindi Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 498,
+    "protein": 49,
+    "carbs": 46,
+    "fat": 13,
+    "portion_info": "Haşlanmış Kuru Fasulye 210g, Izgara Hindi Göğüs 105g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Kuru Fasulye (210g)",
+      "Izgara Hindi Göğüs (105g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Mercimek + Ton Balığı (suda)",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 489,
+    "protein": 48,
+    "carbs": 48,
+    "fat": 12,
+    "portion_info": "Haşlanmış Mercimek 240g, Ton Balığı (suda) 110g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Mercimek (240g)",
+      "Ton Balığı (suda) (110g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Nohut + Yumurta Beyazı",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 483,
+    "protein": 40,
+    "carbs": 47,
+    "fat": 16,
+    "portion_info": "Haşlanmış Nohut 170g, Yumurta Beyazı 220g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Nohut (170g)",
+      "Yumurta Beyazı (220g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Kuru Fasulye + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 513,
+    "protein": 48,
+    "carbs": 46,
+    "fat": 14,
+    "portion_info": "Haşlanmış Kuru Fasulye 210g, Izgara Tavuk Göğüs 95g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Kuru Fasulye (210g)",
+      "Izgara Tavuk Göğüs (95g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Mercimek + Izgara Hindi Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 490,
+    "protein": 48,
+    "carbs": 48,
+    "fat": 12,
+    "portion_info": "Haşlanmış Mercimek 240g, Izgara Hindi Göğüs 90g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Mercimek (240g)",
+      "Izgara Hindi Göğüs (90g)"
+    ]
+  },
+  {
+    "meal_name": "Haşlanmış Nohut + Ton Balığı (suda)",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 517,
+    "protein": 48,
+    "carbs": 46,
+    "fat": 17,
+    "portion_info": "Haşlanmış Nohut 170g, Ton Balığı (suda) 135g",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "15-30 dk",
+    "ingredients": [
+      "Haşlanmış Nohut (170g)",
+      "Ton Balığı (suda) (135g)"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  },
+  {
+    "meal_name": "PAD Haşlanmış Mercimek + Izgara Tavuk Göğüs",
+    "main_ingredient": "baklagil",
+    "meal_type": "ogle",
+    "calories": 470,
+    "protein": 46,
+    "carbs": 40,
+    "fat": 14,
+    "portion_info": "Izgara Tavuk Göğüs 90g, Haşlanmış Mercimek 200g, Zeytinyağı 10g (≈1 YK)",
+    "cooking_method": "Haşlama, sote",
+    "cooking_time": "20-30 dk",
+    "ingredients": [
+      "Izgara Tavuk Göğüs (90g)",
+      "Haşlanmış Mercimek (200g)",
+      "Zeytinyağı (10g (≈1 YK))"
+    ]
+  }
+]

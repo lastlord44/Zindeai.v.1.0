@@ -1,0 +1,2022 @@
+[
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + yeşil salata + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: yeşil salata; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Yeşil salata",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-marul + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-marul; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-marul",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + brokoli + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: brokoli; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Brokoli",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + ızgara kabak + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: ızgara kabak; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Izgara kabak",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + ıspanak sote + Kimyon",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: ıspanak sote; Baharat: kimyon",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Ispanak sote",
+      "Tuz",
+      "Karabiber",
+      "Kimyon",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + marul + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: marul; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Marul",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + çoban salata + Nane",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: çoban salata; Baharat: nane",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Çoban salata",
+      "Tuz",
+      "Karabiber",
+      "Nane",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + roka-limon + Kekik",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: roka-limon; Baharat: kekik",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Roka-limon",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + semizotu + Pul biber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: semizotu; Baharat: pul biber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Semizotu",
+      "Tuz",
+      "Karabiber",
+      "Pul biber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + dereotu-marul + Karabiber",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: dereotu-marul; Baharat: karabiber",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Dereotu-marul",
+      "Tuz",
+      "Karabiber",
+      "Karabiber",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Tam Buğday Ekmek + maydanoz-soğan + Sumak",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim); Garnitür: maydanoz-soğan; Baharat: sumak",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))",
+      "Maydanoz-soğan",
+      "Tuz",
+      "Karabiber",
+      "Sumak",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "Süzme Yoğurt + Yulaf Ezmesi + kapya biber + Fesleğen",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 447,
+    "protein": 28,
+    "carbs": 49,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 225g, Yulaf Ezmesi 60g; Garnitür: kapya biber; Baharat: fesleğen",
+    "cooking_method": "Izgara, haşlama",
+    "cooking_time": "10-20 dk protein, 10-25 dk karbonhidrat",
+    "ingredients": [
+      "Süzme Yoğurt (225g)",
+      "Yulaf Ezmesi (60g)",
+      "Kapya biber",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen",
+      "Limon"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  },
+  {
+    "meal_name": "PAD Süzme Yoğurt + Tam Buğday Ekmek",
+    "main_ingredient": "yogurt",
+    "meal_type": "kahvalti",
+    "calories": 448,
+    "protein": 30,
+    "carbs": 46,
+    "fat": 15,
+    "portion_info": "Süzme Yoğurt 240g, Tam Buğday Ekmek 80g (≈2 dilim)",
+    "cooking_method": "Haşlama/karıştırma",
+    "cooking_time": "10-20 dk",
+    "ingredients": [
+      "Süzme Yoğurt (240g)",
+      "Tam Buğday Ekmek (80g (≈2 dilim))"
+    ]
+  }
+]

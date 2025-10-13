@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "AKSAM_901",
+    "ad": "Izgara Tavuk + Bulgur + Cacık",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 120g",
+      "Pilav 55g",
+      "Garnitür 70g"
+    ],
+    "kalori": 430,
+    "protein": 34,
+    "karbonhidrat": 44,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_902",
+    "ad": "Izgara Tavuk + Yeşil Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 101g",
+      "Sebze 101g",
+      "Sağlıklı Karbonhidrat 41g"
+    ],
+    "kalori": 361,
+    "protein": 33,
+    "karbonhidrat": 33,
+    "yag": 11
+  },
+  {
+    "id": "AKSAM_903",
+    "ad": "Mercimek Çorbası + Izgara Tavuk + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 92g",
+      "Pilav/Salata 62g"
+    ],
+    "kalori": 422,
+    "protein": 26,
+    "karbonhidrat": 54,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_904",
+    "ad": "Kabak Mücver + Pilav + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 133g",
+      "Pilav 53g",
+      "Yoğurt/Salata 73g"
+    ],
+    "kalori": 453,
+    "protein": 27,
+    "karbonhidrat": 57,
+    "yag": 19
+  },
+  {
+    "id": "AKSAM_905",
+    "ad": "Tavuk Haşlama + Sebze + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 124g",
+      "Sebze 84g",
+      "Karbonhidrat 54g"
+    ],
+    "kalori": 424,
+    "protein": 40,
+    "karbonhidrat": 46,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_906",
+    "ad": "Levrek Buğulama + Sebze + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 135g",
+      "Sebze/Pilav 95g",
+      "Garnitür 65g"
+    ],
+    "kalori": 405,
+    "protein": 39,
+    "karbonhidrat": 43,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_907",
+    "ad": "Türlü + Pilav + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 136g",
+      "Pilav 56g",
+      "Yoğurt 86g"
+    ],
+    "kalori": 386,
+    "protein": 22,
+    "karbonhidrat": 64,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_908",
+    "ad": "Izgara Tavuk + Quinoa + Brokoli",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 137g",
+      "Sağlıklı Karbonhidrat 57g",
+      "Sebze 97g"
+    ],
+    "kalori": 417,
+    "protein": 45,
+    "karbonhidrat": 47,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_909",
+    "ad": "Sebzeli Makarna + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 98g",
+      "Sos/Protein 78g",
+      "Sebze 68g"
+    ],
+    "kalori": 458,
+    "protein": 30,
+    "karbonhidrat": 68,
+    "yag": 22
+  },
+  {
+    "id": "AKSAM_910",
+    "ad": "Tavuk Wrap + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 129g",
+      "Sebze 89g",
+      "Ek 59g"
+    ],
+    "kalori": 409,
+    "protein": 35,
+    "karbonhidrat": 51,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_911",
+    "ad": "Izgara Köfte + Pilav + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 130g",
+      "Pilav 65g",
+      "Garnitür 80g"
+    ],
+    "kalori": 440,
+    "protein": 44,
+    "karbonhidrat": 54,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_912",
+    "ad": "Ton Balığı Salatası + Avokado",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 111g",
+      "Sebze 111g",
+      "Sağlıklı Karbonhidrat 51g"
+    ],
+    "kalori": 371,
+    "protein": 43,
+    "karbonhidrat": 43,
+    "yag": 13
+  },
+  {
+    "id": "AKSAM_913",
+    "ad": "Tarhana + Börek + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 102g",
+      "Pilav/Salata 72g"
+    ],
+    "kalori": 432,
+    "protein": 24,
+    "karbonhidrat": 64,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_914",
+    "ad": "Patlıcan Kızartma + Bulgur + Cacık",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 143g",
+      "Pilav 63g",
+      "Yoğurt/Salata 83g"
+    ],
+    "kalori": 463,
+    "protein": 25,
+    "karbonhidrat": 67,
+    "yag": 29
+  },
+  {
+    "id": "AKSAM_915",
+    "ad": "Tavuk Sote + Bulgur + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 134g",
+      "Sebze 94g",
+      "Karbonhidrat 64g"
+    ],
+    "kalori": 434,
+    "protein": 50,
+    "karbonhidrat": 56,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_916",
+    "ad": "Çipura Fırın + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 145g",
+      "Sebze/Pilav 105g",
+      "Garnitür 75g"
+    ],
+    "kalori": 415,
+    "protein": 49,
+    "karbonhidrat": 53,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_917",
+    "ad": "Zeytinyağlı Pırasa + Bulgur",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 146g",
+      "Pilav 66g",
+      "Yoğurt 96g"
+    ],
+    "kalori": 396,
+    "protein": 16,
+    "karbonhidrat": 74,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_918",
+    "ad": "Ton Balığı + Kinoa + Avokado",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 147g",
+      "Sağlıklı Karbonhidrat 67g",
+      "Sebze 107g"
+    ],
+    "kalori": 427,
+    "protein": 39,
+    "karbonhidrat": 57,
+    "yag": 11
+  },
+  {
+    "id": "AKSAM_919",
+    "ad": "Mantı + Yoğurt + Salça",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 108g",
+      "Sos/Protein 88g",
+      "Sebze 78g"
+    ],
+    "kalori": 468,
+    "protein": 28,
+    "karbonhidrat": 78,
+    "yag": 20
+  },
+  {
+    "id": "AKSAM_920",
+    "ad": "Izgara Tavuk Sandviç + Marul",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 139g",
+      "Sebze 99g",
+      "Ek 69g"
+    ],
+    "kalori": 419,
+    "protein": 33,
+    "karbonhidrat": 61,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_921",
+    "ad": "Izgara Balık + Esmer Pirinç",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 140g",
+      "Pilav 75g",
+      "Garnitür 90g"
+    ],
+    "kalori": 450,
+    "protein": 38,
+    "karbonhidrat": 64,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_922",
+    "ad": "Sebze Bowl + Kinoa + Tavuk",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 121g",
+      "Sebze 121g",
+      "Sağlıklı Karbonhidrat 61g"
+    ],
+    "kalori": 381,
+    "protein": 37,
+    "karbonhidrat": 33,
+    "yag": 15
+  },
+  {
+    "id": "AKSAM_923",
+    "ad": "Ezogelin + Pilav + Köfte",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 112g",
+      "Pilav/Salata 82g"
+    ],
+    "kalori": 442,
+    "protein": 34,
+    "karbonhidrat": 74,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_924",
+    "ad": "Karnabahar Kızartma + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 153g",
+      "Pilav 73g",
+      "Yoğurt/Salata 93g"
+    ],
+    "kalori": 473,
+    "protein": 35,
+    "karbonhidrat": 77,
+    "yag": 25
+  },
+  {
+    "id": "AKSAM_925",
+    "ad": "Fırın Tavuk + Patates",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 144g",
+      "Sebze 104g",
+      "Karbonhidrat 74g"
+    ],
+    "kalori": 444,
+    "protein": 44,
+    "karbonhidrat": 44,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_926",
+    "ad": "Somon Teriyaki + Esmer Pirinç",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 155g",
+      "Sebze/Pilav 115g",
+      "Garnitür 85g"
+    ],
+    "kalori": 425,
+    "protein": 43,
+    "karbonhidrat": 41,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_927",
+    "ad": "Sebze Güveç + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 156g",
+      "Pilav 76g",
+      "Yoğurt 106g"
+    ],
+    "kalori": 406,
+    "protein": 18,
+    "karbonhidrat": 58,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_928",
+    "ad": "Izgara Dana + Tatlı Patates",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 157g",
+      "Sağlıklı Karbonhidrat 77g",
+      "Sebze 117g"
+    ],
+    "kalori": 437,
+    "protein": 49,
+    "karbonhidrat": 45,
+    "yag": 13
+  },
+  {
+    "id": "AKSAM_929",
+    "ad": "Pesto Makarna + Tavuk",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 118g",
+      "Sos/Protein 98g",
+      "Sebze 88g"
+    ],
+    "kalori": 478,
+    "protein": 26,
+    "karbonhidrat": 60,
+    "yag": 18
+  },
+  {
+    "id": "AKSAM_930",
+    "ad": "Ton Balıklı Sandviç + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 149g",
+      "Sebze 109g",
+      "Ek 79g"
+    ],
+    "kalori": 429,
+    "protein": 31,
+    "karbonhidrat": 49,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_931",
+    "ad": "Izgara Dana + Bulgur + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 150g",
+      "Pilav 55g",
+      "Garnitür 100g"
+    ],
+    "kalori": 460,
+    "protein": 48,
+    "karbonhidrat": 52,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_932",
+    "ad": "Izgara Somon + Brokoli",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 131g",
+      "Sebze 131g",
+      "Sağlıklı Karbonhidrat 41g"
+    ],
+    "kalori": 391,
+    "protein": 47,
+    "karbonhidrat": 43,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_933",
+    "ad": "Sebze Çorbası + Tavuk + Bulgur",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 122g",
+      "Pilav/Salata 62g"
+    ],
+    "kalori": 452,
+    "protein": 32,
+    "karbonhidrat": 58,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_934",
+    "ad": "Tavuk Schnitzel + Patates + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 163g",
+      "Pilav 53g",
+      "Yoğurt/Salata 103g"
+    ],
+    "kalori": 483,
+    "protein": 33,
+    "karbonhidrat": 61,
+    "yag": 21
+  },
+  {
+    "id": "AKSAM_935",
+    "ad": "Tavuk Güveç + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 154g",
+      "Sebze 114g",
+      "Karbonhidrat 54g"
+    ],
+    "kalori": 454,
+    "protein": 38,
+    "karbonhidrat": 54,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_936",
+    "ad": "Hamsi Buğulama + Bulgur",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 165g",
+      "Sebze/Pilav 125g",
+      "Garnitür 65g"
+    ],
+    "kalori": 435,
+    "protein": 37,
+    "karbonhidrat": 51,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_937",
+    "ad": "İmam Bayıldı + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 166g",
+      "Pilav 56g",
+      "Yoğurt 116g"
+    ],
+    "kalori": 416,
+    "protein": 20,
+    "karbonhidrat": 68,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_938",
+    "ad": "Somon + Esmer Pirinç + Ispanak",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 167g",
+      "Sağlıklı Karbonhidrat 57g",
+      "Sebze 127g"
+    ],
+    "kalori": 447,
+    "protein": 43,
+    "karbonhidrat": 55,
+    "yag": 15
+  },
+  {
+    "id": "AKSAM_939",
+    "ad": "Kıymalı Makarna + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 128g",
+      "Sos/Protein 108g",
+      "Sebze 68g"
+    ],
+    "kalori": 488,
+    "protein": 24,
+    "karbonhidrat": 70,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_940",
+    "ad": "Omlet + Sebze + Ekmek",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 159g",
+      "Sebze 119g",
+      "Ek 59g"
+    ],
+    "kalori": 439,
+    "protein": 29,
+    "karbonhidrat": 59,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_941",
+    "ad": "Izgara Sebze + Peynir + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 160g",
+      "Pilav 65g",
+      "Garnitür 70g"
+    ],
+    "kalori": 470,
+    "protein": 42,
+    "karbonhidrat": 62,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_942",
+    "ad": "Tavuk Göğüs + Buharda Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 141g",
+      "Sebze 141g",
+      "Sağlıklı Karbonhidrat 51g"
+    ],
+    "kalori": 401,
+    "protein": 41,
+    "karbonhidrat": 33,
+    "yag": 11
+  },
+  {
+    "id": "AKSAM_943",
+    "ad": "Tavuk Suyu + Pilav + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 132g",
+      "Pilav/Salata 72g"
+    ],
+    "kalori": 462,
+    "protein": 30,
+    "karbonhidrat": 68,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_944",
+    "ad": "Balık Kızartma + Bulgur + Limon",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 173g",
+      "Pilav 63g",
+      "Yoğurt/Salata 73g"
+    ],
+    "kalori": 493,
+    "protein": 31,
+    "karbonhidrat": 71,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_945",
+    "ad": "Izgara Tavuk + Kinoa + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 164g",
+      "Sebze 84g",
+      "Karbonhidrat 64g"
+    ],
+    "kalori": 464,
+    "protein": 48,
+    "karbonhidrat": 42,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_946",
+    "ad": "Alabalık Izgara + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 175g",
+      "Sebze/Pilav 135g",
+      "Garnitür 75g"
+    ],
+    "kalori": 445,
+    "protein": 47,
+    "karbonhidrat": 39,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_947",
+    "ad": "Zeytinyağlı Enginar + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 176g",
+      "Pilav 66g",
+      "Yoğurt 86g"
+    ],
+    "kalori": 426,
+    "protein": 22,
+    "karbonhidrat": 78,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_948",
+    "ad": "Tavuk Göğüs + Bulgur + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 177g",
+      "Sağlıklı Karbonhidrat 67g",
+      "Sebze 137g"
+    ],
+    "kalori": 457,
+    "protein": 53,
+    "karbonhidrat": 43,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_949",
+    "ad": "Ravioli + Domates Sos",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 138g",
+      "Sos/Protein 78g",
+      "Sebze 78g"
+    ],
+    "kalori": 498,
+    "protein": 22,
+    "karbonhidrat": 80,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_950",
+    "ad": "Peynirli Tost + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 169g",
+      "Sebze 89g",
+      "Ek 69g"
+    ],
+    "kalori": 449,
+    "protein": 27,
+    "karbonhidrat": 47,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_951",
+    "ad": "Izgara Tavuk + Bulgur + Cacık",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 170g",
+      "Pilav 75g",
+      "Garnitür 80g"
+    ],
+    "kalori": 480,
+    "protein": 36,
+    "karbonhidrat": 50,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_952",
+    "ad": "Izgara Tavuk + Yeşil Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 151g",
+      "Sebze 151g",
+      "Sağlıklı Karbonhidrat 61g"
+    ],
+    "kalori": 411,
+    "protein": 35,
+    "karbonhidrat": 43,
+    "yag": 13
+  },
+  {
+    "id": "AKSAM_953",
+    "ad": "Mercimek Çorbası + Izgara Tavuk + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 92g",
+      "Pilav/Salata 82g"
+    ],
+    "kalori": 472,
+    "protein": 28,
+    "karbonhidrat": 52,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_954",
+    "ad": "Kabak Mücver + Pilav + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 183g",
+      "Pilav 73g",
+      "Yoğurt/Salata 83g"
+    ],
+    "kalori": 503,
+    "protein": 29,
+    "karbonhidrat": 55,
+    "yag": 27
+  },
+  {
+    "id": "AKSAM_955",
+    "ad": "Tavuk Haşlama + Sebze + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 174g",
+      "Sebze 94g",
+      "Karbonhidrat 74g"
+    ],
+    "kalori": 474,
+    "protein": 42,
+    "karbonhidrat": 52,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_956",
+    "ad": "Levrek Buğulama + Sebze + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 185g",
+      "Sebze/Pilav 95g",
+      "Garnitür 85g"
+    ],
+    "kalori": 455,
+    "protein": 41,
+    "karbonhidrat": 49,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_957",
+    "ad": "Türlü + Pilav + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 186g",
+      "Pilav 76g",
+      "Yoğurt 96g"
+    ],
+    "kalori": 436,
+    "protein": 16,
+    "karbonhidrat": 62,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_958",
+    "ad": "Izgara Tavuk + Quinoa + Brokoli",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 187g",
+      "Sağlıklı Karbonhidrat 77g",
+      "Sebze 97g"
+    ],
+    "kalori": 467,
+    "protein": 47,
+    "karbonhidrat": 53,
+    "yag": 11
+  },
+  {
+    "id": "AKSAM_959",
+    "ad": "Sebzeli Makarna + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 98g",
+      "Sos/Protein 88g",
+      "Sebze 88g"
+    ],
+    "kalori": 508,
+    "protein": 32,
+    "karbonhidrat": 62,
+    "yag": 24
+  },
+  {
+    "id": "AKSAM_960",
+    "ad": "Tavuk Wrap + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 179g",
+      "Sebze 99g",
+      "Ek 79g"
+    ],
+    "kalori": 459,
+    "protein": 37,
+    "karbonhidrat": 57,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_961",
+    "ad": "Izgara Köfte + Pilav + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 120g",
+      "Pilav 55g",
+      "Garnitür 90g"
+    ],
+    "kalori": 490,
+    "protein": 46,
+    "karbonhidrat": 60,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_962",
+    "ad": "Ton Balığı Salatası + Avokado",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 101g",
+      "Sebze 101g",
+      "Sağlıklı Karbonhidrat 41g"
+    ],
+    "kalori": 421,
+    "protein": 45,
+    "karbonhidrat": 33,
+    "yag": 15
+  },
+  {
+    "id": "AKSAM_963",
+    "ad": "Tarhana + Börek + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 102g",
+      "Pilav/Salata 62g"
+    ],
+    "kalori": 482,
+    "protein": 26,
+    "karbonhidrat": 62,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_964",
+    "ad": "Patlıcan Kızartma + Bulgur + Cacık",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 193g",
+      "Pilav 53g",
+      "Yoğurt/Salata 93g"
+    ],
+    "kalori": 513,
+    "protein": 27,
+    "karbonhidrat": 65,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_965",
+    "ad": "Tavuk Sote + Bulgur + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 124g",
+      "Sebze 104g",
+      "Karbonhidrat 54g"
+    ],
+    "kalori": 484,
+    "protein": 36,
+    "karbonhidrat": 62,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_966",
+    "ad": "Çipura Fırın + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 195g",
+      "Sebze/Pilav 105g",
+      "Garnitür 65g"
+    ],
+    "kalori": 465,
+    "protein": 35,
+    "karbonhidrat": 59,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_967",
+    "ad": "Zeytinyağlı Pırasa + Bulgur",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 196g",
+      "Pilav 56g",
+      "Yoğurt 106g"
+    ],
+    "kalori": 446,
+    "protein": 18,
+    "karbonhidrat": 72,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_968",
+    "ad": "Ton Balığı + Kinoa + Avokado",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 197g",
+      "Sağlıklı Karbonhidrat 57g",
+      "Sebze 107g"
+    ],
+    "kalori": 477,
+    "protein": 41,
+    "karbonhidrat": 41,
+    "yag": 13
+  },
+  {
+    "id": "AKSAM_969",
+    "ad": "Mantı + Yoğurt + Salça",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 108g",
+      "Sos/Protein 98g",
+      "Sebze 68g"
+    ],
+    "kalori": 518,
+    "protein": 30,
+    "karbonhidrat": 72,
+    "yag": 22
+  },
+  {
+    "id": "AKSAM_970",
+    "ad": "Izgara Tavuk Sandviç + Marul",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 129g",
+      "Sebze 109g",
+      "Ek 59g"
+    ],
+    "kalori": 469,
+    "protein": 35,
+    "karbonhidrat": 45,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_971",
+    "ad": "Izgara Balık + Esmer Pirinç",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 130g",
+      "Pilav 65g",
+      "Garnitür 100g"
+    ],
+    "kalori": 500,
+    "protein": 40,
+    "karbonhidrat": 48,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_972",
+    "ad": "Sebze Bowl + Kinoa + Tavuk",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 111g",
+      "Sebze 111g",
+      "Sağlıklı Karbonhidrat 51g"
+    ],
+    "kalori": 431,
+    "protein": 39,
+    "karbonhidrat": 43,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_973",
+    "ad": "Ezogelin + Pilav + Köfte",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 112g",
+      "Pilav/Salata 72g"
+    ],
+    "kalori": 492,
+    "protein": 24,
+    "karbonhidrat": 72,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_974",
+    "ad": "Karnabahar Kızartma + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 133g",
+      "Pilav 63g",
+      "Yoğurt/Salata 103g"
+    ],
+    "kalori": 523,
+    "protein": 25,
+    "karbonhidrat": 75,
+    "yag": 19
+  },
+  {
+    "id": "AKSAM_975",
+    "ad": "Fırın Tavuk + Patates",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 134g",
+      "Sebze 114g",
+      "Karbonhidrat 64g"
+    ],
+    "kalori": 494,
+    "protein": 46,
+    "karbonhidrat": 50,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_976",
+    "ad": "Somon Teriyaki + Esmer Pirinç",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 135g",
+      "Sebze/Pilav 115g",
+      "Garnitür 75g"
+    ],
+    "kalori": 475,
+    "protein": 45,
+    "karbonhidrat": 47,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_977",
+    "ad": "Sebze Güveç + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 136g",
+      "Pilav 66g",
+      "Yoğurt 116g"
+    ],
+    "kalori": 456,
+    "protein": 20,
+    "karbonhidrat": 82,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_978",
+    "ad": "Izgara Dana + Tatlı Patates",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 137g",
+      "Sağlıklı Karbonhidrat 67g",
+      "Sebze 117g"
+    ],
+    "kalori": 487,
+    "protein": 51,
+    "karbonhidrat": 51,
+    "yag": 15
+  },
+  {
+    "id": "AKSAM_979",
+    "ad": "Pesto Makarna + Tavuk",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 118g",
+      "Sos/Protein 108g",
+      "Sebze 78g"
+    ],
+    "kalori": 528,
+    "protein": 28,
+    "karbonhidrat": 82,
+    "yag": 20
+  },
+  {
+    "id": "AKSAM_980",
+    "ad": "Ton Balıklı Sandviç + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 139g",
+      "Sebze 119g",
+      "Ek 69g"
+    ],
+    "kalori": 479,
+    "protein": 33,
+    "karbonhidrat": 55,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_981",
+    "ad": "Izgara Dana + Bulgur + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 140g",
+      "Pilav 75g",
+      "Garnitür 70g"
+    ],
+    "kalori": 510,
+    "protein": 34,
+    "karbonhidrat": 58,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_982",
+    "ad": "Izgara Somon + Brokoli",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 121g",
+      "Sebze 121g",
+      "Sağlıklı Karbonhidrat 61g"
+    ],
+    "kalori": 441,
+    "protein": 33,
+    "karbonhidrat": 33,
+    "yag": 11
+  },
+  {
+    "id": "AKSAM_983",
+    "ad": "Sebze Çorbası + Tavuk + Bulgur",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 122g",
+      "Pilav/Salata 82g"
+    ],
+    "kalori": 502,
+    "protein": 34,
+    "karbonhidrat": 56,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_984",
+    "ad": "Tavuk Schnitzel + Patates + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 143g",
+      "Pilav 73g",
+      "Yoğurt/Salata 73g"
+    ],
+    "kalori": 533,
+    "protein": 35,
+    "karbonhidrat": 59,
+    "yag": 29
+  },
+  {
+    "id": "AKSAM_985",
+    "ad": "Tavuk Güveç + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 144g",
+      "Sebze 84g",
+      "Karbonhidrat 74g"
+    ],
+    "kalori": 504,
+    "protein": 40,
+    "karbonhidrat": 60,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_986",
+    "ad": "Hamsi Buğulama + Bulgur",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 145g",
+      "Sebze/Pilav 125g",
+      "Garnitür 85g"
+    ],
+    "kalori": 485,
+    "protein": 39,
+    "karbonhidrat": 57,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_987",
+    "ad": "İmam Bayıldı + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 146g",
+      "Pilav 76g",
+      "Yoğurt 86g"
+    ],
+    "kalori": 466,
+    "protein": 22,
+    "karbonhidrat": 66,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_988",
+    "ad": "Somon + Esmer Pirinç + Ispanak",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 147g",
+      "Sağlıklı Karbonhidrat 77g",
+      "Sebze 127g"
+    ],
+    "kalori": 497,
+    "protein": 45,
+    "karbonhidrat": 61,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_989",
+    "ad": "Kıymalı Makarna + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 128g",
+      "Sos/Protein 78g",
+      "Sebze 88g"
+    ],
+    "kalori": 538,
+    "protein": 26,
+    "karbonhidrat": 64,
+    "yag": 18
+  },
+  {
+    "id": "AKSAM_990",
+    "ad": "Omlet + Sebze + Ekmek",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 149g",
+      "Sebze 89g",
+      "Ek 79g"
+    ],
+    "kalori": 489,
+    "protein": 31,
+    "karbonhidrat": 43,
+    "yag": 23
+  },
+  {
+    "id": "AKSAM_991",
+    "ad": "Izgara Sebze + Peynir + Pilav",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Izgara Protein 150g",
+      "Pilav 55g",
+      "Garnitür 80g"
+    ],
+    "kalori": 520,
+    "protein": 44,
+    "karbonhidrat": 46,
+    "yag": 12
+  },
+  {
+    "id": "AKSAM_992",
+    "ad": "Tavuk Göğüs + Buharda Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 131g",
+      "Sebze 131g",
+      "Sağlıklı Karbonhidrat 41g"
+    ],
+    "kalori": 361,
+    "protein": 43,
+    "karbonhidrat": 43,
+    "yag": 13
+  },
+  {
+    "id": "AKSAM_993",
+    "ad": "Tavuk Suyu + Pilav + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Çorba 250ml",
+      "Ana Yemek 132g",
+      "Pilav/Salata 62g"
+    ],
+    "kalori": 512,
+    "protein": 32,
+    "karbonhidrat": 66,
+    "yag": 14
+  },
+  {
+    "id": "AKSAM_994",
+    "ad": "Balık Kızartma + Bulgur + Limon",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Kızartma 153g",
+      "Pilav 53g",
+      "Yoğurt/Salata 83g"
+    ],
+    "kalori": 543,
+    "protein": 33,
+    "karbonhidrat": 69,
+    "yag": 25
+  },
+  {
+    "id": "AKSAM_995",
+    "ad": "Izgara Tavuk + Kinoa + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Tavuk 154g",
+      "Sebze 94g",
+      "Karbonhidrat 54g"
+    ],
+    "kalori": 514,
+    "protein": 50,
+    "karbonhidrat": 48,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_996",
+    "ad": "Alabalık Izgara + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Balık 155g",
+      "Sebze/Pilav 135g",
+      "Garnitür 65g"
+    ],
+    "kalori": 495,
+    "protein": 49,
+    "karbonhidrat": 45,
+    "yag": 17
+  },
+  {
+    "id": "AKSAM_997",
+    "ad": "Zeytinyağlı Enginar + Yoğurt",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Sebze 156g",
+      "Pilav 56g",
+      "Yoğurt 96g"
+    ],
+    "kalori": 386,
+    "protein": 16,
+    "karbonhidrat": 76,
+    "yag": 10
+  },
+  {
+    "id": "AKSAM_998",
+    "ad": "Tavuk Göğüs + Bulgur + Sebze",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Protein 157g",
+      "Sağlıklı Karbonhidrat 57g",
+      "Sebze 137g"
+    ],
+    "kalori": 507,
+    "protein": 39,
+    "karbonhidrat": 49,
+    "yag": 11
+  },
+  {
+    "id": "AKSAM_999",
+    "ad": "Ravioli + Domates Sos",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Hamur İşi 138g",
+      "Sos/Protein 88g",
+      "Sebze 68g"
+    ],
+    "kalori": 548,
+    "protein": 24,
+    "karbonhidrat": 74,
+    "yag": 16
+  },
+  {
+    "id": "AKSAM_1000",
+    "ad": "Peynirli Tost + Salata",
+    "ogun": "aksam",
+    "malzemeler": [
+      "Ana Ürün 159g",
+      "Sebze 99g",
+      "Ek 59g"
+    ],
+    "kalori": 499,
+    "protein": 29,
+    "karbonhidrat": 53,
+    "yag": 23
+  }
+]

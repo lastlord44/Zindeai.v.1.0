@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../data/local/hive_service.dart';
 import '../../data/datasources/yemek_hive_data_source.dart';
 import '../../domain/usecases/ogun_planlayici.dart';
+import '../../domain/usecases/malzeme_bazli_ogun_planlayici.dart';
+import '../../data/local/besin_malzeme_hive_service.dart';
 import '../../domain/usecases/makro_hesapla.dart';
 import '../../domain/entities/kullanici_profili.dart';
 import '../../domain/entities/hedef.dart';
@@ -19,6 +21,7 @@ import '../widgets/alternatif_besin_bottom_sheet.dart';
 import 'profil_page.dart';
 import 'antrenman_page.dart';
 import 'maintenance_page.dart';
+import 'ai_chatbot_page.dart';
 
 class YeniHomePage extends StatelessWidget {
   const YeniHomePage({Key? key}) : super(key: key);
@@ -30,8 +33,11 @@ class YeniHomePage extends StatelessWidget {
         planlayici: OgunPlanlayici(
           dataSource: YemekHiveDataSource(),
         ),
+        // ⚡ ESKİ SİSTEM AKTİF: Hazır yemeklerle HIZLI plan!
+        // Malzeme bazlı sistem çok yavaş, 4200 besin yüklüyor, donuyor
+        malzemeBazliPlanlayici: null, // DEVRE DIŞI!
         makroHesaplama: MakroHesapla(),
-      ), // ✅ Otomatik plan oluşturma kaldırıldı - kullanıcı "Plan Oluştur" butonuna basacak
+      ),
       child: const YeniHomePageView(),
     );
   }
@@ -197,37 +203,11 @@ class _YeniHomePageViewState extends State<YeniHomePageView> {
             );
           }
 
-          // Supplement sekmesi
+          // Supplement sekmesi - AI Chatbot 🤖
           if (_aktifSekme == NavigasyonSekme.supplement) {
             return Column(
               children: [
-                Expanded(
-                  child: Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.medication, size: 64, color: Colors.grey.shade400),
-                        const SizedBox(height: 16),
-                        Text(
-                          'Supplement Sayfası',
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.grey.shade600,
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          'Yakında...',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Colors.grey.shade500,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
+                const Expanded(child: AIChatbotPage()),
                 AltNavigasyonBar(
                   aktifSekme: _aktifSekme,
                   onSekmeSecildi: (sekme) {
