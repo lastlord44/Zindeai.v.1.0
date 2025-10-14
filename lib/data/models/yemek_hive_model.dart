@@ -60,6 +60,7 @@ class YemekHiveModel extends HiveObject {
   @HiveField(15)
   List<Map<String, dynamic>>? alternatives;
 
+
   // Constructor
   YemekHiveModel({
     this.mealId,
@@ -80,47 +81,92 @@ class YemekHiveModel extends HiveObject {
     this.alternatives,
   });
 
-  /// JSON'dan YemekHiveModel oluştur (hem eski hem yeni format desteği)
+  /// JSON'dan YemekHiveModel oluştur (3 format desteği)
   factory YemekHiveModel.fromJson(Map<String, dynamic> json) {
-    // Yeni format kontrolü (Türkçe field adları)
-    // 🔥 FIX: Hem 'isim' hem de 'ad' kontrolü yap (mega yemekler 'ad' kullanıyor)
-    final bool yeniFormat =
+    // 🔥 FORMAT TESPİTİ:
+    // 1. Yeni Türkçe format: isim/ad/aciklama + kalori/protein/karbonhidrat/yag
+    // 2. Eski İngilizce format v1: meal_name + calorie/protein_g/carb_g/fat_g
+    // 3. SON EKLENEN format v2: meal_name + calories/protein/carbs/fat (ÇOĞUL!)
+    
+    final bool yeniTurkceFormat =
         json.containsKey('isim') || json.containsKey('ad') || json.containsKey('aciklama');
+    
+    // 🔥 YENİ: "calories" (çoğul) kontrolü - bu farklı bir format!
+    final bool eskiFormatV2 = json.containsKey('calories'); // calories (çoğul) = v2
 
     YemekHiveModel model;
 
-    if (yeniFormat) {
-      // 🆕 YENİ FORMAT (zindeai_*.json ve mega_*.json dosyaları)
+    if (yeniTurkceFormat) {
+      // 🆕 FORMAT 1: YENİ TÜRKÇE FORMAT
       final rawId = json['id']?.toString();
+      
+      final kalori = _parseDouble(json['kalori']);
+      final protein = _parseDouble(json['protein']);
+      final karb = _parseDouble(json['karbonhidrat']);
+      final yag = _parseDouble(json['yag']);
+      
       model = YemekHiveModel(
         mealId: rawId != null && rawId.isNotEmpty ? rawId : generateMealId(),
-        category: json['kategori']?.toString() ?? json['ogun']?.toString(), // 🔥 FIX: 'ogun' da destekle
-        mealName: json['isim']?.toString() ?? json['ad']?.toString(), // 🔥 FIX: 'ad' da destekle
-        calorie: _parseDouble(json['kalori']),
-        proteinG: _parseDouble(json['protein']),
-        carbG: _parseDouble(json['karbonhidrat']),
-        fatG: _parseDouble(json['yag']),
-        fiberG: 0.0, // Yeni formatta yok
+        category: json['kategori']?.toString() ?? json['ogun']?.toString(),
+        mealName: json['isim']?.toString() ?? json['ad']?.toString(),
+        calorie: kalori,
+        proteinG: protein,
+        carbG: karb,
+        fatG: yag,
+        fiberG: 0.0,
         goalTag: json['goal']?.toString() ?? 'cut',
         difficulty: json['zorluk']?.toString(),
         prepTimeMin: _parseInt(json['hazirlamaSuresi']),
         ingredients: _parseStringList(json['malzemeler']),
-        recipe: json['aciklama']?.toString(), // Açıklama = tarif
+        recipe: json['aciklama']?.toString(),
         imageUrl: json['gorselUrl']?.toString(),
         tags: _parseStringList(json['etiketler']),
         alternatives: _parseAlternatives(json['alternatifler']),
       );
-    } else {
-      // 📜 ESKİ FORMAT (mevcut JSON dosyaları)
+    } else if (eskiFormatV2) {
+      // 📜 FORMAT 2: ESKİ İNGİLİZCE V2 (calories-çoğul, protein, carbs, fat)
       final rawId = json['meal_id']?.toString();
+      
+      final kalori = _parseDouble(json['calories']); // ✅ ÇOĞUL!
+      final protein = _parseDouble(json['protein']);  // ✅ Direkt protein
+      final karb = _parseDouble(json['carbs']);       // ✅ carbs (çoğul)
+      final yag = _parseDouble(json['fat']);          // ✅ Direkt fat
+      
       model = YemekHiveModel(
         mealId: rawId != null && rawId.isNotEmpty ? rawId : generateMealId(),
-        category: json['category']?.toString(),
+        category: json['category']?.toString() ?? json['meal_type']?.toString(), // ✅ meal_type fallback!
         mealName: json['meal_name']?.toString(),
-        calorie: _parseDouble(json['calorie']),
-        proteinG: _parseDouble(json['protein_g']),
-        carbG: _parseDouble(json['carb_g']),
-        fatG: _parseDouble(json['fat_g']),
+        calorie: kalori,
+        proteinG: protein,
+        carbG: karb,
+        fatG: yag,
+        fiberG: _parseDouble(json['fiber_g']) ?? _parseDouble(json['fiber']),
+        goalTag: json['goal_tag']?.toString() ?? 'cut',
+        difficulty: json['difficulty']?.toString() ?? 'kolay',
+        prepTimeMin: _parseInt(json['prep_time_min']) ?? _parseInt(json['cooking_time']),
+        ingredients: _parseStringList(json['ingredients']),
+        recipe: json['recipe']?.toString(),
+        imageUrl: json['image_url']?.toString(),
+        tags: _parseStringList(json['tags']),
+        alternatives: _parseAlternatives(json['alternatives']),
+      );
+    } else {
+      // 📜 FORMAT 3: ESKİ İNGİLİZCE V1 (calorie-tekil, protein_g, carb_g, fat_g)
+      final rawId = json['meal_id']?.toString();
+      
+      final kalori = _parseDouble(json['calorie']); // ✅ TEKİL!
+      final protein = _parseDouble(json['protein_g']);
+      final karb = _parseDouble(json['carb_g']);
+      final yag = _parseDouble(json['fat_g']);
+      
+      model = YemekHiveModel(
+        mealId: rawId != null && rawId.isNotEmpty ? rawId : generateMealId(),
+        category: json['category']?.toString() ?? json['meal_type']?.toString(),
+        mealName: json['meal_name']?.toString(),
+        calorie: kalori,
+        proteinG: protein,
+        carbG: karb,
+        fatG: yag,
         fiberG: _parseDouble(json['fiber_g']),
         goalTag: json['goal_tag']?.toString(),
         difficulty: json['difficulty']?.toString(),
@@ -133,7 +179,7 @@ class YemekHiveModel extends HiveObject {
       );
     }
 
-    // 🔥 SON KONTROL: mealId hala null ise unique ID ata (GARANTILI!)
+    // 🔥 SON KONTROL: mealId hala null ise unique ID ata
     model.mealId ??= generateMealId();
 
     return model;
@@ -146,7 +192,7 @@ class YemekHiveModel extends HiveObject {
     String finalMealName = (mealName ?? '').trim();
     
     // Boş string veya sadece kategori ismi içeren isimleri düzelt
-    if (finalMealName.isEmpty || 
+    if (finalMealName.isEmpty ||
         finalMealName == 'İsimsiz Yemek' ||
         finalMealName == 'Ara Öğün 2:' ||
         finalMealName == 'Ara Öğün 1:' ||

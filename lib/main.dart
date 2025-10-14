@@ -17,6 +17,7 @@ import 'domain/entities/hedef.dart';
 import 'domain/entities/kullanici_profili.dart';
 import 'core/utils/app_logger.dart';
 import 'core/utils/yemek_migration_3000.dart';
+import 'test_makro_fix.dart'; // 🔧 Test widget
 
 // ============================================================================
 // MAKRO HESAPLAMA EKRANI - DİNAMİK GÜNCELLEME + ALERJİ SİSTEMİ
@@ -630,6 +631,19 @@ class HomePageView extends StatelessWidget {
         foregroundColor: Colors.white,
         elevation: 0,
         actions: [
+          // 🔧 Test Makro Fix Button
+          IconButton(
+            icon: const Icon(Icons.build),
+            tooltip: '🔧 Makro & Kategori Fix Test',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const TestMakroFixPage(),
+                ),
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.person),
             tooltip: 'Profil & Makro Hesaplama',

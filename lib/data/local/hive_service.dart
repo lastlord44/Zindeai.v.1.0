@@ -13,8 +13,6 @@ import '../../domain/entities/gunluk_plan.dart';
 import '../../domain/entities/antrenman.dart';
 import '../../domain/entities/yemek.dart';
 import '../../core/utils/app_logger.dart';
-import '../../core/utils/yemek_migration_guncel.dart';
-import '../../core/utils/yemek_migration_500_yeni.dart';
 import '../../core/services/cesitlilik_gecmis_servisi.dart';
 
 class HiveService {
@@ -52,27 +50,6 @@ class HiveService {
 
       AppLogger.info('✅ Hive başarıyla başlatıldı');
 
-      // 🔥 MEGA YEMEK MİGRATION (2300+ yemek - JSON'dan Hive'a)
-      // Malzeme bazlı sistem devre dışı, eski yemek bazlı sistem aktif
-      try {
-        final migrationGerekli = await YemekMigration.migrationGerekliMi();
-        if (migrationGerekli) {
-          AppLogger.info('🔄 Migration gerekli, yemekler yükleniyor...');
-          final basarili = await YemekMigration.jsonToHiveMigration();
-          if (basarili) {
-            AppLogger.success('✅ Migration başarıyla tamamlandı!');
-            final yukluYemekSayisi = await yemekSayisi();
-            AppLogger.info('📊 Toplam $yukluYemekSayisi yemek yüklendi');
-          } else {
-            AppLogger.warning('⚠️ Migration başarısız oldu!');
-          }
-        } else {
-          AppLogger.debug('ℹ️ Migration gerekli değil, yemekler zaten yüklü');
-        }
-      } catch (migrationError, migrationStack) {
-        AppLogger.error('❌ Migration hatası (devam ediliyor)', 
-          error: migrationError, stackTrace: migrationStack);
-      }
     } catch (e, stackTrace) {
       AppLogger.error('❌ Hive başlatma hatası',
           error: e, stackTrace: stackTrace);

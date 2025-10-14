@@ -48,7 +48,6 @@ class Yemek extends Equatable {
   final List<String> etiketler; // ['vejetaryen', 'glutensiz', 'vegan']
   final String? tarif;
   final String? gorselUrl;
-
   // 🔥 Alerji grubu tanımlamaları (statik)
   static const Map<String, List<String>> _alerjiGruplari = {
     'balık': ['somon', 'ton', 'levrek', 'hamsi', 'palamut', 'çipura', 'sardalya', 'uskumru', 'istavrit', 'mezgit'],
@@ -181,6 +180,7 @@ class Yemek extends Equatable {
       case 'araogun2':
       case 'ara_ogun_2':
       case 'ara öğün 2':
+      case 'ara2':  // 🔥 FIX: JSON'daki "ara2" desteği eklendi
         return OgunTipi.araOgun2;
       case 'aksam':
       case 'akşam':

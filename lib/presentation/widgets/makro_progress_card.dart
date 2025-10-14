@@ -21,17 +21,31 @@ class MakroProgressCard extends StatelessWidget {
     required this.emoji,
   }) : super(key: key);
 
-  /// ±5% tolerans limiti (GunlukPlan entity ile aynı)
-  static const double toleransYuzdesi = 5.0;
+  /// 🔥 Makroya özel tolerans limitleri (GunlukPlan entity ile uyumlu)
+  double get _toleransYuzdesi {
+    switch (baslik) {
+      case 'Kalori':
+        return 5.0; // %5 NOMİNAL TOLERANS
+      case 'Protein':
+        return 5.0; // %5 NOMİNAL TOLERANS
+      case 'Karbonhidrat':
+        return 5.0; // %5 NOMİNAL TOLERANS
+      case 'Yağ':
+        return 5.0; // %5 NOMİNAL TOLERANS
+      default:
+        return 5.0; // %5 NOMİNAL TOLERANS
+    }
+  }
 
   /// Sapma yüzdesi hesapla (mutlak değer)
   double get sapmaYuzdesi {
+    if (hedef == 0) return mevcut == 0 ? 0 : 100; // Hedef 0 ise özel durum
     return ((mevcut - hedef).abs() / hedef) * 100;
   }
 
-  /// ±5% tolerans içinde mi?
+  /// Tolerans içinde mi?
   bool get toleranstaMi {
-    return sapmaYuzdesi <= toleransYuzdesi;
+    return sapmaYuzdesi <= _toleransYuzdesi;
   }
 
   /// Tolerans durumuna göre renk
@@ -39,7 +53,7 @@ class MakroProgressCard extends StatelessWidget {
     if (toleranstaMi) {
       return Colors.green; // ✅ Tolerans içinde
     } else {
-      return Colors.red; // ❌ Tolerans aşıldı (SIÇ TIK!)
+      return Colors.red; // ❌ Tolerans aşıldı
     }
   }
 
@@ -166,7 +180,7 @@ class MakroProgressCard extends StatelessWidget {
             Icon(Icons.check_circle, color: Colors.green, size: 16),
             const SizedBox(width: 6),
             Text(
-              '±5% tolerans içinde (${sapmaYuzdesi.toStringAsFixed(1)}% sapma)',
+              '±${_toleransYuzdesi.toStringAsFixed(0)}% tolerans içinde (${sapmaYuzdesi.toStringAsFixed(1)}% sapma)',
               style: TextStyle(
                 fontSize: 11,
                 color: Colors.green.shade700,
@@ -192,7 +206,7 @@ class MakroProgressCard extends StatelessWidget {
             const SizedBox(width: 6),
             Flexible(
               child: Text(
-                '⚠️ TOLERANS AŞILDI! ${sapmaYuzdesi.toStringAsFixed(1)}% sapma (Max: ±5%)',
+                '⚠️ TOLERANS AŞILDI! ${sapmaYuzdesi.toStringAsFixed(1)}% sapma (Max: ±${_toleransYuzdesi.toStringAsFixed(0)}%)',
                 style: TextStyle(
                   fontSize: 11,
                   color: Colors.red.shade700,

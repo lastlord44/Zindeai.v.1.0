@@ -116,7 +116,7 @@ class AnalyticsLoaded extends AnalyticsState {
 
     final hedefTutturalanlar = planlar.where((plan) {
       final fark = (plan.toplamKalori - hedefKalori).abs();
-      final tolerans = hedefKalori * 0.1; // %10 tolerans
+      final tolerans = hedefKalori * 0.05; // 🔥 FIX: %5 tolerans (GunlukPlan ile tutarlı)
       return fark <= tolerans;
     }).length;
 

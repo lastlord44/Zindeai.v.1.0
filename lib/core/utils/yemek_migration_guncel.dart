@@ -12,36 +12,50 @@ import '../../data/local/hive_service.dart';
 import '../../core/utils/app_logger.dart';
 
 class YemekMigration {
-  // 🔥 MEGA YEMEKLER - SADECE BENİM YAZDIĞIM YEMEKLER!
+  // 🎯 KULLANICI TALEBİ: SON KLASÖRÜ TÜM DOSYALAR + KARBONHIDRAT/KAHVALTI
   static const List<String> _jsonDosyalari = [
-    // KAHVALTI (300 yemek - 3 batch)
-    'mega_kahvalti_batch_1.json',
-    'mega_kahvalti_batch_2.json',
-    'mega_kahvalti_batch_3.json',
+    // 🌟 SON KLASÖRÜ - TÜM DOSYALAR (30 dosya × 100 = ~3000 yemek)
+    'son/baklagil_aksam_100.json',
+    'son/baklagil_kahvalti_100.json',
+    'son/baklagil_ogle_100.json',
+    'son/balik_aksam_100.json',
+    'son/balik_kahvalti_ara_100.json',
+    'son/balik_ogle_100.json',
+    'son/dana_aksam_100.json',
+    'son/dana_kahvalti_ara_100.json',
+    'son/dana_ogle_100.json',
+    'son/hindi_aksam_100.json',
+    'son/hindi_ogle_100.json',
+    'son/kofte_aksam_100.json',
+    'son/kofte_ara_100.json',
+    'son/kofte_ogle_100.json',
+    'son/peynir_ara_ogun_100.json',
+    'son/peynir_kahvalti_100.json',
+    'son/tavuk_aksam_100.json',
+    'son/tavuk_ara_ogun_100.json',
+    'son/tavuk_kahvalti_100.json',
+    'son/trend_ara_ogun_kahve_100.json',
+    'son/trend_ara_ogun_meyve_100.json',
+    'son/trend_ara_ogun_proteinbar_100.json',
+    'son/yogurt_ara_ogun_1_100.json',
+    'son/yogurt_ara_ogun_2_100.json',
+    'son/yogurt_kahvalti_100.json',
+    'son/yuksek_kalori_ana_ogunler_100.json',
+    'son/yumurta_ara_ogun_1_100.json',
+    'son/yumurta_ara_ogun_2_100.json',
+    'son/yumurta_kahvalti_100.json',
+    'son/yumurta_ogle_aksam_100.json',
 
-    // ÖĞLE YEMEĞİ (400 yemek - 4 batch)
-    'mega_ogle_batch_1.json',
-    'mega_ogle_batch_2.json',
-    'mega_ogle_batch_3.json',
-    'mega_ogle_batch_4.json',
-
-    // AKŞAM YEMEĞİ (400 yemek - 4 batch)
-    'mega_aksam_batch_1.json',
-    'mega_aksam_batch_2.json',
-    'mega_aksam_batch_3.json',
-    'mega_aksam_batch_4.json',
-
-    // ARA ÖĞÜN 1 (450 yemek - 3 batch)
-    'mega_ara_ogun_1_batch_1.json',
-    'mega_ara_ogun_1_batch_2.json',
-    'mega_ara_ogun_1_batch_3.json',
-
-    // ARA ÖĞÜN 2 (750 yemek - 5 batch)
-    'mega_ara_ogun_2_batch_1.json',
-    'mega_ara_ogun_2_batch_2.json',
-    'mega_ara_ogun_2_batch_3.json',
-    'mega_ara_ogun_2_batch_4.json',
-    'mega_ara_ogun_2_batch_5.json',
+    // 🥖 KARBONHIDRAT & KAHVALTI ÖZELİ (benim oluşturduklarım)
+    'kahvalti_yuksek_karb_50.json',
+    'kahvalti.json',
+    
+    // ⚡ MİNİMAL EK ÇEŞİTLİLİK (sadece gerekli olanlar)
+    'ara_ogun_toplu_120.json',
+    'cheat_meal.json',
+    
+    // 📊 TOPLAM: 34 dosya → ~3500-4000 yemek (ideal performans!)
+    // 🚫 Tüm büyük dosyalar çıkarıldı: MEGA, BATCH, ZİNDEAI, COMBO
   ];
 
   // JSON dosya yolları (assets klasörü - Web uyumlu)
@@ -84,7 +98,8 @@ class YemekMigration {
             }
             yemekler = yemeklerList;
           } catch (e, stackTrace) {
-            AppLogger.error('❌ [DEBUG] Dosya okuma hatası: $dosya', error: e, stackTrace: stackTrace);
+            AppLogger.error('❌ [DEBUG] Dosya okuma hatası: $dosya',
+                error: e, stackTrace: stackTrace);
             continue;
           }
 
@@ -102,14 +117,72 @@ class YemekMigration {
               final jsonMap =
                   Map<String, dynamic>.from(yemekJson as Map<String, dynamic>);
 
-              // Dosya adından doğru kategoriyi al
+              // 🔥 ADIM 1: Dosya adından doğru kategoriyi al
               final dogruKategori = _dosyaAdindanKategoriBelirle(dosya);
               if (dogruKategori != null) {
-                jsonMap['category'] =
-                    dogruKategori; // ✅ Dosya adına göre category override et!
+                jsonMap['category'] = dogruKategori;
               }
 
-              // 🔥 MEAL_NAME DÜZELTMESİ: Ara öğün yemeklerinin isimlerini düzelt
+              // 🔥 ADIM 2: MEAL_NAME İÇİNDE PROTEİN KONTROLÜ (EN KRİTİK!)
+              // Tavuk/Balık/Et meal_name'de varsa KESİNLİKLE ana öğün olmalı!
+              final mealNameLower =
+                  (jsonMap['meal_name'] as String?)?.toLowerCase() ?? '';
+              final proteinKaynaklari = [
+               'tavuk',
+               'balık',
+               'balik',
+               'dana',
+               'hindi',
+               'et',
+               'köfte',
+               'kofte',
+               'somon',
+               'uskumru',
+               'ton balığı',
+               'ton baligi',
+               'hamsi',
+               'sardalye',
+               'sardalya', // 🔥 FIX: Sardalya da eklendi!
+               'levrek',
+               'çipura',
+               'cipura',
+               'kıyma',
+               'kiyma',
+               'kuzu',
+               'sığır',
+               'sigir',
+               'alabalık',
+               'alabalik',
+               'mezgit',
+               'palamut',
+               'istavrit'
+             ];
+
+              final mealNamedeProteinVar =
+                  proteinKaynaklari.any((p) => mealNameLower.contains(p));
+
+              if (mealNamedeProteinVar) {
+                // Protein tespit edildi! Category'yi kontrol et
+                // 🔥 FIX: Hem category hem meal_type kontrol et!
+                final currentCategory =
+                    (jsonMap['category'] ?? jsonMap['meal_type'])
+                            ?.toString()
+                            .toLowerCase() ??
+                        '';
+
+                // Eğer kahvaltı veya ara öğündeyse, ANA ÖĞÜNE ÇEK!
+                if (currentCategory.contains('kahvalti') ||
+                    currentCategory.contains('kahvaltı') ||
+                    currentCategory.contains('ara')) {
+                  jsonMap['category'] = 'Öğle Yemeği'; // ✅ ZORUNLU DEĞİŞİM!
+                  jsonMap['meal_type'] = 'ogle'; // ✅ meal_type'ı da güncelle!
+                  // Debug log
+                  print(
+                      '🔧 FIX: "${jsonMap['meal_name']}" → Öğle Yemeği (Protein tespit edildi)');
+                }
+              }
+
+              // 🔥 ADIM 3: MEAL_NAME DÜZELTMESİ: Ara öğün yemeklerinin isimlerini düzelt
               final category = jsonMap['category'] as String?;
               var mealName = jsonMap['meal_name'] as String?;
 
@@ -130,28 +203,41 @@ class YemekMigration {
 
                 // 🔥 YENİ FİX: Eğer meal_name sadece kategori adı ise (yemek adı eksikse)
                 // Malzemelerden anlamlı bir isim oluştur
-                final categoryOnly = ['Kahvaltı:', 'Ara Öğün 1:', 'Ara Öğün 2:', 'Öğle:', 'Akşam:', 'Gece Atıştırması:'];
+                final categoryOnly = [
+                  'Kahvaltı:',
+                  'Ara Öğün 1:',
+                  'Ara Öğün 2:',
+                  'Öğle:',
+                  'Akşam:',
+                  'Gece Atıştırması:'
+                ];
                 final mealNameTrimmed = mealName.trim();
-                if (categoryOnly.any((cat) => mealNameTrimmed == cat || mealNameTrimmed == cat.replaceAll(':', ''))) {
+                if (categoryOnly.any((cat) =>
+                    mealNameTrimmed == cat ||
+                    mealNameTrimmed == cat.replaceAll(':', ''))) {
                   // Malzemeleri al
                   final malzemeler = jsonMap['malzemeler'] as List<dynamic>?;
                   if (malzemeler != null && malzemeler.isNotEmpty) {
                     // İlk 2-3 malzemeyi kullanarak isim oluştur
                     final malzemeIsimleri = <String>[];
-                    for (var i = 0; i < (malzemeler.length > 3 ? 3 : malzemeler.length); i++) {
+                    for (var i = 0;
+                        i < (malzemeler.length > 3 ? 3 : malzemeler.length);
+                        i++) {
                       final malzeme = malzemeler[i].toString();
                       // Sadece besin adını al (miktar ve birim çıkar)
                       final besinAdi = malzeme.split('(').first.trim();
-                      final kisaAd = besinAdi.split(' ').take(2).join(' '); // İlk 2 kelime
-                      if (kisaAd.isNotEmpty && !malzemeIsimleri.contains(kisaAd)) {
+                      final kisaAd =
+                          besinAdi.split(' ').take(2).join(' '); // İlk 2 kelime
+                      if (kisaAd.isNotEmpty &&
+                          !malzemeIsimleri.contains(kisaAd)) {
                         malzemeIsimleri.add(kisaAd);
                       }
                     }
-                    
+
                     if (malzemeIsimleri.isNotEmpty) {
                       // Kategori adını koru ama malzemelerle zenginleştir
-                      final categoryName = category.contains('Ara Öğün 1') 
-                          ? 'Ara Öğün 1:' 
+                      final categoryName = category.contains('Ara Öğün 1')
+                          ? 'Ara Öğün 1:'
                           : category.contains('Ara Öğün 2')
                               ? 'Ara Öğün 2:'
                               : category.contains('Öğle')
@@ -165,8 +251,34 @@ class YemekMigration {
                     }
                   }
                 }
-                
+
                 jsonMap['meal_name'] = mealName;
+              }
+
+              // 🔥 ADIM 4: "PAD" ÖN EKİNİ TEMİZLE (UI'da görünmemesi için)
+              var finalMealName = jsonMap['meal_name'] as String?;
+              if (finalMealName != null && finalMealName.startsWith('PAD ')) {
+                finalMealName = finalMealName.substring(4); // "PAD " kısmını çıkar
+                jsonMap['meal_name'] = finalMealName;
+              }
+
+              // 🔥 ADIM 5: KALORİ KONTROLÜ (0 kalori olan yemekleri filtrele)
+              final kaloriRaw = jsonMap['kalori'];
+              double kalori = 0.0;
+              if (kaloriRaw != null) {
+                if (kaloriRaw is double) {
+                  kalori = kaloriRaw;
+                } else if (kaloriRaw is int) {
+                  kalori = kaloriRaw.toDouble();
+                } else if (kaloriRaw is String) {
+                  kalori = double.tryParse(kaloriRaw) ?? 0.0;
+                }
+              }
+              
+              if (kalori <= 0) {
+                // Kalori 0 veya negatif olan yemekleri atla
+                dosyaSkipped++;
+                continue;
               }
 
               final yemekModel = YemekHiveModel.fromJson(jsonMap);
@@ -187,13 +299,16 @@ class YemekMigration {
             } catch (e, stackTrace) {
               hataliYemek++;
               dosyaHatali++;
-              AppLogger.error('   ❌ [DEBUG] Yemek kaydetme hatası', error: e, stackTrace: stackTrace);
+              AppLogger.error('   ❌ [DEBUG] Yemek kaydetme hatası',
+                  error: e, stackTrace: stackTrace);
             }
           }
 
-          AppLogger.info('   ✅ [DEBUG] $dosya tamamlandı: $dosyaBasarili başarılı, $dosyaHatali hatalı, $dosyaSkipped atlandı');
+          AppLogger.info(
+              '   ✅ [DEBUG] $dosya tamamlandı: $dosyaBasarili başarılı, $dosyaHatali hatalı, $dosyaSkipped atlandı');
         } catch (e, stackTrace) {
-          AppLogger.error('❌ [DEBUG] $dosya işlenirken kritik hata', error: e, stackTrace: stackTrace);
+          AppLogger.error('❌ [DEBUG] $dosya işlenirken kritik hata',
+              error: e, stackTrace: stackTrace);
         }
       }
 
@@ -251,24 +366,77 @@ class YemekMigration {
     }
   }
 
-  /// 🔥 Dosya adından kategori belirle (JSON'daki category'ye güvenme!)
+  /// 🔥 Dosya adından kategori belirle (ANA MALZEME BAZLI AKILLI SİSTEM!)
   static String? _dosyaAdindanKategoriBelirle(String dosyaAdi) {
     final dosyaLower = dosyaAdi.toLowerCase();
 
-    // Dosya adına göre kategori mapping'i
-    if (dosyaLower.contains('kahvalti')) return 'Kahvaltı';
-    if (dosyaLower.contains('ara_ogun_1') || dosyaLower.contains('ara ogun 1'))
-      return 'Ara Öğün 1';
+    // 🔥 ADIM 1: ÖNCELİK - Açıkça belirtilmiş ara öğünler
     if (dosyaLower.contains('ara_ogun_2') || dosyaLower.contains('ara ogun 2'))
       return 'Ara Öğün 2';
-    if (dosyaLower.contains('ara_ogun_toplu'))
-      return 'Ara Öğün 2'; // 🔥 DÜZELTİLDİ: Toplu ara öğün = Ara Öğün 2
+    if (dosyaLower.contains('ara_ogun_1') || dosyaLower.contains('ara ogun 1'))
+      return 'Ara Öğün 1';
+    if (dosyaLower.contains('ara_ogun') && dosyaLower.contains('toplu'))
+      return 'Ara Öğün 2';
+
+    // 🔥 ADIM 2: ANA MALZEME BAZLI KATEGORİZASYON
+    // Tavuk, balık, et gibi proteinler KESİNLİKLE kahvaltıda OLMAMALI!
+    final proteinKaynaklari = [
+      'balik',
+      'sardalya',
+      'sardalye',
+      'somon',
+      'hamsi',
+      'levrek',
+      'uskumru',
+      'ton',
+      'palamut',
+      'alabalik',
+      'mezgit',
+      'istavrit',
+      'tavuk',
+      'dana',
+      'hindi',
+      'kofte',
+      'kiyma',
+      'kuzbasi'
+    ];
+    final dosyaProteinIceriyor =
+        proteinKaynaklari.any((p) => dosyaLower.contains(p));
+
+    if (dosyaProteinIceriyor) {
+      // Protein kaynağı tespit edildi → ANA ÖĞÜN olmalı!
+      // Dosya adında "ogle" veya "aksam" varsa ona göre, yoksa default öğle
+      if (dosyaLower.contains('aksam')) return 'Akşam Yemeği';
+      if (dosyaLower.contains('ogle')) return 'Öğle Yemeği';
+
+      // 🔥 KRİTİK: "tavuk_kahvalti", "balik_kahvalti_ara" gibi dosyalar
+      // YANLIŞ ETİKETLENMİŞ! Bunlar aslında ANA ÖĞÜN!
+      if (dosyaLower.contains('kahvalti') || dosyaLower.contains('ara')) {
+        return 'Öğle Yemeği'; // Default: öğle yemeğine koy
+      }
+
+      // Hiçbir öğün belirtilmemişse default öğle
+      return 'Öğle Yemeği';
+    }
+
+    // 🔥 ADIM 3: YOĞURT & PEYNİR - Hem kahvaltı hem ara öğün olabilir
+    if (dosyaLower.contains('yogurt') || dosyaLower.contains('peynir')) {
+      // Dosya adında açıkça belirtilmişse ona göre
+      if (dosyaLower.contains('kahvalti')) return 'Kahvaltı';
+      if (dosyaLower.contains('ara')) return 'Ara Öğün 1';
+      // Default: kahvaltı
+      return 'Kahvaltı';
+    }
+
+    // 🔥 ADIM 4: GENEL KATEGORİLER
+    if (dosyaLower.startsWith('kahvalti') ||
+        dosyaLower.contains('/kahvalti_batch')) return 'Kahvaltı';
     if (dosyaLower.contains('ogle')) return 'Öğle Yemeği';
     if (dosyaLower.contains('aksam')) return 'Akşam Yemeği';
     if (dosyaLower.contains('gece')) return 'Gece Atıştırması';
     if (dosyaLower.contains('cheat')) return 'Cheat Meal';
 
-    // Dosya adından belirlenemezse null dön (JSON'daki category kullanılacak)
+    // Hiçbir kurala uymuyorsa null dön (JSON'daki category kullanılacak)
     return null;
   }
 

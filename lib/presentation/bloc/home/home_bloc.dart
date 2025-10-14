@@ -6,11 +6,11 @@ import '../../../domain/usecases/ogun_planlayici.dart';
 import '../../../domain/usecases/malzeme_bazli_ogun_planlayici.dart';
 import '../../../domain/usecases/makro_hesapla.dart';
 import '../../../data/local/hive_service.dart';
-import '../../../data/local/besin_malzeme_hive_service.dart';
 import '../../../domain/entities/gunluk_plan.dart';
 import '../../../domain/entities/yemek.dart';
 import '../../../domain/services/malzeme_parser_servisi.dart';
 import '../../../domain/services/alternatif_oneri_servisi.dart';
+import '../../../domain/services/alternatif_yemek_servisi.dart'; // 🔥 Yeni import
 import '../../../core/utils/app_logger.dart';
 import 'home_event.dart';
 import 'home_state.dart';
@@ -73,11 +73,13 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         emit(const HomeLoading(message: 'Yeni plan oluşturuluyor...'));
 
         AppLogger.info('📋 Yeni günlük plan oluşturuluyor...');
-        AppLogger.debug('Hedefler: Kalori=${hedefler.gunlukKalori}, Protein=${hedefler.gunlukProtein}, Karb=${hedefler.gunlukKarbonhidrat}, Yağ=${hedefler.gunlukYag}');
-        
+        AppLogger.debug(
+            'Hedefler: Kalori=${hedefler.gunlukKalori}, Protein=${hedefler.gunlukProtein}, Karb=${hedefler.gunlukKarbonhidrat}, Yağ=${hedefler.gunlukYag}');
+
         // 🔥 YENİ SİSTEM: Malzeme bazlı genetik algoritma (0.7% sapma!)
         if (malzemeBazliPlanlayici != null) {
-          AppLogger.success('🚀 Malzeme bazlı genetik algoritma aktif! (50x daha iyi performans)');
+          AppLogger.success(
+              '🚀 Malzeme bazlı genetik algoritma aktif! (50x daha iyi performans)');
           plan = await malzemeBazliPlanlayici!.gunlukPlanOlustur(
             hedefKalori: hedefler.gunlukKalori,
             hedefProtein: hedefler.gunlukProtein,
@@ -97,37 +99,49 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           );
         }
 
-        AppLogger.success('✅ Plan başarıyla oluşturuldu: ${plan.ogunler.length} öğün');
-        
+        AppLogger.success(
+            '✅ Plan başarıyla oluşturuldu: ${plan.ogunler.length} öğün');
+
         // 📋 GÜNLÜK PLAN DETAYLARI - Kullanıcı görebilsin diye log
         AppLogger.info('');
-        AppLogger.info('📅 ═══════════════════════════════════════════════════');
-        AppLogger.info('   ${plan.tarih.day}.${plan.tarih.month}.${plan.tarih.year} - GÜNLÜK PLAN');
+        AppLogger.info(
+            '📅 ═══════════════════════════════════════════════════');
+        AppLogger.info(
+            '   ${plan.tarih.day}.${plan.tarih.month}.${plan.tarih.year} - GÜNLÜK PLAN');
         AppLogger.info('═══════════════════════════════════════════════════');
-        
+
         for (final yemek in plan.ogunler) {
           if (yemek != null) {
-            final kategori = yemek.ogun.toString().split('.').last.toUpperCase();
+            final kategori =
+                yemek.ogun.toString().split('.').last.toUpperCase();
             AppLogger.info('🍽️  $kategori: ${yemek.ad}');
-            AppLogger.info('    Kalori: ${yemek.kalori.toStringAsFixed(0)} kcal | Protein: ${yemek.protein.toStringAsFixed(0)}g | Karb: ${yemek.karbonhidrat.toStringAsFixed(0)}g | Yağ: ${yemek.yag.toStringAsFixed(0)}g');
+            AppLogger.info(
+                '    Kalori: ${yemek.kalori.toStringAsFixed(0)} kcal | Protein: ${yemek.protein.toStringAsFixed(0)}g | Karb: ${yemek.karbonhidrat.toStringAsFixed(0)}g | Yağ: ${yemek.yag.toStringAsFixed(0)}g');
             // 🔥 MALZEMELER - Kullanıcı görsün diye
             if (yemek.malzemeler.isNotEmpty) {
-              AppLogger.info('    📋 Malzemeler: ${yemek.malzemeler.join(", ")}');
+              AppLogger.info(
+                  '    📋 Malzemeler: ${yemek.malzemeler.join(", ")}');
             }
           }
         }
-        
+
         AppLogger.info('');
         AppLogger.info('📊 TOPLAM MAKROLAR:');
-        AppLogger.info('    Kalori: ${plan.toplamKalori.toStringAsFixed(0)} / ${hedefler.gunlukKalori.toStringAsFixed(0)} kcal');
-        AppLogger.info('    Protein: ${plan.toplamProtein.toStringAsFixed(0)} / ${hedefler.gunlukProtein.toStringAsFixed(0)}g');
-        AppLogger.info('    Karb: ${plan.toplamKarbonhidrat.toStringAsFixed(0)} / ${hedefler.gunlukKarbonhidrat.toStringAsFixed(0)}g');
-        AppLogger.info('    Yağ: ${plan.toplamYag.toStringAsFixed(0)} / ${hedefler.gunlukYag.toStringAsFixed(0)}g');
+        AppLogger.info(
+            '    Kalori: ${plan.toplamKalori.toStringAsFixed(0)} / ${hedefler.gunlukKalori.toStringAsFixed(0)} kcal');
+        AppLogger.info(
+            '    Protein: ${plan.toplamProtein.toStringAsFixed(0)} / ${hedefler.gunlukProtein.toStringAsFixed(0)}g');
+        AppLogger.info(
+            '    Karb: ${plan.toplamKarbonhidrat.toStringAsFixed(0)} / ${hedefler.gunlukKarbonhidrat.toStringAsFixed(0)}g');
+        AppLogger.info(
+            '    Yağ: ${plan.toplamYag.toStringAsFixed(0)} / ${hedefler.gunlukYag.toStringAsFixed(0)}g');
         AppLogger.info('');
         AppLogger.info('📈 PLAN KALİTESİ:');
-        AppLogger.info('    Fitness Skoru: ${plan.fitnessSkoru.toStringAsFixed(1)}/100');
-        AppLogger.info('    Kalite Skoru: ${plan.makroKaliteSkoru.toStringAsFixed(1)}/100');
-        
+        AppLogger.info(
+            '    Fitness Skoru: ${plan.fitnessSkoru.toStringAsFixed(1)}/100');
+        AppLogger.info(
+            '    Kalite Skoru: ${plan.makroKaliteSkoru.toStringAsFixed(1)}/100');
+
         // 🎯 TOLERANS KONTROLÜ (±5%)
         if (plan.tumMakrolarToleranstaMi) {
           AppLogger.success('    ✅ Tüm makrolar ±5% tolerans içinde');
@@ -137,10 +151,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
             AppLogger.warning('       ❌ $makro');
           }
         }
-        
+
         AppLogger.info('═══════════════════════════════════════════════════');
         AppLogger.info('');
-        
+
         // Planı kaydet
         await HiveService.planKaydet(plan);
         AppLogger.info('💾 Plan Hive\'a kaydedildi');
@@ -159,7 +173,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
         message: 'Plan yüklenirken bir hata oluştu: ${e.toString()}',
         error: e,
@@ -224,7 +238,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
         message: 'Plan yenilenirken bir hata oluştu: ${e.toString()}',
         error: e,
@@ -303,7 +317,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
         message: 'Öğün değiştirilirken bir hata oluştu: ${e.toString()}',
         error: e,
@@ -412,16 +426,18 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
-        message: 'Haftalık plan oluşturulurken bir hata oluştu: ${e.toString()}',
+        message:
+            'Haftalık plan oluşturulurken bir hata oluştu: ${e.toString()}',
         error: e,
         stackTrace: stackTrace,
       ));
     }
   }
 
-  /// Alternatif yemekler oluştur
+  /// Alternatif yemekler oluştur - YENİ SİSTEM
+  /// Makro benzerliğine göre alternatif yemekler bulur
   Future<void> _onGenerateAlternativeMeals(
     GenerateAlternativeMeals event,
     Emitter<HomeState> emit,
@@ -433,41 +449,35 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     try {
       emit(const HomeLoading(message: 'Alternatif yemekler aranıyor...'));
 
-      // Aynı öğün tipinde alternatif yemekler oluştur
-      final alternatifler = <Yemek>[];
+      // Aynı kategorideki tüm yemekleri getir
+      final kategoriYemekleri = await HiveService.kategoriYemekleriGetir(
+        event.mevcutYemek.ogun.name,
+      );
 
-      for (int i = 0; i < event.sayi; i++) {
-        // 🔥 YENİ SİSTEM: Malzeme bazlı genetik algoritma
-        final yeniPlan = malzemeBazliPlanlayici != null
-            ? await malzemeBazliPlanlayici!.gunlukPlanOlustur(
-                hedefKalori: currentState.hedefler.gunlukKalori,
-                hedefProtein: currentState.hedefler.gunlukProtein,
-                hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
-                hedefYag: currentState.hedefler.gunlukYag,
-                kisitlamalar: currentState.kullanici.tumKisitlamalar,
-                tarih: currentState.currentDate,
-              )
-            : await planlayici.gunlukPlanOlustur(
-                hedefKalori: currentState.hedefler.gunlukKalori,
-                hedefProtein: currentState.hedefler.gunlukProtein,
-                hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
-                hedefYag: currentState.hedefler.gunlukYag,
-                kisitlamalar: currentState.kullanici.tumKisitlamalar,
-                tarih: currentState.currentDate,
-              );
-
-        // Aynı öğün tipindeki yemeği bul
-        final alternatifYemek = yeniPlan.ogunler.firstWhere(
-          (y) => y.ogun == event.mevcutYemek.ogun,
-          orElse: () => yeniPlan.ogunler.first,
-        );
-
-        // Eğer farklı bir yemekse ekle
-        if (alternatifYemek.id != event.mevcutYemek.id &&
-            !alternatifler.any((y) => y.id == alternatifYemek.id)) {
-          alternatifler.add(alternatifYemek);
-        }
+      if (kategoriYemekleri.isEmpty) {
+        AppLogger.warning(
+            '⚠️ ${event.mevcutYemek.ogun.ad} kategorisinde yemek bulunamadı.');
+        emit(AlternativeMealsLoaded(
+          mevcutYemek: event.mevcutYemek,
+          alternatifYemekler: [],
+          plan: currentState.plan,
+          hedefler: currentState.hedefler,
+          kullanici: currentState.kullanici,
+          currentDate: currentState.currentDate,
+          tamamlananOgunler: currentState.tamamlananOgunler,
+        ));
+        return;
       }
+
+      // 🔥 YENİ SİSTEM: Makro benzerliğine göre alternatif yemekler bul
+      final alternatifler = AlternatifYemekServisi.alternatifYemekleriBul(
+        orijinalYemek: event.mevcutYemek,
+        yemekHavuzu: kategoriYemekleri,
+        adet: 5, // En benzer 5 yemek
+      );
+
+      AppLogger.info(
+          '✅ ${event.mevcutYemek.ad} için ${alternatifler.length} makro-benzer alternatif bulundu');
 
       // Alternatifler state'ini emit et
       emit(AlternativeMealsLoaded(
@@ -485,9 +495,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
-        message: 'Alternatif yemekler oluşturulurken bir hata oluştu: ${e.toString()}',
+        message:
+            'Alternatif yemekler oluşturulurken bir hata oluştu: ${e.toString()}',
         error: e,
         stackTrace: stackTrace,
       ));
@@ -563,12 +574,18 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
             break;
           case OgunTipi.cheatMeal:
             // Cheat meal'i ilk boş slota yerleştir
-            if (kahvalti == null) kahvalti = yemek;
-            else if (araOgun1 == null) araOgun1 = yemek;
-            else if (ogleYemegi == null) ogleYemegi = yemek;
-            else if (araOgun2 == null) araOgun2 = yemek;
-            else if (aksamYemegi == null) aksamYemegi = yemek;
-            else geceAtistirma = yemek;
+            if (kahvalti == null)
+              kahvalti = yemek;
+            else if (araOgun1 == null)
+              araOgun1 = yemek;
+            else if (ogleYemegi == null)
+              ogleYemegi = yemek;
+            else if (araOgun2 == null)
+              araOgun2 = yemek;
+            else if (aksamYemegi == null)
+              aksamYemegi = yemek;
+            else
+              geceAtistirma = yemek;
             break;
         }
       }
@@ -604,7 +621,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
         message: 'Yemek değiştirilirken bir hata oluştu: ${e.toString()}',
         error: e,
@@ -629,7 +646,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       final parsedMalzeme = MalzemeParserServisi.parse(event.malzemeMetni);
 
       if (parsedMalzeme == null) {
-        AppLogger.warning('⚠️ Malzeme parse edilemedi: "${event.malzemeMetni}"');
+        AppLogger.warning(
+            '⚠️ Malzeme parse edilemedi: "${event.malzemeMetni}"');
         emit(HomeError(
           message: 'Malzeme formatı anlaşılamadı: "${event.malzemeMetni}"',
         ));
@@ -645,7 +663,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
       // 🔥 FIX: Alternatif bulunamasa bile bottom sheet aç (kullanıcı geri dönebilsin)
       if (alternatifler.isEmpty) {
-        AppLogger.warning('⚠️ Alternatif besin bulunamadı: "${parsedMalzeme.besinAdi}"');
+        AppLogger.warning(
+            '⚠️ Alternatif besin bulunamadı: "${parsedMalzeme.besinAdi}"');
       }
 
       // ✅ Alternatifler state'ini emit et (boş liste bile olsa - bottom sheet açılacak)
@@ -666,9 +685,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
-        message: 'Alternatif malzemeler oluşturulurken bir hata oluştu: ${e.toString()}',
+        message:
+            'Alternatif malzemeler oluşturulurken bir hata oluştu: ${e.toString()}',
         error: e,
         stackTrace: stackTrace,
       ));
@@ -751,12 +771,18 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
             break;
           case OgunTipi.cheatMeal:
             // Cheat meal'i ilk boş slota yerleştir
-            if (kahvalti == null) kahvalti = yemek;
-            else if (araOgun1 == null) araOgun1 = yemek;
-            else if (ogleYemegi == null) ogleYemegi = yemek;
-            else if (araOgun2 == null) araOgun2 = yemek;
-            else if (aksamYemegi == null) aksamYemegi = yemek;
-            else geceAtistirma = yemek;
+            if (kahvalti == null)
+              kahvalti = yemek;
+            else if (araOgun1 == null)
+              araOgun1 = yemek;
+            else if (ogleYemegi == null)
+              ogleYemegi = yemek;
+            else if (araOgun2 == null)
+              araOgun2 = yemek;
+            else if (aksamYemegi == null)
+              aksamYemegi = yemek;
+            else
+              geceAtistirma = yemek;
             break;
         }
       }
@@ -792,7 +818,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       );
-      
+
       emit(HomeError(
         message: 'Malzeme değiştirilirken bir hata oluştu: ${e.toString()}',
         error: e,

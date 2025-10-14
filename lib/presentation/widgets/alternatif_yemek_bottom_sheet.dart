@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import '../../domain/entities/yemek.dart';
 
 // ============================================================================
-// ALTERNATİF YEMEK BOTTOM SHEET
-// Kullanıcı bir yemeği beğenmezse, aynı öğün tipinde alternatif yemekler gösterir
+// ALTERNATİF YEMEK BOTTOM SHEET (STATELESS)
+// Kullanıcı bir yemeği beğenmezse, HomeBloc'tan gelen alternatif yemekleri gösterir
 // ============================================================================
 
 class AlternatifYemekBottomSheet extends StatelessWidget {
   final Yemek mevcutYemek;
-  final List<Yemek> alternatifYemekler;
+  final List<Yemek> alternatifYemekler; // 🔥 Dinamik olarak HomeBloc'tan gelecek
   final Function(Yemek) onYemekSecildi;
 
   const AlternatifYemekBottomSheet({
@@ -21,7 +21,7 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
   static Future<Yemek?> goster(
     BuildContext context, {
     required Yemek mevcutYemek,
-    required List<Yemek> alternatifYemekler,
+    required List<Yemek> alternatifYemekler, // 🔥 Dinamik olarak HomeBloc'tan gelecek
     required Function(Yemek) onYemekSecildi,
   }) {
     return showModalBottomSheet<Yemek>(
@@ -49,163 +49,120 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          // Handle
-          Container(
-            margin: const EdgeInsets.only(top: 12),
-            width: 40,
-            height: 4,
-            decoration: BoxDecoration(
-              color: Colors.grey.shade300,
-              borderRadius: BorderRadius.circular(2),
-            ),
-          ),
+          _buildHandle(),
+          _buildHeader(context),
+          _buildAlternatifListesi(context),
+        ],
+      ),
+    );
+  }
 
-          // Başlık
-          Container(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: _getOgunRengi().withValues(alpha: 0.2),
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Icon(
-                        Icons.swap_horiz,
-                        color: _getOgunRengi(),
-                        size: 24,
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            'Alternatif ${mevcutYemek.ogun.ad}',
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.grey.shade800,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          Text(
-                            'Size başka seçenekler buldum',
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: Colors.grey.shade600,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    // Geri/Kapat butonu
-                    IconButton(
-                      onPressed: () => Navigator.pop(context),
-                      icon: const Icon(Icons.close),
-                      tooltip: 'Kapat',
-                      color: Colors.grey.shade600,
-                    ),
-                  ],
+  Widget _buildHandle() {
+    return Container(
+      margin: const EdgeInsets.only(top: 12),
+      width: 40,
+      height: 4,
+      decoration: BoxDecoration(
+        color: Colors.grey.shade300,
+        borderRadius: BorderRadius.circular(2),
+      ),
+    );
+  }
+
+  Widget _buildHeader(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: _getOgunRengi().withOpacity(0.2),
+                  borderRadius: BorderRadius.circular(8),
                 ),
-                const SizedBox(height: 16),
-
-                // Mevcut yemek
-                Container(
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    color: Colors.orange.shade50,
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: Colors.orange.shade200),
-                  ),
-                  child: Row(
-                    children: [
-                      Icon(Icons.restaurant_menu, color: Colors.orange.shade700),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              'Mevcut: ${mevcutYemek.ad}',
-                              style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.w600,
-                                color: Colors.orange.shade900,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              '${mevcutYemek.kalori.toStringAsFixed(0)} kcal | '
-                              '${mevcutYemek.protein.toStringAsFixed(0)}g P | '
-                              '${mevcutYemek.karbonhidrat.toStringAsFixed(0)}g K | '
-                              '${mevcutYemek.yag.toStringAsFixed(0)}g Y',
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.orange.shade700,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
+                child: Icon(
+                  Icons.swap_horiz,
+                  color: _getOgunRengi(),
+                  size: 24,
                 ),
-              ],
-            ),
-          ),
-
-          // Alternatif yemekler listesi
-          Expanded(
-            child: ListView(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              children: [
-                Row(
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Icon(Icons.auto_awesome, color: Colors.green.shade700, size: 20),
-                    const SizedBox(width: 8),
                     Text(
-                      'Alternatif Öneriler',
+                      'Alternatif ${mevcutYemek.ogun.ad}',
                       style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
                         color: Colors.grey.shade800,
                       ),
                     ),
+                    const SizedBox(height: 4),
+                    Text(
+                      'Size başka seçenekler buldum',
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.grey.shade600,
+                      ),
+                    ),
                   ],
                 ),
-                const SizedBox(height: 12),
+              ),
+              IconButton(
+                onPressed: () => Navigator.pop(context),
+                icon: const Icon(Icons.close),
+                tooltip: 'Kapat',
+                color: Colors.grey.shade600,
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          _buildMevcutYemekKarti(),
+        ],
+      ),
+    );
+  }
 
-                if (alternatifYemekler.isEmpty)
-                  Container(
-                    padding: const EdgeInsets.all(24),
-                    child: Column(
-                      children: [
-                        Icon(Icons.info_outline, size: 48, color: Colors.grey.shade400),
-                        const SizedBox(height: 12),
-                        Text(
-                          'Şu an alternatif bulunamadı',
-                          style: TextStyle(
-                            fontSize: 16,
-                            color: Colors.grey.shade600,
-                          ),
-                        ),
-                      ],
-                    ),
-                  )
-                else
-                  ...alternatifYemekler.asMap().entries.map((entry) {
-                    final index = entry.key;
-                    final yemek = entry.value;
-                    return _buildAlternatifCard(context, yemek, index + 1);
-                  }),
-
-                const SizedBox(height: 80), // Alt boşluk
+  Widget _buildMevcutYemekKarti() {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.orange.shade50,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.orange.shade200),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.restaurant_menu, color: Colors.orange.shade700),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Mevcut: ${mevcutYemek.ad}',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.orange.shade900,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  '${mevcutYemek.kalori.toStringAsFixed(0)} kcal | '
+                  '${mevcutYemek.protein.toStringAsFixed(0)}g P | '
+                  '${mevcutYemek.karbonhidrat.toStringAsFixed(0)}g K | '
+                  '${mevcutYemek.yag.toStringAsFixed(0)}g Y',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.orange.shade700,
+                  ),
+                ),
               ],
             ),
           ),
@@ -214,14 +171,67 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
     );
   }
 
+  Widget _buildAlternatifListesi(BuildContext context) {
+    return Expanded(
+      child: ListView(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        children: [
+          Row(
+            children: [
+              Icon(Icons.auto_awesome, color: Colors.green.shade700, size: 20),
+              const SizedBox(width: 8),
+              Text(
+                'Alternatif Öneriler',
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.grey.shade800,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          if (alternatifYemekler.isEmpty)
+            _buildAlternatifYokKarti()
+          else
+            ...alternatifYemekler.asMap().entries.map((entry) {
+              final index = entry.key;
+              final yemek = entry.value;
+              return _buildAlternatifCard(context, yemek, index + 1);
+            }),
+          const SizedBox(height: 80), // Alt boşluk
+        ],
+      ),
+    );
+  }
+
+  Widget _buildAlternatifYokKarti() {
+    return Container(
+      padding: const EdgeInsets.all(24),
+      child: Column(
+        children: [
+          Icon(Icons.info_outline, size: 48, color: Colors.grey.shade400),
+          const SizedBox(height: 12),
+          Text(
+            'Şu an alternatif bulunamadı',
+            style: TextStyle(
+              fontSize: 16,
+              color: Colors.grey.shade600,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildAlternatifCard(BuildContext context, Yemek yemek, int siraNo) {
-    // Kalori farkını hesapla
     final kaloriFark = yemek.kalori - mevcutYemek.kalori;
-    final kaloriFarkYuzde = (kaloriFark.abs() / mevcutYemek.kalori) * 100;
-    
-    String kaloriFarkText = '';
-    Color kaloriFarkRenk = Colors.grey;
-    
+    final kaloriFarkYuzde =
+        (kaloriFark.abs() / (mevcutYemek.kalori > 0 ? mevcutYemek.kalori : 1)) * 100;
+
+    String kaloriFarkText;
+    Color kaloriFarkRenk;
+
     if (kaloriFarkYuzde < 5) {
       kaloriFarkText = 'Neredeyse aynı kalori';
       kaloriFarkRenk = Colors.green;
@@ -241,7 +251,7 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
         border: Border.all(color: Colors.green.shade200, width: 2),
         boxShadow: [
           BoxShadow(
-            color: Colors.green.withValues(alpha: 0.1),
+            color: Colors.green.withOpacity(0.1),
             blurRadius: 8,
             offset: const Offset(0, 2),
           ),
@@ -267,147 +277,13 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Üst kısım - Başlık ve numara
-                Row(
-                  children: [
-                    Container(
-                      width: 32,
-                      height: 32,
-                      decoration: BoxDecoration(
-                        color: Colors.green.shade100,
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Center(
-                        child: Text(
-                          '$siraNo',
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.green.shade700,
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            yemek.ad,
-                            style: const TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 4,
-                            ),
-                            decoration: BoxDecoration(
-                              color: kaloriFarkRenk.withValues(alpha: 0.1),
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: Text(
-                              kaloriFarkText,
-                              style: TextStyle(
-                                fontSize: 11,
-                                color: kaloriFarkRenk,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Icon(
-                      Icons.chevron_right,
-                      color: Colors.grey.shade400,
-                    ),
-                  ],
-                ),
-
-                // Malzemeler
+                _buildCardHeader(yemek, siraNo, kaloriFarkText, kaloriFarkRenk),
                 if (yemek.malzemeler.isNotEmpty) ...[
                   const SizedBox(height: 12),
-                  Text(
-                    'Malzemeler:',
-                    style: TextStyle(
-                      fontSize: 11,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.grey.shade600,
-                    ),
-                  ),
-                  const SizedBox(height: 6),
-                  Wrap(
-                    spacing: 6,
-                    runSpacing: 6,
-                    children: yemek.malzemeler.take(4).map((malzeme) {
-                      return Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 8,
-                          vertical: 4,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.grey.shade100,
-                          borderRadius: BorderRadius.circular(6),
-                        ),
-                        child: Text(
-                          malzeme,
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.grey.shade700,
-                          ),
-                        ),
-                      );
-                    }).toList(),
-                  ),
-                  if (yemek.malzemeler.length > 4)
-                    Padding(
-                      padding: const EdgeInsets.only(top: 4),
-                      child: Text(
-                        '+${yemek.malzemeler.length - 4} malzeme daha',
-                        style: TextStyle(
-                          fontSize: 10,
-                          color: Colors.grey.shade500,
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
-                    ),
+                  _buildMalzemeler(yemek),
                 ],
-
                 const SizedBox(height: 12),
-
-                // Makro değerler
-                Row(
-                  children: [
-                    _buildMakroBadge(
-                      '🔥',
-                      '${yemek.kalori.toStringAsFixed(0)} kcal',
-                      Colors.orange,
-                    ),
-                    const SizedBox(width: 8),
-                    _buildMakroBadge(
-                      '💪',
-                      '${yemek.protein.toStringAsFixed(0)}g',
-                      Colors.red,
-                    ),
-                    const SizedBox(width: 8),
-                    _buildMakroBadge(
-                      '🍚',
-                      '${yemek.karbonhidrat.toStringAsFixed(0)}g',
-                      Colors.amber,
-                    ),
-                    const SizedBox(width: 8),
-                    _buildMakroBadge(
-                      '🥑',
-                      '${yemek.yag.toStringAsFixed(0)}g',
-                      Colors.green,
-                    ),
-                  ],
-                ),
+                _buildMakroBadges(yemek),
               ],
             ),
           ),
@@ -416,11 +292,128 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
     );
   }
 
+  Widget _buildCardHeader(Yemek yemek, int siraNo, String kaloriFarkText, Color kaloriFarkRenk) {
+    return Row(
+      children: [
+        Container(
+          width: 32,
+          height: 32,
+          decoration: BoxDecoration(
+            color: Colors.green.shade100,
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Center(
+            child: Text(
+              '$siraNo',
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: Colors.green.shade700,
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                yemek.ad,
+                style: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: kaloriFarkRenk.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(6),
+                ),
+                child: Text(
+                  kaloriFarkText,
+                  style: TextStyle(
+                    fontSize: 11,
+                    color: kaloriFarkRenk,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        Icon(Icons.chevron_right, color: Colors.grey.shade400),
+      ],
+    );
+  }
+
+  Widget _buildMalzemeler(Yemek yemek) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Malzemeler:',
+          style: TextStyle(
+            fontSize: 11,
+            fontWeight: FontWeight.w600,
+            color: Colors.grey.shade600,
+          ),
+        ),
+        const SizedBox(height: 6),
+        Wrap(
+          spacing: 6,
+          runSpacing: 6,
+          children: yemek.malzemeler.take(4).map((malzeme) {
+            return Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              decoration: BoxDecoration(
+                color: Colors.grey.shade100,
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Text(
+                malzeme,
+                style: TextStyle(fontSize: 10, color: Colors.grey.shade700),
+              ),
+            );
+          }).toList(),
+        ),
+        if (yemek.malzemeler.length > 4)
+          Padding(
+            padding: const EdgeInsets.only(top: 4),
+            child: Text(
+              '+${yemek.malzemeler.length - 4} malzeme daha',
+              style: TextStyle(
+                fontSize: 10,
+                color: Colors.grey.shade500,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+
+  Widget _buildMakroBadges(Yemek yemek) {
+    return Row(
+      children: [
+        _buildMakroBadge('🔥', '${yemek.kalori.toStringAsFixed(0)} kcal', Colors.orange),
+        const SizedBox(width: 8),
+        _buildMakroBadge('💪', '${yemek.protein.toStringAsFixed(0)}g', Colors.red),
+        const SizedBox(width: 8),
+        _buildMakroBadge('🍚', '${yemek.karbonhidrat.toStringAsFixed(0)}g', Colors.amber),
+        const SizedBox(width: 8),
+        _buildMakroBadge('🥑', '${yemek.yag.toStringAsFixed(0)}g', Colors.green),
+      ],
+    );
+  }
+
   Widget _buildMakroBadge(String emoji, String text, Color color) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.1),
+        color: color.withOpacity(0.1),
         borderRadius: BorderRadius.circular(8),
       ),
       child: Row(
