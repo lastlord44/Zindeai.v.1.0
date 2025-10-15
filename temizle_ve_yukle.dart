@@ -7,7 +7,7 @@ import 'package:hive/hive.dart';
 import 'lib/data/models/yemek_hive_model.dart';
 import 'lib/data/models/kullanici_hive_model.dart';
 import 'lib/data/models/gunluk_plan_hive_model.dart';
-import 'lib/data/models/antrenman_hive_model.dart';
+// import 'lib/data/models/antrenman_hive_model.dart'; // KALDIRILDI: Artık kullanmıyoruz
 import 'lib/core/utils/yemek_migration_guncel.dart';
 
 void main() async {
@@ -20,20 +20,20 @@ void main() async {
   Hive.registerAdapter(YemekHiveModelAdapter());
   Hive.registerAdapter(KullaniciHiveModelAdapter());
   Hive.registerAdapter(GunlukPlanHiveModelAdapter());
-  Hive.registerAdapter(AntrenmanHiveModelAdapter());
+  // Hive.registerAdapter(AntrenmanHiveModelAdapter()); // KALDIRILDI: Artık kullanmıyoruz
 
   try {
     // Tüm box'ları aç
     final yemekBox = await Hive.openBox<YemekHiveModel>('yemekBox');
     final kullaniciBox = await Hive.openBox<KullaniciHiveModel>('kullaniciBox');
     final planBox = await Hive.openBox<GunlukPlanHiveModel>('gunlukPlanBox');
-    final antrenmanBox = await Hive.openBox<AntrenmanHiveModel>('antrenmanBox');
+    // final antrenmanBox = await Hive.openBox<AntrenmanHiveModel>('antrenmanBox'); // KALDIRILDI
 
     print('📊 Mevcut veri:');
     print('  - Yemekler: ${yemekBox.length}');
     print('  - Kullanıcılar: ${kullaniciBox.length}');
     print('  - Planlar: ${planBox.length}');
-    print('  - Antrenmanlar: ${antrenmanBox.length}');
+    // print('  - Antrenmanlar: ${antrenmanBox.length}'); // KALDIRILDI
 
     // SADECE YEMEK VERİTABANINI TEMİZLE (kullanıcı verileri korunsun!)
     print('🗑️ Yemek veritabanı temizleniyor...');

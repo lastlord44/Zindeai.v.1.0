@@ -1,26 +1,87 @@
-include: package:flutter_lints/flutter.yaml
+# Bu dosya, statik analiz aracının davranışını yapılandırır.
+# Daha fazla bilgi için: https://dart.dev/guides/language/analysis-options
 
 analyzer:
+  # Analizden hariç tutulacak dosyalar ve klasörler.
+  # Bu, eski veya harici kodların analiz hataları üretmesini engeller.
   exclude:
-    - "indirilen dosyalar/**"
-    - "zinde ai için mealler/**"
-    - "**/*.g.dart"
-    - "build/**"
-    - ".dart_tool/**"
+    # Otomatik üretilen dosyalar
+    - '**/*.g.dart'
+    - '**/*.freezed.dart'
+    
+    # Harici ve indirilen dosyalar
+    - 'indirilen dosyalar/**'
+    - 'zinde ai için mealler/**'
+    
+    # Debug ve test scriptleri
+    - 'debug_scripts/**'
+    - 'acil_temizle_test.dart'
+    - 'debug_db_durum.dart'
+    - 'debug_db_kalori_analizi.dart'
+    - 'debug_karb_eksigi_analiz.dart'
+    - 'debug_karb_havuzu_analizi.dart'
+    - 'debug_karb_ve_ogun_sorunlari.dart'
+    - 'debug_makro_ve_kategori_sorunlari.dart'
+    - 'check_categories.dart'
+    
+    # Migration ve data loading scriptleri
+    - 'ekonomik_yemekler_yukle.dart'
+    - 'hive_force_clean.dart'
+    - 'hive_temizle_ve_yukle.dart'
+    - 'mega_yemek_db_generator_part1.dart'
+    - 'mega_yemek_generator_batch_system.dart'
+    - 'mega_yemekleri_yukle.dart'
+    - 'migration_besin_malzemeleri_standalone.dart'
+    - 'migration_besin_malzemeleri.dart'
+    - 'migration_karb_yemekler_yukle.dart'
+    - 'migration_yukle.dart'
+    - 'olustur_ekonomik_yemekler.dart'
+    - 'olustur_mega_yemek_veritabani.dart'
+    - 'duzelt_kategoriler.py'
+    
+    # Test dosyaları
+    - 'test_500_migration_manuel.dart'
+    - 'test_500_migration.dart'
+    - 'test_500_yeni_yemek.dart'
+    - 'test_cozumler_dogrula.dart'
+    - 'test_hive_db_durum.dart'
+    - 'test_malzeme_bazli_algoritma.dart'
+    - 'test_mega_migration.dart'
+    - 'test_migration_debug.dart'
+    - 'test_migration_duzeltmeleri.dart'
+    - 'test_migration_manuel.dart'
+    - 'test_db_check.dart'
+    
+    # Geçici batch dosyaları
+    - 'lib/mega_yemek_batch_*.dart'
+    - 'lib/test_makro_fix.dart'
+    
+    # Bozuk core utils dosyaları
+    - 'lib/core/utils/meal_splitter.dart'
+    - 'lib/core/utils/validators.dart'
 
 linter:
+  # Flutter ve Dart topluluğu tarafından önerilen lint kuralları.
+  # Projenin tutarlı ve okunabilir olmasını sağlar.
   rules:
-    # Deprecated API kullanımını uyar
-    deprecated_member_use: warning
-    # Unused imports
-    unused_import: warning
-    # Unused variables
-    unused_local_variable: warning
-    # Unused elements
-    unused_element: warning
+    # Stil Kuralları
+    - always_declare_return_types
+    - camel_case_types
+    - constant_identifier_names
+    - non_constant_identifier_names
+    - package_prefixed_library_names
+    - prefer_final_fields
+    - prefer_const_constructors
+    - unnecessary_new
+    - unnecessary_this
+    - use_key_in_widget_constructors
 
+    # Hata Önleme
+    - await_only_futures
+    - empty_statements
+    - no_duplicate_case_values
+    - valid_regexps
 
-
-
-
-
+    # Kullanım
+    - unused_import
+    - unused_local_variable

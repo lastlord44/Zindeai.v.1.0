@@ -97,6 +97,7 @@ logs/
 
 # Gradle files
 .gradle/
+.gradle/caches/
 
 # Local configuration file (sdk path, etc)
 local.properties
