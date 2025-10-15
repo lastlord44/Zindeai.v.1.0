@@ -9,8 +9,8 @@ import '../../../data/local/hive_service.dart';
 import '../../../domain/entities/gunluk_plan.dart';
 import '../../../domain/entities/yemek.dart';
 import '../../../domain/services/malzeme_parser_servisi.dart';
-import '../../../domain/services/alternatif_oneri_servisi.dart';
-import '../../../domain/services/alternatif_yemek_servisi.dart'; // 🔥 Yeni import
+import '../../../domain/services/ai_beslenme_servisi.dart'; // 🤖 AI IMPORT
+import '../../../domain/services/yemek_onay_servisi.dart'; // ✅ YENİ ONAY SİSTEMİ
 import '../../../core/utils/app_logger.dart';
 import 'home_event.dart';
 import 'home_state.dart';
@@ -19,12 +19,15 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   final OgunPlanlayici planlayici;
   final MalzemeBazliOgunPlanlayici? malzemeBazliPlanlayici;
   final MakroHesapla makroHesaplama;
+  final AIBeslenmeServisi aiServisi; // 🤖 AI SERVİSİ
 
   HomeBloc({
     required this.planlayici,
     this.malzemeBazliPlanlayici,
     required this.makroHesaplama,
-  }) : super(HomeInitial()) {
+    AIBeslenmeServisi? aiServisi, // 🤖 OPTIONAL AI SERVİS
+  }) : aiServisi = aiServisi ?? AIBeslenmeServisi(), // 🤖 DEFAULT AI SERVİS
+        super(HomeInitial()) {
     on<LoadHomePage>(_onLoadHomePage);
     on<RefreshDailyPlan>(_onRefreshDailyPlan);
     on<ToggleMealCompletion>(_onToggleMealCompletion);
@@ -35,6 +38,13 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     on<ReplaceMealWith>(_onReplaceMealWith);
     on<GenerateIngredientAlternatives>(_onGenerateIngredientAlternatives);
     on<ReplaceIngredientWith>(_onReplaceIngredientWith);
+    on<CancelAlternativeSelection>(_onCancelAlternativeSelection);
+    on<CancelAlternativeMealSelection>(_onCancelAlternativeMealSelection);
+    // ✅ YENİ ONAY SİSTEMİ EVENT'LERİ
+    on<MarkMealAsEaten>(_onMarkMealAsEaten);
+    on<ConfirmMealEaten>(_onConfirmMealEaten);
+    on<SkipMeal>(_onSkipMeal);
+    on<ResetMealStatus>(_onResetMealStatus);
   }
 
   /// Ana sayfayı yükle
@@ -66,7 +76,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       Map<String, bool> tamamlananOgunler = {};
 
       if (plan != null) {
-        // Tamamlanan öğünleri yükle
+        // Tamamlanan öğünleri yükle (legacy)
         tamamlananOgunler = await HiveService.tamamlananOgunleriGetir(today);
       } else {
         // Plan yoksa yeni oluştur
@@ -160,12 +170,16 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         AppLogger.info('💾 Plan Hive\'a kaydedildi');
       }
 
+      // ✅ YENİ ONAY SİSTEMİ: Günlük onay durumunu getir
+      final gunlukOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(today);
+
       emit(HomeLoaded(
         plan: plan,
         hedefler: hedefler,
         kullanici: kullanici,
         currentDate: today,
         tamamlananOgunler: tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu, // ✅ YENİ ONAY SİSTEMİ
       ));
     } catch (e, stackTrace) {
       AppLogger.error(
@@ -436,8 +450,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     }
   }
 
-  /// Alternatif yemekler oluştur - YENİ SİSTEM
-  /// Makro benzerliğine göre alternatif yemekler bulur
+  /// 🤖 AI ALTERNATİF YEMEKLER - YENİ SİSTEM
+  /// AI ile alternatif yemekler üret (DB boş olsa bile çalışır)
   Future<void> _onGenerateAlternativeMeals(
     GenerateAlternativeMeals event,
     Emitter<HomeState> emit,
@@ -447,37 +461,15 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     final currentState = state as HomeLoaded;
 
     try {
-      emit(const HomeLoading(message: 'Alternatif yemekler aranıyor...'));
+      emit(const HomeLoading(message: '🤖 AI alternatif yemekler üretiliyor...'));
 
-      // Aynı kategorideki tüm yemekleri getir
-      final kategoriYemekleri = await HiveService.kategoriYemekleriGetir(
-        event.mevcutYemek.ogun.name,
-      );
+      AppLogger.info('🤖 AI Alternatif Sistemi: ${event.mevcutYemek.ad} için alternatifler üretiliyor...');
 
-      if (kategoriYemekleri.isEmpty) {
-        AppLogger.warning(
-            '⚠️ ${event.mevcutYemek.ogun.ad} kategorisinde yemek bulunamadı.');
-        emit(AlternativeMealsLoaded(
-          mevcutYemek: event.mevcutYemek,
-          alternatifYemekler: [],
-          plan: currentState.plan,
-          hedefler: currentState.hedefler,
-          kullanici: currentState.kullanici,
-          currentDate: currentState.currentDate,
-          tamamlananOgunler: currentState.tamamlananOgunler,
-        ));
-        return;
-      }
+      // 🤖 AI SERVİSİ İLE ALTERNATİF ÜRET
+      final alternatifler = await aiServisi.alternatifleriGetir(event.mevcutYemek);
 
-      // 🔥 YENİ SİSTEM: Makro benzerliğine göre alternatif yemekler bul
-      final alternatifler = AlternatifYemekServisi.alternatifYemekleriBul(
-        orijinalYemek: event.mevcutYemek,
-        yemekHavuzu: kategoriYemekleri,
-        adet: 5, // En benzer 5 yemek
-      );
-
-      AppLogger.info(
-          '✅ ${event.mevcutYemek.ad} için ${alternatifler.length} makro-benzer alternatif bulundu');
+      AppLogger.success(
+          '✅ ${event.mevcutYemek.ad} için ${alternatifler.length} AI alternatifi üretildi');
 
       // Alternatifler state'ini emit et
       emit(AlternativeMealsLoaded(
@@ -491,14 +483,14 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       ));
     } catch (e, stackTrace) {
       AppLogger.error(
-        '❌ HATA: Alternatif yemekler oluşturulurken kritik hata oluştu',
+        '❌ HATA: AI alternatif yemekler oluşturulurken kritik hata oluştu',
         error: e,
         stackTrace: stackTrace,
       );
 
       emit(HomeError(
         message:
-            'Alternatif yemekler oluşturulurken bir hata oluştu: ${e.toString()}',
+            'AI alternatif yemekler oluşturulurken bir hata oluştu: ${e.toString()}',
         error: e,
         stackTrace: stackTrace,
       ));
@@ -630,7 +622,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     }
   }
 
-  /// Malzeme için alternatif besinler oluştur
+  /// 🤖 AI Malzeme için alternatif besinler oluştur - YENİ SİSTEM
+  /// AI ile alternatif malzemeler üret (Legacy sistemin yerine)
   Future<void> _onGenerateIngredientAlternatives(
     GenerateIngredientAlternatives event,
     Emitter<HomeState> emit,
@@ -640,7 +633,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     final currentState = state as HomeLoaded;
 
     try {
-      emit(const HomeLoading(message: 'Alternatif malzemeler aranıyor...'));
+      emit(const HomeLoading(message: '🤖 AI alternatif malzemeler üretiliyor...'));
 
       // Malzemeyi parse et
       final parsedMalzeme = MalzemeParserServisi.parse(event.malzemeMetni);
@@ -648,26 +641,28 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       if (parsedMalzeme == null) {
         AppLogger.warning(
             '⚠️ Malzeme parse edilemedi: "${event.malzemeMetni}"');
-        emit(HomeError(
-          message: 'Malzeme formatı anlaşılamadı: "${event.malzemeMetni}"',
-        ));
+        
+        // 🔥 FIX: Parse hatası olsa bile state'e geri dön (boş ekran kalmasın)
+        emit(currentState);
         return;
       }
 
-      // Alternatif besinleri oluştur
-      final alternatifler = AlternatifOneriServisi.otomatikAlternatifUret(
+      AppLogger.info('🤖 AI Malzeme Alternatif Sistemi: "${parsedMalzeme.besinAdi}" için alternatifler üretiliyor...');
+
+      // 🤖 AI SERVİSİ İLE MALZEME ALTERNATİFİ ÜRET - ÖĞÜN TİPİNE UYGUN!
+      final alternatifler = await aiServisi.malzemeAlternatifleriGetir(
         besinAdi: parsedMalzeme.besinAdi,
         miktar: parsedMalzeme.miktar,
         birim: parsedMalzeme.birim,
+        ogunTipi: event.yemek.ogun, // 🔥 ÖĞÜN TİPİNİ GÖNDER!
       );
+      
+      AppLogger.info('🎯 AI Öğün Filtresi: ${event.yemek.ogun.name} -> Uygun alternatifler üretildi');
 
-      // 🔥 FIX: Alternatif bulunamasa bile bottom sheet aç (kullanıcı geri dönebilsin)
-      if (alternatifler.isEmpty) {
-        AppLogger.warning(
-            '⚠️ Alternatif besin bulunamadı: "${parsedMalzeme.besinAdi}"');
-      }
+      AppLogger.success(
+          '✅ "${parsedMalzeme.besinAdi}" için ${alternatifler.length} AI alternatifi üretildi');
 
-      // ✅ Alternatifler state'ini emit et (boş liste bile olsa - bottom sheet açılacak)
+      // ✅ Alternatifler state'ini emit et (AI sisteminden dönen alternatiflerle)
       emit(AlternativeIngredientsLoaded(
         yemek: event.yemek,
         malzemeIndex: event.malzemeIndex,
@@ -681,17 +676,13 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       ));
     } catch (e, stackTrace) {
       AppLogger.error(
-        '❌ HATA: Alternatif malzemeler oluşturulurken kritik hata oluştu',
+        '❌ HATA: AI alternatif malzemeler oluşturulurken kritik hata oluştu',
         error: e,
         stackTrace: stackTrace,
       );
 
-      emit(HomeError(
-        message:
-            'Alternatif malzemeler oluşturulurken bir hata oluştu: ${e.toString()}',
-        error: e,
-        stackTrace: stackTrace,
-      ));
+      // 🔥 FIX: Hata olsa bile ana state'e geri dön (boş ekran kalmasın)
+      emit(currentState);
     }
   }
 
@@ -824,6 +815,179 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         error: e,
         stackTrace: stackTrace,
       ));
+    }
+  }
+
+  /// 🔥 Alternatif malzeme seçimini iptal et ve ana sayfaya dön
+  Future<void> _onCancelAlternativeSelection(
+    CancelAlternativeSelection event,
+    Emitter<HomeState> emit,
+  ) async {
+    if (state is AlternativeIngredientsLoaded) {
+      final currentState = state as AlternativeIngredientsLoaded;
+      
+      // Ana HomeLoaded state'ine geri dön (hiçbir şey sıfırlanmasın)
+      emit(HomeLoaded(
+        plan: currentState.plan,
+        hedefler: currentState.hedefler,
+        kullanici: currentState.kullanici,
+        currentDate: currentState.currentDate,
+        tamamlananOgunler: currentState.tamamlananOgunler,
+      ));
+      
+      AppLogger.info('🔙 Alternatif malzeme seçimi iptal edildi - ana sayfaya dönüldü');
+    }
+  }
+
+  /// 🔥 Alternatif yemek seçimini iptal et ve ana sayfaya dön
+  Future<void> _onCancelAlternativeMealSelection(
+    CancelAlternativeMealSelection event,
+    Emitter<HomeState> emit,
+  ) async {
+    if (state is AlternativeMealsLoaded) {
+      final currentState = state as AlternativeMealsLoaded;
+      
+      // Ana HomeLoaded state'ine geri dön (hiçbir şey sıfırlanmasın)
+      emit(HomeLoaded(
+        plan: currentState.plan,
+        hedefler: currentState.hedefler,
+        kullanici: currentState.kullanici,
+        currentDate: currentState.currentDate,
+        tamamlananOgunler: currentState.tamamlananOgunler,
+      ));
+      
+      AppLogger.info('🔙 Alternatif yemek seçimi iptal edildi - ana sayfaya dönüldü');
+    }
+  }
+
+  /// ✅ YENİ ONAY SİSTEMİ: Yemeği yedi olarak işaretle
+  Future<void> _onMarkMealAsEaten(
+    MarkMealAsEaten event,
+    Emitter<HomeState> emit,
+  ) async {
+    if (state is! HomeLoaded) return;
+
+    final currentState = state as HomeLoaded;
+
+    try {
+      AppLogger.info('🍽️ Yemek yedi olarak işaretleniyor: ${event.yemekId}');
+
+      // Yemek onay servisi ile işaretle
+      final basarili = await YemekOnayServisi.yemekYedi(
+        yemekId: event.yemekId,
+        tarih: currentState.currentDate,
+        notlar: event.notlar,
+      );
+
+      if (basarili) {
+        // Güncellenmiş onay durumunu al
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
+        emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
+        AppLogger.success('✅ Yemek yedi olarak işaretlendi');
+      } else {
+        AppLogger.error('❌ Yemek işaretlenemedi');
+      }
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Yemek işaretleme hatası', error: e, stackTrace: stackTrace);
+    }
+  }
+
+  /// ✅ YENİ ONAY SİSTEMİ: Yemeği onayla (artık değiştirilemez)
+  Future<void> _onConfirmMealEaten(
+    ConfirmMealEaten event,
+    Emitter<HomeState> emit,
+  ) async {
+    if (state is! HomeLoaded) return;
+
+    final currentState = state as HomeLoaded;
+
+    try {
+      AppLogger.info('✅ Yemek onaylanıyor: ${event.yemekId}');
+
+      // Yemek onay servisi ile onayla
+      final basarili = await YemekOnayServisi.yemekOnayla(
+        yemekId: event.yemekId,
+        tarih: currentState.currentDate,
+        notlar: event.notlar,
+      );
+
+      if (basarili) {
+        // Güncellenmiş onay durumunu al
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
+        emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
+        AppLogger.success('🔒 Yemek onaylandı - artık değiştirilmez!');
+      } else {
+        AppLogger.error('❌ Yemek onaylanamadı');
+      }
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Yemek onaylama hatası', error: e, stackTrace: stackTrace);
+    }
+  }
+
+  /// ✅ YENİ ONAY SİSTEMİ: Yemeği atla
+  Future<void> _onSkipMeal(
+    SkipMeal event,
+    Emitter<HomeState> emit,
+  ) async {
+    if (state is! HomeLoaded) return;
+
+    final currentState = state as HomeLoaded;
+
+    try {
+      AppLogger.info('⏭️ Yemek atlanıyor: ${event.yemekId}');
+
+      // Yemek onay servisi ile atla
+      final basarili = await YemekOnayServisi.yemekAtla(
+        yemekId: event.yemekId,
+        tarih: currentState.currentDate,
+        notlar: event.notlar,
+      );
+
+      if (basarili) {
+        // Güncellenmiş onay durumunu al
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
+        emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
+        AppLogger.success('⏭️ Yemek atlandı');
+      } else {
+        AppLogger.error('❌ Yemek atlanamadı');
+      }
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Yemek atlama hatası', error: e, stackTrace: stackTrace);
+    }
+  }
+
+  /// ✅ YENİ ONAY SİSTEMİ: Yemek durumunu sıfırla
+  Future<void> _onResetMealStatus(
+    ResetMealStatus event,
+    Emitter<HomeState> emit,
+  ) async {
+    if (state is! HomeLoaded) return;
+
+    final currentState = state as HomeLoaded;
+
+    try {
+      AppLogger.info('🔄 Yemek durumu sıfırlanıyor: ${event.yemekId}');
+
+      // Yemek onay servisi ile sıfırla
+      final basarili = await YemekOnayServisi.yemekDurumunuSifirla(
+        yemekId: event.yemekId,
+        tarih: currentState.currentDate,
+      );
+
+      if (basarili) {
+        // Güncellenmiş onay durumunu al
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
+        emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
+        AppLogger.success('🔄 Yemek durumu sıfırlandı');
+      } else {
+        AppLogger.error('❌ Yemek durumu sıfırlanamadı');
+      }
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Yemek durumu sıfırlama hatası', error: e, stackTrace: stackTrace);
     }
   }
 }

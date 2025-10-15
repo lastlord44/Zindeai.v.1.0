@@ -5,7 +5,6 @@
 
 import 'dart:convert';
 import 'dart:io'; // Flutter bağımlılığını kaldır
-import 'package:flutter/foundation.dart'; // Sadece AppLogger için
 import 'package:flutter/services.dart';
 import '../../data/models/yemek_hive_model.dart';
 import '../../data/local/hive_service.dart';
@@ -440,22 +439,4 @@ class YemekMigration {
     return null;
   }
 
-  /// Yemek veritabanı durumu (helper method)
-  static Future<void> _yemekVeritabaniDurumu() async {
-    try {
-      final yemekSayisi = await HiveService.yemekSayisi();
-      final kategoriSayilari = await HiveService.kategoriSayilari();
-
-      AppLogger.info('🍽️ === YEMEK VERİTABANI DURUMU ===');
-      AppLogger.info('Toplam yemek sayısı: $yemekSayisi');
-      AppLogger.info('─────────────────────────────────');
-      AppLogger.info('Kategori dağılımı:');
-      kategoriSayilari.forEach((kategori, sayi) {
-        AppLogger.info('  $kategori: $sayi yemek');
-      });
-      AppLogger.info('=================================');
-    } catch (e) {
-      AppLogger.error('❌ Yemek veritabanı durumu hatası', error: e);
-    }
-  }
 }

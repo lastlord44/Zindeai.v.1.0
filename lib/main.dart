@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'data/local/hive_service.dart';
-import 'data/local/besin_malzeme_hive_service.dart';
 import 'data/datasources/yemek_hive_data_source.dart';
 import 'domain/usecases/ogun_planlayici.dart';
-import 'domain/usecases/malzeme_bazli_ogun_planlayici.dart';
 import 'domain/usecases/makro_hesapla.dart';
 import 'domain/entities/makro_hedefleri.dart';
+import 'domain/services/ai_beslenme_servisi.dart'; // 🤖 AI SERVİSİ
 import 'presentation/bloc/home/home_bloc.dart';
 import 'presentation/bloc/home/home_event.dart';
 import 'presentation/bloc/home/home_state.dart';
@@ -612,6 +611,7 @@ class HomePage extends StatelessWidget {
         ),
         malzemeBazliPlanlayici: null, // ⚡ Eski sistem kullanılıyor - HIZLI!
         makroHesaplama: MakroHesapla(),
+        aiServisi: AIBeslenmeServisi(), // 🤖 AI SERVİSİ EKLENDI
       )..add(LoadHomePage()),
       child: const HomePageView(),
     );

@@ -10,12 +10,14 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
   final Yemek mevcutYemek;
   final List<Yemek> alternatifYemekler; // 🔥 Dinamik olarak HomeBloc'tan gelecek
   final Function(Yemek) onYemekSecildi;
+  final VoidCallback? onClose; // 🔥 YENİ: Kapatma callback'i
 
   const AlternatifYemekBottomSheet({
     Key? key,
     required this.mevcutYemek,
     required this.alternatifYemekler,
     required this.onYemekSecildi,
+    this.onClose, // 🔥 CALLBACK EKLENDİ
   }) : super(key: key);
 
   static Future<Yemek?> goster(
@@ -23,6 +25,7 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
     required Yemek mevcutYemek,
     required List<Yemek> alternatifYemekler, // 🔥 Dinamik olarak HomeBloc'tan gelecek
     required Function(Yemek) onYemekSecildi,
+    VoidCallback? onClose, // 🔥 YENİ: Callback parametresi
   }) {
     return showModalBottomSheet<Yemek>(
       context: context,
@@ -32,6 +35,7 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
         mevcutYemek: mevcutYemek,
         alternatifYemekler: alternatifYemekler,
         onYemekSecildi: onYemekSecildi,
+        onClose: onClose, // 🔥 CALLBACK GEÇİRİLDİ
       ),
     );
   }
@@ -114,7 +118,11 @@ class AlternatifYemekBottomSheet extends StatelessWidget {
                 ),
               ),
               IconButton(
-                onPressed: () => Navigator.pop(context),
+                onPressed: () {
+                  // 🔥 FIX: Kapatmadan önce callback'i çağır (BLoC event tetiklenir)
+                  onClose?.call();
+                  Navigator.pop(context);
+                },
                 icon: const Icon(Icons.close),
                 tooltip: 'Kapat',
                 color: Colors.grey.shade600,

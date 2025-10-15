@@ -1,42 +1,66 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/yemek.dart';
+import '../../domain/entities/yemek_onay_sistemi.dart';
+import '../pages/meal_detail_page.dart';
+import 'animated_meal_card.dart'; // Hero tags için
 
 class DetayliOgunCard extends StatelessWidget {
   final Yemek yemek;
-  final bool tamamlandi;
-  final VoidCallback onYedimPressed;
+  final YemekDurumu yemekDurumu;
+  final VoidCallback? onYedimPressed;
+  final VoidCallback? onOnayPressed;
+  final VoidCallback? onAtlaPressed;
+  final VoidCallback? onSifirlaPressed;
   final VoidCallback? onAlternatifPressed;
   final Function(Yemek yemek, String malzemeMetni, int malzemeIndex)? onMalzemeAlternatifiPressed;
 
   const DetayliOgunCard({
     Key? key,
     required this.yemek,
-    required this.tamamlandi,
-    required this.onYedimPressed,
+    required this.yemekDurumu,
+    this.onYedimPressed,
+    this.onOnayPressed,
+    this.onAtlaPressed,
+    this.onSifirlaPressed,
     this.onAlternatifPressed,
     this.onMalzemeAlternatifiPressed,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.only(bottom: 16),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: tamamlandi ? Colors.green.shade300 : Colors.transparent,
-          width: 2,
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.05),
-            blurRadius: 10,
-            offset: const Offset(0, 2),
+    // 🎭 Hero transition ile sarmalanmış GestureDetector
+    return GestureDetector(
+      onTap: () {
+        // 🎯 Meal detail page'e navigate et
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => MealDetailPage(yemek: yemek),
           ),
-        ],
-      ),
-      child: Column(
+        );
+      },
+      child: Hero(
+        tag: HeroTags.mealCard(yemek.id),
+        child: Material(
+          color: Colors.transparent,
+          child: Container(
+            margin: const EdgeInsets.only(bottom: 16),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: _getDurumRengi(),
+                width: _getDurumRengi() == Colors.transparent ? 0 : 2,
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: 0.05),
+                  blurRadius: 10,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+            ),
+            child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // Başlık ve öğün tipi
@@ -79,187 +103,58 @@ class DetayliOgunCard extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 2),
-                      Text(
-                        yemek.ad,
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
+                      // 🎭 Hero transition için yemek adı
+                      Hero(
+                        tag: HeroTags.mealTitle(yemek.id),
+                        child: Material(
+                          color: Colors.transparent,
+                          child: Text(
+                            yemek.ad,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         ),
                       ),
                     ],
                   ),
                 ),
-                if (tamamlandi)
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 6,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.green,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: const Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(
-                          Icons.check_circle,
-                          color: Colors.white,
-                          size: 16,
-                        ),
-                        SizedBox(width: 4),
-                        Text(
-                          'Yedim',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 11,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                      ],
-                    ),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
                   ),
+                  decoration: BoxDecoration(
+                    color: _getDurumRengi(),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(
+                        _getDurumIcon(),
+                        color: Colors.white,
+                        size: 16,
+                      ),
+                      const SizedBox(width: 4),
+                      Text(
+                        _getDurumMetni(),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
 
-          // Malzemeler listesi - aciklama varsa onu göster (gram bilgili), yoksa malzemeler array'ini göster
-          if (yemek.tarif != null && yemek.tarif!.contains('(') && yemek.tarif!.contains('g)')) ...[
-            // Tarif field'ı malzeme gramlarını içeriyor (açıklama formatında)
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text(
-                    'Malzemeler:',
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.grey,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  // Tarifi virgüllerle böl ve her malzemeyi listele
-                  ..._parseMalzemelerFromTarif(yemek.tarif!).asMap().entries.map((entry) {
-                    final index = entry.key;
-                    final malzeme = entry.value;
-                    
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 4),
-                      child: Row(
-                        children: [
-                          Container(
-                            width: 4,
-                            height: 4,
-                            decoration: BoxDecoration(
-                              color: _getOgunRengi(),
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              malzeme,
-                              style: const TextStyle(
-                                fontSize: 13,
-                                color: Colors.black87,
-                              ),
-                            ),
-                          ),
-                          // Malzeme alternatifi butonu
-                          if (onMalzemeAlternatifiPressed != null)
-                            InkWell(
-                              onTap: () => onMalzemeAlternatifiPressed!(
-                                yemek,
-                                malzeme,
-                                index,
-                              ),
-                              borderRadius: BorderRadius.circular(12),
-                              child: Padding(
-                                padding: const EdgeInsets.all(4),
-                                child: Icon(
-                                  Icons.swap_horiz,
-                                  size: 16,
-                                  color: _getOgunRengi().withValues(alpha: 0.7),
-                                ),
-                              ),
-                            ),
-                        ],
-                      ),
-                    );
-                  }),
-                ],
-              ),
-            ),
-          ] else if (yemek.malzemeler.isNotEmpty) ...[
-            // Fallback: Sadece malzeme isimleri varsa onları göster
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text(
-                    'Malzemeler:',
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.grey,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  ...yemek.malzemeler.asMap().entries.map((entry) {
-                    final index = entry.key;
-                    final malzeme = entry.value;
-                    
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 4),
-                      child: Row(
-                        children: [
-                          Container(
-                            width: 4,
-                            height: 4,
-                            decoration: BoxDecoration(
-                              color: _getOgunRengi(),
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              malzeme,
-                              style: const TextStyle(
-                                fontSize: 13,
-                                color: Colors.black87,
-                              ),
-                            ),
-                          ),
-                          // Malzeme alternatifi butonu
-                          if (onMalzemeAlternatifiPressed != null)
-                            InkWell(
-                              onTap: () => onMalzemeAlternatifiPressed!(
-                                yemek,
-                                malzeme,
-                                index,
-                              ),
-                              borderRadius: BorderRadius.circular(12),
-                              child: Padding(
-                                padding: const EdgeInsets.all(4),
-                                child: Icon(
-                                  Icons.swap_horiz,
-                                  size: 16,
-                                  color: _getOgunRengi().withValues(alpha: 0.7),
-                                ),
-                              ),
-                            ),
-                        ],
-                      ),
-                    );
-                  }),
-                ],
-              ),
-            ),
-          ],
+          // Malzemeler
+          _buildMalzemeler(),
 
           // Makro değerler
           Container(
@@ -295,91 +190,244 @@ class DetayliOgunCard extends StatelessWidget {
             ),
           ),
 
-          // Butonlar - Yedim ve Yemedim ayrı ayrı
+          // Butonlar - 4-State Onay Sistemi
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
             child: Column(
               children: [
-                // Yedim / Yemedim butonları
-                Row(
-                  children: [
-                    Expanded(
-                      child: ElevatedButton(
-                        onPressed: tamamlandi ? null : onYedimPressed,
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: tamamlandi
-                              ? Colors.green
-                              : Colors.grey.shade200,
-                          foregroundColor: tamamlandi
-                              ? Colors.white
-                              : Colors.grey.shade700,
-                          padding: const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
+                // Ana durum butonları
+                if (yemekDurumu == YemekDurumu.bekliyor) ...[
+                  Row(
+                    children: [
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: onYedimPressed,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.green,
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(vertical: 14),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            elevation: 2,
                           ),
-                          elevation: tamamlandi ? 2 : 0,
+                          child: const Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(Icons.check_circle_outline, size: 18),
+                              SizedBox(width: 8),
+                              Text(
+                                'Yedim',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                        child: Row(
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: onAtlaPressed,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.red,
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(vertical: 14),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            elevation: 2,
+                          ),
+                          child: const Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(Icons.cancel_outlined, size: 18),
+                              SizedBox(width: 8),
+                              Text(
+                                'Atla',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ] else if (yemekDurumu == YemekDurumu.yedi) ...[
+                  // Yendi, onay bekliyor
+                  Column(
+                    children: [
+                      Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: Colors.blue.shade50,
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(color: Colors.blue.shade200),
+                        ),
+                        child: const Text(
+                          '✅ Yediğinizi belirttiniz. Onaylamak için "Onayla" butonuna basın.',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: ElevatedButton(
+                              onPressed: onOnayPressed,
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.blue,
+                                foregroundColor: Colors.white,
+                                padding: const EdgeInsets.symmetric(vertical: 14),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                elevation: 2,
+                              ),
+                              child: const Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.verified, size: 18),
+                                  SizedBox(width: 8),
+                                  Text(
+                                    'Onayla & Kilitle',
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: ElevatedButton(
+                              onPressed: onSifirlaPressed,
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.grey.shade400,
+                                foregroundColor: Colors.white,
+                                padding: const EdgeInsets.symmetric(vertical: 14),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                              ),
+                              child: const Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(Icons.undo, size: 18),
+                                  SizedBox(width: 8),
+                                  Text(
+                                    'Geri Al',
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ] else if (yemekDurumu == YemekDurumu.onaylandi) ...[
+                  // Onaylandı ve kilitlendi
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: Colors.green.shade50,
+                      borderRadius: BorderRadius.circular(12),
+                      border: Border.all(color: Colors.green.shade300),
+                    ),
+                    child: const Column(
+                      children: [
+                        Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(
-                              tamamlandi
-                                  ? Icons.check_circle
-                                  : Icons.check_circle_outline,
-                              size: 18,
-                            ),
-                            const SizedBox(width: 8),
-                            const Text(
-                              'Yedim',
+                            Icon(Icons.lock, color: Colors.green, size: 20),
+                            SizedBox(width: 8),
+                            Text(
+                              'KİLİTLENDİ',
                               style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.w600,
+                                color: Colors.green,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
                               ),
                             ),
                           ],
                         ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: ElevatedButton(
-                        onPressed: !tamamlandi ? null : onYedimPressed,
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: !tamamlandi
-                              ? Colors.red
-                              : Colors.grey.shade200,
-                          foregroundColor: !tamamlandi
-                              ? Colors.white
-                              : Colors.grey.shade700,
-                          padding: const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(12),
+                        SizedBox(height: 4),
+                        Text(
+                          'Bu öğün onaylandı ve rapor için kaydedildi.',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.green,
+                            fontSize: 12,
                           ),
-                          elevation: !tamamlandi ? 2 : 0,
                         ),
-                        child: Row(
+                      ],
+                    ),
+                  ),
+                ] else if (yemekDurumu == YemekDurumu.ataldi) ...[
+                  // Atlandı
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: Colors.red.shade50,
+                      borderRadius: BorderRadius.circular(12),
+                      border: Border.all(color: Colors.red.shade300),
+                    ),
+                    child: Column(
+                      children: [
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(
-                              !tamamlandi
-                                  ? Icons.cancel
-                                  : Icons.cancel_outlined,
-                              size: 18,
-                            ),
-                            const SizedBox(width: 8),
-                            const Text(
-                              'Yemedim',
+                            Icon(Icons.block, color: Colors.red, size: 20),
+                            SizedBox(width: 8),
+                            Text(
+                              'ATLANDI',
                               style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.w600,
+                                color: Colors.red,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
                               ),
                             ),
                           ],
                         ),
-                      ),
+                        const SizedBox(height: 8),
+                        ElevatedButton(
+                          onPressed: onSifirlaPressed,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.orange,
+                            foregroundColor: Colors.white,
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                          child: const Text(
+                            'Tekrar Dene',
+                            style: TextStyle(fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
+                  ),
+                ],
                 
                 // 🍽️ Alternatif yemek butonu - Tüm yemeği değiştir
                 if (onAlternatifPressed != null) ...[
@@ -410,7 +458,94 @@ class DetayliOgunCard extends StatelessWidget {
                 ],
               ],
             ),
+            ),
+          ],
+        ),
+      ),
+    ),
+    ),
+    );
+  }
+
+  /// Malzemeler bölümünü oluşturan ana widget.
+  /// Tarifte gramaj bilgisi varsa onu, yoksa standart malzeme listesini kullanır.
+  Widget _buildMalzemeler() {
+    final bool hasTarifWithGrams =
+        yemek.tarif != null && yemek.tarif!.contains('(') && yemek.tarif!.contains('g)');
+
+    if (hasTarifWithGrams) {
+      final malzemeler = _parseMalzemelerFromTarif(yemek.tarif!);
+      return _buildMalzemelerListesi(malzemeler);
+    } else if (yemek.malzemeler.isNotEmpty) {
+      return _buildMalzemelerListesi(yemek.malzemeler);
+    } else {
+      return const SizedBox.shrink(); // Malzeme yoksa bir şey gösterme
+    }
+  }
+
+  /// Verilen bir malzeme listesini UI'da gösteren widget.
+  Widget _buildMalzemelerListesi(List<String> malzemeler) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            'Malzemeler:',
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w600,
+              color: Colors.grey,
+            ),
           ),
+          const SizedBox(height: 8),
+          ...malzemeler.asMap().entries.map((entry) {
+            final index = entry.key;
+            final malzeme = entry.value;
+
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 4),
+              child: Row(
+                children: [
+                  Container(
+                    width: 4,
+                    height: 4,
+                    decoration: BoxDecoration(
+                      color: _getOgunRengi(),
+                      shape: BoxShape.circle,
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      malzeme,
+                      style: const TextStyle(
+                        fontSize: 13,
+                        color: Colors.black87,
+                      ),
+                    ),
+                  ),
+                  if (onMalzemeAlternatifiPressed != null)
+                    InkWell(
+                      onTap: () => onMalzemeAlternatifiPressed!(
+                        yemek,
+                        malzeme,
+                        index,
+                      ),
+                      borderRadius: BorderRadius.circular(12),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4),
+                        child: Icon(
+                          Icons.swap_horiz,
+                          size: 16,
+                          color: _getOgunRengi().withAlpha(180),
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            );
+          }),
         ],
       ),
     );
@@ -468,6 +603,45 @@ class DetayliOgunCard extends StatelessWidget {
         return Colors.indigo;
       case OgunTipi.cheatMeal:
         return Colors.pink;
+    }
+  }
+
+  Color _getDurumRengi() {
+    switch (yemekDurumu) {
+      case YemekDurumu.bekliyor:
+        return Colors.transparent;
+      case YemekDurumu.yedi:
+        return Colors.blue.shade300;
+      case YemekDurumu.onaylandi:
+        return Colors.green.shade300;
+      case YemekDurumu.ataldi:
+        return Colors.red.shade300;
+    }
+  }
+
+  IconData _getDurumIcon() {
+    switch (yemekDurumu) {
+      case YemekDurumu.bekliyor:
+        return Icons.schedule;
+      case YemekDurumu.yedi:
+        return Icons.check_circle;
+      case YemekDurumu.onaylandi:
+        return Icons.verified;
+      case YemekDurumu.ataldi:
+        return Icons.block;
+    }
+  }
+
+  String _getDurumMetni() {
+    switch (yemekDurumu) {
+      case YemekDurumu.bekliyor:
+        return 'Bekliyor';
+      case YemekDurumu.yedi:
+        return 'Yedi';
+      case YemekDurumu.onaylandi:
+        return 'Onaylandı';
+      case YemekDurumu.ataldi:
+        return 'Atlandı';
     }
   }
 }

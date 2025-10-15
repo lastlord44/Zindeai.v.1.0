@@ -11,6 +11,7 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
   final String orijinalBirim;
   final List<AlternatifBesinLegacy> alternatifler;
   final String alerjiNedeni; // "Ceviz alerjiniz var" veya "Bulamıyorum"
+  final VoidCallback? onClose; // 🔥 YENİ: Kapatma callback'i
 
   const AlternatifBesinBottomSheet({
     Key? key,
@@ -19,6 +20,7 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
     required this.orijinalBirim,
     required this.alternatifler,
     required this.alerjiNedeni,
+    this.onClose, // 🔥 CALLBACK EKLENDİ
   }) : super(key: key);
 
   static Future<AlternatifBesinLegacy?> goster(
@@ -28,6 +30,7 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
     required String orijinalBirim,
     required List<AlternatifBesinLegacy> alternatifler,
     required String alerjiNedeni,
+    VoidCallback? onClose, // 🔥 YENİ: Callback parametresi
   }) {
     return showModalBottomSheet<AlternatifBesinLegacy>(
       context: context,
@@ -39,6 +42,7 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
         orijinalBirim: orijinalBirim,
         alternatifler: alternatifler,
         alerjiNedeni: alerjiNedeni,
+        onClose: onClose, // 🔥 CALLBACK GEÇİRİLDİ
       ),
     );
   }
@@ -112,7 +116,11 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
                     ),
                     // Geri/Kapat butonu
                     IconButton(
-                      onPressed: () => Navigator.pop(context),
+                      onPressed: () {
+                        // 🔥 FIX: Kapatmadan önce callback'i çağır (BLoC event tetiklenir)
+                        onClose?.call();
+                        Navigator.pop(context);
+                      },
                       icon: const Icon(Icons.close),
                       tooltip: 'Kapat',
                       color: Colors.grey.shade600,

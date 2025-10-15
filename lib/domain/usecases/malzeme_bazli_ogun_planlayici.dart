@@ -10,7 +10,6 @@ import '../entities/ogun_sablonu.dart';
 import '../entities/gunluk_plan.dart';
 import '../entities/makro_hedefleri.dart';
 import '../entities/yemek.dart';
-import '../entities/malzeme_miktar.dart';
 import 'malzeme_tabanli_genetik_algoritma.dart';
 
 class MalzemeBazliOgunPlanlayici {
@@ -384,110 +383,6 @@ class MalzemeBazliOgunPlanlayici {
     );
   }
   
-  /// Günlük toplam kontrolü - Makroları dengelemek için
-  Future<Map<OgunTipi, Ogun>> _gunlukToplamKontrolu({
-    required Map<OgunTipi, Ogun> ogunler,
-    required double hedefKalori,
-    required double hedefProtein,
-    required double hedefKarb,
-    required double hedefYag,
-    required List<BesinMalzeme> uygunBesinler,
-    required Map<OgunTipi, OgunSablonu> sablonMap,
-  }) async {
-    // Toplam makroları hesapla
-    double toplamKalori = 0, toplamProtein = 0, toplamKarb = 0, toplamYag = 0;
-    for (final ogun in ogunler.values) {
-      toplamKalori += ogun.gercekMakrolar.kalori;
-      toplamProtein += ogun.gercekMakrolar.protein;
-      toplamKarb += ogun.gercekMakrolar.karbonhidrat;
-      toplamYag += ogun.gercekMakrolar.yag;
-    }
-    
-    // Sapmaları hesapla
-    final kaloriSapma = ((toplamKalori - hedefKalori).abs() / hedefKalori);
-    final proteinSapma = ((toplamProtein - hedefProtein).abs() / hedefProtein);
-    final karbSapma = ((toplamKarb - hedefKarb).abs() / hedefKarb);
-    final yagSapma = ((toplamYag - hedefYag).abs() / hedefYag);
-    
-    AppLogger.info('');
-    AppLogger.info('🔍 GÜNLÜK TOPLAM KONTROLÜ:');
-    AppLogger.info('   Kalori: ${toplamKalori.toStringAsFixed(0)} / ${hedefKalori.toStringAsFixed(0)} (${(kaloriSapma * 100).toStringAsFixed(1)}% sapma)');
-    AppLogger.info('   Protein: ${toplamProtein.toStringAsFixed(0)} / ${hedefProtein.toStringAsFixed(0)} (${(proteinSapma * 100).toStringAsFixed(1)}% sapma)');
-    AppLogger.info('   Karb: ${toplamKarb.toStringAsFixed(0)} / ${hedefKarb.toStringAsFixed(0)} (${(karbSapma * 100).toStringAsFixed(1)}% sapma)');
-    AppLogger.info('   Yağ: ${toplamYag.toStringAsFixed(0)} / ${hedefYag.toStringAsFixed(0)} (${(yagSapma * 100).toStringAsFixed(1)}% sapma)');
-    
-    // %5'ten fazla sapma varsa düzelt
-    if (proteinSapma > 0.05 || karbSapma > 0.05 || yagSapma > 0.05 || kaloriSapma > 0.05) {
-      AppLogger.warning('⚠️ Günlük toplam sapması %5\'i aşıyor, yeniden dengeleniyor...');
-      
-      // En çok sapan makroyu bul
-      final sapmalar = {
-        'protein': proteinSapma,
-        'karb': karbSapma,
-        'yag': yagSapma,
-      };
-      final enBuyukSapma = sapmalar.entries.reduce((a, b) => a.value > b.value ? a : b);
-      
-      // Hangi makro fazla/eksik?
-      Map<String, double> farklar = {
-        'protein': toplamProtein - hedefProtein,
-        'karb': toplamKarb - hedefKarb,
-        'yag': toplamYag - hedefYag,
-      };
-      
-      AppLogger.info('   📊 En büyük sapma: ${enBuyukSapma.key} (%${(enBuyukSapma.value * 100).toStringAsFixed(1)})');
-      AppLogger.info('   🎯 Farklar: Protein ${farklar['protein']!.toStringAsFixed(1)}g, Karb ${farklar['karb']!.toStringAsFixed(1)}g, Yağ ${farklar['yag']!.toStringAsFixed(1)}g');
-      
-      // Ara öğünleri yeniden oluştur (daha küçük hedeflerle)
-      final yeniOgunler = Map<OgunTipi, Ogun>.from(ogunler);
-      
-      // Hangi öğünleri düzelteceğimize karar ver
-      final duzeltilecekOgunler = <OgunTipi>[];
-      
-      // Protein fazlaysa, ara öğünlerde protein azalt
-      if (farklar['protein']! > 0) {
-        duzeltilecekOgunler.addAll([OgunTipi.araOgun1, OgunTipi.araOgun2]);
-      }
-      
-      // Karb fazlaysa, ara öğünlerde karb azalt
-      if (farklar['karb']! > 0 && duzeltilecekOgunler.length < 2) {
-        duzeltilecekOgunler.add(OgunTipi.araOgun1);
-      }
-      
-      // Düzeltme yap
-      for (final ogunTipi in duzeltilecekOgunler) {
-        final mevcutOgun = ogunler[ogunTipi]!;
-        final mevcutProtein = mevcutOgun.gercekMakrolar.protein;
-        final mevcutKarb = mevcutOgun.gercekMakrolar.karbonhidrat;
-        
-        // Yeni hedefleri düşür (%80'ine)
-        final yeniHedefProtein = mevcutProtein * 0.8;
-        final yeniHedefKarb = mevcutKarb * 0.8;
-        final yeniHedefYag = mevcutOgun.gercekMakrolar.yag * 0.8;
-        final yeniHedefKalori = (yeniHedefProtein * 4) + (yeniHedefKarb * 4) + (yeniHedefYag * 9);
-        
-        AppLogger.info('   🔧 ${ogunTipi.name} yeniden oluşturuluyor (hedefler %80\'e düşürüldü)');
-        
-        final yeniOgun = await _ogunOlustur(
-          besinler: uygunBesinler,
-          ogunTipi: ogunTipi,
-          sablon: sablonMap[ogunTipi]!,
-          hedefKalori: yeniHedefKalori,
-          hedefProtein: yeniHedefProtein,
-          hedefKarb: yeniHedefKarb,
-          hedefYag: yeniHedefYag,
-        );
-        
-        yeniOgunler[ogunTipi] = yeniOgun;
-      }
-      
-      AppLogger.success('✅ Günlük toplam dengelendi');
-      return yeniOgunler;
-    }
-    
-    AppLogger.success('✅ Günlük toplam tolerans içinde');
-    return ogunler;
-  }
   
   /// Plan detaylarını logla
   void _planDetaylariniLogla(GunlukPlan plan) {

@@ -137,3 +137,66 @@ class ReplaceIngredientWith extends HomeEvent {
   @override
   List<Object?> get props => [yemek, malzemeIndex, yeniMalzemeMetni];
 }
+
+/// 🔥 YENİ EVENT: Alternatif seçimini iptal et ve ana sayfaya dön
+class CancelAlternativeSelection extends HomeEvent {
+  const CancelAlternativeSelection();
+}
+
+/// 🔥 YENİ EVENT: Alternatif yemek seçimini iptal et ve ana sayfaya dön
+class CancelAlternativeMealSelection extends HomeEvent {
+  const CancelAlternativeMealSelection();
+}
+
+/// ✅ YENİ ONAY SİSTEMİ EVENT'LERİ
+/// Yemeği yedi olarak işaretle (henüz onaylamadı)
+class MarkMealAsEaten extends HomeEvent {
+  final String yemekId;
+  final String? notlar;
+
+  const MarkMealAsEaten({
+    required this.yemekId,
+    this.notlar,
+  });
+
+  @override
+  List<Object?> get props => [yemekId, notlar];
+}
+
+/// Yemeği onayla (artık değiştirilemesin)
+class ConfirmMealEaten extends HomeEvent {
+  final String yemekId;
+  final String? notlar;
+
+  const ConfirmMealEaten({
+    required this.yemekId,
+    this.notlar,
+  });
+
+  @override
+  List<Object?> get props => [yemekId, notlar];
+}
+
+/// Yemeği atla
+class SkipMeal extends HomeEvent {
+  final String yemekId;
+  final String? notlar;
+
+  const SkipMeal({
+    required this.yemekId,
+    this.notlar,
+  });
+
+  @override
+  List<Object?> get props => [yemekId, notlar];
+}
+
+/// Yemek durumunu sıfırla
+class ResetMealStatus extends HomeEvent {
+  final String yemekId;
+
+  const ResetMealStatus({required this.yemekId});
+
+  @override
+  List<Object?> get props => [yemekId];
+}

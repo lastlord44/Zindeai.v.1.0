@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/gunluk_plan.dart';
+import 'animated_meal_card.dart'; // 🎨 Progress Ring Animation
 
 class KompaktMakroOzet extends StatelessWidget {
   final double mevcutKalori;
@@ -242,49 +243,65 @@ class KompaktMakroOzet extends StatelessWidget {
     Color renk,
   ) {
     final yuzde = (mevcut / hedef * 100).clamp(0, 100);
+    final progress = (yuzde / 100).clamp(0.0, 1.0);
 
     return Row(
       children: [
-        // Emoji ve başlık
-        Text(emoji, style: const TextStyle(fontSize: 18)),
-        const SizedBox(width: 8),
-        SizedBox(
-          width: 90,
+        // 🎨 Animated Progress Ring
+        ProgressRing(
+          progress: progress,
+          size: 50,
+          strokeWidth: 5,
+          startColor: renk,
+          endColor: renk.withOpacity(0.6),
           child: Text(
-            baslik,
-            style: const TextStyle(
-              fontSize: 13,
-              fontWeight: FontWeight.w600,
-            ),
+            emoji,
+            style: const TextStyle(fontSize: 18),
           ),
         ),
-
-        // Progress bar
-        Expanded(
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(8),
-            child: LinearProgressIndicator(
-              value: yuzde / 100,
-              minHeight: 8,
-              backgroundColor: renk.withValues(alpha: 0.15),
-              valueColor: AlwaysStoppedAnimation(renk),
-            ),
-          ),
-        ),
-
         const SizedBox(width: 12),
-
-        // Değerler
-        SizedBox(
-          width: 80,
-          child: Text(
-            '${mevcut.toStringAsFixed(0)}/${hedef.toStringAsFixed(0)}$birim',
-            textAlign: TextAlign.right,
-            style: TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.w600,
-              color: Colors.grey.shade700,
-            ),
+        
+        // Başlık ve değerler
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                baslik,
+                style: const TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  // Progress bar
+                  Expanded(
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(8),
+                      child: LinearProgressIndicator(
+                        value: progress,
+                        minHeight: 6,
+                        backgroundColor: renk.withValues(alpha: 0.15),
+                        valueColor: AlwaysStoppedAnimation(renk),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  // Değerler
+                  Text(
+                    '${mevcut.toStringAsFixed(0)}/${hedef.toStringAsFixed(0)}$birim',
+                    style: TextStyle(
+                      fontSize: 11,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.grey.shade600,
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ],

@@ -6,6 +6,7 @@ import '../../../domain/entities/makro_hedefleri.dart';
 import '../../../domain/entities/kullanici_profili.dart';
 import '../../../domain/entities/yemek.dart';
 import '../../../domain/entities/alternatif_besin_legacy.dart';
+import '../../../domain/entities/yemek_onay_sistemi.dart';
 
 abstract class HomeState extends Equatable {
   const HomeState();
@@ -33,7 +34,8 @@ class HomeLoaded extends HomeState {
   final MakroHedefleri hedefler;
   final KullaniciProfili kullanici;
   final DateTime currentDate;
-  final Map<String, bool> tamamlananOgunler; // yemekId -> tamamlandı mı?
+  final Map<String, bool> tamamlananOgunler; // yemekId -> tamamlandı mı? (LEGACY)
+  final GunlukOnayDurumu? gunlukOnayDurumu; // ✅ YENİ ONAY SİSTEMİ
 
   const HomeLoaded({
     required this.plan,
@@ -41,6 +43,7 @@ class HomeLoaded extends HomeState {
     required this.kullanici,
     required this.currentDate,
     this.tamamlananOgunler = const {},
+    this.gunlukOnayDurumu, // ✅ YENİ ONAY SİSTEMİ
   });
 
   /// Tamamlanan öğün sayısı
@@ -84,6 +87,7 @@ class HomeLoaded extends HomeState {
     KullaniciProfili? kullanici,
     DateTime? currentDate,
     Map<String, bool>? tamamlananOgunler,
+    GunlukOnayDurumu? gunlukOnayDurumu,
   }) {
     return HomeLoaded(
       plan: plan ?? this.plan,
@@ -91,6 +95,7 @@ class HomeLoaded extends HomeState {
       kullanici: kullanici ?? this.kullanici,
       currentDate: currentDate ?? this.currentDate,
       tamamlananOgunler: tamamlananOgunler ?? this.tamamlananOgunler,
+      gunlukOnayDurumu: gunlukOnayDurumu ?? this.gunlukOnayDurumu,
     );
   }
 
@@ -101,6 +106,7 @@ class HomeLoaded extends HomeState {
         kullanici,
         currentDate,
         tamamlananOgunler,
+        gunlukOnayDurumu,
       ];
 }
 

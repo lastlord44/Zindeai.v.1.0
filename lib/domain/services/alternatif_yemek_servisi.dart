@@ -1,6 +1,5 @@
 // lib/domain/services/alternatif_yemek_servisi.dart
 
-import 'dart:math';
 import '../entities/yemek.dart';
 
 class AlternatifYemekServisi {

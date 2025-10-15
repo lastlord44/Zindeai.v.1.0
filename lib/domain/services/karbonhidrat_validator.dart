@@ -4,7 +4,6 @@
 // ============================================================================
 
 import '../entities/yemek.dart';
-import '../../core/utils/app_logger.dart';
 
 /// Yemeklerdeki karbonhidrat kombinasyonlarini kontrol eden servis
 class KarbonhidratValidator {
