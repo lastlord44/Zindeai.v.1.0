@@ -30,20 +30,20 @@ class DetayliOgunCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // 🎭 Hero transition ile sarmalanmış GestureDetector
-    return GestureDetector(
-      onTap: () {
-        // 🎯 Meal detail page'e navigate et
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => MealDetailPage(yemek: yemek),
-          ),
-        );
-      },
-      child: Hero(
-        tag: HeroTags.mealCard(yemek.id),
-        child: Material(
-          color: Colors.transparent,
+    return Hero(
+      tag: HeroTags.mealCard(yemek.id),
+      child: Material(
+        color: Colors.transparent,
+        child: GestureDetector(
+          onTap: () {
+            // 🎯 Meal detail page'e navigate et
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => MealDetailPage(yemek: yemek),
+              ),
+            );
+          },
           child: Container(
             margin: const EdgeInsets.only(bottom: 16),
             decoration: BoxDecoration(

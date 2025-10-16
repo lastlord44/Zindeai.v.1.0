@@ -85,3 +85,4 @@ linter:
     # Kullanım
     - unused_import
     - unused_local_variable
+
