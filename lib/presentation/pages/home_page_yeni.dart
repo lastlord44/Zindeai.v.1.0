@@ -449,9 +449,33 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                               yemek: yemek,
                               yemekDurumu: yemekDurumu,
                               onYedimPressed: () {
-                                context
-                                    .read<HomeBloc>()
-                                    .add(ToggleMealCompletion(yemek.id));
+                                // Onay dialog'u göster
+                                showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return AlertDialog(
+                                      title: const Text('Yemek Onayı'),
+                                      content: Text('${yemek.ad} yemeğini yediğinizi onaylıyor musunuz?'),
+                                      actions: [
+                                        TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop();
+                                          },
+                                          child: const Text('İptal'),
+                                        ),
+                                        ElevatedButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop();
+                                            context
+                                                .read<HomeBloc>()
+                                                .add(MarkMealAsEaten(yemekId: yemek.id));
+                                          },
+                                          child: const Text('Evet, Yedim'),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
                               },
                               onSifirlaPressed: () {
                                 context

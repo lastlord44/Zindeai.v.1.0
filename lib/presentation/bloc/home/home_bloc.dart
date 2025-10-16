@@ -26,7 +26,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     this.malzemeBazliPlanlayici,
     required this.makroHesaplama,
     AIBeslenmeServisi? aiServisi, // 🤖 OPTIONAL AI SERVİS
-  }) : aiServisi = aiServisi ?? AIBeslenmeServisi(), // 🤖 DEFAULT AI SERVİS
+  })  : aiServisi = aiServisi ?? AIBeslenmeServisi(), // 🤖 DEFAULT AI SERVİS
         super(HomeInitial()) {
     on<LoadHomePage>(_onLoadHomePage);
     on<RefreshDailyPlan>(_onRefreshDailyPlan);
@@ -171,7 +171,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       }
 
       // ✅ YENİ ONAY SİSTEMİ: Günlük onay durumunu getir
-      final gunlukOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(today);
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(today);
 
       emit(HomeLoaded(
         plan: plan,
@@ -461,12 +462,15 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     final currentState = state as HomeLoaded;
 
     try {
-      emit(const HomeLoading(message: '🤖 AI alternatif yemekler üretiliyor...'));
+      emit(const HomeLoading(
+          message: '🤖 AI alternatif yemekler üretiliyor...'));
 
-      AppLogger.info('🤖 AI Alternatif Sistemi: ${event.mevcutYemek.ad} için alternatifler üretiliyor...');
+      AppLogger.info(
+          '🤖 AI Alternatif Sistemi: ${event.mevcutYemek.ad} için alternatifler üretiliyor...');
 
       // 🤖 AI SERVİSİ İLE ALTERNATİF ÜRET
-      final alternatifler = await aiServisi.alternatifleriGetir(event.mevcutYemek);
+      final alternatifler =
+          await aiServisi.alternatifleriGetir(event.mevcutYemek);
 
       AppLogger.success(
           '✅ ${event.mevcutYemek.ad} için ${alternatifler.length} AI alternatifi üretildi');
@@ -633,7 +637,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     final currentState = state as HomeLoaded;
 
     try {
-      emit(const HomeLoading(message: '🤖 AI alternatif malzemeler üretiliyor...'));
+      emit(const HomeLoading(
+          message: '🤖 AI alternatif malzemeler üretiliyor...'));
 
       // Malzemeyi parse et
       final parsedMalzeme = MalzemeParserServisi.parse(event.malzemeMetni);
@@ -641,13 +646,14 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       if (parsedMalzeme == null) {
         AppLogger.warning(
             '⚠️ Malzeme parse edilemedi: "${event.malzemeMetni}"');
-        
+
         // 🔥 FIX: Parse hatası olsa bile state'e geri dön (boş ekran kalmasın)
         emit(currentState);
         return;
       }
 
-      AppLogger.info('🤖 AI Malzeme Alternatif Sistemi: "${parsedMalzeme.besinAdi}" için alternatifler üretiliyor...');
+      AppLogger.info(
+          '🤖 AI Malzeme Alternatif Sistemi: "${parsedMalzeme.besinAdi}" için alternatifler üretiliyor...');
 
       // 🤖 AI SERVİSİ İLE MALZEME ALTERNATİFİ ÜRET - ÖĞÜN TİPİNE UYGUN!
       final alternatifler = await aiServisi.malzemeAlternatifleriGetir(
@@ -656,8 +662,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         birim: parsedMalzeme.birim,
         ogunTipi: event.yemek.ogun, // 🔥 ÖĞÜN TİPİNİ GÖNDER!
       );
-      
-      AppLogger.info('🎯 AI Öğün Filtresi: ${event.yemek.ogun.name} -> Uygun alternatifler üretildi');
+
+      AppLogger.info(
+          '🎯 AI Öğün Filtresi: ${event.yemek.ogun.name} -> Uygun alternatifler üretildi');
 
       AppLogger.success(
           '✅ "${parsedMalzeme.besinAdi}" için ${alternatifler.length} AI alternatifi üretildi');
@@ -672,6 +679,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         hedefler: currentState.hedefler,
         kullanici: currentState.kullanici,
         currentDate: currentState.currentDate,
+        tamamlananKalori: currentState.tamamlananKalori,
+        tamamlananProtein: currentState.tamamlananProtein,
+        tamamlananKarb: currentState.tamamlananKarb,
+        tamamlananYag: currentState.tamamlananYag,
         tamamlananOgunler: currentState.tamamlananOgunler,
       ));
     } catch (e, stackTrace) {
@@ -722,7 +733,25 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       yeniMalzemeler[event.malzemeIndex] = event.yeniMalzemeMetni;
 
       // Yeni yemek oluştur (malzeme değişmiş)
-      final yeniYemek = event.yemek.copyWith(malzemeler: yeniMalzemeler);
+      final yeniYemek = Yemek(
+        id: event.yemek.id,
+        ad: event.yemek.ad,
+        kalori: event.yemek.kalori,
+        protein: event.yemek.protein,
+        karbonhidrat: event.yemek.karbonhidrat,
+        yag: event.yemek.yag,
+        malzemeler: yeniMalzemeler,
+        ogun: event.yemek.ogun,
+        kategori: event.yemek.kategori,
+        hazirlikSuresi: event.yemek.hazirlikSuresi,
+        zorluk: event.yemek.zorluk,
+        aciklama: event.yemek.aciklama,
+        resimUrl: event.yemek.resimUrl,
+        alerjiBilgileri: event.yemek.alerjiBilgileri,
+        besinDegeri: event.yemek.besinDegeri,
+        porsiyon: event.yemek.porsiyon,
+        olusturulmaTarihi: event.yemek.olusturulmaTarihi,
+      );
 
       // Plandaki yemekleri güncelle
       final yeniOgunler = currentPlan.ogunler.map((yemek) {
@@ -825,7 +854,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   ) async {
     if (state is AlternativeIngredientsLoaded) {
       final currentState = state as AlternativeIngredientsLoaded;
-      
+
       // Ana HomeLoaded state'ine geri dön (hiçbir şey sıfırlanmasın)
       emit(HomeLoaded(
         plan: currentState.plan,
@@ -834,8 +863,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         currentDate: currentState.currentDate,
         tamamlananOgunler: currentState.tamamlananOgunler,
       ));
-      
-      AppLogger.info('🔙 Alternatif malzeme seçimi iptal edildi - ana sayfaya dönüldü');
+
+      AppLogger.info(
+          '🔙 Alternatif malzeme seçimi iptal edildi - ana sayfaya dönüldü');
     }
   }
 
@@ -846,7 +876,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   ) async {
     if (state is AlternativeMealsLoaded) {
       final currentState = state as AlternativeMealsLoaded;
-      
+
       // Ana HomeLoaded state'ine geri dön (hiçbir şey sıfırlanmasın)
       emit(HomeLoaded(
         plan: currentState.plan,
@@ -855,8 +885,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         currentDate: currentState.currentDate,
         tamamlananOgunler: currentState.tamamlananOgunler,
       ));
-      
-      AppLogger.info('🔙 Alternatif yemek seçimi iptal edildi - ana sayfaya dönüldü');
+
+      AppLogger.info(
+          '🔙 Alternatif yemek seçimi iptal edildi - ana sayfaya dönüldü');
     }
   }
 
@@ -881,7 +912,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
       if (basarili) {
         // Güncellenmiş onay durumunu al
-        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(
+            currentState.currentDate);
 
         emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
         AppLogger.success('✅ Yemek yedi olarak işaretlendi');
@@ -889,7 +921,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         AppLogger.error('❌ Yemek işaretlenemedi');
       }
     } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek işaretleme hatası', error: e, stackTrace: stackTrace);
+      AppLogger.error('❌ Yemek işaretleme hatası',
+          error: e, stackTrace: stackTrace);
     }
   }
 
@@ -914,7 +947,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
       if (basarili) {
         // Güncellenmiş onay durumunu al
-        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(
+            currentState.currentDate);
 
         emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
         AppLogger.success('🔒 Yemek onaylandı - artık değiştirilmez!');
@@ -922,7 +956,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         AppLogger.error('❌ Yemek onaylanamadı');
       }
     } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek onaylama hatası', error: e, stackTrace: stackTrace);
+      AppLogger.error('❌ Yemek onaylama hatası',
+          error: e, stackTrace: stackTrace);
     }
   }
 
@@ -947,7 +982,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
       if (basarili) {
         // Güncellenmiş onay durumunu al
-        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(
+            currentState.currentDate);
 
         emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
         AppLogger.success('⏭️ Yemek atlandı');
@@ -955,7 +991,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         AppLogger.error('❌ Yemek atlanamadı');
       }
     } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek atlama hatası', error: e, stackTrace: stackTrace);
+      AppLogger.error('❌ Yemek atlama hatası',
+          error: e, stackTrace: stackTrace);
     }
   }
 
@@ -979,7 +1016,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
 
       if (basarili) {
         // Güncellenmiş onay durumunu al
-        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+        final yeniOnayDurumu = await YemekOnayServisi.gunlukOnayDurumuGetir(
+            currentState.currentDate);
 
         emit(currentState.copyWith(gunlukOnayDurumu: yeniOnayDurumu));
         AppLogger.success('🔄 Yemek durumu sıfırlandı');
@@ -987,7 +1025,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         AppLogger.error('❌ Yemek durumu sıfırlanamadı');
       }
     } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek durumu sıfırlama hatası', error: e, stackTrace: stackTrace);
+      AppLogger.error('❌ Yemek durumu sıfırlama hatası',
+          error: e, stackTrace: stackTrace);
     }
   }
 }

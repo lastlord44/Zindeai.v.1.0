@@ -12,18 +12,12 @@ class MealDetailPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
-        title: Hero(
-          tag: HeroTags.mealTitle(yemek.id),
-          child: Material(
-            color: Colors.transparent,
-            child: Text(
-              yemek.ad,
-              style: const TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
-            ),
+        title: Text(
+          yemek.ad,
+          style: const TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
         backgroundColor: Colors.purple,
@@ -88,7 +82,8 @@ class MealDetailPage extends StatelessWidget {
                                 style: const TextStyle(fontSize: 11),
                               ),
                               padding: EdgeInsets.zero,
-                              materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                              materialTapTargetSize:
+                                  MaterialTapTargetSize.shrinkWrap,
                             );
                           }).toList(),
                         ),
@@ -102,7 +97,8 @@ class MealDetailPage extends StatelessWidget {
                   const SizedBox(height: 12),
                   _buildMacroRow('Kalori', yemek.kalori, 'kcal', Colors.orange),
                   _buildMacroRow('Protein', yemek.protein, 'g', Colors.red),
-                  _buildMacroRow('Karbonhidrat', yemek.karbonhidrat, 'g', Colors.amber),
+                  _buildMacroRow(
+                      'Karbonhidrat', yemek.karbonhidrat, 'g', Colors.amber),
                   _buildMacroRow('Yağ', yemek.yag, 'g', Colors.green),
                   const SizedBox(height: 24),
 
@@ -114,7 +110,8 @@ class MealDetailPage extends StatelessWidget {
                         child: Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Icon(Icons.fiber_manual_record, size: 10, color: Colors.grey.shade600),
+                            Icon(Icons.fiber_manual_record,
+                                size: 10, color: Colors.grey.shade600),
                             const SizedBox(width: 8),
                             Expanded(
                               child: Text(
@@ -148,8 +145,10 @@ class MealDetailPage extends StatelessWidget {
                   // Ek Bilgiler
                   _buildSectionTitle('Ek Bilgiler'),
                   const SizedBox(height: 12),
-                  _buildInfoRow('Hazırlama Süresi', '${yemek.hazirlamaSuresi} dakika'),
-                  _buildInfoRow('Zorluk', '${yemek.zorluk.ad} ${yemek.zorluk.emoji}'),
+                  _buildInfoRow(
+                      'Hazırlama Süresi', '${yemek.hazirlamaSuresi} dakika'),
+                  _buildInfoRow(
+                      'Zorluk', '${yemek.zorluk.ad} ${yemek.zorluk.emoji}'),
                   if (yemek.etiketler.isNotEmpty)
                     _buildInfoRow('Etiketler', yemek.etiketler.join(', ')),
                   const SizedBox(height: 40),

@@ -153,6 +153,10 @@ class AlternativeIngredientsLoaded extends HomeState {
   final KullaniciProfili kullanici;
   final DateTime currentDate;
   final Map<String, bool> tamamlananOgunler;
+  final double tamamlananKalori;
+  final double tamamlananProtein;
+  final double tamamlananKarb;
+  final double tamamlananYag;
 
   const AlternativeIngredientsLoaded({
     required this.yemek,
@@ -164,6 +168,10 @@ class AlternativeIngredientsLoaded extends HomeState {
     required this.kullanici,
     required this.currentDate,
     this.tamamlananOgunler = const {},
+    required this.tamamlananKalori,
+    required this.tamamlananProtein,
+    required this.tamamlananKarb,
+    required this.tamamlananYag,
   });
 
   @override
@@ -177,6 +185,10 @@ class AlternativeIngredientsLoaded extends HomeState {
         kullanici,
         currentDate,
         tamamlananOgunler,
+        tamamlananKalori,
+        tamamlananProtein,
+        tamamlananKarb,
+        tamamlananYag,
       ];
 }
 
