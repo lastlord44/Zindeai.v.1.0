@@ -3,7 +3,7 @@
 // CESITLILIK GECMIS SERVISI - Secilen yemeklerin gecmisini saklar
 // ============================================================================
 
-import 'package:hive_flutter/hive_flutter.dart';
+import 'package:hive/hive.dart';
 import '../utils/app_logger.dart';
 import '../../domain/entities/yemek.dart';
 

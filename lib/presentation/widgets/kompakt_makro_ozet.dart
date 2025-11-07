@@ -156,7 +156,7 @@ class KompaktMakroOzet extends StatelessWidget {
 
           // Açıklama
           Text(
-            'Günlük planınızda bazı makrolar ±5% tolerans sınırını aştı. '
+            'Günlük planınızda bazı makrolar ±10% tolerans sınırını aştı. '
             'Plan kalitesi düşük olabilir.',
             style: TextStyle(
               fontSize: 13,

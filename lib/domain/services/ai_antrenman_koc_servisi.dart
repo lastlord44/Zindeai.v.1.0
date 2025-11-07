@@ -300,7 +300,7 @@ GİVE ME THE ULTIMATE ELITE TRAINING PLAN! 🔥💪
         'Full Body Strength',
         'Mobility & Recovery'
       ][gunIndex % 7];
-    } else if (hedef == Hedef.kiloVer) {
+    } else if (hedef == Hedef.kiloVermek) {
       return [
         'HIIT Cardio',
         'Strength Circuit',
@@ -352,8 +352,6 @@ GİVE ME THE ULTIMATE ELITE TRAINING PLAN! 🔥💪
         return 'İleri';
       case AktiviteSeviyesi.cokAktif:
         return 'Profesyonel';
-      case AktiviteSeviyesi.ekstraAktif:
-        return 'Elite';
     }
   }
   

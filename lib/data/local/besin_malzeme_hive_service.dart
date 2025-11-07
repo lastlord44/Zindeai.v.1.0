@@ -1,4 +1,3 @@
-
 // lib/data/local/besin_malzeme_hive_service.dart
 // Besin malzemelerini asset'lerden yükleyen ve Hive'da cache'leyen servis
 
@@ -12,7 +11,7 @@ class BesinMalzemeHiveService {
   static const _boxName = 'besin_malzeme_box';
   static const _keyAllBesinler = 'all_besinler_json';
   static const _keyIsLoaded = 'is_loaded';
-  
+
   // 20 batch dosyasının listesi
   static const _batchFiles = [
     'assets/data/hive_db/besin_malzemeleri_200.json',
@@ -44,26 +43,28 @@ class BesinMalzemeHiveService {
     }
   }
 
-  /// Tüm besin malzemelerini getir - İlk çağrıda otomatik yükler
+  /// Tüm besin malzemelerini getir - İlk çağrıda otomatik yükler (Hive DB'den!)
   Future<List<BesinMalzeme>> getAll() async {
+    AppLogger.debug('📦 Besin malzemeleri Hive DB\'den getiriliyor...');
     await init();
     final box = Hive.box(_boxName);
-    
+
     // Eğer daha önce yüklenmemişse, şimdi yükle
     final isLoaded = box.get(_keyIsLoaded, defaultValue: false);
     if (!isLoaded) {
       AppLogger.info('🔄 Besin malzemeleri ilk kez yükleniyor...');
       await _loadAllBesinlerFromAssets();
     }
-    
+
     // Cache'den getir
     final raw = box.get(_keyAllBesinler);
     if (raw is String) {
       final besinler = BesinMalzeme.listFromJsonString(raw);
-      AppLogger.debug('✅ ${besinler.length} besin malzemesi cache\'den getirildi');
+      AppLogger.info(
+          '✅ ${besinler.length} besin malzemesi Hive DB\'den getirildi (AI YOK, DB!)');
       return besinler;
     }
-    
+
     return [];
   }
 
@@ -73,32 +74,35 @@ class BesinMalzemeHiveService {
       final box = Hive.box(_boxName);
       final tumBesinler = <Map<String, dynamic>>[];
       int toplamYuklenen = 0;
-      
+
       AppLogger.info('📦 20 batch dosyası yükleniyor...');
-      
+
       for (int i = 0; i < _batchFiles.length; i++) {
         try {
           final dosyaYolu = _batchFiles[i];
           final jsonString = await rootBundle.loadString(dosyaYolu);
           final List<dynamic> besinListesi = json.decode(jsonString);
-          
+
           tumBesinler.addAll(besinListesi.cast<Map<String, dynamic>>());
           toplamYuklenen += besinListesi.length;
-          
-          AppLogger.debug('   ✅ Batch ${i + 1}/20: ${besinListesi.length} besin (Toplam: $toplamYuklenen)');
+
+          AppLogger.debug(
+              '   ✅ Batch ${i + 1}/20: ${besinListesi.length} besin (Toplam: $toplamYuklenen)');
         } catch (e) {
           AppLogger.warning('   ⚠️ Batch ${i + 1} yüklenemedi: $e');
         }
       }
-      
+
       // Tüm besinleri JSON string olarak cache'e kaydet
       final tumBesinlerJson = json.encode(tumBesinler);
       await box.put(_keyAllBesinler, tumBesinlerJson);
       await box.put(_keyIsLoaded, true);
-      
-      AppLogger.success('✅ Toplam $toplamYuklenen besin malzemesi başarıyla yüklendi ve cache\'lendi!');
+
+      AppLogger.success(
+          '✅ Toplam $toplamYuklenen besin malzemesi başarıyla yüklendi ve cache\'lendi!');
     } catch (e, stackTrace) {
-      AppLogger.error('❌ Besin malzemeleri yüklenirken hata', error: e, stackTrace: stackTrace);
+      AppLogger.error('❌ Besin malzemeleri yüklenirken hata',
+          error: e, stackTrace: stackTrace);
       rethrow;
     }
   }
@@ -116,7 +120,38 @@ class BesinMalzemeHiveService {
     await clearCache();
     await getAll();
   }
-  
+
+  /// 🔥 YENİ: AI'den gelen besini DB'ye ekle (ASLA KAYBETME!)
+  Future<void> addBesin(BesinMalzeme besin) async {
+    try {
+      await init();
+      final box = Hive.box(_boxName);
+
+      // Mevcut besinleri al
+      final raw = box.get(_keyAllBesinler);
+      List<Map<String, dynamic>> tumBesinler = [];
+
+      if (raw is String) {
+        final List<dynamic> decoded = json.decode(raw);
+        tumBesinler = decoded.cast<Map<String, dynamic>>();
+      }
+
+      // Yeni besini ekle
+      tumBesinler.add(besin.toJson());
+
+      // Geri kaydet
+      final yeniJson = json.encode(tumBesinler);
+      await box.put(_keyAllBesinler, yeniJson);
+
+      AppLogger.success(
+          '💾 ✅ Besin DB\'ye EKLENDİ (${tumBesinler.length} toplam): "${besin.ad}" → K:${besin.kalori100g}, P:${besin.protein100g}g');
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Besin ekleme hatası',
+          error: e, stackTrace: stackTrace);
+      rethrow;
+    }
+  }
+
   // Geriye dönük uyumluluk için eski metodları koru
   Future<List<BesinMalzeme>> loadFromAssetsOnce(String assetPath) async {
     return await getAll();

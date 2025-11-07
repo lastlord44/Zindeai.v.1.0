@@ -8,6 +8,8 @@ class OgunCard extends StatelessWidget {
   final Yemek yemek;
   final VoidCallback? onTap;
   final VoidCallback? onAlternatifTap;
+  final VoidCallback? onFavoriTap; // 🌟 Favori tap callback
+  final bool isFavorite; // 🌟 Favori durumu
   final bool showDetails;
 
   const OgunCard({
@@ -15,6 +17,8 @@ class OgunCard extends StatelessWidget {
     required this.yemek,
     this.onTap,
     this.onAlternatifTap,
+    this.onFavoriTap, // 🌟 Favori callback
+    this.isFavorite = false, // 🌟 Default false
     this.showDetails = false,
   }) : super(key: key);
 
@@ -86,6 +90,17 @@ class OgunCard extends StatelessWidget {
                       ],
                     ),
                   ),
+
+                  // 🌟 Favori butonu
+                  if (onFavoriTap != null)
+                    IconButton(
+                      icon: Icon(
+                        isFavorite ? Icons.favorite : Icons.favorite_border,
+                        color: isFavorite ? Colors.red : null,
+                      ),
+                      onPressed: onFavoriTap,
+                      tooltip: isFavorite ? 'Favorilerden çıkar' : 'Favorilere ekle',
+                    ),
 
                   // Alternatif butonu
                   if (yemek.alternatifler.isNotEmpty && onAlternatifTap != null)

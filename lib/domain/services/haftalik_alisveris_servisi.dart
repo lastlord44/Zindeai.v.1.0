@@ -8,6 +8,7 @@ import '../entities/alisveris_listesi.dart';
 import '../entities/kullanici_profili.dart';
 import '../entities/hedef.dart';
 import '../../core/utils/app_logger.dart';
+import 'malzeme_parser_servisi.dart';
 
 class HaftalikAlisverisServisi {
   /// Haftalık alışveriş listesi oluştur
@@ -82,39 +83,80 @@ class HaftalikAlisverisServisi {
     }
   }
 
-  /// Yemek malzemelerini listeye ekle
+  /// Yemek malzemelerini listeye ekle (PARSE EDİLMİŞ VERSİYON)
   static Future<void> _yemekMalzemeleriniEkle(
     dynamic yemek,
     Map<String, MalzemeDetayi> malzemeler,
   ) async {
     try {
-      // Yemek malzemelerini parse et
+      // Yemek malzemelerini al
       final malzemeListesi = yemek.malzemeler ?? <String>[];
+      
+      // 🔍 DEBUG: Yemek bilgilerini log'la
+      AppLogger.debug('🛒 Yemek: ${yemek.ad} - ${malzemeListesi.length} malzeme');
+      
+      if (malzemeListesi.isEmpty) {
+        AppLogger.warning('⚠️ ${yemek.ad} yemeğinin malzemeleri boş!');
+        return;
+      }
 
-      for (final malzeme in malzemeListesi) {
-        final temizMalzeme = malzeme.trim();
+      for (final malzemeMetni in malzemeListesi) {
+        final temizMalzeme = malzemeMetni.trim();
         if (temizMalzeme.isEmpty) continue;
 
-        // Mevcut malzeme varsa miktarını artır
-        if (malzemeler.containsKey(temizMalzeme)) {
-          final mevcut = malzemeler[temizMalzeme]!;
-          malzemeler[temizMalzeme] = mevcut.copyWith(
-            miktar: mevcut.miktar + 1,
-          );
+        // 🔍 MALZEME PARSE ET
+        AppLogger.debug('   📋 Parse ediliyor: "$temizMalzeme"');
+        final parsedMalzeme = MalzemeParserServisi.parse(temizMalzeme);
+
+        if (parsedMalzeme != null) {
+          // Parse edilen malzeme - besin adına göre grupla
+          final besinAdi = parsedMalzeme.besinAdi.toLowerCase();
+          final anahtar = besinAdi; // Besin adı anahtardır
+          
+          AppLogger.debug('   ✅ Parse başarılı: ${parsedMalzeme.besinAdi} (${parsedMalzeme.miktar} ${parsedMalzeme.birim})');
+
+          if (malzemeler.containsKey(anahtar)) {
+            // Mevcut malzeme - miktarı topla (double → int çevir)
+            final mevcut = malzemeler[anahtar]!;
+            final yeniMiktar = (mevcut.miktar + parsedMalzeme.miktar).round();
+
+            malzemeler[anahtar] = mevcut.copyWith(
+              miktar: yeniMiktar,
+            );
+            AppLogger.debug('   🔄 Miktar güncellendi: $yeniMiktar ${parsedMalzeme.birim}');
+          } else {
+            // Yeni malzeme ekle (double → int çevir)
+            malzemeler[anahtar] = MalzemeDetayi(
+              ad: parsedMalzeme.besinAdi,
+              miktar: parsedMalzeme.miktar.round(),
+              birim: parsedMalzeme.birim,
+              kategori: _malzemeKategorisi(parsedMalzeme.besinAdi),
+              oncelik: _malzemeOnceligi(parsedMalzeme.besinAdi),
+              tahminiMaliyet: _malzemeMaliyeti(parsedMalzeme.besinAdi),
+            );
+            AppLogger.debug('   ➕ Yeni malzeme eklendi');
+          }
         } else {
-          // Yeni malzeme ekle
-          malzemeler[temizMalzeme] = MalzemeDetayi(
-            ad: temizMalzeme,
-            miktar: 1,
-            birim: _malzemeBirimi(temizMalzeme),
-            kategori: _malzemeKategorisi(temizMalzeme),
-            oncelik: _malzemeOnceligi(temizMalzeme),
-            tahminiMaliyet: _malzemeMaliyeti(temizMalzeme),
-          );
+          // Parse edilemeyen malzeme (tuz, baharat vb.) - olduğu gibi ekle
+          AppLogger.warning('   ⚠️ Parse edilemedi: "$temizMalzeme" - olduğu gibi ekleniyor');
+          final anahtar = temizMalzeme.toLowerCase();
+
+          if (!malzemeler.containsKey(anahtar)) {
+            malzemeler[anahtar] = MalzemeDetayi(
+              ad: temizMalzeme,
+              miktar: 1,
+              birim: 'adet',
+              kategori: _malzemeKategorisi(temizMalzeme),
+              oncelik: _malzemeOnceligi(temizMalzeme),
+              tahminiMaliyet: _malzemeMaliyeti(temizMalzeme),
+            );
+            AppLogger.debug('   ➕ Parse edilmemiş malzeme eklendi');
+          }
         }
       }
-    } catch (e) {
-      AppLogger.error('Yemek malzemesi parse hatası: $e');
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Yemek malzemesi parse hatası: ${yemek.ad}',
+        error: e, stackTrace: stackTrace);
     }
   }
 
@@ -228,10 +270,10 @@ class HaftalikAlisverisServisi {
     }
 
     // Hedef bazlı öneriler
-    if (kullanici.hedef == Hedef.kasKazanKiloAl) {
+    if (kullanici.hedef == Hedef.kasKazanKiloAl || kullanici.hedef == Hedef.kasKazanKiloVer) {
       oneriler.add(
           '💪 Kas gelişimi için yüksek protein içerikli ürünleri tercih edin.');
-    } else if (kullanici.hedef == Hedef.kiloVer) {
+    } else if (kullanici.hedef == Hedef.kiloVermek) {
       oneriler.add(
           '🔥 Düşük kalorili, doğal ürünleri tercih ederek kilo verme sürecinizi destekleyin.');
     }
@@ -264,40 +306,53 @@ class HaftalikAlisverisServisi {
     }
   }
 
-  /// Malzeme kategorisi belirle
+  /// Malzeme kategorisi belirle - SADECE ANA BESİNLER
   static String _malzemeKategorisi(String malzeme) {
     final malzemeKucuk = malzeme.toLowerCase();
 
+    // 🥩 ET ÜRÜNLERİ - SADECE ET, TAVUK, BALIK (sebze/kuruyemiş YOK!)
     if (malzemeKucuk.contains('tavuk') ||
-        malzemeKucuk.contains('et') ||
+        malzemeKucuk.contains('hindi') ||
+        malzemeKucuk.contains('dana') ||
+        malzemeKucuk.contains('koyun') ||
+        malzemeKucuk.contains('kuzu') ||
         malzemeKucuk.contains('balık') ||
-        malzemeKucuk.contains('köfte')) {
+        malzemeKucuk.contains('somon') ||
+        malzemeKucuk.contains('ton balığı') ||
+        malzemeKucuk.contains('köfte') ||
+        malzemeKucuk.contains('kıyma')) {
       return 'Et Ürünleri';
-    } else if (malzemeKucuk.contains('süt') ||
+    }
+    
+    // 🥛 SÜT ÜRÜNLERİ
+    else if (malzemeKucuk.contains('süt') ||
         malzemeKucuk.contains('peynir') ||
-        malzemeKucuk.contains('yoğurt')) {
+        malzemeKucuk.contains('yoğurt') ||
+        malzemeKucuk.contains('lor') ||
+        malzemeKucuk.contains('yumurta')) {
       return 'Süt Ürünleri';
-    } else if (malzemeKucuk.contains('domates') ||
-        malzemeKucuk.contains('salata') ||
-        malzemeKucuk.contains('sebze')) {
-      return 'Sebzeler';
-    } else if (malzemeKucuk.contains('elma') ||
-        malzemeKucuk.contains('muz') ||
-        malzemeKucuk.contains('meyve')) {
-      return 'Meyveler';
-    } else if (malzemeKucuk.contains('ekmek') ||
+    }
+    
+    // 🌾 TAHILLAR
+    else if (malzemeKucuk.contains('ekmek') ||
         malzemeKucuk.contains('pirinç') ||
-        malzemeKucuk.contains('bulgur')) {
+        malzemeKucuk.contains('bulgur') ||
+        malzemeKucuk.contains('kinoa') ||
+        malzemeKucuk.contains('yulaf') ||
+        malzemeKucuk.contains('makarna')) {
       return 'Tahıllar';
-    } else if (malzemeKucuk.contains('mercimek') ||
+    }
+    
+    // 🫘 BAKLİYAT
+    else if (malzemeKucuk.contains('mercimek') ||
         malzemeKucuk.contains('nohut') ||
-        malzemeKucuk.contains('fasulye')) {
+        malzemeKucuk.contains('fasulye') ||
+        malzemeKucuk.contains('bakla')) {
       return 'Bakliyat';
-    } else if (malzemeKucuk.contains('tuz') ||
-        malzemeKucuk.contains('baharat') ||
-        malzemeKucuk.contains('karabiber')) {
-      return 'Baharat';
-    } else {
+    }
+    
+    // ❌ DİĞER - Sebze, meyve, baharat, kuruyemiş buraya düşer (filtrelenecek)
+    else {
       return 'Diğer';
     }
   }
@@ -422,6 +477,178 @@ class HaftalikAlisverisServisi {
     } catch (e) {
       AppLogger.error('Hızlı alışveriş listesi hatası: $e');
       return [];
+    }
+  }
+
+  // ========================================================================
+  // 🔥 GELİŞMİŞ MALZEME TOPLAMA ÖZELLİKLERİ
+  // ========================================================================
+
+  /// 🔥 YENİ: Tarif field'ından malzemeleri parse et
+  static List<String> _parseMalzemelerFromTarif(String tarif) {
+    // "lor peyniri (120 g), kinoa (80 g), roka (60 g)" formatını parse et
+    final malzemeler = tarif
+        .split(',')
+        .map((m) => m.trim())
+        .where((m) => m.isNotEmpty)
+        .toList();
+    
+    AppLogger.debug('📋 Tariften ${malzemeler.length} malzeme parse edildi');
+    return malzemeler;
+  }
+
+  /// 🔥 YENİ: Gelişmiş malzeme maliyeti (gram/ml bazında)
+  static double _gelismisMaliyetHesapla(String malzemeAdi, double miktar, String birim) {
+    final malzemeKucuk = malzemeAdi.toLowerCase();
+    
+    // Birimi gr/ml'ye çevir
+    double gramMlMiktar = 0;
+    
+    if (birim == 'gram' || birim == 'g' || birim == 'gr') {
+      gramMlMiktar = miktar;
+    } else if (birim == 'ml') {
+      gramMlMiktar = miktar;
+    } else if (birim == 'litre' || birim == 'l' || birim == 'lt') {
+      gramMlMiktar = miktar * 1000;
+    } else if (birim == 'su bardağı') {
+      gramMlMiktar = miktar * 200;
+    } else if (birim == 'çay bardağı') {
+      gramMlMiktar = miktar * 100;
+    } else if (birim == 'yemek kaşığı') {
+      gramMlMiktar = miktar * 15;
+    } else if (birim == 'tatlı kaşığı') {
+      gramMlMiktar = miktar * 5;
+    } else {
+      // Adet, dilim vb. için varsayılan ağırlık
+      gramMlMiktar = _varsayilanAgirlik(malzemeAdi) * miktar;
+    }
+
+    // Kategori bazında birim fiyat (₺/gram veya ₺/ml)
+    double birimFiyat = 0;
+
+    if (malzemeKucuk.contains('tavuk') || malzemeKucuk.contains('hindi')) {
+      birimFiyat = 0.12; // 120₺/kg
+    } else if (malzemeKucuk.contains('dana') || malzemeKucuk.contains('koyun')) {
+      birimFiyat = 0.35; // 350₺/kg
+    } else if (malzemeKucuk.contains('balık') || malzemeKucuk.contains('somon')) {
+      birimFiyat = 0.25; // 250₺/kg
+    } else if (malzemeKucuk.contains('peynir')) {
+      birimFiyat = 0.25; // 250₺/kg
+    } else if (malzemeKucuk.contains('süt')) {
+      birimFiyat = 0.008; // 8₺/litre = 0.008₺/ml
+    } else if (malzemeKucuk.contains('yoğurt')) {
+      birimFiyat = 0.03; // 30₺/kg
+    } else if (malzemeKucuk.contains('yumurta')) {
+      birimFiyat = 2.0; // 2₺/adet
+    } else if (malzemeKucuk.contains('ekmek')) {
+      birimFiyat = 0.25; // 2.5₺/dilim
+    } else if (malzemeKucuk.contains('pirinç') || malzemeKucuk.contains('bulgur')) {
+      birimFiyat = 0.04; // 40₺/kg
+    } else if (malzemeKucuk.contains('makarna')) {
+      birimFiyat = 0.03; // 30₺/kg
+    } else if (malzemeKucuk.contains('mercimek') || malzemeKucuk.contains('nohut') || malzemeKucuk.contains('fasulye')) {
+      birimFiyat = 0.03; // 30₺/kg
+    } else if (malzemeKucuk.contains('sebze') || malzemeKucuk.contains('domates') || malzemeKucuk.contains('salatalık')) {
+      birimFiyat = 0.02; // 20₺/kg
+    } else if (malzemeKucuk.contains('meyve') || malzemeKucuk.contains('elma') || malzemeKucuk.contains('muz')) {
+      birimFiyat = 0.03; // 30₺/kg
+    } else if (malzemeKucuk.contains('ceviz') || malzemeKucuk.contains('badem') || malzemeKucuk.contains('fındık')) {
+      birimFiyat = 0.25; // 250₺/kg
+    } else if (malzemeKucuk.contains('zeytinyağı') || malzemeKucuk.contains('yağ')) {
+      birimFiyat = 0.08; // 80₺/litre
+    } else if (malzemeKucuk.contains('tuz') || malzemeKucuk.contains('baharat')) {
+      birimFiyat = 0.001; // 1₺/kg
+    } else {
+      birimFiyat = 0.02; // Varsayılan 20₺/kg
+    }
+
+    return gramMlMiktar * birimFiyat;
+  }
+
+  /// 🔥 YENİ: Varsayılan ağırlık (adet için)
+  static double _varsayilanAgirlik(String malzemeAdi) {
+    final malzemeKucuk = malzemeAdi.toLowerCase();
+
+    if (malzemeKucuk.contains('yumurta')) return 60; // 60g yumurta
+    if (malzemeKucuk.contains('dilim')) return 30; // 30g dilim ekmet
+    if (malzemeKucuk.contains('porsiyon')) return 200; // 200g porsiyon
+    if (malzemeKucuk.contains('adet')) return 100; // 100g varsayılan
+
+    return 100; // Varsayılan 100g
+  }
+
+  /// 🔥 YENİ: Gelişmiş malzeme kategorisi (daha detaylı)
+  static String _gelismisMalzemeKategorisi(String malzeme) {
+    final malzemeKucuk = malzeme.toLowerCase();
+
+    if (malzemeKucuk.contains('tavuk') || malzemeKucuk.contains('hindi') ||
+        malzemeKucuk.contains('dana') || malzemeKucuk.contains('koyun') ||
+        malzemeKucuk.contains('balık') || malzemeKucuk.contains('köfte') ||
+        malzemeKucuk.contains('kıyma')) {
+      return 'Et Ürünleri';
+    } else if (malzemeKucuk.contains('süt') || malzemeKucuk.contains('peynir') ||
+        malzemeKucuk.contains('yoğurt') || malzemeKucuk.contains('tereyağı') ||
+        malzemeKucuk.contains('lor')) {
+      return 'Süt Ürünleri';
+    } else if (malzemeKucuk.contains('domates') || malzemeKucuk.contains('salata') ||
+        malzemeKucuk.contains('salatalık') || malzemeKucuk.contains('biber') ||
+        malzemeKucuk.contains('soğan') || malzemeKucuk.contains('sarımsak') ||
+        malzemeKucuk.contains('roka') || malzemeKucuk.contains('marul') ||
+        malzemeKucuk.contains('sebze')) {
+      return 'Sebzeler';
+    } else if (malzemeKucuk.contains('elma') || malzemeKucuk.contains('muz') ||
+        malzemeKucuk.contains('portakal') || malzemeKucuk.contains('çilek') ||
+        malzemeKucuk.contains('meyve')) {
+      return 'Meyveler';
+    } else if (malzemeKucuk.contains('ekmek') || malzemeKucuk.contains('pirinç') ||
+        malzemeKucuk.contains('bulgur') || malzemeKucuk.contains('makarna') ||
+        malzemeKucuk.contains('kinoa') || malzemeKucuk.contains('yulaf')) {
+      return 'Tahıllar';
+    } else if (malzemeKucuk.contains('mercimek') || malzemeKucuk.contains('nohut') ||
+        malzemeKucuk.contains('fasulye') || malzemeKucuk.contains('bakla')) {
+      return 'Bakliyat';
+    } else if (malzemeKucuk.contains('ceviz') || malzemeKucuk.contains('badem') ||
+        malzemeKucuk.contains('fındık') || malzemeKucuk.contains('fıstık')) {
+      return 'Kuruyemişler';
+    } else if (malzemeKucuk.contains('tuz') || malzemeKucuk.contains('karabiber') ||
+        malzemeKucuk.contains('pul biber') || malzemeKucuk.contains('kekik') ||
+        malzemeKucuk.contains('baharat')) {
+      return 'Baharatlar';
+    } else if (malzemeKucuk.contains('zeytinyağı') || malzemeKucuk.contains('yağ') ||
+        malzemeKucuk.contains('sirke') || malzemeKucuk.contains('limon')) {
+      return 'Soslar & Yağlar';
+    } else {
+      return 'Diğer';
+    }
+  }
+
+  /// 🔥 YENİ: Gelişmiş malzeme önceliği (miktar bazında)
+  static int _gelismisMalzemeOnceligi(String malzeme, double miktar) {
+    final malzemeKucuk = malzeme.toLowerCase();
+
+    // Ana protein kaynakları (miktarına göre öncelik)
+    if (malzemeKucuk.contains('tavuk') || malzemeKucuk.contains('hindi') ||
+        malzemeKucuk.contains('dana') || malzemeKucuk.contains('balık')) {
+      return miktar >= 150 ? 5 : 4; // 150g+ çok önemli
+    } else if (malzemeKucuk.contains('yumurta')) {
+      return miktar >= 2 ? 4 : 3; // 2+ yumurta önemli
+    } else if (malzemeKucuk.contains('süt') || malzemeKucuk.contains('peynir') ||
+        malzemeKucuk.contains('yoğurt')) {
+      return miktar >= 200 ? 4 : 3; // 200ml+ önemli
+    } else if (malzemeKucuk.contains('ekmek') || malzemeKucuk.contains('pirinç')) {
+      return miktar >= 100 ? 4 : 3; // 100g+ önemli
+    } else if (malzemeKucuk.contains('sebze') || malzemeKucuk.contains('meyve')) {
+      return miktar >= 200 ? 3 : 2; // Sebze/meyve orta öncelik
+    } else if (malzemeKucuk.contains('kuruyemiş')) {
+      return miktar >= 50 ? 3 : 2; // 50g+ orta öncelik
+    } else if (malzemeKucuk.contains('bakliyat')) {
+      return miktar >= 100 ? 3 : 2; // 100g+ orta öncelik
+    } else if (malzemeKucuk.contains('baharat') || malzemeKucuk.contains('tuz')) {
+      return 1; // En düşük öncelik
+    } else if (malzemeKucuk.contains('sos') || malzemeKucuk.contains('yağ')) {
+      return 2; // Düşük öncelik
+    } else {
+      return 2; // Varsayılan düşük öncelik
     }
   }
 }

@@ -80,6 +80,10 @@ class _AIChatbotPageState extends State<AIChatbotPage> {
         return '👋 Merhaba! Ben Dr. Zeynep Aydın, 30 yıllık genel sağlık uzmanıyım.\n\n'
             '🏥 Sağlıklı yaşam, uyku, stres yönetimi ve genel sağlık konularında size yardımcı olabilirim.\n\n'
             'Sorularınızı bekliyorum!';
+      case AICategory.dietician:
+        return '👋 Merhaba! Ben Uzm. Dyt. Elif Kaya, 20 yıllık deneyimli profesyonel diyetisyeniyim.\n\n'
+            '🍽️ Türk mutfağından günlük ve haftalık beslenme planları hazırlıyorum. SADECE yerli yemeklerle (menemen, köfte, pilav, balık) size özel planlar oluşturabilirim.\n\n'
+            'Bana kilo, boy, yaş ve hedefinizi söylerseniz, size Türk mutfağından beslenme planı hazırlayabilirim!';
     }
   }
 
@@ -448,6 +452,8 @@ class _AIChatbotPageState extends State<AIChatbotPage> {
         return Colors.orange;
       case AICategory.general:
         return Colors.blue;
+      case AICategory.dietician:
+        return Colors.teal;
     }
   }
 
@@ -461,6 +467,8 @@ class _AIChatbotPageState extends State<AIChatbotPage> {
         return 'Hakan Kaya';
       case AICategory.general:
         return 'Dr. Zeynep Aydın';
+      case AICategory.dietician:
+        return 'Uzm. Dyt. Elif Kaya';
     }
   }
 
@@ -474,6 +482,8 @@ class _AIChatbotPageState extends State<AIChatbotPage> {
         return '30 yıllık Fitness Antrenörü';
       case AICategory.general:
         return '30 yıllık Genel Sağlık Uzmanı';
+      case AICategory.dietician:
+        return '20 yıllık Profesyonel Türk Diyetisyeni';
     }
   }
 
@@ -487,18 +497,7 @@ class _AIChatbotPageState extends State<AIChatbotPage> {
   }
 
   String _getHedefText(Hedef hedef) {
-    switch (hedef) {
-      case Hedef.kiloVer:
-        return 'Kilo Ver';
-      case Hedef.kiloAl:
-        return 'Kilo Al';
-      case Hedef.formdaKal:
-        return 'Formda Kal';
-      case Hedef.kasKazanKiloAl:
-        return 'Kas Kazan + Kilo Al';
-      case Hedef.kasKazanKiloVer:
-        return 'Kas Kazan + Kilo Ver';
-    }
+    return hedef.aciklama;
   }
 }
 

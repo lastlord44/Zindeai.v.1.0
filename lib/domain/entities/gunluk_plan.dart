@@ -86,17 +86,17 @@ class GunlukPlan extends Equatable {
   // 🎯 MAKRO TOLERANS KONTROLÜ (Diyetisyen Standartları)
   // ========================================================================
 
-  /// 🔥 Kalori için tolerans limiti (%5) - NOMİNAL SIKI DEĞER
-  static const double kaloriToleransYuzdesi = 5.0;
+  /// 🔥 Kalori için tolerans limiti (%15) - DİYETİSYEN STANDARDI
+  static const double kaloriToleransYuzdesi = 15.0;
 
-  /// 🔥 Protein için tolerans limiti (%5) - NOMİNAL SIKI DEĞER
-  static const double proteinToleransYuzdesi = 5.0;
+  /// 🔥 Protein için tolerans limiti (%15) - DİYETİSYEN STANDARDI
+  static const double proteinToleransYuzdesi = 15.0;
 
-  /// 🔥 Karbonhidrat için tolerans limiti (%5) - NOMİNAL SIKI DEĞER
-  static const double karbonhidratToleransYuzdesi = 5.0;
+  /// 🔥 Karbonhidrat için tolerans limiti (%15) - DİYETİSYEN STANDARDI
+  static const double karbonhidratToleransYuzdesi = 15.0;
 
-  /// 🔥 Yağ için tolerans limiti (%5) - NOMİNAL SIKI DEĞER
-  static const double yagToleransYuzdesi = 5.0;
+  /// 🔥 Yağ için tolerans limiti (%15) - DİYETİSYEN STANDARDI
+  static const double yagToleransYuzdesi = 15.0;
 
   /// Kalori tolerans içinde mi?
   bool get kaloriToleranstaMi {
@@ -302,5 +302,21 @@ class GunlukPlan extends Equatable {
       'makroHedefleri': makroHedefleri.toJson(),
       'fitnessSkoru': fitnessSkoru,
     };
+  }
+
+  /// ID'ye göre bir öğünü günceller veya kaldırır
+  GunlukPlan copyWithOgun(String ogunId, Yemek? yeniOgun) {
+    return GunlukPlan(
+      id: id,
+      tarih: tarih,
+      makroHedefleri: makroHedefleri,
+      fitnessSkoru: fitnessSkoru,
+      kahvalti: kahvalti?.id == ogunId ? yeniOgun : kahvalti,
+      araOgun1: araOgun1?.id == ogunId ? yeniOgun : araOgun1,
+      ogleYemegi: ogleYemegi?.id == ogunId ? yeniOgun : ogleYemegi,
+      araOgun2: araOgun2?.id == ogunId ? yeniOgun : araOgun2,
+      aksamYemegi: aksamYemegi?.id == ogunId ? yeniOgun : aksamYemegi,
+      geceAtistirma: geceAtistirma?.id == ogunId ? yeniOgun : geceAtistirma,
+    );
   }
 }

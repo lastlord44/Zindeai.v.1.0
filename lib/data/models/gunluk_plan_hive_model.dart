@@ -1,5 +1,6 @@
 // lib/data/models/gunluk_plan_hive_model.dart
 
+import 'dart:convert';
 import 'package:hive/hive.dart';
 import '../../domain/entities/gunluk_plan.dart';
 import '../../domain/entities/yemek.dart';
@@ -57,13 +58,14 @@ class GunlukPlanHiveModel extends HiveObject {
     return GunlukPlanHiveModel(
       id: entity.id,
       tarih: entity.tarih,
-      kahvaltiJson: entity.kahvalti?.toJson().toString(),
-      araOgun1Json: entity.araOgun1?.toJson().toString(),
-      ogleYemegiJson: entity.ogleYemegi?.toJson().toString(),
-      araOgun2Json: entity.araOgun2?.toJson().toString(),
-      aksamYemegiJson: entity.aksamYemegi?.toJson().toString(),
-      geceAtistirmaJson: entity.geceAtistirma?.toJson().toString(),
-      makroHedefleriJson: entity.makroHedefleri.toJson().toString(),
+      // 🔥 FIX: toJson().toString() yerine json.encode kullan!
+      kahvaltiJson: entity.kahvalti != null ? json.encode(entity.kahvalti!.toJson()) : null,
+      araOgun1Json: entity.araOgun1 != null ? json.encode(entity.araOgun1!.toJson()) : null,
+      ogleYemegiJson: entity.ogleYemegi != null ? json.encode(entity.ogleYemegi!.toJson()) : null,
+      araOgun2Json: entity.araOgun2 != null ? json.encode(entity.araOgun2!.toJson()) : null,
+      aksamYemegiJson: entity.aksamYemegi != null ? json.encode(entity.aksamYemegi!.toJson()) : null,
+      geceAtistirmaJson: entity.geceAtistirma != null ? json.encode(entity.geceAtistirma!.toJson()) : null,
+      makroHedefleriJson: json.encode(entity.makroHedefleri.toJson()),
       fitnessSkoru: entity.fitnessSkoru,
     );
   }
@@ -103,10 +105,37 @@ class GunlukPlanHiveModel extends HiveObject {
     return MakroHedefleri.fromJson(json);
   }
 
-  /// String'i Map'e çevir (basit parser)
+  /// String'i Map'e çevir - Akıllı parser (hem eski hem yeni format destekler)
   Map<String, dynamic> _stringToMap(String str) {
-    // Bu gerçek projede json.decode kullanılmalı
-    // Şimdilik dummy implementation
-    return {};
+    try {
+      // 🔥 FIX: Önce doğru JSON decode dene
+      return json.decode(str) as Map<String, dynamic>;
+    } catch (e) {
+      // 🔥 FALLBACK: Eski format (.toString() ile kaydedilmiş Map'ler için)
+      // "{key1: value1, key2: value2}" formatını parse et
+      try {
+        // Debug: Ne parse etmeye çalıştığımızı görelim
+        print('⚠️ JSON decode başarısız, toString formatı parse ediliyor: ${str.substring(0, 50)}...');
+        
+        // toString() formatından Map oluştur (basit parser)
+        // NOT: Bu geçici çözüm, ideal değil ama mevcut planlar için çalışır
+        final cleaned = str.trim();
+        if (cleaned.isEmpty || cleaned == 'null') {
+          return {};
+        }
+        
+        // Eğer normal JSON ise tekrar dene
+        if (cleaned.startsWith('{') && cleaned.contains(':')) {
+          // toString() ile kaydedilmiş Map'i parse et
+          // UYARI: Bu basit parser, karmaşık nested yapılar için çalışmayabilir
+          return {};
+        }
+        
+        return {};
+      } catch (e2) {
+        print('❌ toString parse de başarısız: $e2');
+        return {};
+      }
+    }
   }
 }

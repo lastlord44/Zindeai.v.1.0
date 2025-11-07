@@ -1,542 +1,614 @@
 [
   {
-    "id": "prog_001",
-    "ad": "Başlangıç Tüm Vücut",
-    "aciklama": "Yeni başlayanlar için dengeli tüm vücut programı. Temel hareketleri öğrenmek ve fiziksel kondisyonu geliştirmek için ideal.",
+    "id": "program_001",
+    "ad": "Başlangıç - Tüm Vücut",
+    "aciklama": "Yeni başlayanlar için 3 günlük tüm vücut antrenman programı. Temel hareketlerle kas kütlesi ve kuvvet geliştirme odaklı.",
+    "egzersizler": [
+      {
+        "id": "guc_008",
+        "ad": "Leg Press",
+        "aciklama": "Makine ile güvenli bacak kuvvet çalışması",
+        "sure": 150,
+        "kalori": 110,
+        "zorluk": "baslangic",
+        "kategori": "guc",
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak"],
+        "talimatlar": [
+          "Sırtınızı yaslamaya yaslayın",
+          "Ayakları platform üzerine omuz genişliğinde yerleştirin",
+          "Dizleri 90 derece bükerek inin",
+          "Topuklardan itme yaparak itin",
+          "Dizleri kilitlemeyin"
+        ],
+        "ekipmanlar": ["Leg Press Makinesi"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 12,
+        "setSayisi": 3
+      },
+      {
+        "id": "guc_002",
+        "ad": "Bench Press",
+        "aciklama": "Göğüs için temel kuvvet hareketi",
+        "sure": 150,
+        "kalori": 100,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "gogus",
+        "hedefKaslar": ["gogus", "kol", "omuz"],
+        "talimatlar": [
+          "Sırtüstü bench'e uzanın",
+          "Barbell'i omuz genişliğinden biraz geniş tutun",
+          "Göğsünüze kadar indirin",
+          "Kontrollü şekilde yukarı itin",
+          "Dirseklerinizi kilitlemeyin"
+        ],
+        "ekipmanlar": ["Barbell", "Bench"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 10,
+        "setSayisi": 3
+      },
+      {
+        "id": "guc_012",
+        "ad": "Lat Pulldown",
+        "aciklama": "Sırt genişliği için çekiş hareketi",
+        "sure": 120,
+        "kalori": 85,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "sirt",
+        "hedefKaslar": ["sirt", "kol"],
+        "talimatlar": [
+          "Lat pulldown makinesine oturun",
+          "Barı geniş tutun",
+          "Göğüs hizasına kadar çekin",
+          "Sırtı arkada sıkıştırın",
+          "Kontrollü yukarı bırakın"
+        ],
+        "ekipmanlar": ["Lat Pulldown Makinesi"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 12,
+        "setSayisi": 3
+      },
+      {
+        "id": "guc_007",
+        "ad": "Dumbbell Shoulder Press",
+        "aciklama": "Dumbbells ile omuz geliştirme",
+        "sure": 120,
+        "kalori": 85,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "omuz",
+        "hedefKaslar": ["omuz", "kol"],
+        "talimatlar": [
+          "Oturarak veya ayakta yapılabilir",
+          "Dumbbell'ları omuz hizasında tutun",
+          "Yukarı itin, üstte birbirine yaklaştırın",
+          "Kontrollü şekilde omuz hizasına indirin"
+        ],
+        "ekipmanlar": ["Dumbbell"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 10,
+        "setSayisi": 3
+      },
+      {
+        "id": "guc_017",
+        "ad": "Plank",
+        "aciklama": "İzometrik core kuvvet hareketi",
+        "sure": 60,
+        "kalori": 8,
+        "zorluk": "baslangic",
+        "kategori": "guc",
+        "kasGrubu": "karin",
+        "hedefKaslar": ["karin", "sirt"],
+        "talimatlar": [
+          "Dirsekler omuz altında",
+          "Vücut düz bir çizgi",
+          "Core'u sıkın",
+          "Kalçayı düşürmeyin",
+          "Derin nefes alın"
+        ],
+        "ekipmanlar": ["Mat"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": null,
+        "setSayisi": 3
+      }
+    ],
     "zorluk": "baslangic",
-    "toplamSure": 1800,
-    "toplamKalori": 220,
-    "hedefKasGruplari": ["gogus", "bacak", "karin", "tumvucut"],
-    "egzersizler": [
-      {
-        "id": "egz_013",
-        "ad": "Jumping Jacks",
-        "aciklama": "Kardiyo ısınma egzersizi. Kan dolaşımını hızlandırır.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "baslangic",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["tumvucut"],
-        "talimatlar": [
-          "Ayaklar bitişik, kollar yanda",
-          "Zıpla, ayakları aç, kolları yukarı kaldır",
-          "Zıpla, başlangıç pozisyonuna dön",
-          "Ritimli şekilde devam et"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_001",
-        "ad": "Şınav",
-        "aciklama": "Klasik vücut ağırlığı egzersizi. Göğüs, omuz ve triseps çalıştırır.",
-        "sure": 300,
-        "kalori": 35,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["gogus", "omuz", "kol"],
-        "talimatlar": [
-          "Plank pozisyonunda başla, eller omuz hizasında",
-          "Vücudu düz tut, göğüs yere yaklaşana kadar in",
-          "Kolları düzelterek yukarı it",
-          "Tekrar et"
-        ],
-        "tekrarSayisi": 15,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_002",
-        "ad": "Squat (Çömelme)",
-        "aciklama": "Alt vücut için en etkili egzersiz. Bacak ve kalça kaslarını güçlendirir.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Ayaklar omuz genişliğinde aç",
-          "Kalçayı geriye doğru it, dizler 90 derece olana kadar çömel",
-          "Topukları yere basarak ayağa kalk",
-          "Sırt düz kalsın"
-        ],
-        "tekrarSayisi": 20,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_003",
-        "ad": "Plank",
-        "aciklama": "Core (karın) bölgesi için statik egzersiz. Stabilite ve dayanıklılık geliştirir.",
-        "sure": 180,
-        "kalori": 25,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["karin"],
-        "talimatlar": [
-          "Ön kollar ve ayak parmakları üzerinde dur",
-          "Vücudu düz bir çizgi halinde tut",
-          "Karın kaslarını sık, kalça düşürme",
-          "Pozisyonu koru"
-        ],
-        "tekrarSayisi": 60,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_005",
-        "ad": "Lunges (İleri Adım)",
-        "aciklama": "Alt vücut için tek taraflı egzersiz. Denge ve bacak gücü geliştirir.",
-        "sure": 300,
-        "kalori": 35,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Ayakta dik dur",
-          "Bir ayakla büyük adım at",
-          "Her iki dizde 90 derece ol",
-          "Başlangıç pozisyonuna dön",
-          "Diğer bacakla tekrarla"
-        ],
-        "tekrarSayisi": 12,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_012",
-        "ad": "Bicycle Crunches",
-        "aciklama": "Karın kasları için dinamik egzersiz. Yan karın kaslarını da çalıştırır.",
-        "sure": 240,
-        "kalori": 30,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["karin"],
-        "talimatlar": [
-          "Sırt üstü yat, eller başın arkasında",
-          "Bir diziyle karşı dirseği birleştir",
-          "Bisiklet sürer gibi değiştir",
-          "Kontrollü hareketler yap"
-        ],
-        "tekrarSayisi": 20,
-        "setSayisi": 3
-      }
-    ]
+    "toplamSure": 3600,
+    "toplamKalori": 388,
+    "hedefKasGruplari": ["bacak", "gogus", "sirt", "omuz", "karin"],
+    "gorselUrl": null
   },
   {
-    "id": "prog_002",
-    "ad": "HIIT Yağ Yakıcı",
-    "aciklama": "Yüksek yoğunluklu interval antrenmanı. Maksimum kalori yakımı ve kardiyovasküler kondisyon gelişimi için.",
-    "zorluk": "orta",
-    "toplamSure": 1560,
-    "toplamKalori": 340,
-    "hedefKasGruplari": ["tumvucut", "bacak", "karin"],
+    "id": "program_002",
+    "ad": "Kuvvet Geliştirme - Compound",
+    "aciklama": "İleri seviye lifterlar için compound hareketlerle maksimum kuvvet geliştirme. Big 3 odaklı program.",
     "egzersizler": [
       {
-        "id": "egz_013",
-        "ad": "Jumping Jacks",
-        "aciklama": "Kardiyo ısınma egzersizi. Kan dolaşımını hızlandırır.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "baslangic",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["tumvucut"],
-        "talimatlar": [
-          "Ayaklar bitişik, kollar yanda",
-          "Zıpla, ayakları aç, kolları yukarı kaldır",
-          "Zıpla, başlangıç pozisyonuna dön",
-          "Ritimli şekilde devam et"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_004",
-        "ad": "Burpee",
-        "aciklama": "Tüm vücut için yüksek yoğunluklu egzersiz. Kardiyovasküler dayanıklılık ve güç birleşimi.",
-        "sure": 360,
-        "kalori": 80,
-        "zorluk": "orta",
-        "kategori": "hiit",
-        "hedefKaslar": ["tumvucut"],
-        "talimatlar": [
-          "Ayakta dik dur",
-          "Çömel ve elleri yere koy",
-          "Ayakları geriye at, plank pozisyonuna geç",
-          "Bir şınav çek",
-          "Ayakları öne çek ve zıpla"
-        ],
-        "tekrarSayisi": 12,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_009",
-        "ad": "Mountain Climbers",
-        "aciklama": "Kardiyovasküler ve core egzersizi. Yüksek kalori yakımı sağlar.",
-        "sure": 240,
-        "kalori": 55,
-        "zorluk": "orta",
-        "kategori": "hiit",
-        "hedefKaslar": ["karin", "bacak"],
-        "talimatlar": [
-          "Plank pozisyonunda başla",
-          "Bir dizi göğse doğru çek",
-          "Hızla değiştir",
-          "Koşuyormuş gibi devam et"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_019",
-        "ad": "High Knees",
-        "aciklama": "Kardiyovasküler ve bacak gücü için dinamik egzersiz.",
-        "sure": 240,
-        "kalori": 50,
-        "zorluk": "orta",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Yerinde koş",
-          "Dizleri göğse kadar kaldır",
-          "Hızlı tempo tut",
-          "Kolları da kullan"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_002",
-        "ad": "Squat (Çömelme)",
-        "aciklama": "Alt vücut için en etkili egzersiz. Bacak ve kalça kaslarını güçlendirir.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Ayaklar omuz genişliğinde aç",
-          "Kalçayı geriye doğru it, dizler 90 derece olana kadar çömel",
-          "Topukları yere basarak ayağa kalk",
-          "Sırt düz kalsın"
-        ],
-        "tekrarSayisi": 20,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_003",
-        "ad": "Plank",
-        "aciklama": "Core (karın) bölgesi için statik egzersiz. Stabilite ve dayanıklılık geliştirir.",
+        "id": "guc_001",
+        "ad": "Barbell Squat",
+        "aciklama": "Compound bacak hareketi - kas kütlesi ve kuvvet için",
         "sure": 180,
-        "kalori": 25,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["karin"],
-        "talimatlar": [
-          "Ön kollar ve ayak parmakları üzerinde dur",
-          "Vücudu düz bir çizgi halinde tut",
-          "Karın kaslarını sık, kalça düşürme",
-          "Pozisyonu koru"
-        ],
-        "tekrarSayisi": 60,
-        "setSayisi": 3
-      }
-    ]
-  },
-  {
-    "id": "prog_003",
-    "ad": "Güç ve Kas Geliştirme",
-    "aciklama": "İleri seviye güç antrenmanı. Kas kütlesi ve maksimal güç geliştirmek için compound hareketler.",
-    "zorluk": "ileri",
-    "toplamSure": 2040,
-    "toplamKalori": 315,
-    "hedefKasGruplari": ["gogus", "sirt", "bacak", "omuz", "kol"],
-    "egzersizler": [
-      {
-        "id": "egz_013",
-        "ad": "Jumping Jacks",
-        "aciklama": "Kardiyo ısınma egzersizi. Kan dolaşımını hızlandırır.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "baslangic",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["tumvucut"],
-        "talimatlar": [
-          "Ayaklar bitişik, kollar yanda",
-          "Zıpla, ayakları aç, kolları yukarı kaldır",
-          "Zıpla, başlangıç pozisyonuna dön",
-          "Ritimli şekilde devam et"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_010",
-        "ad": "Deadlift",
-        "aciklama": "Tüm vücut için compound egzersiz. Sırt, bacak ve core çalıştırır.",
-        "sure": 420,
-        "kalori": 60,
+        "kalori": 120,
         "zorluk": "ileri",
         "kategori": "guc",
-        "hedefKaslar": ["sirt", "bacak"],
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak", "karin"],
         "talimatlar": [
-          "Barbell önünde dur, ayaklar kalça genişliğinde",
-          "Sırt düz, barı kavra",
-          "Bacak ve kalça gücüyle kaldır",
-          "Sırt düz kalmalı",
-          "Kontrollü şekilde indir"
+          "Barbell'i omuzlarınıza yerleştirin",
+          "Ayakları omuz genişliğinde açın",
+          "Sırt düz, göğüs yukarıda",
+          "Dizler ayak parmak hizasında inerek çömelin",
+          "Topuklardan itme yaparak kalkın"
         ],
+        "ekipmanlar": ["Barbell", "Squat Rack"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 5,
+        "setSayisi": 5
+      },
+      {
+        "id": "guc_002",
+        "ad": "Bench Press",
+        "aciklama": "Göğüs için temel kuvvet hareketi",
+        "sure": 150,
+        "kalori": 100,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "gogus",
+        "hedefKaslar": ["gogus", "kol", "omuz"],
+        "talimatlar": [
+          "Sırtüstü bench'e uzanın",
+          "Barbell'i omuz genişliğinden biraz geniş tutun",
+          "Göğsünüze kadar indirin",
+          "Kontrollü şekilde yukarı itin",
+          "Dirseklerinizi kilitlemeyin"
+        ],
+        "ekipmanlar": ["Barbell", "Bench"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 5,
+        "setSayisi": 5
+      },
+      {
+        "id": "guc_003",
+        "ad": "Deadlift",
+        "aciklama": "Tüm vücut compound hareketi - posterior chain geliştirme",
+        "sure": 180,
+        "kalori": 140,
+        "zorluk": "ileri",
+        "kategori": "guc",
+        "kasGrubu": "sirt",
+        "hedefKaslar": ["sirt", "bacak", "karin"],
+        "talimatlar": [
+          "Ayakları kalça genişliğinde yerleştirin",
+          "Barbell'i mid-foot hizasında tutun",
+          "Sırt düz, göğüs yukarı",
+          "Bacak ve kalçadan itme yaparak kaldırın",
+          "Kontrollü şekilde yere bırakın"
+        ],
+        "ekipmanlar": ["Barbell", "Ağırlık Plakaları"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 5,
+        "setSayisi": 3
+      },
+      {
+        "id": "guc_005",
+        "ad": "Overhead Press",
+        "aciklama": "Omuz ve üst vücut kuvvet hareketi",
+        "sure": 150,
+        "kalori": 90,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "omuz",
+        "hedefKaslar": ["omuz", "kol", "karin"],
+        "talimatlar": [
+          "Barbell'i omuz hizasında tutun",
+          "Ayaklar omuz genişliğinde",
+          "Core'u sıkı tutun",
+          "Düz bir çizgide yukarı itin",
+          "Başınızı hafif geriye alın"
+        ],
+        "ekipmanlar": ["Barbell"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 5,
+        "setSayisi": 5
+      }
+    ],
+    "zorluk": "ileri",
+    "toplamSure": 3960,
+    "toplamKalori": 450,
+    "hedefKasGruplari": ["bacak", "gogus", "sirt", "omuz", "karin"],
+    "gorselUrl": null
+  },
+  {
+    "id": "program_003",
+    "ad": "HIIT - Yağ Yakımı",
+    "aciklama": "20 dakikalık yoğun interval antrenmanı. Maksimum kalori yakımı ve metabolizma hızlandırma.",
+    "egzersizler": [
+      {
+        "id": "hiit_001",
+        "ad": "Burpee",
+        "aciklama": "Tüm vücut HIIT hareketi - maksimum kalori yakımı",
+        "sure": 30,
+        "kalori": 15,
+        "zorluk": "ileri",
+        "kategori": "hiit",
+        "kasGrubu": "tumVucut",
+        "hedefKaslar": ["tumVucut", "gogus", "bacak"],
+        "talimatlar": [
+          "Ayakta durun",
+          "Çömelerek elleri yere koyun",
+          "Plank pozisyonuna atlayın",
+          "Bir push-up yapın",
+          "Çömelme pozisyonuna dönün",
+          "Sıçrayarak ayağa kalkın"
+        ],
+        "ekipmanlar": [],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 15,
+        "setSayisi": 4
+      },
+      {
+        "id": "hiit_002",
+        "ad": "Mountain Climber",
+        "aciklama": "Kardiyo ve core kombine HIIT hareketi",
+        "sure": 40,
+        "kalori": 12,
+        "zorluk": "orta",
+        "kategori": "hiit",
+        "kasGrubu": "karin",
+        "hedefKaslar": ["karin", "omuz", "bacak"],
+        "talimatlar": [
+          "Plank pozisyonunda başlayın",
+          "Bir dizinizi göğsünüze çekin",
+          "Hızlıca dizleri değiştirin",
+          "Kalçayı yukarı kaldırmamaya dikkat edin",
+          "Hızlı tempoda devam edin"
+        ],
+        "ekipmanlar": [],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 30,
+        "setSayisi": 4
+      },
+      {
+        "id": "hiit_003",
+        "ad": "Jump Squat",
+        "aciklama": "Patlayıcı bacak gücü ve kalori yakımı",
+        "sure": 30,
+        "kalori": 14,
+        "zorluk": "orta",
+        "kategori": "hiit",
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak", "karin"],
+        "talimatlar": [
+          "Squat pozisyonuna inin",
+          "Patlayıcı şekilde zıplayın",
+          "Yumuşak şekilde inin",
+          "Hemen squat pozisyonuna geçin",
+          "Tempolu şekilde tekrarlayın"
+        ],
+        "ekipmanlar": [],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 15,
+        "setSayisi": 4
+      },
+      {
+        "id": "hiit_004",
+        "ad": "High Knees",
+        "aciklama": "Yüksek tempo kardiyo hareketi",
+        "sure": 30,
+        "kalori": 10,
+        "zorluk": "baslangic",
+        "kategori": "hiit",
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak", "karin"],
+        "talimatlar": [
+          "Ayakta durun",
+          "Dizleri kalça hizasına kadar kaldırın",
+          "Hızlıca değiştirin",
+          "Kolları koşar gibi sallayın",
+          "Yüksek tempo tutun"
+        ],
+        "ekipmanlar": [],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 40,
+        "setSayisi": 3
+      }
+    ],
+    "zorluk": "ileri",
+    "toplamSure": 1200,
+    "toplamKalori": 204,
+    "hedefKasGruplari": ["tumVucut", "karin", "bacak"],
+    "gorselUrl": null
+  },
+  {
+    "id": "program_004",
+    "ad": "Upper Body - Kuvvet",
+    "aciklama": "Üst vücut kas geliştirme ve kuvvet programı. Göğüs, sırt, omuz ve kollar için.",
+    "egzersizler": [
+      {
+        "id": "guc_002",
+        "ad": "Bench Press",
+        "aciklama": "Göğüs için temel kuvvet hareketi",
+        "sure": 150,
+        "kalori": 100,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "gogus",
+        "hedefKaslar": ["gogus", "kol", "omuz"],
+        "talimatlar": [
+          "Sırtüstü bench'e uzanın",
+          "Barbell'i omuz genişliğinden biraz geniş tutun",
+          "Göğsünüze kadar indirin",
+          "Kontrollü şekilde yukarı itin",
+          "Dirseklerinizi kilitlemeyin"
+        ],
+        "ekipmanlar": ["Barbell", "Bench"],
+        "videoUrl": null,
+        "gorselUrl": null,
         "tekrarSayisi": 8,
         "setSayisi": 4
       },
       {
-        "id": "egz_006",
-        "ad": "Dambıl Bench Press",
-        "aciklama": "Göğüs kasları için temel güç egzersizi. Omuz ve triseps de çalışır.",
-        "sure": 420,
-        "kalori": 50,
+        "id": "guc_006",
+        "ad": "Barbell Row",
+        "aciklama": "Sırt kalınlığı için horizontal çekiş hareketi",
+        "sure": 150,
+        "kalori": 100,
         "zorluk": "orta",
         "kategori": "guc",
-        "hedefKaslar": ["gogus", "omuz", "kol"],
+        "kasGrubu": "sirt",
+        "hedefKaslar": ["sirt", "kol"],
         "talimatlar": [
-          "Bench'e sırt üstü uzan",
-          "Dambılları göğüs hizasında tut",
-          "Yukarı doğru it",
-          "Kontrollü şekilde indir"
+          "Hafif eğilerek durun (45 derece)",
+          "Barbell'i overhand grip ile tutun",
+          "Dirseği geriye çekerek barı karına çekin",
+          "Sırt kaslarını sıkıştırın",
+          "Kontrollü şekilde indirin"
         ],
+        "ekipmanlar": ["Barbell"],
+        "videoUrl": null,
+        "gorselUrl": null,
         "tekrarSayisi": 10,
         "setSayisi": 4
       },
       {
-        "id": "egz_007",
-        "ad": "Pull-Up (Barfiks)",
-        "aciklama": "Sırt ve kol kasları için vücut ağırlığı egzersizi. Üst vücut gücü geliştirir.",
-        "sure": 300,
-        "kalori": 45,
+        "id": "guc_005",
+        "ad": "Overhead Press",
+        "aciklama": "Omuz ve üst vücut kuvvet hareketi",
+        "sure": 150,
+        "kalori": 90,
+        "zorluk": "orta",
+        "kategori": "guc",
+        "kasGrubu": "omuz",
+        "hedefKaslar": ["omuz", "kol", "karin"],
+        "talimatlar": [
+          "Barbell'i omuz hizasında tutun",
+          "Ayaklar omuz genişliğinde",
+          "Core'u sıkı tutun",
+          "Düz bir çizgide yukarı itin",
+          "Başınızı hafif geriye alın"
+        ],
+        "ekipmanlar": ["Barbell"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 8,
+        "setSayisi": 4
+      },
+      {
+        "id": "guc_004",
+        "ad": "Pull-Up",
+        "aciklama": "Vücut ağırlığı ile sırt ve kol geliştirme",
+        "sure": 120,
+        "kalori": 80,
         "zorluk": "ileri",
         "kategori": "guc",
+        "kasGrubu": "sirt",
         "hedefKaslar": ["sirt", "kol"],
         "talimatlar": [
-          "Barda asıl kal, eller omuz genişliğinde",
-          "Çene barın üzerine gelene kadar çek",
-          "Kontrollü şekilde in",
-          "Tekrar et"
+          "Barı omuz genişliğinden geniş tutun",
+          "Serbest asılı durumda başlayın",
+          "Göğsünüzü bara yaklaştıracak şekilde çekin",
+          "Kontrollü şekilde inin",
+          "Momentum kullanmayın"
         ],
+        "ekipmanlar": ["Pull-up Bar"],
+        "videoUrl": null,
+        "gorselUrl": null,
         "tekrarSayisi": 8,
-        "setSayisi": 3
+        "setSayisi": 4
       },
       {
-        "id": "egz_011",
-        "ad": "Dambıl Shoulder Press",
-        "aciklama": "Omuz kasları için temel güç egzersizi. Deltoid kaslarını güçlendirir.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "orta",
+        "id": "guc_011",
+        "ad": "Bicep Curl",
+        "aciklama": "Biceps izolasyon hareketi",
+        "sure": 90,
+        "kalori": 55,
+        "zorluk": "baslangic",
         "kategori": "guc",
-        "hedefKaslar": ["omuz", "kol"],
+        "kasGrubu": "kol",
+        "hedefKaslar": ["kol"],
         "talimatlar": [
-          "Ayakta dur veya bench'te otur",
-          "Dambılları omuz hizasında tut",
-          "Yukarı doğru it",
-          "Kontrollü şekilde indir"
+          "Dumbbell'ları yanlarda tutun",
+          "Dirsekler sabit",
+          "Omuz hizasına kadar kaldırın",
+          "Biceps'i sıkıştırın",
+          "Kontrollü indirin"
         ],
+        "ekipmanlar": ["Dumbbell"],
+        "videoUrl": null,
+        "gorselUrl": null,
         "tekrarSayisi": 12,
         "setSayisi": 3
       },
       {
-        "id": "egz_018",
-        "ad": "Rowing (Kürek Çekme)",
-        "aciklama": "Sırt kasları için temel çekme egzersizi.",
-        "sure": 360,
-        "kalori": 50,
+        "id": "guc_010",
+        "ad": "Triceps Dips",
+        "aciklama": "Triceps için compound hareket",
+        "sure": 90,
+        "kalori": 65,
         "zorluk": "orta",
         "kategori": "guc",
-        "hedefKaslar": ["sirt", "kol"],
+        "kasGrubu": "kol",
+        "hedefKaslar": ["kol", "gogus"],
         "talimatlar": [
-          "Makineye veya dambılla eğil",
-          "Ağırlığı göğse doğru çek",
-          "Sıkıştır",
-          "Kontrollü şekilde indir"
+          "Paralel barlara tutunun",
+          "Vücudu yukarı kaldırın",
+          "Dirsekleri bükerek aşağı inin",
+          "90 derece dirsek açısına gelin",
+          "Yukarı itin"
         ],
-        "tekrarSayisi": 12,
+        "ekipmanlar": ["Parallel Bars"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 10,
         "setSayisi": 3
       }
-    ]
+    ],
+    "zorluk": "orta",
+    "toplamSure": 4500,
+    "toplamKalori": 490,
+    "hedefKasGruplari": ["gogus", "sirt", "omuz", "kol"],
+    "gorselUrl": null
   },
   {
-    "id": "prog_004",
-    "ad": "Yoga & Mobilite",
-    "aciklama": "Esneklik, denge ve zihin-beden bağlantısı için yoga ve mobilite programı.",
-    "zorluk": "baslangic",
-    "toplamSure": 1200,
-    "toplamKalori": 125,
-    "hedefKasGruplari": ["tumvucut"],
+    "id": "program_005",
+    "ad": "Lower Body - Kas Geliştirme",
+    "aciklama": "Alt vücut odaklı hipertrofi programı. Bacak, kalça ve baldırlar için kapsamlı antrenman.",
     "egzersizler": [
       {
-        "id": "egz_014",
-        "ad": "Yoga - Sun Salutation",
-        "aciklama": "Esneklik ve denge için yoga dizisi. Tüm vücudu gerir.",
-        "sure": 600,
-        "kalori": 45,
-        "zorluk": "baslangic",
-        "kategori": "yoga",
-        "hedefKaslar": ["tumvucut"],
+        "id": "guc_001",
+        "ad": "Barbell Squat",
+        "aciklama": "Compound bacak hareketi - kas kütlesi ve kuvvet için",
+        "sure": 180,
+        "kalori": 120,
+        "zorluk": "ileri",
+        "kategori": "guc",
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak", "karin"],
         "talimatlar": [
-          "Dağ pozisyonunda başla",
-          "Eller yukarı, arkaya eğil",
-          "Öne eğil, elleri yere koy",
-          "Plank, kobra, aşağı bakan köpek",
-          "Geriye doğru dizilimi tamamla"
-        ]
+          "Barbell'i omuzlarınıza yerleştirin",
+          "Ayakları omuz genişliğinde açın",
+          "Sırt düz, göğüs yukarıda",
+          "Dizler ayak parmak hizasında inerek çömelin",
+          "Topuklardan itme yaparak kalkın"
+        ],
+        "ekipmanlar": ["Barbell", "Squat Rack"],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 10,
+        "setSayisi": 4
       },
       {
-        "id": "egz_003",
-        "ad": "Plank",
-        "aciklama": "Core (karın) bölgesi için statik egzersiz. Stabilite ve dayanıklılık geliştirir.",
-        "sure": 180,
-        "kalori": 25,
-        "zorluk": "baslangic",
+        "id": "guc_013",
+        "ad": "Lunges",
+        "aciklama": "Tek bacak kuvvet ve denge hareketi",
+        "sure": 120,
+        "kalori": 90,
+        "zorluk": "orta",
         "kategori": "guc",
-        "hedefKaslar": ["karin"],
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak", "karin"],
         "talimatlar": [
-          "Ön kollar ve ayak parmakları üzerinde dur",
-          "Vücudu düz bir çizgi halinde tut",
-          "Karın kaslarını sık, kalça düşürme",
-          "Pozisyonu koru"
+          "Bir adım ileri atın",
+          "Ön dizi 90 derece bükün",
+          "Arka diz yere yaklaşsın",
+          "Ön topuktan iterek başlangıca dönün",
+          "Taraf değiştirin"
         ],
-        "tekrarSayisi": 60,
+        "ekipmanlar": [],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 12,
         "setSayisi": 3
       },
       {
-        "id": "egz_020",
-        "ad": "Pilates - Hundred",
-        "aciklama": "Core stabilizasyon ve dayanıklılık için pilates egzersizi.",
-        "sure": 300,
-        "kalori": 30,
-        "zorluk": "orta",
-        "kategori": "pilates",
-        "hedefKaslar": ["karin"],
-        "talimatlar": [
-          "Sırt üstü yat, bacakları kaldır",
-          "Omuzları yerden kaldır",
-          "Kolları hızlı şekilde pompala",
-          "100 pompalama yap (nefes koordine et)"
-        ]
-      },
-      {
-        "id": "egz_017",
-        "ad": "Leg Raises",
-        "aciklama": "Alt karın kasları için etkili egzersiz.",
-        "sure": 240,
-        "kalori": 25,
-        "zorluk": "orta",
+        "id": "guc_008",
+        "ad": "Leg Press",
+        "aciklama": "Makine ile güvenli bacak kuvvet çalışması",
+        "sure": 150,
+        "kalori": 110,
+        "zorluk": "baslangic",
         "kategori": "guc",
-        "hedefKaslar": ["karin"],
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak"],
         "talimatlar": [
-          "Sırt üstü yat, eller kalça altında",
-          "Bacakları düz tut",
-          "Yukarı kaldır, 90 derece ol",
-          "Kontrollü şekilde indir"
+          "Sırtınızı yaslamaya yaslayın",
+          "Ayakları platform üzerine omuz genişliğinde yerleştirin",
+          "Dizleri 90 derece bükerek inin",
+          "Topuklardan itme yaparak itin",
+          "Dizleri kilitlemeyin"
         ],
+        "ekipmanlar": ["Leg Press Makinesi"],
+        "videoUrl": null,
+        "gorselUrl": null,
         "tekrarSayisi": 15,
         "setSayisi": 3
-      }
-    ]
-  },
-  {
-    "id": "prog_005",
-    "ad": "Kardiyovasküler Dayanıklılık",
-    "aciklama": "Kardiyovasküler sağlık ve dayanıklılık odaklı program. Kalp sağlığı ve kondisyon için.",
-    "zorluk": "baslangic",
-    "toplamSure": 2340,
-    "toplamKalori": 355,
-    "hedefKasGruplari": ["bacak", "tumvucut"],
-    "egzersizler": [
-      {
-        "id": "egz_013",
-        "ad": "Jumping Jacks",
-        "aciklama": "Kardiyo ısınma egzersizi. Kan dolaşımını hızlandırır.",
-        "sure": 300,
-        "kalori": 40,
-        "zorluk": "baslangic",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["tumvucut"],
-        "talimatlar": [
-          "Ayaklar bitişik, kollar yanda",
-          "Zıpla, ayakları aç, kolları yukarı kaldır",
-          "Zıpla, başlangıç pozisyonuna dön",
-          "Ritimli şekilde devam et"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
       },
       {
-        "id": "egz_008",
-        "ad": "Koşu (Orta Tempo)",
-        "aciklama": "Kardiyovasküler dayanıklılık için temel egzersiz. Kalp sağlığını iyileştirir.",
-        "sure": 1200,
-        "kalori": 150,
-        "zorluk": "baslangic",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Orta tempoda koşmaya başla",
-          "Düzenli nefes al",
-          "Tempo sabit tut",
-          "20 dakika devam et"
-        ]
-      },
-      {
-        "id": "egz_019",
-        "ad": "High Knees",
-        "aciklama": "Kardiyovasküler ve bacak gücü için dinamik egzersiz.",
-        "sure": 240,
-        "kalori": 50,
-        "zorluk": "orta",
-        "kategori": "kardiyovaskuler",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Yerinde koş",
-          "Dizleri göğse kadar kaldır",
-          "Hızlı tempo tut",
-          "Kolları da kullan"
-        ],
-        "tekrarSayisi": 30,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_002",
-        "ad": "Squat (Çömelme)",
-        "aciklama": "Alt vücut için en etkili egzersiz. Bacak ve kalça kaslarını güçlendirir.",
-        "sure": 300,
-        "kalori": 40,
+        "id": "guc_014",
+        "ad": "Leg Curl",
+        "aciklama": "Hamstring izolasyon hareketi",
+        "sure": 90,
+        "kalori": 60,
         "zorluk": "baslangic",
         "kategori": "guc",
+        "kasGrubu": "bacak",
         "hedefKaslar": ["bacak"],
         "talimatlar": [
-          "Ayaklar omuz genişliğinde aç",
-          "Kalçayı geriye doğru it, dizler 90 derece olana kadar çömel",
-          "Topukları yere basarak ayağa kalk",
-          "Sırt düz kalsın"
+          "Leg curl makinesine yüzüstü uzanın",
+          "Topukları kalçaya doğru çekin",
+          "Hamstring'i sıkıştırın",
+          "Kontrollü geri uzatın",
+          "Momentum kullanmayın"
         ],
-        "tekrarSayisi": 20,
-        "setSayisi": 3
-      },
-      {
-        "id": "egz_005",
-        "ad": "Lunges (İleri Adım)",
-        "aciklama": "Alt vücut için tek taraflı egzersiz. Denge ve bacak gücü geliştirir.",
-        "sure": 300,
-        "kalori": 35,
-        "zorluk": "baslangic",
-        "kategori": "guc",
-        "hedefKaslar": ["bacak"],
-        "talimatlar": [
-          "Ayakta dik dur",
-          "Bir ayakla büyük adım at",
-          "Her iki dizde 90 derece ol",
-          "Başlangıç pozisyonuna dön",
-          "Diğer bacakla tekrarla"
-        ],
+        "ekipmanlar": ["Leg Curl Makinesi"],
+        "videoUrl": null,
+        "gorselUrl": null,
         "tekrarSayisi": 12,
         "setSayisi": 3
+      },
+      {
+        "id": "guc_015",
+        "ad": "Calf Raise",
+        "aciklama": "Baldır kası geliştirme",
+        "sure": 60,
+        "kalori": 40,
+        "zorluk": "baslangic",
+        "kategori": "guc",
+        "kasGrubu": "bacak",
+        "hedefKaslar": ["bacak"],
+        "talimatlar": [
+          "Ayakları omuz genişliğinde durun",
+          "Topuklardan yukarı kalkın",
+          "Baldırları sıkıştırın",
+          "Kontrollü indirin",
+          "Tam hareket genişliği"
+        ],
+        "ekipmanlar": [],
+        "videoUrl": null,
+        "gorselUrl": null,
+        "tekrarSayisi": 20,
+        "setSayisi": 4
       }
-    ]
+    ],
+    "zorluk": "orta",
+    "toplamSure": 3600,
+    "toplamKalori": 420,
+    "hedefKasGruplari": ["bacak"],
+    "gorselUrl": null
   }
 ]

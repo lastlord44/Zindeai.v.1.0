@@ -1,0 +1,33 @@
+[
+  {
+    "id": "seed_0001",
+    "ad": "Ton Balıklı Yoğurtlu Salata",
+    "kalori": 420,
+    "proteinG": 35,
+    "carbG": 22,
+    "fatG": 20,
+    "malzemeler": [
+      "Ton Balığı (suda) (150 g)",
+      "Yoğurt (200 g)",
+      "Zeytinyağı (10 ml)",
+      "Maydanoz (1 dal)",
+      "Limon Suyu (10 ml)",
+      "Tuz (1 tutam)"
+    ]
+  },
+  {
+    "id": "seed_0002",
+    "ad": "Yulaflı Yumurta",
+    "kalori": 380,
+    "proteinG": 24,
+    "carbG": 38,
+    "fatG": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Yulaf (50 g)",
+      "Süt (100 ml)",
+      "Zeytinyağı (5 ml)",
+      "Tuz (1 tutam)"
+    ]
+  }
+]

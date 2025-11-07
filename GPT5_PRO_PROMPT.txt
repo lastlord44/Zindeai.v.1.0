@@ -1,0 +1,51 @@
+AI beslenme uygulaması için 50 adet MEGA BULK yemek paketi oluştur. 3500-5000 kcal profiller için ultra-high calorie yemekler gerekiyor.
+
+ÖZELLIKLER:
+- 800-1200 kcal/porsiyon
+- Türk mutfağı + uluslararası füzyon
+- 6 öğün sistemi (kahvaltı, ara1, öğle, ara2, akşam, gece)
+- Yüksek protein + karb + sağlıklı yağ
+
+KATEGORI DAĞILIMI:
+- Kahvaltı: 10 adet (700-900 kcal)
+- Öğle: 15 adet (900-1200 kcal)  
+- Akşam: 10 adet (800-1000 kcal)
+- Ara Öğün 1: 5 adet (400-600 kcal)
+- Ara Öğün 2: 5 adet (500-700 kcal)
+- Gece Atıştırma: 5 adet (300-500 kcal)
+
+JSON FORMAT:
+{
+  "mega_bulk_yemekler": [
+    {
+      "ad": "Protein Pancake Deluxe",
+      "kategori": "kahvalti",
+      "kalori": 850,
+      "protein": 45,
+      "karbonhidrat": 75,
+      "yag": 35,
+      "malzemeler": "Protein tozu,Yulaf,Yumurta,Süt,Muz,Fındık,Bal",
+      "sure": 20,
+      "zorluk": "orta"
+    }
+  ]
+}
+
+KATEGORİ KODLARI:
+- "kahvalti" - Kahvaltı
+- "araOgun1" - Ara Öğün 1  
+- "ogle" - Öğle Yemeği
+- "araOgun2" - Ara Öğün 2
+- "aksam" - Akşam Yemeği
+- "geceAtistirma" - Gece Atıştırması
+
+ZORLUK: "kolay", "orta", "zor"
+
+ÖRNEKLER:
+- Kahvaltı: Double protein pancake, Türk kahvaltısı deluxe, Granola bowl premium
+- Öğle: Kuzu tandır mega porsiyon, Double köfte pilav, İskender kebap XL
+- Akşam: Fırın tavuk + bulgur, Somon steak + sebze, Protein pizza
+- Ara: Protein smoothie bowl, Kuruyemiş mix, Energy balls
+- Gece: Protein puding, Lor peyniri + bal, Casein shake
+
+Türk damak zevkine uygun, pratik hazırlanabilir, makro hesaplaması kesin 50 adet yemek JSON formatında ver.

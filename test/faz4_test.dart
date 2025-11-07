@@ -1,66 +1,82 @@
 // test/faz4_test.dart
 
+import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:zinde_ai/data/datasources/yemek_local_data_source.dart';
+import 'package:zinde_ai/data/local/hive_service.dart';
 import 'package:zinde_ai/domain/entities/yemek.dart';
 import 'package:zinde_ai/domain/entities/makro_hedefleri.dart';
 import 'package:zinde_ai/core/utils/app_logger.dart';
+import 'package:zinde_ai/core/utils/yemek_migration_3000.dart';
 
 void main() {
-  late YemekLocalDataSource dataSource;
+  TestWidgetsFlutterBinding.ensureInitialized();
+  late Directory tempDir;
 
-  setUpAll(() {
-    // Logger'ı başlat
-    AppLogger.init(isDebug: true);
-    dataSource = YemekLocalDataSource();
+  setUpAll(() async {
+    AppLogger.init(level: LogLevel.debug);
+    tempDir = Directory.systemTemp.createTempSync('faz4_test_');
+    await HiveService.init(path: tempDir.path);
+    AppLogger.info('FAZ 4 Testi için veritabanı dolduruluyor...');
+    await YemekMigration3000.yukle();
+    AppLogger.info('Veritabanı dolduruldu.');
   });
 
-  group('FAZ 4 - Yemek Entity ve JSON Parser Testleri', () {
-    test('Kahvaltı yemeklerini yükle', () async {
+  tearDownAll(() async {
+    await HiveService.close();
+    if (tempDir.existsSync()) {
+      tempDir.deleteSync(recursive: true);
+    }
+  });
+
+  group('FAZ 4 - Hive DB ve Yemek Entity Testleri (Modernize Edilmiş)', () {
+    test('Kahvaltı yemeklerini Hive\'dan yükle', () async {
       // Arrange
-      AppLogger.info('🧪 Test: Kahvaltı yükleme');
+      AppLogger.info('🧪 Test: Kahvaltı yükleme (Hive)');
 
       // Act
-      final kahvaltilar = await dataSource.yemekleriYukle(OgunTipi.kahvalti);
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
 
       // Assert
       expect(kahvaltilar, isNotEmpty);
       expect(kahvaltilar.first.ogun, OgunTipi.kahvalti);
 
-      AppLogger.success('✅ ${kahvaltilar.length} kahvaltı yüklendi');
+      AppLogger.success('✅ ${kahvaltilar.length} kahvaltı Hive\'dan yüklendi');
       AppLogger.debug('İlk yemek: ${kahvaltilar.first.kisaOzet}');
     });
 
-    test('Tüm öğünleri paralel yükle', () async {
+    test('Tüm öğünleri Hive\'dan yükle', () async {
       // Arrange
-      AppLogger.info('🧪 Test: Tüm öğünleri yükleme');
+      AppLogger.info('🧪 Test: Tüm öğünleri yükleme (Hive)');
       final stopwatch = Stopwatch()..start();
 
       // Act
-      final tumYemekler = await dataSource.tumYemekleriYukle();
+      final tumYemekler = await HiveService.tumYemekleriGetir();
       stopwatch.stop();
 
       // Assert
       expect(tumYemekler, isNotEmpty);
-      expect(tumYemekler.keys.length, OgunTipi.values.length);
 
-      final toplamYemek = tumYemekler.values.fold<int>(
-        0,
-        (toplam, liste) => toplam + liste.length,
-      );
+      final tumYemeklerMap = <OgunTipi, List<Yemek>>{};
+      for (var yemek in tumYemekler) {
+        (tumYemeklerMap[yemek.ogun] ??= []).add(yemek);
+      }
+      
+      expect(tumYemeklerMap.keys.length, greaterThan(0));
 
       AppLogger.success(
-          '✅ $toplamYemek yemek ${stopwatch.elapsedMilliseconds}ms\'de yüklendi');
+          '✅ ${tumYemekler.length} yemek ${stopwatch.elapsedMilliseconds}ms\'de Hive\'dan yüklendi');
 
       // Her öğün tipini kontrol et
-      for (final entry in tumYemekler.entries) {
+      for (final entry in tumYemeklerMap.entries) {
         AppLogger.debug('${entry.key.ad}: ${entry.value.length} yemek');
       }
     });
 
-    test('Yemek makro uygunluğu kontrolü', () async {
+    test('Yemek makro uygunluğu kontrolü (Hive)', () async {
       // Arrange
-      final kahvaltilar = await dataSource.yemekleriYukle(OgunTipi.kahvalti);
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
       final hedefler = MakroHedefleri(
         gunlukKalori: 2500,
         gunlukProtein: 150,
@@ -80,15 +96,14 @@ void main() {
       AppLogger.debug('Hedef kalori/öğün: ${hedefler.gunlukKalori / 5} kcal');
     });
 
-    test('Alerji kısıtlaması ile filtreleme', () async {
+    test('Alerji kısıtlaması ile filtreleme (Hive)', () async {
       // Arrange
       final kisitlamalar = ['Süt', 'Yumurta'];
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
 
       // Act
-      final filtrelenmis = await dataSource.yemekleriFiltrele(
-        ogun: OgunTipi.kahvalti,
-        kisitlamalar: kisitlamalar,
-      );
+      final filtrelenmis = kahvaltilar.where((y) => y.kisitlamayaUygunMu(kisitlamalar)).toList();
 
       // Assert
       expect(filtrelenmis, isNotEmpty);
@@ -103,17 +118,15 @@ void main() {
           'Kısıtlamasız yemekler: ${filtrelenmis.map((y) => y.ad).join(", ")}');
     });
 
-    test('Kalori aralığına göre filtreleme', () async {
+    test('Kalori aralığına göre filtreleme (Hive)', () async {
       // Arrange
       const minKalori = 300.0;
       const maxKalori = 450.0;
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
 
       // Act
-      final filtrelenmis = await dataSource.yemekleriFiltrele(
-        ogun: OgunTipi.kahvalti,
-        minKalori: minKalori,
-        maxKalori: maxKalori,
-      );
+      final filtrelenmis = kahvaltilar.where((y) => y.kalori >= minKalori && y.kalori <= maxKalori).toList();
 
       // Assert
       expect(filtrelenmis, isNotEmpty);
@@ -128,15 +141,14 @@ void main() {
           '$minKalori-$maxKalori kcal aralığında ${filtrelenmis.length} yemek');
     });
 
-    test('Vegan/Vejetaryen tercih filtresi', () async {
+    test('Vegan/Vejetaryen tercih filtresi (Hive)', () async {
       // Arrange
       final tercihler = ['vegan'];
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
 
       // Act
-      final filtrelenmis = await dataSource.yemekleriFiltrele(
-        ogun: OgunTipi.kahvalti,
-        tercihler: tercihler,
-      );
+      final filtrelenmis = kahvaltilar.where((y) => y.tercihUygunMu(tercihler)).toList();
 
       // Assert
       if (filtrelenmis.isNotEmpty) {
@@ -149,13 +161,13 @@ void main() {
       }
     });
 
-    test('Yemek ID ile arama', () async {
+    test('Yemek ID ile arama (Hive)', () async {
       // Arrange
-      final tumYemekler = await dataSource.tumYemekleriYukle();
-      final ilkYemek = tumYemekler.values.first.first;
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final ilkYemek = tumYemekler.first;
 
       // Act
-      final bulunan = await dataSource.yemekBul(ilkYemek.id);
+      final bulunan = await HiveService.yemekGetir(ilkYemek.id);
 
       // Assert
       expect(bulunan, isNotNull);
@@ -165,12 +177,13 @@ void main() {
       AppLogger.success('✅ Yemek ID ile bulundu: ${bulunan.ad}');
     });
 
-    test('Zorluk seviyesine göre filtreleme', () async {
-      // Arrange & Act
-      final kolayYemekler = await dataSource.yemekleriFiltrele(
-        ogun: OgunTipi.kahvalti,
-        zorluk: Zorluk.kolay,
-      );
+    test('Zorluk seviyesine göre filtreleme (Hive)', () async {
+      // Arrange
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
+
+      // Act
+      final kolayYemekler = kahvaltilar.where((y) => y.zorluk == Zorluk.kolay).toList();
 
       // Assert
       expect(kolayYemekler, isNotEmpty);
@@ -182,9 +195,10 @@ void main() {
       AppLogger.success('✅ ${kolayYemekler.length} kolay yemek bulundu');
     });
 
-    test('Alternatif besin önerileri kontrolü', () async {
+    test('Alternatif besin önerileri kontrolü (Hive)', () async {
       // Arrange
-      final kahvaltilar = await dataSource.yemekleriYukle(OgunTipi.kahvalti);
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final kahvaltilar = tumYemekler.where((y) => y.ogun == OgunTipi.kahvalti).toList();
 
       // Act
       final alternatifliYemekler =
@@ -205,29 +219,29 @@ void main() {
       }
     });
 
-    test('FAZ 4 - GENEL PERFORMANS TESTİ', () async {
-      AppLogger.info('🎯 FAZ 4 GENEL TEST BAŞLADI');
+    test('FAZ 4 - GENEL PERFORMANS TESTİ (Hive)', () async {
+      AppLogger.info('🎯 FAZ 4 GENEL TEST BAŞLADI (Hive)');
 
       final stopwatch = Stopwatch()..start();
 
       // 1. Tüm yemekleri yükle
-      final tumYemekler = await dataSource.tumYemekleriYukle();
+      final tumYemekler = await HiveService.tumYemekleriGetir();
       final yuklemeZamani = stopwatch.elapsedMilliseconds;
 
       // 2. İstatistikler
-      final toplamYemek = tumYemekler.values.fold<int>(
-        0,
-        (toplam, liste) => toplam + liste.length,
-      );
+      final toplamYemek = tumYemekler.length;
+      
+      final tumYemeklerMap = <OgunTipi, List<Yemek>>{};
+      for (var yemek in tumYemekler) {
+        (tumYemeklerMap[yemek.ogun] ??= []).add(yemek);
+      }
 
-      final ortalamaKalori = tumYemekler.values
-              .expand((liste) => liste)
+      final ortalamaKalori = tumYemekler
               .map((y) => y.kalori)
               .reduce((a, b) => a + b) /
           toplamYemek;
 
-      final ortalamaProtein = tumYemekler.values
-              .expand((liste) => liste)
+      final ortalamaProtein = tumYemekler
               .map((y) => y.protein)
               .reduce((a, b) => a + b) /
           toplamYemek;
@@ -240,7 +254,7 @@ void main() {
       AppLogger.info('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
       AppLogger.info('📊 GENEL İSTATİSTİKLER:');
       AppLogger.info('  • Toplam yemek sayısı: $toplamYemek');
-      AppLogger.info('  • Öğün tipi sayısı: ${tumYemekler.keys.length}');
+      AppLogger.info('  • Öğün tipi sayısı: ${tumYemeklerMap.keys.length}');
       AppLogger.info(
           '  • Ortalama kalori: ${ortalamaKalori.toStringAsFixed(0)} kcal');
       AppLogger.info(

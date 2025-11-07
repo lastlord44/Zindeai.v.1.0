@@ -110,6 +110,7 @@ class _ProfilPageState extends State<ProfilPage> {
   }
 
   Future<void> _profiliKaydet() async {
+    print('--- _profiliKaydet metodu tetiklendi ---'); // DEBUG LOG
     final ad = _adController.text.trim();
     final soyad = _soyadController.text.trim();
     final yas = int.tryParse(_yasController.text);
@@ -168,7 +169,19 @@ class _ProfilPageState extends State<ProfilPage> {
 
       // 🔥 FIX: Profil kaydedilince otomatik olarak beslenme sekmesine geç
       // Parent widget (YeniHomePageView) callback'i çağır
+      // Önce callback'i çağır, sonra snackbar'ı göster
       widget.onProfilKaydedildi?.call();
+
+      // mounted kontrolü ile snackbar'ı güvenli bir şekilde göster
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('✅ Profil kaydedildi! Beslenme planınız oluşturuluyor...'),
+            backgroundColor: Colors.green,
+            duration: Duration(seconds: 2),
+          ),
+        );
+      }
     }
   }
 
@@ -297,10 +310,26 @@ class _ProfilPageState extends State<ProfilPage> {
                   label: 'Hedefiniz',
                   value: _hedef,
                   items: Hedef.values,
-                  onChanged: (val) {
-                    setState(() => _hedef = val!);
-                    _hesapla();
-                  },
+                  onChanged: (Hedef? newValue) {
+                      if (newValue != null) {
+                        setState(() {
+                          _hedef = newValue;
+                          // Kilo hedefi ile senkronize et
+                          if (_hedef == Hedef.kasKazanKiloAl || _hedef == Hedef.kiloAlmak) {
+                            if ((double.tryParse(_hedefKiloController.text) ?? 0) <= (double.tryParse(_kiloController.text) ?? 0)) {
+                              _hedefKiloController.text = ((double.tryParse(_kiloController.text) ?? 0) + 5).toString();
+                            }
+                          } else if (_hedef == Hedef.kiloVermek || _hedef == Hedef.kasKazanKiloVer) {
+                            if ((double.tryParse(_hedefKiloController.text) ?? 0) >= (double.tryParse(_kiloController.text) ?? 0)) {
+                              _hedefKiloController.text = ((double.tryParse(_kiloController.text) ?? 0) - 5).toString();
+                            }
+                          } else { // Formu Koru
+                            _hedefKiloController.text = _kiloController.text;
+                          }
+                        });
+                        _hesapla();
+                      }
+                    },
                 ),
                 const SizedBox(height: 16),
                 _buildDropdown(

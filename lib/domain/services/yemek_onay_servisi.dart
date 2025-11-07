@@ -1,445 +1,397 @@
 // ============================================================================
 // lib/domain/services/yemek_onay_servisi.dart
-// YEMEK ONAY SİSTEMİ SERVİSİ - YEDIM/YEMEDIM + ONAY SİSTEMİ
+// YEMEK ONAY VE RAPORLAMA SERVİSİ
 // ============================================================================
 
-import '../../data/local/hive_service.dart';
 import '../entities/yemek_onay_sistemi.dart';
+import '../../data/local/hive_service.dart';
 import '../../core/utils/app_logger.dart';
 
 class YemekOnayServisi {
-  
-  /// Günlük onay durumunu getir
-  static Future<GunlukOnayDurumu> gunlukOnayDurumuGetir(DateTime tarih) async {
+  /// Günün yemek onay durumunu getir
+  static Future<GunlukOnayDurumu?> gunlukOnayDurumuGetir(DateTime tarih) async {
     try {
-      AppLogger.info('📋 Günlük onay durumu getiriliyor: ${_tarihString(tarih)}');
+      final onayVerisi = await HiveService.yemekOnayVerisiGetir(tarih);
       
-      // Plan al
-      final plan = await HiveService.planGetir(tarih);
-      if (plan == null) {
-        AppLogger.warning('⚠️ Plan bulunamadı, boş durum döndürülüyor');
+      if (onayVerisi == null) {
+        // İlk defa oluşturuluyorsa
         return GunlukOnayDurumu(
           tarih: tarih,
           yemekDurumlari: {},
           sonGuncelleme: DateTime.now(),
         );
       }
-      
-      // Mevcut durumları al (eski sistem uyumlu)
-      final eskiTamamlananlar = await HiveService.tamamlananOgunleriGetir(tarih);
-      
-      // Yeni onay sistemi durumlarını al
-      final onayDurumlari = await _onayDurumlariniGetir(tarih);
-      
-      final yemekDurumlari = <String, YemekOnayVerisi>{};
-      
-      // Her yemek için durum oluştur
-      for (final yemek in plan.ogunler) {
-        if (yemek == null) continue;
-        
-        // Mevcut onay durumunu kontrol et
-        YemekOnayVerisi durum;
-        
-        if (onayDurumlari.containsKey(yemek.id)) {
-          // Yeni sistemde var
-          durum = onayDurumlari[yemek.id]!;
-        } else {
-          // Eski sistemden migrate et
-          final eskiDurum = eskiTamamlananlar[yemek.id] ?? false;
-          
-          durum = YemekOnayVerisi(
-            yemekId: yemek.id,
+
+      return onayVerisi;
+    } catch (e) {
+      AppLogger.error('Günlük onay durumu getirme hatası: $e');
+      return null;
+    }
+  }
+
+  /// Yemeği yedi olarak işaretle
+  static Future<bool> yedimOlarakIsaretle({
+    required DateTime tarih,
+    required String yemekId,
+    String? notlar,
+  }) async {
+    try {
+      final mevcutDurum = await gunlukOnayDurumuGetir(tarih);
+      if (mevcutDurum == null) return false;
+
+      final yemekDurumu = mevcutDurum.yemekDurumu(yemekId) ?? 
+          YemekOnayVerisi(
+            yemekId: yemekId,
             tarih: tarih,
-            durum: eskiDurum ? YemekDurumu.yedi : YemekDurumu.bekliyor,
-            yemeTarihi: eskiDurum ? DateTime.now() : null,
-            degistirilebilir: true, // Eski sistem verisi, değiştirilebilir
+            durum: YemekDurumu.bekliyor,
+            degistirilebilir: true,
           );
-        }
-        
-        yemekDurumlari[yemek.id] = durum;
-      }
+
+      final yeniDurum = yemekDurumu.yediOlarakIsaretle(notlar: notlar);
+      final gunlukDurum = mevcutDurum.yemekDurumunuGuncelle(yemekId, yeniDurum);
+
+      await HiveService.yemekOnayVerisiKaydet(tarih, gunlukDurum);
       
-      final gunlukDurum = GunlukOnayDurumu(
-        tarih: tarih,
-        yemekDurumlari: yemekDurumlari,
-        sonGuncelleme: DateTime.now(),
-      );
-      
-      AppLogger.success('✅ Günlük onay durumu: ${gunlukDurum.uyumYuzdesi.toStringAsFixed(1)}% uyum');
-      return gunlukDurum;
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Günlük onay durumu getirme hatası', error: e, stackTrace: stackTrace);
-      
-      return GunlukOnayDurumu(
-        tarih: tarih,
-        yemekDurumlari: {},
-        sonGuncelleme: DateTime.now(),
-      );
-    }
-  }
-  
-  /// Yemek durumunu güncelle ve kaydet
-  static Future<bool> yemekDurumunuGuncelle({
-    required String yemekId,
-    required DateTime tarih,
-    required YemekOnayVerisi yeniDurum,
-  }) async {
-    try {
-      AppLogger.info('🔄 Yemek durumu güncelleniyor: $yemekId -> ${yeniDurum.durum.aciklama}');
-      
-      // Mevcut durumları al
-      final mevcutOnayDurumlari = await _onayDurumlariniGetir(tarih);
-      
-      // Durumu güncelle
-      mevcutOnayDurumlari[yemekId] = yeniDurum;
-      
-      // Kaydet
-      await _onayDurumlariniKaydet(tarih, mevcutOnayDurumlari);
-      
-      // Eski sistem ile uyumluluk için (legacy support)
-      await _eskiSistemIleSync(tarih, mevcutOnayDurumlari);
-      
-      AppLogger.success('✅ Yemek durumu güncellendi: ${yeniDurum.durum.aciklama}');
+      AppLogger.info('✅ Yemek yendi olarak işaretlendi: $yemekId');
       return true;
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek durumu güncelleme hatası', error: e, stackTrace: stackTrace);
+    } catch (e) {
+      AppLogger.error('Yemek yedim işaretleme hatası: $e');
       return false;
     }
   }
-  
-  /// Yemeği "yedi" olarak işaretle
-  static Future<bool> yemekYedi({
-    required String yemekId,
+
+  /// Yemeği onayla ve kilitle
+  static Future<bool> yemegiOnayla({
     required DateTime tarih,
+    required String yemekId,
     String? notlar,
   }) async {
     try {
-      // Mevcut durumu al
-      final mevcutDurum = await _yemekDurumuGetir(yemekId, tarih);
+      final mevcutDurum = await gunlukOnayDurumuGetir(tarih);
+      if (mevcutDurum == null) return false;
+
+      final yemekDurumu = mevcutDurum.yemekDurumu(yemekId);
+      if (yemekDurumu == null) return false;
+
+      final yeniDurum = yemekDurumu.onayla(notlar: notlar);
+      final gunlukDurum = mevcutDurum.yemekDurumunuGuncelle(yemekId, yeniDurum);
+
+      await HiveService.yemekOnayVerisiKaydet(tarih, gunlukDurum);
       
-      // Değiştirilebilir mi kontrol et
-      if (mevcutDurum != null && !mevcutDurum.degistirilebilir) {
-        AppLogger.warning('⚠️ Yemek zaten onaylanmış, değiştirilemiyor: $yemekId');
-        return false;
-      }
+      // 🎯 RAPORLAMA: Onaylanan yemeği rapor için kaydet
+      await _onayliYemegiRaporaEkle(yemekId, tarih, yeniDurum);
       
-      // Yedi olarak işaretle
-      final yeniDurum = (mevcutDurum ?? YemekOnayVerisi(
-        yemekId: yemekId,
-        tarih: tarih,
-        durum: YemekDurumu.bekliyor,
-        degistirilebilir: true,
-      )).yediOlarakIsaretle(notlar: notlar);
-      
-      return await yemekDurumunuGuncelle(
-        yemekId: yemekId,
-        tarih: tarih,
-        yeniDurum: yeniDurum,
-      );
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek yedi işaretleme hatası', error: e, stackTrace: stackTrace);
+      AppLogger.success('🔒 Yemek onaylandı ve kilitlendi: $yemekId');
+      return true;
+    } catch (e) {
+      AppLogger.error('Yemek onaylama hatası: $e');
       return false;
     }
   }
-  
-  /// Yemeği onayla (artık değiştirilemesin)
-  static Future<bool> yemekOnayla({
-    required String yemekId,
-    required DateTime tarih,
-    String? notlar,
-  }) async {
-    try {
-      // Mevcut durumu al
-      final mevcutDurum = await _yemekDurumuGetir(yemekId, tarih);
-      
-      if (mevcutDurum == null) {
-        AppLogger.warning('⚠️ Yemek durumu bulunamadı: $yemekId');
-        return false;
-      }
-      
-      // Zaten onaylanmış mı?
-      if (mevcutDurum.onaylanmisMi) {
-        AppLogger.info('ℹ️ Yemek zaten onaylanmış: $yemekId');
-        return true;
-      }
-      
-      // Onayla
-      final yeniDurum = mevcutDurum.onayla(notlar: notlar);
-      
-      return await yemekDurumunuGuncelle(
-        yemekId: yemekId,
-        tarih: tarih,
-        yeniDurum: yeniDurum,
-      );
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek onaylama hatası', error: e, stackTrace: stackTrace);
-      return false;
-    }
-  }
-  
+
   /// Yemeği atla
-  static Future<bool> yemekAtla({
-    required String yemekId,
+  static Future<bool> yemegiAtla({
     required DateTime tarih,
+    required String yemekId,
     String? notlar,
   }) async {
     try {
-      // Mevcut durumu al
-      final mevcutDurum = await _yemekDurumuGetir(yemekId, tarih);
+      final mevcutDurum = await gunlukOnayDurumuGetir(tarih);
+      if (mevcutDurum == null) return false;
+
+      final yemekDurumu = mevcutDurum.yemekDurumu(yemekId) ??
+          YemekOnayVerisi(
+            yemekId: yemekId,
+            tarih: tarih,
+            durum: YemekDurumu.bekliyor,
+            degistirilebilir: true,
+          );
+
+      final yeniDurum = yemekDurumu.atla(notlar: notlar);
+      final gunlukDurum = mevcutDurum.yemekDurumunuGuncelle(yemekId, yeniDurum);
+
+      await HiveService.yemekOnayVerisiKaydet(tarih, gunlukDurum);
       
-      // Değiştirilebilir mi kontrol et
-      if (mevcutDurum != null && !mevcutDurum.degistirilebilir) {
-        AppLogger.warning('⚠️ Yemek zaten onaylanmış, değiştirilemiyor: $yemekId');
-        return false;
-      }
+      // 📊 RAPORLAMA: Atlanan yemeği rapor için kaydet
+      await _atlananYemegiRaporaEkle(yemekId, tarih, yeniDurum);
       
-      // Atla
-      final yeniDurum = (mevcutDurum ?? YemekOnayVerisi(
-        yemekId: yemekId,
-        tarih: tarih,
-        durum: YemekDurumu.bekliyor,
-        degistirilebilir: true,
-      )).atla(notlar: notlar);
-      
-      return await yemekDurumunuGuncelle(
-        yemekId: yemekId,
-        tarih: tarih,
-        yeniDurum: yeniDurum,
-      );
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek atlama hatası', error: e, stackTrace: stackTrace);
+      AppLogger.info('⏭️ Yemek atlandı ve raporlandı: $yemekId');
+      return true;
+    } catch (e) {
+      AppLogger.error('Yemek atlama hatası: $e');
       return false;
     }
   }
-  
+
   /// Yemek durumunu sıfırla
   static Future<bool> yemekDurumunuSifirla({
-    required String yemekId,
     required DateTime tarih,
+    required String yemekId,
   }) async {
     try {
-      // Mevcut durumu al
-      final mevcutDurum = await _yemekDurumuGetir(yemekId, tarih);
-      
-      // Değiştirilebilir mi kontrol et
-      if (mevcutDurum != null && !mevcutDurum.degistirilebilir) {
-        AppLogger.warning('⚠️ Yemek zaten onaylanmış, sıfırlanamıyor: $yemekId');
+      final mevcutDurum = await gunlukOnayDurumuGetir(tarih);
+      if (mevcutDurum == null) return false;
+
+      final yemekDurumu = mevcutDurum.yemekDurumu(yemekId);
+      if (yemekDurumu == null) return false;
+
+      // Sadece değiştirilebilir olanları sıfırla
+      if (!yemekDurumu.degistirilebilir) {
+        AppLogger.warning('⚠️ Değiştirilemez yemek sıfırlanamaz: $yemekId');
         return false;
       }
+
+      final yeniDurum = yemekDurumu.sifirla();
+      final gunlukDurum = mevcutDurum.yemekDurumunuGuncelle(yemekId, yeniDurum);
+
+      await HiveService.yemekOnayVerisiKaydet(tarih, gunlukDurum);
       
-      // Sıfırla
-      final yeniDurum = (mevcutDurum ?? YemekOnayVerisi(
-        yemekId: yemekId,
-        tarih: tarih,
-        durum: YemekDurumu.bekliyor,
-        degistirilebilir: true,
-      )).sifirla();
-      
-      return await yemekDurumunuGuncelle(
-        yemekId: yemekId,
-        tarih: tarih,
-        yeniDurum: yeniDurum,
-      );
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Yemek durumu sıfırlama hatası', error: e, stackTrace: stackTrace);
+      AppLogger.info('🔄 Yemek sıfırlandı: $yemekId');
+      return true;
+    } catch (e) {
+      AppLogger.error('Yemek sıfırlama hatası: $e');
       return false;
     }
   }
+
+  /// Belirli bir yemeğin durumunu getir
+  static Future<YemekDurumu?> yemekDurumuGetir({
+    required DateTime tarih,
+    required String yemekId,
+  }) async {
+    try {
+      final gunlukDurum = await gunlukOnayDurumuGetir(tarih);
+      if (gunlukDurum == null) return null;
+
+      final yemekDurumu = gunlukDurum.yemekDurumu(yemekId);
+      return yemekDurumu?.durum;
+    } catch (e) {
+      AppLogger.error('Yemek durumu getirme hatası: $e');
+      return null;
+    }
+  }
+
+  /// ⭐ ALIAS METODLARI (Geriye dönük uyumluluk için)
   
-  /// Haftalık uyum raporu oluştur
-  static Future<Map<DateTime, GunlukOnayDurumu>> haftalikUyumRaporu({
+  /// Alias: yemekYedi
+  static Future<bool> yemekYedi({
+    required DateTime tarih,
+    required String yemekId,
+    String? notlar,
+  }) async {
+    return yedimOlarakIsaretle(tarih: tarih, yemekId: yemekId, notlar: notlar);
+  }
+
+  /// Alias: yemekOnayla
+  static Future<bool> yemekOnayla({
+    required DateTime tarih,
+    required String yemekId,
+    String? notlar,
+  }) async {
+    return yemegiOnayla(tarih: tarih, yemekId: yemekId, notlar: notlar);
+  }
+
+  /// Alias: yemekAtla
+  static Future<bool> yemekAtla({
+    required DateTime tarih,
+    required String yemekId,
+    String? notlar,
+  }) async {
+    return yemegiAtla(tarih: tarih, yemekId: yemekId, notlar: notlar);
+  }
+
+  /// Alias: haftalikUyumRaporu
+  static Future<Map<String, dynamic>> haftalikUyumRaporu({
+    required DateTime baslangicTarihi,
+  }) async {
+    return haftalikRaporOlustur(baslangicTarihi: baslangicTarihi);
+  }
+
+  /// Haftalık rapor oluştur
+  static Future<Map<String, dynamic>> haftalikRaporOlustur({
     required DateTime baslangicTarihi,
   }) async {
     try {
-      AppLogger.info('📊 Haftalık uyum raporu oluşturuluyor...');
-      
-      final rapor = <DateTime, GunlukOnayDurumu>{};
-      
+      final rapor = <String, dynamic>{};
+      int toplamYemek = 0;
+      int onaylananYemek = 0;
+      int atlananYemek = 0;
+      double toplamKalori = 0;
+
+      // 7 günlük veriyi topla
       for (int gun = 0; gun < 7; gun++) {
-        final tarih = baslangicTarihi.add(Duration(days: gun));
+        final tarih = DateTime(
+          baslangicTarihi.year,
+          baslangicTarihi.month,
+          baslangicTarihi.day + gun,
+        );
+
+        final plan = await HiveService.planGetir(tarih);
         final gunlukDurum = await gunlukOnayDurumuGetir(tarih);
-        rapor[tarih] = gunlukDurum;
-      }
-      
-      AppLogger.success('✅ Haftalık uyum raporu oluşturuldu: ${rapor.length} gün');
-      return rapor;
-      
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Haftalık uyum raporu hatası', error: e, stackTrace: stackTrace);
-      return {};
-    }
-  }
-  
-  /// Belirli bir yemeğin durumunu getir (private)
-  static Future<YemekOnayVerisi?> _yemekDurumuGetir(String yemekId, DateTime tarih) async {
-    final durumlar = await _onayDurumlariniGetir(tarih);
-    return durumlar[yemekId];
-  }
-  
-  /// Onay durumlarını Hive'dan getir (private)
-  static Future<Map<String, YemekOnayVerisi>> _onayDurumlariniGetir(DateTime tarih) async {
-    try {
-      final box = await _onayBoxiniAc();
-      final key = 'onay_${_tarihAnahtari(tarih)}';
-      final data = box.get(key);
-      
-      if (data == null) return {};
-      
-      // Map<String, dynamic>'den Map<String, YemekOnayVerisi>'na dönüştür
-      final durumlar = <String, YemekOnayVerisi>{};
-      for (final entry in (data as Map).entries) {
-        try {
-          durumlar[entry.key] = _jsonToYemekOnayVerisi(entry.value);
-        } catch (e) {
-          AppLogger.warning('⚠️ Onay verisi parse hatası: ${entry.key} - $e');
+        
+        if (plan != null) {
+          // 🔥 FIX: Toplam yemek sayısını PLAN'dan al, onay durumundan değil!
+          toplamYemek += plan.ogunler.length; // Bu günkü planlanmış tüm yemekler
+          
+          if (gunlukDurum != null) {
+            // Onay durumu varsa, onaylanan/atlanan sayıları ekle
+            onaylananYemek += gunlukDurum.onaylananSayisi;
+            atlananYemek += gunlukDurum.atlananSayisi;
+
+            // Günlük planı al ve kalorileri topla
+            for (final yemek in plan.ogunler) {
+              final yemekDurumu = gunlukDurum.yemekDurumu(yemek.id.toString());
+              if (yemekDurumu?.yenmis == true) {
+                toplamKalori += yemek.kalori.round();
+              }
+            }
+          } else {
+            // Onay durumu yoksa, bu gün için 0 onay/atlama say
+            AppLogger.warning('⚠️ ${tarih.day}.${tarih.month} için onay durumu yok');
+          }
+        } else {
+          // Plan yoksa, bu günü atla
+          AppLogger.warning('⚠️ ${tarih.day}.${tarih.month} için plan yok');
         }
       }
-      
-      return durumlar;
-      
+
+      final uyumYuzdesi = toplamYemek > 0 ? (onaylananYemek / toplamYemek) * 100 : 0.0;
+
+      rapor['toplamYemek'] = toplamYemek;
+      rapor['onaylananYemek'] = onaylananYemek;
+      rapor['atlananYemek'] = atlananYemek;
+      rapor['uyumYuzdesi'] = uyumYuzdesi;
+      rapor['toplamKalori'] = toplamKalori;
+      rapor['gunlukOrtalamaKalori'] = toplamKalori / 7;
+      rapor['baslangicTarihi'] = baslangicTarihi.toIso8601String(); // ✅ String'e çevir
+      rapor['bitisTarihi'] = baslangicTarihi.add(const Duration(days: 6)).toIso8601String(); // ✅ String'e çevir
+
+      AppLogger.success('📊 Haftalık rapor oluşturuldu: %${uyumYuzdesi.toStringAsFixed(1)} uyum');
+      return rapor;
     } catch (e) {
-      AppLogger.error('❌ Onay durumları getirme hatası', error: e);
+      AppLogger.error('Haftalık rapor oluşturma hatası: $e');
       return {};
     }
   }
-  
-  /// Onay durumlarını Hive'a kaydet (private)
-  static Future<void> _onayDurumlariniKaydet(DateTime tarih, Map<String, YemekOnayVerisi> durumlar) async {
+
+  /// 🔒 ÖZEL: Onaylanan yemeği rapor sistemine ekle
+  static Future<void> _onayliYemegiRaporaEkle(
+    String yemekId, 
+    DateTime tarih, 
+    YemekOnayVerisi onayVerisi
+  ) async {
     try {
-      final box = await _onayBoxiniAc();
-      final key = 'onay_${_tarihAnahtari(tarih)}';
-      
-      // Map<String, YemekOnayVerisi>'nı Map<String, Map>'e dönüştür
-      final dataMap = <String, Map<String, dynamic>>{};
-      for (final entry in durumlar.entries) {
-        dataMap[entry.key] = _yemekOnayVerisiToJson(entry.value);
-      }
-      
-      await box.put(key, dataMap);
-      
-    } catch (e) {
-      AppLogger.error('❌ Onay durumları kaydetme hatası', error: e);
-    }
-  }
-  
-  /// Eski sistem ile senkronize et (backward compatibility)
-  static Future<void> _eskiSistemIleSync(DateTime tarih, Map<String, YemekOnayVerisi> onayDurumlari) async {
-    try {
-      // Eski sistem için boolean map oluştur
-      final eskiMap = <String, bool>{};
-      
-      for (final entry in onayDurumlari.entries) {
-        eskiMap[entry.key] = entry.value.yenmis;
-      }
-      
-      // Eski sisteme kaydet
-      await HiveService.tamamlananOgunleriKaydet(tarih, eskiMap);
-      
-    } catch (e) {
-      AppLogger.error('❌ Eski sistem sync hatası', error: e);
-    }
-  }
-  
-  /// Onay box'ını aç (private)
-  static Future<dynamic> _onayBoxiniAc() async {
-    // HiveService içindeki favori box'ı kullan
-    return await HiveService.init().then((_) => 
-        // Favori box zaten açıldığından, onu kullan
-        HiveService
-    );
-  }
-  
-  /// YemekOnayVerisi -> JSON (private)
-  static Map<String, dynamic> _yemekOnayVerisiToJson(YemekOnayVerisi durum) {
-    return {
-      'yemekId': durum.yemekId,
-      'tarih': durum.tarih.millisecondsSinceEpoch,
-      'durum': durum.durum.name,
-      'yemeTarihi': durum.yemeTarihi?.millisecondsSinceEpoch,
-      'onayTarihi': durum.onayTarihi?.millisecondsSinceEpoch,
-      'notlar': durum.notlar,
-      'degistirilebilir': durum.degistirilebilir,
-    };
-  }
-  
-  /// JSON -> YemekOnayVerisi (private)
-  static YemekOnayVerisi _jsonToYemekOnayVerisi(Map<String, dynamic> json) {
-    return YemekOnayVerisi(
-      yemekId: json['yemekId'] ?? '',
-      tarih: DateTime.fromMillisecondsSinceEpoch(json['tarih'] ?? 0),
-      durum: YemekDurumu.values.firstWhere(
-        (d) => d.name == json['durum'],
-        orElse: () => YemekDurumu.bekliyor,
-      ),
-      yemeTarihi: json['yemeTarihi'] != null 
-          ? DateTime.fromMillisecondsSinceEpoch(json['yemeTarihi'])
-          : null,
-      onayTarihi: json['onayTarihi'] != null 
-          ? DateTime.fromMillisecondsSinceEpoch(json['onayTarihi'])
-          : null,
-      notlar: json['notlar'],
-      degistirilebilir: json['degistirilebilir'] ?? true,
-    );
-  }
-  
-  /// Tarih anahtarı oluştur (private)
-  static String _tarihAnahtari(DateTime tarih) {
-    return '${tarih.year}-${tarih.month.toString().padLeft(2, '0')}-${tarih.day.toString().padLeft(2, '0')}';
-  }
-  
-  /// Tarih string'i (private)
-  static String _tarihString(DateTime tarih) {
-    return '${tarih.day}.${tarih.month}.${tarih.year}';
-  }
-  
-  /// Tüm onay verilerini temizle (debug/test amaçlı)
-  static Future<void> tumOnayVerileriniTemizle() async {
-    try {
-      // Bu implementasyon daha sonra eklenebilir
-      AppLogger.info('🗑️ Onay verileri temizleme fonksiyonu henüz implement edilmedi');
-    } catch (e) {
-      AppLogger.error('❌ Onay verileri temizleme hatası', error: e);
-    }
-  }
-  
-  /// Haftalık özet istatistikler
-  static Future<Map<String, dynamic>> haftalikOzetIstatistikler({
-    required DateTime baslangicTarihi,
-  }) async {
-    try {
-      final rapor = await haftalikUyumRaporu(baslangicTarihi: baslangicTarihi);
-      
-      double toplamUyum = 0;
-      int toplamOnaylanan = 0;
-      int toplamYemek = 0;
-      int toplamAtlanan = 0;
-      
-      for (final gunlukDurum in rapor.values) {
-        toplamUyum += gunlukDurum.uyumYuzdesi;
-        toplamOnaylanan += gunlukDurum.onaylananSayisi;
-        toplamYemek += gunlukDurum.toplamYemekSayisi;
-        toplamAtlanan += gunlukDurum.atlananSayisi;
-      }
-      
-      final ortalama = rapor.isNotEmpty ? toplamUyum / rapor.length : 0.0;
-      
-      return {
-        'ortalamaUyum': ortalama,
-        'toplamOnaylanan': toplamOnaylanan,
-        'toplamYemek': toplamYemek,
-        'toplamAtlanan': toplamAtlanan,
-        'gunSayisi': rapor.length,
-        'basariOrani': toplamYemek > 0 ? (toplamOnaylanan / toplamYemek) * 100 : 0.0,
+      // Yemek detaylarını al
+      final plan = await HiveService.planGetir(tarih);
+      if (plan == null) return;
+
+      final yemek = plan.ogunler.firstWhere(
+        (y) => y.id.toString() == yemekId,
+        orElse: () => throw Exception('Yemek bulunamadı'),
+      );
+
+      // Rapor verisi oluştur
+      final raporVerisi = {
+        'yemekId': yemekId,
+        'yemekAdi': yemek.ad,
+        'ogunTipi': yemek.ogun.name,
+        'tarih': tarih.toIso8601String(),
+        'kalori': yemek.kalori,
+        'protein': yemek.protein,
+        'karbonhidrat': yemek.karbonhidrat,
+        'yag': yemek.yag,
+        'onayTarihi': onayVerisi.onayTarihi?.toIso8601String(),
+        'notlar': onayVerisi.notlar,
+        'malzemeler': yemek.malzemeler,
       };
+
+      // Raporu kaydet (Hive'da ayrı bir box'ta)
+      await HiveService.raporVerisiKaydet(tarih, raporVerisi);
       
-    } catch (e, stackTrace) {
-      AppLogger.error('❌ Haftalık özet istatistikler hatası', error: e, stackTrace: stackTrace);
+      AppLogger.success('📈 Onaylı yemek rapora eklendi: ${yemek.ad}');
+    } catch (e) {
+      AppLogger.error('Rapor ekleme hatası: $e');
+    }
+  }
+
+  /// 🔒 ÖZEL: Atlanan yemeği rapor sistemine ekle
+  static Future<void> _atlananYemegiRaporaEkle(
+    String yemekId,
+    DateTime tarih,
+    YemekOnayVerisi atlanmaVerisi
+  ) async {
+    try {
+      // Yemek detaylarını al
+      final plan = await HiveService.planGetir(tarih);
+      if (plan == null) return;
+
+      final yemek = plan.ogunler.firstWhere(
+        (y) => y.id.toString() == yemekId,
+        orElse: () => throw Exception('Yemek bulunamadı'),
+      );
+
+      // Rapor verisi oluştur
+      final raporVerisi = {
+        'yemekId': yemekId,
+        'yemekAdi': yemek.ad,
+        'ogunTipi': yemek.ogun.name,
+        'tarih': tarih.toIso8601String(),
+        'kalori': yemek.kalori,
+        'protein': yemek.protein,
+        'karbonhidrat': yemek.karbonhidrat,
+        'yag': yemek.yag,
+        'atlanmaTarihi': atlanmaVerisi.onayTarihi?.toIso8601String(),
+        'notlar': atlanmaVerisi.notlar,
+        'malzemeler': yemek.malzemeler,
+        'durum': 'atlandi', // ❌ Atlandı
+        'uyumSkoru': 0, // Sıfır uyum
+        'kayipKalori': yemek.kalori, // Kaçırılan kalori
+      };
+
+      // Raporu kaydet (Hive'da ayrı bir box'ta)
+      await HiveService.raporVerisiKaydet(tarih, raporVerisi);
+      
+      AppLogger.warning('📊 Atlanan yemek rapora eklendi: ${yemek.ad} (-${yemek.kalori.toStringAsFixed(0)} kcal)');
+    } catch (e) {
+      AppLogger.error('Atlanan yemek rapor ekleme hatası: $e');
+    }
+  }
+
+  /// Günlük özet oluştur
+  static Future<Map<String, dynamic>> gunlukOzetOlustur(DateTime tarih) async {
+    try {
+      final gunlukDurum = await gunlukOnayDurumuGetir(tarih);
+      if (gunlukDurum == null) return {};
+
+      final plan = await HiveService.planGetir(tarih);
+      double planlananKalori = 0;
+      double alinanKalori = 0;
+
+      if (plan != null) {
+        for (final yemek in plan.ogunler) {
+          planlananKalori += yemek.kalori;
+          
+          final yemekDurumu = gunlukDurum.yemekDurumu(yemek.id.toString());
+          if (yemekDurumu?.yenmis == true) {
+            alinanKalori += yemek.kalori;
+          }
+        }
+      }
+
+      return {
+        'tarih': tarih.toIso8601String(),
+        'planlananYemek': plan?.ogunler.length ?? 0,
+        'yenilenYemek': gunlukDurum.yenmisSayisi,
+        'atlananYemek': gunlukDurum.atlananSayisi,
+        'onaylananYemek': gunlukDurum.onaylananSayisi,
+        'uyumYuzdesi': gunlukDurum.uyumYuzdesi,
+        'planlananKalori': planlananKalori,
+        'alinanKalori': alinanKalori,
+        'kaloriUyumu': planlananKalori > 0 ? (alinanKalori / planlananKalori) * 100 : 0,
+        'gunDurumu': gunlukDurum.gunDurumu,
+      };
+    } catch (e) {
+      AppLogger.error('Günlük özet oluşturma hatası: $e');
       return {};
     }
   }

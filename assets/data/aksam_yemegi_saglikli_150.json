@@ -1,0 +1,9118 @@
+[
+  {
+    "meal_id": "aksam_001",
+    "meal_name": "Izgara Tavuk + Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 485,
+    "protein": 43,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_002",
+    "meal_name": "Fırın Tavuk + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 483,
+    "protein": 42,
+    "karbonhidrat": 43,
+    "yag": 21,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Tatlı Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_003",
+    "meal_name": "Sote Tavuk + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 580,
+    "protein": 36,
+    "karbonhidrat": 64,
+    "yag": 20,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Tatlı Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_004",
+    "meal_name": "Izgara Tavuk + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 571,
+    "protein": 41,
+    "karbonhidrat": 44,
+    "yag": 20,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Bulgur (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_005",
+    "meal_name": "Fırın Tavuk + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 503,
+    "protein": 40,
+    "karbonhidrat": 55,
+    "yag": 17,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Basmati Pirinç (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_006",
+    "meal_name": "Sote Tavuk + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 526,
+    "protein": 46,
+    "karbonhidrat": 61,
+    "yag": 16,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Basmati Pirinç (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_007",
+    "meal_name": "Izgara Tavuk + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 506,
+    "protein": 36,
+    "karbonhidrat": 59,
+    "yag": 14,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Tatlı Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_008",
+    "meal_name": "Haşlama Tavuk + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 528,
+    "protein": 43,
+    "karbonhidrat": 49,
+    "yag": 18,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Tatlı Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_009",
+    "meal_name": "Sote Tavuk + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 480,
+    "protein": 36,
+    "karbonhidrat": 63,
+    "yag": 17,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Bulgur (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_010",
+    "meal_name": "Sote Tavuk + Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 509,
+    "protein": 50,
+    "karbonhidrat": 67,
+    "yag": 17,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_011",
+    "meal_name": "Fırın Tavuk + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 465,
+    "protein": 48,
+    "karbonhidrat": 58,
+    "yag": 20,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Bulgur (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_012",
+    "meal_name": "Haşlama Tavuk + Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 557,
+    "protein": 40,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Patates (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_013",
+    "meal_name": "Izgara Tavuk + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 508,
+    "protein": 50,
+    "karbonhidrat": 63,
+    "yag": 21,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Basmati Pirinç (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_014",
+    "meal_name": "Haşlama Tavuk + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 539,
+    "protein": 44,
+    "karbonhidrat": 62,
+    "yag": 16,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Basmati Pirinç (100g)",
+      "Sebze",
+      "Salata"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "sağlıklı",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_015",
+    "meal_name": "Izgara Palamut + Tatlı Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 537,
+    "protein": 42,
+    "karbonhidrat": 53,
+    "yag": 26,
+    "malzemeler": [
+      "Palamut (150g)",
+      "Tatlı Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_016",
+    "meal_name": "Izgara Uskumru + Fırın Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 505,
+    "protein": 38,
+    "karbonhidrat": 58,
+    "yag": 15,
+    "malzemeler": [
+      "Uskumru (150g)",
+      "Fırın Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_017",
+    "meal_name": "Izgara Uskumru + Tatlı Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 480,
+    "protein": 37,
+    "karbonhidrat": 48,
+    "yag": 25,
+    "malzemeler": [
+      "Uskumru (150g)",
+      "Tatlı Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_018",
+    "meal_name": "Izgara Palamut + Basmati Pirinç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 469,
+    "protein": 39,
+    "karbonhidrat": 61,
+    "yag": 19,
+    "malzemeler": [
+      "Palamut (150g)",
+      "Basmati Pirinç (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_019",
+    "meal_name": "Izgara Çipura + Tatlı Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 516,
+    "protein": 44,
+    "karbonhidrat": 61,
+    "yag": 18,
+    "malzemeler": [
+      "Çipura (150g)",
+      "Tatlı Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_020",
+    "meal_name": "Izgara Çipura + Bulgur",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 438,
+    "protein": 36,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Çipura (150g)",
+      "Bulgur (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_021",
+    "meal_name": "Izgara Levrek + Basmati Pirinç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 404,
+    "protein": 36,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Levrek (150g)",
+      "Basmati Pirinç (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_022",
+    "meal_name": "Izgara Hamsi + Tatlı Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 459,
+    "protein": 39,
+    "karbonhidrat": 53,
+    "yag": 21,
+    "malzemeler": [
+      "Hamsi (150g)",
+      "Tatlı Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_023",
+    "meal_name": "Izgara Hamsi + Fırın Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 454,
+    "protein": 32,
+    "karbonhidrat": 57,
+    "yag": 15,
+    "malzemeler": [
+      "Hamsi (150g)",
+      "Fırın Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_024",
+    "meal_name": "Izgara Levrek + Tatlı Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 438,
+    "protein": 41,
+    "karbonhidrat": 38,
+    "yag": 22,
+    "malzemeler": [
+      "Levrek (150g)",
+      "Tatlı Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_025",
+    "meal_name": "Izgara Çipura + Basmati Pirinç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 545,
+    "protein": 36,
+    "karbonhidrat": 45,
+    "yag": 26,
+    "malzemeler": [
+      "Çipura (150g)",
+      "Basmati Pirinç (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_026",
+    "meal_name": "Izgara Hamsi + Basmati Pirinç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 542,
+    "protein": 33,
+    "karbonhidrat": 59,
+    "yag": 19,
+    "malzemeler": [
+      "Hamsi (150g)",
+      "Basmati Pirinç (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_027",
+    "meal_name": "Izgara Hamsi + Bulgur",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 428,
+    "protein": 42,
+    "karbonhidrat": 42,
+    "yag": 20,
+    "malzemeler": [
+      "Hamsi (150g)",
+      "Bulgur (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_028",
+    "meal_name": "Izgara Palamut + Fırın Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 520,
+    "protein": 37,
+    "karbonhidrat": 44,
+    "yag": 25,
+    "malzemeler": [
+      "Palamut (150g)",
+      "Fırın Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_029",
+    "meal_name": "Izgara Uskumru + Basmati Pirinç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 534,
+    "protein": 42,
+    "karbonhidrat": 58,
+    "yag": 15,
+    "malzemeler": [
+      "Uskumru (150g)",
+      "Basmati Pirinç (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_030",
+    "meal_name": "Izgara Palamut + Bulgur",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 409,
+    "protein": 41,
+    "karbonhidrat": 61,
+    "yag": 16,
+    "malzemeler": [
+      "Palamut (150g)",
+      "Bulgur (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_031",
+    "meal_name": "Izgara Çipura + Fırın Patates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 450,
+    "protein": 32,
+    "karbonhidrat": 61,
+    "yag": 16,
+    "malzemeler": [
+      "Çipura (150g)",
+      "Fırın Patates (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_032",
+    "meal_name": "Izgara Levrek + Bulgur",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 407,
+    "protein": 35,
+    "karbonhidrat": 55,
+    "yag": 24,
+    "malzemeler": [
+      "Levrek (150g)",
+      "Bulgur (120g)",
+      "Limon",
+      "Yeşillik"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "omega3",
+      "sağlıklı",
+      "balık"
+    ]
+  },
+  {
+    "meal_id": "aksam_033",
+    "meal_name": "Izgara Dana + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 584,
+    "protein": 36,
+    "karbonhidrat": 74,
+    "yag": 35,
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_034",
+    "meal_name": "Izgara Köfte + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 510,
+    "protein": 43,
+    "karbonhidrat": 50,
+    "yag": 21,
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_035",
+    "meal_name": "Izgara Kuzu + Patates Püresi + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 576,
+    "protein": 43,
+    "karbonhidrat": 66,
+    "yag": 35,
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_036",
+    "meal_name": "Izgara Köfte + Taze Fasulye + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 529,
+    "protein": 37,
+    "karbonhidrat": 73,
+    "yag": 20,
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_037",
+    "meal_name": "Izgara Kuzu + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 543,
+    "protein": 55,
+    "karbonhidrat": 66,
+    "yag": 30,
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_038",
+    "meal_name": "Izgara Kuzu + Taze Fasulye + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 546,
+    "protein": 54,
+    "karbonhidrat": 53,
+    "yag": 35,
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_039",
+    "meal_name": "Izgara Köfte + Patates Püresi + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 607,
+    "protein": 52,
+    "karbonhidrat": 66,
+    "yag": 19,
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_040",
+    "meal_name": "Izgara Dana + Bulgur Pilavı + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 570,
+    "protein": 50,
+    "karbonhidrat": 50,
+    "yag": 34,
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_041",
+    "meal_name": "Izgara Kuzu + Bulgur Pilavı + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 662,
+    "protein": 43,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_042",
+    "meal_name": "Izgara Köfte + Bulgur Pilavı + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 532,
+    "protein": 45,
+    "karbonhidrat": 45,
+    "yag": 30,
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_043",
+    "meal_name": "Izgara Dana + Patates Püresi + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 513,
+    "protein": 42,
+    "karbonhidrat": 53,
+    "yag": 35,
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "yüksek protein",
+      "doyurucu",
+      "akşam"
+    ]
+  },
+  {
+    "meal_id": "aksam_044",
+    "meal_name": "Mercimek Çorbası + Bulgur",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 400,
+    "protein": 23,
+    "karbonhidrat": 63,
+    "yag": 13,
+    "malzemeler": [
+      "Mercimek Çorbası + Bulgur",
+      "Salata",
+      "Zeytinyağı",
+      "Limon"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "vegan",
+      "lif",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_045",
+    "meal_name": "Sebzeli Makarna",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 419,
+    "protein": 20,
+    "karbonhidrat": 62,
+    "yag": 12,
+    "malzemeler": [
+      "Sebzeli Makarna",
+      "Salata",
+      "Zeytinyağı",
+      "Limon"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "vegan",
+      "lif",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_046",
+    "meal_name": "Zeytinyağlı Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 420,
+    "protein": 25,
+    "karbonhidrat": 65,
+    "yag": 18,
+    "malzemeler": [
+      "Zeytinyağlı Sebze",
+      "Salata",
+      "Zeytinyağı",
+      "Limon"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "vegan",
+      "lif",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_047",
+    "meal_name": "Nohut Köfte",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 460,
+    "protein": 22,
+    "karbonhidrat": 69,
+    "yag": 13,
+    "malzemeler": [
+      "Nohut Köfte",
+      "Salata",
+      "Zeytinyağı",
+      "Limon"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "vegan",
+      "lif",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_048",
+    "meal_name": "Balık Çorba",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 296,
+    "protein": 29,
+    "karbonhidrat": 42,
+    "yag": 13,
+    "malzemeler": [
+      "Balık Çorba",
+      "Sebze",
+      "Limon",
+      "Baharatlar"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "kolay",
+    "etiketler": [
+      "düşük kalori",
+      "hafif",
+      "diyet"
+    ]
+  },
+  {
+    "meal_id": "aksam_049",
+    "meal_name": "Izgara Tavuk Salata",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 362,
+    "protein": 33,
+    "karbonhidrat": 25,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Tavuk Salata",
+      "Sebze",
+      "Limon",
+      "Baharatlar"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "kolay",
+    "etiketler": [
+      "düşük kalori",
+      "hafif",
+      "diyet"
+    ]
+  },
+  {
+    "meal_id": "aksam_050",
+    "meal_name": "Sebze Çorbası + Protein",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 346,
+    "protein": 26,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Sebze Çorbası + Protein",
+      "Sebze",
+      "Limon",
+      "Baharatlar"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "kolay",
+    "etiketler": [
+      "düşük kalori",
+      "hafif",
+      "diyet"
+    ]
+  },
+  {
+    "meal_id": "aksam_051",
+    "meal_name": "Izgara Sebze Tabağı",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 357,
+    "protein": 34,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Sebze Tabağı",
+      "Sebze",
+      "Limon",
+      "Baharatlar"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "kolay",
+    "etiketler": [
+      "düşük kalori",
+      "hafif",
+      "diyet"
+    ]
+  },
+  {
+    "meal_id": "aksam_052",
+    "meal_name": "Izgara Dana + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 447,
+    "protein": 39,
+    "karbonhidrat": 50,
+    "yag": 19,
+    "malzemeler": [
+      "Dana (150g)",
+      "Tatlı Patates (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_053",
+    "meal_name": "Izgara Hindi + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 405,
+    "protein": 45,
+    "karbonhidrat": 49,
+    "yag": 14,
+    "malzemeler": [
+      "Hindi (150g)",
+      "Bulgur (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_054",
+    "meal_name": "Izgara Köfte + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 555,
+    "protein": 32,
+    "karbonhidrat": 55,
+    "yag": 24,
+    "malzemeler": [
+      "Köfte (150g)",
+      "Tatlı Patates (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_055",
+    "meal_name": "Izgara Balık + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 422,
+    "protein": 48,
+    "karbonhidrat": 56,
+    "yag": 18,
+    "malzemeler": [
+      "Balık (150g)",
+      "Bulgur (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_056",
+    "meal_name": "Izgara Balık + Patates Püresi + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 498,
+    "protein": 39,
+    "karbonhidrat": 66,
+    "yag": 13,
+    "malzemeler": [
+      "Balık (150g)",
+      "Patates Püresi (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_057",
+    "meal_name": "Izgara Dana + Makarna + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 579,
+    "protein": 47,
+    "karbonhidrat": 42,
+    "yag": 17,
+    "malzemeler": [
+      "Dana (150g)",
+      "Makarna (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_058",
+    "meal_name": "Izgara Balık + Makarna + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 404,
+    "protein": 44,
+    "karbonhidrat": 60,
+    "yag": 21,
+    "malzemeler": [
+      "Balık (150g)",
+      "Makarna (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_059",
+    "meal_name": "Izgara Balık + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 514,
+    "protein": 47,
+    "karbonhidrat": 46,
+    "yag": 23,
+    "malzemeler": [
+      "Balık (150g)",
+      "Basmati Pirinç (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_060",
+    "meal_name": "Izgara Hindi + Patates Püresi + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 541,
+    "protein": 31,
+    "karbonhidrat": 42,
+    "yag": 12,
+    "malzemeler": [
+      "Hindi (150g)",
+      "Patates Püresi (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_061",
+    "meal_name": "Izgara Tavuk + Patates Püresi + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 504,
+    "protein": 43,
+    "karbonhidrat": 66,
+    "yag": 19,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Patates Püresi (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_062",
+    "meal_name": "Izgara Köfte + Makarna + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 506,
+    "protein": 37,
+    "karbonhidrat": 45,
+    "yag": 15,
+    "malzemeler": [
+      "Köfte (150g)",
+      "Makarna (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_063",
+    "meal_name": "Izgara Köfte + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 571,
+    "protein": 48,
+    "karbonhidrat": 41,
+    "yag": 20,
+    "malzemeler": [
+      "Köfte (150g)",
+      "Bulgur (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_064",
+    "meal_name": "Izgara Tavuk + Makarna + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 435,
+    "protein": 44,
+    "karbonhidrat": 65,
+    "yag": 25,
+    "malzemeler": [
+      "Tavuk (150g)",
+      "Makarna (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_065",
+    "meal_name": "Izgara Hindi + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 495,
+    "protein": 34,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Hindi (150g)",
+      "Tatlı Patates (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_066",
+    "meal_name": "Izgara Balık + Tatlı Patates + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 581,
+    "protein": 31,
+    "karbonhidrat": 50,
+    "yag": 23,
+    "malzemeler": [
+      "Balık (150g)",
+      "Tatlı Patates (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_067",
+    "meal_name": "Izgara Hindi + Basmati Pirinç + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 591,
+    "protein": 36,
+    "karbonhidrat": 51,
+    "yag": 15,
+    "malzemeler": [
+      "Hindi (150g)",
+      "Basmati Pirinç (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_068",
+    "meal_name": "Izgara Hindi + Makarna + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 419,
+    "protein": 43,
+    "karbonhidrat": 47,
+    "yag": 22,
+    "malzemeler": [
+      "Hindi (150g)",
+      "Makarna (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_069",
+    "meal_name": "Izgara Dana + Bulgur + Sebze",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 405,
+    "protein": 47,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Dana (150g)",
+      "Bulgur (120g)",
+      "Sebze"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_070",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 470,
+    "protein": 44,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_071",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 471,
+    "protein": 45,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_072",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 472,
+    "protein": 46,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_073",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 473,
+    "protein": 47,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_074",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 474,
+    "protein": 48,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_075",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 475,
+    "protein": 49,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_076",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 476,
+    "protein": 50,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_077",
+    "meal_name": "Izgara Tavuk Göğsü + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 477,
+    "protein": 51,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_078",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 478,
+    "protein": 52,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_079",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 479,
+    "protein": 53,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_080",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 480,
+    "protein": 54,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_081",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 481,
+    "protein": 55,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_082",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 482,
+    "protein": 56,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_083",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 483,
+    "protein": 57,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_084",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 484,
+    "protein": 30,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_085",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 485,
+    "protein": 31,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_086",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 486,
+    "protein": 32,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_087",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 487,
+    "protein": 33,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_088",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 488,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_089",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 489,
+    "protein": 35,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_090",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 490,
+    "protein": 36,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_091",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 491,
+    "protein": 37,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_092",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 492,
+    "protein": 38,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_093",
+    "meal_name": "Izgara Tavuk Göğsü + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 493,
+    "protein": 39,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_094",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 494,
+    "protein": 40,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_095",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 495,
+    "protein": 41,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_096",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 496,
+    "protein": 42,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_097",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 497,
+    "protein": 43,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_098",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 498,
+    "protein": 44,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_099",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 499,
+    "protein": 45,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_100",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 500,
+    "protein": 46,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_101",
+    "meal_name": "Izgara Tavuk Göğsü + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 501,
+    "protein": 47,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_102",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 502,
+    "protein": 48,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_103",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 503,
+    "protein": 49,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_104",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 504,
+    "protein": 50,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_105",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 505,
+    "protein": 51,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_106",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 506,
+    "protein": 52,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_107",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 507,
+    "protein": 53,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_108",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 508,
+    "protein": 54,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_109",
+    "meal_name": "Izgara Tavuk Göğsü + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 509,
+    "protein": 55,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_110",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 510,
+    "protein": 56,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_111",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 511,
+    "protein": 57,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_112",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 512,
+    "protein": 30,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_113",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 513,
+    "protein": 31,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_114",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 514,
+    "protein": 32,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_115",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 515,
+    "protein": 33,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_116",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 516,
+    "protein": 34,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_117",
+    "meal_name": "Izgara Tavuk Göğsü + Bulgur Köfte + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 517,
+    "protein": 35,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Tavuk Göğsü (150g)",
+      "Bulgur Köfte (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_118",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 518,
+    "protein": 36,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_119",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 519,
+    "protein": 37,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_120",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 520,
+    "protein": 38,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_121",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 521,
+    "protein": 39,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_122",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 522,
+    "protein": 40,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_123",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 523,
+    "protein": 41,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_124",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 524,
+    "protein": 42,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_125",
+    "meal_name": "Izgara Izgara Tavuk + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 525,
+    "protein": 43,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_126",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 526,
+    "protein": 44,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_127",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 527,
+    "protein": 45,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_128",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 528,
+    "protein": 46,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_129",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 529,
+    "protein": 47,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_130",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 530,
+    "protein": 48,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_131",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 531,
+    "protein": 49,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_132",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 532,
+    "protein": 50,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_133",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 533,
+    "protein": 51,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_134",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 534,
+    "protein": 52,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_135",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 535,
+    "protein": 53,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_136",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 536,
+    "protein": 54,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_137",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 537,
+    "protein": 55,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_138",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 538,
+    "protein": 56,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_139",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 539,
+    "protein": 57,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_140",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 540,
+    "protein": 30,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_141",
+    "meal_name": "Izgara Izgara Tavuk + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 541,
+    "protein": 31,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_142",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 542,
+    "protein": 32,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_143",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 543,
+    "protein": 33,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_144",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 544,
+    "protein": 34,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_145",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 545,
+    "protein": 35,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_146",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 546,
+    "protein": 36,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_147",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 547,
+    "protein": 37,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_148",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 548,
+    "protein": 38,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_149",
+    "meal_name": "Izgara Izgara Tavuk + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 549,
+    "protein": 39,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_150",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 550,
+    "protein": 40,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_151",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 551,
+    "protein": 41,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_152",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 552,
+    "protein": 42,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_153",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 553,
+    "protein": 43,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_154",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 554,
+    "protein": 44,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_155",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 555,
+    "protein": 45,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_156",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 556,
+    "protein": 46,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_157",
+    "meal_name": "Izgara Izgara Tavuk + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 557,
+    "protein": 47,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_158",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 558,
+    "protein": 48,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_159",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 559,
+    "protein": 49,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_160",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 560,
+    "protein": 50,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_161",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 561,
+    "protein": 51,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_162",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 562,
+    "protein": 52,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_163",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 563,
+    "protein": 53,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_164",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 564,
+    "protein": 54,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_165",
+    "meal_name": "Izgara Izgara Tavuk + Bulgur Köfte + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 565,
+    "protein": 55,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Izgara Tavuk (150g)",
+      "Bulgur Köfte (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_166",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 566,
+    "protein": 56,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_167",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 567,
+    "protein": 57,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_168",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 568,
+    "protein": 30,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_169",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 569,
+    "protein": 31,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_170",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 570,
+    "protein": 32,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_171",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 571,
+    "protein": 33,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_172",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 572,
+    "protein": 34,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_173",
+    "meal_name": "Izgara Tavuk But + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 573,
+    "protein": 35,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_174",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 574,
+    "protein": 36,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_175",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 575,
+    "protein": 37,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_176",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 576,
+    "protein": 38,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_177",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 577,
+    "protein": 39,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_178",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 578,
+    "protein": 40,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_179",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 579,
+    "protein": 41,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_180",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 580,
+    "protein": 42,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_181",
+    "meal_name": "Izgara Tavuk But + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 581,
+    "protein": 43,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_182",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 582,
+    "protein": 44,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_183",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 583,
+    "protein": 45,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_184",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 584,
+    "protein": 46,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_185",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 585,
+    "protein": 47,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_186",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 586,
+    "protein": 48,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_187",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 587,
+    "protein": 49,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_188",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 588,
+    "protein": 50,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_189",
+    "meal_name": "Izgara Tavuk But + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 589,
+    "protein": 51,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_190",
+    "meal_name": "Izgara Tavuk But + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 590,
+    "protein": 52,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_191",
+    "meal_name": "Izgara Tavuk But + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 591,
+    "protein": 53,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_192",
+    "meal_name": "Izgara Tavuk But + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 592,
+    "protein": 54,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_193",
+    "meal_name": "Izgara Tavuk But + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 593,
+    "protein": 55,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_194",
+    "meal_name": "Izgara Tavuk But + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 594,
+    "protein": 56,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_195",
+    "meal_name": "Izgara Tavuk But + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 595,
+    "protein": 57,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_196",
+    "meal_name": "Izgara Tavuk But + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 596,
+    "protein": 30,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_197",
+    "meal_name": "Izgara Tavuk But + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 597,
+    "protein": 31,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_198",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 598,
+    "protein": 32,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_199",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 599,
+    "protein": 33,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_200",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 600,
+    "protein": 34,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_201",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 601,
+    "protein": 35,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_202",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 602,
+    "protein": 36,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_203",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 603,
+    "protein": 37,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_204",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 604,
+    "protein": 38,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_205",
+    "meal_name": "Izgara Tavuk But + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 605,
+    "protein": 39,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_206",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 606,
+    "protein": 40,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_207",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 607,
+    "protein": 41,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_208",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 608,
+    "protein": 42,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_209",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 609,
+    "protein": 43,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_210",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 610,
+    "protein": 44,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_211",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 611,
+    "protein": 45,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_212",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 612,
+    "protein": 46,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_213",
+    "meal_name": "Izgara Tavuk But + Bulgur Köfte + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 613,
+    "protein": 47,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Tavuk But (150g)",
+      "Bulgur Köfte (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_214",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 614,
+    "protein": 48,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_215",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 615,
+    "protein": 49,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_216",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 616,
+    "protein": 50,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_217",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 617,
+    "protein": 51,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_218",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 618,
+    "protein": 52,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_219",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 619,
+    "protein": 53,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_220",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 620,
+    "protein": 54,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_221",
+    "meal_name": "Izgara Balık (Levrek) + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 621,
+    "protein": 55,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_222",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 622,
+    "protein": 56,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_223",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 623,
+    "protein": 57,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_224",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 624,
+    "protein": 30,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_225",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 625,
+    "protein": 31,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_226",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 626,
+    "protein": 32,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_227",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 627,
+    "protein": 33,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_228",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 628,
+    "protein": 34,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_229",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 629,
+    "protein": 35,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_230",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 630,
+    "protein": 36,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_231",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 631,
+    "protein": 37,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_232",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 632,
+    "protein": 38,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_233",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 633,
+    "protein": 39,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_234",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 634,
+    "protein": 40,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_235",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 635,
+    "protein": 41,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_236",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 636,
+    "protein": 42,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_237",
+    "meal_name": "Izgara Balık (Levrek) + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 637,
+    "protein": 43,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_238",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 638,
+    "protein": 44,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_239",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 639,
+    "protein": 45,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_240",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 640,
+    "protein": 46,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_241",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 641,
+    "protein": 47,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_242",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 642,
+    "protein": 48,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_243",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 643,
+    "protein": 49,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_244",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 644,
+    "protein": 50,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_245",
+    "meal_name": "Izgara Balık (Levrek) + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 645,
+    "protein": 51,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_246",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 646,
+    "protein": 52,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_247",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 647,
+    "protein": 53,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_248",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 648,
+    "protein": 54,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_249",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 649,
+    "protein": 55,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_250",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 650,
+    "protein": 56,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_251",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 651,
+    "protein": 57,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_252",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 652,
+    "protein": 30,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_253",
+    "meal_name": "Izgara Balık (Levrek) + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 653,
+    "protein": 31,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_254",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 654,
+    "protein": 32,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_255",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 655,
+    "protein": 33,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_256",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 656,
+    "protein": 34,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_257",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 657,
+    "protein": 35,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_258",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 658,
+    "protein": 36,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_259",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 659,
+    "protein": 37,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_260",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 660,
+    "protein": 38,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_261",
+    "meal_name": "Izgara Balık (Levrek) + Bulgur Köfte + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 661,
+    "protein": 39,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Levrek) (150g)",
+      "Bulgur Köfte (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_262",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 662,
+    "protein": 40,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_263",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 663,
+    "protein": 41,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_264",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 664,
+    "protein": 42,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_265",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 665,
+    "protein": 43,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_266",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 666,
+    "protein": 44,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_267",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 667,
+    "protein": 45,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_268",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 668,
+    "protein": 46,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_269",
+    "meal_name": "Izgara Balık (Çipura) + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 669,
+    "protein": 47,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_270",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 670,
+    "protein": 48,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_271",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 671,
+    "protein": 49,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_272",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 672,
+    "protein": 50,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_273",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 673,
+    "protein": 51,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_274",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 674,
+    "protein": 52,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_275",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 675,
+    "protein": 53,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_276",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 676,
+    "protein": 54,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_277",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 677,
+    "protein": 55,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_278",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 678,
+    "protein": 56,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_279",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 679,
+    "protein": 57,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_280",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 400,
+    "protein": 30,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_281",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 401,
+    "protein": 31,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_282",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 402,
+    "protein": 32,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_283",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 403,
+    "protein": 33,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_284",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 404,
+    "protein": 34,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_285",
+    "meal_name": "Izgara Balık (Çipura) + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 405,
+    "protein": 35,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_286",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 406,
+    "protein": 36,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_287",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 407,
+    "protein": 37,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_288",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 408,
+    "protein": 38,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_289",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 409,
+    "protein": 39,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_290",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 410,
+    "protein": 40,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_291",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 411,
+    "protein": 41,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_292",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 412,
+    "protein": 42,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_293",
+    "meal_name": "Izgara Balık (Çipura) + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 413,
+    "protein": 43,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_294",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 414,
+    "protein": 44,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_295",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 415,
+    "protein": 45,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_296",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 416,
+    "protein": 46,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_297",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 417,
+    "protein": 47,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_298",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 418,
+    "protein": 48,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_299",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 419,
+    "protein": 49,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_300",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 420,
+    "protein": 50,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_301",
+    "meal_name": "Izgara Balık (Çipura) + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 421,
+    "protein": 51,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_302",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 422,
+    "protein": 52,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_303",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 423,
+    "protein": 53,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_304",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 424,
+    "protein": 54,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_305",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 425,
+    "protein": 55,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_306",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 426,
+    "protein": 56,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_307",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 427,
+    "protein": 57,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_308",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 428,
+    "protein": 30,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_309",
+    "meal_name": "Izgara Balık (Çipura) + Bulgur Köfte + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 429,
+    "protein": 31,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Çipura) (150g)",
+      "Bulgur Köfte (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_310",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 430,
+    "protein": 32,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_311",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 431,
+    "protein": 33,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_312",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 432,
+    "protein": 34,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_313",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 433,
+    "protein": 35,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_314",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 434,
+    "protein": 36,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_315",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 435,
+    "protein": 37,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_316",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 436,
+    "protein": 38,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_317",
+    "meal_name": "Izgara Balık (Hamsi) + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 437,
+    "protein": 39,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_318",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 438,
+    "protein": 40,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_319",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 439,
+    "protein": 41,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_320",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 440,
+    "protein": 42,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_321",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 441,
+    "protein": 43,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_322",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 442,
+    "protein": 44,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_323",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 443,
+    "protein": 45,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_324",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 444,
+    "protein": 46,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_325",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 445,
+    "protein": 47,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_326",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 446,
+    "protein": 48,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_327",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 447,
+    "protein": 49,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_328",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 448,
+    "protein": 50,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_329",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 449,
+    "protein": 51,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_330",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 450,
+    "protein": 52,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_331",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 451,
+    "protein": 53,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_332",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 452,
+    "protein": 54,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_333",
+    "meal_name": "Izgara Balık (Hamsi) + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 453,
+    "protein": 55,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_334",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 454,
+    "protein": 56,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_335",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 455,
+    "protein": 57,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_336",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 456,
+    "protein": 30,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_337",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 457,
+    "protein": 31,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_338",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 458,
+    "protein": 32,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_339",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 459,
+    "protein": 33,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_340",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 460,
+    "protein": 34,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_341",
+    "meal_name": "Izgara Balık (Hamsi) + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 461,
+    "protein": 35,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_342",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 462,
+    "protein": 36,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_343",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 463,
+    "protein": 37,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_344",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 464,
+    "protein": 38,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_345",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 465,
+    "protein": 39,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_346",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 466,
+    "protein": 40,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_347",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 467,
+    "protein": 41,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_348",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 468,
+    "protein": 42,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_349",
+    "meal_name": "Izgara Balık (Hamsi) + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 469,
+    "protein": 43,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_350",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 470,
+    "protein": 44,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_351",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 471,
+    "protein": 45,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_352",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 472,
+    "protein": 46,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_353",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 473,
+    "protein": 47,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_354",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 474,
+    "protein": 48,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_355",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 475,
+    "protein": 49,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_356",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 476,
+    "protein": 50,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_357",
+    "meal_name": "Izgara Balık (Hamsi) + Bulgur Köfte + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 477,
+    "protein": 51,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Balık (Hamsi) (150g)",
+      "Bulgur Köfte (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_358",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 478,
+    "protein": 52,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_359",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 479,
+    "protein": 53,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_360",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 480,
+    "protein": 54,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_361",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 481,
+    "protein": 55,
+    "karbonhidrat": 41,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_362",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 482,
+    "protein": 56,
+    "karbonhidrat": 42,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_363",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 483,
+    "protein": 57,
+    "karbonhidrat": 43,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_364",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 484,
+    "protein": 30,
+    "karbonhidrat": 44,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_365",
+    "meal_name": "Izgara Dana Eti + Basmati Pirinç + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 485,
+    "protein": 31,
+    "karbonhidrat": 45,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Basmati Pirinç (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_366",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 486,
+    "protein": 32,
+    "karbonhidrat": 46,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_367",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 487,
+    "protein": 33,
+    "karbonhidrat": 47,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_368",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 488,
+    "protein": 34,
+    "karbonhidrat": 48,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_369",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 489,
+    "protein": 35,
+    "karbonhidrat": 49,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_370",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 490,
+    "protein": 36,
+    "karbonhidrat": 50,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_371",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 491,
+    "protein": 37,
+    "karbonhidrat": 51,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 41,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_372",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 492,
+    "protein": 38,
+    "karbonhidrat": 52,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 42,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_373",
+    "meal_name": "Izgara Dana Eti + Bulgur Pilavı + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 493,
+    "protein": 39,
+    "karbonhidrat": 53,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Pilavı (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 43,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_374",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 494,
+    "protein": 40,
+    "karbonhidrat": 54,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 44,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_375",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 495,
+    "protein": 41,
+    "karbonhidrat": 55,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 45,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_376",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 496,
+    "protein": 42,
+    "karbonhidrat": 56,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 46,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_377",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 497,
+    "protein": 43,
+    "karbonhidrat": 57,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 47,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_378",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 498,
+    "protein": 44,
+    "karbonhidrat": 58,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 48,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_379",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 499,
+    "protein": 45,
+    "karbonhidrat": 59,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 49,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_380",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 500,
+    "protein": 46,
+    "karbonhidrat": 60,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 50,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_381",
+    "meal_name": "Izgara Dana Eti + Tam Buğday Makarna + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 501,
+    "protein": 47,
+    "karbonhidrat": 61,
+    "yag": 13,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tam Buğday Makarna (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 51,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_382",
+    "meal_name": "Izgara Dana Eti + Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 502,
+    "protein": 48,
+    "karbonhidrat": 62,
+    "yag": 14,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 52,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_383",
+    "meal_name": "Izgara Dana Eti + Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 503,
+    "protein": 49,
+    "karbonhidrat": 63,
+    "yag": 15,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 53,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_384",
+    "meal_name": "Izgara Dana Eti + Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 504,
+    "protein": 50,
+    "karbonhidrat": 64,
+    "yag": 16,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 54,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_385",
+    "meal_name": "Izgara Dana Eti + Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 505,
+    "protein": 51,
+    "karbonhidrat": 65,
+    "yag": 17,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 55,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_386",
+    "meal_name": "Izgara Dana Eti + Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 506,
+    "protein": 52,
+    "karbonhidrat": 66,
+    "yag": 18,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 56,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_387",
+    "meal_name": "Izgara Dana Eti + Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 507,
+    "protein": 53,
+    "karbonhidrat": 67,
+    "yag": 19,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 57,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_388",
+    "meal_name": "Izgara Dana Eti + Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 508,
+    "protein": 54,
+    "karbonhidrat": 68,
+    "yag": 20,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 58,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_389",
+    "meal_name": "Izgara Dana Eti + Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 509,
+    "protein": 55,
+    "karbonhidrat": 69,
+    "yag": 21,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 59,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_390",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 510,
+    "protein": 56,
+    "karbonhidrat": 70,
+    "yag": 22,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 30,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_391",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 511,
+    "protein": 57,
+    "karbonhidrat": 71,
+    "yag": 23,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 31,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_392",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 512,
+    "protein": 30,
+    "karbonhidrat": 72,
+    "yag": 24,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 32,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_393",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Kabak",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 513,
+    "protein": 31,
+    "karbonhidrat": 73,
+    "yag": 25,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Kabak",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 33,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_394",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Domates",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 514,
+    "protein": 32,
+    "karbonhidrat": 74,
+    "yag": 26,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Domates",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 34,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_395",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Biber",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 515,
+    "protein": 33,
+    "karbonhidrat": 75,
+    "yag": 27,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Biber",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 35,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_396",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Havuç",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 516,
+    "protein": 34,
+    "karbonhidrat": 76,
+    "yag": 28,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Havuç",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 36,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_397",
+    "meal_name": "Izgara Dana Eti + Tatlı Patates + Yeşil Fasulye",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 517,
+    "protein": 35,
+    "karbonhidrat": 77,
+    "yag": 29,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Tatlı Patates (120g)",
+      "Yeşil Fasulye",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 37,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_398",
+    "meal_name": "Izgara Dana Eti + Bulgur Köfte + Brokoli",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 518,
+    "protein": 36,
+    "karbonhidrat": 78,
+    "yag": 30,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Köfte (120g)",
+      "Brokoli",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 38,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_399",
+    "meal_name": "Izgara Dana Eti + Bulgur Köfte + Karnabahar",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 519,
+    "protein": 37,
+    "karbonhidrat": 79,
+    "yag": 31,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Köfte (120g)",
+      "Karnabahar",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 39,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "aksam_400",
+    "meal_name": "Izgara Dana Eti + Bulgur Köfte + Patlıcan",
+    "category": "Akşam Yemeği",
+    "meal_type": "aksam",
+    "kalori": 520,
+    "protein": 38,
+    "karbonhidrat": 40,
+    "yag": 12,
+    "malzemeler": [
+      "Izgara Dana Eti (150g)",
+      "Bulgur Köfte (120g)",
+      "Patlıcan",
+      "Cacık"
+    ],
+    "hazirlamaSuresi": 40,
+    "zorluk": "orta",
+    "etiketler": [
+      "akşam",
+      "protein",
+      "sağlıklı"
+    ]
+  }
+]

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../core/utils/app_logger.dart'; // 🔥 KRİTİK: Logger import'u eklendi.
 import '../../data/datasources/yemek_hive_data_source.dart';
 import '../../domain/usecases/ogun_planlayici.dart';
 import '../../domain/usecases/makro_hesapla.dart';
 import '../../domain/services/ai_beslenme_servisi.dart'; // 🤖 AI SERVİSİ
+import '../../domain/services/malzeme_parser_servisi.dart'; // 🔥 PARSE SERVİSİ
 import '../bloc/home/home_bloc.dart';
 import '../bloc/home/home_event.dart';
 import '../bloc/home/home_state.dart';
@@ -31,16 +33,19 @@ class YeniHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => HomeBloc(
-        planlayici: OgunPlanlayici(
-          dataSource: YemekHiveDataSource(),
-        ),
-        // ⚡ ESKİ SİSTEM AKTİF: Hazır yemeklerle HIZLI plan!
-        // Malzeme bazlı sistem çok yavaş, 4200 besin yüklüyor, donuyor
-        malzemeBazliPlanlayici: null, // DEVRE DIŞI!
-        makroHesaplama: MakroHesapla(),
-        aiServisi: AIBeslenmeServisi(), // 🤖 AI SERVİSİ EKLENDI
-      ),
+      create: (context) {
+        // 🔥 KRİTİK DÜZELTME: Bloc oluşturulmadan hemen önce log seviyesini ayarla!
+        // Bu, tüm alt servislerin (AI, Diyetisyen vb.) doğru log seviyesiyle çalışmasını garanti eder.
+        AppLogger.init(level: LogLevel.debug);
+        
+        return HomeBloc(
+          planlayici: OgunPlanlayici(
+            dataSource: YemekHiveDataSource(),
+          ),
+          makroHesaplama: MakroHesapla(),
+          aiServisi: AIBeslenmeServisi(), // 🤖 AI SERVİSİ
+        )..add(LoadHomePage()); // ✅ F5 yapınca mevcut planı otomatik yükle
+      },
       child: const YeniHomePageView(),
     );
   }
@@ -142,12 +147,14 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
 
             // Alternatif malzemeler yüklendiğinde bottom sheet aç
             if (state is AlternativeIngredientsLoaded) {
+              // 🔥 FIX: Malzemeyi parse et - miktar ve birim bilgilerini al
+              final parsedMalzeme = MalzemeParserServisi.parse(state.orijinalMalzemeMetni);
+              
               AlternatifBesinBottomSheet.goster(
                 context,
-                orijinalBesinAdi: state.orijinalMalzemeMetni,
-                orijinalMiktar:
-                    0, // Parsed değerler zaten alternatif besinlerde
-                orijinalBirim: '',
+                orijinalBesinAdi: parsedMalzeme?.besinAdi ?? state.orijinalMalzemeMetni,
+                orijinalMiktar: parsedMalzeme?.miktar ?? 0,
+                orijinalBirim: parsedMalzeme?.birim ?? '',
                 alternatifler: state.alternatifBesinler,
                 alerjiNedeni: 'Malzeme değişikliği',
                 onClose: () {
@@ -169,8 +176,12 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                           yeniMalzemeMetni: yeniMalzemeMetni,
                         ),
                       );
+                } else {
+                  // 🔥 FIX: Bottom sheet dışarı tıklama/geri tuşu ile kapatıldıysa da ana sayfaya dön
+                  context
+                      .read<HomeBloc>()
+                      .add(const CancelAlternativeSelection());
                 }
-                // 🔥 NOT: else bloğu kaldırıldı çünkü onClose callback'i zaten ana sayfaya döndürüyor
               });
             }
           },
@@ -245,9 +256,10 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                   Expanded(
                     child: RefreshIndicator(
                       onRefresh: () async {
+                        // 🔥 CRITICAL FIX: AlternativeIngredientsLoaded için de RefreshDailyPlan kullan
                         context
                             .read<HomeBloc>()
-                            .add(LoadPlanByDate(state.currentDate));
+                            .add(RefreshDailyPlan(forceRegenerate: false));
                       },
                       child: ListView(
                         padding: const EdgeInsets.all(16),
@@ -281,6 +293,57 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                                   .read<HomeBloc>()
                                   .add(LoadPlanByDate(tarih));
                             },
+                          ),
+
+                          const SizedBox(height: 16),
+
+                          // 🛒 HAFTALİK RAPOR VE ALIŞVERİŞ (TAKVİMDEN HEMEN SONRA)
+                          Row(
+                            children: [
+                              Expanded(
+                                child: ElevatedButton.icon(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => HaftalikRaporPage(
+                                          baslangicTarihi: state.currentDate,
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                  icon: const Icon(Icons.analytics_outlined, size: 20),
+                                  label: const Text('Haftalık Rapor'),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.teal,
+                                    foregroundColor: Colors.white,
+                                    padding: const EdgeInsets.symmetric(vertical: 14),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: ElevatedButton.icon(
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => AlisverisListesiPage(
+                                          baslangicTarihi: state.currentDate,
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                  icon: const Icon(Icons.shopping_cart_outlined, size: 20),
+                                  label: const Text('Alışveriş Listesi'),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.green,
+                                    foregroundColor: Colors.white,
+                                    padding: const EdgeInsets.symmetric(vertical: 14),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
 
                           const SizedBox(height: 16),
@@ -380,71 +443,17 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                             ],
                           ),
 
-                          const SizedBox(height: 12),
-
-                          // 🛒 Haftalık Rapor ve Alışveriş Listesi Butonları
-                          Row(
-                            children: [
-                              Expanded(
-                                child: ElevatedButton.icon(
-                                  onPressed: () {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) => HaftalikRaporPage(
-                                          baslangicTarihi: state.currentDate,
-                                        ),
-                                      ),
-                                    );
-                                  },
-                                  icon: const Icon(Icons.analytics_outlined,
-                                      size: 18),
-                                  label: const Text('Haftalık Rapor'),
-                                  style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.blue,
-                                    foregroundColor: Colors.white,
-                                    padding: const EdgeInsets.symmetric(
-                                        vertical: 12),
-                                  ),
-                                ),
-                              ),
-                              const SizedBox(width: 12),
-                              Expanded(
-                                child: ElevatedButton.icon(
-                                  onPressed: () {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) =>
-                                            AlisverisListesiPage(
-                                          baslangicTarihi: state.currentDate,
-                                        ),
-                                      ),
-                                    );
-                                  },
-                                  icon: const Icon(Icons.shopping_cart_outlined,
-                                      size: 18),
-                                  label: const Text('Alışveriş Listesi'),
-                                  style: ElevatedButton.styleFrom(
-                                    backgroundColor: Colors.orange,
-                                    foregroundColor: Colors.white,
-                                    padding: const EdgeInsets.symmetric(
-                                        vertical: 12),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-
                           const SizedBox(height: 16),
 
-                          // Detaylı öğün kartları
-                          ...state.plan.ogunler.map((yemek) {
-                            final tamamlandi =
-                                state.tamamlananOgunler[yemek.id] ?? false;
-                            final yemekDurumu = tamamlandi
-                                ? YemekDurumu.onaylandi
-                                : YemekDurumu.bekliyor;
+                          // Detaylı öğün kartları - ✅ YENİ ONAY SİSTEMİ
+                          ...state.plan.ogunler.asMap().entries.map((entry) {
+                            final index = entry.key;
+                            final yemek = entry.value;
+                            
+                            // ✅ YENİ ONAY SİSTEMİ: gunlukOnayDurumu'ndan durumu al
+                            final yemekDurumu = state.gunlukOnayDurumu
+                                ?.yemekDurumu(yemek.id.toString())
+                                ?.durum ?? YemekDurumu.bekliyor;
                             return DetayliOgunCard(
                               yemek: yemek,
                               yemekDurumu: yemekDurumu,
@@ -469,7 +478,7 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                                             Navigator.of(context).pop();
                                             context.read<HomeBloc>().add(
                                                 MarkMealAsEaten(
-                                                    yemekId: yemek.id));
+                                                    yemekId: yemek.id.toString()));
                                           },
                                           child: const Text('Evet, Yedim'),
                                         ),
@@ -481,7 +490,7 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                               onSifirlaPressed: () {
                                 context
                                     .read<HomeBloc>()
-                                    .add(ToggleMealCompletion(yemek.id));
+                                    .add(ResetMealStatus(yemekId: yemek.id.toString()));
                               },
                               onAlternatifPressed: () {
                                 // Alternatif yemekler oluştur
@@ -529,7 +538,87 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
               return Column(
                 children: [
                   Expanded(
-                    child: LoadingPage(), // 🎨 Professional loading skeleton
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          // 🔄 Yuvarlak loading indicator veya progress bar
+                          if (state.progress != null) ...[
+                            // 📊 Progress bar (haftalık plan için)
+                            SizedBox(
+                              width: 200,
+                              height: 200,
+                              child: Stack(
+                                alignment: Alignment.center,
+                                children: [
+                                  SizedBox(
+                                    width: 200,
+                                    height: 200,
+                                    child: CircularProgressIndicator(
+                                      value: state.progress,
+                                      strokeWidth: 12,
+                                      backgroundColor: Colors.grey.shade200,
+                                      valueColor: const AlwaysStoppedAnimation<Color>(Colors.purple),
+                                    ),
+                                  ),
+                                  Text(
+                                    '%${(state.progress! * 100).toInt()}',
+                                    style: const TextStyle(
+                                      fontSize: 48,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.purple,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ] else ...[
+                            // Belirsiz loading (progress yok)
+                            const SizedBox(
+                              width: 60,
+                              height: 60,
+                              child: CircularProgressIndicator(
+                                strokeWidth: 6,
+                                valueColor: AlwaysStoppedAnimation<Color>(Colors.purple),
+                              ),
+                            ),
+                          ],
+                          const SizedBox(height: 32),
+                          // 📝 Loading mesajı
+                          if (state.message != null) ...[
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 32),
+                              child: Text(
+                                state.message!,
+                                style: const TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                  color: Colors.black87,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                            const SizedBox(height: 16),
+                            if (state.progress != null)
+                              Text(
+                                '${(state.progress! * 100).toInt()}% tamamlandı',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.grey.shade600,
+                                ),
+                              )
+                            else
+                              Text(
+                                'Lütfen bekleyin...',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.grey.shade600,
+                                ),
+                              ),
+                          ],
+                        ],
+                      ),
+                    ),
                   ),
                   AltNavigasyonBar(
                     aktifSekme: _aktifSekme,
@@ -583,11 +672,12 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                         }
                         return false;
                       },
-                      child: CustomRefreshIndicator(
+                      child: RefreshIndicator(
                         onRefresh: () async {
+                          // 🔥 CRITICAL FIX: Doğru event'i tetikle - RefreshDailyPlan değil LoadPlanByDate
                           context
                               .read<HomeBloc>()
-                              .add(LoadPlanByDate(state.currentDate));
+                              .add(RefreshDailyPlan(forceRegenerate: false));
                         },
                         child: ListView(
                           padding: const EdgeInsets.all(16),
@@ -621,6 +711,64 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                                     .read<HomeBloc>()
                                     .add(LoadPlanByDate(tarih));
                               },
+                            ),
+
+                            const SizedBox(height: 16),
+
+                            // 🛒 HAFTALİK RAPOR VE ALIŞVERİŞ LİSTESİ (TAKVİMDEN HEMEN SONRA)
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) =>
+                                              HaftalikRaporPage(
+                                            baslangicTarihi: state.currentDate,
+                                          ),
+                                        ),
+                                      );
+                                    },
+                                    icon: const Icon(Icons.analytics_outlined,
+                                        size: 20),
+                                    label: const Text('Haftalık Rapor'),
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Colors.teal,
+                                      foregroundColor: Colors.white,
+                                      padding: const EdgeInsets.symmetric(
+                                          vertical: 14),
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 12),
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) =>
+                                              AlisverisListesiPage(
+                                            baslangicTarihi: state.currentDate,
+                                          ),
+                                        ),
+                                      );
+                                    },
+                                    icon: const Icon(
+                                        Icons.shopping_cart_outlined,
+                                        size: 20),
+                                    label: const Text('Alışveriş Listesi'),
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Colors.green,
+                                      foregroundColor: Colors.white,
+                                      padding: const EdgeInsets.symmetric(
+                                          vertical: 14),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
 
                             const SizedBox(height: 16),
@@ -717,89 +865,122 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                               ],
                             ),
 
-                            const SizedBox(height: 12),
-
-                            // 🛒 Haftalık Rapor ve Alışveriş Listesi Butonları
-                            Row(
-                              children: [
-                                Expanded(
-                                  child: ElevatedButton.icon(
-                                    onPressed: () {
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (context) =>
-                                              HaftalikRaporPage(
-                                            baslangicTarihi: state.currentDate,
-                                          ),
-                                        ),
-                                      );
-                                    },
-                                    icon: const Icon(Icons.analytics_outlined,
-                                        size: 18),
-                                    label: const Text('Haftalık Rapor'),
-                                    style: ElevatedButton.styleFrom(
-                                      backgroundColor: Colors.blue,
-                                      foregroundColor: Colors.white,
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 12),
-                                    ),
-                                  ),
-                                ),
-                                const SizedBox(width: 12),
-                                Expanded(
-                                  child: ElevatedButton.icon(
-                                    onPressed: () {
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (context) =>
-                                              AlisverisListesiPage(
-                                            baslangicTarihi: state.currentDate,
-                                          ),
-                                        ),
-                                      );
-                                    },
-                                    icon: const Icon(
-                                        Icons.shopping_cart_outlined,
-                                        size: 18),
-                                    label: const Text('Alışveriş Listesi'),
-                                    style: ElevatedButton.styleFrom(
-                                      backgroundColor: Colors.orange,
-                                      foregroundColor: Colors.white,
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 12),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-
                             const SizedBox(height: 16),
 
                             // Detaylı öğün kartları - 🎭 Animated
                             ...state.plan.ogunler.asMap().entries.map((entry) {
                               final index = entry.key;
                               final yemek = entry.value;
-                              final tamamlandi =
-                                  state.tamamlananOgunler[yemek.id] ?? false;
-                              final yemekDurumu = tamamlandi
-                                  ? YemekDurumu.onaylandi
-                                  : YemekDurumu.bekliyor;
+                              
+                              // ✅ YENİ ONAY SİSTEMİ: gunlukOnayDurumu'ndan durumu al
+                              final yemekDurumu = state.gunlukOnayDurumu
+                                  ?.yemekDurumu(yemek.id.toString())
+                                  ?.durum ?? YemekDurumu.bekliyor;
                               return AnimatedMealCard(
                                 index: index,
                                 child: DetayliOgunCard(
                                   yemek: yemek,
                                   yemekDurumu: yemekDurumu,
                                   onYedimPressed: () {
-                                    context
-                                        .read<HomeBloc>()
-                                        .add(ToggleMealCompletion(yemek.id));
+                                    // ✅ YENİ SİSTEM: Onay dialog'u göster
+                                    showDialog(
+                                      context: context,
+                                      builder: (BuildContext dialogContext) {
+                                        return AlertDialog(
+                                          title: const Text('Yemek Onayı'),
+                                          content: Text(
+                                              '${yemek.ad} yemeğini yediğinizi onaylıyor musunuz?'),
+                                          actions: [
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(dialogContext).pop();
+                                              },
+                                              child: const Text('İptal'),
+                                            ),
+                                            ElevatedButton(
+                                              onPressed: () {
+                                                Navigator.of(dialogContext).pop();
+                                                context.read<HomeBloc>().add(
+                                                    MarkMealAsEaten(
+                                                        yemekId: yemek.id.toString()));
+                                              },
+                                              child: const Text('Evet, Yedim'),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
+                                  },
+                                  onYemedimPressed: () {
+                                    // ✅ YENİ SİSTEM: Yemedim dialog'u göster
+                                    showDialog(
+                                      context: context,
+                                      builder: (BuildContext dialogContext) {
+                                        return AlertDialog(
+                                          title: const Text('Yemek Atlama'),
+                                          content: Text(
+                                              '${yemek.ad} yemeğini yemedim olarak işaretlemek istiyor musunuz?'),
+                                          actions: [
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(dialogContext).pop();
+                                              },
+                                              child: const Text('İptal'),
+                                            ),
+                                            ElevatedButton(
+                                              onPressed: () {
+                                                Navigator.of(dialogContext).pop();
+                                                context.read<HomeBloc>().add(
+                                                    SkipMeal(
+                                                        yemekId: yemek.id.toString()));
+                                              },
+                                              style: ElevatedButton.styleFrom(
+                                                backgroundColor: Colors.orange,
+                                              ),
+                                              child: const Text('Evet, Yemedim'),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
+                                  },
+                                  onOnayPressed: () {
+                                    // ✅ YENİ SİSTEM: Onayla ve kilitle
+                                    showDialog(
+                                      context: context,
+                                      builder: (BuildContext dialogContext) {
+                                        return AlertDialog(
+                                          title: const Text('🔒 Yemek Onaylama'),
+                                          content: Text(
+                                              '${yemek.ad} yemeğini onaylıyor musunuz?\n\nOnaylandıktan sonra değiştirilemez ve rapor için kaydedilir.'),
+                                          actions: [
+                                            TextButton(
+                                              onPressed: () {
+                                                Navigator.of(dialogContext).pop();
+                                              },
+                                              child: const Text('İptal'),
+                                            ),
+                                            ElevatedButton(
+                                              onPressed: () {
+                                                Navigator.of(dialogContext).pop();
+                                                context.read<HomeBloc>().add(
+                                                    ConfirmMealEaten(
+                                                        yemekId: yemek.id.toString()));
+                                              },
+                                              style: ElevatedButton.styleFrom(
+                                                backgroundColor: Colors.blue,
+                                              ),
+                                              child: const Text('Onayla & Kilitle'),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
                                   },
                                   onSifirlaPressed: () {
-                                    context
-                                        .read<HomeBloc>()
-                                        .add(ToggleMealCompletion(yemek.id));
+                                    // ✅ YENİ SİSTEM: Sıfırla
+                                    context.read<HomeBloc>().add(
+                                        ResetMealStatus(yemekId: yemek.id.toString()));
                                   },
                                   onAlternatifPressed: () {
                                     // Alternatif yemekler oluştur
@@ -829,73 +1010,6 @@ class _YeniHomePageViewState extends State<YeniHomePageView>
                           ],
                         ),
                       ),
-                    ),
-                  ),
-
-                  // 🎯 Floating Action Button
-                  Positioned(
-                    right: 16,
-                    bottom: 80,
-                    child: AnimatedFAB(
-                      onPressed: () {
-                        showModalBottomSheet(
-                          context: context,
-                          backgroundColor: Colors.transparent,
-                          builder: (context) => Container(
-                            decoration: const BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.vertical(
-                                top: Radius.circular(20),
-                              ),
-                            ),
-                            padding: const EdgeInsets.all(20),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                ListTile(
-                                  leading: const Icon(Icons.refresh,
-                                      color: Colors.purple),
-                                  title: const Text('Bugünü Yenile'),
-                                  onTap: () {
-                                    Navigator.pop(context);
-                                    context.read<HomeBloc>().add(
-                                        RefreshDailyPlan(
-                                            forceRegenerate: true));
-                                  },
-                                ),
-                                ListTile(
-                                  leading: const Icon(Icons.calendar_month,
-                                      color: Colors.green),
-                                  title: const Text('7 Günlük Plan'),
-                                  onTap: () {
-                                    Navigator.pop(context);
-                                    context.read<HomeBloc>().add(
-                                        GenerateWeeklyPlan(
-                                            forceRegenerate: true));
-                                  },
-                                ),
-                                ListTile(
-                                  leading: const Icon(Icons.share,
-                                      color: Colors.blue),
-                                  title: const Text('Bugünü Paylaş'),
-                                  onTap: () {
-                                    Navigator.pop(context);
-                                    // TODO: Share functionality
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      const SnackBar(
-                                          content: Text(
-                                              'Paylaşım özelliği yakında!')),
-                                    );
-                                  },
-                                ),
-                              ],
-                            ),
-                          ),
-                        );
-                      },
-                      icon: Icons.menu,
-                      label: 'Hızlı İşlemler',
-                      isExtended: _isFABExtended,
                     ),
                   ),
 

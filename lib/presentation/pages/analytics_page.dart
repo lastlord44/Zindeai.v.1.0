@@ -1,11 +1,13 @@
 // ============================================================================
-// ANALYTICS SAYFASI - FAZ 10
+// ANALYTICS SAYFASI - FAZ 10 - DÜZELTILDI
 // ============================================================================
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/analytics/analytics_bloc.dart';
-import '../widgets/makro_chart.dart';
+import '../bloc/analytics/analytics_event.dart';
+import '../bloc/analytics/analytics_state.dart';
+import '../../domain/entities/gunluk_plan.dart';
 
 class AnalyticsPage extends StatelessWidget {
   const AnalyticsPage({Key? key}) : super(key: key);
@@ -13,7 +15,7 @@ class AnalyticsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => AnalyticsBloc()..add(LoadAnalytics(gunSayisi: 7)),
+      create: (context) => AnalyticsBloc()..add(LoadWeeklyAnalytics()),
       child: const AnalyticsPageContent(),
     );
   }
@@ -30,18 +32,39 @@ class AnalyticsPageContent extends StatelessWidget {
         child: BlocBuilder<AnalyticsBloc, AnalyticsState>(
           builder: (context, state) {
             if (state is AnalyticsLoading) {
-              return const Center(child: CircularProgressIndicator());
+              return Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const CircularProgressIndicator(),
+                    const SizedBox(height: 16),
+                    Text(
+                      state.mesaj ?? 'Yükleniyor...',
+                      style: TextStyle(color: Colors.grey.shade600),
+                    ),
+                  ],
+                ),
+              );
             }
 
             if (state is AnalyticsError) {
               return _buildErrorState(context, state.mesaj);
             }
 
-            if (state is AnalyticsLoaded) {
-              return _buildAnalyticsContent(context, state);
+            if (state is WeeklyAnalyticsLoaded) {
+              return _buildWeeklyAnalyticsContent(context, state);
+            }
+            
+            if (state is MonthlyAnalyticsLoaded) {
+              return _buildMonthlyAnalyticsContent(context, state);
             }
 
-            return const Center(child: Text('İstatistikler yükleniyor...'));
+            return const Center(
+              child: Text(
+                'İstatistikler hazırlanıyor...',
+                style: TextStyle(fontSize: 16),
+              ),
+            );
           },
         ),
       ),
@@ -56,9 +79,9 @@ class AnalyticsPageContent extends StatelessWidget {
         children: [
           const Icon(Icons.analytics_outlined, size: 64, color: Colors.grey),
           const SizedBox(height: 16),
-          Text(
+          const Text(
             'İstatistik Bulunamadı',
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8),
           Padding(
@@ -82,8 +105,8 @@ class AnalyticsPageContent extends StatelessWidget {
     );
   }
 
-  /// Analytics içeriği
-  Widget _buildAnalyticsContent(BuildContext context, AnalyticsLoaded state) {
+  /// Haftalık analytics içeriği
+  Widget _buildWeeklyAnalyticsContent(BuildContext context, WeeklyAnalyticsLoaded state) {
     return Column(
       children: [
         // Üst bar
@@ -116,7 +139,7 @@ class AnalyticsPageContent extends StatelessWidget {
                   _buildTimeFilterChip(
                     context,
                     '7 Gün',
-                    isSelected: state.gunSayisi == 7,
+                    isSelected: true,
                     onTap: () {
                       context.read<AnalyticsBloc>().add(LoadWeeklyAnalytics());
                     },
@@ -125,7 +148,7 @@ class AnalyticsPageContent extends StatelessWidget {
                   _buildTimeFilterChip(
                     context,
                     '30 Gün',
-                    isSelected: state.gunSayisi == 30,
+                    isSelected: false,
                     onTap: () {
                       context.read<AnalyticsBloc>().add(LoadMonthlyAnalytics());
                     },
@@ -145,58 +168,96 @@ class AnalyticsPageContent extends StatelessWidget {
               _buildSummaryCards(state),
               const SizedBox(height: 24),
 
-              // Kalori grafiği
-              MakroChart(
-                veriler: state.gunlukKaloriDagilimi,
-                tarihler: state.tarihler,
-                baslik: 'Günlük Kalori',
-                renk: Colors.orange,
-                birim: 'kcal',
-              ),
-              const SizedBox(height: 16),
-
-              // Protein grafiği
-              MakroChart(
-                veriler: state.gunlukProteinDagilimi,
-                tarihler: state.tarihler,
-                baslik: 'Günlük Protein',
-                renk: Colors.red,
-                birim: 'g',
-              ),
-              const SizedBox(height: 16),
-
-              // Karbonhidrat grafiği
-              MakroChart(
-                veriler: state.gunlukKarbonhidratDagilimi,
-                tarihler: state.tarihler,
-                baslik: 'Günlük Karbonhidrat',
-                renk: Colors.amber,
-                birim: 'g',
-              ),
-              const SizedBox(height: 16),
-
-              // Yağ grafiği
-              MakroChart(
-                veriler: state.gunlukYagDagilimi,
-                tarihler: state.tarihler,
-                baslik: 'Günlük Yağ',
-                renk: Colors.green,
-                birim: 'g',
-              ),
-              const SizedBox(height: 16),
-
-              // Fitness skoru grafiği
-              MakroChart(
-                veriler: state.gunlukFitnessSkoruDagilimi,
-                tarihler: state.tarihler,
-                baslik: 'Fitness Skoru',
-                renk: Colors.purple,
-                birim: 'puan',
-              ),
+              // Trend bilgisi
+              _buildTrendCard(state.data.trend),
               const SizedBox(height: 24),
 
               // En iyi/en kötü günler
-              _buildBestWorstDays(state),
+              _buildBestWorstDays(state.data.planlar),
+              const SizedBox(height: 24),
+
+              // Favori yemekler
+              _buildFavoriteMeals(state.data.enCokYenilenYemekler),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  /// Aylık analytics içeriği
+  Widget _buildMonthlyAnalyticsContent(BuildContext context, MonthlyAnalyticsLoaded state) {
+    return Column(
+      children: [
+        // Üst bar
+        Container(
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.05),
+                blurRadius: 10,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                '📊 İstatistikler',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 12),
+              // Zaman aralığı filtreleri
+              Row(
+                children: [
+                  _buildTimeFilterChip(
+                    context,
+                    '7 Gün',
+                    isSelected: false,
+                    onTap: () {
+                      context.read<AnalyticsBloc>().add(LoadWeeklyAnalytics());
+                    },
+                  ),
+                  const SizedBox(width: 8),
+                  _buildTimeFilterChip(
+                    context,
+                    '30 Gün',
+                    isSelected: true,
+                    onTap: () {
+                      context.read<AnalyticsBloc>().add(LoadMonthlyAnalytics());
+                    },
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+
+        // İçerik
+        Expanded(
+          child: ListView(
+            padding: const EdgeInsets.all(16),
+            children: [
+              // Özet kartları (aylık)
+              _buildMonthlySummaryCards(state),
+              const SizedBox(height: 24),
+
+              // Trend bilgisi
+              _buildTrendCard(state.data.trend),
+              const SizedBox(height: 24),
+
+              // En iyi/en kötü günler
+              _buildBestWorstDays(state.data.planlar),
+              const SizedBox(height: 24),
+
+              // Favori yemekler
+              _buildFavoriteMeals(state.data.enCokYenilenYemekler),
             ],
           ),
         ),
@@ -230,8 +291,8 @@ class AnalyticsPageContent extends StatelessWidget {
     );
   }
 
-  /// Özet kartları
-  Widget _buildSummaryCards(AnalyticsLoaded state) {
+  /// Haftalık özet kartları
+  Widget _buildSummaryCards(WeeklyAnalyticsLoaded state) {
     return Row(
       children: [
         Expanded(
@@ -247,6 +308,33 @@ class AnalyticsPageContent extends StatelessWidget {
           child: _buildSummaryCard(
             'Ortalama Protein',
             '${state.ortalamaProtein.toStringAsFixed(0)} g',
+            Colors.red,
+            Icons.fitness_center,
+          ),
+        ),
+      ],
+    );
+  }
+
+  /// Aylık özet kartları
+  Widget _buildMonthlySummaryCards(MonthlyAnalyticsLoaded state) {
+    final ortalama = _hesaplaOrtalamaMakrolar(state.data.gunlukMakrolar);
+    
+    return Row(
+      children: [
+        Expanded(
+          child: _buildSummaryCard(
+            'Ortalama Kalori',
+            '${ortalama.kalori.toStringAsFixed(0)} kcal',
+            Colors.orange,
+            Icons.local_fire_department,
+          ),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: _buildSummaryCard(
+            'Ortalama Protein',
+            '${ortalama.protein.toStringAsFixed(0)} g',
             Colors.red,
             Icons.fitness_center,
           ),
@@ -308,11 +396,109 @@ class AnalyticsPageContent extends StatelessWidget {
     );
   }
 
+  /// Trend kartı
+  Widget _buildTrendCard(IlerlemeTrendi trend) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.05),
+            blurRadius: 10,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            '📈 İlerleme Trendi',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              Expanded(
+                child: _buildTrendItem(
+                  'Kalori',
+                  trend.kaloriTrendi,
+                ),
+              ),
+              Expanded(
+                child: _buildTrendItem(
+                  'Protein',
+                  trend.proteinTrendi,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              Expanded(
+                child: _buildTrendItem(
+                  'Karbonhidrat',
+                  trend.karbonhidratTrendi,
+                ),
+              ),
+              Expanded(
+                child: _buildTrendItem(
+                  'Antrenman',
+                  trend.antrenmanTrendi,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  /// Trend öğesi
+  Widget _buildTrendItem(String baslik, TrendYonu trend) {
+    return Column(
+      children: [
+        Text(
+          trend.emoji,
+          style: const TextStyle(fontSize: 24),
+        ),
+        const SizedBox(height: 4),
+        Text(
+          baslik,
+          style: const TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        Text(
+          trend.displayName,
+          style: TextStyle(
+            fontSize: 10,
+            color: Colors.grey.shade600,
+          ),
+        ),
+      ],
+    );
+  }
+
   /// En iyi/en kötü günler
-  Widget _buildBestWorstDays(AnalyticsLoaded state) {
-    if (state.enYuksekKaloriGunu == null || state.enDusukKaloriGunu == null) {
+  Widget _buildBestWorstDays(List<GunlukPlan> planlar) {
+    if (planlar.length < 2) {
       return const SizedBox.shrink();
     }
+
+    // En yüksek ve en düşük kalori günlerini bul
+    final sortedPlanlar = List<GunlukPlan>.from(planlar)
+      ..sort((a, b) => a.toplamKalori.compareTo(b.toplamKalori));
+    
+    final enDusukPlan = sortedPlanlar.first;
+    final enYuksekPlan = sortedPlanlar.last;
 
     return Container(
       padding: const EdgeInsets.all(20),
@@ -331,7 +517,7 @@ class AnalyticsPageContent extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'En İyi/En Kötü Günler',
+            '🏆 En İyi/En Kötü Günler',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
@@ -342,7 +528,7 @@ class AnalyticsPageContent extends StatelessWidget {
           // En yüksek kalori
           _buildDayRow(
             '🔥 En Yüksek Kalori',
-            state.enYuksekKaloriGunu!,
+            enYuksekPlan,
             Colors.orange,
           ),
           const SizedBox(height: 12),
@@ -350,7 +536,7 @@ class AnalyticsPageContent extends StatelessWidget {
           // En düşük kalori
           _buildDayRow(
             '🌱 En Düşük Kalori',
-            state.enDusukKaloriGunu!,
+            enDusukPlan,
             Colors.green,
           ),
         ],
@@ -359,9 +545,9 @@ class AnalyticsPageContent extends StatelessWidget {
   }
 
   /// Gün satırı
-  Widget _buildDayRow(String baslik, dynamic plan, Color renk) {
-    final tarih = plan.tarih as DateTime;
-    final kalori = plan.toplamKalori as double;
+  Widget _buildDayRow(String baslik, GunlukPlan plan, Color renk) {
+    final tarih = plan.tarih;
+    final kalori = plan.toplamKalori;
 
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -403,6 +589,100 @@ class AnalyticsPageContent extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+
+  /// Favori yemekler
+  Widget _buildFavoriteMeals(Map<String, int> yemekSayilari) {
+    if (yemekSayilari.isEmpty) return const SizedBox.shrink();
+
+    final sortedYemekler = yemekSayilari.entries.toList()
+      ..sort((a, b) => b.value.compareTo(a.value));
+    
+    final topYemekler = sortedYemekler.take(5).toList();
+
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.05),
+            blurRadius: 10,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            '❤️ En Sevilen Yemekler',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 16),
+          ...topYemekler.map((entry) => Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Expanded(
+                  child: Text(
+                    entry.key,
+                    style: const TextStyle(fontSize: 14),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: Colors.purple.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    '${entry.value}x',
+                    style: const TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.purple,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          )),
+        ],
+      ),
+    );
+  }
+
+  /// Ortalama makroları hesapla
+  MacroValues _hesaplaOrtalamaMakrolar(Map<DateTime, MacroValues> gunlukMakrolar) {
+    if (gunlukMakrolar.isEmpty) {
+      return MacroValues(
+        kalori: 0,
+        protein: 0,
+        karbonhidrat: 0,
+        yag: 0,
+        tarih: DateTime.now(),
+      );
+    }
+
+    final toplamKalori = gunlukMakrolar.values.fold<double>(0, (sum, makro) => sum + makro.kalori);
+    final toplamProtein = gunlukMakrolar.values.fold<double>(0, (sum, makro) => sum + makro.protein);
+    final toplamKarb = gunlukMakrolar.values.fold<double>(0, (sum, makro) => sum + makro.karbonhidrat);
+    final toplamYag = gunlukMakrolar.values.fold<double>(0, (sum, makro) => sum + makro.yag);
+
+    return MacroValues(
+      kalori: toplamKalori / gunlukMakrolar.length,
+      protein: toplamProtein / gunlukMakrolar.length,
+      karbonhidrat: toplamKarb / gunlukMakrolar.length,
+      yag: toplamYag / gunlukMakrolar.length,
+      tarih: DateTime.now(),
     );
   }
 

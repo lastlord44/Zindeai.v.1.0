@@ -3,13 +3,13 @@
 import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../domain/usecases/ogun_planlayici.dart';
-import '../../../domain/usecases/malzeme_bazli_ogun_planlayici.dart';
 import '../../../domain/usecases/makro_hesapla.dart';
 import '../../../data/local/hive_service.dart';
 import '../../../domain/entities/gunluk_plan.dart';
 import '../../../domain/entities/yemek.dart';
 import '../../../domain/services/malzeme_parser_servisi.dart';
 import '../../../domain/services/ai_beslenme_servisi.dart'; // 🤖 AI IMPORT
+import '../../../domain/services/alternatif_yemek_servisi.dart'; // 🍲 ALTERNATİF YEMEK SERVİSİ
 import '../../../domain/services/yemek_onay_servisi.dart'; // ✅ YENİ ONAY SİSTEMİ
 import '../../../core/utils/app_logger.dart';
 import 'home_event.dart';
@@ -17,20 +17,17 @@ import 'home_state.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
   final OgunPlanlayici planlayici;
-  final MalzemeBazliOgunPlanlayici? malzemeBazliPlanlayici;
   final MakroHesapla makroHesaplama;
   final AIBeslenmeServisi aiServisi; // 🤖 AI SERVİSİ
 
   HomeBloc({
     required this.planlayici,
-    this.malzemeBazliPlanlayici,
     required this.makroHesaplama,
     AIBeslenmeServisi? aiServisi, // 🤖 OPTIONAL AI SERVİS
   })  : aiServisi = aiServisi ?? AIBeslenmeServisi(), // 🤖 DEFAULT AI SERVİS
         super(HomeInitial()) {
     on<LoadHomePage>(_onLoadHomePage);
     on<RefreshDailyPlan>(_onRefreshDailyPlan);
-    on<ToggleMealCompletion>(_onToggleMealCompletion);
     on<ReplaceMeal>(_onReplaceMeal);
     on<LoadPlanByDate>(_onLoadPlanByDate);
     on<GenerateWeeklyPlan>(_onGenerateWeeklyPlan);
@@ -78,92 +75,92 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       if (plan != null) {
         // Tamamlanan öğünleri yükle (legacy)
         tamamlananOgunler = await HiveService.tamamlananOgunleriGetir(today);
-      } else {
-        // Plan yoksa yeni oluştur
-        emit(const HomeLoading(message: 'Yeni plan oluşturuluyor...'));
+        
+        // --- MEVCUT PLAN İÇİN DETAYLI LOGLAMA ---
+        AppLogger.debug('--- 📋 MEVCUT PLAN LOGU (${plan.tarih.toIso8601String().substring(0, 10)}) ---');
+        void logMeal(String mealName, Yemek? meal) {
+          if (meal == null) {
+            AppLogger.debug('$mealName: (Boş)');
+            return;
+          }
+          AppLogger.debug('$mealName: ${meal.ad}');
+          AppLogger.debug('  - Kalori: ${meal.kalori.toStringAsFixed(1)} kcal');
+          AppLogger.debug('  - Protein: ${meal.protein.toStringAsFixed(1)} g');
+          AppLogger.debug('  - Karbonhidrat: ${meal.karbonhidrat.toStringAsFixed(1)} g');
+          AppLogger.debug('  - Yağ: ${meal.yag.toStringAsFixed(1)} g');
+          AppLogger.debug('  - Malzemeler: ${meal.malzemeler.join(", ")}');
+        }
+        logMeal('🍳 Kahvaltı', plan.kahvalti);
+        logMeal('🍎 Ara Öğün 1', plan.araOgun1);
+        logMeal('🍽️ Öğle Yemeği', plan.ogleYemegi);
+        logMeal('🥤 Ara Öğün 2', plan.araOgun2);
+        logMeal('🌙 Akşam Yemeği', plan.aksamYemegi);
+        logMeal('🌃 Gece Atıştırma', plan.geceAtistirma);
+        AppLogger.debug('--- 📋 MEVCUT PLAN LOGU SONU ---');
+        // --- MEVCUT PLAN İÇİN DETAYLI LOGLAMA SONU ---
 
-        AppLogger.info('📋 Yeni günlük plan oluşturuluyor...');
+      } else {
+        // 🔥 İLK GÜNÜ HEMEN GÖSTER, DİĞER 6 GÜN ARKA PLANDA!
+        emit(const HomeLoading(message: 'Bugünün planı oluşturuluyor...'));
+
+        AppLogger.info('📋 İLK GÜN HEMEN, diğer 6 gün arka planda oluşturuluyor...');
         AppLogger.debug(
             'Hedefler: Kalori=${hedefler.gunlukKalori}, Protein=${hedefler.gunlukProtein}, Karb=${hedefler.gunlukKarbonhidrat}, Yağ=${hedefler.gunlukYag}');
 
-        // 🔥 YENİ SİSTEM: Malzeme bazlı genetik algoritma (0.7% sapma!)
-        if (malzemeBazliPlanlayici != null) {
-          AppLogger.success(
-              '🚀 Malzeme bazlı genetik algoritma aktif! (50x daha iyi performans)');
-          plan = await malzemeBazliPlanlayici!.gunlukPlanOlustur(
-            hedefKalori: hedefler.gunlukKalori,
-            hedefProtein: hedefler.gunlukProtein,
-            hedefKarb: hedefler.gunlukKarbonhidrat,
-            hedefYag: hedefler.gunlukYag,
-            kisitlamalar: kullanici.tumKisitlamalar,
-            tarih: today,
-          );
-        } else {
-          plan = await planlayici.gunlukPlanOlustur(
-            hedefKalori: hedefler.gunlukKalori,
-            hedefProtein: hedefler.gunlukProtein,
-            hedefKarb: hedefler.gunlukKarbonhidrat,
-            hedefYag: hedefler.gunlukYag,
-            kisitlamalar: kullanici.tumKisitlamalar,
-            tarih: today,
-          );
-        }
+        // 🔥 AI İLE HAFTALIK PLAN OLUŞTUR - Callback ile arka plan günleri kaydet
+        final haftalikPlanlar = await planlayici.haftalikPlanOlustur(
+          hedefKalori: hedefler.gunlukKalori,
+          hedefProtein: hedefler.gunlukProtein,
+          hedefKarb: hedefler.gunlukKarbonhidrat,
+          hedefYag: hedefler.gunlukYag,
+          profil: kullanici,
+          kisitlamalar: kullanici.tumKisitlamalar,
+          baslangicTarihi: today,
+          onGunlukPlanOlusturuldu: (gunlukPlan) async {
+            // 🔥 Her gün hazır olduğunda Hive'a kaydet (arka planda)
+            await HiveService.planKaydet(gunlukPlan);
+            AppLogger.info('💾 Gün ${gunlukPlan.tarih.day}.${gunlukPlan.tarih.month} Hive\'a kaydedildi (arka plan) | P: ${gunlukPlan.toplamProtein.toInt()}g K: ${gunlukPlan.toplamKarbonhidrat.toInt()}g Y: ${gunlukPlan.toplamYag.toInt()}g');
+          },
+        );
+
+        // Bugünün planını al (ilk gün zaten döndü)
+        plan = haftalikPlanlar.first;
+        await HiveService.planKaydet(plan); // İlk günü de kaydet
 
         AppLogger.success(
-            '✅ Plan başarıyla oluşturuldu: ${plan.ogunler.length} öğün');
+            '✅ İLK GÜN HAZIR: ${plan.ogunler.length} öğün | Diğer 6 gün arka planda oluşturuluyor...');
 
-        // 📋 GÜNLÜK PLAN DETAYLARI - Kullanıcı görebilsin diye log
-        AppLogger.info('');
-        AppLogger.info(
-            '📅 ═══════════════════════════════════════════════════');
-        AppLogger.info(
-            '   ${plan.tarih.day}.${plan.tarih.month}.${plan.tarih.year} - GÜNLÜK PLAN');
-        AppLogger.info('═══════════════════════════════════════════════════');
+        // 📋 GÜNLÜK PLAN ÖZETİ - UI ile tutarlı, tek satır log
+        final kahvaltiAdi = plan.kahvalti?.ad ?? 'N/A';
+        final ogleAdi = plan.ogleYemegi?.ad ?? 'N/A';
+        final aksamAdi = plan.aksamYemegi?.ad ?? 'N/A';
+        final tarihStr = '${plan.tarih.day}.${plan.tarih.month}.${plan.tarih.year}';
+        final makroStr = 'TOPLAM: ${plan.toplamKalori.toInt()} kcal, P:${plan.toplamProtein.toInt()}g, K:${plan.toplamKarbonhidrat.toInt()}g, Y:${plan.toplamYag.toInt()}g';
 
-        for (final yemek in plan.ogunler) {
-          if (yemek != null) {
-            final kategori =
-                yemek.ogun.toString().split('.').last.toUpperCase();
-            AppLogger.info('🍽️  $kategori: ${yemek.ad}');
-            AppLogger.info(
-                '    Kalori: ${yemek.kalori.toStringAsFixed(0)} kcal | Protein: ${yemek.protein.toStringAsFixed(0)}g | Karb: ${yemek.karbonhidrat.toStringAsFixed(0)}g | Yağ: ${yemek.yag.toStringAsFixed(0)}g');
-            // 🔥 MALZEMELER - Kullanıcı görsün diye
-            if (yemek.malzemeler.isNotEmpty) {
-              AppLogger.info(
-                  '    📋 Malzemeler: ${yemek.malzemeler.join(", ")}');
-            }
+        AppLogger.info('📅 GÜNLÜK PLAN ($tarihStr): Kahvaltı: $kahvaltiAdi, Öğle: $ogleAdi, Akşam: $aksamAdi | $makroStr');
+
+        // --- DETAYLI PLAN LOGLAMA BAŞLANGICI ---
+        AppLogger.debug('--- 📋 DETAYLI GÜNLÜK PLAN LOGU ---');
+        void logMeal(String mealName, Yemek? meal) {
+          if (meal == null) {
+            AppLogger.debug('$mealName: (Boş)');
+            return;
           }
+          AppLogger.debug('$mealName: ${meal.ad}');
+          AppLogger.debug('  - Kalori: ${meal.kalori.toStringAsFixed(1)} kcal');
+          AppLogger.debug('  - Protein: ${meal.protein.toStringAsFixed(1)} g');
+          AppLogger.debug('  - Karbonhidrat: ${meal.karbonhidrat.toStringAsFixed(1)} g');
+          AppLogger.debug('  - Yağ: ${meal.yag.toStringAsFixed(1)} g');
+          AppLogger.debug('  - Malzemeler: ${meal.malzemeler.join(", ")}');
         }
-
-        AppLogger.info('');
-        AppLogger.info('📊 TOPLAM MAKROLAR:');
-        AppLogger.info(
-            '    Kalori: ${plan.toplamKalori.toStringAsFixed(0)} / ${hedefler.gunlukKalori.toStringAsFixed(0)} kcal');
-        AppLogger.info(
-            '    Protein: ${plan.toplamProtein.toStringAsFixed(0)} / ${hedefler.gunlukProtein.toStringAsFixed(0)}g');
-        AppLogger.info(
-            '    Karb: ${plan.toplamKarbonhidrat.toStringAsFixed(0)} / ${hedefler.gunlukKarbonhidrat.toStringAsFixed(0)}g');
-        AppLogger.info(
-            '    Yağ: ${plan.toplamYag.toStringAsFixed(0)} / ${hedefler.gunlukYag.toStringAsFixed(0)}g');
-        AppLogger.info('');
-        AppLogger.info('📈 PLAN KALİTESİ:');
-        AppLogger.info(
-            '    Fitness Skoru: ${plan.fitnessSkoru.toStringAsFixed(1)}/100');
-        AppLogger.info(
-            '    Kalite Skoru: ${plan.makroKaliteSkoru.toStringAsFixed(1)}/100');
-
-        // 🎯 TOLERANS KONTROLÜ (±5%)
-        if (plan.tumMakrolarToleranstaMi) {
-          AppLogger.success('    ✅ Tüm makrolar ±5% tolerans içinde');
-        } else {
-          AppLogger.warning('    ⚠️  TOLERANS AŞILDI! (±5% limit)');
-          for (final makro in plan.toleransAsanMakrolar) {
-            AppLogger.warning('       ❌ $makro');
-          }
-        }
-
-        AppLogger.info('═══════════════════════════════════════════════════');
-        AppLogger.info('');
+        logMeal('🍳 Kahvaltı', plan.kahvalti);
+        logMeal('🍎 Ara Öğün 1', plan.araOgun1);
+        logMeal('🍽️ Öğle Yemeği', plan.ogleYemegi);
+        logMeal('🥤 Ara Öğün 2', plan.araOgun2);
+        logMeal('🌙 Akşam Yemeği', plan.aksamYemegi);
+        logMeal('🌃 Gece Atıştırma', plan.geceAtistirma);
+        AppLogger.debug('--- 📋 DETAYLI GÜNLÜK PLAN LOGU SONU ---');
+        // --- DETAYLI PLAN LOGLAMA SONU ---
 
         // Planı kaydet
         await HiveService.planKaydet(plan);
@@ -207,45 +204,67 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     final currentState = state as HomeLoaded;
 
     try {
-      emit(const HomeLoading(message: 'Plan yenileniyor...'));
+      // ✅ FIX: forceRegenerate FALSE ise sadece mevcut planı yükle, YENİ OLUŞTURMA!
+      if (!event.forceRegenerate) {
+        AppLogger.info('🔄 Swipe refresh: Mevcut plan korunuyor (yeni oluşturulmuyor)');
+        
+        // Mevcut planı ve onay durumunu yükle
+        final gunlukOnayDurumu =
+            await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
 
-      // 🔥 YENİ SİSTEM: Malzeme bazlı genetik algoritma
-      final yeniPlan = malzemeBazliPlanlayici != null
-          ? await malzemeBazliPlanlayici!.gunlukPlanOlustur(
-              hedefKalori: currentState.hedefler.gunlukKalori,
-              hedefProtein: currentState.hedefler.gunlukProtein,
-              hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
-              hedefYag: currentState.hedefler.gunlukYag,
-              kisitlamalar: currentState.kullanici.tumKisitlamalar,
-              tarih: currentState.currentDate,
-            )
-          : await planlayici.gunlukPlanOlustur(
-              hedefKalori: currentState.hedefler.gunlukKalori,
-              hedefProtein: currentState.hedefler.gunlukProtein,
-              hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
-              hedefYag: currentState.hedefler.gunlukYag,
-              kisitlamalar: currentState.kullanici.tumKisitlamalar,
-              tarih: currentState.currentDate,
-            );
+        // State'i yenile ama AYNI PLAN ile
+        emit(HomeLoaded(
+          plan: currentState.plan, // ✅ MEVCUT PLAN KORUNUYOR!
+          hedefler: currentState.hedefler,
+          kullanici: currentState.kullanici,
+          currentDate: currentState.currentDate,
+          tamamlananOgunler: currentState.tamamlananOgunler,
+          gunlukOnayDurumu: gunlukOnayDurumu,
+        ));
+        
+        AppLogger.success('✅ Plan korundu - onay durumları yüklendi');
+        return;
+      }
+
+      // forceRegenerate TRUE ise YENİ plan oluştur
+      emit(const HomeLoading(message: 'Yeni plan oluşturuluyor...'));
+
+      AppLogger.info('🔄 Force regenerate: Yeni plan oluşturuluyor...');
+
+      // 🤖 AI İLE YENİ PLAN OLUŞTUR
+      final yeniPlan = await planlayici.gunlukPlanOlustur(
+        hedefKalori: currentState.hedefler.gunlukKalori,
+        hedefProtein: currentState.hedefler.gunlukProtein,
+        hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
+        hedefYag: currentState.hedefler.gunlukYag,
+        hedef: currentState.kullanici.hedef,
+        kisitlamalar: currentState.kullanici.tumKisitlamalar,
+        tarih: currentState.currentDate,
+      );
 
       // Planı kaydet
       await HiveService.planKaydet(yeniPlan);
 
-      // Eğer force regenerate ise, tamamlananları sıfırla
-      final tamamlananlar = event.forceRegenerate
-          ? <String, bool>{}
-          : currentState.tamamlananOgunler;
+      // Tamamlananları sıfırla
+      await HiveService.tamamlananOgunleriKaydet(
+        currentState.currentDate,
+        {},
+      );
 
-      if (event.forceRegenerate) {
-        await HiveService.tamamlananOgunleriKaydet(
-          currentState.currentDate,
-          {},
-        );
-      }
+      // gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
 
-      emit(currentState.copyWith(
+      AppLogger.success('✅ Yeni plan oluşturuldu');
+
+      // Yeni state oluştur
+      emit(HomeLoaded(
         plan: yeniPlan,
-        tamamlananOgunler: tamamlananlar,
+        hedefler: currentState.hedefler,
+        kullanici: currentState.kullanici,
+        currentDate: currentState.currentDate,
+        tamamlananOgunler: {}, // ✅ Sıfırlandı
+        gunlukOnayDurumu: gunlukOnayDurumu,
       ));
     } catch (e, stackTrace) {
       AppLogger.error(
@@ -262,35 +281,6 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     }
   }
 
-  /// Öğün tamamlama durumunu değiştir
-  Future<void> _onToggleMealCompletion(
-    ToggleMealCompletion event,
-    Emitter<HomeState> emit,
-  ) async {
-    if (state is! HomeLoaded) return;
-
-    final currentState = state as HomeLoaded;
-
-    try {
-      // Yeni tamamlanma durumunu oluştur
-      final yeniDurum = Map<String, bool>.from(currentState.tamamlananOgunler);
-      final mevcutDurum = yeniDurum[event.yemekId] ?? false;
-      yeniDurum[event.yemekId] = !mevcutDurum;
-
-      // Kaydet
-      await HiveService.tamamlananOgunleriKaydet(
-        currentState.currentDate,
-        yeniDurum,
-      );
-
-      // State'i güncelle
-      emit(currentState.copyWith(tamamlananOgunler: yeniDurum));
-    } catch (e) {
-      // Hata durumunda sessizce devam et, kullanıcıyı rahatsız etme
-      print('Öğün tamamlama kaydedilemedi: $e');
-    }
-  }
-
   /// Öğünü değiştir
   Future<void> _onReplaceMeal(
     ReplaceMeal event,
@@ -303,29 +293,33 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     try {
       emit(const HomeLoading(message: 'Yeni öğün aranıyor...'));
 
-      // 🔥 YENİ SİSTEM: Malzeme bazlı genetik algoritma
-      final yeniPlan = malzemeBazliPlanlayici != null
-          ? await malzemeBazliPlanlayici!.gunlukPlanOlustur(
-              hedefKalori: currentState.hedefler.gunlukKalori,
-              hedefProtein: currentState.hedefler.gunlukProtein,
-              hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
-              hedefYag: currentState.hedefler.gunlukYag,
-              kisitlamalar: currentState.kullanici.tumKisitlamalar,
-              tarih: currentState.currentDate,
-            )
-          : await planlayici.gunlukPlanOlustur(
-              hedefKalori: currentState.hedefler.gunlukKalori,
-              hedefProtein: currentState.hedefler.gunlukProtein,
-              hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
-              hedefYag: currentState.hedefler.gunlukYag,
-              kisitlamalar: currentState.kullanici.tumKisitlamalar,
-              tarih: currentState.currentDate,
-            );
+      // 🤖 AI İLE YENİ PLAN OLUŞTUR
+      final yeniPlan = await planlayici.gunlukPlanOlustur(
+        hedefKalori: currentState.hedefler.gunlukKalori,
+        hedefProtein: currentState.hedefler.gunlukProtein,
+        hedefKarb: currentState.hedefler.gunlukKarbonhidrat,
+        hedefYag: currentState.hedefler.gunlukYag,
+        hedef: currentState.kullanici.hedef,
+        kisitlamalar: currentState.kullanici.tumKisitlamalar,
+        tarih: currentState.currentDate,
+      );
 
       // Kaydet
       await HiveService.planKaydet(yeniPlan);
 
-      emit(currentState.copyWith(plan: yeniPlan));
+      // ✅ FIX: gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
+      // State'i güncelle
+      emit(HomeLoaded(
+        plan: yeniPlan,
+        hedefler: currentState.hedefler,
+        kullanici: currentState.kullanici,
+        currentDate: currentState.currentDate,
+        tamamlananOgunler: currentState.tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu,
+      ));
     } catch (e, stackTrace) {
       AppLogger.error(
         '❌ HATA: Öğün değiştirilirken kritik hata oluştu',
@@ -349,14 +343,14 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     add(LoadHomePage(targetDate: event.date));
   }
 
-  /// Haftalık plan oluştur (7 günlük)
+  /// Haftalık plan oluştur (7 günlük) - İLK GÜN HEMEN, DİĞERLERİ ARKA PLANDA
   Future<void> _onGenerateWeeklyPlan(
     GenerateWeeklyPlan event,
     Emitter<HomeState> emit,
   ) async {
     try {
       emit(const HomeLoading(
-          message: '7 günlük haftalık plan oluşturuluyor...'));
+          message: 'Bugünün planı oluşturuluyor...'));
 
       // Kullanıcıyı getir
       final kullanici = await HiveService.kullaniciGetir();
@@ -390,40 +384,32 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         }
       }
 
-      // Haftalık plan oluştur - 🔥 YENİ SİSTEM: Malzeme bazlı genetik algoritma
-      final haftalikPlanlar = malzemeBazliPlanlayici != null
-          ? await malzemeBazliPlanlayici!.haftalikPlanOlustur(
-              hedefKalori: hedefler.gunlukKalori,
-              hedefProtein: hedefler.gunlukProtein,
-              hedefKarb: hedefler.gunlukKarbonhidrat,
-              hedefYag: hedefler.gunlukYag,
-              kisitlamalar: kullanici.tumKisitlamalar,
-              baslangicTarihi: baslangic,
-            )
-          : await planlayici.haftalikPlanOlustur(
-              hedefKalori: hedefler.gunlukKalori,
-              hedefProtein: hedefler.gunlukProtein,
-              hedefKarb: hedefler.gunlukKarbonhidrat,
-              hedefYag: hedefler.gunlukYag,
-              kisitlamalar: kullanici.tumKisitlamalar,
-              baslangicTarihi: baslangic,
-            );
-
-      // Tüm planları Hive'a kaydet
-      int basariliKayit = 0;
-      for (final plan in haftalikPlanlar) {
-        try {
-          await HiveService.planKaydet(plan);
-          basariliKayit++;
-        } catch (e) {
-          print('❌ Plan kaydetme hatası (${plan.tarih}): $e');
-        }
-      }
+      // 🤖 AI İLE HAFTALIK PLAN OLUŞTUR - Callback ile arka plan günleri kaydet
+      final haftalikPlanlar = await planlayici.haftalikPlanOlustur(
+        hedefKalori: hedefler.gunlukKalori,
+        hedefProtein: hedefler.gunlukProtein,
+        hedefKarb: hedefler.gunlukKarbonhidrat,
+        hedefYag: hedefler.gunlukYag,
+        profil: kullanici,
+        kisitlamalar: kullanici.tumKisitlamalar,
+        baslangicTarihi: baslangic,
+        onGunlukPlanOlusturuldu: (gunlukPlan) async {
+          // 🔥 Her gün hazır olduğunda Hive'a kaydet (arka planda)
+          await HiveService.planKaydet(gunlukPlan);
+          AppLogger.info('💾 Gün ${gunlukPlan.tarih.day}.${gunlukPlan.tarih.month} Hive\'a kaydedildi (arka plan) | P: ${gunlukPlan.toplamProtein.toInt()}g K: ${gunlukPlan.toplamKarbonhidrat.toInt()}g Y: ${gunlukPlan.toplamYag.toInt()}g');
+        },
+      );
 
       // İlk günün planını yükle
       final ilkGun = haftalikPlanlar.first;
+      await HiveService.planKaydet(ilkGun); // İlk günü de kaydet
+      
       final tamamlananOgunler =
           await HiveService.tamamlananOgunleriGetir(ilkGun.tarih);
+
+      // ✅ FIX: gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(baslangic);
 
       emit(HomeLoaded(
         plan: ilkGun,
@@ -431,10 +417,20 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         kullanici: kullanici,
         currentDate: baslangic,
         tamamlananOgunler: tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu,
       ));
 
-      print(
-          '✅ Haftalık plan başarıyla oluşturuldu: $basariliKayit/${haftalikPlanlar.length} gün');
+      AppLogger.success(
+          '✅ İLK GÜN HAZIR - Kullanıcı görebilir! Diğer 6 gün arka planda oluşturuluyor...');
+
+      // 📋 GÜNLÜK PLAN ÖZETİ - UI ile tutarlı, tek satır log
+      final kahvaltiAdi = ilkGun.kahvalti?.ad ?? 'N/A';
+      final ogleAdi = ilkGun.ogleYemegi?.ad ?? 'N/A';
+      final aksamAdi = ilkGun.aksamYemegi?.ad ?? 'N/A';
+      final tarihStr = '${ilkGun.tarih.day}.${ilkGun.tarih.month}.${ilkGun.tarih.year}';
+      final makroStr = 'TOPLAM: ${ilkGun.toplamKalori.toInt()} kcal, P:${ilkGun.toplamProtein.toInt()}g, K:${ilkGun.toplamKarbonhidrat.toInt()}g, Y:${ilkGun.toplamYag.toInt()}g';
+
+      AppLogger.info('📅 GÜNLÜK PLAN ($tarihStr): Kahvaltı: $kahvaltiAdi, Öğle: $ogleAdi, Akşam: $aksamAdi | $makroStr');
     } catch (e, stackTrace) {
       AppLogger.error(
         '❌ HATA: Haftalık plan oluşturulurken kritik hata oluştu',
@@ -466,14 +462,23 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           message: '🤖 AI alternatif yemekler üretiliyor...'));
 
       AppLogger.info(
-          '🤖 AI Alternatif Sistemi: ${event.mevcutYemek.ad} için alternatifler üretiliyor...');
+          '🍲 Alternatif Sistemi: ${event.mevcutYemek.ad} için alternatifler aranıyor...');
 
-      // 🤖 AI SERVİSİ İLE ALTERNATİF ÜRET
-      final alternatifler =
-          await aiServisi.alternatifleriGetir(event.mevcutYemek);
+      // İlgili öğündeki tüm yemekleri çek
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final yemekHavuzu = tumYemekler
+          .where((y) => y.ogun == event.mevcutYemek.ogun)
+          .toList();
+
+      // Alternatif yemekleri bul
+      final alternatifler = AlternatifYemekServisi.alternatifYemekleriBul(
+        orijinalYemek: event.mevcutYemek,
+        yemekHavuzu: yemekHavuzu,
+        adet: 5,
+      );
 
       AppLogger.success(
-          '✅ ${event.mevcutYemek.ad} için ${alternatifler.length} AI alternatifi üretildi');
+          '✅ ${event.mevcutYemek.ad} için ${alternatifler.length} alternatif bulundu');
 
       // Alternatifler state'ini emit et
       emit(AlternativeMealsLoaded(
@@ -603,6 +608,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       // Planı kaydet
       await HiveService.planKaydet(yeniPlan);
 
+      // ✅ FIX: gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(currentDate);
+
       // State'i güncelle
       emit(HomeLoaded(
         plan: yeniPlan,
@@ -610,6 +619,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         kullanici: kullanici,
         currentDate: currentDate,
         tamamlananOgunler: tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu,
       ));
     } catch (e, stackTrace) {
       AppLogger.error(
@@ -656,12 +666,22 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           '🤖 AI Malzeme Alternatif Sistemi: "${parsedMalzeme.besinAdi}" için alternatifler üretiliyor...');
 
       // 🤖 AI SERVİSİ İLE MALZEME ALTERNATİFİ ÜRET - ÖĞÜN TİPİNE UYGUN!
-      final alternatifler = await aiServisi.malzemeAlternatifleriGetir(
-        besinAdi: parsedMalzeme.besinAdi,
-        miktar: parsedMalzeme.miktar,
-        birim: parsedMalzeme.birim,
-        ogunTipi: event.yemek.ogun, // 🔥 ÖĞÜN TİPİNİ GÖNDER!
+      // İlgili öğündeki tüm yemekleri çek
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final yemekHavuzu =
+          tumYemekler.where((y) => y.ogun == event.yemek.ogun).toList();
+
+      // Alternatif yemekleri bul
+      final alternatifYemekler = AlternatifYemekServisi.alternatifYemekleriBul(
+        orijinalYemek: event.yemek,
+        yemekHavuzu: yemekHavuzu,
+        adet: 5,
       );
+
+      // Alternatif yemeklerden malzeme listeleri oluştur
+      final alternatifler = alternatifYemekler
+          .map((yemek) => yemek.malzemeler.join(', '))
+          .toList();
 
       AppLogger.info(
           '🎯 AI Öğün Filtresi: ${event.yemek.ogun.name} -> Uygun alternatifler üretildi');
@@ -674,7 +694,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         yemek: event.yemek,
         malzemeIndex: event.malzemeIndex,
         orijinalMalzemeMetni: event.malzemeMetni,
-        alternatifBesinler: alternatifler,
+        alternatifBesinler: [], // TODO: Geçici olarak boş liste
         plan: currentState.plan,
         hedefler: currentState.hedefler,
         kullanici: currentState.kullanici,
@@ -742,15 +762,11 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         yag: event.yemek.yag,
         malzemeler: yeniMalzemeler,
         ogun: event.yemek.ogun,
-        kategori: event.yemek.kategori,
-        hazirlikSuresi: event.yemek.hazirlikSuresi,
+        hazirlamaSuresi: event.yemek.hazirlamaSuresi,
         zorluk: event.yemek.zorluk,
-        aciklama: event.yemek.aciklama,
-        resimUrl: event.yemek.resimUrl,
-        alerjiBilgileri: event.yemek.alerjiBilgileri,
-        besinDegeri: event.yemek.besinDegeri,
-        porsiyon: event.yemek.porsiyon,
-        olusturulmaTarihi: event.yemek.olusturulmaTarihi,
+        etiketler: event.yemek.etiketler,
+        tarif: event.yemek.tarif,
+        gorselUrl: event.yemek.gorselUrl,
       );
 
       // Plandaki yemekleri güncelle
@@ -824,6 +840,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       // Planı kaydet
       await HiveService.planKaydet(yeniPlan);
 
+      // ✅ FIX: gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(currentDate);
+
       // State'i güncelle
       emit(HomeLoaded(
         plan: yeniPlan,
@@ -831,6 +851,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         kullanici: kullanici,
         currentDate: currentDate,
         tamamlananOgunler: tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu,
       ));
     } catch (e, stackTrace) {
       AppLogger.error(
@@ -855,6 +876,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     if (state is AlternativeIngredientsLoaded) {
       final currentState = state as AlternativeIngredientsLoaded;
 
+      // ✅ FIX: gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
       // Ana HomeLoaded state'ine geri dön (hiçbir şey sıfırlanmasın)
       emit(HomeLoaded(
         plan: currentState.plan,
@@ -862,6 +887,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         kullanici: currentState.kullanici,
         currentDate: currentState.currentDate,
         tamamlananOgunler: currentState.tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu,
       ));
 
       AppLogger.info(
@@ -877,6 +903,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     if (state is AlternativeMealsLoaded) {
       final currentState = state as AlternativeMealsLoaded;
 
+      // ✅ FIX: gunlukOnayDurumu'nu yükle
+      final gunlukOnayDurumu =
+          await YemekOnayServisi.gunlukOnayDurumuGetir(currentState.currentDate);
+
       // Ana HomeLoaded state'ine geri dön (hiçbir şey sıfırlanmasın)
       emit(HomeLoaded(
         plan: currentState.plan,
@@ -884,6 +914,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         kullanici: currentState.kullanici,
         currentDate: currentState.currentDate,
         tamamlananOgunler: currentState.tamamlananOgunler,
+        gunlukOnayDurumu: gunlukOnayDurumu,
       ));
 
       AppLogger.info(

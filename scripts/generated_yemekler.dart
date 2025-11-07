@@ -1,0 +1,13 @@
+      Yemek(
+        id: 'OGLE_B1_201',
+        ad: 'Tavuk #1 - Tavuklu Sebzeli Fırın Makarna (Tam Buğday)',
+        ogun: OgunTipi.ogle,
+        kalori: 496,
+        protein: 41,
+        karbonhidrat: 53,
+        yag: 13,
+        malzemeler: ['Tavuk göğsü 150g', 'Tam buğday makarna 70g', 'Brokoli 120g', 'Havuç 80g', 'Yoğurt 100g', 'Zeytinyağı 8g'],
+        hazirlamaSuresi: 23,
+        zorluk: Zorluk.kolay,
+        etiketler: ['pratik', 'türk mutfağı', 'ekonomik', 'yüksek protein', 'kalsiyum', 'doyurucu'],
+      ),

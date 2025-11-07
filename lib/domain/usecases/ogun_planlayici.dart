@@ -4,14 +4,18 @@
 // ============================================================================
 
 import 'dart:math';
-import '../services/ai_beslenme_servisi.dart';
+import '../services/ai_beslenme_servisi_v5.dart';
+import '../services/alternatif_yemek_servisi.dart';
+import '../../data/local/hive_service.dart';
 import '../../core/utils/app_logger.dart';
 import '../entities/yemek.dart';
 import '../entities/gunluk_plan.dart';
 import '../entities/makro_hedefleri.dart';
+import '../entities/kullanici_profili.dart';
+import '../entities/hedef.dart'; // Hedef enum'ı için import
 
 class OgunPlanlayici {
-  final AIBeslenmeServisi _aiServisi = AIBeslenmeServisi();
+  final AIBeslenmeServisiV5 _aiServisi = AIBeslenmeServisiV5();
   final Random _random = Random();
 
   OgunPlanlayici({dataSource}); // Geriye uyumluluk için parametre kabul et ama kullanma
@@ -22,6 +26,7 @@ class OgunPlanlayici {
     required double hedefProtein,
     required double hedefKarb,
     required double hedefYag,
+    required Hedef hedef, // 🔥 HEDEF PARAMETRESİ EKLENDİ
     List<String> kisitlamalar = const [],
     DateTime? tarih,
   }) async {
@@ -36,6 +41,7 @@ class OgunPlanlayici {
         hedefProtein: hedefProtein,
         hedefKarb: hedefKarb,
         hedefYag: hedefYag,
+        hedef: hedef, // 🔥 HEDEF İLETİLİYOR
         kisitlamalar: kisitlamalar,
         tarih: planTarihi,
       );
@@ -50,19 +56,21 @@ class OgunPlanlayici {
         stackTrace: stackTrace,
       );
       
-      // Hata durumunda mock plan döndür (uygulama crash olmasın)
-      return _mockPlanOlustur(hedefKalori, hedefProtein, hedefKarb, hedefYag, tarih ?? DateTime.now());
+      // ❌ MOCK FALLBACK KALDIRILDI - Hata varsa exception fırlat, UI'de gösterelim
+      rethrow;
     }
   }
 
-  /// 🤖 AI ile haftalık plan oluştur - 7 günlük 
+  /// 🤖 AI ile haftalık plan oluştur - İLK GÜN HEMEN, DİĞERLERİ ARKA PLANDA
   Future<List<GunlukPlan>> haftalikPlanOlustur({
     required double hedefKalori,
     required double hedefProtein,
     required double hedefKarb,
     required double hedefYag,
+    required KullaniciProfili profil,
     List<String> kisitlamalar = const [],
     DateTime? baslangicTarihi,
+    Function(GunlukPlan)? onGunlukPlanOlusturuldu, // 🔥 Callback parametresi
   }) async {
     try {
       final baslangic = baslangicTarihi ?? DateTime.now();
@@ -70,17 +78,19 @@ class OgunPlanlayici {
       AppLogger.info('🤖 AI ile haftalık plan oluşturuluyor...');
       
       // AI servisi ile haftalık plan oluştur
-      final haftalikPlan = await _aiServisi.haftalikPlanOlustur(
+      final haftalikPlanlar = await _aiServisi.haftalikPlanOlustur(
         hedefKalori: hedefKalori,
         hedefProtein: hedefProtein,
         hedefKarb: hedefKarb,
         hedefYag: hedefYag,
+        hedef: profil.hedef,
         kisitlamalar: kisitlamalar,
         baslangicTarihi: baslangic,
+        onGunlukPlanOlusturuldu: onGunlukPlanOlusturuldu,
       );
       
       AppLogger.success('✅ AI haftalık plan başarıyla oluşturuldu');
-      return haftalikPlan;
+      return haftalikPlanlar;
       
     } catch (e, stackTrace) {
       AppLogger.error(
@@ -89,89 +99,41 @@ class OgunPlanlayici {
         stackTrace: stackTrace,
       );
       
-      // Hata durumunda 7 günlük mock plan döndür
-      final baslangic = baslangicTarihi ?? DateTime.now();
-      return List.generate(7, (index) {
-        final planTarihi = DateTime(
-          baslangic.year,
-          baslangic.month,
-          baslangic.day + index,
-        );
-        return _mockPlanOlustur(hedefKalori, hedefProtein, hedefKarb, hedefYag, planTarihi);
-      });
+      // ❌ MOCK FALLBACK KALDIRILDI - Hata varsa exception fırlat
+      rethrow;
     }
   }
 
-  /// 📋 Mock plan oluştur - AI çalışmazsa fallback
-  GunlukPlan _mockPlanOlustur(
-    double hedefKalori,
-    double hedefProtein, 
-    double hedefKarb,
-    double hedefYag,
-    DateTime tarih,
-  ) {
-    // Makro hedefleri oluştur
-    final makroHedefleri = MakroHedefleri(
-      gunlukKalori: hedefKalori,
-      gunlukProtein: hedefProtein,
-      gunlukKarbonhidrat: hedefKarb,
-      gunlukYag: hedefYag,
-    );
-
-    // Basit mock yemekler oluştur
-    final kahvalti = _mockYemekOlustur('Kahvaltı Menüsü', OgunTipi.kahvalti, hedefKalori * 0.20);
-    final araOgun1 = _mockYemekOlustur('Ara Öğün 1', OgunTipi.araOgun1, hedefKalori * 0.15);
-    final ogleYemegi = _mockYemekOlustur('Öğle Menüsü', OgunTipi.ogle, hedefKalori * 0.35);
-    final araOgun2 = _mockYemekOlustur('Ara Öğün 2', OgunTipi.araOgun2, hedefKalori * 0.10);
-    final aksamYemegi = _mockYemekOlustur('Akşam Menüsü', OgunTipi.aksam, hedefKalori * 0.20);
-
-    return GunlukPlan(
-      id: '${tarih.millisecondsSinceEpoch}',
-      tarih: tarih,
-      kahvalti: kahvalti,
-      araOgun1: araOgun1,
-      ogleYemegi: ogleYemegi,
-      araOgun2: araOgun2,
-      aksamYemegi: aksamYemegi,
-      makroHedefleri: makroHedefleri,
-      fitnessSkoru: 85.0,
-    );
-  }
-
-  /// Mock yemek oluştur
-  Yemek _mockYemekOlustur(String ad, OgunTipi ogun, double hedefKalori) {
-    // Makroları orantısal dağıt
-    final protein = hedefKalori * 0.25 / 4; // %25 protein (4 kcal/g)
-    final karb = hedefKalori * 0.45 / 4; // %45 karb (4 kcal/g)  
-    final yag = hedefKalori * 0.30 / 9; // %30 yağ (9 kcal/g)
-
-    return Yemek(
-      id: '${ogun.name}_${_random.nextInt(1000)}',
-      ad: ad,
-      kalori: hedefKalori,
-      protein: protein,
-      karbonhidrat: karb,
-      yag: yag,
-      ogun: ogun,
-      hazirlamaSuresi: 15,
-      zorluk: Zorluk.kolay,
-      malzemeler: ['AI servisi aktif değil - Mock plan'],
-      etiketler: ['ai-mock', 'geçici'],
-      tarif: 'AI tarafından oluşturulan mock plan',
-    );
-  }
+  // ❌ MOCK SİSTEMLER TAMAMEN KALDIRILDI
+  // Artık sadece GERÇEK AI kullanılıyor - Pollinations.AI
 
   /// Çeşitlilik geçmişini temizle - AI sisteminde gerek yok ama uyumluluk için
   Future<void> cesitlilikGecmisiniTemizle() async {
     AppLogger.info('🤖 AI sisteminde çeşitlilik geçmişi temizleme gerekmez');
   }
 
-  /// Alternatif yemek öner - AI tabanlı
+  /// Alternatif yemek öner - Hive tabanlı
   Future<List<Yemek>> alternatifleriGetir(Yemek yemek) async {
     try {
-      return await _aiServisi.alternatifleriGetir(yemek);
+      AppLogger.info('🍲 ${yemek.ad} için alternatifler aranıyor...');
+      
+      // İlgili öğündeki tüm yemekleri çek
+      final tumYemekler = await HiveService.tumYemekleriGetir();
+      final yemekHavuzu =
+          tumYemekler.where((y) => y.ogun == yemek.ogun).toList();
+
+      // Alternatif yemekleri bul
+      final alternatifler = AlternatifYemekServisi.alternatifYemekleriBul(
+        orijinalYemek: yemek,
+        yemekHavuzu: yemekHavuzu,
+        adet: 5,
+      );
+
+      AppLogger.success(
+          '✅ ${yemek.ad} için ${alternatifler.length} alternatif bulundu');
+      return alternatifler;
     } catch (e) {
-      AppLogger.warning('⚠️ AI alternatif öneri hatası: $e');
+      AppLogger.warning('⚠️ Alternatif öneri hatası: $e');
       return [];
     }
   }

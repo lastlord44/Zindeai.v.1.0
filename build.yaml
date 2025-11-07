@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      hive_generator:hive_generator:
+        enabled: true
+        options:
+          null_safe: true
+        generate_for:
+          - lib/**/*.dart
+      mockito:mockBuilder:
+        enabled: false

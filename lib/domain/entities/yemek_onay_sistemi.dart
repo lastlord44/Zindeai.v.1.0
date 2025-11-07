@@ -179,6 +179,11 @@ class GunlukOnayDurumu {
       .where((durum) => durum.onaylanmisMi)
       .length;
   
+  /// Yenilen yemek sayısı (yedi + onaylandı)
+  int get yenmisSayisi => yemekDurumlari.values
+      .where((durum) => durum.yenmis)
+      .length;
+  
   /// Toplam yemek sayısı
   int get toplamYemekSayisi => yemekDurumlari.length;
   

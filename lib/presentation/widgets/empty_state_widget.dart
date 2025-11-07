@@ -186,6 +186,18 @@ class EmptyStateWidget extends StatelessWidget {
           actionIcon: Icons.filter_list,
           buttonColor: Colors.orange,
         );
+
+      case EmptyStateType.noFavorites:
+        return _EmptyStateConfig(
+          icon: Icons.favorite_border,
+          iconColor: Colors.pink.shade200,
+          defaultTitle: 'Favori Yemek Yok',
+          defaultMessage:
+              'Henüz favori yemek eklemediniz.\nBeğendiğiniz yemekleri favorilere ekleyerek kolayca erişebilirsiniz.',
+          defaultActionLabel: 'Yemek Keşfet',
+          actionIcon: Icons.explore,
+          buttonColor: Colors.pink,
+        );
     }
   }
 }
@@ -291,6 +303,7 @@ enum EmptyStateType {
   noInternet,
   success,
   emptyMeals,
+  noFavorites, // 🌟 Favori boş durum
 }
 
 /// 🔄 Custom RefreshIndicator with Feedback

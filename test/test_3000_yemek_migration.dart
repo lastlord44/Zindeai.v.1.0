@@ -15,14 +15,16 @@ void main() {
     print('🚀 3000 YEMEK MİGRATION BAŞLADI');
     print('━' * 60);
 
-    // Hive başlat
-    await Hive.initFlutter();
-    
-    // HiveService static init
-    await HiveService.init();
+    // Test için geçici bir dizin oluştur
+    final tempDir = Directory.systemTemp.createTempSync('migration_test_');
+    print('📦 Geçici test veritabanı dizini: ${tempDir.path}');
 
-    // Başlangıç durumu
-    final baslangicSayisi = await HiveService.yemekSayisi();
+    try {
+      // Hive'ı geçici dizinde başlat
+      await HiveService.init(path: tempDir.path);
+
+      // Başlangıç durumu
+      final baslangicSayisi = await HiveService.yemekSayisi();
     print('📊 Mevcut yemek sayısı: $baslangicSayisi');
     print('');
 
@@ -157,5 +159,14 @@ void main() {
     
     // Test assertion
     expect(toplamYuklenen, greaterThan(0), reason: 'En az bir yemek yüklenmiş olmalı');
+
+    } finally {
+      // Test bittiğinde kaynakları temizle
+      await HiveService.close();
+      if (tempDir.existsSync()) {
+        tempDir.deleteSync(recursive: true);
+        print('🧹 Geçici test veritabanı temizlendi.');
+      }
+    }
   });
 }

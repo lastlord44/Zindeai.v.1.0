@@ -28,25 +28,22 @@ class MealDetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Yemek Resmi (Hero)
-            Hero(
-              tag: HeroTags.mealImage(yemek.id),
-              child: Container(
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [Colors.purple.shade400, Colors.purple.shade600],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
+            // Yemek Resmi (Hero olmadan)
+            Container(
+              height: 250,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Colors.purple.shade400, Colors.purple.shade600],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
                 ),
-                child: Center(
-                  child: Icon(
-                    Icons.restaurant_menu,
-                    size: 80,
-                    color: Colors.white.withOpacity(0.7),
-                  ),
+              ),
+              child: Center(
+                child: Icon(
+                  Icons.restaurant_menu,
+                  size: 80,
+                  color: Colors.white.withOpacity(0.7),
                 ),
               ),
             ),

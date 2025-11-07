@@ -1,0 +1,5640 @@
+[
+{
+"id": "OGLE_B1_101",
+"ad": "Tavuk #1 - Izgara Tavuk But + Firik Bulguru Pilavı + Çoban Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 508,
+"protein": 41,
+"karbonhidrat": 53,
+"yag": 15,
+"malzemeler": [
+"Tavuk but 180g",
+"Firik bulguru 70g",
+"Domates 80g",
+"Salatalık 80g",
+"Soğan 40g",
+"Zeytinyağı 10g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 43,
+"zorluk": "orta",
+"etiketler": [
+"yüksek protein",
+"ekonomik",
+"türk mutfağı",
+"pratik",
+"vitamin",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_102",
+"ad": "Tavuk #2 - Tavuklu Kapya Biber Sote + Kepekli Pirinç Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 488,
+"protein": 42,
+"karbonhidrat": 55,
+"yag": 12,
+"malzemeler": [
+"Tavuk göğsü 160g",
+"Kapya biber 100g",
+"Soğan 60g",
+"Zeytinyağı 10g",
+"Kepekli pirinç 60g",
+"Kimyon 1g"
+],
+"hazirlamaSuresi": 41,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek protein",
+"pratik",
+"ekonomik",
+"türk mutfağı",
+"demir",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_103",
+"ad": "Tavuk #3 - Tavuklu Sebzeli Kuskus",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 512,
+"protein": 37,
+"karbonhidrat": 63,
+"yag": 13,
+"malzemeler": [
+"Tavuk göğsü 150g",
+"Kuskus 70g",
+"Havuç 80g",
+"Bezelye 60g",
+"Zeytinyağı 10g",
+"Maydanoz 10g"
+],
+"hazirlamaSuresi": 41,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek protein",
+"doyurucu",
+"pratik",
+"türk mutfağı",
+"ekonomik",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_104",
+"ad": "Tavuk #4 - Fırında Yoğurt Marineli Tavuk + Patates Soğan",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 549,
+"protein": 33,
+"karbonhidrat": 63,
+"yag": 18,
+"malzemeler": [
+"Tavuk but 200g",
+"Yoğurt 120g",
+"Patates 150g",
+"Soğan 80g",
+"Zeytinyağı 8g",
+"Pul biber 1g"
+],
+"hazirlamaSuresi": 35,
+"zorluk": "kolay",
+"etiketler": [
+"doyurucu",
+"yüksek protein",
+"türk mutfağı",
+"kalsiyum",
+"pratik",
+"ekonomik"
+]
+},
+{
+"id": "OGLE_B1_105",
+"ad": "Tavuk #5 - Tavuklu Börülce Salatası + Tam Buğday Lavaş",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 493,
+"protein": 34,
+"karbonhidrat": 60,
+"yag": 13,
+"malzemeler": [
+"Tavuk göğsü 150g",
+"Haşlanmış börülce 120g",
+"Roka 60g",
+"Soğan 40g",
+"Zeytinyağı 8g",
+"Tam buğday lavaş 1/2 (30g)"
+],
+"hazirlamaSuresi": 22,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek protein",
+"sağlıklı",
+"ekonomik",
+"türk mutfağı",
+"fiber",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_106",
+"ad": "Tavuk #6 - Izgara Tavuk But + Firik Bulguru Pilavı + Çoban Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 483,
+"protein": 32,
+"karbonhidrat": 60,
+"yag": 13,
+"malzemeler": [
+"Tavuk but 180g",
+"Firik bulguru 70g",
+"Domates 80g",
+"Salatalık 80g",
+"Soğan 40g",
+"Zeytinyağı 10g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 29,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek protein",
+"ekonomik",
+"türk mutfağı",
+"pratik",
+"vitamin",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_107",
+"ad": "Tavuk #7 - Tavuklu Kapya Biber Sote + Kepekli Pirinç Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 501,
+"protein": 29,
+"karbonhidrat": 69,
+"yag": 11,
+"malzemeler": [
+"Tavuk göğsü 160g",
+"Kapya biber 100g",
+"Soğan 60g",
+"Zeytinyağı 10g",
+"Kepekli pirinç 60g",
+"Kimyon 1g"
+],
+"hazirlamaSuresi": 36,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek protein",
+"pratik",
+"ekonomik",
+"türk mutfağı",
+"demir",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_108",
+"ad": "Tavuk #8 - Tavuklu Sebzeli Kuskus",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 545,
+"protein": 28,
+"karbonhidrat": 71,
+"yag": 16,
+"malzemeler": [
+"Tavuk göğsü 150g",
+"Kuskus 70g",
+"Havuç 80g",
+"Bezelye 60g",
+"Zeytinyağı 10g",
+"Maydanoz 10g"
+],
+"hazirlamaSuresi": 41,
+"zorluk": "orta",
+"etiketler": [
+"doyurucu",
+"pratik",
+"türk mutfağı",
+"ekonomik",
+"vitamin",
+"yüksek protein"
+]
+},
+{
+"id": "OGLE_B1_109",
+"ad": "Tavuk #9 - Fırında Yoğurt Marineli Tavuk + Patates Soğan",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 528,
+"protein": 41,
+"karbonhidrat": 50,
+"yag": 16,
+"malzemeler": [
+"Tavuk but 200g",
+"Yoğurt 120g",
+"Patates 150g",
+"Soğan 80g",
+"Zeytinyağı 8g",
+"Pul biber 1g"
+],
+"hazirlamaSuresi": 21,
+"zorluk": "orta",
+"etiketler": [
+"yüksek protein",
+"kalsiyum",
+"türk mutfağı",
+"pratik",
+"ekonomik",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_110",
+"ad": "Tavuk #10 - Tavuklu Börülce Salatası + Tam Buğday Lavaş",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 490,
+"protein": 20,
+"karbonhidrat": 75,
+"yag": 9,
+"malzemeler": [
+"Tavuk göğsü 150g",
+"Haşlanmış börülce 120g",
+"Roka 60g",
+"Soğan 40g",
+"Zeytinyağı 8g",
+"Tam buğday lavaş 1/2 (30g)"
+],
+"hazirlamaSuresi": 42,
+"zorluk": "kolay",
+"etiketler": [
+"sağlıklı",
+"ekonomik",
+"türk mutfağı",
+"fiber",
+"pratik",
+"yüksek protein"
+]
+},
+{
+"id": "OGLE_B1_111",
+"ad": "Et #1 - Izgara Dana Biftek + Firik Bulguru + Mevsim Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 502,
+"protein": 43,
+"karbonhidrat": 47,
+"yag": 16,
+"malzemeler": [
+"Dana biftek 170g",
+"Firik bulguru 60g",
+"Marul 60g",
+"Domates 80g",
+"Zeytinyağı 8g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 21,
+"zorluk": "kolay",
+"etiketler": [
+"doyurucu",
+"yüksek protein",
+"demir",
+"türk mutfağı",
+"pratik",
+"ekonomik"
+]
+},
+{
+"id": "OGLE_B1_112",
+"ad": "Et #2 - Etli Sebze Güveç + Pirinç Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 510,
+"protein": 38,
+"karbonhidrat": 55,
+"yag": 14,
+"malzemeler": [
+"Dana kuşbaşı 150g",
+"Patlıcan 120g",
+"Kabak 120g",
+"Domates 120g",
+"Pirinç 60g",
+"Zeytinyağı 10g"
+],
+"hazirlamaSuresi": 33,
+"zorluk": "kolay",
+"etiketler": [
+"doyurucu",
+"yüksek protein",
+"türk mutfağı",
+"demir",
+"pratik",
+"ekonomik"
+]
+},
+{
+"id": "OGLE_B1_113",
+"ad": "Et #3 - İzmir Köfte (Fırın) + Bulgur Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 541,
+"protein": 34,
+"karbonhidrat": 62,
+"yag": 17,
+"malzemeler": [
+"Dana kıyma 160g",
+"Patates 150g",
+"Domates 120g",
+"Soğan 60g",
+"Bulgur 60g",
+"Zeytinyağı 10g"
+],
+"hazirlamaSuresi": 41,
+"zorluk": "orta",
+"etiketler": [
+"doyurucu",
+"yüksek protein",
+"türk mutfağı",
+"demir",
+"pratik",
+"ekonomik"
+]
+},
+{
+"id": "OGLE_B1_114",
+"ad": "Et #4 - Etli Kapuska + Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 466,
+"protein": 29,
+"karbonhidrat": 55,
+"yag": 14,
+"malzemeler": [
+"Dana kıyma 120g",
+"Lahana 300g",
+"Soğan 60g",
+"Domates salçası 10g",
+"Zeytinyağı 10g",
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": 25,
+"zorluk": "kolay",
+"etiketler": [
+"türk mutfağı",
+"doyurucu",
+"yüksek protein",
+"ekonomik",
+"kalsiyum",
+"fiber"
+]
+},
+{
+"id": "OGLE_B1_115",
+"ad": "Et #5 - Et Haşlama + Patates Havuç + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 520,
+"protein": 32,
+"karbonhidrat": 66,
+"yag": 14,
+"malzemeler": [
+"Dana et 170g",
+"Patates 120g",
+"Havuç 100g",
+"Defne yaprağı 1 adet",
+"Zeytinyağı 8g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 23,
+"zorluk": "kolay",
+"etiketler": [
+"demir",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"ekonomik",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_116",
+"ad": "Et #6 - Izgara Dana Biftek + Firik Bulguru + Mevsim Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 489,
+"protein": 41,
+"karbonhidrat": 47,
+"yag": 14,
+"malzemeler": [
+"Dana biftek 170g",
+"Firik bulguru 60g",
+"Marul 60g",
+"Domates 80g",
+"Zeytinyağı 8g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 25,
+"zorluk": "orta",
+"etiketler": [
+"yüksek protein",
+"demir",
+"türk mutfağı",
+"pratik",
+"ekonomik",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_117",
+"ad": "Et #7 - Etli Sebze Güveç + Pirinç Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 494,
+"protein": 28,
+"karbonhidrat": 63,
+"yag": 14,
+"malzemeler": [
+"Dana kuşbaşı 150g",
+"Patlıcan 120g",
+"Kabak 120g",
+"Domates 120g",
+"Pirinç 60g",
+"Zeytinyağı 10g"
+],
+"hazirlamaSuresi": 38,
+"zorluk": "kolay",
+"etiketler": [
+"türk mutfağı",
+"doyurucu",
+"ekonomik",
+"demir",
+"pratik",
+"yüksek protein"
+]
+},
+{
+"id": "OGLE_B1_118",
+"ad": "Et #8 - İzmir Köfte (Fırın) + Bulgur Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 487,
+"protein": 43,
+"karbonhidrat": 47,
+"yag": 16,
+"malzemeler": [
+"Dana kıyma 160g",
+"Patates 150g",
+"Domates 120g",
+"Soğan 60g",
+"Bulgur 60g",
+"Zeytinyağı 10g"
+],
+"hazirlamaSuresi": 31,
+"zorluk": "kolay",
+"etiketler": [
+"demir",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"ekonomik",
+"yüksek protein"
+]
+},
+{
+"id": "OGLE_B1_119",
+"ad": "Et #9 - Etli Kapuska + Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 512,
+"protein": 43,
+"karbonhidrat": 48,
+"yag": 16,
+"malzemeler": [
+"Dana kıyma 120g",
+"Lahana 300g",
+"Soğan 60g",
+"Domates salçası 10g",
+"Zeytinyağı 10g",
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": 31,
+"zorluk": "orta",
+"etiketler": [
+"türk mutfağı",
+"kalsiyum",
+"doyurucu",
+"pratik",
+"yüksek protein",
+"ekonomik"
+]
+},
+{
+"id": "OGLE_B1_120",
+"ad": "Et #10 - Et Haşlama + Patates Havuç + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 505,
+"protein": 38,
+"karbonhidrat": 55,
+"yag": 15,
+"malzemeler": [
+"Dana et 170g",
+"Patates 120g",
+"Havuç 100g",
+"Defne yaprağı 1 adet",
+"Zeytinyağı 8g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 33,
+"zorluk": "kolay",
+"etiketler": [
+"demir",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"ekonomik",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_121",
+"ad": "Balık #1 - Fırında Palamut + Soğan Domates",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 520,
+"protein": 31,
+"karbonhidrat": 57,
+"yag": 18,
+"malzemeler": [
+"Palamut dilim 220g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 10g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 23,
+"zorluk": "kolay",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_122",
+"ad": "Balık #2 - Izgara Sardalya + Roka Soğan Salatası + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 518,
+"protein": 34,
+"karbonhidrat": 53,
+"yag": 18,
+"malzemeler": [
+"Sardalya 220g",
+"Roka 60g",
+"Soğan 40g",
+"Zeytinyağı 8g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 28,
+"zorluk": "kolay",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_123",
+"ad": "Balık #3 - Fırında Çipura + Patates Kabak",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 510,
+"protein": 33,
+"karbonhidrat": 55,
+"yag": 16,
+"malzemeler": [
+"Çipura 200g",
+"Patates 120g",
+"Kabak 120g",
+"Zeytinyağı 10g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 45,
+"zorluk": "orta",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_124",
+"ad": "Balık #4 - Ton Balıklı Bulgur Salatası",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 497,
+"protein": 34,
+"karbonhidrat": 61,
+"yag": 12,
+"malzemeler": [
+"Ton balığı light 120g",
+"Bulgur 70g",
+"Maydanoz 15g",
+"Taze soğan 20g",
+"Zeytinyağı 8g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 20,
+"zorluk": "kolay",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"pratik",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_125",
+"ad": "Balık #5 - Hamsi Buğulama + Mısırlı Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 519,
+"protein": 33,
+"karbonhidrat": 59,
+"yag": 16,
+"malzemeler": [
+"Hamsi 220g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 8g",
+"Haşlanmış mısır 50g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 39,
+"zorluk": "orta",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_126",
+"ad": "Balık #6 - Fırında Palamut + Soğan Domates",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 508,
+"protein": 37,
+"karbonhidrat": 47,
+"yag": 18,
+"malzemeler": [
+"Palamut dilim 220g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 10g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 27,
+"zorluk": "kolay",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_127",
+"ad": "Balık #7 - Izgara Sardalya + Roka Soğan Salatası + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 532,
+"protein": 34,
+"karbonhidrat": 57,
+"yag": 18,
+"malzemeler": [
+"Sardalya 220g",
+"Roka 60g",
+"Soğan 40g",
+"Zeytinyağı 8g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 27,
+"zorluk": "orta",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_128",
+"ad": "Balık #8 - Fırında Çipura + Patates Kabak",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 520,
+"protein": 26,
+"karbonhidrat": 75,
+"yag": 11,
+"malzemeler": [
+"Çipura 200g",
+"Patates 120g",
+"Kabak 120g",
+"Zeytinyağı 10g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 44,
+"zorluk": "orta",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_129",
+"ad": "Balık #9 - Ton Balıklı Bulgur Salatası",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 495,
+"protein": 32,
+"karbonhidrat": 63,
+"yag": 13,
+"malzemeler": [
+"Ton balığı light 120g",
+"Bulgur 70g",
+"Maydanoz 15g",
+"Taze soğan 20g",
+"Zeytinyağı 8g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 31,
+"zorluk": "kolay",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"pratik",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_130",
+"ad": "Balık #10 - Hamsi Buğulama + Mısırlı Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 518,
+"protein": 41,
+"karbonhidrat": 45,
+"yag": 16,
+"malzemeler": [
+"Hamsi 220g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 8g",
+"Haşlanmış mısır 50g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 42,
+"zorluk": "kolay",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_131",
+"ad": "Sebze #1 - Patatesli Ispanak Kavurma + Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 486,
+"protein": 33,
+"karbonhidrat": 62,
+"yag": 11,
+"malzemeler": [
+"Ispanak 300g",
+"Patates 150g",
+"Soğan 60g",
+"Zeytinyağı 12g",
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": 35,
+"zorluk": "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"türk mutfağı",
+"kalsiyum"
+]
+},
+{
+"id": "OGLE_B1_132",
+"ad": "Sebze #2 - Kuru Biber Dolması (Pirinçli) + Ayran",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 490,
+"protein": 27,
+"karbonhidrat": 60,
+"yag": 15,
+"malzemeler": [
+"Kuru biber 6 adet (180g)",
+"Pirinç 60g",
+"Soğan 60g",
+"Zeytinyağı 12g",
+"Ayran 200ml"
+],
+"hazirlamaSuresi": 26,
+"zorluk": "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"pratik",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_133",
+"ad": "Sebze #3 - Fırın Sebze Tepsisi + Bulgur Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 517,
+"protein": 29,
+"karbonhidrat": 63,
+"yag": 16,
+"malzemeler": [
+"Kabak 150g",
+"Patlıcan 150g",
+"Havuç 120g",
+"Domates 120g",
+"Zeytinyağı 12g",
+"Bulgur 60g"
+],
+"hazirlamaSuresi": 44,
+"zorluk": "orta",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"doyurucu",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_134",
+"ad": "Sebze #4 - Enginar Yemeği (Zeytinyağlı) + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 507,
+"protein": 25,
+"karbonhidrat": 69,
+"yag": 14,
+"malzemeler": [
+"Enginar 3 adet (360g)",
+"Havuç 100g",
+"Bezelye 80g",
+"Zeytinyağı 12g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 27,
+"zorluk": "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"ekonomik",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_135",
+"ad": "Sebze #5 - Peynirli Menemen + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 454,
+"protein": 25,
+"karbonhidrat": 66,
+"yag": 10,
+"malzemeler": [
+"Yumurta 2 adet (110g)",
+"Domates 200g",
+"Biber 100g",
+"Beyaz peynir 40g",
+"Zeytinyağı 10g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 39,
+"zorluk": "kolay",
+"etiketler": [
+"kalsiyum",
+"sebze",
+"vitamin",
+"sağlıklı",
+"türk mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_136",
+"ad": "Sebze #6 - Patatesli Ispanak Kavurma + Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 483,
+"protein": 27,
+"karbonhidrat": 63,
+"yag": 14,
+"malzemeler": [
+"Ispanak 300g",
+"Patates 150g",
+"Soğan 60g",
+"Zeytinyağı 12g",
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": 45,
+"zorluk": "orta",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"türk mutfağı",
+"kalsiyum"
+]
+},
+{
+"id": "OGLE_B1_137",
+"ad": "Sebze #7 - Kuru Biber Dolması (Pirinçli) + Ayran",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 486,
+"protein": 40,
+"karbonhidrat": 45,
+"yag": 13,
+"malzemeler": [
+"Kuru biber 6 adet (180g)",
+"Pirinç 60g",
+"Soğan 60g",
+"Zeytinyağı 12g",
+"Ayran 200ml"
+],
+"hazirlamaSuresi": 44,
+"zorluk": "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"pratik",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_138",
+"ad": "Sebze #8 - Fırın Sebze Tepsisi + Bulgur Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 486,
+"protein": 23,
+"karbonhidrat": 71,
+"yag": 11,
+"malzemeler": [
+"Kabak 150g",
+"Patlıcan 150g",
+"Havuç 120g",
+"Domates 120g",
+"Zeytinyağı 12g",
+"Bulgur 60g"
+],
+"hazirlamaSuresi": 36,
+"zorluk": "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"doyurucu",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_139",
+"ad": "Sebze #9 - Enginar Yemeği (Zeytinyağlı) + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 482,
+"protein": 38,
+"karbonhidrat": 48,
+"yag": 17,
+"malzemeler": [
+"Enginar 3 adet (360g)",
+"Havuç 100g",
+"Bezelye 80g",
+"Zeytinyağı 12g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 29,
+"zorluk": "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"ekonomik",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_140",
+"ad": "Sebze #10 - Peynirli Menemen + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 454,
+"protein": 25,
+"karbonhidrat": 66,
+"yag": 10,
+"malzemeler": [
+"Yumurta 2 adet (110g)",
+"Domates 200g",
+"Biber 100g",
+"Beyaz peynir 40g",
+"Zeytinyağı 10g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 33,
+"zorluk": "kolay",
+"etiketler": [
+"kalsiyum",
+"sebze",
+"vitamin",
+"sağlıklı",
+"türk mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_141",
+"ad": "Baklagil #1 - Tahinli Nohut Yemeği + Esmer Pirinç Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 513,
+"protein": 31,
+"karbonhidrat": 63,
+"yag": 15,
+"malzemeler": [
+"Nohut haşlanmış 180g",
+"Tahin 10g",
+"Soğan 60g",
+"Domates 120g",
+"Esmer pirinç 60g",
+"Zeytinyağı 8g"
+],
+"hazirlamaSuresi": 45,
+"zorluk": "orta",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_142",
+"ad": "Baklagil #2 - Mercimek Köftesi + Ayran",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 496,
+"protein": 31,
+"karbonhidrat": 61,
+"yag": 14,
+"malzemeler": [
+"Kırmızı mercimek 120g",
+"İnce bulgur 80g",
+"Soğan 60g",
+"Maydanoz 20g",
+"Zeytinyağı 8g",
+"Ayran 200ml"
+],
+"hazirlamaSuresi": 23,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_143",
+"ad": "Baklagil #3 - Barbunya Güveç + Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 517,
+"protein": 31,
+"karbonhidrat": 61,
+"yag": 16,
+"malzemeler": [
+"Barbunya haşlanmış 200g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 10g",
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": 27,
+"zorluk": "sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"kalsiyum"
+]
+},
+{
+"id": "OGLE_B1_144",
+"ad": "Baklagil #4 - Pilav Üstü Kuru Fasulye (Etsiz) + Turşu",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 503,
+"protein": 34,
+"karbonhidrat": 59,
+"yag": 15,
+"malzemeler": [
+"Kuru fasulye haşlanmış 200g",
+"Pirinç 60g",
+"Domates salçası 10g",
+"Zeytinyağı 10g",
+"Salatalık turşu 40g"
+],
+"hazirlamaSuresi": 42,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_145",
+"ad": "Baklagil #5 - Zeytinyağlı Börülce + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 487,
+"protein": 33,
+"karbonhidrat": 59,
+"yag": 14,
+"malzemeler": [
+"Börülce haşlanmış 200g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 10g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 36,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_146",
+"ad": "Baklagil #6 - Tahinli Nohut Yemeği + Esmer Pirinç Pilavı",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 524,
+"protein": 41,
+"karbonhidrat": 53,
+"yag": 17,
+"malzemeler": [
+"Nohut haşlanmış 180g",
+"Tahin 10g",
+"Soğan 60g",
+"Domates 120g",
+"Esmer pirinç 60g",
+"Zeytinyağı 8g"
+],
+"hazirlamaSuresi": 43,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_147",
+"ad": "Baklagil #7 - Mercimek Köftesi + Ayran",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 498,
+"protein": 38,
+"karbonhidrat": 53,
+"yag": 16,
+"malzemeler": [
+"Kırmızı mercimek 120g",
+"İnce bulgur 80g",
+"Soğan 60g",
+"Maydanoz 20g",
+"Zeytinyağı 8g",
+"Ayran 200ml"
+],
+"hazirlamaSuresi": 41,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_148",
+"ad": "Baklagil #8 - Barbunya Güveç + Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 513,
+"protein": 38,
+"karbonhidrat": 53,
+"yag": 16,
+"malzemeler": [
+"Barbunya haşlanmış 200g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 10g",
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": 44,
+"zorluk": "kolay",
+"etiketler": [
+"kalsiyum",
+"fiber",
+"vejetaryen",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_149",
+"ad": "Baklagil #9 - Pilav Üstü Kuru Fasulye (Etsiz) + Turşu",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 497,
+"protein": 25,
+"karbonhidrat": 66,
+"yag": 13,
+"malzemeler": [
+"Kuru fasulye haşlanmış 200g",
+"Pirinç 60g",
+"Domates salçası 10g",
+"Zeytinyağı 10g",
+"Salatalık turşu 40g"
+],
+"hazirlamaSuresi": 21,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_150",
+"ad": "Baklagil #10 - Zeytinyağlı Börülce + Tam Buğday Ekmek",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 501,
+"protein": 24,
+"karbonhidrat": 71,
+"yag": 12,
+"malzemeler": [
+"Börülce haşlanmış 200g",
+"Soğan 60g",
+"Domates 120g",
+"Zeytinyağı 10g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 43,
+"zorluk": "kolay",
+Şimdi "etiketler": [
+"fiber",
+"vejetaryen",
+JSON dosyasını "ekonomik",
+oluşturup migration "sağlıklı",
+"türk mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_151",
+script'i "ad": güncelleyeceğim.
+
+<write_to_file>
+<path>assets/data/ogle_yemekleri_batch_200.json</path>
+<content>
+[
+{
+"id": "OGLE_B1_101",
+"ad": "Çorba+Ana "Tavuk #1 - #1 - Ezogelin Çorbası + Izgara Tavuk Tavuk But + Şiş + Bulgur Pilavı",
+"kategori": Firik "Öğle",
+"ogun": "ogle",
+"kalori": 540,
+"protein": 39,
+"karbonhidrat": 63,
+"yag": Bulguru 15,
+"malzemeler": [
+"Kırmızı mercimek Pilavı 60g",
++ "Bulgur 30g",
+"Soğan 40g",
+Çoban "Zeytinyağı 8g",
+"Tavuk göğsü 150g",
+"Bulgur Salata",
+"kategori": "Öğle",
+60g"
+],
+"hazirlamaSuresi": 65,
+"ogun": "zorluk": "orta",
+"etiketler": "ogle",
+[
+"kalori": "doyurucu",
+508,
+"sağlıklı",
+"protein": "türk mutfağı",
+41,
+"pratik",
+"yüksek "karbonhidrat": protein",
+53,
+"yag": 15,
+"vitamin"
+]
+},
+"malzemeler": [
+{
+"id": "OGLE_B1_152",
+"ad": "Tavuk "Çorba+Ana but #2 - Yayla Çorbası + Izgara Köfte + Salata",
+180g",
+"kategori": "Firik bulguru "Öğle",
+"ogun": 70g",
+"ogle",
+"kalori": "Domates 488,
+"protein": 80g",
+"Salatalık 31,
+"karbonhidrat": 57,
+"yag": 80g",
+14,
+"Soğan "malzemeler": [
+40g",
+"Zeytinyağı "Yoğurt 150g",
+"Pirinç 10g",
+"Limon 30g",
+1/2 "Nane adet"
+2g",
+"Dana ],
+"hazirlamaSuresi": kıyma 43,
+150g",
+"zorluk": "Marul 60g",
+"Domates "orta",
+80g",
+"Zeytinyağı "etiketler": [
+6g"
+],
+"yüksek "hazirlamaSuresi": protein",
+58,
+"zorluk": "ekonomik",
+"türk "kolay",
+"etiketler": mutfağı",
+[
+"pratik",
+"kalsiyum",
+"doyurucu",
+"sağlıklı",
+"türk mutfağı",
+"pratik",
+"yüksek protein"
+]
+},
+{
+"id": "OGLE_B1_153",
+"ad": "Çorba+Ana #3 - Tarhana Çorbası "vitamin",
++ Et Sote + "doyurucu"
+Pirinç ]
+},
+Pilavı",
+{
+"kategori": "id": "OGLE_B1_102",
+"ad": "Öğle",
+"ogun": "Tavuk #2 "ogle",
+- "kalori": Tavuklu 527,
+"protein": Kapya Biber 37,
+"karbonhidrat": Sote + Kepekli Pirinç 61,
+"yag": Pilavı",
+"kategori": 16,
+"malzemeler": "Öğle",
+"ogun": "ogle",
+"kalori": [
+"Tarhana 488,
+"protein": 35g",
+42,
+"Zeytinyağı "karbonhidrat": 55,
+"yag": 6g",
+"Dana 12,
+"malzemeler": [
+"Tavuk jülyen göğsü 140g",
+160g",
+"Pirinç 60g",
+"Kapya biber 100g",
+"Yoğurt "Soğan 60g",
+100g"
+],
+"hazirlamaSuresi": "Zeytinyağı 64,
+"zorluk": 10g",
+"Kepekli pirinç 60g",
+"Kimyon "kolay",
+"etiketler": [
+"doyurucu",
+"sağlıklı",
+1g"
+],
+"hazirlamaSuresi": "türk 41,
+"zorluk": mutfağı",
+"pratik",
+"yüksek protein",
+"demir"
+]
+},
+"kolay",
+"etiketler": [
+{
+"id": "OGLE_B1_154",
+"ad": "yüksek protein",
+"pratik",
+"Çorba+Ana #4 - Mercimek Çorbası "ekonomik",
++ "türk mutfağı",
+Sebzeli "demir",
+Omlet + "doyurucu"
+Tam Buğday ]
+},
+Ekmek",
+{
+"kategori": "id": "Öğle",
+"OGLE_B1_103",
+"ad": "ogun": "ogle",
+"Tavuk #3 "kalori": - Tavuklu 520,
+"protein": Sebzeli 43,
+"karbonhidrat": 53,
+"yag": 14,
+"malzemeler": [
+Kuskus",
+"kategori": "Öğle",
+"Kırmızı mercimek "ogun": "ogle",
+"kalori": 60g",
+"Soğan 512,
+40g",
+"protein": 37,
+"karbonhidrat": "Zeytinyağı 8g",
+63,
+"yag": 13,
+"malzemeler": [
+"Tavuk "Yumurta göğsü 2 adet (110g)",
+150g",
+"Kuskus "Kabak 80g",
+70g",
+"Havuç "Biber 80g",
+"Bezelye 60g",
+"Tam buğday ekmek 60g",
+2 dilim (60g)"
+],
+"hazirlamaSuresi": "Zeytinyağı 10g",
+"Maydanoz 70,
+"zorluk": "kolay",
+10g"
+"etiketler": ],
+"hazirlamaSuresi": [
+"doyurucu",
+41,
+"zorluk": "sağlıklı",
+"türk mutfağı",
+"pratik",
+"kolay",
+"etiketler": [
+"yüksek "kalsiyum",
+protein",
+"yüksek protein"
+"doyurucu",
+"pratik",
+]
+},
+{
+"id": "türk mutfağı",
+"OGLE_B1_155",
+"ad": "Çorba+Ana #5 "ekonomik",
+- "vitamin"
+Tavuk ]
+},
+{
+"id": "OGLE_B1_104",
+"ad": "Tavuk #4 - Suyuna Fırında Yoğurt Marineli Tavuk Şehriye + Çorbası + Patates Fırın Sebze",
+"kategori": "Öğle",
+"ogun": Soğan",
+"kategori": "ogle",
+"kalori": 494,
+"protein": "Öğle",
+"ogun": "ogle",
+24,
+"kalori": "karbonhidrat": 549,
+"protein": 33,
+"karbonhidrat": 69,
+"yag": 12,
+"malzemeler": [
+"Tavuk suyu 63,
+"yag": 300ml",
+18,
+"malzemeler": "Şehriye [
+"Tavuk but 40g",
+"Havuç 200g",
+80g",
+"Yoğurt "Kabak 120g",
+"Patates 120g",
+"Zeytinyağı 10g",
+150g",
+"Soğan "Yoğurt 80g",
+"Zeytinyağı 120g"
+],
+"hazirlamaSuresi": 65,
+"zorluk": "orta",
+8g",
+"etiketler": [
+"doyurucu",
+"Pul biber "sağlıklı",
+"türk 1g"
+mutfağı",
+],
+"pratik",
+"hazirlamaSuresi": 35,
+"vitamin",
+"zorluk": "kolay",
+"etiketler": "kalsiyum"
+[
+]
+},
+"doyurucu",
+{
+"yüksek "id": protein",
+"türk mutfağı",
+"OGLE_B1_156",
+"ad": "Çorba+Ana #6 - "kalsiyum",
+Ezogelin Çorbası + "pratik",
+Tavuk Şiş + "ekonomik"
+]
+},
+{
+"id": Bulgur Pilavı",
+"kategori": "OGLE_B1_105",
+"ad": "Tavuk "Öğle",
+#5 - Tavuklu "ogun": "ogle",
+"kalori": Börülce 500,
+"protein": 36,
+"karbonhidrat": 56,
+"yag": Salatası + Tam Buğday Lavaş",
+"kategori": 14,
+"Öğle",
+"malzemeler": [
+"Kırmızı "ogun": "ogle",
+mercimek "kalori": 60g",
+"Bulgur 30g",
+493,
+"protein": "Soğan 34,
+"karbonhidrat": 40g",
+"Zeytinyağı 8g",
+60,
+"yag": "Tavuk göğsü 13,
+"malzemeler": 150g",
+[
+"Tavuk "Bulgur göğsü 60g"
+],
+"hazirlamaSuresi": 150g",
+"Haşlanmış 67,
+"zorluk": börülce "kolay",
+"etiketler": [
+120g",
+"Roka "yüksek protein",
+"doyurucu",
+"sağlıklı",
+60g",
+"türk "Soğan 40g",
+mutfağı",
+"pratik",
+"Zeytinyağı 8g",
+"vitamin"
+]
+},
+"Tam buğday {
+lavaş "id": "OGLE_B1_157",
+1/2 "ad": "Çorba+Ana #7 - (30g)"
+Yayla ],
+Çorbası "hazirlamaSuresi": + Izgara Köfte + Salata",
+"kategori": 22,
+"Öğle",
+"zorluk": "ogun": "ogle",
+"kalori": "kolay",
+"etiketler": [
+509,
+"protein": "yüksek protein",
+39,
+"karbonhidrat": "sağlıklı",
+53,
+"yag": "ekonomik",
+15,
+"malzemeler": [
+"türk "Yoğurt mutfağı",
+150g",
+"Pirinç 30g",
+"fiber",
+"pratik"
+]
+},
+{
+"Nane 2g",
+"Dana "id": kıyma 150g",
+"OGLE_B1_106",
+"Marul "ad": 60g",
+"Tavuk "Domates #6 - 80g",
+Izgara Tavuk "Zeytinyağı But + Firik Bulguru 6g"
+],
+Pilavı + Çoban "hazirlamaSuresi": 68,
+Salata",
+"zorluk": "kategori": "zor",
+"Öğle",
+"etiketler": [
+"ogun": "kalsiyum",
+"ogle",
+"kalori": "yüksek 483,
+protein",
+"protein": "doyurucu",
+32,
+"karbonhidrat": 60,
+"yag": "türk mutfağı",
+"pratik",
+13,
+"malzemeler": "sağlıklı"
+[
+"Tavuk but ]
+},
+{
+180g",
+"Firik bulguru "id": 70g",
+"OGLE_B1_158",
+"ad": "Domates 80g",
+"Çorba+Ana "Salatalık #8 80g",
+"Soğan - Tarhana Çorbası + Et Sote 40g",
+"Zeytinyağı 10g",
++ Pirinç Pilavı",
+"kategori": "Limon 1/2 "Öğle",
+adet"
+"ogun": "ogle",
+"kalori": 537,
+"protein": 33,
+],
+"hazirlamaSuresi": "karbonhidrat": 29,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek 66,
+protein",
+"yag": 16,
+"malzemeler": [
+"Tarhana 35g",
+"Zeytinyağı 6g",
+"Dana jülyen 140g",
+"Pirinç 60g",
+"Yoğurt 100g"
+],
+"hazirlamaSuresi": 66,
+"zorluk": "orta",
+"ekonomik",
+"türk mutfağı",
+"pratik",
+"vitamin",
+"doyurucu"
+]
+},
+{
+"id": "OGLE_B1_107",
+"ad": "Tavuk #7 - Tavuklu Kapya Biber "etiketler": [
+Sote + Kepekli Pirinç Pilavı",
+"kategori": "doyurucu",
+"Öğle",
+"ogun": "ogle",
+"kalori": 501,
+"protein": "sağlıklı",
+"türk 29,
+"karbonhidrat": mutfağı",
+"pratik",
+69,
+"yag": "yüksek protein",
+11,
+"malzemeler": "demir"
+[
+]
+"Tavuk },
+göğsü {
+"id": "OGLE_B1_159",
+160g",
+"Kapya "ad": biber 100g",
+"Çorba+Ana #9 "Soğan - 60g",
+Mercimek "Zeytinyağı Çorbası + Sebzeli 10g",
+Omlet + Tam Buğday "Kepekli pirinç 60g",
+Ekmek",
+"kategori": "Kimyon "Öğle",
+"ogun": "ogle",
+"kalori": 1g"
+],
+"hazirlamaSuresi": 36,
+"zorluk": "kolay",
+"etiketler": [
+"yüksek protein",
+528,
+"protein": "pratik",
+"ekonomik",
+"türk mutfağı",
+39,
+"karbonhidrat": 61,
+"yag": 15,
+"demir",
+"malzemeler": [
+"Kırmızı mercimek "doyurucu"
+]
+60g",
+},
+"Soğan {
+40g",
+"id": "OGLE_B1_108",
+"Zeytinyağı 8g",
+"ad": "Tavuk "Yumurta #8 - 2 Tavuklu adet (110g)",
+Sebzeli "Kabak 80g",
+Kuskus",
+"kategori": "Öğle",
+"Biber "ogun": 60g",
+"ogle",
+"kalori": "Tam buğday ekmek 2 dilim (60g)"
+545,
+],
+"protein": "hazirlamaSuresi": 28,
+"karbonhidrat": 64,
+"zorluk": "kolay",
+71,
+"yag": "etiketler": [
+16,
+"malzemeler": "kalsiyum",
+[
+"Tavuk "yüksek protein",
+göğsü 150g",
+"doyurucu",
+"Kuskus "türk 70g",
+mutfağı",
+"pratik",
+"Havuç 80g",
+"Bezelye "sağlıklı"
+60g",
+]
+},
+"Zeytinyağı {
+"id": 10g",
+"Maydanoz "OGLE_B1_160",
+"ad": 10g"
+],
+"hazirlamaSuresi": "Çorba+Ana #10 - Tavuk 41,
+"zorluk": Suyuna Şehriye Çorbası + Fırın "orta",
+"etiketler": [
+Sebze",
+"kategori": "doyurucu",
+"Öğle",
+"ogun": "ogle",
+"pratik",
+"türk "kalori": mutfağı",
+482,
+"ekonomik",
+"protein": "vitamin",
+31,
+"karbonhidrat": "yüksek protein"
+57,
+"yag": ]
+},
+{
+14,
+"malzemeler": "id": [
+"OGLE_B1_109",
+"Tavuk "ad": suyu "Tavuk 300ml",
+#9 - Fırında "Şehriye 40g",
+Yoğurt Marineli "Havuç Tavuk + 80g",
+"Kabak Patates Soğan",
+120g",
+"kategori": "Zeytinyağı "Öğle",
+"ogun": 10g",
+"Yoğurt "ogle",
+"kalori": 528,
+"protein": 120g"
+],
+"hazirlamaSuresi": 41,
+"karbonhidrat": 54,
+"zorluk": "kolay",
+50,
+"yag": 16,
+"etiketler": [
+"malzemeler": "kalsiyum",
+"doyurucu",
+[
+"Tavuk but 200g",
+"Yoğurt 120g",
+"Patates 150g",
+"Soğan 80g",
+"Zeytinyağı 8g",
+"Pul biber 1g"
+],
+"hazirlamaSuresi": 21,
+"zorluk": "orta",
+"etiketler": [
+"yüksek protein",
+"sağlıklı",
+"kalsiyum",
+"türk mutfağı",
+"pratik",
+"türk "ekonomik",
+mutfağı",
+"pratik",
+"vitamin"
+"doyurucu"
+]
+},
+{
+"id": ]
+},
+{
+"id": "OGLE_B1_161",
+"ad": "OGLE_B1_110",
+"ad": "Tavuk #10 "Makarna/Pilav - Tavuklu Börülce #1 - Yoğurtlu Salatası + Tam Erişte + Buğday Lavaş",
+Kıymalı "kategori": Sos",
+"kategori": "Öğle",
+"Öğle",
+"ogun": "ogle",
+"ogun": "kalori": 541,
+"protein": 43,
+"ogle",
+"karbonhidrat": "kalori": 490,
+55,
+"yag": "protein": 20,
+"karbonhidrat": 16,
+"malzemeler": [
+"Erişte 75,
+"yag": 9,
+"malzemeler": 80g",
+[
+"Tavuk "Yoğurt göğsü 150g",
+150g",
+"Dana kıyma 120g",
+"Sarımsak "Haşlanmış 1 börülce 120g",
+diş "Roka 60g",
+"Soğan 40g",
+"Zeytinyağı (3g)",
+"Zeytinyağı 8g",
+8g",
+"Tam "Nane buğday lavaş 1/2 (30g)"
+],
+2g"
+"hazirlamaSuresi": ],
+"hazirlamaSuresi": 45,
+42,
+"zorluk": "zorluk": "kolay",
+"orta",
+"etiketler": [
+"etiketler": [
+"kalsiyum",
+"sağlıklı",
+"ekonomik",
+"türk "yüksek protein",
+"doyurucu",
+mutfağı",
+"pratik",
+"fiber",
+"pratik",
+"türk mutfağı",
+"yüksek protein"
+]
+"ekonomik"
+]
+},
+},
+{
+"id": {
+"id": "OGLE_B1_162",
+"OGLE_B1_111",
+"ad": "Et "ad": #1 - Izgara "Makarna/Pilav #2 Dana - Ton Biftek Balıklı + Firik Bulguru + Kepekli Makarna",
+Mevsim "kategori": Salata",
+"Öğle",
+"kategori": "ogun": "Öğle",
+"ogle",
+"kalori": "ogun": "ogle",
+"kalori": 483,
+502,
+"protein": "protein": 43,
+31,
+"karbonhidrat": "karbonhidrat": 47,
+61,
+"yag": "yag": 13,
+"malzemeler": [
+16,
+"malzemeler": [
+"Dana biftek "Kepekli makarna 80g",
+"Ton 170g",
+"Firik bulguru 60g",
+balığı "Marul light 60g",
+100g",
+"Domates "Domates 80g",
+150g",
+"Zeytinyağı "Zeytinyağı 8g",
+"Maydanoz 8g",
+"Limon 1/2 adet"
+],
+"hazirlamaSuresi": 10g"
+],
+"hazirlamaSuresi": 21,
+"zorluk": 29,
+"zorluk": "kolay",
+"kolay",
+"etiketler": "etiketler": [
+[
+"doyurucu",
+"omega3",
+"yüksek protein",
+"pratik",
+"demir",
+"ekonomik",
+"türk mutfağı",
+"doyurucu",
+"pratik",
+"türk mutfağı",
+"ekonomik"
+]
+},
+{
+"id": "OGLE_B1_112",
+"yüksek protein"
+]
+},
+{
+"id": "ad": "OGLE_B1_163",
+"ad": "Et #2 - Etli "Makarna/Pilav #3 - Sebze Güveç + Sebzeli Arpa Pirinç Pilavı",
+"kategori": Şehriye "Öğle",
+"ogun": "ogle",
+Pilavı "kalori": 510,
+"protein": 38,
+"karbonhidrat": (Ana Yemek)",
+"kategori": 55,
+"yag": "Öğle",
+"ogun": 14,
+"malzemeler": [
+"ogle",
+"kalori": "Dana 524,
+"protein": 25,
+"karbonhidrat": kuşbaşı 71,
+150g",
+"yag": 14,
+"malzemeler": [
+"Arpa şehriye "Patlıcan 120g",
+"Kabak 90g",
+"Kabak 120g",
+120g",
+"Domates 120g",
+"Pirinç "Bezelye 80g",
+"Havuç 80g",
+60g",
+"Zeytinyağı "Zeytinyağı 10g"
+],
+"hazirlamaSuresi": 10g"
+],
+"hazirlamaSuresi": 36,
+33,
+"zorluk": "zorluk": "kolay",
+"kolay",
+"etiketler": [
+"etiketler": [
+"sebze",
+"doyurucu",
+"pratik",
+"yüksek protein",
+"ekonomik",
+"türk mutfağı",
+"doyurucu",
+"türk mutfağı",
+"demir",
+"pratik",
+"vitamin"
+]
+},
+"ekonomik"
+{
+]
+"id": },
+{
+"id": "OGLE_B1_164",
+"OGLE_B1_113",
+"ad": "Makarna/Pilav "ad": #4 "Et #3 - - İzmir Nohutlu Köfte Kuskus (Fırın) + (Ana Yemek) + Bulgur Ayran",
+"kategori": Pilavı",
+"kategori": "Öğle",
+"Öğle",
+"ogun": "ogle",
+"ogun": "ogle",
+"kalori": "kalori": 541,
+"protein": 486,
+"protein": 25,
+34,
+"karbonhidrat": "karbonhidrat": 62,
+63,
+"yag": "yag": 17,
+13,
+"malzemeler": "malzemeler": [
+"Dana [
+"Kuskus 80g",
+"Nohut haşlanmış kıyma 120g",
+"Domates 160g",
+120g",
+"Patates 150g",
+"Domates "Zeytinyağı 10g",
+"Ayran 120g",
+200ml"
+],
+"Soğan "hazirlamaSuresi": 33,
+"zorluk": 60g",
+"Bulgur 60g",
+"Zeytinyağı 10g"
+],
+"hazirlamaSuresi": "kolay",
+41,
+"zorluk": "etiketler": [
+"kalsiyum",
+"orta",
+"etiketler": [
+"pratik",
+"doyurucu",
+"ekonomik",
+"doyurucu",
+"yüksek "türk protein",
+mutfağı",
+"türk mutfağı",
+"fiber"
+]
+},
+{
+"id": "OGLE_B1_165",
+"ad": "demir",
+"Makarna/Pilav #5 - Etli "pratik",
+"ekonomik"
+]
+Tel },
+{
+"id": Şehriye Pilavı",
+"kategori": "OGLE_B1_114",
+"ad": "Et #4 "Öğle",
+- "ogun": "ogle",
+"kalori": Etli Kapuska + 486,
+"protein": 29,
+"karbonhidrat": Yoğurt",
+"kategori": 57,
+"yag": "Öğle",
+"ogun": "ogle",
+14,
+"malzemeler": "kalori": [
+"Tel şehriye 466,
+"protein": 90g",
+29,
+"Dana "karbonhidrat": 55,
+"yag": kuşbaşı 14,
+"malzemeler": [
+"Dana 120g",
+"Zeytinyağı kıyma 10g",
+"Domates 120g",
+120g",
+"Lahana 300g",
+"Maydanoz 10g"
+],
+"Soğan "hazirlamaSuresi": 60g",
+"Domates 37,
+"zorluk": "kolay",
+salçası "etiketler": [
+"düşük 10g",
+"Zeytinyağı yağ",
+"pratik",
+"ekonomik",
+"doyurucu",
+"türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_166",
+"ad": "Tavuk #11 - Izgara Tavuk But 10g",
++ "Yoğurt Firik 150g"
+],
+"hazirlamaSuresi": Bulguru 25,
+Pilavı "zorluk": + "kolay",
+"etiketler": [
+"türk Çoban mutfağı",
+"doyurucu",
+"yüksek protein",
+"ekonomik",
+"kalsiyum",
+Salata",
+"kategori": "fiber"
+]
+},
+{
+"id": "OGLE_B1_115",
+"ad": "Et "Öğle",
+#5 - Et Haşlama "ogun": "ogle",
++ "kalori": Patates Havuç + Tam Buğday 506,
+Ekmek",
+"protein": 33,
+"kategori": "Öğle",
+"karbonhidrat": "ogun": "ogle",
+"kalori": 63,
+"yag": 520,
+"protein": 12,
+"malzemeler": [
+"Tavuk 32,
+"karbonhidrat": but 66,
+"yag": 180g",
+14,
+"malzemeler": [
+"Dana "Firik et bulguru 70g",
+170g",
+"Patates "Domates 80g",
+"Salatalık 120g",
+"Havuç 100g",
+80g",
+"Defne "Soğan 40g",
+yaprağı 1 "Zeytinyağı 10g",
+adet",
+"Limon "Zeytinyağı 8g",
+"Tam 1/2 buğday ekmek 2 dilim adet"
+],
+"hazirlamaSuresi": 41,
+"zorluk": (60g)"
+],
+"hazirlamaSuresi": 23,
+"kolay",
+"zorluk": "etiketler": [
+"yüksek "kolay",
+protein",
+"ekonomik",
+"etiketler": [
+"demir",
+"türk "doyurucu",
+mutfağı",
+"pratik",
+"vitamin",
+"türk mutfağı",
+"doyurucu"
+"pratik",
+"ekonomik",
+]
+},
+{
+"id": "vitamin"
+]
+},
+"OGLE_B1_167",
+{
+"ad": "id": "OGLE_B1_116",
+"ad": "Et #6 - Izgara "Tavuk #12 - Tavuklu Kapya Dana Biftek + Firik Bulguru + Mevsim Salata",
+Biber Sote + "kategori": "Öğle",
+Kepekli "ogun": "ogle",
+"kalori": 489,
+"protein": Pirinç Pilavı",
+"kategori": 41,
+"karbonhidrat": "Öğle",
+"ogun": 47,
+"ogle",
+"yag": "kalori": 14,
+"malzemeler": 491,
+"protein": [
+36,
+"Dana biftek "karbonhidrat": 170g",
+"Firik bulguru 60g",
+57,
+"Marul "yag": 60g",
+14,
+"Domates "malzemeler": 80g",
+[
+"Tavuk "Zeytinyağı 8g",
+"Limon göğsü 1/2 160g",
+adet"
+],
+"Kapya biber "hazirlamaSuresi": 100g",
+25,
+"zorluk": "Soğan "orta",
+"etiketler": [
+60g",
+"Zeytinyağı "yüksek protein",
+10g",
+"Kepekli "demir",
+"türk pirinç mutfağı",
+"pratik",
+"ekonomik",
+60g",
+"Kimyon "doyurucu"
+1g"
+],
+"hazirlamaSuresi": ]
+},
+{
+"id": 39,
+"OGLE_B1_117",
+"ad": "zorluk": "Et #7 - Etli Sebze Güveç "kolay",
++ Pirinç "etiketler": [
+Pilavı",
+"yüksek "kategori": protein",
+"pratik",
+"ekonomik",
+"Öğle",
+"ogun": "türk "ogle",
+mutfağı",
+"kalori": "demir",
+494,
+"protein": 28,
+"karbonhidrat": "doyurucu"
+]
+},
+{
+"id": 63,
+"yag": "OGLE_B1_168",
+"ad": 14,
+"malzemeler": [
+"Dana "Tavuk #13 - Tavuklu kuşbaşı 150g",
+"Patlıcan Sebzeli 120g",
+"Kabak 120g",
+"Domates 120g",
+Kuskus",
+"Pirinç "kategori": 60g",
+"Öğle",
+"Zeytinyağı 10g"
+],
+"ogun": "ogle",
+"kalori": "hazirlamaSuresi": 483,
+38,
+"zorluk": "protein": "kolay",
+41,
+"karbonhidrat": "etiketler": [
+"türk 49,
+mutfağı",
+"yag": "doyurucu",
+15,
+"malzemeler": [
+"Tavuk göğsü "ekonomik",
+"demir",
+"pratik",
+150g",
+"Kuskus "yüksek protein"
+70g",
+]
+},
+{
+"id": "Havuç 80g",
+"OGLE_B1_118",
+"ad": "Et #8 "Bezelye - İzmir Köfte 60g",
+(Fırın) "Zeytinyağı + 10g",
+Bulgur Pilavı",
+"Maydanoz "kategori": 10g"
+"Öğle",
+],
+"ogun": "hazirlamaSuresi": "ogle",
+"kalori": 487,
+20,
+"protein": "zorluk": 43,
+"zorluk": 43,
+"kolay",
+"etiketler": [
+"karbonhidrat": "doyurucu",
+47,
+"yag": "pratik",
+16,
+"malzemeler": "kolay",
+"etiketler": [
+"karbonhidrat": "doyurucu",
+47,
+"yag": "pratik",
+16,
+"malzemeler": "türk mutfağı",
+[
+"Dana kıyma "ekonomik",
+160g",
+"vitamin",
+"Patates 150g",
+"Domates 120g",
+"yüksek "türk mutfağı",
+[
+"Dana kıyma "ekonomik",
+160g",
+"vitamin",
+"Patates 150g",
+"Domates 120g",
+"yüksek protein"
+protein"
+]
+},
+{
+"id": "OGLE_B1_169",
+"ad": ]
+},
+{
+"id": "OGLE_B1_169",
+"ad": "Tavuk #14 - Fırında "Soğan "Tavuk #14 - Fırında "Soğan 60g",
+60g",
+"Bulgur 60g",
+Yoğurt "Zeytinyağı 10g"
+],
+"hazirlamaSuresi": "Bulgur 60g",
+Yoğurt "Zeytinyağı 10g"
+],
+"hazirlamaSuresi": Marineli Tavuk Marineli Tavuk + 31,
+Patates "zorluk": "kolay",
+"etiketler": [
+"demir",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"ekonomik",
++ 31,
+Patates "zorluk": "kolay",
+"etiketler": [
+"demir",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"ekonomik",
+"yüksek protein"
+]
+Soğan",
+},
+{
+"kategori": "id": "Öğle",
+"yüksek protein"
+]
+Soğan",
+},
+{
+"kategori": "id": "Öğle",
+"ogun": "OGLE_B1_119",
+"ogun": "OGLE_B1_119",
+"ogle",
+"ad": "Et "kalori": #9 - Etli Kapuska 531,
+"protein": + 45,
+Yoğurt",
+"kategori": "ogle",
+"ad": "Et "kalori": #9 - Etli Kapuska 531,
+"protein": + 45,
+Yoğurt",
+"kategori": "karbonhidrat": "Öğle",
+"ogun": "ogle",
+44,
+"yag": "kalori": 15,
+"malzemeler": [
+512,
+"karbonhidrat": "Öğle",
+"ogun": "ogle",
+44,
+"yag": "kalori": 15,
+"malzemeler": [
+512,
+"protein": "protein": "Tavuk but 43,
+"karbonhidrat": 48,
+200g",
+"yag": "Tavuk but 43,
+"karbonhidrat": 48,
+200g",
+"yag": "Yoğurt 16,
+"malzemeler": 120g",
+[
+"Dana "Patates kıyma "Yoğurt 16,
+"malzemeler": 120g",
+[
+"Dana "Patates kıyma 150g",
+"Soğan 120g",
+"Lahana 300g",
+"Soğan 80g",
+60g",
+"Zeytinyağı "Domates salçası 150g",
+"Soğan 120g",
+"Lahana 300g",
+"Soğan 80g",
+60g",
+"Zeytinyağı "Domates salçası 10g",
+8g",
+"Zeytinyağı 10g",
+"Pul biber "Yoğurt 10g",
+8g",
+"Zeytinyağı 10g",
+"Pul biber "Yoğurt 150g"
+],
+"hazirlamaSuresi": 1g"
+31,
+],
+"zorluk": "hazirlamaSuresi": 150g"
+],
+"hazirlamaSuresi": 1g"
+31,
+],
+"zorluk": "hazirlamaSuresi": 42,
+"orta",
+"zorluk": "kolay",
+"etiketler": "etiketler": [
+[
+"yüksek protein",
+"türk mutfağı",
+"kalsiyum",
+"kalsiyum",
+42,
+"orta",
+"zorluk": "kolay",
+"etiketler": "etiketler": [
+[
+"yüksek protein",
+"türk mutfağı",
+"kalsiyum",
+"kalsiyum",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"pratik",
+"yüksek "ekonomik",
+"doyurucu",
+"türk mutfağı",
+"pratik",
+"pratik",
+"yüksek "ekonomik",
+"doyurucu"
+protein",
+]
+"ekonomik"
+},
+{
+"id": ]
+},
+{
+"id": "OGLE_B1_170",
+"ad": "doyurucu"
+protein",
+]
+"ekonomik"
+},
+{
+"id": ]
+},
+{
+"id": "OGLE_B1_170",
+"ad": "OGLE_B1_120",
+"OGLE_B1_120",
+"Tavuk "ad": #15 "Et - Tavuklu #10 - Börülce Et Haşlama + Salatası Patates + Havuç + Tam "Tavuk "ad": #15 "Et - Tavuklu #10 - Börülce Et Haşlama + Salatası Patates + Havuç + Tam Tam Buğday Buğday Ekmek",
+"kategori": Lavaş",
+"kategori": "Öğle",
+"ogun": Tam Buğday Buğday Ekmek",
+"kategori": Lavaş",
+"kategori": "Öğle",
+"ogun": "Öğle",
+"Öğle",
+"ogle",
+"kalori": 505,
+"ogun": "protein": "ogle",
+"kalori": 38,
+"karbonhidrat": 502,
+"protein": "ogle",
+"kalori": 505,
+"ogun": "protein": "ogle",
+"kalori": 38,
+"karbonhidrat": 502,
+"protein": 55,
+30,
+"yag": "karbonhidrat": 15,
+"malzemeler": 63,
+[
+"Dana "yag": et 170g",
+16,
+55,
+30,
+"yag": "karbonhidrat": 15,
+"malzemeler": 63,
+[
+"Dana "yag": et 170g",
+16,
+"malzemeler": "Patates 120g",
+[
+"Havuç 100g",
+"Tavuk göğsü 150g",
+"Defne yaprağı "malzemeler": "Patates 120g",
+[
+"Havuç 100g",
+"Tavuk göğsü 150g",
+"Defne yaprağı 1 1 "Haşlanmış adet",
+börülce "Zeytinyağı 8g",
+"Tam buğday ekmek 120g",
+2 "Haşlanmış adet",
+börülce "Zeytinyağı 8g",
+"Tam buğday ekmek 120g",
+2 dilim "Roka (60g)"
+],
+"hazirlamaSuresi": 60g",
+33,
+"zorluk": dilim "Roka (60g)"
+],
+"hazirlamaSuresi": 60g",
+33,
+"zorluk": "kolay",
+"Soğan 40g",
+"etiketler": [
+"Zeytinyağı 8g",
+"demir",
+"Tam "doyurucu",
+"kolay",
+"Soğan 40g",
+"etiketler": [
+"Zeytinyağı 8g",
+"demir",
+"Tam "doyurucu",
+buğday buğday "türk lavaş 1/2 mutfağı",
+"pratik",
+"ekonomik",
+"vitamin"
+]
+(30g)"
+},
+{
+],
+"türk lavaş 1/2 mutfağı",
+"pratik",
+"ekonomik",
+"vitamin"
+]
+(30g)"
+},
+{
+],
+"id": "hazirlamaSuresi": 38,
+"zorluk": "OGLE_B1_121",
+"ad": "kolay",
+"etiketler": [
+"id": "hazirlamaSuresi": 38,
+"zorluk": "OGLE_B1_121",
+"ad": "kolay",
+"etiketler": [
+"Balık #1 "sağlıklı",
+- Fırında Palamut + Soğan "Balık #1 "sağlıklı",
+- Fırında Palamut + Soğan "ekonomik",
+"türk mutfağı",
+"fiber",
+"pratik",
+Domates",
+"kategori": "Öğle",
+"ekonomik",
+"türk mutfağı",
+"fiber",
+"pratik",
+Domates",
+"kategori": "Öğle",
+"yüksek protein"
+"ogun": ]
+"ogle",
+"kalori": },
+{
+"id": 520,
+"protein": "OGLE_B1_171",
+"ad": "yüksek protein"
+"ogun": ]
+"ogle",
+"kalori": },
+{
+"id": 520,
+"protein": "OGLE_B1_171",
+"ad": 31,
+"Tavuk #16 - "karbonhidrat": Izgara Tavuk But + 57,
+Firik "yag": Bulguru Pilavı 31,
+"Tavuk #16 - "karbonhidrat": Izgara Tavuk But + 57,
+Firik "yag": Bulguru Pilavı + + Çoban 18,
+"malzemeler": [
+"Palamut Salata",
+"kategori": "Öğle",
+dilim "ogun": "ogle",
+"kalori": Çoban 18,
+"malzemeler": [
+"Palamut Salata",
+"kategori": "Öğle",
+dilim "ogun": "ogle",
+"kalori": 220g",
+495,
+"protein": "Soğan 60g",
+"Domates 30,
+"karbonhidrat": 220g",
+495,
+"protein": "Soğan 60g",
+"Domates 30,
+"karbonhidrat": 120g",
+69,
+"yag": "Zeytinyağı 10g",
+11,
+"malzemeler": [
+"Tavuk "Limon but 1/2 120g",
+69,
+"yag": "Zeytinyağı 10g",
+11,
+"malzemeler": [
+"Tavuk "Limon but 1/2 adet"
+180g",
+"Firik ],
+"hazirlamaSuresi": bulguru 70g",
+23,
+"zorluk": "Domates 80g",
+adet"
+180g",
+"Firik ],
+"hazirlamaSuresi": bulguru 70g",
+23,
+"zorluk": "Domates 80g",
+"Salatalık "kolay",
+80g",
+"Soğan "etiketler": [
+40g",
+"Zeytinyağı 10g",
+"omega3",
+"Salatalık "kolay",
+80g",
+"Soğan "etiketler": [
+40g",
+"Zeytinyağı 10g",
+"omega3",
+"Limon 1/2 "yüksek protein",
+adet"
+],
+"sağlıklı",
+"hazirlamaSuresi": "Limon 1/2 "yüksek protein",
+adet"
+],
+"sağlıklı",
+"hazirlamaSuresi": 36,
+"zorluk": "türk mutfağı",
+"kolay",
+"etiketler": [
+"yüksek protein",
+"doyurucu",
+36,
+"zorluk": "türk mutfağı",
+"kolay",
+"etiketler": [
+"yüksek protein",
+"doyurucu",
+"vitamin"
+]
+"ekonomik",
+},
+"türk {
+"id": mutfağı",
+"pratik",
+"OGLE_B1_122",
+"vitamin",
+"ad": "doyurucu"
+"Balık ]
+"vitamin"
+]
+"ekonomik",
+},
+"türk {
+"id": mutfağı",
+"pratik",
+"OGLE_B1_122",
+"vitamin",
+"ad": "doyurucu"
+"Balık ]
+#2 - },
+Izgara {
+"id": "OGLE_B1_172",
+"ad": Sardalya #2 - },
+Izgara {
+"id": "OGLE_B1_172",
+"ad": Sardalya + + "Tavuk Roka #17 - Tavuklu Kapya Biber Soğan Sote + Kepekli Pirinç "Tavuk Roka #17 - Tavuklu Kapya Biber Soğan Sote + Kepekli Pirinç Pilavı",
+Salatası "kategori": "Öğle",
+"ogun": "ogle",
+"kalori": + Tam Buğday Pilavı",
+Salatası "kategori": "Öğle",
+"ogun": "ogle",
+"kalori": + Tam Buğday Ekmek",
+492,
+"kategori": "protein": "Öğle",
+37,
+"ogun": "ogle",
+"kalori": "karbonhidrat": 57,
+Ekmek",
+492,
+"kategori": "protein": "Öğle",
+37,
+"ogun": "ogle",
+"kalori": "karbonhidrat": 57,
+"yag": 518,
+"protein": 14,
+"malzemeler": 34,
+[
+"karbonhidrat": "Tavuk göğsü "yag": 518,
+"protein": 14,
+"malzemeler": 34,
+[
+"karbonhidrat": "Tavuk göğsü 53,
+160g",
+"Kapya "yag": 18,
+"malzemeler": biber 100g",
+[
+"Sardalya "Soğan 60g",
+"Zeytinyağı 53,
+160g",
+"Kapya "yag": 18,
+"malzemeler": biber 100g",
+[
+"Sardalya "Soğan 60g",
+"Zeytinyağı 10g",
+220g",
+"Roka "Kepekli pirinç 60g",
+"Soğan 60g",
+"Kimyon 10g",
+220g",
+"Roka "Kepekli pirinç 60g",
+"Soğan 60g",
+"Kimyon 40g",
+1g"
+],
+"Zeytinyağı "hazirlamaSuresi": 41,
+8g",
+"zorluk": "Tam "kolay",
+buğday ekmek 40g",
+1g"
+],
+"Zeytinyağı "hazirlamaSuresi": 41,
+8g",
+"zorluk": "Tam "kolay",
+buğday ekmek 2 2 dilim "etiketler": [
+(60g)"
+],
+"yüksek "hazirlamaSuresi": protein",
+"pratik",
+dilim "etiketler": [
+(60g)"
+],
+"yüksek "hazirlamaSuresi": protein",
+"pratik",
+28,
+"ekonomik",
+"zorluk": "türk "kolay",
+mutfağı",
+"etiketler": [
+"demir",
+"omega3",
+"yüksek 28,
+"ekonomik",
+"zorluk": "türk "kolay",
+mutfağı",
+"etiketler": [
+"demir",
+"omega3",
+"yüksek "doyurucu"
+]
+},
+{
+protein",
+"id": "sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+protein",
+"id": "sağlıklı",
+"türk mutfağı",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_123",
+"doyurucu",
+"vitamin"
+]
+},
+{
+"id": "OGLE_B1_123",
+"ad": "Balık #3 - Fırında "ad": "Balık #3 - Fırında Çipura Çipura + Patates "OGLE_B1_173",
+Kabak",
++ Patates "OGLE_B1_173",
+Kabak",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": "ad": "Tavuk #18 "kategori": "Öğle",
+"ogun": "ogle",
+"kalori": "ad": "Tavuk #18 510,
+"protein": - Tavuklu 33,
+"karbonhidrat": Sebzeli Kuskus",
+"kategori": "Öğle",
+55,
+"ogun": "yag": 510,
+"protein": - Tavuklu 33,
+"karbonhidrat": Sebzeli Kuskus",
+"kategori": "Öğle",
+55,
+"ogun": "yag": "ogle",
+16,
+"kalori": "malzemeler": 520,
+"protein": 36,
+"karbonhidrat": [
+"Çipura 63,
+"yag": 15,
+"malzemeler": [
+"Tavuk 200g",
+göğsü "Patates 150g",
+"Kuskus "ogle",
+16,
+"kalori": "malzemeler": 520,
+"protein": 36,
+"karbonhidrat": [
+"Çipura 63,
+"yag": 15,
+"malzemeler": [
+"Tavuk 200g",
+göğsü "Patates 150g",
+"Kuskus 70g",
+"Havuç 80g",
+120g",
+"Bezelye 60g",
+"Zeytinyağı "Kabak 10g",
+"Maydanoz 120g",
+10g"
+],
+"hazirlamaSuresi": "Zeytinyağı 30,
+"zorluk": 10g",
+"kolay",
+"etiketler": [
+"doyurucu",
+70g",
+"Havuç 80g",
+120g",
+"Bezelye 60g",
+"Zeytinyağı "Kabak 10g",
+"Maydanoz 120g",
+10g"
+],
+"hazirlamaSuresi": "Zeytinyağı 30,
+"zorluk": 10g",
+"kolay",
+"etiketler": [
+"doyurucu",
+"pratik",
+"türk "Limon 1/2 mutfağı",
+"ekonomik",
+"vitamin",
+adet"
+],
+"hazirlamaSuresi": "yüksek protein"
+]
+},
+"pratik",
+"türk "Limon 1/2 mutfağı",
+"ekonomik",
+"vitamin",
+adet"
+],
+"hazirlamaSuresi": "yüksek protein"
+]
+},
+45,
+"zorluk": {
+"id": "OGLE_B1_174",
+"ad": "Tavuk "orta",
+"etiketler": #19 [
+45,
+"zorluk": {
+"id": "OGLE_B1_174",
+"ad": "Tavuk "orta",
+"etiketler": #19 [
+- - Fırında "omega3",
+"yüksek Yoğurt Marineli protein",
+Tavuk + Patates Soğan",
+"sağlıklı",
+"kategori": "türk mutfağı",
+Fırında "omega3",
+"yüksek Yoğurt Marineli protein",
+Tavuk + Patates Soğan",
+"sağlıklı",
+"kategori": "türk mutfağı",
+"Öğle",
+"doyurucu",
+"ogun": "ogle",
+"kalori": "vitamin"
+]
+},
+{
+532,
+"id": "Öğle",
+"doyurucu",
+"ogun": "ogle",
+"kalori": "vitamin"
+]
+},
+{
+532,
+"id": "protein": "protein": "OGLE_B1_124",
+27,
+"karbonhidrat": "ad": "Balık #4 - 71,
+"yag": Ton "OGLE_B1_124",
+27,
+"karbonhidrat": "ad": "Balık #4 - 71,
+"yag": Ton 15,
+"malzemeler": Balıklı [
+"Tavuk but 200g",
+Bulgur "Yoğurt 15,
+"malzemeler": Balıklı [
+"Tavuk but 200g",
+Bulgur "Yoğurt 120g",
+120g",
+"Patates 150g",
+"Soğan 80g",
+Salatası",
+"kategori": "Patates 150g",
+"Soğan 80g",
+Salatası",
+"kategori": "Öğle",
+"Zeytinyağı 8g",
+"ogun": "Pul "ogle",
+biber "kalori": 1g"
+],
+"hazirlamaSuresi": 497,
+"protein": "Öğle",
+"Zeytinyağı 8g",
+"ogun": "Pul "ogle",
+biber "kalori": 1g"
+],
+"hazirlamaSuresi": 497,
+"protein": 34,
+24,
+"zorluk": "karbonhidrat": "kolay",
+"etiketler": [
+61,
+"yag": 34,
+24,
+"zorluk": "karbonhidrat": "kolay",
+"etiketler": [
+61,
+"yag": 12,
+"kalsiyum",
+"malzemeler": [
+"yüksek "Ton protein",
+balığı "türk mutfağı",
+light 12,
+"kalsiyum",
+"malzemeler": [
+"yüksek "Ton protein",
+balığı "türk mutfağı",
+light "pratik",
+"ekonomik",
+"doyurucu"
+]
+},
+120g",
+{
+"Bulgur "id": 70g",
+"pratik",
+"ekonomik",
+"doyurucu"
+]
+},
+120g",
+{
+"Bulgur "id": 70g",
+"OGLE_B1_175",
+"Maydanoz "ad": "Tavuk #20 15g",
+- "Taze Tavuklu Börülce soğan Salatası "OGLE_B1_175",
+"Maydanoz "ad": "Tavuk #20 15g",
+- "Taze Tavuklu Börülce soğan Salatası + Tam Buğday Lavaş",
+20g",
+"kategori": "Zeytinyağı "Öğle",
+"ogun": + Tam Buğday Lavaş",
+20g",
+"kategori": "Zeytinyağı "Öğle",
+"ogun": 8g",
+8g",
+"ogle",
+"Limon "kalori": 1/2 adet"
+483,
+],
+"protein": "hazirlamaSuresi": 43,
+"karbonhidrat": "ogle",
+"Limon "kalori": 1/2 adet"
+483,
+],
+"protein": "hazirlamaSuresi": 43,
+"karbonhidrat": 20,
+"zorluk": "kolay",
+45,
+"yag": 16,
+"malzemeler": 20,
+"zorluk": "kolay",
+45,
+"yag": 16,
+"malzemeler": [
+[
+"etiketler": [
+"Tavuk "omega3",
+"yüksek protein",
+göğsü 150g",
+"sağlıklı",
+"Haşlanmış "türk mutfağı",
+börülce 120g",
+"etiketler": [
+"Tavuk "omega3",
+"yüksek protein",
+göğsü 150g",
+"sağlıklı",
+"Haşlanmış "türk mutfağı",
+börülce 120g",
+"pratik",
+"pratik",
+"Roka 60g",
+"doyurucu"
+"Soğan ]
+40g",
+},
+{
+"Zeytinyağı "id": "Roka 60g",
+"doyurucu"
+"Soğan ]
+40g",
+},
+{
+"Zeytinyağı "id": 8g",
+"Tam "OGLE_B1_125",
+"ad": "Balık #5 buğday - lavaş Hamsi 1/2 (30g)"
+8g",
+"Tam "OGLE_B1_125",
+"ad": "Balık #5 buğday - lavaş Hamsi 1/2 (30g)"
+],
+"hazirlamaSuresi": Buğulama + 43,
+"zorluk": ],
+"hazirlamaSuresi": Buğulama + 43,
+"zorluk": "orta",
+"etiketler": Mısırlı [
+"yüksek protein",
+"orta",
+"etiketler": Mısırlı [
+"yüksek protein",
+Salata",
+"sağlıklı",
+"kategori": "Öğle",
+"türk mutfağı",
+"ogun": "ogle",
+"kalori": Salata",
+"sağlıklı",
+"kategori": "Öğle",
+"türk mutfağı",
+"ogun": "ogle",
+"kalori": "fiber",
+519,
+"pratik",
+"protein": "ekonomik"
+33,
+]
+"karbonhidrat": 59,
+"yag": },
+{
+"fiber",
+519,
+"pratik",
+"protein": "ekonomik"
+33,
+]
+"karbonhidrat": 59,
+"yag": },
+{
+"id": "OGLE_B1_176",
+"ad": "Et 16,
+"malzemeler": [
+"Hamsi #11 220g",
+- "id": "OGLE_B1_176",
+"ad": "Et 16,
+"malzemeler": [
+"Hamsi #11 220g",
+- "Soğan Izgara Dana 60g",
+Biftek "Domates + "Soğan Izgara Dana 60g",
+Biftek "Domates + Firik Bulguru + 120g",
+"Zeytinyağı 8g",
+Mevsim Firik Bulguru + 120g",
+"Zeytinyağı 8g",
+Mevsim Salata",
+"Haşlanmış "kategori": mısır "Öğle",
+"ogun": "ogle",
+"kalori": 50g",
+"Limon Salata",
+"Haşlanmış "kategori": mısır "Öğle",
+"ogun": "ogle",
+"kalori": 50g",
+"Limon 512,
+"protein": 1/2 adet"
+],
+38,
+"hazirlamaSuresi": "karbonhidrat": 59,
+"yag": 512,
+"protein": 1/2 adet"
+],
+38,
+"hazirlamaSuresi": "karbonhidrat": 59,
+"yag": 39,
+"zorluk": 14,
+"malzemeler": "orta",
+"etiketler": [
+"Dana biftek [
+170g",
+"Firik "omega3",
+"yüksek 39,
+"zorluk": 14,
+"malzemeler": "orta",
+"etiketler": [
+"Dana biftek [
+170g",
+"Firik "omega3",
+"yüksek bulguru bulguru protein",
+60g",
+"sağlıklı",
+"türk mutfağı",
+"Marul protein",
+60g",
+"sağlıklı",
+"türk mutfağı",
+"Marul 60g",
+"doyurucu",
+"vitamin"
+]
+},
+"Domates {
+80g",
+"id": "OGLE_B1_126",
+"Zeytinyağı 60g",
+"doyurucu",
+"vitamin"
+]
+},
+"Domates {
+80g",
+"id": "OGLE_B1_126",
+"Zeytinyağı 8g",
+"ad": "Balık #6 - "Limon 1/2 Fırında adet"
+],
+Palamut 8g",
+"ad": "Balık #6 - "Limon 1/2 Fırında adet"
+],
+Palamut + "hazirlamaSuresi": 27,
+Soğan "zorluk": Domates",
+"kolay",
+"kategori": "Öğle",
+"etiketler": [
+"ogun": + "hazirlamaSuresi": 27,
+Soğan "zorluk": Domates",
+"kolay",
+"kategori": "Öğle",
+"etiketler": [
+"ogun": "demir",
+"ogle",
+"kalori": "doyurucu",
+508,
+"protein": 37,
+"türk mutfağı",
+"karbonhidrat": "pratik",
+"demir",
+"ogle",
+"kalori": "doyurucu",
+508,
+"protein": 37,
+"türk mutfağı",
+"karbonhidrat": "pratik",
+"ekonomik",
+47,
+"yag": "yüksek protein"
+18,
+"malzemeler": ]
+"ekonomik",
+47,
+"yag": "yüksek protein"
+18,
+"malzemeler": ]
+[
+"Palamut [
+"Palamut },
+{
+"id": dilim 220g",
+"OGLE_B1_177",
+"Soğan "ad": 60g",
+"Et #12 - Etli "Domates },
+{
+"id": dilim 220g",
+"OGLE_B1_177",
+"Soğan "ad": 60g",
+"Et #12 - Etli "Domates 120g",
+"Zeytinyağı Sebze 10g",
+Güveç + "Limon 1/2 adet"
+],
+Pirinç "hazirlamaSuresi": 120g",
+"Zeytinyağı Sebze 10g",
+Güveç + "Limon 1/2 adet"
+],
+Pirinç "hazirlamaSuresi": Pilavı",
+"kategori": 27,
+"Öğle",
+"zorluk": "ogun": "kolay",
+"ogle",
+"kalori": Pilavı",
+"kategori": 27,
+"Öğle",
+"zorluk": "ogun": "kolay",
+"ogle",
+"kalori": "etiketler": [
+503,
+"protein": 36,
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"karbonhidrat": "türk "etiketler": [
+503,
+"protein": 36,
+"omega3",
+"yüksek protein",
+"sağlıklı",
+"karbonhidrat": "türk 59,
+mutfağı",
+"yag": 15,
+"malzemeler": "doyurucu",
+"vitamin"
+[
+"Dana ]
+},
+{
+kuşbaşı "id": 59,
+mutfağı",
+"yag": 15,
+"malzemeler": "doyurucu",
+"vitamin"
+[
+"Dana ]
+},
+{
+kuşbaşı "id": 150g",
+"OGLE_B1_127",
+"ad": "Balık #7 "Patlıcan - Izgara 150g",
+"OGLE_B1_127",
+"ad": "Balık #7 "Patlıcan - Izgara 120g",
+Sardalya + "Kabak Roka Soğan Salatası 120g",
+"Domates + Tam Buğday 120g",
+Sardalya + "Kabak Roka Soğan Salatası 120g",
+"Domates + Tam Buğday Ekmek",
+"kategori": 120g",
+"Öğle",
+"ogun": "ogle",
+"kalori": "Pirinç 60g",
+"Zeytinyağı Ekmek",
+"kategori": 120g",
+"Öğle",
+"ogun": "ogle",
+"kalori": "Pirinç 60g",
+"Zeytinyağı 10g"
+532,
+"protein": ],
+"hazirlamaSuresi": 34,
+"karbonhidrat": 45,
+"zorluk": 10g"
+532,
+"protein": ],
+"hazirlamaSuresi": 34,
+"karbonhidrat": 45,
+"zorluk": "orta",
+"orta",
+57,
+"yag": "etiketler": [
+18,
+"malzemeler": "demir",
+[
+"Sardalya 220g",
+"Roka "doyurucu",
+57,
+"yag": "etiketler": [
+18,
+"malzemeler": "demir",
+[
+"Sardalya 220g",
+"Roka "doyurucu",
+"türk "türk 60g",
+mutfağı",
+"Soğan 40g",
+"pratik",
+"ekonomik",
+"yüksek protein"
+"Zeytinyağı ]
+60g",
+mutfağı",
+"Soğan 40g",
+"pratik",
+"ekonomik",
+"yüksek protein"
+"Zeytinyağı ]
+},
+},
+8g",
+{
+"Tam "id": buğday ekmek 2 dilim (60g)"
+"OGLE_B1_178",
+],
+"ad": "Et #13 "hazirlamaSuresi": - 8g",
+{
+"Tam "id": buğday ekmek 2 dilim (60g)"
+"OGLE_B1_178",
+],
+"ad": "Et #13 "hazirlamaSuresi": - 27,
+"zorluk": İzmir Köfte "orta",
+27,
+"zorluk": İzmir Köfte "orta",
+"etiketler": [
+"omega3",
+"yüksek protein",
+"etiketler": [
+"omega3",
+"yüksek protein",
+(Fırın) + "sağlıklı",
+"türk Bulgur mutfağı",
+Pilavı",
+"doyurucu",
+"kategori": "vitamin"
+(Fırın) + "sağlıklı",
+"türk Bulgur mutfağı",
+Pilavı",
+"doyurucu",
+"kategori": "vitamin"
+"Öğle",
+"Öğle",
+]
+},
+{
+"id": "ogun": "ogle",
+"kalori": "OGLE_B1_128",
+"ad": 502,
+"Balık "protein": #8 ]
+},
+{
+"id": "ogun": "ogle",
+"kalori": "OGLE_B1_128",
+"ad": 502,
+"Balık "protein": #8 - - 37,
+Fırında Çipura "karbonhidrat": + 59,
+Patates Kabak",
+"yag": "kategori": 16,
+37,
+Fırında Çipura "karbonhidrat": + 59,
+Patates Kabak",
+"yag": "kategori": 16,
+"Öğle",
+"Öğle",
+"malzemeler": "ogun": [
+"Dana "ogle",
+"kalori": 520,
+"protein": "malzemeler": "ogun": [
+"Dana "ogle",
+"kalori": 520,
+"protein": kıyma 26,
+"karbonhidrat": 160g",
+"Patates 150g",
+75,
+"yag": kıyma 26,
+"karbonhidrat": 160g",
+"Patates 150g",
+75,
+"yag": 11,
+"Domates "malzemeler": [
+"Çipura 120g",
+200g",
+"Patates "Soğan 120g",
+11,
+"Domates "malzemeler": [
+"Çipura 120g",
+200g",
+"Patates "Soğan 120g",
+"Kabak 60g",
+120g",
+"Bulgur "Zeytinyağı 10g",
+60g",
+"Limon 1/2 "Kabak 60g",
+120g",
+"Bulgur "Zeytinyağı 10g",
+60g",
+"Limon 1/2 adet"
+"Zeytinyağı 10g"
+],
+],
+"hazirlamaSuresi": "hazirlamaSuresi": 27,
+"zorluk": 44,
+adet"
+"Zeytinyağı 10g"
+],
+],
+"hazirlamaSuresi": "hazirlamaSuresi": 27,
+"zorluk": 44,
+"zorluk": "zorluk": "kolay",
+"orta",
+"etiketler": [
+"etiketler": [
+"omega3",
+"demir",
+"yüksek "kolay",
+"orta",
+"etiketler": [
+"etiketler": [
+"omega3",
+"demir",
+"yüksek protein",
+protein",
+"doyurucu",
+"türk "sağlıklı",
+mutfağı",
+"türk "pratik",
+mutfağı",
+"ekonomik",
+"yüksek "doyurucu",
+"vitamin"
+protein"
+"doyurucu",
+"türk "sağlıklı",
+mutfağı",
+"türk "pratik",
+mutfağı",
+"ekonomik",
+"yüksek "doyurucu",
+"vitamin"
+protein"
+]
+]
+},
+]
+{
+},
+"id": {
+"id": "OGLE_B1_179",
+"ad": "OGLE_B1_129",
+"Et "ad": #14 - Etli "Balık },
+]
+{
+},
+"id": {
+"id": "OGLE_B1_179",
+"ad": "OGLE_B1_129",
+"Et "ad": #14 - Etli "Balık #9 - Ton Balıklı Bulgur Salatası",
+Kapuska + "kategori": #9 - Ton Balıklı Bulgur Salatası",
+Kapuska + "kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 495,
+"protein": Yoğurt",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 495,
+"protein": Yoğurt",
+"kategori": "Öğle",
+32,
+"ogun": "ogle",
+"karbonhidrat": 63,
+"kalori": "yag": 520,
+13,
+"malzemeler": "protein": "Öğle",
+32,
+"ogun": "ogle",
+"karbonhidrat": 63,
+"kalori": "yag": 520,
+13,
+"malzemeler": "protein": [
+43,
+"Ton balığı "karbonhidrat": light 120g",
+50,
+"yag": "Bulgur 70g",
+[
+43,
+"Ton balığı "karbonhidrat": light 120g",
+50,
+"yag": "Bulgur 70g",
+16,
+"Maydanoz "malzemeler": [
+15g",
+"Taze "Dana soğan 20g",
+kıyma "Zeytinyağı 16,
+"Maydanoz "malzemeler": [
+15g",
+"Taze "Dana soğan 20g",
+kıyma "Zeytinyağı 120g",
+"Lahana 8g",
+"Limon 300g",
+1/2 adet"
+],
+"hazirlamaSuresi": "Soğan 120g",
+"Lahana 8g",
+"Limon 300g",
+1/2 adet"
+],
+"hazirlamaSuresi": "Soğan 60g",
+31,
+"Domates "zorluk": "kolay",
+salçası 60g",
+31,
+"Domates "zorluk": "kolay",
+salçası "etiketler": [
+"omega3",
+"yüksek 10g",
+protein",
+"sağlıklı",
+"Zeytinyağı "türk "etiketler": [
+"omega3",
+"yüksek 10g",
+protein",
+"sağlıklı",
+"Zeytinyağı "türk mutfağı",
+10g",
+mutfağı",
+10g",
+"Yoğurt "pratik",
+150g"
+"doyurucu"
+]
+],
+},
+{
+"hazirlamaSuresi": "id": "Yoğurt "pratik",
+150g"
+"doyurucu"
+]
+],
+},
+{
+"hazirlamaSuresi": "id": "OGLE_B1_130",
+"ad": 24,
+"zorluk": "Balık #10 - "orta",
+Hamsi Buğulama + "OGLE_B1_130",
+"ad": 24,
+"zorluk": "Balık #10 - "orta",
+Hamsi Buğulama + Mısırlı "etiketler": Mısırlı "etiketler": [
+"kalsiyum",
+Salata",
+"kategori": "doyurucu",
+"Öğle",
+"ogun": "ogle",
+"türk mutfağı",
+"kalori": "pratik",
+[
+"kalsiyum",
+Salata",
+"kategori": "doyurucu",
+"Öğle",
+"ogun": "ogle",
+"türk mutfağı",
+"kalori": "pratik",
+"yüksek 518,
+"protein": protein",
+41,
+"karbonhidrat": "ekonomik"
+]
+"yüksek 518,
+"protein": protein",
+41,
+"karbonhidrat": "ekonomik"
+]
+},
+{
+"id": 45,
+"yag": 16,
+"OGLE_B1_180",
+"malzemeler": [
+"ad": "Hamsi "Et },
+{
+"id": 45,
+"yag": 16,
+"OGLE_B1_180",
+"malzemeler": [
+"ad": "Hamsi "Et 220g",
+#15 - "Soğan Et 60g",
+Haşlama "Domates 120g",
+"Zeytinyağı + 220g",
+#15 - "Soğan Et 60g",
+Haşlama "Domates 120g",
+"Zeytinyağı + 8g",
+Patates "Haşlanmış mısır 50g",
+"Limon Havuç 8g",
+Patates "Haşlanmış mısır 50g",
+"Limon Havuç + + 1/2 adet"
+],
+Tam "hazirlamaSuresi": Buğday Ekmek",
+"kategori": 42,
+"Öğle",
+"zorluk": 1/2 adet"
+],
+Tam "hazirlamaSuresi": Buğday Ekmek",
+"kategori": 42,
+"Öğle",
+"zorluk": "ogun": "ogle",
+"kalori": "kolay",
+513,
+"protein": "etiketler": [
+"ogun": "ogle",
+"kalori": "kolay",
+513,
+"protein": "etiketler": [
+33,
+"omega3",
+"yüksek "karbonhidrat": protein",
+"sağlıklı",
+"türk 63,
+"yag": mutfağı",
+15,
+33,
+"omega3",
+"yüksek "karbonhidrat": protein",
+"sağlıklı",
+"türk 63,
+"yag": mutfağı",
+15,
+"malzemeler": "malzemeler": [
+"Dana "doyurucu",
+"vitamin"
+et ]
+},
+{
+"id": [
+"Dana "doyurucu",
+"vitamin"
+et ]
+},
+{
+"id": "OGLE_B1_131",
+"OGLE_B1_131",
+"ad": 170g",
+"Patates "Sebze #1 - Patatesli 120g",
+"Havuç "ad": 170g",
+"Patates "Sebze #1 - Patatesli 120g",
+"Havuç 100g",
+Ispanak "Defne Kavurma + yaprağı 1 100g",
+Ispanak "Defne Kavurma + yaprağı 1 Yoğurt",
+"kategori": adet",
+"Öğle",
+"ogun": "Zeytinyağı "ogle",
+"kalori": Yoğurt",
+"kategori": adet",
+"Öğle",
+"ogun": "Zeytinyağı "ogle",
+"kalori": 486,
+"protein": 8g",
+"Tam buğday ekmek 33,
+2 "karbonhidrat": dilim 486,
+"protein": 8g",
+"Tam buğday ekmek 33,
+2 "karbonhidrat": dilim 62,
+"yag": (60g)"
+11,
+],
+"malzemeler": [
+"hazirlamaSuresi": "Ispanak 25,
+62,
+"yag": (60g)"
+11,
+],
+"malzemeler": [
+"hazirlamaSuresi": "Ispanak 25,
+"zorluk": 300g",
+"Patates 150g",
+"kolay",
+"Soğan 60g",
+"etiketler": [
+"vitamin",
+"zorluk": 300g",
+"Patates 150g",
+"kolay",
+"Soğan 60g",
+"etiketler": [
+"vitamin",
+"Zeytinyağı "doyurucu",
+12g",
+"türk mutfağı",
+"Yoğurt "pratik",
+150g"
+"Zeytinyağı "doyurucu",
+12g",
+"türk mutfağı",
+"Yoğurt "pratik",
+150g"
+"ekonomik",
+],
+"hazirlamaSuresi": "demir"
+]
+35,
+},
+"zorluk": {
+"id": "ekonomik",
+],
+"hazirlamaSuresi": "demir"
+]
+35,
+},
+"zorluk": {
+"id": "kolay",
+"etiketler": [
+"OGLE_B1_181",
+"ad": "sebze",
+"Balık "fiber",
+"kolay",
+"etiketler": [
+"OGLE_B1_181",
+"ad": "sebze",
+"Balık "fiber",
+#11 - "vitamin",
+Fırında "sağlıklı",
+"türk Palamut mutfağı",
++ #11 - "vitamin",
+Fırında "sağlıklı",
+"türk Palamut mutfağı",
++ Soğan "kalsiyum"
+]
+},
+{
+"id": "OGLE_B1_132",
+Soğan "kalsiyum"
+]
+},
+{
+"id": "OGLE_B1_132",
+Domates",
+"kategori": "ad": "Sebze "Öğle",
+#2 - "ogun": "ogle",
+"kalori": Kuru Domates",
+"kategori": "ad": "Sebze "Öğle",
+#2 - "ogun": "ogle",
+"kalori": Kuru 545,
+"protein": Biber Dolması 39,
+"karbonhidrat": 49,
+545,
+"protein": Biber Dolması 39,
+"karbonhidrat": 49,
+"yag": 18,
+"malzemeler": [
+"Palamut dilim "yag": 18,
+"malzemeler": [
+"Palamut dilim (Pirinçli) + 220g",
+"Soğan 60g",
+"Domates (Pirinçli) + 220g",
+"Soğan 60g",
+"Domates Ayran",
+"kategori": 120g",
+"Zeytinyağı "Öğle",
+10g",
+"ogun": Ayran",
+"kategori": 120g",
+"Zeytinyağı "Öğle",
+10g",
+"ogun": "Limon "ogle",
+"kalori": 1/2 490,
+adet"
+"protein": ],
+"hazirlamaSuresi": 27,
+"karbonhidrat": 44,
+"zorluk": "Limon "ogle",
+"kalori": 1/2 490,
+adet"
+"protein": ],
+"hazirlamaSuresi": 27,
+"karbonhidrat": 44,
+"zorluk": 60,
+"yag": 15,
+"malzemeler": "orta",
+"etiketler": [
+[
+"Kuru biber 60,
+"yag": 15,
+"malzemeler": "orta",
+"etiketler": [
+[
+"Kuru biber "omega3",
+6 adet "yüksek protein",
+"sağlıklı",
+(180g)",
+"türk "omega3",
+6 adet "yüksek protein",
+"sağlıklı",
+(180g)",
+"türk mutfağı",
+"Pirinç 60g",
+"Soğan "doyurucu",
+60g",
+"vitamin"
+]
+},
+"Zeytinyağı mutfağı",
+"Pirinç 60g",
+"Soğan "doyurucu",
+60g",
+"vitamin"
+]
+},
+"Zeytinyağı {
+"id": "OGLE_B1_182",
+12g",
+"Ayran "ad": "Balık #12 - {
+"id": "OGLE_B1_182",
+12g",
+"Ayran "ad": "Balık #12 - Izgara Izgara 200ml"
+],
+"hazirlamaSuresi": Sardalya + 200ml"
+],
+"hazirlamaSuresi": Sardalya + Roka Soğan 26,
+"zorluk": "kolay",
+Salatası "etiketler": Roka Soğan 26,
+"zorluk": "kolay",
+Salatası "etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"pratik",
++ Tam Buğday "türk Ekmek",
+[
+"sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+"pratik",
++ Tam Buğday "türk Ekmek",
+"kategori": "Öğle",
+mutfağı"
+]
+},
+{
+"ogun": "id": "ogle",
+"OGLE_B1_133",
+"kalori": 487,
+"protein": "ad": "Sebze #3 "kategori": "Öğle",
+mutfağı"
+]
+},
+{
+"ogun": "id": "ogle",
+"OGLE_B1_133",
+"kalori": 487,
+"protein": "ad": "Sebze #3 - 32,
+"karbonhidrat": Fırın 57,
+"yag": Sebze - 32,
+"karbonhidrat": Fırın 57,
+"yag": Sebze 14,
+"malzemeler": Tepsisi + [
+"Sardalya 220g",
+Bulgur Pilavı",
+"Roka 60g",
+"kategori": 14,
+"malzemeler": Tepsisi + [
+"Sardalya 220g",
+Bulgur Pilavı",
+"Roka 60g",
+"kategori": "Öğle",
+"Soğan "ogun": 40g",
+"ogle",
+"Zeytinyağı "kalori": 8g",
+"Tam "Öğle",
+"Soğan "ogun": 40g",
+"ogle",
+"Zeytinyağı "kalori": 8g",
+"Tam buğday 517,
+"protein": ekmek 2 29,
+"karbonhidrat": dilim (60g)"
+],
+"hazirlamaSuresi": 63,
+"yag": buğday 517,
+"protein": ekmek 2 29,
+"karbonhidrat": dilim (60g)"
+],
+"hazirlamaSuresi": 63,
+"yag": 16,
+"malzemeler": [
+23,
+"zorluk": "kolay",
+"Kabak "etiketler": [
+"omega3",
+150g",
+16,
+"malzemeler": [
+23,
+"zorluk": "kolay",
+"Kabak "etiketler": [
+"omega3",
+150g",
+"Patlıcan "yüksek protein",
+150g",
+"sağlıklı",
+"Havuç "türk "Patlıcan "yüksek protein",
+150g",
+"sağlıklı",
+"Havuç "türk 120g",
+mutfağı",
+"doyurucu",
+"Domates "vitamin"
+]
+120g",
+"Zeytinyağı },
+{
+"id": 120g",
+mutfağı",
+"doyurucu",
+"Domates "vitamin"
+]
+120g",
+"Zeytinyağı },
+{
+"id": 12g",
+"Bulgur "OGLE_B1_183",
+"ad": "Balık #13 - Fırında 60g"
+],
+"hazirlamaSuresi": 12g",
+"Bulgur "OGLE_B1_183",
+"ad": "Balık #13 - Fırında 60g"
+],
+"hazirlamaSuresi": Çipura + Patates 44,
+"zorluk": "orta",
+Çipura + Patates 44,
+"zorluk": "orta",
+"etiketler": [
+Kabak",
+"kategori": "Öğle",
+"sebze",
+"fiber",
+"ogun": "vitamin",
+"ogle",
+"kalori": "sağlıklı",
+"etiketler": [
+Kabak",
+"kategori": "Öğle",
+"sebze",
+"fiber",
+"ogun": "vitamin",
+"ogle",
+"kalori": "sağlıklı",
+"doyurucu",
+523,
+"protein": "türk 31,
+"karbonhidrat": mutfağı"
+]
+},
+{
+"doyurucu",
+523,
+"protein": "türk 31,
+"karbonhidrat": mutfağı"
+]
+},
+{
+"id": 63,
+"yag": "OGLE_B1_134",
+14,
+"malzemeler": "ad": [
+"Sebze "Çipura #4 - 200g",
+"Patates "id": 63,
+"yag": "OGLE_B1_134",
+14,
+"malzemeler": "ad": [
+"Sebze "Çipura #4 - 200g",
+"Patates Enginar Yemeği 120g",
+"Kabak 120g",
+Enginar Yemeği 120g",
+"Kabak 120g",
+"Zeytinyağı "Zeytinyağı 10g",
+(Zeytinyağlı) + "Limon 1/2 Tam adet"
+Buğday ],
+10g",
+(Zeytinyağlı) + "Limon 1/2 Tam adet"
+Buğday ],
+Ekmek",
+"hazirlamaSuresi": "kategori": 44,
+"Öğle",
+"zorluk": "orta",
+"ogun": "ogle",
+"kalori": Ekmek",
+"hazirlamaSuresi": "kategori": 44,
+"Öğle",
+"zorluk": "orta",
+"ogun": "ogle",
+"kalori": "etiketler": [
+507,
+"protein": "omega3",
+"yüksek 25,
+protein",
+"karbonhidrat": "sağlıklı",
+"etiketler": [
+507,
+"protein": "omega3",
+"yüksek 25,
+protein",
+"karbonhidrat": "sağlıklı",
+"türk 69,
+mutfağı",
+"yag": 14,
+"doyurucu",
+"malzemeler": "vitamin"
+[
+"Enginar ]
+},
+{
+"türk 69,
+mutfağı",
+"yag": 14,
+"doyurucu",
+"malzemeler": "vitamin"
+[
+"Enginar ]
+},
+{
+"id": 3 adet "OGLE_B1_184",
+"ad": "Balık #14 - Ton (360g)",
+"Havuç Balıklı "id": 3 adet "OGLE_B1_184",
+"ad": "Balık #14 - Ton (360g)",
+"Havuç Balıklı Bulgur 100g",
+"Bezelye Bulgur 100g",
+"Bezelye Salatası",
+80g",
+"kategori": "Öğle",
+"Zeytinyağı 12g",
+"ogun": "ogle",
+"kalori": "Tam buğday Salatası",
+80g",
+"kategori": "Öğle",
+"Zeytinyağı 12g",
+"ogun": "ogle",
+"kalori": "Tam buğday ekmek ekmek 2 491,
+dilim "protein": (60g)"
+41,
+],
+"hazirlamaSuresi": "karbonhidrat": 49,
+2 491,
+dilim "protein": (60g)"
+41,
+],
+"hazirlamaSuresi": "karbonhidrat": 49,
+27,
+"zorluk": "yag": 15,
+"kolay",
+"malzemeler": [
+"Ton "etiketler": [
+balığı light "sebze",
+"fiber",
+27,
+"zorluk": "yag": 15,
+"kolay",
+"malzemeler": [
+"Ton "etiketler": [
+balığı light "sebze",
+"fiber",
+"vitamin",
+"sağlıklı",
+120g",
+"Bulgur "ekonomik",
+"türk "vitamin",
+"sağlıklı",
+120g",
+"Bulgur "ekonomik",
+"türk 70g",
+70g",
+"Maydanoz mutfağı"
+]
+},
+{
+15g",
+"id": "Taze "OGLE_B1_135",
+"Maydanoz mutfağı"
+]
+},
+{
+15g",
+"id": "Taze "OGLE_B1_135",
+soğan "ad": "Sebze #5 - 20g",
+"Zeytinyağı Peynirli soğan "ad": "Sebze #5 - 20g",
+"Zeytinyağı Peynirli 8g",
+"Limon Menemen + 1/2 adet"
+],
+Tam Buğday "hazirlamaSuresi": 8g",
+"Limon Menemen + 1/2 adet"
+],
+Tam Buğday "hazirlamaSuresi": Ekmek",
+33,
+"kategori": "zorluk": "Öğle",
+"kolay",
+"ogun": "etiketler": [
+"ogle",
+"kalori": Ekmek",
+33,
+"kategori": "zorluk": "Öğle",
+"kolay",
+"ogun": "etiketler": [
+"ogle",
+"kalori": "omega3",
+"omega3",
+454,
+"protein": 25,
+"yüksek "karbonhidrat": protein",
+"sağlıklı",
+"türk mutfağı",
+66,
+"yag": 454,
+"protein": 25,
+"yüksek "karbonhidrat": protein",
+"sağlıklı",
+"türk mutfağı",
+66,
+"yag": 10,
+"malzemeler": "pratik",
+[
+"doyurucu"
+]
+},
+{
+"id": "Yumurta 10,
+"malzemeler": "pratik",
+[
+"doyurucu"
+]
+},
+{
+"id": "Yumurta "OGLE_B1_185",
+2 adet "ad": "Balık (110g)",
+#15 - Hamsi "Domates "OGLE_B1_185",
+2 adet "ad": "Balık (110g)",
+#15 - Hamsi "Domates 200g",
+"Biber 100g",
+Buğulama + "Beyaz 200g",
+"Biber 100g",
+Buğulama + "Beyaz peynir 40g",
+"Zeytinyağı peynir 40g",
+"Zeytinyağı Mısırlı Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+Mısırlı Salata",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 526,
+"protein": 36,
+"karbonhidrat": "kalori": 526,
+"protein": 36,
+"karbonhidrat": 57,
+"yag": 17,
+"malzemeler": [
+"Hamsi 57,
+"yag": 17,
+"malzemeler": [
+"Hamsi 220g",
+220g",
+10g",
+"Tam 10g",
+"Tam "Soğan 60g",
+"Domates buğday 120g",
+ekmek "Zeytinyağı 2 dilim 8g",
+(60g)"
+"Haşlanmış ],
+"Soğan 60g",
+"Domates buğday 120g",
+ekmek "Zeytinyağı 2 dilim 8g",
+(60g)"
+"Haşlanmış ],
+"hazirlamaSuresi": mısır 39,
+"zorluk": "kolay",
+"etiketler": 50g",
+[
+"kalsiyum",
+"sebze",
+"vitamin",
+"hazirlamaSuresi": mısır 39,
+"zorluk": "kolay",
+"etiketler": 50g",
+[
+"kalsiyum",
+"sebze",
+"vitamin",
+"Limon "sağlıklı",
+1/2 "türk mutfağı",
+adet"
+],
+"pratik"
+]
+"hazirlamaSuresi": },
+{
+"id": "OGLE_B1_136",
+"ad": "Sebze #6 - Patatesli 57,
+"zorluk": Ispanak Kavurma + Yoğurt",
+"Limon "sağlıklı",
+1/2 "türk mutfağı",
+adet"
+],
+"pratik"
+]
+"hazirlamaSuresi": },
+{
+"id": "OGLE_B1_136",
+"ad": "Sebze #6 - Patatesli 57,
+"zorluk": Ispanak Kavurma + Yoğurt",
+"orta",
+"kategori": "etiketler": [
+"Öğle",
+"ogun": "ogle",
+"kalori": "omega3",
+"yüksek 483,
+"protein": protein",
+"orta",
+"kategori": "etiketler": [
+"Öğle",
+"ogun": "ogle",
+"kalori": "omega3",
+"yüksek 483,
+"protein": protein",
+"sağlıklı",
+"türk 27,
+"karbonhidrat": mutfağı",
+"doyurucu",
+63,
+"vitamin"
+"yag": "sağlıklı",
+"türk 27,
+"karbonhidrat": mutfağı",
+"doyurucu",
+63,
+"vitamin"
+"yag": ]
+14,
+},
+"malzemeler": {
+"id": [
+"Ispanak "OGLE_B1_186",
+"ad": 300g",
+"Patates ]
+14,
+},
+"malzemeler": {
+"id": [
+"Ispanak "OGLE_B1_186",
+"ad": 300g",
+"Patates 150g",
+"Sebze #11 "Soğan 60g",
+- "Zeytinyağı Patatesli 12g",
+"Yoğurt 150g",
+"Sebze #11 "Soğan 60g",
+- "Zeytinyağı Patatesli 12g",
+"Yoğurt 150g"
+],
+Ispanak "hazirlamaSuresi": Kavurma 45,
+"zorluk": + "orta",
+150g"
+],
+Ispanak "hazirlamaSuresi": Kavurma 45,
+"zorluk": + "orta",
+"etiketler": [
+Yoğurt",
+"sebze",
+"kategori": "fiber",
+"vitamin",
+"Öğle",
+"ogun": "sağlıklı",
+"ogle",
+"etiketler": [
+Yoğurt",
+"sebze",
+"kategori": "fiber",
+"vitamin",
+"Öğle",
+"ogun": "sağlıklı",
+"ogle",
+"kalori": 506,
+"türk "protein": mutfağı",
+41,
+"karbonhidrat": "kalsiyum"
+]
+"kalori": 506,
+"türk "protein": mutfağı",
+41,
+"karbonhidrat": "kalsiyum"
+]
+55,
+},
+{
+"yag": "id": 16,
+"malzemeler": [
+"OGLE_B1_137",
+"Ispanak "ad": "Sebze 55,
+},
+{
+"yag": "id": 16,
+"malzemeler": [
+"OGLE_B1_137",
+"Ispanak "ad": "Sebze #7 - 300g",
+Kuru Biber Dolması "Patates (Pirinçli) 150g",
+"Soğan + 60g",
+Ayran",
+#7 - 300g",
+Kuru Biber Dolması "Patates (Pirinçli) 150g",
+"Soğan + 60g",
+Ayran",
+"kategori": "Öğle",
+"Zeytinyağı "ogun": "ogle",
+"kalori": 12g",
+"Yoğurt 486,
+"kategori": "Öğle",
+"Zeytinyağı "ogun": "ogle",
+"kalori": 12g",
+"Yoğurt 486,
+"protein": 40,
+150g"
+"karbonhidrat": ],
+"hazirlamaSuresi": 45,
+24,
+"zorluk": "yag": "protein": 40,
+150g"
+"karbonhidrat": ],
+"hazirlamaSuresi": 45,
+24,
+"zorluk": "yag": 13,
+"malzemeler": [
+"kolay",
+"Kuru biber "etiketler": 6 adet [
+13,
+"malzemeler": [
+"kolay",
+"Kuru biber "etiketler": 6 adet [
+"sebze",
+(180g)",
+"Pirinç 60g",
+"Soğan 60g",
+"fiber",
+"vitamin",
+"Zeytinyağı "sağlıklı",
+"sebze",
+(180g)",
+"Pirinç 60g",
+"Soğan 60g",
+"fiber",
+"vitamin",
+"Zeytinyağı "sağlıklı",
+12g",
+"Ayran "türk 200ml"
+mutfağı",
+],
+"hazirlamaSuresi": "kalsiyum"
+]
+},
+12g",
+"Ayran "türk 200ml"
+mutfağı",
+],
+"hazirlamaSuresi": "kalsiyum"
+]
+},
+44,
+44,
+{
+"zorluk": "id": "OGLE_B1_187",
+"ad": "kolay",
+"Sebze #12 - "etiketler": [
+{
+"zorluk": "id": "OGLE_B1_187",
+"ad": "kolay",
+"Sebze #12 - "etiketler": [
+Kuru "sebze",
+"fiber",
+"vitamin",
+Biber "sağlıklı",
+"pratik",
+Dolması "türk mutfağı"
+Kuru "sebze",
+"fiber",
+"vitamin",
+Biber "sağlıklı",
+"pratik",
+Dolması "türk mutfağı"
+]
+},
+{
+"id": "OGLE_B1_138",
+"ad": ]
+},
+{
+"id": "OGLE_B1_138",
+"ad": (Pirinçli) + "Sebze #8 - Ayran",
+Fırın "kategori": Sebze Tepsisi (Pirinçli) + "Sebze #8 - Ayran",
+Fırın "kategori": Sebze Tepsisi + "Öğle",
+Bulgur Pilavı",
+"ogun": "ogle",
+"kategori": "kalori": "Öğle",
+518,
+"protein": "ogun": "ogle",
+"kalori": + "Öğle",
+Bulgur Pilavı",
+"ogun": "ogle",
+"kategori": "kalori": "Öğle",
+518,
+"protein": "ogun": "ogle",
+"kalori": 33,
+"karbonhidrat": 486,
+"protein": 61,
+"yag": 23,
+"karbonhidrat": 33,
+"karbonhidrat": 486,
+"protein": 61,
+"yag": 23,
+"karbonhidrat": 17,
+"malzemeler": 71,
+"yag": [
+"Kuru biber 11,
+"malzemeler": 6 adet [
+"Kabak 17,
+"malzemeler": 71,
+"yag": [
+"Kuru biber 11,
+"malzemeler": 6 adet [
+"Kabak 150g",
+(180g)",
+"Patlıcan 150g",
+"Havuç "Pirinç 60g",
+120g",
+"Soğan "Domates 150g",
+(180g)",
+"Patlıcan 150g",
+"Havuç "Pirinç 60g",
+120g",
+"Soğan "Domates 120g",
+"Zeytinyağı 60g",
+"Zeytinyağı 12g",
+"Bulgur 12g",
+60g"
+"Ayran ],
+120g",
+"Zeytinyağı 60g",
+"Zeytinyağı 12g",
+"Bulgur 12g",
+60g"
+"Ayran ],
+200ml"
+],
+"hazirlamaSuresi": "hazirlamaSuresi": 36,
+35,
+"zorluk": "zorluk": "orta",
+200ml"
+],
+"hazirlamaSuresi": "hazirlamaSuresi": 36,
+35,
+"zorluk": "zorluk": "orta",
+"etiketler": [
+"kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sebze",
+"fiber",
+"sağlıklı",
+"etiketler": [
+"kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"sebze",
+"fiber",
+"sağlıklı",
+"vitamin",
+"pratik",
+"sağlıklı",
+"doyurucu",
+"türk "türk mutfağı"
+]
+mutfağı"
+]
+"vitamin",
+"pratik",
+"sağlıklı",
+"doyurucu",
+"türk "türk mutfağı"
+]
+mutfağı"
+]
+},
+},
+{
+{
+"id": "id": "OGLE_B1_188",
+"OGLE_B1_139",
+"ad": "ad": "Sebze "Sebze #9 },
+},
+{
+{
+"id": "id": "OGLE_B1_188",
+"OGLE_B1_139",
+"ad": "ad": "Sebze "Sebze #9 #13 - - #13 - - Fırın Enginar Yemeği Sebze (Zeytinyağlı) Fırın Enginar Yemeği Sebze (Zeytinyağlı) + Tam Tepsisi Buğday + Ekmek",
+"kategori": Bulgur Pilavı",
+"Öğle",
+"kategori": "ogun": "ogle",
+"kalori": + Tam Tepsisi Buğday + Ekmek",
+"kategori": Bulgur Pilavı",
+"Öğle",
+"kategori": "ogun": "ogle",
+"kalori": "Öğle",
+"ogun": 482,
+"protein": "ogle",
+"kalori": 38,
+516,
+"protein": "karbonhidrat": "Öğle",
+"ogun": 482,
+"protein": "ogle",
+"kalori": 38,
+516,
+"protein": "karbonhidrat": 41,
+48,
+"yag": "karbonhidrat": 17,
+"malzemeler": [
+53,
+"Enginar "yag": 3 41,
+48,
+"yag": "karbonhidrat": 17,
+"malzemeler": [
+53,
+"Enginar "yag": 3 adet 16,
+(360g)",
+"malzemeler": [
+"Kabak "Havuç 100g",
+"Bezelye 150g",
+adet 16,
+(360g)",
+"malzemeler": [
+"Kabak "Havuç 100g",
+"Bezelye 150g",
+80g",
+"Patlıcan "Zeytinyağı 12g",
+150g",
+"Tam buğday "Havuç ekmek 2 dilim 80g",
+"Patlıcan "Zeytinyağı 12g",
+150g",
+"Tam buğday "Havuç ekmek 2 dilim 120g",
+(60g)"
+],
+"hazirlamaSuresi": "Domates 120g",
+"Zeytinyağı 29,
+"zorluk": 12g",
+120g",
+(60g)"
+],
+"hazirlamaSuresi": "Domates 120g",
+"Zeytinyağı 29,
+"zorluk": 12g",
+"kolay",
+"kolay",
+"Bulgur 60g"
+],
+"etiketler": [
+"sebze",
+"fiber",
+"hazirlamaSuresi": "vitamin",
+23,
+"zorluk": "Bulgur 60g"
+],
+"etiketler": [
+"sebze",
+"fiber",
+"hazirlamaSuresi": "vitamin",
+23,
+"zorluk": "sağlıklı",
+"ekonomik",
+"türk "orta",
+mutfağı"
+"etiketler": ]
+[
+},
+{
+"id": "sağlıklı",
+"ekonomik",
+"türk "orta",
+mutfağı"
+"etiketler": ]
+[
+},
+{
+"id": "sebze",
+"sebze",
+"fiber",
+"OGLE_B1_140",
+"vitamin",
+"ad": "sağlıklı",
+"Sebze #10 - "doyurucu",
+"fiber",
+"OGLE_B1_140",
+"vitamin",
+"ad": "sağlıklı",
+"Sebze #10 - "doyurucu",
+Peynirli "türk Menemen mutfağı"
+]
++ },
+Tam {
+Buğday Ekmek",
+"kategori": "id": "Öğle",
+Peynirli "türk Menemen mutfağı"
+]
++ },
+Tam {
+Buğday Ekmek",
+"kategori": "id": "Öğle",
+"OGLE_B1_189",
+"OGLE_B1_189",
+"ad": "ogun": "ogle",
+"Sebze #14 - Enginar "kalori": 454,
+"protein": 25,
+Yemeği "ad": "ogun": "ogle",
+"Sebze #14 - Enginar "kalori": 454,
+"protein": 25,
+Yemeği "karbonhidrat": 66,
+"yag": 10,
+"malzemeler": (Zeytinyağlı) + [
+"Yumurta "karbonhidrat": 66,
+"yag": 10,
+"malzemeler": (Zeytinyağlı) + [
+"Yumurta Tam 2 Buğday adet (110g)",
+"Domates Ekmek",
+"kategori": "Öğle",
+200g",
+"Biber Tam 2 Buğday adet (110g)",
+"Domates Ekmek",
+"kategori": "Öğle",
+200g",
+"Biber 100g",
+"Beyaz "ogun": peynir 40g",
+"Zeytinyağı 10g",
+100g",
+"Beyaz "ogun": peynir 40g",
+"Zeytinyağı 10g",
+"Tam buğday ekmek 2 "ogle",
+"kalori": dilim (60g)"
+493,
+],
+"protein": "hazirlamaSuresi": 29,
+"karbonhidrat": "Tam buğday ekmek 2 "ogle",
+"kalori": dilim (60g)"
+493,
+],
+"protein": "hazirlamaSuresi": 29,
+"karbonhidrat": 63,
+"yag": 15,
+"malzemeler": 33,
+[
+"Enginar "zorluk": 3 "kolay",
+adet 63,
+"yag": 15,
+"malzemeler": 33,
+[
+"Enginar "zorluk": 3 "kolay",
+adet "etiketler": "etiketler": [
+(360g)",
+"kalsiyum",
+"Havuç "sebze",
+100g",
+"vitamin",
+"Bezelye 80g",
+"sağlıklı",
+[
+(360g)",
+"kalsiyum",
+"Havuç "sebze",
+100g",
+"vitamin",
+"Bezelye 80g",
+"sağlıklı",
+"Zeytinyağı "türk mutfağı",
+12g",
+"pratik"
+"Tam ]
+},
+{
+buğday ekmek "id": 2 "OGLE_B1_141",
+dilim "Zeytinyağı "türk mutfağı",
+12g",
+"pratik"
+"Tam ]
+},
+{
+buğday ekmek "id": 2 "OGLE_B1_141",
+dilim (60g)"
+(60g)"
+"ad": ],
+"hazirlamaSuresi": "Baklagil 27,
+"zorluk": "ad": ],
+"hazirlamaSuresi": "Baklagil 27,
+"zorluk": #1 #1 - "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+- "kolay",
+"etiketler": [
+"sebze",
+"fiber",
+"vitamin",
+"vitamin",
+Tahinli "sağlıklı",
+Nohut "ekonomik",
+Yemeği + "türk Esmer mutfağı"
+Tahinli "sağlıklı",
+Nohut "ekonomik",
+Yemeği + "türk Esmer mutfağı"
+]
+},
+{
+"id": "OGLE_B1_190",
+"ad": Pirinç "Sebze ]
+},
+{
+"id": "OGLE_B1_190",
+"ad": Pirinç "Sebze Pilavı",
+Pilavı",
+#15 - "kategori": Peynirli Menemen + "Öğle",
+"ogun": "ogle",
+"kalori": #15 - "kategori": Peynirli Menemen + "Öğle",
+"ogun": "ogle",
+"kalori": 513,
+513,
+"protein": Tam Buğday Ekmek",
+"kategori": 31,
+"karbonhidrat": "Öğle",
+63,
+"ogun": "protein": Tam Buğday Ekmek",
+"kategori": 31,
+"karbonhidrat": "Öğle",
+63,
+"ogun": "yag": "yag": "ogle",
+"kalori": 15,
+"malzemeler": [
+"Nohut 428,
+"protein": 28,
+"karbonhidrat": haşlanmış "ogle",
+"kalori": 15,
+"malzemeler": [
+"Nohut 428,
+"protein": 28,
+"karbonhidrat": haşlanmış 180g",
+55,
+"yag": "Tahin 12,
+"malzemeler": [
+180g",
+55,
+"yag": "Tahin 12,
+"malzemeler": [
+10g",
+"Yumurta "Soğan 60g",
+2 adet 10g",
+"Yumurta "Soğan 60g",
+2 adet (110g)",
+(110g)",
+"Domates "Domates 120g",
+200g",
+"Esmer pirinç 60g",
+"Domates "Domates 120g",
+200g",
+"Esmer pirinç 60g",
+"Biber 100g",
+"Zeytinyağı "Beyaz peynir 8g"
+40g",
+],
+"Biber 100g",
+"Zeytinyağı "Beyaz peynir 8g"
+40g",
+],
+"hazirlamaSuresi": "Zeytinyağı 45,
+10g",
+"zorluk": "Tam "orta",
+buğday ekmek 2 "hazirlamaSuresi": "Zeytinyağı 45,
+10g",
+"zorluk": "Tam "orta",
+buğday ekmek 2 "etiketler": [
+dilim (60g)"
+"fiber",
+],
+"hazirlamaSuresi": "vejetaryen",
+34,
+"zorluk": "etiketler": [
+dilim (60g)"
+"fiber",
+],
+"hazirlamaSuresi": "vejetaryen",
+34,
+"zorluk": "ekonomik",
+"sağlıklı",
+"türk "kolay",
+"etiketler": [
+mutfağı",
+"kalsiyum",
+"ekonomik",
+"sağlıklı",
+"türk "kolay",
+"etiketler": [
+mutfağı",
+"kalsiyum",
+"sebze",
+"doyurucu"
+]
+},
+{
+"id": "vitamin",
+"sağlıklı",
+"OGLE_B1_142",
+"ad": "sebze",
+"doyurucu"
+]
+},
+{
+"id": "vitamin",
+"sağlıklı",
+"OGLE_B1_142",
+"ad": "Baklagil "türk #2 mutfağı",
+- Mercimek Köftesi + "pratik"
+]
+},
+"Baklagil "türk #2 mutfağı",
+- Mercimek Köftesi + "pratik"
+]
+},
+{
+Ayran",
+"kategori": "id": "Öğle",
+"OGLE_B1_191",
+"ad": "ogun": "ogle",
+"kalori": "Baklagil #11 {
+Ayran",
+"kategori": "id": "Öğle",
+"OGLE_B1_191",
+"ad": "ogun": "ogle",
+"kalori": "Baklagil #11 - 496,
+"protein": Tahinli 31,
+"karbonhidrat": Nohut 61,
+- 496,
+"protein": Tahinli 31,
+"karbonhidrat": Nohut 61,
+"yag": 14,
+"malzemeler": [
+Yemeği + Esmer "yag": 14,
+"malzemeler": [
+Yemeği + Esmer "Kırmızı mercimek Pirinç Pilavı",
+120g",
+"kategori": "İnce "Öğle",
+"Kırmızı mercimek Pirinç Pilavı",
+120g",
+"kategori": "İnce "Öğle",
+"ogun": "ogun": bulgur "ogle",
+"kalori": 80g",
+"Soğan 60g",
+525,
+"Maydanoz "protein": bulgur "ogle",
+"kalori": 80g",
+"Soğan 60g",
+525,
+"Maydanoz "protein": 32,
+"karbonhidrat": 20g",
+65,
+"yag": "Zeytinyağı 8g",
+15,
+32,
+"karbonhidrat": 20g",
+65,
+"yag": "Zeytinyağı 8g",
+15,
+"malzemeler": "Ayran [
+"Nohut 200ml"
+],
+haşlanmış "hazirlamaSuresi": 180g",
+23,
+"zorluk": "malzemeler": "Ayran [
+"Nohut 200ml"
+],
+haşlanmış "hazirlamaSuresi": 180g",
+23,
+"zorluk": "kolay",
+"etiketler": "Tahin [
+10g",
+"Soğan 60g",
+"fiber",
+"vejetaryen",
+"kolay",
+"etiketler": "Tahin [
+10g",
+"Soğan 60g",
+"fiber",
+"vejetaryen",
+"ekonomik",
+"Domates 120g",
+"sağlıklı",
+"türk mutfağı",
+"Esmer "pratik"
+pirinç ]
+"ekonomik",
+"Domates 120g",
+"sağlıklı",
+"türk mutfağı",
+"Esmer "pratik"
+pirinç ]
+},
+{
+"id": 60g",
+"Zeytinyağı "OGLE_B1_143",
+"ad": "Baklagil #3 - },
+{
+"id": 60g",
+"Zeytinyağı "OGLE_B1_143",
+"ad": "Baklagil #3 - 8g"
+],
+8g"
+],
+"hazirlamaSuresi": Barbunya 42,
+"zorluk": Güveç + "hazirlamaSuresi": Barbunya 42,
+"zorluk": Güveç + "kolay",
+"etiketler": Yoğurt",
+[
+"fiber",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kolay",
+"etiketler": Yoğurt",
+[
+"fiber",
+"kategori": "Öğle",
+"ogun": "ogle",
+"kalori": "kalori": "vejetaryen",
+517,
+"protein": "ekonomik",
+31,
+"karbonhidrat": "sağlıklı",
+"vejetaryen",
+517,
+"protein": "ekonomik",
+31,
+"karbonhidrat": "sağlıklı",
+"türk 61,
+"yag": mutfağı",
+16,
+"malzemeler": "doyurucu"
+[
+"Barbunya ]
+"türk 61,
+"yag": mutfağı",
+16,
+"malzemeler": "doyurucu"
+[
+"Barbunya ]
+haşlanmış haşlanmış },
+{
+"id": "OGLE_B1_192",
+200g",
+"ad": "Baklagil "Soğan #12 - 60g",
+Mercimek },
+{
+"id": "OGLE_B1_192",
+200g",
+"ad": "Baklagil "Soğan #12 - 60g",
+Mercimek "Domates Köftesi 120g",
++ "Zeytinyağı Ayran",
+"Domates Köftesi 120g",
++ "Zeytinyağı Ayran",
+"kategori": 10g",
+"kategori": 10g",
+"Öğle",
+"Yoğurt 150g"
+],
+"ogun": "hazirlamaSuresi": "ogle",
+"kalori": "Öğle",
+"Yoğurt 150g"
+],
+"ogun": "hazirlamaSuresi": "ogle",
+"kalori": 27,
+"zorluk": 517,
+"protein": 26,
+"kolay",
+"karbonhidrat": "etiketler": [
+75,
+27,
+"zorluk": 517,
+"protein": 26,
+"kolay",
+"karbonhidrat": "etiketler": [
+75,
+"yag": "fiber",
+"vejetaryen",
+12,
+"malzemeler": [
+"sağlıklı",
+"türk "yag": "fiber",
+"vejetaryen",
+12,
+"malzemeler": [
+"sağlıklı",
+"türk mutfağı",
+mutfağı",
+"Kırmızı mercimek "doyurucu",
+120g",
+"İnce "kalsiyum"
+]
+"Kırmızı mercimek "doyurucu",
+120g",
+"İnce "kalsiyum"
+]
+bulgur },
+{
+"id": 80g",
+"OGLE_B1_144",
+"ad": "Soğan 60g",
+"Baklagil #4 "Maydanoz - Pilav bulgur },
+{
+"id": 80g",
+"OGLE_B1_144",
+"ad": "Soğan 60g",
+"Baklagil #4 "Maydanoz - Pilav Üstü 20g",
+"Zeytinyağı Kuru Fasulye 8g",
+Üstü 20g",
+"Zeytinyağı Kuru Fasulye 8g",
+"Ayran 200ml"
+],
+"hazirlamaSuresi": 23,
+"zorluk": "Ayran 200ml"
+],
+"hazirlamaSuresi": 23,
+"zorluk": (Etsiz) + "kolay",
+"etiketler": [
+"fiber",
+Turşu",
+"kategori": (Etsiz) + "kolay",
+"etiketler": [
+"fiber",
+Turşu",
+"kategori": "vejetaryen",
+"vejetaryen",
+"ekonomik",
+"Öğle",
+"ogun": "sağlıklı",
+"türk "ogle",
+"kalori": mutfağı",
+"ekonomik",
+"Öğle",
+"ogun": "sağlıklı",
+"türk "ogle",
+"kalori": mutfağı",
+"ad": "Baklagil 59,
+"yag": #13 - 15,
+"malzemeler": Barbunya [
+"Kuru fasulye Güveç haşlanmış + 200g",
+Yoğurt",
+"Pirinç 60g",
+"Domates "kategori": salçası 10g",
+"Zeytinyağı 10g",
+"Salatalık turşu 40g"
+],
+"hazirlamaSuresi": "Öğle",
+42,
+"ogun": "zorluk": "ogle",
+"kalori": "kolay",
+"etiketler": 490,
+[
+"protein": "fiber",
+"vejetaryen",
+33,
+"ekonomik",
+"karbonhidrat": 55,
+"yag": 16,
+"malzemeler": "sağlıklı",
+"türk [
+"Barbunya haşlanmış 200g",
+"Soğan 60g",
+"Domates mutfağı",
+120g",
+"Zeytinyağı 10g",
+"doyurucu"
+"Yoğurt 150g"
+],
+"hazirlamaSuresi": ]
+},
+24,
+"zorluk": {
+"id": "kolay",
+"etiketler": [
+"OGLE_B1_145",
+"ad": "kalsiyum",
+"fiber",
+"Baklagil #5 - Zeytinyağlı "vejetaryen",
+Börülce + Tam "sağlıklı",
+"türk mutfağı",
+"doyurucu"
+]
+},
+{
+"id": Buğday Ekmek",
+"OGLE_B1_194",
+"ad": "kategori": "Öğle",
+"ogun": "ogle",
+"kalori": "Baklagil #14 - 487,
+Pilav "protein": 33,
+"karbonhidrat": 59,
+"yag": Üstü 14,
+"malzemeler": [
+"Börülce haşlanmış Kuru 200g",
+Fasulye "Soğan 60g",
+"Domates 120g",
+"Zeytinyağı (Etsiz) + 10g",
+"Tam buğday ekmek 2 Turşu",
+"kategori": dilim "Öğle",
+(60g)"
+],
+"ogun": "hazirlamaSuresi": "ogle",
+"kalori": 512,
+36,
+"zorluk": "protein": "kolay",
+33,
+"karbonhidrat": "etiketler": [
+63,
+"yag": "fiber",
+"vejetaryen",
+15,
+"malzemeler": "ekonomik",
+[
+"Kuru "sağlıklı",
+"türk fasulye haşlanmış mutfağı",
+200g",
+"pratik"
+]
+},
+{
+"id": "Pirinç 60g",
+"OGLE_B1_146",
+"Domates "ad": "Baklagil #6 - salçası 10g",
+Tahinli Nohut "Zeytinyağı Yemeği + Esmer 10g",
+"Salatalık Pirinç Pilavı",
+turşu "kategori": "Öğle",
+"ogun": "ogle",
+"kalori": 40g"
+],
+"hazirlamaSuresi": 524,
+"protein": 41,
+34,
+"zorluk": "karbonhidrat": "kolay",
+53,
+"yag": "etiketler": [
+17,
+"malzemeler": "fiber",
+[
+"Nohut "vejetaryen",
+haşlanmış 180g",
+"Tahin "ekonomik",
+10g",
+"sağlıklı",
+"Soğan "türk 60g",
+mutfağı",
+"Domates "doyurucu"
+120g",
+]
+"Esmer },
+{
+"id": pirinç 60g",
+"Zeytinyağı "OGLE_B1_195",
+8g"
+"ad": ],
+"Baklagil "hazirlamaSuresi": #15 - Zeytinyağlı 43,
+"zorluk": Börülce "kolay",
++ Tam Buğday "etiketler": Ekmek",
+[
+"fiber",
+"vejetaryen",
+"kategori": "ekonomik",
+"Öğle",
+"ogun": "ogle",
+"sağlıklı",
+"kalori": "türk 480,
+"protein": mutfağı",
+"doyurucu"
+35,
+]
+"karbonhidrat": },
+{
+"id": 53,
+"yag": 15,
+"malzemeler": "OGLE_B1_147",
+"ad": [
+"Börülce "Baklagil #7 - haşlanmış Mercimek Köftesi + 200g",
+Ayran",
+"kategori": "Soğan "Öğle",
+60g",
+"Domates "ogun": "ogle",
+120g",
+"Zeytinyağı 10g",
+"Tam buğday ekmek 2 dilim (60g)"
+],
+"hazirlamaSuresi": 24,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk "kalori": mutfağı",
+"pratik"
+]
+},
+{
+"id": 498,
+"OGLE_B1_196",
+"ad": "protein": 38,
+"karbonhidrat": "Makarna/Pilav 53,
+"yag": 16,
+"malzemeler": #6 - [
+"Kırmızı mercimek 120g",
+"İnce bulgur Yoğurtlu 80g",
+"Soğan 60g",
+"Maydanoz 20g",
+"Zeytinyağı 8g",
+"Ayran 200ml"
+],
+"hazirlamaSuresi": Erişte + 41,
+"zorluk": "kolay",
+"etiketler": [
+"fiber",
+"vejetaryen",
+"ekonomik",
+"sağlıklı",
+"türk Kıymalı mutfağı",
+"pratik"
+]
+},
+{
+"id": "OGLE_B1_148",
+"ad": "Baklagil #8 - Sos",
+"kategori": Barbunya Güveç + Yoğurt",
+"Öğle",
+"kategori": "ogun": "ogle",
+"kalori": "Öğle",
+"ogun": 517,
+"ogle",
+"protein": "kalori": 513,
+"protein": 36,
+"karbonhidrat": 38,
+61,
+"karbonhidrat": "yag": 53,
+14,
+"yag": "malzemeler": [
+"Erişte 16,
+"malzemeler": [
+"Barbunya haşlanmış 200g",
+80g",
+"Yoğurt 150g",
+"Soğan "Dana 60g",
+"Domates 120g",
+"Zeytinyağı kıyma 120g",
+10g",
+"Yoğurt "Sarımsak 1 150g"
+],
+"hazirlamaSuresi": 44,
+"zorluk": diş "kolay",
+"etiketler": [
+"kalsiyum",
+(3g)",
+"fiber",
+"vejetaryen",
+"Zeytinyağı 8g",
+"sağlıklı",
+"türk "Nane mutfağı",
+"doyurucu"
+]
+},
+{
+"id": 2g"
+],
+"hazirlamaSuresi": "OGLE_B1_149",
+21,
+"ad": "zorluk": "Baklagil #9 - Pilav Üstü "orta",
+Kuru Fasulye "etiketler": [
+(Etsiz) + "pratik",
+Turşu",
+"kategori": "kalsiyum",
+"Öğle",
+"ogun": "doyurucu",
+"türk "ogle",
+mutfağı",
+"kalori": "ekonomik",
+497,
+"protein": "yüksek protein"
+25,
+"karbonhidrat": ]
+},
+{
+"id": 66,
+"yag": 13,
+"OGLE_B1_197",
+"malzemeler": "ad": [
+"Kuru "Makarna/Pilav #7 - Ton fasulye haşlanmış 200g",
+"Pirinç Balıklı 60g",
+"Domates salçası 10g",
+Kepekli "Zeytinyağı 10g",
+"Salatalık turşu Makarna",
+"kategori": 40g"
+],
+"Öğle",
+"ogun": "hazirlamaSuresi": "ogle",
+"kalori": 21,
+"zorluk": 503,
+"protein": "kolay",
+36,
+"karbonhidrat": "etiketler": [
+"fiber",
+"vejetaryen",
+59,
+"yag": "ekonomik",
+14,
+"malzemeler": [
+"sağlıklı",
+"Kepekli "türk makarna mutfağı",
+80g",
+"doyurucu"
+]
+"Ton balığı light },
+{
+"id": 100g",
+"Domates "OGLE_B1_150",
+"ad": "Baklagil #10 - 150g",
+Zeytinyağlı "Zeytinyağı Börülce + Tam 8g",
+Buğday Ekmek",
+"kategori": "Maydanoz 10g"
+"Öğle",
+],
+"ogun": "hazirlamaSuresi": "ogle",
+"kalori": 501,
+"protein": 35,
+"zorluk": 24,
+"karbonhidrat": "kolay",
+"etiketler": [
+71,
+"yag": "omega3",
+12,
+"pratik",
+"malzemeler": [
+"Börülce "ekonomik",
+Şimdi JSON haşlanmış dosyasını "doyurucu",
+200g",
+"Soğan 60g",
+"türk "Domates mutfağı",
+120g",
+"Zeytinyağı 10g",
+"yüksek protein"
+]
+},
+"Tam buğday {
+"id": assets/data/ ekmek 2 klasörüne dilim kaydediyorum.
+
+"OGLE_B1_198",
+(60g)"
+<write_to_file>
+"ad": ],
+"Makarna/Pilav "hazirlamaSuresi": #8 - 43,
+"zorluk": "kolay",
+Sebzeli "etiketler": [
+Arpa "fiber",
+"vejetaryen",
+<path>assets/data/ogle_yemegi_batch_200.json</path>
+<content>
+[
+"ekonomik",
+{
+"id": "sağlıklı",
+"türk Şehriye mutfağı",
+"pratik"
+]
+Pilavı },
+{
+"id": "OGLE_B1_151",
+"ad": (Ana "OGLE_B1_101",
+Yemek)",
+"kategori": "Çorba+Ana "Öğle",
+"ogun": "ogle",
+#1 "kalori": - 537,
+"protein": Ezogelin 35,
+Çorbası + "karbonhidrat": Tavuk 59,
+"yag": 16,
+Şiş "malzemeler": [
+"Arpa + şehriye 90g",
+Bulgur Pilavı",
+"Kabak "kategori": 120g",
+"Öğle",
+"ogun": "ogle",
+"kalori": "Bezelye 80g",
+"ad": "Tavuk #1 - Izgara Tavuk "Havuç But + Firik 540,
+"protein": Bulguru 39,
+Pilavı 80g",
++ Çoban "Zeytinyağı "karbonhidrat": 63,
+"yag": 10g"
+],
+15,
+"malzemeler": [
+"hazirlamaSuresi": 24,
+"zorluk": "Kırmızı "kolay",
+Salata",
+mercimek "kategori": "Öğle",
+"ogun": "etiketler": [
+60g",
+"sebze",
+"Bulgur "ogle",
+"pratik",
+30g",
+"ekonomik",
+"Soğan "kalori": "doyurucu",
+"türk mutfağı",
+40g",
+"Zeytinyağı "vitamin"
+8g",
+]
+"Tavuk },
+{
+508,
+"id": "protein": "OGLE_B1_199",
+41,
+"karbonhidrat": 53,
+göğsü "ad": 150g",
+"yag": "Bulgur "Makarna/Pilav #9 - 15,
+Nohutlu Kuskus 60g"
+],
+"malzemeler": "hazirlamaSuresi": 65,
+[
+"zorluk": (Ana "Tavuk but Yemek) + "orta",
+Ayran",
+"kategori": "etiketler": [
+180g",
+"Firik "Öğle",
+bulguru "doyurucu",
+"ogun": "ogle",
+"kalori": "sağlıklı",
+70g",
+"türk mutfağı",
+486,
+"protein": "pratik",
+38,
+"yüksek "karbonhidrat": protein",
+49,
+"yag": 15,
+"vitamin"
+"malzemeler": ]
+[
+},
+{
+"id": "OGLE_B1_152",
+"Kuskus 80g",
+"Nohut "ad": "Çorba+Ana haşlanmış "Domates #2 80g",
+- "Salatalık 80g",
+"Soğan 40g",
+120g",
+"Zeytinyağı 10g",
+"Limon Yayla Çorbası + Izgara "Domates 120g",
+Köfte + 1/2 "Zeytinyağı 10g",
+"Ayran adet"
+],
+200ml"
+],
+Salata",
+"hazirlamaSuresi": "kategori": "Öğle",
+39,
+"zorluk": "ogun": "ogle",
+"kalori": "kolay",
+"etiketler": [
+488,
+"hazirlamaSuresi": "protein": 43,
+"kalsiyum",
+31,
+"karbonhidrat": "pratik",
+"ekonomik",
+"zorluk": 57,
+"yag": 14,
+"doyurucu",
+"türk mutfağı",
+"malzemeler": [
+"orta",
+"fiber"
+]
+},
+"Yoğurt 150g",
+{
+"id": "Pirinç "OGLE_B1_200",
+"ad": "etiketler": 30g",
+[
+"Makarna/Pilav #10 - Etli "Nane Tel "yüksek protein",
+"ekonomik",
+2g",
+Şehriye "Dana Pilavı",
+"kategori": "Öğle",
+"türk mutfağı",
+"ogun": "pratik",
+"ogle",
+"kalori": "vitamin",
+540,
+"protein": kıyma 150g",
+43,
+"doyurucu"
+"karbonhidrat": "Marul 53,
+"yag": 60g",
+18,
+"malzemeler": "Domates ]
+},
+[
+{
+"id": "Tel şehriye 80g",
+"OGLE_B1_102",
+"ad": "Zeytinyağı 90g",
+"Dana "Tavuk #2 - Tavuklu 6g"
+],
+Kapya "hazirlamaSuresi": kuşbaşı Biber 58,
+"zorluk": 120g",
+"Zeytinyağı "kolay",
+Sote + 10g",
+"etiketler": "Domates [
+"kalsiyum",
+120g",
+Kepekli "doyurucu",
+"Maydanoz 10g"
+],
+Pirinç "hazirlamaSuresi": "sağlıklı",
+"türk mutfağı",
+"pratik",
+40,
+"zorluk": "yüksek "kolay",
+"etiketler": protein"
+]
+[
+},
+{
+"düşük "id": "OGLE_B1_153",
+yağ",
+"ad": "pratik",
+"Çorba+Ana Pilavı",
+"ekonomik",
+"kategori": "Öğle",
+"ogun": #3 - "doyurucu",
+"ogle",
+"kalori": "türk 488,
+"protein": mutfağı"
+]
+Tarhana Çorbası }
++ 42,
+]
+Et "karbonhidrat": 

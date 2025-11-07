@@ -149,7 +149,7 @@ class AntrenmanPageContent extends StatelessWidget {
                     ...Zorluk.values.map((zorluk) {
                       return _buildFilterChip(
                         context,
-                        '${zorluk.emoji} ${zorluk.ad}',
+                        '${zorluk.emoji} ${zorluk.displayName}',
                         isSelected: state.filtreZorluk == zorluk,
                         onTap: () {
                           context.read<AntrenmanBloc>().add(FilterByZorluk(zorluk));
@@ -273,7 +273,7 @@ class AntrenmanPageContent extends StatelessWidget {
                   children: [
                     _buildInfoBadge(
                       program.zorluk.emoji,
-                      program.zorluk.ad,
+                      program.zorluk.displayName,
                       Colors.orange,
                     ),
                     const SizedBox(width: 8),

@@ -1,8 +1,8 @@
-// ============================================================================
-// lib/domain/services/malzeme_parser_servisi.dart
-// 🔍 MALZEME PARSE EDİCİ SERVİSİ
+// // // 🔍 MALZEME PARSE EDİCİ SERVİSİ
 // String malzemeleri besin/miktar/birim formatına çevirir
 // ============================================================================
+
+import '../../core/utils/app_logger.dart';
 
 class ParsedMalzeme {
   final double miktar;
@@ -49,9 +49,11 @@ class MalzemeParserServisi {
       final birim = match0.group(3)!.toLowerCase();
 
       if (miktar != null) {
+        final normalizedBirim = _normalizeBirim(birim);
+        AppLogger.debug('✅ [Pattern 0] Parse edildi: "$temizMetin" → $besinAdi ($miktar $normalizedBirim)');
         return ParsedMalzeme(
           miktar: miktar,
-          birim: _normalizeBirim(birim),
+          birim: normalizedBirim,
           besinAdi: besinAdi,
           orijinalMetin: temizMetin,
         );
@@ -75,9 +77,11 @@ class MalzemeParserServisi {
       final besinAdi = match1.group(3)!.trim();
 
       if (miktar != null) {
+        final normalizedBirim = _normalizeBirim(birim);
+        AppLogger.debug('✅ [Pattern 1] Parse edildi: "$temizMetin" → $besinAdi ($miktar $normalizedBirim)');
         return ParsedMalzeme(
           miktar: miktar,
-          birim: _normalizeBirim(birim),
+          birim: normalizedBirim,
           besinAdi: besinAdi,
           orijinalMetin: temizMetin,
         );
@@ -101,9 +105,12 @@ class MalzemeParserServisi {
       final besinAdi = match2.group(4)!.trim();
 
       if (pay != null && payda != null && payda != 0) {
+        final miktar = pay / payda;
+        final normalizedBirim = _normalizeBirim(birim);
+        AppLogger.debug('✅ [Pattern 2] Parse edildi (kesirli): "$temizMetin" → $besinAdi ($miktar $normalizedBirim)');
         return ParsedMalzeme(
-          miktar: pay / payda,
-          birim: _normalizeBirim(birim),
+          miktar: miktar,
+          birim: normalizedBirim,
           besinAdi: besinAdi,
           orijinalMetin: temizMetin,
         );
@@ -126,6 +133,7 @@ class MalzemeParserServisi {
       final besinAdi = match3.group(2)!.trim();
 
       if (miktar != null) {
+        AppLogger.debug('✅ [Pattern 3] Parse edildi: "$temizMetin" → $besinAdi ($miktar adet)');
         return ParsedMalzeme(
           miktar: miktar,
           birim: 'adet', // Default "adet"
@@ -150,9 +158,11 @@ class MalzemeParserServisi {
       final birim = match4.group(1)!.toLowerCase();
       final besinAdi = match4.group(2)!.trim();
 
+      final normalizedBirim = _normalizeBirim(birim);
+      AppLogger.debug('✅ [Pattern 4] Parse edildi: "$temizMetin" → $besinAdi (1.0 $normalizedBirim)');
       return ParsedMalzeme(
         miktar: 1.0, // Varsayılan 1
-        birim: _normalizeBirim(birim),
+        birim: normalizedBirim,
         besinAdi: besinAdi,
         orijinalMetin: temizMetin,
       );
@@ -163,6 +173,7 @@ class MalzemeParserServisi {
     // Örn: "tuz", "karabiber", "zeytinyağı" (ölçüsüz baharatlar)
     // Bu durumda null döndürüyoruz - alternatif sistemine dahil edilmeyecek
     // ========================================================================
+    AppLogger.warning('⚠️ Parse edilemedi: "$temizMetin" (ölçü bilgisi bulunamadı)');
     return null;
   }
 

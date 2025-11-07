@@ -1,67 +1,155 @@
-// ============================================================================
-// EGZERSİZ ENTITY - FAZ 9
-// ============================================================================
+import 'package:equatable/equatable.dart';
 
-/// Zorluk seviyeleri
-enum Zorluk {
-  baslangic('Başlangıç', '🟢'),
-  orta('Orta', '🟡'),
-  ileri('İleri', '🔴'),
-  profesyonel('Profesyonel', '⚫');
-
-  final String ad;
-  final String emoji;
-
-  const Zorluk(this.ad, this.emoji);
-}
-
-/// Egzersiz kategorileri
 enum EgzersizKategorisi {
-  kardiyovaskuler('Kardiyovasküler', '🏃'),
-  guc('Güç', '💪'),
-  esneklik('Esneklik', '🧘'),
-  denge('Denge', '⚖️'),
-  hiit('HIIT', '⚡'),
-  yoga('Yoga', '🕉️'),
-  pilates('Pilates', '🤸');
+  kardiyovaskuler,
+  guc,
+  esneklik,
+  denge,
+  hiit,
+  yoga,
+  pilates;
 
-  final String ad;
-  final String emoji;
+  String get displayName {
+    switch (this) {
+      case EgzersizKategorisi.kardiyovaskuler:
+        return 'Kardiyovasküler';
+      case EgzersizKategorisi.guc:
+        return 'Güç';
+      case EgzersizKategorisi.esneklik:
+        return 'Esneklik';
+      case EgzersizKategorisi.denge:
+        return 'Denge';
+      case EgzersizKategorisi.hiit:
+        return 'HIIT';
+      case EgzersizKategorisi.yoga:
+        return 'Yoga';
+      case EgzersizKategorisi.pilates:
+        return 'Pilates';
+    }
+  }
 
-  const EgzersizKategorisi(this.ad, this.emoji);
+  String get emoji {
+    switch (this) {
+      case EgzersizKategorisi.kardiyovaskuler:
+        return '🏃';
+      case EgzersizKategorisi.guc:
+        return '💪';
+      case EgzersizKategorisi.esneklik:
+        return '🤸';
+      case EgzersizKategorisi.denge:
+        return '⚖️';
+      case EgzersizKategorisi.hiit:
+        return '🔥';
+      case EgzersizKategorisi.yoga:
+        return '🧘';
+      case EgzersizKategorisi.pilates:
+        return '🤸‍♀️';
+    }
+  }
 }
 
-/// Hedef kas grupları
+enum Zorluk {
+  baslangic,
+  orta,
+  ileri,
+  profesyonel;
+
+  String get displayName {
+    switch (this) {
+      case Zorluk.baslangic:
+        return 'Başlangıç';
+      case Zorluk.orta:
+        return 'Orta';
+      case Zorluk.ileri:
+        return 'İleri';
+      case Zorluk.profesyonel:
+        return 'Profesyonel';
+    }
+  }
+
+  String get emoji {
+    switch (this) {
+      case Zorluk.baslangic:
+        return '🟢';
+      case Zorluk.orta:
+        return '🟡';
+      case Zorluk.ileri:
+        return '🟠';
+      case Zorluk.profesyonel:
+        return '🔴';
+    }
+  }
+}
+
 enum KasGrubu {
-  gogus('Göğüs', '💪'),
-  sirt('Sırt', '🦾'),
-  bacak('Bacak', '🦵'),
-  omuz('Omuz', '💪'),
-  kol('Kol', '💪'),
-  karin('Karın', '🔥'),
-  tumVucut('Tüm Vücut', '🏋️');
+  gogus,
+  sirt,
+  bacak,
+  omuz,
+  kol,
+  karin,
+  kardiyo,
+  tumVucut;
 
-  final String ad;
-  final String emoji;
+  String get displayName {
+    switch (this) {
+      case KasGrubu.gogus:
+        return 'Göğüs';
+      case KasGrubu.sirt:
+        return 'Sırt';
+      case KasGrubu.bacak:
+        return 'Bacak';
+      case KasGrubu.omuz:
+        return 'Omuz';
+      case KasGrubu.kol:
+        return 'Kol';
+      case KasGrubu.karin:
+        return 'Karın';
+      case KasGrubu.kardiyo:
+        return 'Kardiyo';
+      case KasGrubu.tumVucut:
+        return 'Tüm Vücut';
+    }
+  }
 
-  const KasGrubu(this.ad, this.emoji);
+  String get emoji {
+    switch (this) {
+      case KasGrubu.gogus:
+        return '💪';
+      case KasGrubu.sirt:
+        return '🏋️';
+      case KasGrubu.bacak:
+        return '🦵';
+      case KasGrubu.omuz:
+        return '🤸';
+      case KasGrubu.kol:
+        return '💪';
+      case KasGrubu.karin:
+        return '🎯';
+      case KasGrubu.kardiyo:
+        return '🏃';
+      case KasGrubu.tumVucut:
+        return '🔥';
+    }
+  }
 }
 
-/// Egzersiz entity'si
-class Egzersiz {
+class Egzersiz extends Equatable {
   final String id;
   final String ad;
   final String aciklama;
-  final int sure; // Saniye cinsinden
-  final int kalori; // Tahmini yakılan kalori
+  final int sure; // saniye cinsinden
+  final int kalori;
   final Zorluk zorluk;
+  final KasGrubu kasGrubu;
   final EgzersizKategorisi kategori;
-  final List<KasGrubu> hedefKaslar;
+  final List<KasGrubu> hedefKaslar; // Birden fazla kas grubu çalışabilir
+  final List<String> talimatlar; // Adım adım talimatlar
+  final int? tekrarSayisi; // Kaç tekrar (opsiyonel)
+  final int? setSayisi; // Kaç set (opsiyonel)
   final String? videoUrl;
+  final List<String> ekipmanlar;
   final String? gorselUrl;
-  final List<String> talimatlar;
-  final int? tekrarSayisi;
-  final int? setSayisi;
 
   const Egzersiz({
     required this.id,
@@ -70,32 +158,39 @@ class Egzersiz {
     required this.sure,
     required this.kalori,
     required this.zorluk,
+    required this.kasGrubu,
     required this.kategori,
-    required this.hedefKaslar,
-    this.videoUrl,
-    this.gorselUrl,
-    required this.talimatlar,
+    this.hedefKaslar = const [],
+    this.talimatlar = const [],
     this.tekrarSayisi,
     this.setSayisi,
+    this.videoUrl,
+    this.ekipmanlar = const [],
+    this.gorselUrl,
   });
 
-  /// Egzersiz bilgileri özeti
-  String get bilgiOzeti {
-    final sureDk = (sure / 60).ceil();
-    final kaslar = hedefKaslar.map((k) => k.ad).join(', ');
-    return '$sureDk dk • ${zorluk.ad} • $kalori kcal • $kaslar';
+  String get formattedSure {
+    final dakika = sure ~/ 60;
+    final saniye = sure % 60;
+    if (dakika > 0) {
+      return saniye > 0 ? '${dakika}d ${saniye}s' : '${dakika}d';
+    }
+    return '${saniye}s';
   }
 
-  /// Set/tekrar bilgisi varsa formatla
+  String get formattedKalori => '${kalori} kcal';
+
+  /// Set/tekrar bilgisi özeti
   String? get setTekrarBilgisi {
     if (setSayisi != null && tekrarSayisi != null) {
       return '$setSayisi set x $tekrarSayisi tekrar';
-    } else if (tekrarSayisi != null) {
-      return '$tekrarSayisi tekrar';
-    } else if (setSayisi != null) {
-      return '$setSayisi set';
     }
     return null;
+  }
+
+  /// Egzersiz özet bilgisi
+  String get bilgiOzeti {
+    return setTekrarBilgisi ?? formattedSure;
   }
 
   Egzersiz copyWith({
@@ -105,13 +200,15 @@ class Egzersiz {
     int? sure,
     int? kalori,
     Zorluk? zorluk,
+    KasGrubu? kasGrubu,
     EgzersizKategorisi? kategori,
     List<KasGrubu>? hedefKaslar,
-    String? videoUrl,
-    String? gorselUrl,
     List<String>? talimatlar,
     int? tekrarSayisi,
     int? setSayisi,
+    String? videoUrl,
+    List<String>? ekipmanlar,
+    String? gorselUrl,
   }) {
     return Egzersiz(
       id: id ?? this.id,
@@ -120,13 +217,39 @@ class Egzersiz {
       sure: sure ?? this.sure,
       kalori: kalori ?? this.kalori,
       zorluk: zorluk ?? this.zorluk,
+      kasGrubu: kasGrubu ?? this.kasGrubu,
       kategori: kategori ?? this.kategori,
       hedefKaslar: hedefKaslar ?? this.hedefKaslar,
-      videoUrl: videoUrl ?? this.videoUrl,
-      gorselUrl: gorselUrl ?? this.gorselUrl,
       talimatlar: talimatlar ?? this.talimatlar,
       tekrarSayisi: tekrarSayisi ?? this.tekrarSayisi,
       setSayisi: setSayisi ?? this.setSayisi,
+      videoUrl: videoUrl ?? this.videoUrl,
+      ekipmanlar: ekipmanlar ?? this.ekipmanlar,
+      gorselUrl: gorselUrl ?? this.gorselUrl,
     );
+  }
+
+  @override
+  List<Object?> get props => [
+        id,
+        ad,
+        aciklama,
+        sure,
+        kalori,
+        zorluk,
+        kasGrubu,
+        kategori,
+        hedefKaslar,
+        talimatlar,
+        tekrarSayisi,
+        setSayisi,
+        videoUrl,
+        ekipmanlar,
+        gorselUrl,
+      ];
+
+  @override
+  String toString() {
+    return 'Egzersiz(id: $id, ad: $ad, zorluk: $zorluk, kasGrubu: $kasGrubu, sure: $sure, kalori: $kalori)';
   }
 }

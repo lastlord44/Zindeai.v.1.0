@@ -60,6 +60,11 @@ class YemekHiveModel extends HiveObject {
   @HiveField(15)
   List<Map<String, dynamic>>? alternatives;
 
+  @HiveField(16)
+  bool? isFavorite; // 🌟 Favori özelliği
+
+  @HiveField(17)
+  String? proteinSource; // 🍗 Ana Protein Kaynağı (Tavuk, Et, Balık, vs.)
 
   // Constructor
   YemekHiveModel({
@@ -79,6 +84,8 @@ class YemekHiveModel extends HiveObject {
     this.imageUrl,
     this.tags,
     this.alternatives,
+    this.isFavorite, // 🌟 Favori
+    this.proteinSource, // 🍗 Ana Protein Kaynağı
   });
 
   /// JSON'dan YemekHiveModel oluştur (3 format desteği)
@@ -122,6 +129,8 @@ class YemekHiveModel extends HiveObject {
         imageUrl: json['gorselUrl']?.toString(),
         tags: _parseStringList(json['etiketler']),
         alternatives: _parseAlternatives(json['alternatifler']),
+        isFavorite: json['isFavorite'] as bool? ?? false, // 🌟 Favori
+        proteinSource: json['proteinKaynagi']?.toString() ?? json['protein_source']?.toString(),
       );
     } else if (eskiFormatV2) {
       // 📜 FORMAT 2: ESKİ İNGİLİZCE V2 (calories-çoğul, protein, carbs, fat)
@@ -149,6 +158,8 @@ class YemekHiveModel extends HiveObject {
         imageUrl: json['image_url']?.toString(),
         tags: _parseStringList(json['tags']),
         alternatives: _parseAlternatives(json['alternatives']),
+        isFavorite: json['isFavorite'] as bool? ?? false, // 🌟 Favori
+        proteinSource: json['protein_source']?.toString(),
       );
     } else {
       // 📜 FORMAT 3: ESKİ İNGİLİZCE V1 (calorie-tekil, protein_g, carb_g, fat_g)
@@ -176,11 +187,19 @@ class YemekHiveModel extends HiveObject {
         imageUrl: json['image_url']?.toString(),
         tags: _parseStringList(json['tags']),
         alternatives: _parseAlternatives(json['alternatives']),
+        isFavorite: json['isFavorite'] as bool? ?? false, // 🌟 Favori
+        proteinSource: json['protein_source']?.toString(),
       );
     }
 
     // 🔥 SON KONTROL: mealId hala null ise unique ID ata
     model.mealId ??= generateMealId();
+
+    // 🍗 Protein kaynağı otomatik tespit (eğer yoksa)
+    model.proteinSource ??= _detectProteinSource(
+      model.mealName ?? '',
+      model.ingredients ?? [],
+    );
 
     return model;
   }
@@ -214,7 +233,7 @@ class YemekHiveModel extends HiveObject {
     return Yemek(
       id: mealId ?? '',
       ad: finalMealName,
-      ogun: _categoryToOgunTipi(category ?? ''),
+      ogun: Yemek.ogunTipiFromString(category ?? 'kahvalti'),
       kalori: calorie ?? 0.0,
       protein: proteinG ?? 0.0,
       karbonhidrat: carbG ?? 0.0,
@@ -226,6 +245,7 @@ class YemekHiveModel extends HiveObject {
       etiketler: tags ?? [],
       tarif: recipe,
       gorselUrl: imageUrl,
+      proteinKaynagi: proteinSource,
     );
   }
 
@@ -286,6 +306,8 @@ class YemekHiveModel extends HiveObject {
       imageUrl: yemek.gorselUrl,
       tags: yemek.etiketler,
       alternatives: yemek.alternatifler.map((a) => a.toJson()).toList(),
+      isFavorite: false, // 🌟 Default false
+      proteinSource: yemek.proteinKaynagi,
     );
   }
 
@@ -308,6 +330,8 @@ class YemekHiveModel extends HiveObject {
       'image_url': imageUrl,
       'tags': tags,
       'alternatives': alternatives,
+      'isFavorite': isFavorite, // 🌟 Favori
+      'protein_source': proteinSource, // 🍗 Ana Protein Kaynağı
     };
   }
 
@@ -379,44 +403,6 @@ class YemekHiveModel extends HiveObject {
     }
   }
 
-  /// Kategori string'ini OgunTipi enum'una çevir
-  static OgunTipi _categoryToOgunTipi(String category) {
-    switch (category.toLowerCase()) {
-      case 'kahvaltı':
-      case 'kahvalti': // Türkçe karakter yok
-      case 'kahvalt':
-        return OgunTipi.kahvalti;
-      case 'ara öğün 1':
-      case 'ara ogun 1': // Türkçe karakter yok
-      case 'ara_ogun_1': // 🔥 FIX: Underscore formatı
-        return OgunTipi.araOgun1;
-      case 'öğle':
-      case 'ogle': // Türkçe karakter yok
-      case 'öğle yemeği':
-      case 'ogle yemegi': // Türkçe karakter yok
-        return OgunTipi.ogle;
-      case 'ara öğün 2':
-      case 'ara ogun 2': // Türkçe karakter yok
-      case 'ara_ogun_2': // 🔥 FIX: Underscore formatı - KRITIK!
-        return OgunTipi.araOgun2;
-      case 'akşam':
-      case 'aksam': // Türkçe karakter yok
-      case 'akşam yemeği':
-      case 'aksam yemegi': // Türkçe karakter yok
-        return OgunTipi.aksam;
-      case 'gece atıştırma':
-      case 'gece atıştırması':
-      case 'gece atistirma': // Türkçe karakter yok
-      case 'gece atistirmasi': // Türkçe karakter yok
-      case 'gece_atistirmasi': // 🔥 FIX: Underscore formatı
-        return OgunTipi.geceAtistirma;
-      case 'cheat meal':
-      case 'cheat_meal': // 🔥 FIX: Underscore formatı
-        return OgunTipi.cheatMeal;
-      default:
-        return OgunTipi.kahvalti;
-    }
-  }
 
   /// Zorluk string'ini Zorluk enum'una çevir
   static Zorluk _difficultyToZorluk(String difficulty) {
@@ -430,5 +416,78 @@ class YemekHiveModel extends HiveObject {
       default:
         return Zorluk.kolay;
     }
+  }
+
+  /// 🍗 Yemek adından ve malzemelerden protein kaynağını otomatik tespit et
+  static String _detectProteinSource(String mealName, List<String> ingredients) {
+    final nameLower = mealName.toLowerCase();
+    final ingredientsLower = ingredients.map((i) => i.toLowerCase()).join(' ');
+    final combined = '$nameLower $ingredientsLower';
+
+    // 1. Tavuk
+    if (combined.contains('tavuk') || combined.contains('chicken') ||
+        combined.contains('piliç') || combined.contains('kanat')) {
+      return 'Tavuk';
+    }
+
+    // 2. Et (Dana/Kuzu)
+    if (combined.contains('köfte') || combined.contains('kıyma') ||
+        combined.contains('kuşbaşı') || combined.contains('dana') ||
+        combined.contains('kuzu') || combined.contains('biftek') ||
+        combined.contains('kebap') || combined.contains('etli') ||
+        combined.contains('beef') || combined.contains('meat')) {
+      return 'Et';
+    }
+
+    // 3. Balık
+    if (combined.contains('somon') || combined.contains('levrek') ||
+        combined.contains('çipura') || combined.contains('hamsi') ||
+        combined.contains('palamut') || combined.contains('uskumru') ||
+        combined.contains('ton') || combined.contains('sardalya') ||
+        combined.contains('balık') || combined.contains('fish') ||
+        combined.contains('istavrit') || combined.contains('mezgit') ||
+        combined.contains('lüfer') || combined.contains('alabalık')) {
+      return 'Balık';
+    }
+
+    // 4. Deniz Ürünleri
+    if (combined.contains('karides') || combined.contains('midye') ||
+        combined.contains('kalamar') || combined.contains('ahtapot') ||
+        combined.contains('shrimp') || combined.contains('seafood')) {
+      return 'Deniz Ürünleri';
+    }
+
+    // 5. Yumurta
+    if (combined.contains('yumurta') || combined.contains('omlet') ||
+        combined.contains('menemen') || combined.contains('çılbır') ||
+        combined.contains('sahanda') || combined.contains('egg')) {
+      return 'Yumurta';
+    }
+
+    // 6. Baklagil (Protein açısından önemli)
+    if (combined.contains('mercimek') || combined.contains('nohut') ||
+        combined.contains('fasulye') || combined.contains('börülce') ||
+        combined.contains('bakla') || combined.contains('lentil') ||
+        combined.contains('chickpea') || combined.contains('bean')) {
+      return 'Baklagil';
+    }
+
+    // 7. Süt Ürünleri (Peynir ağırlıklı)
+    if (combined.contains('peynir') || combined.contains('lor') ||
+        combined.contains('kaşar') || combined.contains('labne') ||
+        combined.contains('cheese') || combined.contains('cottage')) {
+      return 'Süt Ürünleri';
+    }
+
+    // 8. Sebze (Vejetaryen - Et/Tavuk/Balık yok ama sebze ağırlıklı)
+    if (combined.contains('sebze') || combined.contains('zeytinyağlı') ||
+        combined.contains('patlıcan') || combined.contains('kabak') ||
+        combined.contains('ispanak') || combined.contains('türlü') ||
+        combined.contains('vegetable') || combined.contains('vejetaryen')) {
+      return 'Sebze';
+    }
+
+    // 9. Default - Karma
+    return 'Karma';
   }
 }

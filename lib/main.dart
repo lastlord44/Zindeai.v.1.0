@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:path_provider/path_provider.dart';
 import 'data/local/hive_service.dart';
 import 'data/datasources/yemek_hive_data_source.dart';
 import 'domain/usecases/ogun_planlayici.dart';
@@ -17,6 +18,8 @@ import 'domain/entities/kullanici_profili.dart';
 import 'core/utils/app_logger.dart';
 import 'core/utils/yemek_migration_3000.dart';
 import 'test_makro_fix.dart'; // 🔧 Test widget
+import 'package:zinde_ai/utils/db_maintenance.dart';
+import 'package:zinde_ai/utils/seed_loader.dart';
 
 // ============================================================================
 // MAKRO HESAPLAMA EKRANI - DİNAMİK GÜNCELLEME + ALERJİ SİSTEMİ
@@ -38,7 +41,7 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
   final _alerjiController = TextEditingController();
 
   Cinsiyet _cinsiyet = Cinsiyet.erkek;
-  Hedef _hedef = Hedef.kasKazanKiloAl;
+  Hedef _hedef = Hedef.kiloVermek;
   AktiviteSeviyesi _aktivite = AktiviteSeviyesi.ortaAktif;
   DiyetTipi _diyetTipi = DiyetTipi.normal;
   List<String> _manuelAlerjiler = [];
@@ -550,27 +553,14 @@ class _MacroCalculatorPageState extends State<MacroCalculatorPage> {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  AppLogger.init(level: LogLevel.debug);
 
-  // Hive'ı başlat
-  try {
-    await HiveService.init();
-    AppLogger.info('✅ Hive başarıyla başlatıldı');
-  } catch (e) {
-    AppLogger.error('❌ Hive başlatma hatası: $e');
-  }
+  // ☢️ Veritabanını tamamen temizle
+  await DbMaintenance.nukeAll();
 
-  // 🚀 3000 YEMEK MİGRATION FLAG
-  const MIGRATION_3000_AKTIF = false; // ✅ Migration tamamlandı - KAPALI
-
-  if (MIGRATION_3000_AKTIF) {
-    try {
-      AppLogger.info('🚀 3000 Yemek Migration başlatılıyor...');
-      await YemekMigration3000.yukle();
-      AppLogger.info('✅ 3000 Yemek Migration tamamlandı!');
-    } catch (e) {
-      AppLogger.error('❌ Migration hatası: $e');
-    }
-  }
+  // ♻️ Hive'ı yeniden başlat ve çekirdek veriyi yükle
+  await HiveService.init();
+  await SeedLoader.loadCoreSeeds();
 
   runApp(const MyApp());
 }
@@ -587,7 +577,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
         useMaterial3: true,
       ),
-      home: const YeniHomePage(),
+      home: const YeniHomePage(), // Normal mod
+      // home: TestAIPromptWidget(), // 🧪 TEST MODU: AI Prompt Test
     );
   }
 }
@@ -609,7 +600,6 @@ class HomePage extends StatelessWidget {
         planlayici: OgunPlanlayici(
           dataSource: YemekHiveDataSource(),
         ),
-        malzemeBazliPlanlayici: null, // ⚡ Eski sistem kullanılıyor - HIZLI!
         makroHesaplama: MakroHesapla(),
         aiServisi: AIBeslenmeServisi(), // 🤖 AI SERVİSİ EKLENDI
       )..add(LoadHomePage()),
@@ -952,7 +942,7 @@ class HomePageView extends StatelessWidget {
       boy: 180,
       mevcutKilo: 75,
       hedefKilo: 80,
-      hedef: Hedef.kasKazanKiloAl,
+      hedef: Hedef.kiloVermek,
       aktiviteSeviyesi: AktiviteSeviyesi.ortaAktif,
       diyetTipi: DiyetTipi.normal,
       manuelAlerjiler: [],

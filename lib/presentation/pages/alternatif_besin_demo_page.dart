@@ -430,8 +430,10 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
                       ),
                     ),
                     const SizedBox(height: 12),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    Wrap(
+                      spacing: 16,
+                      runSpacing: 12,
+                      alignment: WrapAlignment.spaceAround,
                       children: [
                         _buildNutrientInfo(
                           '🔥',
@@ -489,17 +491,16 @@ class _AlternatifBesinDemoPageState extends State<AlternatifBesinDemoPage> {
             ),
           ),
           const SizedBox(height: 8),
-          Row(
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
             children: [
               _buildBadge('🔥 ${alternatif.kalori.toStringAsFixed(0)} kcal',
                   Colors.orange),
-              const SizedBox(width: 8),
               _buildBadge(
                   '💪 ${alternatif.protein.toStringAsFixed(1)}g', Colors.red),
-              const SizedBox(width: 8),
               _buildBadge('🍚 ${alternatif.karbonhidrat.toStringAsFixed(1)}g',
                   Colors.amber),
-              const SizedBox(width: 8),
               _buildBadge(
                   '🥑 ${alternatif.yag.toStringAsFixed(1)}g', Colors.green),
             ],

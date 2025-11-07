@@ -93,8 +93,6 @@ class SuOnerisiServisi {
         return 0.5; // +500ml
       case AktiviteSeviyesi.cokAktif:
         return 0.7; // +700ml
-      case AktiviteSeviyesi.ekstraAktif:
-        return 1.0; // +1000ml
     }
   }
   
@@ -123,9 +121,9 @@ class SuOnerisiServisi {
   /// Hedef bazlı su eki
   static double _hedefBazliSuEki(Hedef hedef) {
     switch (hedef) {
-      case Hedef.kiloVer:
+      case Hedef.kiloVermek:
         return 0.3; // Metabolizmayı hızlandırmak için
-      case Hedef.kiloAl:
+      case Hedef.kiloAlmak:
         return 0.2; // Kilo alma için
       case Hedef.kasKazanKiloAl:
         return 0.5; // Hem kas hem kilo için
@@ -208,16 +206,15 @@ class SuOnerisiServisi {
     }
     
     // Aktivite seviyesine göre
-    if (kullanici.aktiviteSeviyesi == AktiviteSeviyesi.cokAktif ||
-        kullanici.aktiviteSeviyesi == AktiviteSeviyesi.ekstraAktif) {
+    if (kullanici.aktiviteSeviyesi == AktiviteSeviyesi.cokAktif) {
       tavsiyeler.add('💪 Antrenman öncesi/sonrası ekstra su alın');
       tavsiyeler.add('🧂 Elektrolit dengesi için biraz tuz ekleyin');
     }
     
     // Hedefe göre
-    if (kullanici.hedef == Hedef.kiloVer) {
+    if (kullanici.hedef == Hedef.kiloVermek) {
       tavsiyeler.add('🔥 Su metabolizmanızı hızlandırır - tok hissettir');
-    } else if (kullanici.hedef == Hedef.kasKazanKiloAl || kullanici.hedef == Hedef.kasKazanKiloVer) {
+    } else if (kullanici.hedef == Hedef.kasKazanKiloAl) {
       tavsiyeler.add('💪 Kas sentezi için protein öğünlerinde su artırın');
     }
     

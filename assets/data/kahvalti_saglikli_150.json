@@ -1,0 +1,9010 @@
+[
+  {
+    "meal_id": "kah_001",
+    "meal_name": "Nohut Salatası + Tam Buğday",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 365,
+    "protein": 16,
+    "karbonhidrat": 46,
+    "yag": 14,
+    "malzemeler": [
+      "Nohut Salatası",
+      "Tam Buğday (2)",
+      "Domates (1)",
+      "Salatalık (1)",
+      "Zeytin (10)"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "vegan",
+      "protein"
+    ]
+  },
+  {
+    "meal_id": "kah_002",
+    "meal_name": "Mercimek Ekmeği + Domates",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 350,
+    "protein": 17,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Mercimek Buğday Ekmeği (2)",
+      "Domates (1)",
+      "Yeşil Biber (1)",
+      "Maydanoz"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "vegan",
+      "protein"
+    ]
+  },
+  {
+    "meal_id": "kah_003",
+    "meal_name": "Soya Yoğurdu + Meyve + Granola",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 345,
+    "protein": 15,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Soya Yoğurdu (200g)",
+      "Granola (30g)",
+      "Yaban Mersini (80g)",
+      "Keten (10g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "vegan",
+      "probiyotik"
+    ]
+  },
+  {
+    "meal_id": "kah_004",
+    "meal_name": "Çökelek + Tam Tahıllı Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 315,
+    "protein": 18,
+    "karbonhidrat": 35,
+    "yag": 10,
+    "malzemeler": [
+      "Çökelek (80g)",
+      "Tam Buğday (2)",
+      "Domates (1)",
+      "Yeşil Biber (1)",
+      "Maydanoz"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "düşük yağ",
+      "protein"
+    ]
+  },
+  {
+    "meal_id": "kah_005",
+    "meal_name": "Yulaf + Süt + Kayısı + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 370,
+    "protein": 15,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "malzemeler": [
+      "Yulaf (50g)",
+      "Süzme Yoğurt (100g)",
+      "Kayısı (kuru, 5)",
+      "Ceviz (20g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "dengeli",
+      "lif"
+    ]
+  },
+  {
+    "meal_id": "kah_006",
+    "meal_name": "Yulaf + Hurma + Badem Ezmesi + Kakao",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 380,
+    "protein": 15,
+    "karbonhidrat": 50,
+    "yag": 14,
+    "malzemeler": [
+      "Yulaf (50g)",
+      "Süt (200ml)",
+      "Hurma (3)",
+      "Badem Ezmesi (20g)",
+      "Kakao (5g)"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "dengeli",
+      "enerji"
+    ]
+  },
+  {
+    "meal_id": "kah_007",
+    "meal_name": "Yulaf + Böğürtlen + Fındık + Bal",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 355,
+    "protein": 16,
+    "karbonhidrat": 45,
+    "yag": 13,
+    "malzemeler": [
+      "Yulaf (50g)",
+      "Yoğurt (100g)",
+      "Böğürtlen (80g)",
+      "Fındık (20g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "dengeli",
+      "antioksidan"
+    ]
+  },
+  {
+    "meal_id": "kah_008",
+    "meal_name": "Protein Yoğurt + Karabuğday + Ahududu",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 355,
+    "protein": 25,
+    "karbonhidrat": 37,
+    "yag": 11,
+    "malzemeler": [
+      "Protein Yoğurt (200g)",
+      "Karabuğday Gevreği (30g)",
+      "Ahududu (80g)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "yüksek protein",
+      "gluten-free"
+    ]
+  },
+  {
+    "meal_id": "kah_009",
+    "meal_name": "Yulaf Kepeği + Süzme Yoğurt + Elma",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 360,
+    "protein": 23,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (200g)",
+      "Yulaf Kepeği (30g)",
+      "Elma (1, dilimlenmiş)",
+      "Ceviz (20g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "yüksek protein",
+      "lif"
+    ]
+  },
+  {
+    "meal_id": "kah_010",
+    "meal_name": "Kaşar + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 358,
+    "protein": 14,
+    "karbonhidrat": 54,
+    "yag": 18,
+    "malzemeler": [
+      "Kaşar",
+      "Bal",
+      "Ceviz"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_011",
+    "meal_name": "Tahin Pekmez + Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 324,
+    "protein": 17,
+    "karbonhidrat": 38,
+    "yag": 13,
+    "malzemeler": [
+      "Tahin Pekmez",
+      "Ekmek"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_012",
+    "meal_name": "Lor Peyniri + Zeytin",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 448,
+    "protein": 17,
+    "karbonhidrat": 45,
+    "yag": 9,
+    "malzemeler": [
+      "Lor Peyniri",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_013",
+    "meal_name": "Haşlanmış Yumurta + Peynir",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 348,
+    "protein": 16,
+    "karbonhidrat": 33,
+    "yag": 13,
+    "malzemeler": [
+      "Haşlanmış Yumurta",
+      "Peynir"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_014",
+    "meal_name": "Yumurta + Ezine Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 357,
+    "protein": 26,
+    "karbonhidrat": 38,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta",
+      "Ezine Peyniri",
+      "Simit"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_015",
+    "meal_name": "Süzme Yoğurt + Meyve",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 300,
+    "protein": 23,
+    "karbonhidrat": 43,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt",
+      "Meyve"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_016",
+    "meal_name": "Beyaz Peynir + Domates + Salatalık",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 423,
+    "protein": 25,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Beyaz Peynir",
+      "Domates",
+      "Salatalık"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_017",
+    "meal_name": "Omlet + Beyaz Peynir",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 329,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 14,
+    "malzemeler": [
+      "Omlet",
+      "Beyaz Peynir"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_018",
+    "meal_name": "Menemen + Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 314,
+    "protein": 26,
+    "karbonhidrat": 47,
+    "yag": 17,
+    "malzemeler": [
+      "Menemen",
+      "Ekmek"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_019",
+    "meal_name": "Yoğurt + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 396,
+    "protein": 21,
+    "karbonhidrat": 52,
+    "yag": 11,
+    "malzemeler": [
+      "Yoğurt",
+      "Bal",
+      "Ceviz"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_020",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 270,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_021",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 271,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_022",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 272,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_023",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 273,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_024",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 274,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_025",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 275,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_026",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 276,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_027",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 277,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_028",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 278,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_029",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 279,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_030",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 280,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_031",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 281,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_032",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 282,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_033",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 283,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_034",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 284,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_035",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 285,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_036",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 286,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_037",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 287,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_038",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 288,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_039",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 289,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_040",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 290,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_041",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 291,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_042",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 292,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_043",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 293,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_044",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 294,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_045",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 295,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_046",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 296,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_047",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 297,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_048",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 298,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_049",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 299,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_050",
+    "meal_name": "Yumurta (2 adet) + Labne + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 300,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_051",
+    "meal_name": "Yumurta (2 adet) + Labne + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 301,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_052",
+    "meal_name": "Yumurta (2 adet) + Labne + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 302,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_053",
+    "meal_name": "Yumurta (2 adet) + Labne + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 303,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_054",
+    "meal_name": "Yumurta (2 adet) + Labne + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 304,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_055",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 305,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_056",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 306,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_057",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 307,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_058",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 308,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_059",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 309,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_060",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 310,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_061",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 311,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_062",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 312,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_063",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 313,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_064",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 314,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_065",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 315,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_066",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 316,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_067",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 317,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_068",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 318,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_069",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 319,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_070",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 320,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_071",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 321,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_072",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 322,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_073",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 323,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_074",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 324,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_075",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 325,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_076",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 326,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_077",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 327,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_078",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 328,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_079",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 329,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_080",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 330,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_081",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 331,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_082",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 332,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_083",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 333,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_084",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 334,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_085",
+    "meal_name": "Yumurta (3 adet) + Labne + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 335,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_086",
+    "meal_name": "Yumurta (3 adet) + Labne + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 336,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_087",
+    "meal_name": "Yumurta (3 adet) + Labne + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 337,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_088",
+    "meal_name": "Yumurta (3 adet) + Labne + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 338,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_089",
+    "meal_name": "Yumurta (3 adet) + Labne + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 339,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_090",
+    "meal_name": "Omlet + Beyaz Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 340,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Omlet",
+      "Beyaz Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_091",
+    "meal_name": "Omlet + Beyaz Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 341,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Omlet",
+      "Beyaz Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_092",
+    "meal_name": "Omlet + Beyaz Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 342,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Omlet",
+      "Beyaz Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_093",
+    "meal_name": "Omlet + Beyaz Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 343,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Omlet",
+      "Beyaz Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_094",
+    "meal_name": "Omlet + Beyaz Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 344,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Omlet",
+      "Beyaz Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_095",
+    "meal_name": "Omlet + Lor Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 345,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Omlet",
+      "Lor Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_096",
+    "meal_name": "Omlet + Lor Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 346,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Omlet",
+      "Lor Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_097",
+    "meal_name": "Omlet + Lor Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 347,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Omlet",
+      "Lor Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_098",
+    "meal_name": "Omlet + Lor Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 348,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Omlet",
+      "Lor Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_099",
+    "meal_name": "Omlet + Lor Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 349,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 13,
+    "malzemeler": [
+      "Omlet",
+      "Lor Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_100",
+    "meal_name": "Omlet + Kaşar Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 350,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 14,
+    "malzemeler": [
+      "Omlet",
+      "Kaşar Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_101",
+    "meal_name": "Omlet + Kaşar Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 351,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 15,
+    "malzemeler": [
+      "Omlet",
+      "Kaşar Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_102",
+    "meal_name": "Omlet + Kaşar Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 352,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 16,
+    "malzemeler": [
+      "Omlet",
+      "Kaşar Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_103",
+    "meal_name": "Omlet + Kaşar Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 353,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "malzemeler": [
+      "Omlet",
+      "Kaşar Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_104",
+    "meal_name": "Omlet + Kaşar Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 354,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 18,
+    "malzemeler": [
+      "Omlet",
+      "Kaşar Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_105",
+    "meal_name": "Omlet + Ezine Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 355,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 19,
+    "malzemeler": [
+      "Omlet",
+      "Ezine Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_106",
+    "meal_name": "Omlet + Ezine Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 356,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 20,
+    "malzemeler": [
+      "Omlet",
+      "Ezine Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_107",
+    "meal_name": "Omlet + Ezine Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 357,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 21,
+    "malzemeler": [
+      "Omlet",
+      "Ezine Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_108",
+    "meal_name": "Omlet + Ezine Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 358,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 10,
+    "malzemeler": [
+      "Omlet",
+      "Ezine Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_109",
+    "meal_name": "Omlet + Ezine Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 359,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "malzemeler": [
+      "Omlet",
+      "Ezine Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_110",
+    "meal_name": "Omlet + Tulum Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 360,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Omlet",
+      "Tulum Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_111",
+    "meal_name": "Omlet + Tulum Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 361,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "malzemeler": [
+      "Omlet",
+      "Tulum Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_112",
+    "meal_name": "Omlet + Tulum Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 362,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 14,
+    "malzemeler": [
+      "Omlet",
+      "Tulum Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_113",
+    "meal_name": "Omlet + Tulum Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 363,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "malzemeler": [
+      "Omlet",
+      "Tulum Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_114",
+    "meal_name": "Omlet + Tulum Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 364,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 16,
+    "malzemeler": [
+      "Omlet",
+      "Tulum Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_115",
+    "meal_name": "Omlet + Çökelek + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 365,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 17,
+    "malzemeler": [
+      "Omlet",
+      "Çökelek",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_116",
+    "meal_name": "Omlet + Çökelek + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 366,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 18,
+    "malzemeler": [
+      "Omlet",
+      "Çökelek",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_117",
+    "meal_name": "Omlet + Çökelek + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 367,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Omlet",
+      "Çökelek",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_118",
+    "meal_name": "Omlet + Çökelek + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 368,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 20,
+    "malzemeler": [
+      "Omlet",
+      "Çökelek",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_119",
+    "meal_name": "Omlet + Çökelek + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 369,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 21,
+    "malzemeler": [
+      "Omlet",
+      "Çökelek",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_120",
+    "meal_name": "Omlet + Labne + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 370,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 10,
+    "malzemeler": [
+      "Omlet",
+      "Labne",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_121",
+    "meal_name": "Omlet + Labne + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 371,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 11,
+    "malzemeler": [
+      "Omlet",
+      "Labne",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_122",
+    "meal_name": "Omlet + Labne + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 372,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 12,
+    "malzemeler": [
+      "Omlet",
+      "Labne",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_123",
+    "meal_name": "Omlet + Labne + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 373,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 13,
+    "malzemeler": [
+      "Omlet",
+      "Labne",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_124",
+    "meal_name": "Omlet + Labne + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 374,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Omlet",
+      "Labne",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_125",
+    "meal_name": "Menemen + Beyaz Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 375,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 15,
+    "malzemeler": [
+      "Menemen",
+      "Beyaz Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_126",
+    "meal_name": "Menemen + Beyaz Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 376,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 16,
+    "malzemeler": [
+      "Menemen",
+      "Beyaz Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_127",
+    "meal_name": "Menemen + Beyaz Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 377,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 17,
+    "malzemeler": [
+      "Menemen",
+      "Beyaz Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_128",
+    "meal_name": "Menemen + Beyaz Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 378,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 18,
+    "malzemeler": [
+      "Menemen",
+      "Beyaz Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_129",
+    "meal_name": "Menemen + Beyaz Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 379,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 19,
+    "malzemeler": [
+      "Menemen",
+      "Beyaz Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_130",
+    "meal_name": "Menemen + Lor Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 380,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 20,
+    "malzemeler": [
+      "Menemen",
+      "Lor Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_131",
+    "meal_name": "Menemen + Lor Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 381,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 21,
+    "malzemeler": [
+      "Menemen",
+      "Lor Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_132",
+    "meal_name": "Menemen + Lor Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 382,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Menemen",
+      "Lor Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_133",
+    "meal_name": "Menemen + Lor Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 383,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Menemen",
+      "Lor Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_134",
+    "meal_name": "Menemen + Lor Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 384,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Menemen",
+      "Lor Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_135",
+    "meal_name": "Menemen + Kaşar Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 385,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Menemen",
+      "Kaşar Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_136",
+    "meal_name": "Menemen + Kaşar Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 386,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Menemen",
+      "Kaşar Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_137",
+    "meal_name": "Menemen + Kaşar Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 387,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Menemen",
+      "Kaşar Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_138",
+    "meal_name": "Menemen + Kaşar Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 388,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Menemen",
+      "Kaşar Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_139",
+    "meal_name": "Menemen + Kaşar Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 389,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Menemen",
+      "Kaşar Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_140",
+    "meal_name": "Menemen + Ezine Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 390,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 18,
+    "malzemeler": [
+      "Menemen",
+      "Ezine Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_141",
+    "meal_name": "Menemen + Ezine Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 391,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 19,
+    "malzemeler": [
+      "Menemen",
+      "Ezine Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_142",
+    "meal_name": "Menemen + Ezine Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 392,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Menemen",
+      "Ezine Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_143",
+    "meal_name": "Menemen + Ezine Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 393,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Menemen",
+      "Ezine Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_144",
+    "meal_name": "Menemen + Ezine Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 394,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Menemen",
+      "Ezine Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_145",
+    "meal_name": "Menemen + Tulum Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 395,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Menemen",
+      "Tulum Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_146",
+    "meal_name": "Menemen + Tulum Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 396,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Menemen",
+      "Tulum Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_147",
+    "meal_name": "Menemen + Tulum Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 397,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "malzemeler": [
+      "Menemen",
+      "Tulum Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_148",
+    "meal_name": "Menemen + Tulum Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 398,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 14,
+    "malzemeler": [
+      "Menemen",
+      "Tulum Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_149",
+    "meal_name": "Menemen + Tulum Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 399,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Menemen",
+      "Tulum Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_150",
+    "meal_name": "Menemen + Çökelek + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 400,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Menemen",
+      "Çökelek",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_151",
+    "meal_name": "Menemen + Çökelek + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 401,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Menemen",
+      "Çökelek",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_152",
+    "meal_name": "Menemen + Çökelek + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 402,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Menemen",
+      "Çökelek",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_153",
+    "meal_name": "Menemen + Çökelek + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 403,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Menemen",
+      "Çökelek",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_154",
+    "meal_name": "Menemen + Çökelek + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 404,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Menemen",
+      "Çökelek",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_155",
+    "meal_name": "Menemen + Labne + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 405,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Menemen",
+      "Labne",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_156",
+    "meal_name": "Menemen + Labne + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 406,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Menemen",
+      "Labne",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_157",
+    "meal_name": "Menemen + Labne + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 407,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Menemen",
+      "Labne",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_158",
+    "meal_name": "Menemen + Labne + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 408,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Menemen",
+      "Labne",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_159",
+    "meal_name": "Menemen + Labne + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 409,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 13,
+    "malzemeler": [
+      "Menemen",
+      "Labne",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_160",
+    "meal_name": "Çılbır + Beyaz Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 410,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 14,
+    "malzemeler": [
+      "Çılbır",
+      "Beyaz Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_161",
+    "meal_name": "Çılbır + Beyaz Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 411,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 15,
+    "malzemeler": [
+      "Çılbır",
+      "Beyaz Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_162",
+    "meal_name": "Çılbır + Beyaz Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 412,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 16,
+    "malzemeler": [
+      "Çılbır",
+      "Beyaz Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_163",
+    "meal_name": "Çılbır + Beyaz Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 413,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "malzemeler": [
+      "Çılbır",
+      "Beyaz Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_164",
+    "meal_name": "Çılbır + Beyaz Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 414,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 18,
+    "malzemeler": [
+      "Çılbır",
+      "Beyaz Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_165",
+    "meal_name": "Çılbır + Lor Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 415,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 19,
+    "malzemeler": [
+      "Çılbır",
+      "Lor Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_166",
+    "meal_name": "Çılbır + Lor Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 416,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 20,
+    "malzemeler": [
+      "Çılbır",
+      "Lor Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_167",
+    "meal_name": "Çılbır + Lor Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 417,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 21,
+    "malzemeler": [
+      "Çılbır",
+      "Lor Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_168",
+    "meal_name": "Çılbır + Lor Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 418,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 10,
+    "malzemeler": [
+      "Çılbır",
+      "Lor Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_169",
+    "meal_name": "Çılbır + Lor Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 419,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "malzemeler": [
+      "Çılbır",
+      "Lor Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_170",
+    "meal_name": "Çılbır + Kaşar Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 420,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Çılbır",
+      "Kaşar Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_171",
+    "meal_name": "Çılbır + Kaşar Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 421,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "malzemeler": [
+      "Çılbır",
+      "Kaşar Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_172",
+    "meal_name": "Çılbır + Kaşar Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 422,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 14,
+    "malzemeler": [
+      "Çılbır",
+      "Kaşar Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_173",
+    "meal_name": "Çılbır + Kaşar Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 423,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "malzemeler": [
+      "Çılbır",
+      "Kaşar Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_174",
+    "meal_name": "Çılbır + Kaşar Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 424,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 16,
+    "malzemeler": [
+      "Çılbır",
+      "Kaşar Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_175",
+    "meal_name": "Çılbır + Ezine Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 425,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 17,
+    "malzemeler": [
+      "Çılbır",
+      "Ezine Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_176",
+    "meal_name": "Çılbır + Ezine Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 426,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 18,
+    "malzemeler": [
+      "Çılbır",
+      "Ezine Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_177",
+    "meal_name": "Çılbır + Ezine Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 427,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Çılbır",
+      "Ezine Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_178",
+    "meal_name": "Çılbır + Ezine Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 428,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 20,
+    "malzemeler": [
+      "Çılbır",
+      "Ezine Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_179",
+    "meal_name": "Çılbır + Ezine Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 429,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 21,
+    "malzemeler": [
+      "Çılbır",
+      "Ezine Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_180",
+    "meal_name": "Çılbır + Tulum Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 430,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 10,
+    "malzemeler": [
+      "Çılbır",
+      "Tulum Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_181",
+    "meal_name": "Çılbır + Tulum Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 431,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 11,
+    "malzemeler": [
+      "Çılbır",
+      "Tulum Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_182",
+    "meal_name": "Çılbır + Tulum Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 432,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 12,
+    "malzemeler": [
+      "Çılbır",
+      "Tulum Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_183",
+    "meal_name": "Çılbır + Tulum Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 433,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 13,
+    "malzemeler": [
+      "Çılbır",
+      "Tulum Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_184",
+    "meal_name": "Çılbır + Tulum Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 434,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Çılbır",
+      "Tulum Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_185",
+    "meal_name": "Çılbır + Çökelek + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 435,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 15,
+    "malzemeler": [
+      "Çılbır",
+      "Çökelek",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_186",
+    "meal_name": "Çılbır + Çökelek + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 436,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 16,
+    "malzemeler": [
+      "Çılbır",
+      "Çökelek",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_187",
+    "meal_name": "Çılbır + Çökelek + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 437,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 17,
+    "malzemeler": [
+      "Çılbır",
+      "Çökelek",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_188",
+    "meal_name": "Çılbır + Çökelek + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 438,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 18,
+    "malzemeler": [
+      "Çılbır",
+      "Çökelek",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_189",
+    "meal_name": "Çılbır + Çökelek + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 439,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 19,
+    "malzemeler": [
+      "Çılbır",
+      "Çökelek",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_190",
+    "meal_name": "Çılbır + Labne + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 440,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 20,
+    "malzemeler": [
+      "Çılbır",
+      "Labne",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_191",
+    "meal_name": "Çılbır + Labne + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 441,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 21,
+    "malzemeler": [
+      "Çılbır",
+      "Labne",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_192",
+    "meal_name": "Çılbır + Labne + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 442,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Çılbır",
+      "Labne",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_193",
+    "meal_name": "Çılbır + Labne + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 443,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Çılbır",
+      "Labne",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_194",
+    "meal_name": "Çılbır + Labne + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 444,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Çılbır",
+      "Labne",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_195",
+    "meal_name": "Tam Buğday Ekmeği + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 445,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Tam Buğday Ekmeği",
+      "Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_196",
+    "meal_name": "Tam Buğday Ekmeği + Tahin-Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 446,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Tam Buğday Ekmeği",
+      "Tahin-Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_197",
+    "meal_name": "Tam Buğday Ekmeği + Reçel (ev yapımı) + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 447,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Tam Buğday Ekmeği",
+      "Reçel (ev yapımı)",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_198",
+    "meal_name": "Tam Buğday Ekmeği + Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 448,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Tam Buğday Ekmeği",
+      "Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_199",
+    "meal_name": "Tam Buğday Ekmeği + Cevizli Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 449,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Tam Buğday Ekmeği",
+      "Cevizli Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_200",
+    "meal_name": "Çavdar Ekmeği + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 250,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 18,
+    "malzemeler": [
+      "Çavdar Ekmeği",
+      "Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_201",
+    "meal_name": "Çavdar Ekmeği + Tahin-Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 251,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 19,
+    "malzemeler": [
+      "Çavdar Ekmeği",
+      "Tahin-Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_202",
+    "meal_name": "Çavdar Ekmeği + Reçel (ev yapımı) + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 252,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Çavdar Ekmeği",
+      "Reçel (ev yapımı)",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_203",
+    "meal_name": "Çavdar Ekmeği + Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 253,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Çavdar Ekmeği",
+      "Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_204",
+    "meal_name": "Çavdar Ekmeği + Cevizli Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 254,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Çavdar Ekmeği",
+      "Cevizli Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_205",
+    "meal_name": "Kepekli Ekmek + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 255,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Kepekli Ekmek",
+      "Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_206",
+    "meal_name": "Kepekli Ekmek + Tahin-Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 256,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Kepekli Ekmek",
+      "Tahin-Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_207",
+    "meal_name": "Kepekli Ekmek + Reçel (ev yapımı) + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 257,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "malzemeler": [
+      "Kepekli Ekmek",
+      "Reçel (ev yapımı)",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_208",
+    "meal_name": "Kepekli Ekmek + Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 258,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 14,
+    "malzemeler": [
+      "Kepekli Ekmek",
+      "Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_209",
+    "meal_name": "Kepekli Ekmek + Cevizli Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 259,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Kepekli Ekmek",
+      "Cevizli Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_210",
+    "meal_name": "Simit + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 260,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Simit",
+      "Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_211",
+    "meal_name": "Simit + Tahin-Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 261,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Simit",
+      "Tahin-Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_212",
+    "meal_name": "Simit + Reçel (ev yapımı) + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 262,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Simit",
+      "Reçel (ev yapımı)",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_213",
+    "meal_name": "Simit + Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 263,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Simit",
+      "Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_214",
+    "meal_name": "Simit + Cevizli Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 264,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Simit",
+      "Cevizli Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_215",
+    "meal_name": "Yulaf Ekmeği + Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 265,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Yulaf Ekmeği",
+      "Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_216",
+    "meal_name": "Yulaf Ekmeği + Tahin-Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 266,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Yulaf Ekmeği",
+      "Tahin-Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_217",
+    "meal_name": "Yulaf Ekmeği + Reçel (ev yapımı) + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 267,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Yulaf Ekmeği",
+      "Reçel (ev yapımı)",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_218",
+    "meal_name": "Yulaf Ekmeği + Pekmez + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 268,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Yulaf Ekmeği",
+      "Pekmez",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_219",
+    "meal_name": "Yulaf Ekmeği + Cevizli Bal + Ceviz",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 269,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 13,
+    "malzemeler": [
+      "Yulaf Ekmeği",
+      "Cevizli Bal",
+      "Ceviz (10 adet)"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_220",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 270,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_221",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 271,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_222",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 272,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_223",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 273,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_224",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 274,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_225",
+    "meal_name": "Yumurta (2 adet) + Beyaz Peynir + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 276,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Beyaz Peynir",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_226",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 277,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_227",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 278,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_228",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 279,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_229",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 280,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_230",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 281,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_231",
+    "meal_name": "Yumurta (2 adet) + Lor Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 283,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Lor Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_232",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 284,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_233",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 285,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_234",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 286,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_235",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 287,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_236",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 288,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_237",
+    "meal_name": "Yumurta (2 adet) + Kaşar Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 290,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kaşar Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_238",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 291,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_239",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 292,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_240",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 293,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_241",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 294,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_242",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 295,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_243",
+    "meal_name": "Yumurta (2 adet) + Ezine Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 297,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Ezine Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_244",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 298,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_245",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 299,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_246",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 300,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_247",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 301,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_248",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 302,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_249",
+    "meal_name": "Yumurta (2 adet) + Tulum Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 304,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Tulum Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_250",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 305,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_251",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 306,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_252",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 307,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_253",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 308,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_254",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 309,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_255",
+    "meal_name": "Yumurta (2 adet) + Çökelek + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 311,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Çökelek",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_256",
+    "meal_name": "Yumurta (2 adet) + Labne + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 312,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_257",
+    "meal_name": "Yumurta (2 adet) + Labne + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 313,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_258",
+    "meal_name": "Yumurta (2 adet) + Labne + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 314,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_259",
+    "meal_name": "Yumurta (2 adet) + Labne + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 315,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_260",
+    "meal_name": "Yumurta (2 adet) + Labne + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 316,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_261",
+    "meal_name": "Yumurta (2 adet) + Labne + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 318,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Labne",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_262",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 319,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_263",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 320,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_264",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 321,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_265",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 322,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_266",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 323,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_267",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 324,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_268",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 325,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_269",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 326,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_270",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 327,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_271",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 328,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_272",
+    "meal_name": "Yumurta (2 adet) + Krem Peynir + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 330,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Krem Peynir",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_273",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 331,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_274",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 332,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_275",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 333,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_276",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 334,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_277",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 335,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_278",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 336,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_279",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 337,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_280",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 338,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_281",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 339,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_282",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 340,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_283",
+    "meal_name": "Yumurta (2 adet) + Süzme Peynir + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 342,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Süzme Peynir",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_284",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 343,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_285",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 344,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_286",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 345,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_287",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 346,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_288",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 347,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_289",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 348,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_290",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 349,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_291",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 350,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_292",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 351,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_293",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 352,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_294",
+    "meal_name": "Yumurta (2 adet) + Otlu Peynir + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 354,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Otlu Peynir",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_295",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 355,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_296",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 356,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_297",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 357,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_298",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 358,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_299",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 359,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_300",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 360,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_301",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 361,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_302",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 362,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_303",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 363,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_304",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 364,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_305",
+    "meal_name": "Yumurta (2 adet) + Dil Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 366,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Dil Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_306",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 367,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_307",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 368,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_308",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 369,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_309",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 370,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_310",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 371,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_311",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 372,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_312",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 373,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_313",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 374,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_314",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 375,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_315",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 376,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_316",
+    "meal_name": "Yumurta (2 adet) + Kars Gravyer + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 378,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Kars Gravyer",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_317",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 379,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_318",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 380,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_319",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 381,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_320",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 382,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_321",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 383,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_322",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 384,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_323",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 385,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_324",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 386,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_325",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 387,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_326",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 388,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_327",
+    "meal_name": "Yumurta (2 adet) + Mihaliç Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 390,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (2 adet)",
+      "Mihaliç Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_328",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 391,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_329",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 392,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_330",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 393,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_331",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 394,
+    "protein": 29,
+    "karbonhidrat": 39,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_332",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 395,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_333",
+    "meal_name": "Yumurta (3 adet) + Beyaz Peynir + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 397,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Beyaz Peynir",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_334",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 398,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_335",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 399,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_336",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 400,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_337",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 401,
+    "protein": 21,
+    "karbonhidrat": 46,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_338",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 402,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_339",
+    "meal_name": "Yumurta (3 adet) + Lor Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 404,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Lor Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_340",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 405,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_341",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 406,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_342",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 407,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_343",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 408,
+    "protein": 28,
+    "karbonhidrat": 53,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_344",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 409,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_345",
+    "meal_name": "Yumurta (3 adet) + Kaşar Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 411,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Kaşar Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_346",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 412,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_347",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 413,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_348",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 414,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_349",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 415,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_350",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 416,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_351",
+    "meal_name": "Yumurta (3 adet) + Ezine Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 418,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Ezine Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_352",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 419,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_353",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 420,
+    "protein": 25,
+    "karbonhidrat": 35,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_354",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 421,
+    "protein": 26,
+    "karbonhidrat": 36,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_355",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 422,
+    "protein": 27,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_356",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 423,
+    "protein": 28,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 18,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_357",
+    "meal_name": "Yumurta (3 adet) + Tulum Peyniri + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 425,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Tulum Peyniri",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_358",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 426,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_359",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 427,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_360",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 428,
+    "protein": 18,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_361",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 429,
+    "protein": 19,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_362",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 430,
+    "protein": 20,
+    "karbonhidrat": 45,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_363",
+    "meal_name": "Yumurta (3 adet) + Çökelek + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 432,
+    "protein": 22,
+    "karbonhidrat": 47,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Çökelek",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_364",
+    "meal_name": "Yumurta (3 adet) + Labne + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 433,
+    "protein": 23,
+    "karbonhidrat": 48,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_365",
+    "meal_name": "Yumurta (3 adet) + Labne + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 434,
+    "protein": 24,
+    "karbonhidrat": 49,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_366",
+    "meal_name": "Yumurta (3 adet) + Labne + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 435,
+    "protein": 25,
+    "karbonhidrat": 50,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_367",
+    "meal_name": "Yumurta (3 adet) + Labne + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 436,
+    "protein": 26,
+    "karbonhidrat": 51,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 16,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_368",
+    "meal_name": "Yumurta (3 adet) + Labne + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 437,
+    "protein": 27,
+    "karbonhidrat": 52,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 17,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_369",
+    "meal_name": "Yumurta (3 adet) + Labne + Keten Tohumu Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 439,
+    "protein": 29,
+    "karbonhidrat": 54,
+    "yag": 15,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Labne",
+      "Keten Tohumu Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 19,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_370",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Tam Buğday Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 440,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 16,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Tam Buğday Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_371",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Çavdar Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 441,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 17,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Çavdar Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_372",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Kepekli Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 442,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 18,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Kepekli Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 7,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_373",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Simit",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 443,
+    "protein": 18,
+    "karbonhidrat": 28,
+    "yag": 19,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Simit",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_374",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Yulaf Ekmeği",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 444,
+    "protein": 19,
+    "karbonhidrat": 29,
+    "yag": 20,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Yulaf Ekmeği",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 9,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_375",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Bazlama",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 445,
+    "protein": 20,
+    "karbonhidrat": 30,
+    "yag": 21,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Bazlama",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_376",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Pide",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 446,
+    "protein": 21,
+    "karbonhidrat": 31,
+    "yag": 10,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Pide",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 11,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_377",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Yufka",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 447,
+    "protein": 22,
+    "karbonhidrat": 32,
+    "yag": 11,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Yufka",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_378",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Gözleme Hamuru",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 448,
+    "protein": 23,
+    "karbonhidrat": 33,
+    "yag": 12,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Gözleme Hamuru",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 13,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  },
+  {
+    "meal_id": "kah_379",
+    "meal_name": "Yumurta (3 adet) + Krem Peynir + Siyah Ekmek",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 449,
+    "protein": 24,
+    "karbonhidrat": 34,
+    "yag": 13,
+    "malzemeler": [
+      "Yumurta (3 adet)",
+      "Krem Peynir",
+      "Siyah Ekmek",
+      "Domates",
+      "Zeytin"
+    ],
+    "hazirlamaSuresi": 14,
+    "zorluk": "kolay",
+    "etiketler": [
+      "türk mutfağı",
+      "sağlıklı",
+      "kahvaltı"
+    ]
+  }
+]

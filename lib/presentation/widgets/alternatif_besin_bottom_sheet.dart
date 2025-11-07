@@ -325,27 +325,26 @@ class AlternatifBesinBottomSheet extends StatelessWidget {
 
                 const SizedBox(height: 12),
 
-                // Besin değerleri
-                Row(
+                // Besin değerleri - 🔥 FIX: Row → Wrap (responsive listeler için)
+                Wrap(
+                  spacing: 8, // Yatay boşluk
+                  runSpacing: 8, // Dikey boşluk (alt satır için)
                   children: [
                     _buildNutrientBadge(
                       '🔥',
                       '${alternatif.kalori.toStringAsFixed(0)} kcal',
                       Colors.orange,
                     ),
-                    const SizedBox(width: 8),
                     _buildNutrientBadge(
                       '💪',
                       '${alternatif.protein.toStringAsFixed(1)}g',
                       Colors.red,
                     ),
-                    const SizedBox(width: 8),
                     _buildNutrientBadge(
                       '🍚',
                       '${alternatif.karbonhidrat.toStringAsFixed(1)}g',
                       Colors.amber,
                     ),
-                    const SizedBox(width: 8),
                     _buildNutrientBadge(
                       '🥑',
                       '${alternatif.yag.toStringAsFixed(1)}g',

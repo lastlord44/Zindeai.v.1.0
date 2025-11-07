@@ -94,6 +94,10 @@ class AntrenmanLocalDataSource {
 
   /// JSON'dan Egzersiz oluştur
   Egzersiz _egzersizFromJson(Map<String, dynamic> json) {
+    final hedefKaslar = (json['hedefKaslar'] as List)
+        .map((k) => _kasGrubuFromString(k as String))
+        .toList();
+    
     return Egzersiz(
       id: json['id'] as String,
       ad: json['ad'] as String,
@@ -101,15 +105,17 @@ class AntrenmanLocalDataSource {
       sure: json['sure'] as int,
       kalori: json['kalori'] as int,
       zorluk: _zorlukFromString(json['zorluk'] as String),
+      kasGrubu: hedefKaslar.isNotEmpty ? hedefKaslar.first : KasGrubu.tumVucut,
       kategori: _kategoriFromString(json['kategori'] as String),
-      hedefKaslar: (json['hedefKaslar'] as List)
-          .map((k) => _kasGrubuFromString(k as String))
-          .toList(),
+      hedefKaslar: hedefKaslar,
       videoUrl: json['videoUrl'] as String?,
       gorselUrl: json['gorselUrl'] as String?,
       talimatlar: (json['talimatlar'] as List)
           .map((t) => t as String)
           .toList(),
+      ekipmanlar: (json['ekipmanlar'] as List?)
+          ?.map((e) => e as String)
+          .toList() ?? [],
       tekrarSayisi: json['tekrarSayisi'] as int?,
       setSayisi: json['setSayisi'] as int?,
     );

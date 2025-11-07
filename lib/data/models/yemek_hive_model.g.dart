@@ -35,13 +35,15 @@ class YemekHiveModelAdapter extends TypeAdapter<YemekHiveModel> {
       alternatives: (fields[15] as List?)
           ?.map((dynamic e) => (e as Map).cast<String, dynamic>())
           ?.toList(),
+      isFavorite: fields[16] as bool?,
+      proteinSource: fields[17] as String?,
     );
   }
 
   @override
   void write(BinaryWriter writer, YemekHiveModel obj) {
     writer
-      ..writeByte(16)
+      ..writeByte(18)
       ..writeByte(0)
       ..write(obj.mealId)
       ..writeByte(1)
@@ -73,7 +75,11 @@ class YemekHiveModelAdapter extends TypeAdapter<YemekHiveModel> {
       ..writeByte(14)
       ..write(obj.tags)
       ..writeByte(15)
-      ..write(obj.alternatives);
+      ..write(obj.alternatives)
+      ..writeByte(16)
+      ..write(obj.isFavorite)
+      ..writeByte(17)
+      ..write(obj.proteinSource);
   }
 
   @override

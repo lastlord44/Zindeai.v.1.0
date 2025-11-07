@@ -80,7 +80,7 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('🛒 Alışveriş Listesi'),
+        title: const Text('🛒 Haftalık Alışveriş Listesi (7 Gün)'),
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
         actions: [
@@ -171,7 +171,7 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
                 children: [
                   Expanded(
                     child: _istatistikKutusu(
-                      'Toplam\nMalzeme',
+                      '7 GÜNLÜK\nTOPLAM',
                       liste.toplamMalzemeSayisi.toString(),
                       Icons.shopping_basket,
                       Colors.blue,
@@ -180,9 +180,9 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
                   const SizedBox(width: 8),
                   Expanded(
                     child: _istatistikKutusu(
-                      'Tahmini\nMaliyet',
-                      '${liste.toplamMaliyetTahmini.toStringAsFixed(0)}₺',
-                      Icons.attach_money,
+                      'Planlı\nGün',
+                      '${liste.planliGunSayisi} gün',
+                      Icons.calendar_today,
                       Colors.green,
                     ),
                   ),
@@ -329,11 +329,20 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
   Widget _marketBolumleriTab() {
     final liste = _liste!;
 
+    // 🔥 SADECE ANA BESİNLERİ GÖSTER (sebze, meyve, baharat hariç)
+    final anaMalzemeler = liste.marketBolumleri.entries.where((entry) {
+      final baslik = entry.key.toLowerCase();
+      return !baslik.contains('sebze') &&
+             !baslik.contains('meyve') &&
+             !baslik.contains('baharat') &&
+             !baslik.contains('sos');
+    }).toList();
+
     return ListView.builder(
       padding: const EdgeInsets.all(8),
-      itemCount: liste.marketBolumleri.length,
+      itemCount: anaMalzemeler.length,
       itemBuilder: (context, index) {
-        final entry = liste.marketBolumleri.entries.elementAt(index);
+        final entry = anaMalzemeler[index];
         return _malzemeBolumKarti(entry.key, entry.value);
       },
     );
@@ -342,11 +351,20 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
   Widget _kategorilerTab() {
     final liste = _liste!;
 
+    // 🔥 SADECE ANA BESİN KATEGORİLERİNİ GÖSTER
+    final anaKategoriler = liste.kategoriler.entries.where((entry) {
+      final kategori = entry.key.toLowerCase();
+      return kategori.contains('et') ||
+             kategori.contains('süt') ||
+             kategori.contains('tahıl') ||
+             kategori.contains('bakliyat');
+    }).toList();
+
     return ListView.builder(
       padding: const EdgeInsets.all(8),
-      itemCount: liste.kategoriler.length,
+      itemCount: anaKategoriler.length,
       itemBuilder: (context, index) {
-        final entry = liste.kategoriler.entries.elementAt(index);
+        final entry = anaKategoriler[index];
         return _malzemeBolumKarti(entry.key, entry.value);
       },
     );
@@ -368,7 +386,7 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
           style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         subtitle: Text(
-          '${malzemeler.length} malzeme • ${toplamMaliyet.toStringAsFixed(0)}₺ • $alinanSayisi alındı',
+          '${malzemeler.length} malzeme • $alinanSayisi alındı',
           style: const TextStyle(fontSize: 12),
         ),
         leading: CircleAvatar(
@@ -412,7 +430,7 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
         ),
       ),
       subtitle: Text(
-        '${malzeme.miktarBirimMetni} • ${malzeme.toplamMaliyet.toStringAsFixed(1)}₺',
+        malzeme.miktarBirimMetni,
         style: const TextStyle(fontSize: 12),
       ),
       trailing: Container(
@@ -516,15 +534,14 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
 
   String _listeMetniOlustur(AlisverisListesi liste) {
     final buffer = StringBuffer();
-    buffer.writeln('🛒 HAFTALİK ALIŞVERİŞ LİSTESİ');
+    buffer.writeln('🛒 HAFTALİK ALIŞVERİŞ LİSTESİ (7 GÜNLÜK TOPLAM)');
     buffer.writeln(
         '${_tarihString(liste.baslangicTarihi)} - ${_tarihString(liste.bitisTarihi)}');
     buffer.writeln('');
-    buffer.writeln('📊 ÖZET:');
-    buffer.writeln('• Toplam malzeme: ${liste.toplamMalzemeSayisi}');
-    buffer.writeln(
-        '• Tahmini maliyet: ${liste.toplamMaliyetTahmini.toStringAsFixed(0)}₺');
-    buffer.writeln('• Planlı gün sayısı: ${liste.planliGunSayisi}');
+    buffer.writeln('📊 HAFTALIK ÖZET:');
+    buffer.writeln('• 7 günlük toplam malzeme: ${liste.toplamMalzemeSayisi}');
+    buffer.writeln('• Planlı gün sayısı: ${liste.planliGunSayisi} gün');
+    buffer.writeln('• Toplam yemek sayısı: ${liste.toplamYemekSayisi}');
     buffer.writeln('');
 
     for (final entry in liste.marketBolumleri.entries) {
@@ -532,7 +549,7 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
         buffer.writeln('${entry.key}:');
         for (final malzeme in entry.value) {
           buffer.writeln(
-              '  ☐ ${malzeme.ad} (${malzeme.miktarBirimMetni}) - ${malzeme.toplamMaliyet.toStringAsFixed(1)}₺');
+              '  ☐ ${malzeme.ad} (${malzeme.miktarBirimMetni})');
         }
         buffer.writeln('');
       }
@@ -550,7 +567,8 @@ class _AlisverisListesiPageState extends State<AlisverisListesiPage> {
 
   String _basitListeOlustur(AlisverisListesi liste) {
     final buffer = StringBuffer();
-    buffer.writeln('Alışveriş Listesi');
+    buffer.writeln('🛒 7 Günlük Haftalık Alışveriş Listesi');
+    buffer.writeln('${_tarihString(liste.baslangicTarihi)} - ${_tarihString(liste.bitisTarihi)}');
     buffer.writeln('');
 
     for (final entry in liste.marketBolumleri.entries) {

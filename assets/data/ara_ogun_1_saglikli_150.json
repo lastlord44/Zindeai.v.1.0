@@ -1,0 +1,8229 @@
+[
+  {
+    "meal_id": "ara1_001",
+    "meal_name": "Armut + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 207,
+    "protein": 7,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_002",
+    "meal_name": "Armut + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 186,
+    "protein": 9,
+    "karbonhidrat": 27,
+    "yag": 8,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_003",
+    "meal_name": "Elma + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 222,
+    "protein": 9,
+    "karbonhidrat": 31,
+    "yag": 8,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_004",
+    "meal_name": "Elma + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 240,
+    "protein": 6,
+    "karbonhidrat": 39,
+    "yag": 10,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_005",
+    "meal_name": "Kivi + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 227,
+    "protein": 5,
+    "karbonhidrat": 32,
+    "yag": 9,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_006",
+    "meal_name": "Kivi + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 168,
+    "protein": 8,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_007",
+    "meal_name": "Armut + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 151,
+    "protein": 9,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_008",
+    "meal_name": "Elma + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 158,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 14,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_009",
+    "meal_name": "Kivi + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 237,
+    "protein": 6,
+    "karbonhidrat": 37,
+    "yag": 9,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_010",
+    "meal_name": "Muz + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 203,
+    "protein": 6,
+    "karbonhidrat": 36,
+    "yag": 10,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_011",
+    "meal_name": "Mandalina + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 248,
+    "protein": 7,
+    "karbonhidrat": 33,
+    "yag": 10,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_012",
+    "meal_name": "Muz + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 159,
+    "protein": 6,
+    "karbonhidrat": 25,
+    "yag": 14,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_013",
+    "meal_name": "Por + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 166,
+    "protein": 9,
+    "karbonhidrat": 32,
+    "yag": 14,
+    "malzemeler": [
+      "Por (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_014",
+    "meal_name": "Kivi + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 180,
+    "protein": 9,
+    "karbonhidrat": 34,
+    "yag": 8,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_015",
+    "meal_name": "Por + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 213,
+    "protein": 7,
+    "karbonhidrat": 30,
+    "yag": 10,
+    "malzemeler": [
+      "Por (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_016",
+    "meal_name": "Por + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 227,
+    "protein": 8,
+    "karbonhidrat": 39,
+    "yag": 9,
+    "malzemeler": [
+      "Por (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_017",
+    "meal_name": "Muz + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 247,
+    "protein": 9,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_018",
+    "meal_name": "Mandalina + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 184,
+    "protein": 7,
+    "karbonhidrat": 30,
+    "yag": 11,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_019",
+    "meal_name": "Mandalina + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 210,
+    "protein": 9,
+    "karbonhidrat": 31,
+    "yag": 11,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_020",
+    "meal_name": "Armut + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 197,
+    "protein": 8,
+    "karbonhidrat": 36,
+    "yag": 11,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_021",
+    "meal_name": "Por + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 203,
+    "protein": 7,
+    "karbonhidrat": 33,
+    "yag": 8,
+    "malzemeler": [
+      "Por (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_022",
+    "meal_name": "Kefir + Yaban Mersini",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 173,
+    "protein": 14,
+    "karbonhidrat": 29,
+    "yag": 5,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Yaban Mersini (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_023",
+    "meal_name": "Yoğurt + Frambuaz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 226,
+    "protein": 16,
+    "karbonhidrat": 27,
+    "yag": 3,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Frambuaz (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_024",
+    "meal_name": "Kefir + Böğürtlen",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 201,
+    "protein": 16,
+    "karbonhidrat": 27,
+    "yag": 3,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Böğürtlen (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_025",
+    "meal_name": "Kefir + Çilek",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 217,
+    "protein": 12,
+    "karbonhidrat": 24,
+    "yag": 5,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Çilek (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_026",
+    "meal_name": "Yoğurt + Çilek",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 235,
+    "protein": 13,
+    "karbonhidrat": 24,
+    "yag": 4,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Çilek (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_027",
+    "meal_name": "Kefir + Frambuaz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 193,
+    "protein": 15,
+    "karbonhidrat": 33,
+    "yag": 6,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Frambuaz (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_028",
+    "meal_name": "Yoğurt + Yaban Mersini",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 204,
+    "protein": 17,
+    "karbonhidrat": 33,
+    "yag": 3,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Yaban Mersini (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_029",
+    "meal_name": "Süzme Yoğurt + Frambuaz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 237,
+    "protein": 14,
+    "karbonhidrat": 33,
+    "yag": 3,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Frambuaz (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_030",
+    "meal_name": "Yoğurt + Böğürtlen",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 180,
+    "protein": 11,
+    "karbonhidrat": 26,
+    "yag": 6,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Böğürtlen (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_031",
+    "meal_name": "Süzme Yoğurt + Yaban Mersini",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 220,
+    "protein": 16,
+    "karbonhidrat": 22,
+    "yag": 7,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Yaban Mersini (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_032",
+    "meal_name": "Süzme Yoğurt + Böğürtlen",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 229,
+    "protein": 13,
+    "karbonhidrat": 32,
+    "yag": 5,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Böğürtlen (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_033",
+    "meal_name": "Süzme Yoğurt + Çilek",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 174,
+    "protein": 14,
+    "karbonhidrat": 24,
+    "yag": 7,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Çilek (80g)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "probiyotik",
+      "meyve",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_034",
+    "meal_name": "Protein Bite",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 293,
+    "protein": 23,
+    "karbonhidrat": 27,
+    "yag": 7,
+    "malzemeler": [
+      "Protein Bite",
+      "Muz (1 adet)",
+      "Badem Sütü (200ml)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "protein",
+      "pratik",
+      "spor"
+    ]
+  },
+  {
+    "meal_id": "ara1_035",
+    "meal_name": "Protein Shake",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 298,
+    "protein": 17,
+    "karbonhidrat": 34,
+    "yag": 6,
+    "malzemeler": [
+      "Protein Shake",
+      "Muz (1 adet)",
+      "Badem Sütü (200ml)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "protein",
+      "pratik",
+      "spor"
+    ]
+  },
+  {
+    "meal_id": "ara1_036",
+    "meal_name": "Protein Bar",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 252,
+    "protein": 15,
+    "karbonhidrat": 26,
+    "yag": 7,
+    "malzemeler": [
+      "Protein Bar",
+      "Muz (1 adet)",
+      "Badem Sütü (200ml)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "protein",
+      "pratik",
+      "spor"
+    ]
+  },
+  {
+    "meal_id": "ara1_037",
+    "meal_name": "Protein Smoothie",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 279,
+    "protein": 17,
+    "karbonhidrat": 40,
+    "yag": 6,
+    "malzemeler": [
+      "Protein Smoothie",
+      "Muz (1 adet)",
+      "Badem Sütü (200ml)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "protein",
+      "pratik",
+      "spor"
+    ]
+  },
+  {
+    "meal_id": "ara1_038",
+    "meal_name": "Portakal + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 205,
+    "protein": 6,
+    "karbonhidrat": 22,
+    "yag": 14,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_039",
+    "meal_name": "Muz + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 158,
+    "protein": 7,
+    "karbonhidrat": 36,
+    "yag": 10,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_040",
+    "meal_name": "Portakal + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 164,
+    "protein": 7,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_041",
+    "meal_name": "Portakal + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 165,
+    "protein": 6,
+    "karbonhidrat": 39,
+    "yag": 8,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_042",
+    "meal_name": "Armut + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 175,
+    "protein": 6,
+    "karbonhidrat": 20,
+    "yag": 9,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_043",
+    "meal_name": "Elma + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 248,
+    "protein": 6,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_044",
+    "meal_name": "Kivi + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 234,
+    "protein": 7,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_045",
+    "meal_name": "Elma + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 212,
+    "protein": 7,
+    "karbonhidrat": 30,
+    "yag": 12,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_046",
+    "meal_name": "Mandalina + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 217,
+    "protein": 9,
+    "karbonhidrat": 22,
+    "yag": 14,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_047",
+    "meal_name": "Portakal + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 218,
+    "protein": 6,
+    "karbonhidrat": 22,
+    "yag": 8,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_048",
+    "meal_name": "Portakal + Fındık",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 169,
+    "protein": 9,
+    "karbonhidrat": 23,
+    "yag": 8,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Fındık (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_049",
+    "meal_name": "Mandalina + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 190,
+    "protein": 10,
+    "karbonhidrat": 39,
+    "yag": 10,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_050",
+    "meal_name": "Muz + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 216,
+    "protein": 6,
+    "karbonhidrat": 31,
+    "yag": 11,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "meyve",
+      "pratik"
+    ]
+  },
+  {
+    "meal_id": "ara1_051",
+    "meal_name": "Elma + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 201,
+    "protein": 9,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_052",
+    "meal_name": "Elma + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 202,
+    "protein": 10,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_053",
+    "meal_name": "Muz + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 203,
+    "protein": 11,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_054",
+    "meal_name": "Muz + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 204,
+    "protein": 12,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_055",
+    "meal_name": "Portakal + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 205,
+    "protein": 13,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_056",
+    "meal_name": "Portakal + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 206,
+    "protein": 14,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_057",
+    "meal_name": "Mandalina + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 207,
+    "protein": 15,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_058",
+    "meal_name": "Mandalina + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 208,
+    "protein": 16,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_059",
+    "meal_name": "Armut + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 209,
+    "protein": 17,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_060",
+    "meal_name": "Armut + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 210,
+    "protein": 6,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_061",
+    "meal_name": "Kivi + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 211,
+    "protein": 7,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_062",
+    "meal_name": "Kivi + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 212,
+    "protein": 8,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_063",
+    "meal_name": "Üzüm + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 213,
+    "protein": 9,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_064",
+    "meal_name": "Üzüm + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 214,
+    "protein": 10,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_065",
+    "meal_name": "Üzüm + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 215,
+    "protein": 11,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_066",
+    "meal_name": "Üzüm + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 216,
+    "protein": 12,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_067",
+    "meal_name": "Üzüm + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 217,
+    "protein": 13,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_068",
+    "meal_name": "Şeftali + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 218,
+    "protein": 14,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_069",
+    "meal_name": "Şeftali + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 219,
+    "protein": 15,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_070",
+    "meal_name": "Şeftali + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 220,
+    "protein": 16,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_071",
+    "meal_name": "Şeftali + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 221,
+    "protein": 17,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_072",
+    "meal_name": "Şeftali + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 222,
+    "protein": 6,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_073",
+    "meal_name": "Erik + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 223,
+    "protein": 7,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_074",
+    "meal_name": "Erik + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 224,
+    "protein": 8,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_075",
+    "meal_name": "Erik + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 225,
+    "protein": 9,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_076",
+    "meal_name": "Erik + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 226,
+    "protein": 10,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_077",
+    "meal_name": "Erik + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 227,
+    "protein": 11,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_078",
+    "meal_name": "Kayısı + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 228,
+    "protein": 12,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_079",
+    "meal_name": "Kayısı + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 229,
+    "protein": 13,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_080",
+    "meal_name": "Kayısı + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 230,
+    "protein": 14,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_081",
+    "meal_name": "Kayısı + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 231,
+    "protein": 15,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_082",
+    "meal_name": "Kayısı + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 232,
+    "protein": 16,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_083",
+    "meal_name": "Süzme Yoğurt + Elma + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 233,
+    "protein": 17,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Elma (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_084",
+    "meal_name": "Süzme Yoğurt + Muz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 234,
+    "protein": 6,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Muz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_085",
+    "meal_name": "Süzme Yoğurt + Portakal + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 235,
+    "protein": 7,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Portakal (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_086",
+    "meal_name": "Süzme Yoğurt + Mandalina + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 236,
+    "protein": 8,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Mandalina (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_087",
+    "meal_name": "Süzme Yoğurt + Armut + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 237,
+    "protein": 9,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Armut (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_088",
+    "meal_name": "Süzme Yoğurt + Kivi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 238,
+    "protein": 10,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kivi (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_089",
+    "meal_name": "Süzme Yoğurt + Üzüm + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 239,
+    "protein": 11,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Üzüm (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_090",
+    "meal_name": "Süzme Yoğurt + Şeftali + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 240,
+    "protein": 12,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Şeftali (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_091",
+    "meal_name": "Süzme Yoğurt + Erik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 241,
+    "protein": 13,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Erik (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_092",
+    "meal_name": "Süzme Yoğurt + Kayısı + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 242,
+    "protein": 14,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kayısı (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_093",
+    "meal_name": "Yoğurt + Elma + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 243,
+    "protein": 15,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Elma (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_094",
+    "meal_name": "Yoğurt + Muz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 244,
+    "protein": 16,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Muz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_095",
+    "meal_name": "Yoğurt + Portakal + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 245,
+    "protein": 17,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Portakal (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_096",
+    "meal_name": "Yoğurt + Mandalina + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 246,
+    "protein": 6,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Mandalina (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_097",
+    "meal_name": "Yoğurt + Armut + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 247,
+    "protein": 7,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Armut (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_098",
+    "meal_name": "Yoğurt + Kivi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 248,
+    "protein": 8,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kivi (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_099",
+    "meal_name": "Yoğurt + Üzüm + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 249,
+    "protein": 9,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Üzüm (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_100",
+    "meal_name": "Yoğurt + Şeftali + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 250,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Şeftali (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_101",
+    "meal_name": "Yoğurt + Erik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 251,
+    "protein": 11,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Erik (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_102",
+    "meal_name": "Yoğurt + Kayısı + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 252,
+    "protein": 12,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kayısı (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_103",
+    "meal_name": "Kefir + Elma + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 253,
+    "protein": 13,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Elma (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_104",
+    "meal_name": "Kefir + Muz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 254,
+    "protein": 14,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Muz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_105",
+    "meal_name": "Kefir + Portakal + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 255,
+    "protein": 15,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Portakal (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_106",
+    "meal_name": "Kefir + Mandalina + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 256,
+    "protein": 16,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Mandalina (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_107",
+    "meal_name": "Kefir + Armut + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 257,
+    "protein": 17,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Armut (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_108",
+    "meal_name": "Kefir + Kivi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 258,
+    "protein": 6,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Kivi (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_109",
+    "meal_name": "Kefir + Üzüm + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 259,
+    "protein": 7,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Üzüm (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_110",
+    "meal_name": "Kefir + Şeftali + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 260,
+    "protein": 8,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Şeftali (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_111",
+    "meal_name": "Kefir + Erik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 261,
+    "protein": 9,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Erik (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_112",
+    "meal_name": "Kefir + Kayısı + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 262,
+    "protein": 10,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Kayısı (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_113",
+    "meal_name": "Ayran + Elma + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 263,
+    "protein": 11,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Elma (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_114",
+    "meal_name": "Ayran + Muz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 264,
+    "protein": 12,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Muz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_115",
+    "meal_name": "Ayran + Portakal + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 265,
+    "protein": 13,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Portakal (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_116",
+    "meal_name": "Ayran + Mandalina + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 266,
+    "protein": 14,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Mandalina (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_117",
+    "meal_name": "Ayran + Armut + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 267,
+    "protein": 15,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Armut (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_118",
+    "meal_name": "Ayran + Kivi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 268,
+    "protein": 16,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Kivi (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_119",
+    "meal_name": "Ayran + Üzüm + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 269,
+    "protein": 17,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Üzüm (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_120",
+    "meal_name": "Ayran + Şeftali + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 270,
+    "protein": 6,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Şeftali (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_121",
+    "meal_name": "Ayran + Erik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 271,
+    "protein": 7,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Erik (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_122",
+    "meal_name": "Ayran + Kayısı + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 272,
+    "protein": 8,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Kayısı (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_123",
+    "meal_name": "Elma + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 273,
+    "protein": 9,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_124",
+    "meal_name": "Elma + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 274,
+    "protein": 10,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_125",
+    "meal_name": "Elma + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 275,
+    "protein": 11,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_126",
+    "meal_name": "Elma + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 276,
+    "protein": 12,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Elma (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_127",
+    "meal_name": "Muz + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 277,
+    "protein": 13,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_128",
+    "meal_name": "Muz + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 278,
+    "protein": 14,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_129",
+    "meal_name": "Muz + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 279,
+    "protein": 15,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_130",
+    "meal_name": "Muz + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 280,
+    "protein": 16,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Muz (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_131",
+    "meal_name": "Portakal + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 281,
+    "protein": 17,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_132",
+    "meal_name": "Portakal + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 282,
+    "protein": 6,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_133",
+    "meal_name": "Portakal + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 283,
+    "protein": 7,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_134",
+    "meal_name": "Portakal + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 284,
+    "protein": 8,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Portakal (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_135",
+    "meal_name": "Mandalina + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 285,
+    "protein": 9,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_136",
+    "meal_name": "Mandalina + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 286,
+    "protein": 10,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_137",
+    "meal_name": "Mandalina + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 287,
+    "protein": 11,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_138",
+    "meal_name": "Mandalina + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 288,
+    "protein": 12,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "Mandalina (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_139",
+    "meal_name": "Armut + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 289,
+    "protein": 13,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_140",
+    "meal_name": "Armut + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 290,
+    "protein": 14,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_141",
+    "meal_name": "Armut + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 291,
+    "protein": 15,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_142",
+    "meal_name": "Armut + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 292,
+    "protein": 16,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Armut (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_143",
+    "meal_name": "Kivi + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 293,
+    "protein": 17,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_144",
+    "meal_name": "Kivi + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 294,
+    "protein": 6,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_145",
+    "meal_name": "Kivi + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 295,
+    "protein": 7,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_146",
+    "meal_name": "Kivi + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 296,
+    "protein": 8,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Kivi (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_147",
+    "meal_name": "Üzüm + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 297,
+    "protein": 9,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_148",
+    "meal_name": "Üzüm + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 298,
+    "protein": 10,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_149",
+    "meal_name": "Üzüm + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 299,
+    "protein": 11,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_150",
+    "meal_name": "Üzüm + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 150,
+    "protein": 12,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_151",
+    "meal_name": "Üzüm + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 151,
+    "protein": 13,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Üzüm (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_152",
+    "meal_name": "Şeftali + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 152,
+    "protein": 14,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_153",
+    "meal_name": "Şeftali + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 153,
+    "protein": 15,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_154",
+    "meal_name": "Şeftali + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 154,
+    "protein": 16,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_155",
+    "meal_name": "Şeftali + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 155,
+    "protein": 17,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_156",
+    "meal_name": "Şeftali + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 156,
+    "protein": 6,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Şeftali (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_157",
+    "meal_name": "Erik + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 157,
+    "protein": 7,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_158",
+    "meal_name": "Erik + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 158,
+    "protein": 8,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_159",
+    "meal_name": "Erik + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 159,
+    "protein": 9,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_160",
+    "meal_name": "Erik + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 160,
+    "protein": 10,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_161",
+    "meal_name": "Erik + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 161,
+    "protein": 11,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Erik (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_162",
+    "meal_name": "Kayısı + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 162,
+    "protein": 12,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_163",
+    "meal_name": "Kayısı + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 163,
+    "protein": 13,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_164",
+    "meal_name": "Kayısı + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 164,
+    "protein": 14,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_165",
+    "meal_name": "Kayısı + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 165,
+    "protein": 15,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_166",
+    "meal_name": "Kayısı + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 166,
+    "protein": 16,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Kayısı (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_167",
+    "meal_name": "Greyfurt + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 167,
+    "protein": 17,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_168",
+    "meal_name": "Greyfurt + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 168,
+    "protein": 6,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_169",
+    "meal_name": "Greyfurt + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 169,
+    "protein": 7,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_170",
+    "meal_name": "Greyfurt + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 170,
+    "protein": 8,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_171",
+    "meal_name": "Greyfurt + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 171,
+    "protein": 9,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_172",
+    "meal_name": "Greyfurt + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 172,
+    "protein": 10,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_173",
+    "meal_name": "Greyfurt + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 173,
+    "protein": 11,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_174",
+    "meal_name": "Greyfurt + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 174,
+    "protein": 12,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_175",
+    "meal_name": "Greyfurt + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 175,
+    "protein": 13,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_176",
+    "meal_name": "Greyfurt + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 176,
+    "protein": 14,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Greyfurt (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_177",
+    "meal_name": "Nar + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 177,
+    "protein": 15,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_178",
+    "meal_name": "Nar + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 178,
+    "protein": 16,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_179",
+    "meal_name": "Nar + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 179,
+    "protein": 17,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_180",
+    "meal_name": "Nar + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 180,
+    "protein": 6,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_181",
+    "meal_name": "Nar + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 181,
+    "protein": 7,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_182",
+    "meal_name": "Nar + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 182,
+    "protein": 8,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_183",
+    "meal_name": "Nar + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 183,
+    "protein": 9,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_184",
+    "meal_name": "Nar + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 184,
+    "protein": 10,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_185",
+    "meal_name": "Nar + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 185,
+    "protein": 11,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_186",
+    "meal_name": "Nar + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 186,
+    "protein": 12,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Nar (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_187",
+    "meal_name": "İncir (taze) + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 187,
+    "protein": 13,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_188",
+    "meal_name": "İncir (taze) + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 188,
+    "protein": 14,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_189",
+    "meal_name": "İncir (taze) + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 189,
+    "protein": 15,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_190",
+    "meal_name": "İncir (taze) + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 190,
+    "protein": 16,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_191",
+    "meal_name": "İncir (taze) + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 191,
+    "protein": 17,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_192",
+    "meal_name": "İncir (taze) + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 192,
+    "protein": 6,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_193",
+    "meal_name": "İncir (taze) + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 193,
+    "protein": 7,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_194",
+    "meal_name": "İncir (taze) + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 194,
+    "protein": 8,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_195",
+    "meal_name": "İncir (taze) + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 195,
+    "protein": 9,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_196",
+    "meal_name": "İncir (taze) + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 196,
+    "protein": 10,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "İncir (taze) (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_197",
+    "meal_name": "Kavun + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 197,
+    "protein": 11,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_198",
+    "meal_name": "Kavun + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 198,
+    "protein": 12,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_199",
+    "meal_name": "Kavun + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 199,
+    "protein": 13,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_200",
+    "meal_name": "Kavun + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 200,
+    "protein": 14,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_201",
+    "meal_name": "Kavun + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 201,
+    "protein": 15,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_202",
+    "meal_name": "Kavun + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 202,
+    "protein": 16,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_203",
+    "meal_name": "Kavun + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 203,
+    "protein": 17,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_204",
+    "meal_name": "Kavun + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 204,
+    "protein": 6,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_205",
+    "meal_name": "Kavun + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 205,
+    "protein": 7,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_206",
+    "meal_name": "Kavun + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 206,
+    "protein": 8,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Kavun (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_207",
+    "meal_name": "Karpuz + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 207,
+    "protein": 9,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_208",
+    "meal_name": "Karpuz + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 208,
+    "protein": 10,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_209",
+    "meal_name": "Karpuz + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 209,
+    "protein": 11,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_210",
+    "meal_name": "Karpuz + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 210,
+    "protein": 12,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_211",
+    "meal_name": "Karpuz + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 211,
+    "protein": 13,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_212",
+    "meal_name": "Karpuz + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 212,
+    "protein": 14,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_213",
+    "meal_name": "Karpuz + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 213,
+    "protein": 15,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_214",
+    "meal_name": "Karpuz + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 214,
+    "protein": 16,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_215",
+    "meal_name": "Karpuz + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 215,
+    "protein": 17,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_216",
+    "meal_name": "Karpuz + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 216,
+    "protein": 6,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Karpuz (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_217",
+    "meal_name": "Çilek + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 217,
+    "protein": 7,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_218",
+    "meal_name": "Çilek + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 218,
+    "protein": 8,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_219",
+    "meal_name": "Çilek + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 219,
+    "protein": 9,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_220",
+    "meal_name": "Çilek + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 220,
+    "protein": 10,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_221",
+    "meal_name": "Çilek + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 221,
+    "protein": 11,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_222",
+    "meal_name": "Çilek + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 222,
+    "protein": 12,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_223",
+    "meal_name": "Çilek + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 223,
+    "protein": 13,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_224",
+    "meal_name": "Çilek + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 224,
+    "protein": 14,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_225",
+    "meal_name": "Çilek + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 225,
+    "protein": 15,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_226",
+    "meal_name": "Çilek + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 226,
+    "protein": 16,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Çilek (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_227",
+    "meal_name": "Yaban Mersini + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 227,
+    "protein": 17,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_228",
+    "meal_name": "Yaban Mersini + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 228,
+    "protein": 6,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_229",
+    "meal_name": "Yaban Mersini + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 229,
+    "protein": 7,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_230",
+    "meal_name": "Yaban Mersini + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 230,
+    "protein": 8,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_231",
+    "meal_name": "Yaban Mersini + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 231,
+    "protein": 9,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_232",
+    "meal_name": "Yaban Mersini + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 232,
+    "protein": 10,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_233",
+    "meal_name": "Yaban Mersini + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 233,
+    "protein": 11,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_234",
+    "meal_name": "Yaban Mersini + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 234,
+    "protein": 12,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_235",
+    "meal_name": "Yaban Mersini + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 235,
+    "protein": 13,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_236",
+    "meal_name": "Yaban Mersini + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 236,
+    "protein": 14,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Yaban Mersini (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_237",
+    "meal_name": "Frambuaz + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 237,
+    "protein": 15,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_238",
+    "meal_name": "Frambuaz + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 238,
+    "protein": 16,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_239",
+    "meal_name": "Frambuaz + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 239,
+    "protein": 17,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_240",
+    "meal_name": "Frambuaz + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 240,
+    "protein": 6,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_241",
+    "meal_name": "Frambuaz + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 241,
+    "protein": 7,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_242",
+    "meal_name": "Frambuaz + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 242,
+    "protein": 8,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_243",
+    "meal_name": "Frambuaz + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 243,
+    "protein": 9,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_244",
+    "meal_name": "Frambuaz + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 244,
+    "protein": 10,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_245",
+    "meal_name": "Frambuaz + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 245,
+    "protein": 11,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_246",
+    "meal_name": "Frambuaz + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 246,
+    "protein": 12,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Frambuaz (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_247",
+    "meal_name": "Böğürtlen + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 247,
+    "protein": 13,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_248",
+    "meal_name": "Böğürtlen + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 248,
+    "protein": 14,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_249",
+    "meal_name": "Böğürtlen + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 249,
+    "protein": 15,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_250",
+    "meal_name": "Böğürtlen + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 250,
+    "protein": 16,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_251",
+    "meal_name": "Böğürtlen + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 251,
+    "protein": 17,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_252",
+    "meal_name": "Böğürtlen + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 252,
+    "protein": 6,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_253",
+    "meal_name": "Böğürtlen + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 253,
+    "protein": 7,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_254",
+    "meal_name": "Böğürtlen + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 254,
+    "protein": 8,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_255",
+    "meal_name": "Böğürtlen + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 255,
+    "protein": 9,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_256",
+    "meal_name": "Böğürtlen + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 256,
+    "protein": 10,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Böğürtlen (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_257",
+    "meal_name": "Kiraz + Badem",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 257,
+    "protein": 11,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Badem (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_258",
+    "meal_name": "Kiraz + Ceviz",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 258,
+    "protein": 12,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Ceviz (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_259",
+    "meal_name": "Kiraz + Findik",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 259,
+    "protein": 13,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Findik (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_260",
+    "meal_name": "Kiraz + Kaju",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 260,
+    "protein": 14,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Kaju (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_261",
+    "meal_name": "Kiraz + Antep Fistigi",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 261,
+    "protein": 15,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Antep Fistigi (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_262",
+    "meal_name": "Kiraz + Ay Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 262,
+    "protein": 16,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Ay Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_263",
+    "meal_name": "Kiraz + Kabak Çekirdeği",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 263,
+    "protein": 17,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Kabak Çekirdeği (20g)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_264",
+    "meal_name": "Kiraz + Kuru İncir",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 264,
+    "protein": 6,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Kuru İncir (20g)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_265",
+    "meal_name": "Kiraz + Kuru Kayısı",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 265,
+    "protein": 7,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Kuru Kayısı (20g)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_266",
+    "meal_name": "Kiraz + Kuru Üzüm",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 266,
+    "protein": 8,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Kiraz (1 adet)",
+      "Kuru Üzüm (20g)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_267",
+    "meal_name": "Süzme Yoğurt + Greyfurt + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 267,
+    "protein": 9,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Greyfurt (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_268",
+    "meal_name": "Süzme Yoğurt + Nar + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 268,
+    "protein": 10,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Nar (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_269",
+    "meal_name": "Süzme Yoğurt + İncir (taze) + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 269,
+    "protein": 11,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "İncir (taze) (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_270",
+    "meal_name": "Süzme Yoğurt + Kavun + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 270,
+    "protein": 12,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kavun (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_271",
+    "meal_name": "Süzme Yoğurt + Karpuz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 271,
+    "protein": 13,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Karpuz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_272",
+    "meal_name": "Süzme Yoğurt + Çilek + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 272,
+    "protein": 14,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Çilek (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_273",
+    "meal_name": "Süzme Yoğurt + Yaban Mersini + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 273,
+    "protein": 15,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Yaban Mersini (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_274",
+    "meal_name": "Süzme Yoğurt + Frambuaz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 274,
+    "protein": 16,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Frambuaz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_275",
+    "meal_name": "Süzme Yoğurt + Böğürtlen + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 275,
+    "protein": 17,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Böğürtlen (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_276",
+    "meal_name": "Süzme Yoğurt + Kiraz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 276,
+    "protein": 6,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kiraz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_277",
+    "meal_name": "Yoğurt + Greyfurt + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 277,
+    "protein": 7,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Greyfurt (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_278",
+    "meal_name": "Yoğurt + Nar + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 278,
+    "protein": 8,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Nar (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_279",
+    "meal_name": "Yoğurt + İncir (taze) + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 279,
+    "protein": 9,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "İncir (taze) (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_280",
+    "meal_name": "Yoğurt + Kavun + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 280,
+    "protein": 10,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kavun (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_281",
+    "meal_name": "Yoğurt + Karpuz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 281,
+    "protein": 11,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Karpuz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_282",
+    "meal_name": "Yoğurt + Çilek + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 282,
+    "protein": 12,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Çilek (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_283",
+    "meal_name": "Yoğurt + Yaban Mersini + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 283,
+    "protein": 13,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Yaban Mersini (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_284",
+    "meal_name": "Yoğurt + Frambuaz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 284,
+    "protein": 14,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Frambuaz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_285",
+    "meal_name": "Yoğurt + Böğürtlen + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 285,
+    "protein": 15,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Böğürtlen (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_286",
+    "meal_name": "Yoğurt + Kiraz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 286,
+    "protein": 16,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kiraz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_287",
+    "meal_name": "Kefir + Greyfurt + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 287,
+    "protein": 17,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Greyfurt (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_288",
+    "meal_name": "Kefir + Nar + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 288,
+    "protein": 6,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Nar (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_289",
+    "meal_name": "Kefir + İncir (taze) + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 289,
+    "protein": 7,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "Kefir (150g)",
+      "İncir (taze) (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_290",
+    "meal_name": "Kefir + Kavun + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 290,
+    "protein": 8,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Kavun (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_291",
+    "meal_name": "Kefir + Karpuz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 291,
+    "protein": 9,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Karpuz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_292",
+    "meal_name": "Kefir + Çilek + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 292,
+    "protein": 10,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Çilek (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_293",
+    "meal_name": "Kefir + Yaban Mersini + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 293,
+    "protein": 11,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Yaban Mersini (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_294",
+    "meal_name": "Kefir + Frambuaz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 294,
+    "protein": 12,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Frambuaz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_295",
+    "meal_name": "Kefir + Böğürtlen + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 295,
+    "protein": 13,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Böğürtlen (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_296",
+    "meal_name": "Kefir + Kiraz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 296,
+    "protein": 14,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Kefir (150g)",
+      "Kiraz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_297",
+    "meal_name": "Ayran + Greyfurt + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 297,
+    "protein": 15,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Greyfurt (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_298",
+    "meal_name": "Ayran + Nar + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 298,
+    "protein": 16,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Nar (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_299",
+    "meal_name": "Ayran + İncir (taze) + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 299,
+    "protein": 17,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Ayran (150g)",
+      "İncir (taze) (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_300",
+    "meal_name": "Ayran + Kavun + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 150,
+    "protein": 6,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Kavun (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_301",
+    "meal_name": "Ayran + Karpuz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 151,
+    "protein": 7,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Karpuz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_302",
+    "meal_name": "Ayran + Çilek + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 152,
+    "protein": 8,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Çilek (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_303",
+    "meal_name": "Ayran + Yaban Mersini + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 153,
+    "protein": 9,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Yaban Mersini (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_304",
+    "meal_name": "Ayran + Frambuaz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 154,
+    "protein": 10,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Frambuaz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_305",
+    "meal_name": "Ayran + Böğürtlen + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 155,
+    "protein": 11,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Böğürtlen (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_306",
+    "meal_name": "Ayran + Kiraz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 156,
+    "protein": 12,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Ayran (150g)",
+      "Kiraz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_307",
+    "meal_name": "Protein Yoğurt + Elma + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 157,
+    "protein": 13,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Elma (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_308",
+    "meal_name": "Protein Yoğurt + Muz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 158,
+    "protein": 14,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Muz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_309",
+    "meal_name": "Protein Yoğurt + Portakal + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 159,
+    "protein": 15,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Portakal (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_310",
+    "meal_name": "Protein Yoğurt + Mandalina + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 160,
+    "protein": 16,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Mandalina (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_311",
+    "meal_name": "Protein Yoğurt + Armut + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 161,
+    "protein": 17,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Armut (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_312",
+    "meal_name": "Protein Yoğurt + Kivi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 162,
+    "protein": 6,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Kivi (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_313",
+    "meal_name": "Protein Yoğurt + Üzüm + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 163,
+    "protein": 7,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Üzüm (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_314",
+    "meal_name": "Protein Yoğurt + Şeftali + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 164,
+    "protein": 8,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Şeftali (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_315",
+    "meal_name": "Protein Yoğurt + Erik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 165,
+    "protein": 9,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Erik (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_316",
+    "meal_name": "Protein Yoğurt + Kayısı + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 166,
+    "protein": 10,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Kayısı (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_317",
+    "meal_name": "Protein Yoğurt + Greyfurt + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 167,
+    "protein": 11,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Greyfurt (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_318",
+    "meal_name": "Protein Yoğurt + Nar + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 168,
+    "protein": 12,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Nar (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_319",
+    "meal_name": "Protein Yoğurt + İncir (taze) + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 169,
+    "protein": 13,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "İncir (taze) (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_320",
+    "meal_name": "Protein Yoğurt + Kavun + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 170,
+    "protein": 14,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Kavun (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_321",
+    "meal_name": "Protein Yoğurt + Karpuz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 171,
+    "protein": 15,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Karpuz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_322",
+    "meal_name": "Protein Yoğurt + Çilek + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 172,
+    "protein": 16,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Çilek (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_323",
+    "meal_name": "Protein Yoğurt + Yaban Mersini + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 173,
+    "protein": 17,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Yaban Mersini (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_324",
+    "meal_name": "Protein Yoğurt + Frambuaz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 174,
+    "protein": 6,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Frambuaz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_325",
+    "meal_name": "Protein Yoğurt + Böğürtlen + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 175,
+    "protein": 7,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Böğürtlen (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_326",
+    "meal_name": "Protein Yoğurt + Kiraz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 176,
+    "protein": 8,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Protein Yoğurt (150g)",
+      "Kiraz (1 adet)",
+      "Bal (1 tatlı kaşığı)"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_327",
+    "meal_name": "Süzme Yoğurt + Badem + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 177,
+    "protein": 9,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Badem (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_328",
+    "meal_name": "Süzme Yoğurt + Badem + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 178,
+    "protein": 10,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Badem (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_329",
+    "meal_name": "Süzme Yoğurt + Badem + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 179,
+    "protein": 11,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Badem (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_330",
+    "meal_name": "Süzme Yoğurt + Badem + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 180,
+    "protein": 12,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Badem (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_331",
+    "meal_name": "Süzme Yoğurt + Badem + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 181,
+    "protein": 13,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Badem (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_332",
+    "meal_name": "Süzme Yoğurt + Ceviz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 182,
+    "protein": 14,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_333",
+    "meal_name": "Süzme Yoğurt + Ceviz + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 183,
+    "protein": 15,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_334",
+    "meal_name": "Süzme Yoğurt + Ceviz + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 184,
+    "protein": 16,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_335",
+    "meal_name": "Süzme Yoğurt + Ceviz + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 185,
+    "protein": 17,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_336",
+    "meal_name": "Süzme Yoğurt + Ceviz + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 186,
+    "protein": 6,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_337",
+    "meal_name": "Süzme Yoğurt + Findik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 187,
+    "protein": 7,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Findik (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_338",
+    "meal_name": "Süzme Yoğurt + Findik + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 188,
+    "protein": 8,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Findik (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_339",
+    "meal_name": "Süzme Yoğurt + Findik + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 189,
+    "protein": 9,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Findik (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_340",
+    "meal_name": "Süzme Yoğurt + Findik + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 190,
+    "protein": 10,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Findik (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_341",
+    "meal_name": "Süzme Yoğurt + Findik + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 191,
+    "protein": 11,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Findik (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_342",
+    "meal_name": "Süzme Yoğurt + Kaju + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 192,
+    "protein": 12,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kaju (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_343",
+    "meal_name": "Süzme Yoğurt + Kaju + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 193,
+    "protein": 13,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kaju (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_344",
+    "meal_name": "Süzme Yoğurt + Kaju + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 194,
+    "protein": 14,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kaju (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_345",
+    "meal_name": "Süzme Yoğurt + Kaju + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 195,
+    "protein": 15,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kaju (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_346",
+    "meal_name": "Süzme Yoğurt + Kaju + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 196,
+    "protein": 16,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kaju (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_347",
+    "meal_name": "Süzme Yoğurt + Antep Fistigi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 197,
+    "protein": 17,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_348",
+    "meal_name": "Süzme Yoğurt + Antep Fistigi + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 198,
+    "protein": 6,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_349",
+    "meal_name": "Süzme Yoğurt + Antep Fistigi + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 199,
+    "protein": 7,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_350",
+    "meal_name": "Süzme Yoğurt + Antep Fistigi + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 200,
+    "protein": 8,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_351",
+    "meal_name": "Süzme Yoğurt + Antep Fistigi + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 201,
+    "protein": 9,
+    "karbonhidrat": 21,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_352",
+    "meal_name": "Süzme Yoğurt + Ay Çekirdeği + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 202,
+    "protein": 10,
+    "karbonhidrat": 22,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ay Çekirdeği (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_353",
+    "meal_name": "Süzme Yoğurt + Ay Çekirdeği + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 203,
+    "protein": 11,
+    "karbonhidrat": 23,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ay Çekirdeği (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_354",
+    "meal_name": "Süzme Yoğurt + Ay Çekirdeği + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 204,
+    "protein": 12,
+    "karbonhidrat": 24,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ay Çekirdeği (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_355",
+    "meal_name": "Süzme Yoğurt + Ay Çekirdeği + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 205,
+    "protein": 13,
+    "karbonhidrat": 25,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ay Çekirdeği (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_356",
+    "meal_name": "Süzme Yoğurt + Ay Çekirdeği + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 206,
+    "protein": 14,
+    "karbonhidrat": 26,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Ay Çekirdeği (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_357",
+    "meal_name": "Süzme Yoğurt + Kabak Çekirdeği + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 207,
+    "protein": 15,
+    "karbonhidrat": 27,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kabak Çekirdeği (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_358",
+    "meal_name": "Süzme Yoğurt + Kabak Çekirdeği + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 208,
+    "protein": 16,
+    "karbonhidrat": 28,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kabak Çekirdeği (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_359",
+    "meal_name": "Süzme Yoğurt + Kabak Çekirdeği + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 209,
+    "protein": 17,
+    "karbonhidrat": 29,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kabak Çekirdeği (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_360",
+    "meal_name": "Süzme Yoğurt + Kabak Çekirdeği + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 210,
+    "protein": 6,
+    "karbonhidrat": 30,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kabak Çekirdeği (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_361",
+    "meal_name": "Süzme Yoğurt + Kabak Çekirdeği + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 211,
+    "protein": 7,
+    "karbonhidrat": 31,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kabak Çekirdeği (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_362",
+    "meal_name": "Süzme Yoğurt + Kuru İncir + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 212,
+    "protein": 8,
+    "karbonhidrat": 32,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru İncir (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_363",
+    "meal_name": "Süzme Yoğurt + Kuru İncir + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 213,
+    "protein": 9,
+    "karbonhidrat": 33,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru İncir (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_364",
+    "meal_name": "Süzme Yoğurt + Kuru İncir + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 214,
+    "protein": 10,
+    "karbonhidrat": 34,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru İncir (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_365",
+    "meal_name": "Süzme Yoğurt + Kuru İncir + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 215,
+    "protein": 11,
+    "karbonhidrat": 35,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru İncir (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_366",
+    "meal_name": "Süzme Yoğurt + Kuru İncir + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 216,
+    "protein": 12,
+    "karbonhidrat": 36,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru İncir (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_367",
+    "meal_name": "Süzme Yoğurt + Kuru Kayısı + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 217,
+    "protein": 13,
+    "karbonhidrat": 37,
+    "yag": 15,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Kayısı (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_368",
+    "meal_name": "Süzme Yoğurt + Kuru Kayısı + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 218,
+    "protein": 14,
+    "karbonhidrat": 38,
+    "yag": 16,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Kayısı (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_369",
+    "meal_name": "Süzme Yoğurt + Kuru Kayısı + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 219,
+    "protein": 15,
+    "karbonhidrat": 39,
+    "yag": 17,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Kayısı (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_370",
+    "meal_name": "Süzme Yoğurt + Kuru Kayısı + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 220,
+    "protein": 16,
+    "karbonhidrat": 40,
+    "yag": 8,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Kayısı (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_371",
+    "meal_name": "Süzme Yoğurt + Kuru Kayısı + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 221,
+    "protein": 17,
+    "karbonhidrat": 41,
+    "yag": 9,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Kayısı (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_372",
+    "meal_name": "Süzme Yoğurt + Kuru Üzüm + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 222,
+    "protein": 6,
+    "karbonhidrat": 42,
+    "yag": 10,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Üzüm (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_373",
+    "meal_name": "Süzme Yoğurt + Kuru Üzüm + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 223,
+    "protein": 7,
+    "karbonhidrat": 43,
+    "yag": 11,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Üzüm (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_374",
+    "meal_name": "Süzme Yoğurt + Kuru Üzüm + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 224,
+    "protein": 8,
+    "karbonhidrat": 44,
+    "yag": 12,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Üzüm (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_375",
+    "meal_name": "Süzme Yoğurt + Kuru Üzüm + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 225,
+    "protein": 9,
+    "karbonhidrat": 20,
+    "yag": 13,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Üzüm (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_376",
+    "meal_name": "Süzme Yoğurt + Kuru Üzüm + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 226,
+    "protein": 10,
+    "karbonhidrat": 21,
+    "yag": 14,
+    "malzemeler": [
+      "Süzme Yoğurt (150g)",
+      "Kuru Üzüm (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_377",
+    "meal_name": "Yoğurt + Badem + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 227,
+    "protein": 11,
+    "karbonhidrat": 22,
+    "yag": 15,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Badem (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_378",
+    "meal_name": "Yoğurt + Badem + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 228,
+    "protein": 12,
+    "karbonhidrat": 23,
+    "yag": 16,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Badem (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_379",
+    "meal_name": "Yoğurt + Badem + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 229,
+    "protein": 13,
+    "karbonhidrat": 24,
+    "yag": 17,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Badem (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_380",
+    "meal_name": "Yoğurt + Badem + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 230,
+    "protein": 14,
+    "karbonhidrat": 25,
+    "yag": 8,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Badem (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_381",
+    "meal_name": "Yoğurt + Badem + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 231,
+    "protein": 15,
+    "karbonhidrat": 26,
+    "yag": 9,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Badem (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_382",
+    "meal_name": "Yoğurt + Ceviz + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 232,
+    "protein": 16,
+    "karbonhidrat": 27,
+    "yag": 10,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_383",
+    "meal_name": "Yoğurt + Ceviz + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 233,
+    "protein": 17,
+    "karbonhidrat": 28,
+    "yag": 11,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_384",
+    "meal_name": "Yoğurt + Ceviz + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 234,
+    "protein": 6,
+    "karbonhidrat": 29,
+    "yag": 12,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_385",
+    "meal_name": "Yoğurt + Ceviz + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 235,
+    "protein": 7,
+    "karbonhidrat": 30,
+    "yag": 13,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_386",
+    "meal_name": "Yoğurt + Ceviz + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 236,
+    "protein": 8,
+    "karbonhidrat": 31,
+    "yag": 14,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Ceviz (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_387",
+    "meal_name": "Yoğurt + Findik + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 237,
+    "protein": 9,
+    "karbonhidrat": 32,
+    "yag": 15,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Findik (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_388",
+    "meal_name": "Yoğurt + Findik + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 238,
+    "protein": 10,
+    "karbonhidrat": 33,
+    "yag": 16,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Findik (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_389",
+    "meal_name": "Yoğurt + Findik + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 239,
+    "protein": 11,
+    "karbonhidrat": 34,
+    "yag": 17,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Findik (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_390",
+    "meal_name": "Yoğurt + Findik + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 240,
+    "protein": 12,
+    "karbonhidrat": 35,
+    "yag": 8,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Findik (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_391",
+    "meal_name": "Yoğurt + Findik + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 241,
+    "protein": 13,
+    "karbonhidrat": 36,
+    "yag": 9,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Findik (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_392",
+    "meal_name": "Yoğurt + Kaju + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 242,
+    "protein": 14,
+    "karbonhidrat": 37,
+    "yag": 10,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kaju (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_393",
+    "meal_name": "Yoğurt + Kaju + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 243,
+    "protein": 15,
+    "karbonhidrat": 38,
+    "yag": 11,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kaju (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_394",
+    "meal_name": "Yoğurt + Kaju + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 244,
+    "protein": 16,
+    "karbonhidrat": 39,
+    "yag": 12,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kaju (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_395",
+    "meal_name": "Yoğurt + Kaju + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 245,
+    "protein": 17,
+    "karbonhidrat": 40,
+    "yag": 13,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kaju (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_396",
+    "meal_name": "Yoğurt + Kaju + Granola",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 246,
+    "protein": 6,
+    "karbonhidrat": 41,
+    "yag": 14,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Kaju (15g)",
+      "Granola"
+    ],
+    "hazirlamaSuresi": 3,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_397",
+    "meal_name": "Yoğurt + Antep Fistigi + Bal",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 247,
+    "protein": 7,
+    "karbonhidrat": 42,
+    "yag": 15,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Bal"
+    ],
+    "hazirlamaSuresi": 4,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_398",
+    "meal_name": "Yoğurt + Antep Fistigi + Tarçın",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 248,
+    "protein": 8,
+    "karbonhidrat": 43,
+    "yag": 16,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Tarçın"
+    ],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_399",
+    "meal_name": "Yoğurt + Antep Fistigi + Kakao",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 249,
+    "protein": 9,
+    "karbonhidrat": 44,
+    "yag": 17,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Kakao"
+    ],
+    "hazirlamaSuresi": 6,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  },
+  {
+    "meal_id": "ara1_400",
+    "meal_name": "Yoğurt + Antep Fistigi + Hurma",
+    "category": "Ara Öğün 1",
+    "meal_type": "ara_ogun_1",
+    "kalori": 250,
+    "protein": 10,
+    "karbonhidrat": 20,
+    "yag": 8,
+    "malzemeler": [
+      "Yoğurt (150g)",
+      "Antep Fistigi (15g)",
+      "Hurma"
+    ],
+    "hazirlamaSuresi": 2,
+    "zorluk": "kolay",
+    "etiketler": [
+      "pratik",
+      "sağlıklı"
+    ]
+  }
+]

@@ -89,4 +89,21 @@ class MakroHedefleri extends Equatable {
       'gunlukYag': gunlukYag,
     };
   }
+
+  /// String adına göre makro değerini döndürür.
+  double makroDegeri(String makroAdi) {
+    switch (makroAdi) {
+      case 'kalori':
+        return gunlukKalori;
+      case 'protein':
+        return gunlukProtein;
+      case 'karb':
+      case 'karbonhidrat':
+        return gunlukKarbonhidrat;
+      case 'yag':
+        return gunlukYag;
+      default:
+        return 0.0;
+    }
+  }
 }

@@ -200,3 +200,19 @@ class ResetMealStatus extends HomeEvent {
   @override
   List<Object?> get props => [yemekId];
 }
+
+/// 🌟 FAVORİ YENİ EVENT'LERİ
+/// Yemeği favorilere ekle/çıkar (toggle)
+class ToggleFavoriteMeal extends HomeEvent {
+  final String yemekId;
+
+  const ToggleFavoriteMeal(this.yemekId);
+
+  @override
+  List<Object?> get props => [yemekId];
+}
+
+/// Favori yemekleri yükle
+class LoadFavoriteMeals extends HomeEvent {
+  const LoadFavoriteMeals();
+}

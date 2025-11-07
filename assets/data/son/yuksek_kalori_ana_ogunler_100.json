@@ -1,4 +1,3 @@
-
 [
   {
     "meal_name": "Izgara Tavuk Göğüs + Bulgur Pilavı + Yoğurt + Salata",
@@ -585,5 +584,6 @@
     "main_ingredient": "kofte",
     "meal_type": "ogle",
     "calories": 795,
-    "protein": 58,
-    
+    "protein": 58
+  }
+]

@@ -8,8 +8,8 @@ class DetayliOgunCard extends StatelessWidget {
   final Yemek yemek;
   final YemekDurumu yemekDurumu;
   final VoidCallback? onYedimPressed;
+  final VoidCallback? onYemedimPressed;
   final VoidCallback? onOnayPressed;
-  final VoidCallback? onAtlaPressed;
   final VoidCallback? onSifirlaPressed;
   final VoidCallback? onAlternatifPressed;
   final Function(Yemek yemek, String malzemeMetni, int malzemeIndex)?
@@ -20,8 +20,8 @@ class DetayliOgunCard extends StatelessWidget {
     required this.yemek,
     required this.yemekDurumu,
     this.onYedimPressed,
+    this.onYemedimPressed,
     this.onOnayPressed,
-    this.onAtlaPressed,
     this.onSifirlaPressed,
     this.onAlternatifPressed,
     this.onMalzemeAlternatifiPressed,
@@ -29,22 +29,18 @@ class DetayliOgunCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 🎭 Hero transition ile sarmalanmış GestureDetector
-    return Hero(
-      tag: HeroTags.mealCard(yemek.id),
-      child: Material(
-        color: Colors.transparent,
-        child: GestureDetector(
-          onTap: () {
-            // 🎯 Meal detail page'e navigate et
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => MealDetailPage(yemek: yemek),
-              ),
-            );
-          },
-          child: Container(
+    // GestureDetector ile tıklanabilir kart
+    return GestureDetector(
+      onTap: () {
+        // 🎯 Meal detail page'e navigate et
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => MealDetailPage(yemek: yemek),
+          ),
+        );
+      },
+      child: Container(
             margin: const EdgeInsets.only(bottom: 16),
             decoration: BoxDecoration(
               color: Colors.white,
@@ -226,9 +222,9 @@ class DetayliOgunCard extends StatelessWidget {
                             const SizedBox(width: 12),
                             Expanded(
                               child: ElevatedButton(
-                                onPressed: onAtlaPressed,
+                                onPressed: onYemedimPressed,
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.red,
+                                  backgroundColor: Colors.orange,
                                   foregroundColor: Colors.white,
                                   padding:
                                       const EdgeInsets.symmetric(vertical: 14),
@@ -240,10 +236,10 @@ class DetayliOgunCard extends StatelessWidget {
                                 child: const Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Icon(Icons.cancel_outlined, size: 18),
+                                    Icon(Icons.thumb_down, size: 18),
                                     SizedBox(width: 8),
                                     Text(
-                                      'Atla',
+                                      'Yemedim',
                                       style: TextStyle(
                                         fontSize: 14,
                                         fontWeight: FontWeight.w600,
@@ -384,38 +380,47 @@ class DetayliOgunCard extends StatelessWidget {
                           ),
                         ),
                       ] else if (yemekDurumu == YemekDurumu.ataldi) ...[
-                        // Atlandı
+                        // Yemedim durumu
                         Container(
                           width: double.infinity,
                           padding: const EdgeInsets.all(16),
                           decoration: BoxDecoration(
-                            color: Colors.red.shade50,
+                            color: Colors.orange.shade50,
                             borderRadius: BorderRadius.circular(12),
-                            border: Border.all(color: Colors.red.shade300),
+                            border: Border.all(color: Colors.orange.shade300),
                           ),
                           child: Column(
                             children: [
                               const Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Icon(Icons.block,
-                                      color: Colors.red, size: 20),
+                                  Icon(Icons.thumb_down,
+                                      color: Colors.orange, size: 20),
                                   SizedBox(width: 8),
                                   Text(
-                                    'ATLANDI',
+                                    'YEMEDİM',
                                     style: TextStyle(
-                                      color: Colors.red,
+                                      color: Colors.orange,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 16,
                                     ),
                                   ),
                                 ],
                               ),
-                              const SizedBox(height: 8),
+                              const SizedBox(height: 4),
+                              const Text(
+                                'Bu öğünü yemediniz olarak işaretlediniz.',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: Colors.orange,
+                                  fontSize: 12,
+                                ),
+                              ),
+                              const SizedBox(height: 12),
                               ElevatedButton(
                                 onPressed: onSifirlaPressed,
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.orange,
+                                  backgroundColor: Colors.grey,
                                   foregroundColor: Colors.white,
                                   padding:
                                       const EdgeInsets.symmetric(vertical: 12),
@@ -424,7 +429,7 @@ class DetayliOgunCard extends StatelessWidget {
                                   ),
                                 ),
                                 child: const Text(
-                                  'Tekrar Dene',
+                                  'Sıfırla',
                                   style: TextStyle(fontWeight: FontWeight.w600),
                                 ),
                               ),
@@ -466,8 +471,6 @@ class DetayliOgunCard extends StatelessWidget {
               ],
             ),
           ),
-        ),
-      ),
     );
   }
 
@@ -650,7 +653,7 @@ class DetayliOgunCard extends StatelessWidget {
       case YemekDurumu.onaylandi:
         return 'Onaylandı';
       case YemekDurumu.ataldi:
-        return 'Atlandı';
+        return 'Yemedim';
     }
   }
 }

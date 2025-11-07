@@ -13,6 +13,9 @@ import '../../core/utils/app_logger.dart';
 class YemekMigration {
   // 🎯 KULLANICI TALEBİ: SON KLASÖRÜ TÜM DOSYALAR + KARBONHIDRAT/KAHVALTI
   static const List<String> _jsonDosyalari = [
+    // 🔥 YENİ EKLEME: 200 Öğle Yemeği (Batch 3)
+    'ogle_200_yemek.json',
+    
     // 🌟 SON KLASÖRÜ - TÜM DOSYALAR (30 dosya × 100 = ~3000 yemek)
     'son/baklagil_aksam_100.json',
     'son/baklagil_kahvalti_100.json',
@@ -48,6 +51,13 @@ class YemekMigration {
     // 🥖 KARBONHIDRAT & KAHVALTI ÖZELİ (benim oluşturduklarım)
     'kahvalti_yuksek_karb_50.json',
     'kahvalti.json',
+    
+    // 🍳 SAĞLIKLI ÖĞÜNLER - HER ÖĞÜN İÇİN 150'ŞER YEMEK (TÜRK MUTFAĞI)
+    'kahvalti_saglikli_150.json',
+    'ara_ogun_1_saglikli_150.json',
+    'ogle_yemegi_saglikli_150.json',
+    'ara_ogun_2_saglikli_150.json',
+    'aksam_yemegi_saglikli_150.json',
     
     // ⚡ MİNİMAL EK ÇEŞİTLİLİK (sadece gerekli olanlar)
     'ara_ogun_toplu_120.json',
@@ -280,6 +290,97 @@ class YemekMigration {
                 continue;
               }
 
+              // 🔥 ADIM 6: YABANCI BESİN KONTROLÜ (Türk mutfağı dışı besinler)
+              final mealNameToCheck = finalMealName?.toLowerCase() ?? '';
+              final malzemeler = jsonMap['malzemeler'] as List<dynamic>? ?? [];
+              final malzemelerText = malzemeler.join(' ').toLowerCase();
+              
+              final yabanciBesinler = [
+                'tempeh', 'quinoa', 'kinoa', 'tofu', 'edamame', 'kimchi',
+                'kombucha', 'seitan', 'miso', 'hummus', 'falafel',
+                'couscous', 'kuskus', 'chia', 'acai', 'goji', 'spirulina',
+                'matcha', 'kale', 'arugula', 'rocket', 'bok choy', 'nori',
+                'wakame', 'sushi', 'sashimi', 'wasabi', 'sriracha', 'paneer',
+                'ghee', 'naan', 'basmati', 'jasmine rice', 'pad thai', 'pho',
+                'ramen', 'udon', 'soba', 'mochi', 'burrito', 'taco',
+                'quesadilla', 'guacamole', 'salsa', 'tortilla', 'enchilada',
+                'chimichanga', 'fajita', 'nachos', 'paella', 'risotto',
+                'gnocchi', 'ravioli', 'pesto', 'bruschetta', 'ciabatta',
+                'focaccia', 'bagel', 'croissant', 'baguette', 'prosciutto',
+                'salami', 'chorizo', 'pancetta', 'brie', 'camembert',
+                'gorgonzola', 'parmesan', 'mozzarella', 'ricotta',
+                'mascarpone', 'cheddar', 'gouda', 'swiss', 'blue cheese',
+                'cottage cheese', 'cream cheese',
+              ];
+              
+              bool yabanciBesinVar = false;
+              for (var yabanci in yabanciBesinler) {
+                if (mealNameToCheck.contains(yabanci) ||
+                    malzemelerText.contains(yabanci)) {
+                  yabanciBesinVar = true;
+                  print('🚫 ENGELLENDI: "$finalMealName" (Yabancı besin: $yabanci)');
+                  break;
+                }
+              }
+              
+              if (yabanciBesinVar) {
+                dosyaSkipped++;
+                continue; // Yabancı besin içeren yemeği atla
+              }
+
+              // 🔥 ADIM 7: VERİ TUTARSIZLIĞI KONTROLÜ VE OTOMATİK DÜZELTME
+              // Yemek adı ile malzemeler uyumsuzsa, malzemelere göre yeni ad oluştur
+              final finalMealNameLower = finalMealName?.toLowerCase() ?? '';
+              final malzemelerList = malzemeler.map((m) => m.toString().toLowerCase()).toList();
+              
+              // Yemek adında geçen ana malzemeler
+              final adtakiMalzemeler = [
+                'tavuk', 'balık', 'balik', 'ton', 'somon', 'makarna', 'pirinç',
+                'pirinci', 'bulgur', 'mercimek', 'nohut', 'dana', 'hindi', 'köfte'
+              ];
+              
+              bool tutarsizlikVar = false;
+              String? tutarsizMalzeme;
+              
+              for (var malzeme in adtakiMalzemeler) {
+                if (finalMealNameLower.contains(malzeme)) {
+                  // Yemek adında bu malzeme var, malzemelerde de var mı?
+                  bool malzemelerdeBulunamadi = true;
+                  for (var m in malzemelerList) {
+                    if (m.contains(malzeme)) {
+                      malzemelerdeBulunamadi = false;
+                      break;
+                    }
+                  }
+                  
+                  if (malzemelerdeBulunamadi) {
+                    tutarsizlikVar = true;
+                    tutarsizMalzeme = malzeme;
+                    break;
+                  }
+                }
+              }
+              
+              if (tutarsizlikVar) {
+                // Tutarsızlık tespit edildi! Malzemelerden yeni ad oluştur
+                final anaMalzemeler = _anaMalzemeleriBelirleme(malzemelerList);
+                
+                if (anaMalzemeler.isNotEmpty) {
+                  // Kategori önekini koru (Öğle:, Ara Öğün 1: vb.)
+                  final kategoriOnek = finalMealName?.split(':').first ?? '';
+                  final yeniAd = '$kategoriOnek: ${anaMalzemeler.join(" + ")}';
+                  
+                  jsonMap['meal_name'] = yeniAd;
+                  print('🔧 DÜZELTME: "${finalMealName}" → "$yeniAd" (Tutarsızlık: $tutarsizMalzeme yok)');
+                  finalMealName = yeniAd;
+                } else {
+                  // Ana malzeme belirlenemedi, yemeği atla
+                  print('🚫 ATLANDI: "${finalMealName}" (Ana malzeme belirlenemedi)');
+                  dosyaSkipped++;
+                  continue;
+                }
+              }
+
               final yemekModel = YemekHiveModel.fromJson(jsonMap);
 
               // 🔥 DUPLICATE KONTROLÜ: Aynı meal_id varsa ekleme!
@@ -437,6 +538,80 @@ class YemekMigration {
 
     // Hiçbir kurala uymuyorsa null dön (JSON'daki category kullanılacak)
     return null;
+  }
+
+  /// Ana malzemeleri belirle (malzeme listesinden yemek adı oluşturmak için)
+  static List<String> _anaMalzemeleriBelirleme(List<String> malzemeler) {
+    final anaBesinler = <String>[];
+    
+    // Malzeme önceliklendirmesi (protein > karbonhidrat > yağ > sebze)
+    final proteinler = ['tavuk', 'balik', 'ton', 'somon', 'dana', 'hindi', 'yumurta', 'peynir'];
+    final karbonhidratlar = ['makarna', 'pirinc', 'bulgur', 'ekmek', 'yulaf', 'bugday'];
+    final sebzeler = ['domates', 'salatalik', 'biber', 'patlican', 'kabak', 'havuc'];
+    final sutUrunleri = ['sut', 'yogurt', 'peynir', 'kasar'];
+    
+    // 1. Protein kaynağı bul
+    for (var malzeme in malzemeler) {
+      for (var protein in proteinler) {
+        if (malzeme.contains(protein)) {
+          if (protein == 'yumurta') {
+            // Eğer sadece yumurta + un + süt varsa → Pancake/Krep
+            final unVar = malzemeler.any((m) => m.contains('un') || m.contains('bugday'));
+            final sutVar = malzemeler.any((m) => m.contains('sut'));
+            if (unVar && sutVar) {
+              anaBesinler.add('Pancake');
+              return anaBesinler;
+            }
+            anaBesinler.add('Yumurta');
+          } else if (protein == 'peynir') {
+            anaBesinler.add('Peynir');
+          } else {
+            anaBesinler.add(protein[0].toUpperCase() + protein.substring(1));
+          }
+          break;
+        }
+      }
+      if (anaBesinler.isNotEmpty) break;
+    }
+    
+    // 2. Karbonhidrat bul
+    for (var malzeme in malzemeler) {
+      for (var karb in karbonhidratlar) {
+        if (malzeme.contains(karb)) {
+          anaBesinler.add(karb[0].toUpperCase() + karb.substring(1));
+          break;
+        }
+      }
+      if (anaBesinler.length >= 2) break;
+    }
+    
+    // 3. Sebze ekle (max 1)
+    if (anaBesinler.length < 2) {
+      for (var malzeme in malzemeler) {
+        for (var sebze in sebzeler) {
+          if (malzeme.contains(sebze)) {
+            anaBesinler.add(sebze[0].toUpperCase() + sebze.substring(1));
+            break;
+          }
+        }
+        if (anaBesinler.length >= 2) break;
+      }
+    }
+    
+    // 4. Süt ürünü ekle (eğer başka bir şey yoksa)
+    if (anaBesinler.isEmpty) {
+      for (var malzeme in malzemeler) {
+        for (var sut in sutUrunleri) {
+          if (malzeme.contains(sut)) {
+            anaBesinler.add(sut[0].toUpperCase() + sut.substring(1));
+            break;
+          }
+        }
+        if (anaBesinler.isNotEmpty) break;
+      }
+    }
+    
+    return anaBesinler;
   }
 
 }

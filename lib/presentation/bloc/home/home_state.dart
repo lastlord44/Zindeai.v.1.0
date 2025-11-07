@@ -21,11 +21,12 @@ class HomeInitial extends HomeState {}
 /// Yükleniyor durumu
 class HomeLoading extends HomeState {
   final String? message;
+  final double? progress; // 0.0 - 1.0 arası (null = belirsiz)
 
-  const HomeLoading({this.message});
+  const HomeLoading({this.message, this.progress});
 
   @override
-  List<Object?> get props => [message];
+  List<Object?> get props => [message, progress];
 }
 
 /// Başarıyla yüklendi
@@ -119,6 +120,7 @@ class AlternativeMealsLoaded extends HomeState {
   final KullaniciProfili kullanici;
   final DateTime currentDate;
   final Map<String, bool> tamamlananOgunler;
+  final GunlukOnayDurumu? gunlukOnayDurumu; // ✅ YENİ ONAY SİSTEMİ
 
   const AlternativeMealsLoaded({
     required this.mevcutYemek,
@@ -128,6 +130,7 @@ class AlternativeMealsLoaded extends HomeState {
     required this.kullanici,
     required this.currentDate,
     this.tamamlananOgunler = const {},
+    this.gunlukOnayDurumu, // ✅ YENİ ONAY SİSTEMİ
   });
 
   @override
@@ -139,6 +142,7 @@ class AlternativeMealsLoaded extends HomeState {
         kullanici,
         currentDate,
         tamamlananOgunler,
+        gunlukOnayDurumu,
       ];
 }
 
@@ -157,6 +161,7 @@ class AlternativeIngredientsLoaded extends HomeState {
   final double tamamlananProtein;
   final double tamamlananKarb;
   final double tamamlananYag;
+  final GunlukOnayDurumu? gunlukOnayDurumu; // ✅ YENİ ONAY SİSTEMİ
 
   const AlternativeIngredientsLoaded({
     required this.yemek,
@@ -172,6 +177,7 @@ class AlternativeIngredientsLoaded extends HomeState {
     required this.tamamlananProtein,
     required this.tamamlananKarb,
     required this.tamamlananYag,
+    this.gunlukOnayDurumu, // ✅ YENİ ONAY SİSTEMİ
   });
 
   @override
@@ -189,6 +195,7 @@ class AlternativeIngredientsLoaded extends HomeState {
         tamamlananProtein,
         tamamlananKarb,
         tamamlananYag,
+        gunlukOnayDurumu,
       ];
 }
 

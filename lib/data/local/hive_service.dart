@@ -3,7 +3,10 @@
 // GELIŞMIŞ HIVE LOCAL STORAGE SERVICE (YEMEK DESTEKLİ)
 // ============================================================================
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:path_provider/path_provider.dart';
+import 'dart:io';
 import '../models/kullanici_hive_model.dart';
 import '../models/gunluk_plan_hive_model.dart';
 import '../models/antrenman_hive_model.dart';
@@ -12,6 +15,7 @@ import '../../domain/entities/kullanici_profili.dart';
 import '../../domain/entities/gunluk_plan.dart';
 import '../../domain/entities/antrenman.dart';
 import '../../domain/entities/yemek.dart';
+import '../../domain/entities/yemek_onay_sistemi.dart';
 import '../../core/utils/app_logger.dart';
 import '../../core/services/cesitlilik_gecmis_servisi.dart';
 
@@ -22,21 +26,48 @@ class HiveService {
   static const String _antrenmanBox = 'antrenman_box';
   static const String _yemekBox =
       'yemekler'; // ✅ Fiziksel dosya adıyla eşleşmeli!
+  static const String _yemekOnayBox = 'yemek_onay_box';
+  static const String _raporBox = 'rapor_box';
 
   // ========================================================================
   // BAŞLATMA
   // ========================================================================
 
   /// Hive'ı başlat ve tüm box'ları aç
-  static Future<void> init() async {
+  static Future<void> init({String? path, bool isTest = false}) async {
     try {
-      await Hive.initFlutter();
+      // 🔥 PLATFORMA ÖZEL BAŞLATMA (v3)
+      if (isTest) {
+        // Test ortamları için in-memory/geçici dizin.
+        // `path_provider`'a bağımlılığı ortadan kaldırır.
+        final tempDir = await Directory.systemTemp.createTemp('zindeai_hive_test');
+        Hive.init(tempDir.path);
+        AppLogger.info('🧪 Hive test modunda başlatıldı: ${tempDir.path}');
+      } else if (path != null) {
+        // Manuel yol sağlandı (eski yöntem, hala destekleniyor).
+        Hive.init(path);
+      } else if (kIsWeb) {
+        // Web platformu için.
+        await Hive.initFlutter();
+      } else {
+        // Mobil/Desktop platformları için.
+        final appDocumentDir = await getApplicationDocumentsDirectory();
+        Hive.init(appDocumentDir.path);
+      }
 
       // Adapter'ları kaydet
-      Hive.registerAdapter(KullaniciHiveModelAdapter());
-      Hive.registerAdapter(GunlukPlanHiveModelAdapter());
-      Hive.registerAdapter(TamamlananAntrenmanHiveModelAdapter());
-      Hive.registerAdapter(YemekHiveModelAdapter());
+      if (!Hive.isAdapterRegistered(KullaniciHiveModelAdapter().typeId)) {
+        Hive.registerAdapter(KullaniciHiveModelAdapter());
+      }
+      if (!Hive.isAdapterRegistered(GunlukPlanHiveModelAdapter().typeId)) {
+        Hive.registerAdapter(GunlukPlanHiveModelAdapter());
+      }
+      if (!Hive.isAdapterRegistered(TamamlananAntrenmanHiveModelAdapter().typeId)) {
+        Hive.registerAdapter(TamamlananAntrenmanHiveModelAdapter());
+      }
+      if (!Hive.isAdapterRegistered(YemekHiveModelAdapter().typeId)) {
+        Hive.registerAdapter(YemekHiveModelAdapter());
+      }
 
       // Box'ları aç
       await Hive.openBox<KullaniciHiveModel>(_kullaniciBox);
@@ -44,12 +75,13 @@ class HiveService {
       await Hive.openBox(_favoriYemeklerBox);
       await Hive.openBox<TamamlananAntrenmanHiveModel>(_antrenmanBox);
       await Hive.openBox<YemekHiveModel>(_yemekBox);
+      await Hive.openBox(_yemekOnayBox); // Yemek onayları için
+      await Hive.openBox(_raporBox); // Rapor verileri için
 
       // Cesitlilik gecmis servisi baslat
       await CesitlilikGecmisServisi.init();
 
       AppLogger.info('✅ Hive başarıyla başlatıldı');
-
     } catch (e, stackTrace) {
       AppLogger.error('❌ Hive başlatma hatası',
           error: e, stackTrace: stackTrace);
@@ -65,12 +97,9 @@ class HiveService {
   static Future<void> yemekKaydet(YemekHiveModel yemek) async {
     try {
       // 🔥 FIX: Box açık değilse aç
-      Box<YemekHiveModel> box;
-      if (Hive.isBoxOpen(_yemekBox)) {
-        box = Hive.box<YemekHiveModel>(_yemekBox);
-      } else {
-        box = await Hive.openBox<YemekHiveModel>(_yemekBox);
-      }
+      final Box<YemekHiveModel> box = Hive.isBoxOpen(_yemekBox)
+          ? Hive.box<YemekHiveModel>(_yemekBox)
+          : await Hive.openBox<YemekHiveModel>(_yemekBox);
 
       // 🔥 FIX: mealId null olmamalı! Static method kullanarak garantili ID oluştur
       if (yemek.mealId == null || yemek.mealId!.isEmpty) {
@@ -92,12 +121,9 @@ class HiveService {
   static Future<Yemek?> yemekGetir(String mealId) async {
     try {
       // 🔥 FIX: Box açık değilse aç
-      Box<YemekHiveModel> box;
-      if (Hive.isBoxOpen(_yemekBox)) {
-        box = Hive.box<YemekHiveModel>(_yemekBox);
-      } else {
-        box = await Hive.openBox<YemekHiveModel>(_yemekBox);
-      }
+      final Box<YemekHiveModel> box = Hive.isBoxOpen(_yemekBox)
+          ? Hive.box<YemekHiveModel>(_yemekBox)
+          : await Hive.openBox<YemekHiveModel>(_yemekBox);
 
       final model = box.get(mealId);
 
@@ -118,7 +144,11 @@ class HiveService {
   /// Kategori bazlı yemekleri getir
   static Future<List<Yemek>> kategoriYemekleriGetir(String kategori) async {
     try {
-      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      // 🔥 KRITIK FIX: Box açık değilse aç
+      final Box<YemekHiveModel> box = Hive.isBoxOpen(_yemekBox)
+          ? Hive.box<YemekHiveModel>(_yemekBox)
+          : await Hive.openBox<YemekHiveModel>(_yemekBox);
+
       final modeller = box.values
           .where((yemek) =>
               yemek.category?.toLowerCase() == kategori.toLowerCase())
@@ -134,17 +164,31 @@ class HiveService {
     }
   }
 
-  /// Tüm yemekleri getir
+  /// Tüm yemekleri getir - KRITIK METOD!
   static Future<List<Yemek>> tumYemekleriGetir() async {
     try {
-      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      // 🔥 KRITIK FIX: Box açık değilse aç
+      final Box<YemekHiveModel> box = Hive.isBoxOpen(_yemekBox)
+          ? Hive.box<YemekHiveModel>(_yemekBox)
+          : await Hive.openBox<YemekHiveModel>(_yemekBox);
+
       final modeller = box.values.toList();
+      AppLogger.info('📊 BOX İÇERİK: ${modeller.length} yemek modeli bulundu');
 
       final yemekler = modeller.map((model) => model.toEntity()).toList();
-      AppLogger.debug('✅ Toplam ${yemekler.length} yemek bulundu');
+      AppLogger.success(
+          '✅ Toplam ${yemekler.length} yemek entity dönüştürüldü');
+
+      // Box boşsa detaylı bilgi ver
+      if (yemekler.isEmpty) {
+        AppLogger.error('🚨 BOX BOŞ! Migration çalışmamış olabilir');
+        AppLogger.info('📋 Box keys: ${box.keys.toList()}');
+        AppLogger.info('📋 Box path: ${box.path}');
+      }
+
       return yemekler;
     } catch (e, stackTrace) {
-      AppLogger.error('❌ Tüm yemekleri getirme hatası',
+      AppLogger.error('❌ KRITIK HATA: Tüm yemekleri getirme hatası',
           error: e, stackTrace: stackTrace);
       return [];
     }
@@ -175,8 +219,14 @@ class HiveService {
   /// Yemek sayısını getir
   static Future<int> yemekSayisi() async {
     try {
-      final box = Hive.box<YemekHiveModel>(_yemekBox);
-      return box.length;
+      // 🔥 FIX: Box açık değilse aç
+      final Box<YemekHiveModel> box = Hive.isBoxOpen(_yemekBox)
+          ? Hive.box<YemekHiveModel>(_yemekBox)
+          : await Hive.openBox<YemekHiveModel>(_yemekBox);
+
+      final count = box.length;
+      AppLogger.debug('📊 Toplam yemek sayısı: $count');
+      return count;
     } catch (e) {
       AppLogger.error('❌ Yemek sayısı getirme hatası', error: e);
       return 0;
@@ -207,12 +257,9 @@ class HiveService {
   static Future<void> tumYemekleriSil() async {
     try {
       // 🔥 FIX: Box açık değilse aç
-      Box<YemekHiveModel> box;
-      if (Hive.isBoxOpen(_yemekBox)) {
-        box = Hive.box<YemekHiveModel>(_yemekBox);
-      } else {
-        box = await Hive.openBox<YemekHiveModel>(_yemekBox);
-      }
+      final Box<YemekHiveModel> box = Hive.isBoxOpen(_yemekBox)
+          ? Hive.box<YemekHiveModel>(_yemekBox)
+          : await Hive.openBox<YemekHiveModel>(_yemekBox);
 
       final count = box.length;
       await box.clear();
@@ -223,16 +270,180 @@ class HiveService {
   }
 
   // ========================================================================
+  // FAVORİ YEMEK İŞLEMLERİ
+  // ========================================================================
+
+  /// Yemeği favorilere ekle
+  static Future<void> favoriyeEkle(String mealId) async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final yemek = box.get(mealId);
+
+      if (yemek != null) {
+        yemek.isFavorite = true;
+        await box.put(mealId, yemek);
+        AppLogger.info('⭐ Yemek favorilere eklendi: ${yemek.mealName}');
+      } else {
+        AppLogger.warning('⚠️ Favori eklenirken yemek bulunamadı: $mealId');
+      }
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Favoriye ekleme hatası',
+          error: e, stackTrace: stackTrace);
+      rethrow;
+    }
+  }
+
+  /// Yemeği favorilerden çıkar
+  static Future<void> favoridenCikar(String mealId) async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final yemek = box.get(mealId);
+
+      if (yemek != null) {
+        yemek.isFavorite = false;
+        await box.put(mealId, yemek);
+        AppLogger.info('🗑️ Yemek favorilerden çıkarıldı: ${yemek.mealName}');
+      } else {
+        AppLogger.warning(
+            '⚠️ Favoriden çıkarılırken yemek bulunamadı: $mealId');
+      }
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Favoriden çıkarma hatası',
+          error: e, stackTrace: stackTrace);
+      rethrow;
+    }
+  }
+
+  /// Favori durumunu toggle et
+  static Future<bool> favoriToggle(String mealId) async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final yemek = box.get(mealId);
+
+      if (yemek != null) {
+        yemek.isFavorite = !(yemek.isFavorite ?? false);
+        await box.put(mealId, yemek);
+        AppLogger.debug(
+            '⭐ Favori durumu değişti: ${yemek.mealName} -> ${yemek.isFavorite}');
+        return yemek.isFavorite ?? false;
+      }
+      return false;
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Favori toggle hatası',
+          error: e, stackTrace: stackTrace);
+      return false;
+    }
+  }
+
+  /// Yemek favori mi kontrol et
+  static Future<bool> favoriMi(String mealId) async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final yemek = box.get(mealId);
+      return yemek?.isFavorite ?? false;
+    } catch (e) {
+      AppLogger.error('❌ Favori kontrolü hatası', error: e);
+      return false;
+    }
+  }
+
+  /// Tüm favori yemekleri getir
+  static Future<List<Yemek>> favoriYemekleriGetir() async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final modeller =
+          box.values.where((yemek) => yemek.isFavorite == true).toList();
+
+      final yemekler = modeller.map((model) => model.toEntity()).toList();
+      AppLogger.debug('⭐ ${yemekler.length} favori yemek bulundu');
+      return yemekler;
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Favori yemekleri getirme hatası',
+          error: e, stackTrace: stackTrace);
+      return [];
+    }
+  }
+
+  /// Kategori bazlı favori yemekleri getir
+  static Future<List<Yemek>> kategoriFavoriYemekleriGetir(
+      String kategori) async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final modeller = box.values
+          .where((yemek) =>
+              yemek.isFavorite == true &&
+              yemek.category?.toLowerCase() == kategori.toLowerCase())
+          .toList();
+
+      final yemekler = modeller.map((model) => model.toEntity()).toList();
+      AppLogger.debug(
+          '⭐ $kategori için ${yemekler.length} favori yemek bulundu');
+      return yemekler;
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Kategori favori yemekleri getirme hatası',
+          error: e, stackTrace: stackTrace);
+      return [];
+    }
+  }
+
+  /// Favori yemek sayısı
+  static Future<int> favoriSayisi() async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      return box.values.where((yemek) => yemek.isFavorite == true).length;
+    } catch (e) {
+      AppLogger.error('❌ Favori sayısı getirme hatası', error: e);
+      return 0;
+    }
+  }
+
+  /// Tüm favorileri temizle
+  static Future<void> tumFavorileriTemizle() async {
+    try {
+      final box = Hive.box<YemekHiveModel>(_yemekBox);
+      final favoriler =
+          box.values.where((yemek) => yemek.isFavorite == true).toList();
+
+      for (final yemek in favoriler) {
+        yemek.isFavorite = false;
+        await box.put(yemek.mealId!, yemek);
+      }
+
+      AppLogger.info('🗑️ ${favoriler.length} favori temizlendi');
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Favorileri temizleme hatası',
+          error: e, stackTrace: stackTrace);
+    }
+  }
+
+  // ========================================================================
   // KULLANICI PROFİLİ İŞLEMLERİ
   // ========================================================================
 
   /// Kullanıcı profili kaydet
   static Future<void> kullaniciKaydet(KullaniciProfili profil) async {
     try {
+      AppLogger.info('--- KULLANICI KAYDETME İŞLEMİ BAŞLADI ---');
+      AppLogger.debug('Gelen profil: ${profil.ad}, Hedef: ${profil.hedef.aciklama}');
+      
       final box = Hive.box<KullaniciHiveModel>(_kullaniciBox);
+      AppLogger.debug('Kullanıcı kutusu açıldı. Path: ${box.path}');
+
       final model = KullaniciHiveModel.fromEntity(profil);
+      AppLogger.debug('KullaniciHiveModel oluşturuldu: ${model.ad}, Hedef: ${model.hedef}');
+
       await box.put('aktif_kullanici', model);
-      AppLogger.info('✅ Kullanıcı kaydedildi: ${profil.ad} ${profil.soyad}');
+      AppLogger.info('✅ "aktif_kullanici" anahtarıyla box.put() işlemi tamamlandı.');
+
+      // Doğrulama adımı
+      final kaydedilenModel = box.get('aktif_kullanici');
+      if (kaydedilenModel != null) {
+        AppLogger.success('✅ DOĞRULAMA BAŞARILI: Kullanıcı verisi Hive\'a yazıldı ve geri okundu.');
+        AppLogger.debug('Okunan veri: ${kaydedilenModel.ad}, Hedef: ${kaydedilenModel.hedef}');
+      } else {
+        AppLogger.error('❌ DOĞRULAMA BAŞARISIZ: Veri Hive\'a yazıldıktan sonra okunamadı!');
+      }
+
     } catch (e, stackTrace) {
       AppLogger.error('❌ Kullanıcı kaydetme hatası',
           error: e, stackTrace: stackTrace);
@@ -792,6 +1003,134 @@ class HiveService {
       return tahminiMB;
     } catch (e) {
       return 0;
+    }
+  }
+
+  // ========================================================================
+  // YEMEK ONAY SİSTEMİ İŞLEMLERİ
+  // ========================================================================
+
+  /// Yemek onay verisi getir
+  static Future<GunlukOnayDurumu?> yemekOnayVerisiGetir(DateTime tarih) async {
+    try {
+      final box = Hive.box(_yemekOnayBox);
+      final key = _tarihAnahtariOlustur(tarih);
+      final data = box.get(key);
+
+      if (data == null) return null;
+
+      // Map'den GunlukOnayDurumu oluştur
+      final yemekDurumlari = <String, YemekOnayVerisi>{};
+      final yemekData = data['yemekDurumlari'] as Map? ?? {};
+
+      for (final entry in yemekData.entries) {
+        final yemekId = entry.key.toString();
+        final durumData = entry.value as Map;
+
+        final durum = YemekOnayVerisi(
+          yemekId: yemekId,
+          tarih: tarih,
+          durum: YemekDurumu.values.firstWhere(
+            (d) => d.name == durumData['durum'],
+            orElse: () => YemekDurumu.bekliyor,
+          ),
+          yemeTarihi: durumData['yemeTarihi'] != null
+              ? DateTime.parse(durumData['yemeTarihi'])
+              : null,
+          onayTarihi: durumData['onayTarihi'] != null
+              ? DateTime.parse(durumData['onayTarihi'])
+              : null,
+          notlar: durumData['notlar'] as String?,
+          degistirilebilir: durumData['degistirilebilir'] as bool? ?? true,
+        );
+
+        yemekDurumlari[yemekId] = durum;
+      }
+
+      return GunlukOnayDurumu(
+        tarih: tarih,
+        yemekDurumlari: yemekDurumlari,
+        sonGuncelleme: DateTime.parse(data['sonGuncelleme']),
+      );
+    } catch (e) {
+      AppLogger.error('❌ Yemek onay verisi getirme hatası: $e');
+      return null;
+    }
+  }
+
+  /// Yemek onay verisi kaydet
+  static Future<void> yemekOnayVerisiKaydet(
+      DateTime tarih, GunlukOnayDurumu durum) async {
+    try {
+      final box = Hive.box(_yemekOnayBox);
+      final key = _tarihAnahtariOlustur(tarih);
+
+      // GunlukOnayDurumu'yu Map'e çevir
+      final yemekDurumlari = <String, Map>{};
+
+      for (final entry in durum.yemekDurumlari.entries) {
+        final yemekId = entry.key;
+        final yemekDurumu = entry.value;
+
+        yemekDurumlari[yemekId] = {
+          'durum': yemekDurumu.durum.name,
+          'yemeTarihi': yemekDurumu.yemeTarihi?.toIso8601String(),
+          'onayTarihi': yemekDurumu.onayTarihi?.toIso8601String(),
+          'notlar': yemekDurumu.notlar,
+          'degistirilebilir': yemekDurumu.degistirilebilir,
+        };
+      }
+
+      final data = {
+        'yemekDurumlari': yemekDurumlari,
+        'sonGuncelleme': durum.sonGuncelleme.toIso8601String(),
+      };
+
+      await box.put(key, data);
+      AppLogger.debug(
+          '✅ Yemek onay verisi kaydedildi: ${_tarihAnahtariOlustur(tarih)}');
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Yemek onay verisi kaydetme hatası',
+          error: e, stackTrace: stackTrace);
+      rethrow;
+    }
+  }
+
+  /// Rapor verisi kaydet
+  static Future<void> raporVerisiKaydet(
+      DateTime tarih, Map<String, dynamic> raporVerisi) async {
+    try {
+      final box = Hive.box(_raporBox);
+      final key =
+          'rapor_${_tarihAnahtariOlustur(tarih)}_${DateTime.now().millisecondsSinceEpoch}';
+
+      await box.put(key, raporVerisi);
+      AppLogger.debug('✅ Rapor verisi kaydedildi: $key');
+    } catch (e, stackTrace) {
+      AppLogger.error('❌ Rapor verisi kaydetme hatası',
+          error: e, stackTrace: stackTrace);
+      rethrow;
+    }
+  }
+
+  /// Rapor verilerini getir
+  static Future<List<Map<String, dynamic>>> raporVerileriniGetir(
+      DateTime tarih) async {
+    try {
+      final box = Hive.box(_raporBox);
+      final tarihKey = _tarihAnahtariOlustur(tarih);
+      final raporlar = <Map<String, dynamic>>[];
+
+      for (final entry in box.toMap().entries) {
+        if (entry.key.toString().contains('rapor_$tarihKey')) {
+          raporlar.add(Map<String, dynamic>.from(entry.value as Map));
+        }
+      }
+
+      return raporlar;
+    } catch (e) {
+      AppLogger.error('❌ Rapor verileri getirme hatası: $e');
+      return [];
     }
   }
 }

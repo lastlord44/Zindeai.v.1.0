@@ -33,6 +33,8 @@ dependencies:
   intl: ^0.18.1
   logger: ^2.0.2
   dartz: ^0.10.1
+  uuid: ^4.3.3
+  path: ^1.8.3
   
   # Video
   video_player: ^2.8.1
@@ -55,3 +57,4 @@ flutter:
     - assets/data/son/
     - assets/images/
     - assets/data/hive_db/
+    - assets/seeds/

@@ -1,0 +1,72 @@
+[
+  {
+    "meal_id": "kahvalti_001",
+    "meal_name": "Yulaf Ezmesi + Protein",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 350,
+    "protein": 25,
+    "karbonhidrat": 45,
+    "yag": 8,
+    "malzemeler": ["Yulaf Ezmesi (50g)", "Süzme Yoğurt (150g)", "Muz (1 adet)", "Bal (1 tatlı kaşığı)", "Ceviz (5 adet)"],
+    "hazirlamaSuresi": 10,
+    "zorluk": "kolay",
+    "etiketler": ["sağlıklı", "protein", "enerji"]
+  },
+  {
+    "meal_id": "kahvalti_002",
+    "meal_name": "Avokadolu Tam Buğday Tost",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 380,
+    "protein": 18,
+    "karbonhidrat": 42,
+    "yag": 16,
+    "malzemeler": ["Tam Buğday Ekmeği (2 dilim)", "Avokado (1/2 adet)", "Poşe Yumurta (1 adet)", "Cherry Domates (5 adet)", "Tuz, Karabiber"],
+    "hazirlamaSuresi": 12,
+    "zorluk": "kolay",
+    "etiketler": ["sağlıklı", "avokado", "protein"]
+  },
+  {
+    "meal_id": "kahvalti_003",
+    "meal_name": "Protein Smoothie Bowl",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 320,
+    "protein": 22,
+    "karbonhidrat": 48,
+    "yag": 6,
+    "malzemeler": ["Muz (1 adet)", "Yaban Mersini (100g)", "Protein Tozu (30g)", "Badem Sütü (200ml)", "Granola (30g)"],
+    "hazirlamaSuresi": 8,
+    "zorluk": "kolay",
+    "etiketler": ["smoothie", "protein", "meyve"]
+  },
+  {
+    "meal_id": "kahvalti_004",
+    "meal_name": "Lor Peynirli Menemen",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 295,
+    "protein": 24,
+    "karbonhidrat": 18,
+    "yag": 14,
+    "malzemeler": ["Yumurta (2 adet)", "Lor Peyniri (100g)", "Domates (2 adet)", "Biber (1 adet)", "Zeytinyağı (1 yemek kaşığı)"],
+    "hazirlamaSuresi": 15,
+    "zorluk": "kolay",
+    "etiketler": ["protein", "geleneksel", "sağlıklı"]
+  },
+  {
+    "meal_id": "kahvalti_005",
+    "meal_name": "Chia Pudingli Kahvaltı",
+    "category": "Kahvaltı",
+    "meal_type": "kahvalti",
+    "kalori": 310,
+    "protein": 18,
+    "karbonhidrat": 38,
+    "yag": 12,
+    "malzemeler": ["Chia Tohumu (30g)", "Badem Sütü (250ml)", "Muz (1 adet)", "Fındık Ezmesi (15g)", "Bal (1 tatlı kaşığı)"],
+    "hazirlamaSuresi": 5,
+    "zorluk": "kolay",
+    "etiketler": ["chia", "omega3", "sağlıklı"]
+  }
+]

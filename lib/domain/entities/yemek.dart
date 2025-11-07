@@ -48,6 +48,7 @@ class Yemek extends Equatable {
   final List<String> etiketler; // ['vejetaryen', 'glutensiz', 'vegan']
   final String? tarif;
   final String? gorselUrl;
+  final String? proteinKaynagi; // 🍗 Ana Protein Kaynağı
   // 🔥 Alerji grubu tanımlamaları (statik)
   static const Map<String, List<String>> _alerjiGruplari = {
     'balık': ['somon', 'ton', 'levrek', 'hamsi', 'palamut', 'çipura', 'sardalya', 'uskumru', 'istavrit', 'mezgit'],
@@ -74,6 +75,7 @@ class Yemek extends Equatable {
     this.etiketler = const [],
     this.tarif,
     this.gorselUrl,
+    this.proteinKaynagi,
   });
 
   /// JSON'dan oluştur (null-safe)
@@ -93,6 +95,7 @@ class Yemek extends Equatable {
       etiketler: _parseStringList(json['etiketler']) ?? [],
       tarif: json['tarif']?.toString(),
       gorselUrl: json['gorselUrl']?.toString(),
+      proteinKaynagi: json['proteinKaynagi']?.toString() ?? json['protein_kaynagi']?.toString(),
     );
   }
 
@@ -160,6 +163,7 @@ class Yemek extends Equatable {
       'etiketler': etiketler,
       'tarif': tarif,
       'gorselUrl': gorselUrl,
+      'proteinKaynagi': proteinKaynagi,
     };
   }
 
@@ -172,6 +176,7 @@ class Yemek extends Equatable {
       case 'araogun1':
       case 'ara_ogun_1':
       case 'ara öğün 1':
+      case 'ara1':
         return OgunTipi.araOgun1;
       case 'ogle':
       case 'öğle':
@@ -195,6 +200,15 @@ class Yemek extends Equatable {
       case 'cheat_meal':
       case 'cheat meal':
         return OgunTipi.cheatMeal;
+      case 'bulk':
+      case 'clean bulk': // 🔥 DB'deki "Clean Bulk" kategorisi için eklendi
+      case 'ana_yemek':
+      case 'ana yemek':
+        return OgunTipi.aksam; // Bulk yemekleri akşam kategorisine ata
+      case 'zayıflama':
+      case 'zayiflama':
+      case 'diet': // 🔥 Zayıflama yemekleri ara öğün kategorisine ata (düşük kalorili)
+        return OgunTipi.araOgun1;
       default:
         throw Exception('Bilinmeyen öğün tipi: $ogun');
     }
@@ -306,6 +320,23 @@ class Yemek extends Equatable {
     return '$ad - ${kalori.toInt()} kcal | P: ${protein.toInt()}g | K: ${karbonhidrat.toInt()}g | Y: ${yag.toInt()}g';
   }
 
+  /// String adına göre makro değerini döndürür.
+  double makroDegeri(String makroAdi) {
+    switch (makroAdi) {
+      case 'kalori':
+        return kalori;
+      case 'protein':
+        return protein;
+      case 'karb':
+      case 'karbonhidrat':
+        return karbonhidrat;
+      case 'yag':
+        return yag;
+      default:
+        return 0.0;
+    }
+  }
+
   @override
   List<Object?> get props => [
         id,
@@ -322,6 +353,7 @@ class Yemek extends Equatable {
         etiketler,
         tarif,
         gorselUrl,
+        proteinKaynagi,
       ];
 
   /// Copy with
@@ -340,6 +372,7 @@ class Yemek extends Equatable {
     List<String>? etiketler,
     String? tarif,
     String? gorselUrl,
+    String? proteinKaynagi,
   }) {
     return Yemek(
       id: id ?? this.id,
@@ -356,6 +389,7 @@ class Yemek extends Equatable {
       etiketler: etiketler ?? this.etiketler,
       tarif: tarif ?? this.tarif,
       gorselUrl: gorselUrl ?? this.gorselUrl,
+      proteinKaynagi: proteinKaynagi ?? this.proteinKaynagi,
     );
   }
 }
