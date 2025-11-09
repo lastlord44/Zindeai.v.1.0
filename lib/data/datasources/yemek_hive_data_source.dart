@@ -3,10 +3,13 @@
 // Hive database'den yemek verisi çeken data source
 // ============================================================================
 
+import 'package:hive/hive.dart';
 import '../../domain/entities/yemek.dart';
 import '../../core/utils/app_logger.dart';
 import '../../core/utils/yemek_migration_guncel.dart';
+import '../../core/utils/ogun_mapping_util.dart';
 import '../local/hive_service.dart';
+import '../models/yemek_hive_model.dart';
 
 /// Hive database'den yemek verisi çeken data source
 class YemekHiveDataSource {
@@ -53,11 +56,35 @@ class YemekHiveDataSource {
         return [];
       }
 
-      // Kategori adını belirle
-      final kategori = _ogunTipiToKategori(ogun);
-
-      // Hive'dan yemekleri getir
-      final yemekler = await HiveService.kategoriYemekleriGetir(kategori);
+      // 🔥 KRİTİK FIX: HiveService.kategoriYemekleriGetir() fallback sistemi kullanmıyor!
+      // Direkt box'tan fallback ile arıyoruz
+      List<Yemek> yemekler = [];
+      
+      // Fallback anahtarlarını al (birincil dahil)
+      final fallbackKeys = OgunMappingUtil.fallbackKeysFor(ogun);
+      AppLogger.debug('${ogun.name} için fallback anahtarları: ${fallbackKeys.join(", ")}');
+      
+      // 🔥 KRİTİK FIX: Hive box'ını direkt aç (HiveService tarzı)
+      final Box<YemekHiveModel> box = Hive.isBoxOpen('yemekler')
+          ? Hive.box<YemekHiveModel>('yemekler')
+          : await Hive.openBox<YemekHiveModel>('yemekler');
+      
+      // Tüm fallback anahtarlarını dene
+      for (final kategoriKey in fallbackKeys) {
+        AppLogger.debug('$kategoriKey kategorisinde aranıyor...');
+        
+        final bulunanModeller = box.values
+            .where((yemek) => yemek.category?.toLowerCase() == kategoriKey.toLowerCase())
+            .toList();
+            
+        if (bulunanModeller.isNotEmpty) {
+          yemekler.addAll(bulunanModeller.map((model) => model.toEntity()));
+          AppLogger.info('✅ $kategoriKey kategorisinde ${bulunanModeller.length} yemek bulundu');
+          break; // İlk bulduğumuz kategoriden devam
+        } else {
+          AppLogger.debug('❌ $kategoriKey kategorisi boş');
+        }
+      }
 
       AppLogger.success(
           '✅ ${ogun.ad} için ${yemekler.length} yemek Hive\'dan yüklendi');
@@ -235,23 +262,5 @@ class YemekHiveDataSource {
   // HELPER METODLAR
   // ========================================================================
 
-  /// OgunTipi enum'unu kategori string'ine çevir
-  String _ogunTipiToKategori(OgunTipi ogun) {
-    switch (ogun) {
-      case OgunTipi.kahvalti:
-        return 'Kahvaltı';
-      case OgunTipi.araOgun1:
-        return 'Ara Öğün 1';
-      case OgunTipi.ogle:
-        return 'Öğle Yemeği';  // ✅ FIX: 'Öğle' → 'Öğle Yemeği'
-      case OgunTipi.araOgun2:
-        return 'Ara Öğün 2';
-      case OgunTipi.aksam:
-        return 'Akşam Yemeği';  // ✅ FIX: 'Akşam' → 'Akşam Yemeği'
-      case OgunTipi.geceAtistirma:
-        return 'Gece Atıştırması';  // ✅ FIX: 'Gece Atıştırma' → 'Gece Atıştırması'
-      case OgunTipi.cheatMeal:
-        return 'Cheat Meal';
-    }
-  }
+  // NOT: _ogunTipiToKategori metodu artık OgunMappingUtil.datasetKeyFor() ile değiştirildi
 }

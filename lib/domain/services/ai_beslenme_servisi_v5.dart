@@ -386,7 +386,15 @@ class AIBeslenmeServisiV5 {
     }
 
     final olcek = hedefKalori / bazYemek.kalori;
-    final guvenliOlcek = olcek.clamp(0.9, 1.1);
+    
+    // 🔥 DİNAMİK ÖLÇEK ARALIĞI - FALLBACK SORUNU ÇÖZÜMÜ
+    // Ana öğünlerde daha geniş: 0.6-1.8, Ara öğünlerde: 0.8-1.6
+    final isAraOgun = [OgunTipi.araOgun1, OgunTipi.araOgun2, OgunTipi.geceAtistirma].contains(ogunTipi);
+    final minFactor = isAraOgun ? 0.8 : 0.6;
+    final maxFactor = isAraOgun ? 1.6 : 1.8;
+    final guvenliOlcek = olcek.clamp(minFactor, maxFactor);
+    
+    AppLogger.info('📏 ÖLÇEK HESAPLAMA: ${ogunTipi.name} - İstenilen: ${olcek.toStringAsFixed(2)} → Güvenli: ${guvenliOlcek.toStringAsFixed(2)} (${minFactor}-${maxFactor})');
 
     final List<String> yeniMalzemeler = [];
 
@@ -577,7 +585,11 @@ class AIBeslenmeServisiV5 {
     final skorluYemekler = <_SkorluYemek>[];
     for (final yemek in filtrelenmisYemekler) {
       final olcek = hedefKalori / (yemek.kalori > 0 ? yemek.kalori : hedefKalori);
-      final guvenliOlcek = olcek.clamp(0.9, 1.1);
+      
+      // 🔥 DİNAMİK SKORLAMA ÖLÇEĞI - Seçim aşamasında da aynı aralıkları kullan
+      final minFactor = isAraOgun ? 0.8 : 0.6;
+      final maxFactor = isAraOgun ? 1.6 : 1.8;
+      final guvenliOlcek = olcek.clamp(minFactor, maxFactor);
       
       final pFark = ((yemek.protein * guvenliOlcek - hedefProtein) / (hedefProtein > 0 ? hedefProtein : 1)).abs() * 100;
       final cFark = ((yemek.karbonhidrat * guvenliOlcek - hedefKarb) / (hedefKarb > 0 ? hedefKarb : 1)).abs() * 100;

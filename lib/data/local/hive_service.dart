@@ -3,9 +3,7 @@
 // GELIŞMIŞ HIVE LOCAL STORAGE SERVICE (YEMEK DESTEKLİ)
 // ============================================================================
 
-import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:hive_flutter/hive_flutter.dart';
-import 'package:path_provider/path_provider.dart';
+import 'package:hive/hive.dart';
 import 'dart:io';
 import '../models/kullanici_hive_model.dart';
 import '../models/gunluk_plan_hive_model.dart';
@@ -34,27 +32,8 @@ class HiveService {
   // ========================================================================
 
   /// Hive'ı başlat ve tüm box'ları aç
-  static Future<void> init({String? path, bool isTest = false}) async {
+  static Future<void> init({bool isTest = false}) async {
     try {
-      // 🔥 PLATFORMA ÖZEL BAŞLATMA (v3)
-      if (isTest) {
-        // Test ortamları için in-memory/geçici dizin.
-        // `path_provider`'a bağımlılığı ortadan kaldırır.
-        final tempDir = await Directory.systemTemp.createTemp('zindeai_hive_test');
-        Hive.init(tempDir.path);
-        AppLogger.info('🧪 Hive test modunda başlatıldı: ${tempDir.path}');
-      } else if (path != null) {
-        // Manuel yol sağlandı (eski yöntem, hala destekleniyor).
-        Hive.init(path);
-      } else if (kIsWeb) {
-        // Web platformu için.
-        await Hive.initFlutter();
-      } else {
-        // Mobil/Desktop platformları için.
-        final appDocumentDir = await getApplicationDocumentsDirectory();
-        Hive.init(appDocumentDir.path);
-      }
-
       // Adapter'ları kaydet
       if (!Hive.isAdapterRegistered(KullaniciHiveModelAdapter().typeId)) {
         Hive.registerAdapter(KullaniciHiveModelAdapter());
@@ -62,7 +41,8 @@ class HiveService {
       if (!Hive.isAdapterRegistered(GunlukPlanHiveModelAdapter().typeId)) {
         Hive.registerAdapter(GunlukPlanHiveModelAdapter());
       }
-      if (!Hive.isAdapterRegistered(TamamlananAntrenmanHiveModelAdapter().typeId)) {
+      if (!Hive.isAdapterRegistered(
+          TamamlananAntrenmanHiveModelAdapter().typeId)) {
         Hive.registerAdapter(TamamlananAntrenmanHiveModelAdapter());
       }
       if (!Hive.isAdapterRegistered(YemekHiveModelAdapter().typeId)) {
@@ -78,10 +58,13 @@ class HiveService {
       await Hive.openBox(_yemekOnayBox); // Yemek onayları için
       await Hive.openBox(_raporBox); // Rapor verileri için
 
-      // Cesitlilik gecmis servisi baslat
-      await CesitlilikGecmisServisi.init();
+      // 🔥 KRİTİK TEST FIX: Test modunda platforma bağımlı servisleri başlatma!
+      if (!isTest) {
+        // Cesitlilik gecmis servisi baslat
+        await CesitlilikGecmisServisi.init();
+      }
 
-      AppLogger.info('✅ Hive başarıyla başlatıldı');
+      AppLogger.info('✅ Hive başarıyla başlatıldı (Boxlar ve Adaptörler)');
     } catch (e, stackTrace) {
       AppLogger.error('❌ Hive başlatma hatası',
           error: e, stackTrace: stackTrace);
@@ -108,7 +91,23 @@ class HiveService {
 
       final key = yemek.mealId!; // Artık kesinlikle null değil
 
-      await box.put(key, yemek);
+      // 🔥 DUPLICATE ID VERİ EZİLMESİ ÖNLEME - 905 adet duplicate fix!
+      if (box.containsKey(key)) {
+        // Aynı ID zaten var → deterministik yeni ID üret (isim+makro hash'i)
+        final suffix = YemekHiveModel.generateHashSuffix(
+          yemek.mealName ?? '',
+          yemek.calorie ?? 0,
+          yemek.proteinG ?? 0,
+          yemek.carbG ?? 0,
+          yemek.fatG ?? 0,
+        );
+        final newKey = '${key}_$suffix';
+        yemek.mealId = newKey;
+        await box.put(newKey, yemek);
+        // AppLogger.debug('🔧 DUPLICATE ID FIX: $key → $newKey');
+      } else {
+        await box.put(key, yemek);
+      }
       // Log removed - spam önleme (migration sırasında binlerce kez çağrılıyor)
     } catch (e, stackTrace) {
       AppLogger.error('❌ Yemek kaydetme hatası',
@@ -424,26 +423,31 @@ class HiveService {
   static Future<void> kullaniciKaydet(KullaniciProfili profil) async {
     try {
       AppLogger.info('--- KULLANICI KAYDETME İŞLEMİ BAŞLADI ---');
-      AppLogger.debug('Gelen profil: ${profil.ad}, Hedef: ${profil.hedef.aciklama}');
-      
+      AppLogger.debug(
+          'Gelen profil: ${profil.ad}, Hedef: ${profil.hedef.aciklama}');
+
       final box = Hive.box<KullaniciHiveModel>(_kullaniciBox);
       AppLogger.debug('Kullanıcı kutusu açıldı. Path: ${box.path}');
 
       final model = KullaniciHiveModel.fromEntity(profil);
-      AppLogger.debug('KullaniciHiveModel oluşturuldu: ${model.ad}, Hedef: ${model.hedef}');
+      AppLogger.debug(
+          'KullaniciHiveModel oluşturuldu: ${model.ad}, Hedef: ${model.hedef}');
 
       await box.put('aktif_kullanici', model);
-      AppLogger.info('✅ "aktif_kullanici" anahtarıyla box.put() işlemi tamamlandı.');
+      AppLogger.info(
+          '✅ "aktif_kullanici" anahtarıyla box.put() işlemi tamamlandı.');
 
       // Doğrulama adımı
       final kaydedilenModel = box.get('aktif_kullanici');
       if (kaydedilenModel != null) {
-        AppLogger.success('✅ DOĞRULAMA BAŞARILI: Kullanıcı verisi Hive\'a yazıldı ve geri okundu.');
-        AppLogger.debug('Okunan veri: ${kaydedilenModel.ad}, Hedef: ${kaydedilenModel.hedef}');
+        AppLogger.success(
+            '✅ DOĞRULAMA BAŞARILI: Kullanıcı verisi Hive\'a yazıldı ve geri okundu.');
+        AppLogger.debug(
+            'Okunan veri: ${kaydedilenModel.ad}, Hedef: ${kaydedilenModel.hedef}');
       } else {
-        AppLogger.error('❌ DOĞRULAMA BAŞARISIZ: Veri Hive\'a yazıldıktan sonra okunamadı!');
+        AppLogger.error(
+            '❌ DOĞRULAMA BAŞARISIZ: Veri Hive\'a yazıldıktan sonra okunamadı!');
       }
-
     } catch (e, stackTrace) {
       AppLogger.error('❌ Kullanıcı kaydetme hatası',
           error: e, stackTrace: stackTrace);

@@ -86,17 +86,17 @@ class GunlukPlan extends Equatable {
   // 🎯 MAKRO TOLERANS KONTROLÜ (Diyetisyen Standartları)
   // ========================================================================
 
-  /// 🔥 Kalori için tolerans limiti (%15) - DİYETİSYEN STANDARDI
-  static const double kaloriToleransYuzdesi = 15.0;
+  /// 🔥 Kalori için tolerans limiti (%12) - UNİFORM STANDARD
+  static const double kaloriToleransYuzdesi = 12.0;
 
-  /// 🔥 Protein için tolerans limiti (%15) - DİYETİSYEN STANDARDI
-  static const double proteinToleransYuzdesi = 15.0;
+  /// 🔥 Protein için tolerans limiti (%12) - UNİFORM STANDARD
+  static const double proteinToleransYuzdesi = 12.0;
 
-  /// 🔥 Karbonhidrat için tolerans limiti (%15) - DİYETİSYEN STANDARDI
-  static const double karbonhidratToleransYuzdesi = 15.0;
+  /// 🔥 Karbonhidrat için tolerans limiti (%12) - UNİFORM STANDARD
+  static const double karbonhidratToleransYuzdesi = 12.0;
 
-  /// 🔥 Yağ için tolerans limiti (%15) - DİYETİSYEN STANDARDI
-  static const double yagToleransYuzdesi = 15.0;
+  /// 🔥 Yağ için tolerans limiti (%12) - UNİFORM STANDARD
+  static const double yagToleransYuzdesi = 12.0;
 
   /// Kalori tolerans içinde mi?
   bool get kaloriToleranstaMi {
